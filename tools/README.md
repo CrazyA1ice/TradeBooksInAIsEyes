@@ -54,3 +54,9 @@
 - `audit_chanlun_lesson046_day_prefix.py`：八根日内K线标签的合成前视限制检查。
 - `audit_chanlun_lesson049_objectives.py`：资金占用时间与期末财富排序可能不同的纯合成审计。
 - `audit_chanlun_lesson050_resampling.py`：EMA先滤波或先重采样的数值差异示例。
+
+- `survey_chanlun_lessons051_055.py`：第三卷p.117–205的SHA锁定页级来源与有限原文读取。
+- `verify_chanlun_lessons051_055.py`：35条证据、卷号页码、2009后附来源及跨课概念图谱验收。
+- `audit_chanlun_lesson053_editorial_provenance.py`：真实PDF第53课p.162与2009后附讨论的时间边界核验。
+- `audit_chanlun_lesson054_connections.py`：两个同级别中枢间需有次级别连接段的合成必要条件检查。
+- `audit_chanlun_lesson055_ledger.py`：分批建仓与卖出的现金股份守恒合成账本，无真实订单。
