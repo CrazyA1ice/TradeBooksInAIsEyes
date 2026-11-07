@@ -1,0 +1,42 @@
+name: Chanlun lessons 41–45 dual-volume research verification
+on:
+  push:
+    branches: [feat/chanlun-lessons041-045-crossvolume-20261107]
+    paths:
+      - ".github/workflows/chanlun-lessons041-045-audit.yml"
+      - "catalog/chanlun_lessons041_045_source_layers.json"
+      - "knowledge/evidence/chanlun_lesson*.json"
+      - "knowledge/claims/chanlun_early_core_dependencies.json"
+      - "tools/verify_chanlun_lessons041_045.py"
+      - "tools/audit_chanlun_lesson044_logic.py"
+      - "tools/audit_chanlun_lesson045_wait_state.py"
+      - "tests/test_chanlun_lessons041_045.py"
+      - "tests/test_chanlun_lesson044_logic.py"
+      - "tests/test_chanlun_lesson045_wait_state.py"
+      - "analyses/books/chanlun/chapters/lesson_*.md"
+      - "analyses/books/chanlun/volumes/LESSONS_041_045_SYNTHESIS.md"
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Verify dual-volume source and evidence
+        run: python -B tools/verify_chanlun_lessons041_045.py
+      - name: Necessity and sufficiency mathematics
+        run: python -B tools/audit_chanlun_lesson044_logic.py
+      - name: Hold-stock/cash waiting model
+        run: python -B tools/audit_chanlun_lesson045_wait_state.py
+      - name: Source evidence mutation tests
+        run: python -B -m unittest discover -s tests -p "test_chanlun_lessons041_045.py" -v
+      - name: Necessary versus sufficient logic tests
+        run: python -B -m unittest discover -s tests -p "test_chanlun_lesson044_logic.py" -v
+      - name: Waiting state machine tests
+        run: python -B -m unittest discover -s tests -p "test_chanlun_lesson045_wait_state.py" -v

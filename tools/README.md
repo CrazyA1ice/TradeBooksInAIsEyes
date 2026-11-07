@@ -43,3 +43,8 @@
 - `verify_chanlun_lessons036_040.py`：五课证据、图像缺口、编者修订和跨卷概念图依赖验收。
 - `audit_chanlun_lesson039_branches.py`：明确标记第39课原文未覆盖的比较分支，不生成订单。
 - `audit_chanlun_lesson040_inventory.py`：多级别仓位共享库存守恒的合成检查，无真实交易。
+
+- `survey_chanlun_lessons041_045.py`：跨第二、三卷的原始PDF SHA锁定和有限原文线索扫描。
+- `verify_chanlun_lessons041_045.py`：跨卷来源、35条主张与概念图谱的完整性检查。
+- `audit_chanlun_lesson044_logic.py`：第三类买卖点必要非充分条件的命题逻辑检查，无行情。
+- `audit_chanlun_lesson045_wait_state.py`：无交易状态及待确认/成交失败的合成状态机，无真实订单。

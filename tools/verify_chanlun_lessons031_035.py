@@ -46,12 +46,12 @@ def audit(index,source,items,reports,overview,graph,hashes):
     assert "113" in overview and "零成本" in overview and "结合律" in overview
     for n in range(31,36):assert f"lesson_{n:03d}.md" in overview
     # The dependency graph's chapter 17 node refers to volume 1; all others to volume 2.
-    assert graph["source_pdf_sha256_by_volume"]=={"1":hashes[1],"2":hashes[2]}
+    assert graph["source_pdf_sha256_by_volume"]=={"1":hashes[1],"2":hashes[2],"3":vols[3]["sha256"]}
     nodes={x["id"]:x for x in graph["nodes"]}
     assert len(nodes)==len(graph["nodes"]) and len(nodes)>=8
     for node in nodes.values():
         volno=node["source"]["volume"]
-        assert volno in (1,2)
+        assert volno in (1,2,3)
         assert node["source"]["pdf_pages"] and all(1<=p<=vols[volno]["pdf_page_count"] for p in node["source"]["pdf_pages"])
     for edge in graph["edges"]:
         assert edge["from"] in nodes and edge["to"] in nodes and edge["from"]!=edge["to"]

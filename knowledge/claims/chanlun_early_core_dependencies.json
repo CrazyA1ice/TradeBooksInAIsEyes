@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "Chanlun lessons 17–40 provisional, evidence-backed concept map; not an exhaustive 108-lesson proof",
+  "scope": "Chanlun lessons 17–45 provisional source-backed concept map, with editorial and AI edges separately labeled",
   "nodes": [
     {
       "id": "L17-CENTER",
@@ -152,6 +152,66 @@
         ]
       },
       "status": "ai_risk_qualification_of_original_multilevel_idea"
+    },
+    {
+      "id": "L41-LEVEL-DISCIPLINE",
+      "claim": "Small-level contrarian buy/sell signals may be overrun by non-exhausted higher-level trend",
+      "source": {
+        "volume": 2,
+        "pdf_pages": [
+          378,
+          379
+        ]
+      },
+      "status": "original_author_level_qualification"
+    },
+    {
+      "id": "L42-DECISION-REVIEW",
+      "claim": "Post-close review of trades and psychological decision process; not a medical diagnosis",
+      "source": {
+        "volume": 2,
+        "pdf_pages": [
+          392
+        ]
+      },
+      "status": "original_author_behavioral_recommendation"
+    },
+    {
+      "id": "L43-MULTISCALE-REVERSAL",
+      "claim": "Divergence level may equal or be smaller than current movement level and higher-level outcome is not predetermined",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          3,
+          5,
+          6
+        ]
+      },
+      "status": "original_author_multiscale_statement"
+    },
+    {
+      "id": "L44-NECESSARY-NOT-SUFFICIENT",
+      "claim": "Final lower-level center third-class sell/buy signal is necessary, not sufficient, for small divergence leading to larger reversal",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          17,
+          18
+        ]
+      },
+      "status": "explicit_original_author_logical_distinction"
+    },
+    {
+      "id": "L45-HOLD-WAIT",
+      "claim": "Hold stock or cash while observing unfinished movement; AI implementation adds tradeability and deadline constraints",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          28,
+          29
+        ]
+      },
+      "status": "original_author_holding_state_with_ai_risk_qualification"
     }
   ],
   "edges": [
@@ -226,6 +286,48 @@
       "to": "L17-CENTER",
       "type": "requires_same_level_trend_centers",
       "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L37-TREND-TYPECHECK",
+      "to": "L43-MULTISCALE-REVERSAL",
+      "type": "precondition_for_correct_divergence_label",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L43-MULTISCALE-REVERSAL",
+      "to": "L44-NECESSARY-NOT-SUFFICIENT",
+      "type": "refines_lower_to_higher_reversal_condition",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L41-LEVEL-DISCIPLINE",
+      "to": "L44-NECESSARY-NOT-SUFFICIENT",
+      "type": "highlights_small_signal_not_high_level_certainty",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L40-SHARED-INVENTORY",
+      "to": "L45-HOLD-WAIT",
+      "type": "shared_stock_cash_constraint_for_waiting",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L26-DOMAIN",
+      "to": "L45-HOLD-WAIT",
+      "type": "trading_continuity_and_capital_deadline_constraints",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L32-CONTEMPORANEOUS",
+      "to": "L45-HOLD-WAIT",
+      "type": "waiting_until_confirmed_structure",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L42-DECISION-REVIEW",
+      "to": "L41-LEVEL-DISCIPLINE",
+      "type": "behavioral_review_may_support_rule_adherence",
+      "certainty": "ai_analysis"
     }
   ],
   "constraints": [
@@ -235,6 +337,7 @@
   ],
   "source_pdf_sha256_by_volume": {
     "1": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
-    "2": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66"
+    "2": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+    "3": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a"
   }
 }

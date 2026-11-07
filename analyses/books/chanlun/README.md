@@ -76,3 +76,11 @@
 [同级别分解、背驰条件与多重赋格综述](volumes/LESSONS_036_040_SYNTHESIS.md) · [第39课规则遗漏审计](../../../experiments/protocols/chanlun_lesson039_branch_coverage_audit.md) · [第40课多级别库存审计](../../../experiments/protocols/chanlun_lesson040_multilevel_inventory_audit.md)。
 
 第二卷 p.305–377 共73页，包含图表和后续编者内容。本轮为首轮文本研究与合成测试，不代表已完成所有图像或真实市场回测。
+
+## 第九批成果：第 41–45 课（跨第二、第三卷）
+
+[第41课](chapters/lesson_041.md) · [第42课](chapters/lesson_042.md) · [第43课](chapters/lesson_043.md) · [第44课](chapters/lesson_044.md) · [第45课](chapters/lesson_045.md)
+
+[跨课综述：必要非充分和等待状态](volumes/LESSONS_041_045_SYNTHESIS.md) · [第44课必要条件数学审计](../../../experiments/protocols/chanlun_lesson044_necessary_not_sufficient.md) · [第45课持仓等待状态机](../../../experiments/protocols/chanlun_lesson045_hold_wait_state_machine.md)
+
+第二卷 p.378–406、第三卷 p.3–48 合计75页，包含后附资料及图像。所有项目均为首轮文本研究；缺少可靠图像审查和真实行情回测。

@@ -43,14 +43,14 @@ def audit(index,inventory,claims,reports,overview,graph,sha_by_volume):
         if n==40:assert "现金" in md and "库存" in md
     assert "73" in overview and "唯一性" in overview and "编者" in overview
     for n in range(36,41):assert f"lesson_{n:03d}.md" in overview
-    assert graph["source_pdf_sha256_by_volume"]=={str(k):v for k,v in sha_by_volume.items()}
+    assert graph["source_pdf_sha256_by_volume"]=={"1":sha_by_volume[1],"2":sha_by_volume[2],"3":index["volumes"][2]["sha256"]}
     nodes={node["id"]:node for node in graph["nodes"]}
     assert len(nodes)==len(graph["nodes"]) and len(nodes)>=13
     for id in ("L36-MULTIPARSE","L37-TREND-TYPECHECK","L38-FIXED-LEVEL","L39-MISSING-BRANCH","L40-SHARED-INVENTORY"):
         assert id in nodes
     for node in nodes.values():
         vol=node["source"]["volume"]
-        assert vol in (1,2) and node["source"]["pdf_pages"]
+        assert vol in (1,2,3) and node["source"]["pdf_pages"]
         assert all(1<=p<=index["volumes"][vol-1]["pdf_page_count"] for p in node["source"]["pdf_pages"])
     for edge in graph["edges"]:
         assert edge["from"] in nodes and edge["to"] in nodes and edge["from"]!=edge["to"]
