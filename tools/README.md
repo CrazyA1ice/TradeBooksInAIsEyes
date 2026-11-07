@@ -65,3 +65,8 @@
 - `verify_chanlun_lessons056_060.py`：72页来源、35条证据及实际缩略图审查范围验证。
 - `audit_chanlun_056_058_timing.py`：虚构隔夜跳空与未完成背驰的前视确认/成交约束。
 - `audit_chanlun_lesson059_precision.py`：原文3994.57和3994.21在截断、四舍五入及分位精度下的独立Decimal算术检查。
+
+- `survey_chanlun_lessons061_065.py`：第三卷p.278–373 SHA锁定原PDF、限定文本片段和8页图像预览。
+- `verify_chanlun_lessons061_065.py`：96页来源、6页原始PDF日期与规则文字核验、35条证据和概念图谱审计。
+- `audit_chanlun_lessons062_065_containment.py`：依UP/DOWN定向K线包含归并和三bar分型确认的局部合成验证。
+- `audit_chanlun_lesson064_tolerance.py`：0.5点近似关系不传递的Decimal精度测试。

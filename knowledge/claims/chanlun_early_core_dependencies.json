@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "Chanlun lessons 17–60 source-backed conceptual dependency graph, distinct original/editorial/AI hypotheses; not complete proof",
+  "scope": "Chanlun lessons 17–65 conceptual dependencies; source, editorial versions, synthetic AI tests and real trading evidence kept distinct",
   "nodes": [
     {
       "id": "L17-CENTER",
@@ -405,6 +405,78 @@
         ]
       },
       "status": "original_author_shock_scale_with_ai_risk_qualification"
+    },
+    {
+      "id": "L61-DATE-STRATA",
+      "claim": "Vol3 lesson61 header is dated 2010-08-13 yet internal source contains distinct 2007-06-22/27 dated commentary",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          278,
+          279,
+          281
+        ]
+      },
+      "status": "source_provenance_heterogeneous"
+    },
+    {
+      "id": "L62-FRACTAL-PEN",
+      "claim": "Three-K-line fractals and pen/segment structure are built from cleaned non-containing bars with minimum interval requirements",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          292,
+          293,
+          294
+        ]
+      },
+      "status": "original_author_2007_definition"
+    },
+    {
+      "id": "L62-REVISED-PEN",
+      "claim": "The phrase 新笔定义 appears following the original explanation; provenance and revised rule must be versioned separately",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          295
+        ]
+      },
+      "status": "appended_rule_version_provenance_unresolved"
+    },
+    {
+      "id": "L63-OBSERVATION-SCALE",
+      "claim": "Data bar sampling frequency is not automatically equal to the level of the observed recursive center or movement",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          303,
+          304
+        ]
+      },
+      "status": "original_author_distinction"
+    },
+    {
+      "id": "L64-TOLERANCE",
+      "claim": "A price comparison tolerance and integer policy must remain fixed; proximity is not transitive",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          311
+        ]
+      },
+      "status": "original_author_consistency_with_ai_numeric_counterexample"
+    },
+    {
+      "id": "L65-ORDERED-CONTAINMENT",
+      "claim": "K-line containment is not transitive; the operator must merge successive bars in order and track original sources",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          347,
+          348
+        ]
+      },
+      "status": "original_author_mathematical_condition"
     }
   ],
   "edges": [
@@ -676,6 +748,54 @@
       "from": "L60-SHOCK-SCALE",
       "to": "L56-GAP-ASOF",
       "type": "news_shock_may_require_late_exit_candidate",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L61-DATE-STRATA",
+      "to": "L53-LATER-2009-INSERT",
+      "type": "both_require_explicit_original_vs_compiled_provenance",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L62-FRACTAL-PEN",
+      "to": "L65-ORDERED-CONTAINMENT",
+      "type": "subsequent_explicit_ordered_merge_rule",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L62-REVISED-PEN",
+      "to": "L62-FRACTAL-PEN",
+      "type": "different_rules_must_not_be_silently_overwritten",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L63-OBSERVATION-SCALE",
+      "to": "L50-MACD-PROXY",
+      "type": "indicator_bar_frequency_and_structural_level_are_distinct",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L64-TOLERANCE",
+      "to": "L59-PRICE-QUANTIZATION",
+      "type": "precision_policy_includes_numeric_comparison_boundary",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L65-ORDERED-CONTAINMENT",
+      "to": "L54-LEGAL-GROUPING",
+      "type": "low_level_grammar_required_before_valid_high_level_groupings",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L65-ORDERED-CONTAINMENT",
+      "to": "L57-SEGMENT-THRESHOLD",
+      "type": "definition_version_affects_micro_segment_identification",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L62-FRACTAL-PEN",
+      "to": "L58-PENDING-REVERSAL",
+      "type": "three_completed_bars_needed_before_confirmed_fractal",
       "certainty": "ai_analysis"
     }
   ],

@@ -108,3 +108,11 @@
 [五课综合](volumes/LESSONS_056_060_SYNTHESIS.md) · [原PDF图文核查](../../../reports/source_inventory/chanlun_lessons056_060_visual_and_source_audit.md) · [缺口/背驰确认时钟](../../../experiments/protocols/chanlun_lessons056_058_gap_pending_audit.md) · [3994.57对3994.21的量化审计](../../../experiments/protocols/chanlun_lesson059_price_quantization_audit.md)。
 
 第三卷p.206–277共72页，SHA来源核对。已渲染并目视检查5页原书缩略图；细小图例价位仍未独立确认，所有真实交易假说未回测。
+
+## 第十三批：第61–65课（包含关系、分型及笔定义版本）
+
+[61课](chapters/lesson_061.md) · [62课](chapters/lesson_062.md) · [63课](chapters/lesson_063.md) · [64课](chapters/lesson_064.md) · [65课](chapters/lesson_065.md)
+
+[五课来源和逻辑综合](volumes/LESSONS_061_065_SYNTHESIS.md) · [96页及8页视觉预览来源报告](../../../reports/source_inventory/chanlun_lessons061_065_source_and_figure_review.md) · [有序K线包含局部审计](../../../experiments/protocols/chanlun_lessons062_065_online_containment.md) · [0.5点容差非传递检查](../../../experiments/protocols/chanlun_lesson064_tolerance_nontransitive.md)。
+
+特别注意：第61课开头2010日期与编入的2007行情不同；第62课p.295“新笔定义”暂列后附修订版候选，不能覆盖2007原文。局部合成代码还不是完整走势解析器。图内小字和行情价位未可靠核验。

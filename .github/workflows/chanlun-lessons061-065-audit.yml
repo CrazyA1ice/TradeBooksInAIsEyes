@@ -1,0 +1,36 @@
+name: Chanlun lessons 61–65 source dates, ordered containment and tolerance audits
+on:
+  push:
+    branches: [feat/chanlun-lessons061-065-source-and-parser-20261107]
+    paths:
+      - ".github/workflows/chanlun-lessons061-065-audit.yml"
+      - "catalog/chanlun_lessons061_065_source_layers.json"
+      - "knowledge/evidence/chanlun_lesson*.json"
+      - "knowledge/claims/chanlun_early_core_dependencies.json"
+      - "tools/verify_chanlun_lessons061_065.py"
+      - "tools/audit_chanlun_lessons062_065_containment.py"
+      - "tools/audit_chanlun_lesson064_tolerance.py"
+      - "tests/test_chanlun_lessons061_065.py"
+      - "tests/test_chanlun_lessons062_065_containment.py"
+      - "tests/test_chanlun_lesson064_tolerance.py"
+      - "analyses/books/chanlun/chapters/lesson_*.md"
+      - "analyses/books/chanlun/volumes/LESSONS_061_065_SYNTHESIS.md"
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: python -m pip install --disable-pip-version-check pymupdf==1.26.7
+      - run: python -B tools/verify_chanlun_lessons061_065.py
+      - run: python -B tools/audit_chanlun_lessons062_065_containment.py
+      - run: python -B tools/audit_chanlun_lesson064_tolerance.py
+      - run: python -B -m unittest discover -s tests -p "test_chanlun_lessons061_065.py" -v
+      - run: python -B -m unittest discover -s tests -p "test_chanlun_lessons062_065_containment.py" -v
+      - run: python -B -m unittest discover -s tests -p "test_chanlun_lesson064_tolerance.py" -v
