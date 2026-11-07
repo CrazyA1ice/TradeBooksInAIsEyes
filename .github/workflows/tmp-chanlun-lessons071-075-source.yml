@@ -1,0 +1,17 @@
+name: Temporary source and figure survey Chanlun lessons 71–75
+on:
+  push:
+    branches: [feat/chanlun-lessons071-075-source-versions-20261107]
+    paths: [".github/workflows/tmp-chanlun-lessons071-075-source.yml", "tools/survey_chanlun_lessons071_075.py"]
+permissions:
+  contents: read
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: python -m pip install --disable-pip-version-check pymupdf==1.26.7 pillow
+      - run: python -B tools/survey_chanlun_lessons071_075.py
