@@ -60,3 +60,8 @@
 - `audit_chanlun_lesson053_editorial_provenance.py`：真实PDF第53课p.162与2009后附讨论的时间边界核验。
 - `audit_chanlun_lesson054_connections.py`：两个同级别中枢间需有次级别连接段的合成必要条件检查。
 - `audit_chanlun_lesson055_ledger.py`：分批建仓与卖出的现金股份守恒合成账本，无真实订单。
+
+- `survey_chanlun_lessons056_060.py`：第三卷p.206–277SHA锁定、文本限定片段、五页PDF渲染（运行时不修改原PDF）。
+- `verify_chanlun_lessons056_060.py`：72页来源、35条证据及实际缩略图审查范围验证。
+- `audit_chanlun_056_058_timing.py`：虚构隔夜跳空与未完成背驰的前视确认/成交约束。
+- `audit_chanlun_lesson059_precision.py`：原文3994.57和3994.21在截断、四舍五入及分位精度下的独立Decimal算术检查。

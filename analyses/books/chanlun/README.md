@@ -100,3 +100,11 @@
 [五课来源版本与中枢语法综合](volumes/LESSONS_051_055_SYNTHESIS.md) · [第53课2009后附讨论时间戳审计](../../../experiments/protocols/chanlun_lesson053_editorial_boundary_audit.md) · [第54课同级别连接审计](../../../experiments/protocols/chanlun_lesson054_connection_grammar_audit.md) · [第55课现金股份账本](../../../experiments/protocols/chanlun_lesson055_cash_share_ledger.md)。
 
 第三卷p.117–205共89页（含图片、后附材料）。特别注意第53课p.162后半插入了2009材料，星号分隔在p.165，不能作为作者2007正文唯一界限。所有图示数值与作者利润断言未经独立核验。
+
+## 第十二批成果：第56–60课（5·30及其后续图解）
+
+[第56课](chapters/lesson_056.md) · [第57课](chapters/lesson_057.md) · [第58课](chapters/lesson_058.md) · [第59课](chapters/lesson_059.md) · [第60课](chapters/lesson_060.md)
+
+[五课综合](volumes/LESSONS_056_060_SYNTHESIS.md) · [原PDF图文核查](../../../reports/source_inventory/chanlun_lessons056_060_visual_and_source_audit.md) · [缺口/背驰确认时钟](../../../experiments/protocols/chanlun_lessons056_058_gap_pending_audit.md) · [3994.57对3994.21的量化审计](../../../experiments/protocols/chanlun_lesson059_price_quantization_audit.md)。
+
+第三卷p.206–277共72页，SHA来源核对。已渲染并目视检查5页原书缩略图；细小图例价位仍未独立确认，所有真实交易假说未回测。
