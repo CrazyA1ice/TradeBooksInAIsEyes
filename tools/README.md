@@ -76,3 +76,9 @@
 - `audit_chanlun_lesson067_feature_gap.py`：特征序列分型局部双情形、缺口等待反向分型。
 - `audit_chanlun_lesson068_boundary_policy.py`：事前冻结的价格三段边界，拒绝未来阈值和无效价格。
 - `audit_chanlun_lessons069_070_events.py`：月线候选版本追加式日志与中枢未来分类事件。
+
+- `survey_chanlun_lessons071_075.py`：第四卷p.71–142 SHA固定来源、有限原文与10页压缩PDF预览。
+- `verify_chanlun_lessons071_075.py`：72页SHA、35条主张、8处原文定位、6页实际目视范围和兼容概念图谱审计。
+- `audit_chanlun_lesson071_typed_membership.py`：特征序列同一严格成员资格和简化三笔确认的纯合成门。
+- `audit_chanlun_lessons073_074_exposure.py`：剩余股票市值、合成宏观/行业影响和不可成交隔夜缺口。
+- `audit_chanlun_lessons072_075_attribution.py`：区分原著、编注、独立日期解盘和未验证轶事的标签。
