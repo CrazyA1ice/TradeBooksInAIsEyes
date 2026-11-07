@@ -100,7 +100,7 @@ def main() -> None:
             "path": item["path"], "embedded": item["embedded_toc_preview"][:30],
             "candidates": item["heading_candidates_first_pages"][:30],
             "sample": item["first_text_previews"][:3]}, ensure_ascii=False), flush=True)
-    print("LESSONS " + json.dumps({"path": item["path"], "lessons": item["lesson_starts"]}, ensure_ascii=False), flush=True)
+        print("LESSONS " + json.dumps({"path": item["path"], "lessons": item["lesson_starts"]}, ensure_ascii=False), flush=True)
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f'INVENTORY_DONE volumes={len(report["volumes"])} path={args.out}', flush=True)

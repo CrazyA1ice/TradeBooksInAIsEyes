@@ -45,7 +45,8 @@ class ChanlunInventoryTests(unittest.TestCase):
             self.assertEqual(len(report["volumes"]), 5)
             self.assertTrue(all(v["page_count"] == 1 for v in report["volumes"]))
             self.assertTrue(all(v["native_text_pages_100plus_chars"] == 1 for v in report["volumes"]))
-            self.assertTrue(all("OUTLINE" in result.stdout for _ in [1]))
+            self.assertEqual(result.stdout.count("INVENTORY {"), 5)
+            self.assertEqual(result.stdout.count("LESSONS {"), 5)
             for n in range(1, 6):
                 self.assertEqual(before[n], hashlib.sha256((source / f"缠论_卷{n}.pdf").read_bytes()).hexdigest())
 
