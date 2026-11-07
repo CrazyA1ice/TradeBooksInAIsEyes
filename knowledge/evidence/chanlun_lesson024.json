@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-L024-FIRSTPASS-20261107",
+  "status": "source_text_and_bounded_excerpt_reviewed_images_unverified",
+  "source": {
+    "volume": 2,
+    "path": "ChineseBooks/缠论/缠论_卷2.pdf",
+    "sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+    "lesson_number": 24,
+    "author_date": "2007-01-18 15:02:43",
+    "pdf_pages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "first_dialogue_candidate": 9
+  },
+  "page_audit": {
+    "pages": 30,
+    "native_characters": 14828,
+    "image_pages": [
+      5,
+      7,
+      8,
+      10,
+      11,
+      13,
+      14,
+      15,
+      19,
+      21,
+      24,
+      26,
+      31
+    ],
+    "low_text_pages": [
+      5,
+      7,
+      10,
+      13,
+      14,
+      15,
+      19,
+      21,
+      24,
+      26,
+      31
+    ],
+    "source_actions_run": 42371836598
+  },
+  "claims": [
+    {
+      "id": "CL024-S01",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        3
+      ],
+      "summary": "作者将 MACD 作为背驰的辅助观察工具，并强调走势级别。"
+    },
+    {
+      "id": "CL024-S02",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        3,
+        4
+      ],
+      "summary": "作者提出 A、B、C 分段与柱体面积对比逻辑。"
+    },
+    {
+      "id": "CL024-S03",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        4
+      ],
+      "summary": "作者提出可用部分 C 段已形成面积乘二估计整体的经验办法。"
+    },
+    {
+      "id": "CL024-S04",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        6,
+        9
+      ],
+      "summary": "作者区分趋势背驰与盘整背驰并描述不同后续走势。"
+    },
+    {
+      "id": "CL024-I05",
+      "kind": "INTERPRETATION",
+      "volume": 2,
+      "pdf_pages": [
+        3,
+        9
+      ],
+      "summary": "MACD 是中枢分析的辅助指标而不是结构真值。"
+    },
+    {
+      "id": "CL024-I06",
+      "kind": "INFERENCE",
+      "volume": 2,
+      "pdf_pages": [
+        4
+      ],
+      "summary": "未完成 C 段的最终面积不能由部分面积乘二必然推知。"
+    },
+    {
+      "id": "CL024-H07",
+      "kind": "HYPOTHESIS",
+      "volume": 2,
+      "pdf_pages": [
+        3,
+        4
+      ],
+      "summary": "MACD 柱面积即时预测及背驰识别效力需样本外检验。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "Author's original article and later appended text are mixed in the compiled PDF.",
+    "All figure readings remain pending reliable visual review.",
+    "Synthetic logical audit is not empirical support for real trading advantages."
+  ]
+}
