@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "Chanlun lessons 17–55 provisional versioned concept graph, original/editorial/AI provenance separated; not an empirical strategy proof",
+  "scope": "Chanlun lessons 17–60 source-backed conceptual dependency graph, distinct original/editorial/AI hypotheses; not complete proof",
   "nodes": [
     {
       "id": "L17-CENTER",
@@ -347,6 +347,64 @@
         ]
       },
       "status": "original_argument_with_ai_ledger_qualification"
+    },
+    {
+      "id": "L56-GAP-ASOF",
+      "claim": "Overnight 5·30 shock can render an earlier ideal first sell unexecutable; later second or third sell requires current confirmation",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          206,
+          208
+        ]
+      },
+      "status": "original_author_case_with_ai_execution_boundary"
+    },
+    {
+      "id": "L57-SEGMENT-THRESHOLD",
+      "claim": "Micro-retracement detection threshold may vary, but comparable cases must use one fixed segmentation policy",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          219,
+          220
+        ]
+      },
+      "status": "original_author_consistency_condition"
+    },
+    {
+      "id": "L58-PENDING-REVERSAL",
+      "claim": "A possible divergence leg can be invalidated by later acceleration, so prediction cannot be marked confirmed",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          231
+        ]
+      },
+      "status": "original_author_explicit_uncertainty"
+    },
+    {
+      "id": "L59-PRICE-QUANTIZATION",
+      "claim": "Author's 3994.57 versus 3994.21 comparison depends on prior precision; truncation and half-up integer rounding disagree",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          257
+        ]
+      },
+      "status": "original_precision_example_with_ai_decimal_method_distinction"
+    },
+    {
+      "id": "L60-SHOCK-SCALE",
+      "claim": "Unexpected news is assessed by the level of structural disruption but does not remove portfolio price or gap risk",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          267,
+          269
+        ]
+      },
+      "status": "original_author_shock_scale_with_ai_risk_qualification"
     }
   ],
   "edges": [
@@ -564,6 +622,60 @@
       "from": "L55-BUY-SELL-ASYMMETRY",
       "to": "L40-SHARED-INVENTORY",
       "type": "cash_share_conservation_during_level_switching",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L56-GAP-ASOF",
+      "to": "L44-NECESSARY-NOT-SUFFICIENT",
+      "type": "a_signal_pattern_does_not_guarantee_larger_reversal_or_execution",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L56-GAP-ASOF",
+      "to": "L47-CASE-EXECUTION",
+      "type": "historical_timestamp_and_execution_constraints",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L57-SEGMENT-THRESHOLD",
+      "to": "L54-LEGAL-GROUPING",
+      "type": "segmentation_threshold_precedes_valid_grouping",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L58-PENDING-REVERSAL",
+      "to": "L45-HOLD-WAIT",
+      "type": "pending_signal_should_not_force_trade",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L58-PENDING-REVERSAL",
+      "to": "L37-TREND-TYPECHECK",
+      "type": "divergence_requires_confirmed_trend_structure",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L59-PRICE-QUANTIZATION",
+      "to": "L57-SEGMENT-THRESHOLD",
+      "type": "precision_policy_changes_micro_segment_recognition",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L59-PRICE-QUANTIZATION",
+      "to": "L38-FIXED-LEVEL",
+      "type": "fixed_rule_must_include_numeric_quantization",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L60-SHOCK-SCALE",
+      "to": "L41-LEVEL-DISCIPLINE",
+      "type": "shock_response_varies_by_operation_level",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L60-SHOCK-SCALE",
+      "to": "L56-GAP-ASOF",
+      "type": "news_shock_may_require_late_exit_candidate",
       "certainty": "ai_analysis"
     }
   ],
