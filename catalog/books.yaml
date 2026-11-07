@@ -5,7 +5,7 @@ books:
   - id: BOOK-0001
     working_title: 缠论
     language: zh
-    status: pending_intake
+    status: native_text_screened
     edition: null
     author: null
     copyright_redistribution_status: unverified
@@ -13,16 +13,41 @@ books:
     volumes:
       - id: BOOK-0001-V1
         path: "ChineseBooks/缠论/缠论_卷1.pdf"
-        status: pending_parse
+        status: native_text_screened
+        page_count: 337
+        file_size_bytes: 6549393
+        sha256: "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865"
+        native_text_pages_100plus_chars: 281
+        pages_with_embedded_images: 65
       - id: BOOK-0001-V2
         path: "ChineseBooks/缠论/缠论_卷2.pdf"
-        status: pending_parse
+        status: native_text_screened
+        page_count: 406
+        file_size_bytes: 10431800
+        sha256: "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66"
+        native_text_pages_100plus_chars: 268
+        pages_with_embedded_images: 164
       - id: BOOK-0001-V3
         path: "ChineseBooks/缠论/缠论_卷3.pdf"
-        status: pending_parse
+        status: native_text_screened
+        page_count: 405
+        file_size_bytes: 8864461
+        sha256: "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a"
+        native_text_pages_100plus_chars: 308
+        pages_with_embedded_images: 137
       - id: BOOK-0001-V4
         path: "ChineseBooks/缠论/缠论_卷4.pdf"
-        status: pending_parse
+        status: native_text_screened
+        page_count: 407
+        file_size_bytes: 11296114
+        sha256: "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d"
+        native_text_pages_100plus_chars: 315
+        pages_with_embedded_images: 179
       - id: BOOK-0001-V5
         path: "ChineseBooks/缠论/缠论_卷5.pdf"
-        status: pending_parse
+        status: native_text_screened
+        page_count: 441
+        file_size_bytes: 10427135
+        sha256: "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65"
+        native_text_pages_100plus_chars: 354
+        pages_with_embedded_images: 193
