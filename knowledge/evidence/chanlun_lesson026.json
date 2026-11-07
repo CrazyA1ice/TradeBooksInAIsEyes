@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-V2-L026-FIRSTPASS-20261107",
+  "status": "first_pass_textual_images_unverified",
+  "source": {
+    "volume": 2,
+    "path": "ChineseBooks/缠论/缠论_卷2.pdf",
+    "sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+    "lesson_number": 26,
+    "title": "市场风险如何回避",
+    "original_article_date": "2007-01-30 15:09:57",
+    "pdf_pages": [
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90
+    ],
+    "appendix_boundary_candidate": 74
+  },
+  "quality": {
+    "page_count": 22,
+    "native_text_chars": 9699,
+    "image_pages": [
+      72,
+      73,
+      76,
+      77,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      89,
+      90
+    ],
+    "low_text_pages": [
+      72,
+      73,
+      76,
+      81,
+      82,
+      84,
+      85,
+      87,
+      89
+    ],
+    "source_run": 42373286283
+  },
+  "claims": [
+    {
+      "id": "CL026-S01",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        69
+      ],
+      "volume": 2,
+      "summary": "作者承认停交及已成交交易被否定会使理论适用前提失效。"
+    },
+    {
+      "id": "CL026-S02",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        70
+      ],
+      "volume": 2,
+      "summary": "作者指出交易资金期限约束本身是交易失败的重要原因。"
+    },
+    {
+      "id": "CL026-S03",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        70,
+        71
+      ],
+      "volume": 2,
+      "summary": "作者认为市场价格走势是纯技术风险判断的主要观察对象。"
+    },
+    {
+      "id": "CL026-I04",
+      "kind": "INTERPRETATION",
+      "pdf_pages": [
+        69,
+        70
+      ],
+      "volume": 2,
+      "summary": "理论在交易连续性和资本期限上有明确适用前提。"
+    },
+    {
+      "id": "CL026-I05",
+      "kind": "INFERENCE",
+      "pdf_pages": [
+        69,
+        70
+      ],
+      "volume": 2,
+      "summary": "历史价格可见并不确保所有未来风险事前已体现或订单总能执行。"
+    },
+    {
+      "id": "CL026-H06",
+      "kind": "HYPOTHESIS",
+      "pdf_pages": [
+        69,
+        70
+      ],
+      "volume": 2,
+      "summary": "执行中断和资金到期对交易收益与风险的影响需量化。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "PDF contains appendices and editor notes from potentially different times.",
+    "Images cannot be used as numerical evidence before visual verification.",
+    "Strong author claims are not empirical proof; AI reconstructions are explicitly separate."
+  ]
+}
