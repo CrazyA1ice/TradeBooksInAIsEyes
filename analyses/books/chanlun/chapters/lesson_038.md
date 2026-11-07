@@ -35,4 +35,4 @@
 
 - 本课总 15 页（含后附编纂材料及图像），含图页 6，低原生文字页 6。首次附录分隔：341。
 - 图片中指标数值、精确买卖点和历史收益**尚未可靠核验**；假说状态 `not_tested`。
-- [证据清单](../../../../knowledge/evidence/chanlun_lesson38.json) · [本组综合研究](../volumes/LESSONS_036_040_SYNTHESIS.md)。
+- [证据清单](../../../../knowledge/evidence/chanlun_lesson038.json) · [本组综合研究](../volumes/LESSONS_036_040_SYNTHESIS.md)。

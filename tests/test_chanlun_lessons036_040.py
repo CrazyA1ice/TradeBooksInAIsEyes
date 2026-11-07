@@ -5,8 +5,8 @@ check=runpy.run_path(str(ROOT/"tools/verify_chanlun_lessons036_040.py"))["audit"
 def fixture():
     index=json.loads((ROOT/"catalog/chanlun_lesson_index.json").read_text(encoding="utf-8"))
     src=json.loads((ROOT/"catalog/chanlun_lessons036_040_source_layers.json").read_text(encoding="utf-8"))
-    ev=[json.loads((ROOT/f"knowledge/evidence/chanlun_lesson{n}.json").read_text(encoding="utf-8")) for n in range(36,41)]
-    md=[(ROOT/f"analyses/books/chanlun/chapters/lesson_{n}.md").read_text(encoding="utf-8") for n in range(36,41)]
+    ev=[json.loads((ROOT/f"knowledge/evidence/chanlun_lesson{n:03d}.json").read_text(encoding="utf-8")) for n in range(36,41)]
+    md=[(ROOT/f"analyses/books/chanlun/chapters/lesson_{n:03d}.md").read_text(encoding="utf-8") for n in range(36,41)]
     overview=(ROOT/"analyses/books/chanlun/volumes/LESSONS_036_040_SYNTHESIS.md").read_text(encoding="utf-8")
     graph=json.loads((ROOT/"knowledge/claims/chanlun_early_core_dependencies.json").read_text(encoding="utf-8"))
     hashes={v["volume"]:v["sha256"] for v in index["volumes"][:2]}
