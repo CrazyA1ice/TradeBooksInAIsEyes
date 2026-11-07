@@ -22,3 +22,7 @@ jobs:
           for n in 2 3 4 5; do
             python -B tools/read_chanlun_lesson_readonly.py --lesson "$n" --emit-text
           done
+      - name: Install Chinese OCR for figure quality check
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr-chi-sim
+      - name: Check lesson-4 illustration geometry and OCR, never trust numeric readings
+        run: python -B tools/scan_chanlun_early_figures.py
