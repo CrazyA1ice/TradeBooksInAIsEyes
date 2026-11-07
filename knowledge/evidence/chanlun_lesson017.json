@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-V1-L017-FIRSTPASS-20261107",
+  "status": "source_text_reviewed_and_reasoned_image_semantics_not_verified",
+  "source": {
+    "path": "ChineseBooks/缠论/缠论_卷1.pdf",
+    "sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+    "lesson_number": 17,
+    "author_date": "2006-12-18 (Chinese date source)",
+    "pdf_pages": [
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233
+    ],
+    "first_dialogue_boundary_candidate": 205
+  },
+  "audit": {
+    "page_count": 38,
+    "native_text_characters": 24255,
+    "image_pages": [
+      201,
+      202,
+      203,
+      204,
+      207,
+      208,
+      218,
+      220,
+      223
+    ],
+    "source_read_run": 42370612377
+  },
+  "claims": [
+    {
+      "id": "CL017-S01",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        196,
+        197
+      ],
+      "summary": "作者将走势终完美作为基本原理，并讨论当下续走或转折的不确定性。"
+    },
+    {
+      "id": "CL017-S02",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        197
+      ],
+      "summary": "作者定义至少三个连续次级别走势类型的重叠部分为中枢。"
+    },
+    {
+      "id": "CL017-S03",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        197,
+        198
+      ],
+      "summary": "作者引入最低级别约定，以及盘整和趋势的中枢数目区分。"
+    },
+    {
+      "id": "CL017-S04",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        198
+      ],
+      "summary": "作者从走势结构讨论第一、二类买卖点。"
+    },
+    {
+      "id": "CL017-I05",
+      "kind": "INTERPRETATION",
+      "pdf_pages": [
+        197
+      ],
+      "summary": "中枢的共同重叠可转为区间运算，但前提是三段级别及完成时刻一致。"
+    },
+    {
+      "id": "CL017-I06",
+      "kind": "INFERENCE",
+      "pdf_pages": [
+        197,
+        198
+      ],
+      "summary": "走势完成与交易盈利并非逻辑同义。"
+    },
+    {
+      "id": "CL017-H07",
+      "kind": "HYPOTHESIS",
+      "pdf_pages": [
+        197,
+        198
+      ],
+      "summary": "递归中枢识别的在线实现和确认延迟尚待检验。",
+      "status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "Compiled material mixes authored article, editor notes and later Q&A.",
+    "Source images and numerical annotations require independent visual review.",
+    "No empirical trading outcome was estimated."
+  ]
+}
