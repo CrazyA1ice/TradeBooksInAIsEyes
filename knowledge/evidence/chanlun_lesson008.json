@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-V1-LESSON008-FIRSTPASS-20261107",
+  "status": "textual_first_pass_image_visual_review_pending",
+  "source": {
+    "path": "ChineseBooks/缠论/缠论_卷1.pdf",
+    "sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+    "lesson_number": 8,
+    "original_author_datetime": "2006-11-20 12:00:31",
+    "pdf_pages": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "appendix_boundary_candidate_page": 22
+  },
+  "source_quality": {
+    "native_chars": 5208,
+    "low_text_pages": [
+      25
+    ],
+    "image_pages": [
+      25
+    ],
+    "source_survey_run_id": 42368117633
+  },
+  "claims": [
+    {
+      "id": "CL008-S01",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        21,
+        22
+      ],
+      "summary": "作者提出根据可观察条件动态分类可介入与不可介入的标的。"
+    },
+    {
+      "id": "CL008-S02",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        21
+      ],
+      "summary": "作者否定能由输入必然决定投资结果的完整理论保证。"
+    },
+    {
+      "id": "CL008-S03",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        22
+      ],
+      "summary": "文章举出多个均线、成交量及新股形态作为可变筛选依据。"
+    },
+    {
+      "id": "CL008-I04",
+      "kind": "INTERPRETATION",
+      "pdf_pages": [
+        21,
+        22
+      ],
+      "summary": "动态候选集合不等同于完整的交易执行和风险模型。"
+    },
+    {
+      "id": "CL008-I05",
+      "kind": "INFERENCE",
+      "pdf_pages": [
+        22
+      ],
+      "summary": "分类阈值与成交约束会影响信号稳定性。"
+    },
+    {
+      "id": "CL008-H06",
+      "kind": "HYPOTHESIS",
+      "pdf_pages": [
+        21,
+        22
+      ],
+      "summary": "允许拒绝交易的动态筛选可能改善风险结果。",
+      "test_status": "not_tested"
+    }
+  ],
+  "limitations": [
+    "PDF p.25 contains an unverified image in compiled Q&A",
+    "Editorial note at p.22 should not be attributed to author",
+    "Classification metrics are not trading profits"
+  ],
+  "empirical_status": "not_run"
+}

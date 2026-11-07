@@ -13,3 +13,7 @@
 图表精确识别和跨书研究仍未实现。
 
 - `verify_chanlun_lessons002_005.py`：校验第 2–5 课的指纹、页码、未验证假说、图像不确定性及跨课关系。
+
+- `survey_chanlun_lessons006_010.py`：原始 PDF 的只读页级盘点和限定片段；研究性一次运行，不公开完整书籍正文。
+- `verify_chanlun_lessons006_010.py`：第 6–10 课证据/页码/源版本校验。
+- `check_chanlun_lesson009_probability.py`：合成概率反例验证，**不是市场回测**。
