@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-V2-L41-FIRSTPASS-20261107",
+  "state": "original_bounded_text_and_full_page_metadata_figures_unverified",
+  "source": {
+    "volume": 2,
+    "path": "ChineseBooks/缠论/缠论_卷2.pdf",
+    "sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+    "lesson_number": 41,
+    "original_date": "2007-03-30 15:17:22",
+    "pdf_pages": [
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389
+    ],
+    "appendix_boundary_candidate": 379
+  },
+  "quality": {
+    "page_count": 12,
+    "native_text_chars": 8619,
+    "image_pages": [
+      380,
+      381
+    ],
+    "source_run": 42377309558
+  },
+  "claims": [
+    {
+      "id": "CL41-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        378
+      ],
+      "summary": "作者把买卖点与交易节奏绑定，强调反对情绪性追涨杀跌。"
+    },
+    {
+      "id": "CL41-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        378
+      ],
+      "summary": "作者警告小级别逆向买卖点可能被未衰竭的大级别趋势覆盖。"
+    },
+    {
+      "id": "CL41-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        378,
+        379
+      ],
+      "summary": "作者要求明确操作买卖点的级别，并劝初学者不采用太低级别。"
+    },
+    {
+      "id": "CL41-INTERPRETATION-4",
+      "kind": "INTERPRETATION",
+      "volume": 2,
+      "pdf_pages": [
+        378
+      ],
+      "summary": "作者的交易纪律与级别选择构成策略前置约束。"
+    },
+    {
+      "id": "CL41-INFERENCE-5",
+      "kind": "INFERENCE",
+      "volume": 2,
+      "pdf_pages": [
+        378
+      ],
+      "summary": "遵循买卖点形式并不足以证明真实盈利或能在当时确认。"
+    },
+    {
+      "id": "CL41-HYPOTHESIS-6",
+      "kind": "HYPOTHESIS",
+      "volume": 2,
+      "pdf_pages": [
+        378,
+        379
+      ],
+      "summary": "逆高层趋势低级别信号的风险和净收益需实证。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "Compiled volume includes later dialogue and editor notes.",
+    "Original image figures and historical prices not independently verified.",
+    "AI models and test cases are not the original author's formula or a market backtest."
+  ]
+}
