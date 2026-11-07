@@ -1,0 +1,20 @@
+name: Temporary original PDF read Chanlun lessons 46-50
+on:
+  push:
+    branches: [feat/chanlun-lessons046-050-research-20261107]
+    paths:
+      - ".github/workflows/tmp-source-chanlun-046-050.yml"
+      - "tools/survey_chanlun_lessons046_050.py"
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m pip install --disable-pip-version-check pymupdf==1.26.7
+      - run: python -B tools/survey_chanlun_lessons046_050.py
