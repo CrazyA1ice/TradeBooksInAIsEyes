@@ -28,3 +28,11 @@
 [前十课暂定思想综述](volumes/LESSONS_001_010_SYNTHESIS.md) · [第 9 课概率反例](../../../experiments/protocols/chanlun_lesson009_probability_audit.md)
 
 **提醒：**第 6–10 课共 69 页中包含大量编入的互动问答和图片，并非 69 页连续原始正文。当前图像未完成可靠的视觉核验，数学反例只证明推导前提不足，不代表行情回测。
+
+## 第三批成果：第 11–15 课（首轮）
+
+[第 11 课](chapters/lesson_011.md) · [第 12 课](chapters/lesson_012.md) · [第 13 课](chapters/lesson_013.md) · [第 14 课](chapters/lesson_014.md) · [第 15 课](chapters/lesson_015.md)
+
+[第 11–15 课思想演化与前视风险](volumes/LESSONS_011_015_SYNTHESIS.md) · [第 15 课早期定义审计](../../../experiments/protocols/chanlun_lesson015_early_definitions_audit.md)
+
+**限制**：本组共 87 页，含后附问答、编者注和图片；研究稿是可追溯的第一轮文本分析，不代表逐图视觉终审或完整策略回测。p.143 编者注指出相关走势定义后期修订，必须保留不同版本。

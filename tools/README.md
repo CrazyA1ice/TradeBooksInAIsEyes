@@ -17,3 +17,7 @@
 - `survey_chanlun_lessons006_010.py`：原始 PDF 的只读页级盘点和限定片段；研究性一次运行，不公开完整书籍正文。
 - `verify_chanlun_lessons006_010.py`：第 6–10 课证据/页码/源版本校验。
 - `check_chanlun_lesson009_probability.py`：合成概率反例验证，**不是市场回测**。
+
+- `survey_chanlun_lessons011_015.py`：第 11–15 课 PDF 只读页级结构核验和有界片段示例。
+- `verify_chanlun_lessons011_015.py`：逐课源指纹、页码、编辑层次与研究主张审计。
+- `audit_chanlun_lesson015_early_classification.py`：**早期**走势字面定义的相等边界与极值确认时间合成测试；不是市场回测。
