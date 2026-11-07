@@ -82,3 +82,9 @@
 - `audit_chanlun_lesson071_typed_membership.py`：特征序列同一严格成员资格和简化三笔确认的纯合成门。
 - `audit_chanlun_lessons073_074_exposure.py`：剩余股票市值、合成宏观/行业影响和不可成交隔夜缺口。
 - `audit_chanlun_lessons072_075_attribution.py`：区分原著、编注、独立日期解盘和未验证轶事的标签。
+
+- `survey_chanlun_lessons076_080.py`：第四卷p.143–231 SHA锁定原文、部分文字和11页预览。
+- `verify_chanlun_lessons076_080.py`：89页来源与35条证据、8处原书正文、7张实际目视图范围和兼容概念图谱。
+- `audit_chanlun_lesson077_pen_boundary.py`：等高低分型、独立K线和局部笔必要条件。
+- `audit_chanlun_lesson078_normalized_view.py`：不改写原始线段的高层派生标准化视图。
+- `audit_chanlun_lessons079_080_dual_clock.py`：盘中分钟卖点与日收盘分型确认不混淆及机会成本。
