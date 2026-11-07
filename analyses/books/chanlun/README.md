@@ -124,3 +124,11 @@
 [综合](volumes/LESSONS_066_070_SYNTHESIS.md) · [第67课特征序列缺口双情形](../../../experiments/protocols/chanlun_lesson067_two_case_feature_sequence.md) · [第68课完整条件分类](../../../experiments/protocols/chanlun_lesson068_piecewise_policy.md) · [第69/70课候选版本日志](../../../experiments/protocols/chanlun_lessons069_070_revision_events.md)。
 
 原始第三卷p.374–405（32页）和第四卷p.3–70（68页）已SHA锁定，全100页结构核查；仅十页原书缩略图目视检查，价格数值未完整核准。第67课原著及编辑争论版本共存。跨卷新概念在`knowledge/claims/chanlun_lessons066_070_crossvolume_dependencies.json`单独维护以保留历史审计兼容性。
+
+## 第十五批研究：第71–75课（第四卷）
+
+[第71课](chapters/lesson_071.md) · [第72课](chapters/lesson_072.md) · [第73课](chapters/lesson_073.md) · [第74课](chapters/lesson_074.md) · [第75课](chapters/lesson_075.md)。
+
+[五课综合](volumes/LESSONS_071_075_SYNTHESIS.md) · [第四卷72页来源及视觉范围](../../../reports/source_inventory/chanlun_lessons071_075_source_and_visual_review.md) · [第71课成员类型与线段状态](../../../experiments/protocols/chanlun_lesson071_typed_feature_membership.md) · [第73–74课零成本与政策跳空风险](../../../experiments/protocols/chanlun_lessons073_074_exposure_and_policy_shock.md)。
+
+本轮研究分别保存第71课对第67课的补充、第72课讲授版本演化及第74课原文/编者政策风险分类争论。源PDF p.71–142共72页、10页渲染/6页实际目视复核，**没有完成全图精确数值或真实市场回测**。新增跨卷兼容概念扩展，不改变前70课已通过的图谱文件。
