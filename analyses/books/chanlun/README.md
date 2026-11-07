@@ -25,6 +25,6 @@
 
 [第 6 课](chapters/lesson_006.md) · [第 7 课](chapters/lesson_007.md) · [第 8 课](chapters/lesson_008.md) · [第 9 课](chapters/lesson_009.md) · [第 10 课](chapters/lesson_010.md)
 
-[前十课暂定思想综述](volumes/LESSONS_001_010_SYNTHESIS.md) · [第 9 课概率反例](../../../../experiments/protocols/chanlun_lesson009_probability_audit.md)
+[前十课暂定思想综述](volumes/LESSONS_001_010_SYNTHESIS.md) · [第 9 课概率反例](../../../experiments/protocols/chanlun_lesson009_probability_audit.md)
 
 **提醒：**第 6–10 课共 69 页中包含大量编入的互动问答和图片，并非 69 页连续原始正文。当前图像未完成可靠的视觉核验，数学反例只证明推导前提不足，不代表行情回测。
