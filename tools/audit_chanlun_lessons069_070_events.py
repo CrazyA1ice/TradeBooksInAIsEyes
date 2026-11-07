@@ -12,10 +12,10 @@ class EvidenceLog:
             self.states[object_id]="PENDING"
         elif action in ("CONFIRM","INVALIDATE","REVISE"):
             if self.states.get(object_id)!="PENDING":raise ValueError("only pending object can change")
+            if action=="REVISE" and (not new_id or new_id in self.states):
+                raise ValueError("new version id required")
             self.states[object_id]={"CONFIRM":"CONFIRMED","INVALIDATE":"INVALIDATED","REVISE":"REVISED"}[action]
-            if action=="REVISE":
-                if not new_id or new_id in self.states:raise ValueError("new version id required")
-                self.states[new_id]="PENDING"
+            if action=="REVISE":self.states[new_id]="PENDING"
         else:raise ValueError("invalid action")
         entry={"time":t,"object_id":object_id,"action":action,"new_id":new_id}
         self.events.append(entry)

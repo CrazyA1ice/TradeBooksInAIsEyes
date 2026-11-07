@@ -70,3 +70,9 @@
 - `verify_chanlun_lessons061_065.py`：96页来源、6页原始PDF日期与规则文字核验、35条证据和概念图谱审计。
 - `audit_chanlun_lessons062_065_containment.py`：依UP/DOWN定向K线包含归并和三bar分型确认的局部合成验证。
 - `audit_chanlun_lesson064_tolerance.py`：0.5点近似关系不传递的Decimal精度测试。
+
+- `survey_chanlun_lessons066_070.py`：原始第三/四卷 SHA锁定的百页跨卷文本来源和有限预览。
+- `verify_chanlun_lessons066_070.py`：100页、34条主张、六处原PDF内容、跨卷扩展依赖审计。
+- `audit_chanlun_lesson067_feature_gap.py`：特征序列分型局部双情形、缺口等待反向分型。
+- `audit_chanlun_lesson068_boundary_policy.py`：事前冻结的价格三段边界，拒绝未来阈值和无效价格。
+- `audit_chanlun_lessons069_070_events.py`：月线候选版本追加式日志与中枢未来分类事件。

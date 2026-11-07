@@ -22,5 +22,10 @@ class Events(unittest.TestCase):
  def test_branch_cannot_double_confirm(self):
     b=Center();b.observe("THIRD_BUY_CONFIRMED")
     with self.assertRaises(ValueError):b.observe("THIRD_SELL_CONFIRMED")
+ def test_failed_revision_is_atomic(self):
+    l=Log();l.record(1,"x","OPEN")
+    with self.assertRaises(ValueError):l.record(2,"x","REVISE")
+    self.assertEqual(l.states["x"],"PENDING")
+    self.assertEqual(len(l.events),1)
  def test_not_full_market_parser(self):self.assertFalse(ex()["complete_market_parser"])
 if __name__=="__main__":unittest.main()
