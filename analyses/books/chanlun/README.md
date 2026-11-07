@@ -44,3 +44,11 @@
 [中枢定义到第三买点：跨课研究](volumes/LESSONS_016_020_SYNTHESIS.md) · [中枢区间及买点收益边界审计](../../../experiments/protocols/chanlun_lesson020_center_and_third_buy_audit.md)
 
 这一组覆盖 PDF p.169–252 共 84 页，含图表与后附问答；报告为第一轮文本研究。中枢区间交集的合成测试**不构成真实交易收益证明**。
+
+## 第五批成果：第 21–25 课（跨第一、第二卷）
+
+[第 21 课](chapters/lesson_021.md) · [第 22 课](chapters/lesson_022.md) · [第 23 课](chapters/lesson_023.md) · [第 24 课](chapters/lesson_024.md) · [第 25 课](chapters/lesson_025.md)
+
+[三类买卖点完备性与 MACD 辅助方法跨课研究](volumes/LESSONS_021_025_SYNTHESIS.md) · [MACD 部分面积不确定性审计](../../../experiments/protocols/chanlun_lesson024_macd_partial_area_audit.md)
+
+来源：第一卷 PDF p.253–337、第二卷 PDF p.3–68，共 151 页（含大量后附答疑和图像）；首轮报告不等于全部图片已核验，也没有真实行情回测。

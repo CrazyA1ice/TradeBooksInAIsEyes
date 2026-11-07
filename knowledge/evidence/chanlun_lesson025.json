@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-L025-FIRSTPASS-20261107",
+  "status": "source_text_and_bounded_excerpt_reviewed_images_unverified",
+  "source": {
+    "volume": 2,
+    "path": "ChineseBooks/缠论/缠论_卷2.pdf",
+    "sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+    "lesson_number": 25,
+    "author_date": "2007-01-23 15:13:13",
+    "pdf_pages": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+    ],
+    "first_dialogue_candidate": 42
+  },
+  "page_audit": {
+    "pages": 36,
+    "native_characters": 22035,
+    "image_pages": [
+      34,
+      36,
+      38,
+      39,
+      40,
+      41,
+      43,
+      47,
+      50,
+      51,
+      53
+    ],
+    "low_text_pages": [
+      34,
+      36,
+      38,
+      39,
+      40,
+      41,
+      43,
+      50,
+      51,
+      53
+    ],
+    "source_actions_run": 42371836598
+  },
+  "claims": [
+    {
+      "id": "CL025-S01",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        33
+      ],
+      "summary": "作者将均线和 MACD 定位为辅助工具，并区别于中枢定义。"
+    },
+    {
+      "id": "CL025-S02",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        33,
+        35
+      ],
+      "summary": "作者讨论指标参数、极快走势和连续涨停时的失真问题。"
+    },
+    {
+      "id": "CL025-S03",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        37
+      ],
+      "summary": "作者指出趋势背驰和盘整背驰必须区分，并强调不同级别的判断。"
+    },
+    {
+      "id": "CL025-I04",
+      "kind": "INTERPRETATION",
+      "volume": 2,
+      "pdf_pages": [
+        33,
+        37
+      ],
+      "summary": "辅助指标和结构标签需保持计算依赖上的区别。"
+    },
+    {
+      "id": "CL025-I05",
+      "kind": "INFERENCE",
+      "volume": 2,
+      "pdf_pages": [
+        33,
+        37
+      ],
+      "summary": "指标误差与级别差异限制单一 MACD 信号的通用性。"
+    },
+    {
+      "id": "CL025-H06",
+      "kind": "HYPOTHESIS",
+      "volume": 2,
+      "pdf_pages": [
+        33,
+        37
+      ],
+      "summary": "MACD 与中枢联合信号的增量样本外价值需研究。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "Author's original article and later appended text are mixed in the compiled PDF.",
+    "All figure readings remain pending reliable visual review.",
+    "Synthetic logical audit is not empirical support for real trading advantages."
+  ]
+}

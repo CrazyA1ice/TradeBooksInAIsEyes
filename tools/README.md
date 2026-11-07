@@ -25,3 +25,7 @@
 - `survey_chanlun_lessons016_020.py`：第 16–20 课的只读页级扫描，仅输出有界原文线索和结构数据。
 - `verify_chanlun_lessons016_020.py`：研究稿、证据页码、图像缺口和原始 PDF 指纹的自动验收。
 - `audit_chanlun_lesson020_center_intervals.py`：三个已完成区间交集和第三买点位置条件的合成测试，不是历史市场回测。
+
+- `survey_chanlun_lessons021_025.py`：跨第一/二卷双 SHA 只读来源扫描，报告卷内页码与图像缺口。
+- `verify_chanlun_lessons021_025.py`：跨卷研究报告、证据定位、假说状态与 PDF 指纹校验。
+- `audit_chanlun_lesson024_macd_partial_area.py`：仅用合成非负柱面积演示固定倍数预测的边界，不计算真实 MACD。
