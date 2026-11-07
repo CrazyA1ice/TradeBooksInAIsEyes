@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "graph_id": "CHANLUN-LESSONS-076-080-REVISION-AND-ASOF-20261108",
+  "description": "Independent backwards-compatible extension referencing prior three graphs. Does not mutate previously verified source digests or structure.",
+  "source_pdf_sha256_by_volume": {
+    "4": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d"
+  },
+  "references": [
+    "knowledge/claims/chanlun_early_core_dependencies.json",
+    "knowledge/claims/chanlun_lessons066_070_crossvolume_dependencies.json",
+    "knowledge/claims/chanlun_lessons071_075_semantic_dependencies.json"
+  ],
+  "nodes": [
+    {
+      "id": "L76-ANECDOTE-EVIDENCE",
+      "claim": "Author's self-described dream market-opponent stories cannot prove counterpart identity or manipulation",
+      "source": {
+        "volume": 4,
+        "pdf_pages": [
+          143,
+          144,
+          145
+        ]
+      },
+      "status": "author_unverified_anecdote_and_later_dated_material"
+    },
+    {
+      "id": "L77-PEN-UNIQUENESS-PREMISES",
+      "claim": "Unique pen decomposition presupposes formal completed fractals, non-overlapping K-line definitions and handling of equal extrema",
+      "source": {
+        "volume": 4,
+        "pdf_pages": [
+          158,
+          159,
+          160
+        ]
+      },
+      "status": "original_author_claim_ai_pending_tie_boundary"
+    },
+    {
+      "id": "L78-IMMUTABLE-PROJECTION",
+      "claim": "A line segment may be normalized into a high-low derived view for higher level center analysis without changing its original path or confirmation time",
+      "source": {
+        "volume": 4,
+        "pdf_pages": [
+          175,
+          177
+        ]
+      },
+      "status": "original_author_derived_view_with_editorial_dispute"
+    },
+    {
+      "id": "L79-INTRADAY-DUAL-CLOCK",
+      "claim": "Earlier intraday lower-level signal does not imply that the third daily fractal bar has already closed and confirmed",
+      "source": {
+        "volume": 4,
+        "pdf_pages": [
+          193,
+          197,
+          198
+        ]
+      },
+      "status": "original_low_level_timing_ai_asof_boundary"
+    },
+    {
+      "id": "L80-ASSERTION-NOT-PROFIT",
+      "claim": "Strong sell discipline and completed technical conditions cannot guarantee realized gain or eliminate repurchase opportunity cost",
+      "source": {
+        "volume": 4,
+        "pdf_pages": [
+          201,
+          207,
+          208,
+          212
+        ]
+      },
+      "status": "original_normative_statements_ai_economic_counterexample"
+    }
+  ],
+  "edges": [
+    {
+      "from": "L76-ANECDOTE-EVIDENCE",
+      "to": "L75-UNVERIFIED-ANECDOTES",
+      "type": "continuation_of_unverified_first_person_narratives",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L77-PEN-UNIQUENESS-PREMISES",
+      "to": "L62-FRACTAL-PEN",
+      "type": "explicit_subsequent_extrema_and_independent_Kline_requirements",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L77-PEN-UNIQUENESS-PREMISES",
+      "to": "L72-DEFINITION-VERSION",
+      "type": "pen_uniqueness_has_rule_version_premises",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L78-IMMUTABLE-PROJECTION",
+      "to": "L65-ORDERED-CONTAINMENT",
+      "type": "base_stream_and_derived_center_projection_should_be_different_types",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L78-IMMUTABLE-PROJECTION",
+      "to": "L71-TYPED-FEATURE",
+      "type": "strict_feature_membership_and_derived_high_level_views_must_not_be_confused",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L79-INTRADAY-DUAL-CLOCK",
+      "to": "L58-PENDING-REVERSAL",
+      "type": "later_confirmation_cannot_be_assumed_in_earlier_intraday_state",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L79-INTRADAY-DUAL-CLOCK",
+      "to": "L77-PEN-UNIQUENESS-PREMISES",
+      "type": "fractal_completion_is_a_prerequisite_for_confirmed_daily_classification",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L80-ASSERTION-NOT-PROFIT",
+      "to": "L73-OPPORTUNITY-TAXONOMY",
+      "type": "profitability_not_guaranteed_by_geometric_opportunity_classes",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L80-ASSERTION-NOT-PROFIT",
+      "to": "L79-INTRADAY-DUAL-CLOCK",
+      "type": "signal_time_and_hindsight_confirmed_daily_fractal_are_distinct",
+      "certainty": "ai_analysis"
+    }
+  ]
+}

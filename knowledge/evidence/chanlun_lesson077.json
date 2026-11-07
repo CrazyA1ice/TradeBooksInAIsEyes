@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "lesson": 77,
+  "state": "sha_verified_bounded_original_cues_page_metadata_selected_low_resolution_preview",
+  "source": {
+    "volume": 4,
+    "path": "ChineseBooks/缠论/缠论_卷4.pdf",
+    "sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+    "original_post_date": "2007-09-05 23:24:01",
+    "pdf_pages": [
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173
+    ],
+    "starred_divider_candidate": null
+  },
+  "quality": {
+    "page_count": 17,
+    "native_chars": 6493,
+    "image_pages": [
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171
+    ],
+    "preview_pages": [
+      160,
+      165
+    ],
+    "visually_inspected_pages": [
+      160,
+      165
+    ],
+    "fine_chart_values_verified": false
+  },
+  "claims": [
+    {
+      "id": "CL77-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 4,
+      "pdf_pages": [
+        157
+      ],
+      "summary": "作者以相邻同单位K线之间无成交区间定义缺口并提出回补分类。"
+    },
+    {
+      "id": "CL77-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 4,
+      "pdf_pages": [
+        158
+      ],
+      "summary": "作者要求分型严格处理包含及笔的顶底交替和独立K线。"
+    },
+    {
+      "id": "CL77-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 4,
+      "pdf_pages": [
+        158,
+        159
+      ],
+      "summary": "作者给出连续同类分型极值筛选和笔的唯一性论证。"
+    },
+    {
+      "id": "CL77-SOURCE-4",
+      "kind": "SOURCE",
+      "volume": 4,
+      "pdf_pages": [
+        159
+      ],
+      "summary": "作者指出线段至少三笔，开始三笔需重叠。"
+    },
+    {
+      "id": "CL77-SOURCE-5",
+      "kind": "SOURCE",
+      "volume": 4,
+      "pdf_pages": [
+        160
+      ],
+      "summary": "作者区分特征序列破坏两种情形和方向约束。"
+    },
+    {
+      "id": "CL77-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 4,
+      "pdf_pages": [
+        158,
+        159
+      ],
+      "summary": "无完成时刻、并列边界与规则版本不能直接推出实时唯一解析。"
+    },
+    {
+      "id": "CL77-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 4,
+      "pdf_pages": [
+        157,
+        160
+      ],
+      "summary": "完整笔/线段规则的回放一致性尚未真实行情检验。",
+      "test_status": "not_tested"
+    }
+  ],
+  "real_market_backtest": "not_run",
+  "limitations": [
+    "Original-source and later commentary separated by dated post, not just starred dividers",
+    "Some image-heavy pages not OCR-verified",
+    "Cannot infer confirmed future line segment from incomplete prefix"
+  ]
+}

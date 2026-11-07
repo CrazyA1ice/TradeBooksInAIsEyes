@@ -132,3 +132,11 @@
 [五课综合](volumes/LESSONS_071_075_SYNTHESIS.md) · [第四卷72页来源及视觉范围](../../../reports/source_inventory/chanlun_lessons071_075_source_and_visual_review.md) · [第71课成员类型与线段状态](../../../experiments/protocols/chanlun_lesson071_typed_feature_membership.md) · [第73–74课零成本与政策跳空风险](../../../experiments/protocols/chanlun_lessons073_074_exposure_and_policy_shock.md)。
 
 本轮研究分别保存第71课对第67课的补充、第72课讲授版本演化及第74课原文/编者政策风险分类争论。源PDF p.71–142共72页、10页渲染/6页实际目视复核，**没有完成全图精确数值或真实市场回测**。新增跨卷兼容概念扩展，不改变前70课已通过的图谱文件。
+
+## 第十六批：第76–80课（第四卷）
+
+[第76课](chapters/lesson_076.md) · [第77课](chapters/lesson_077.md) · [第78课](chapters/lesson_078.md) · [第79课](chapters/lesson_079.md) · [第80课](chapters/lesson_080.md)。
+
+[综合](volumes/LESSONS_076_080_SYNTHESIS.md) · [89页来源与实际视觉范围](../../../reports/source_inventory/chanlun_lessons076_080_source_visual_review.md) · [第77课唯一性前提和笔候选](../../../experiments/protocols/chanlun_lesson077_pen_candidates_audit.md) · [第78课原始/标准化双视图](../../../experiments/protocols/chanlun_lesson078_raw_vs_normalized.md) · [第79–80课分钟与日收盘双时钟](../../../experiments/protocols/chanlun_lessons079_080_asof_and_opportunity.md)。
+
+本批第四卷p.143–231共89页原始PDF校验，全11页缩略图渲染、实际目视检查7页。原文与不同日期评论、原作者和娇注分离。新增兼容图谱不影响前75课已有检查。所有真实市场假说not_tested，未完成整套笔线段解析器。
