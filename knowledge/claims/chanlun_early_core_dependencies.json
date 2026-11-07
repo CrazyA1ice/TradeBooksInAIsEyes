@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "Chanlun lesson 17–35 provisional evidence-backed core concepts; NOT a complete axiomatic derivation",
+  "scope": "Chanlun lessons 17–40 provisional, evidence-backed concept map; not an exhaustive 108-lesson proof",
   "nodes": [
     {
       "id": "L17-CENTER",
@@ -94,6 +94,64 @@
         ]
       },
       "status": "original_tradeability_limits"
+    },
+    {
+      "id": "L36-MULTIPARSE",
+      "claim": "Associative regrouping admits multiple time/level interpretations and different third-buy boundaries",
+      "source": {
+        "volume": 2,
+        "pdf_pages": [
+          305,
+          308,
+          310
+        ]
+      },
+      "status": "original_assertion_and_later_editor_note"
+    },
+    {
+      "id": "L37-TREND-TYPECHECK",
+      "claim": "Trend divergence requires same-level centers A and B plus extremum continuation constraints",
+      "source": {
+        "volume": 2,
+        "pdf_pages": [
+          320
+        ]
+      },
+      "status": "original_required_condition"
+    },
+    {
+      "id": "L38-FIXED-LEVEL",
+      "claim": "Uniqueness is claimed under a fixed same-level decomposition rule, not all alternative rule choices",
+      "source": {
+        "volume": 2,
+        "pdf_pages": [
+          338,
+          339
+        ]
+      },
+      "status": "original_conditional_claim_not_independently_proved"
+    },
+    {
+      "id": "L39-MISSING-BRANCH",
+      "claim": "Later editorial note flags missing Ai/Ai+2 non-new-high/low condition",
+      "source": {
+        "volume": 2,
+        "pdf_pages": [
+          354
+        ]
+      },
+      "status": "editorial_correction_not_original_article"
+    },
+    {
+      "id": "L40-SHARED-INVENTORY",
+      "claim": "Multi-level allocations imply stock/cash conservation in a unified brokerage account",
+      "source": {
+        "volume": 2,
+        "pdf_pages": [
+          363
+        ]
+      },
+      "status": "ai_risk_qualification_of_original_multilevel_idea"
     }
   ],
   "edges": [
@@ -126,6 +184,48 @@
       "to": "L31-COST",
       "type": "adds_applicability_conditions_to",
       "certainty": "ai_analysis"
+    },
+    {
+      "from": "L33-AMBIGUITY",
+      "to": "L36-MULTIPARSE",
+      "type": "later_application_of",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L35-ASSOCIATIVITY",
+      "to": "L36-MULTIPARSE",
+      "type": "basis_for_regrouping",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L36-MULTIPARSE",
+      "to": "L38-FIXED-LEVEL",
+      "type": "qualified_by_fixed_rule",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L38-FIXED-LEVEL",
+      "to": "L39-MISSING-BRANCH",
+      "type": "mechanical_recipe_has_uncovered_case",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L35-EXECUTION",
+      "to": "L40-SHARED-INVENTORY",
+      "type": "implementation_constraint",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L36-MULTIPARSE",
+      "to": "L40-SHARED-INVENTORY",
+      "type": "supports_level_switching_but_not_stock_creation",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L37-TREND-TYPECHECK",
+      "to": "L17-CENTER",
+      "type": "requires_same_level_trend_centers",
+      "certainty": "documented_conceptual_relation"
     }
   ],
   "constraints": [
