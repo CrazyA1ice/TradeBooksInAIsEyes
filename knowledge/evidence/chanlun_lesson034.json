@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-V2-LESSON-34-FIRSTPASS-20261107",
+  "status": "source_text_reviewed_figures_not_yet_visually_verified",
+  "source": {
+    "volume": 2,
+    "path": "ChineseBooks/缠论/缠论_卷2.pdf",
+    "sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+    "lesson_number": 34,
+    "original_date": "2007-03-07 15:09:54",
+    "pdf_pages": [
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290
+    ],
+    "appendix_boundary_candidate": 272
+  },
+  "source_quality": {
+    "native_chars": 7646,
+    "page_count": 20,
+    "image_pages": [
+      273,
+      274,
+      275,
+      276,
+      277,
+      279,
+      280,
+      281,
+      282,
+      286,
+      289
+    ],
+    "low_text_pages": [
+      273,
+      274,
+      275,
+      276,
+      277,
+      279,
+      280,
+      281,
+      282,
+      286,
+      289
+    ],
+    "read_only_actions_run": 42374633597
+  },
+  "claims": [
+    {
+      "id": "CL34-SO-1",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        271,
+        272
+      ],
+      "summary": "作者借讽喻讨论情绪支配及交易行为与当下走势脱节。"
+    },
+    {
+      "id": "CL34-SO-2",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        272
+      ],
+      "summary": "作者强调投资者应按自选操作级别及时响应反向走势。"
+    },
+    {
+      "id": "CL34-IN-3",
+      "kind": "INTERPRETATION",
+      "volume": 2,
+      "pdf_pages": [
+        271,
+        272
+      ],
+      "summary": "交易行动纪律是本课可独立研究的实质内容。"
+    },
+    {
+      "id": "CL34-IN-4",
+      "kind": "INFERENCE",
+      "volume": 2,
+      "pdf_pages": [
+        272
+      ],
+      "summary": "直觉或及时退出的描述不足以证明一定可成交或免于风险。"
+    },
+    {
+      "id": "CL34-HY-5",
+      "kind": "HYPOTHESIS",
+      "volume": 2,
+      "pdf_pages": [
+        272
+      ],
+      "summary": "预注册规则能否改善纪律及风险表现尚待独立数据检验。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "Original article and appended replies are editorially mixed in compilation.",
+    "No figure data used as numeric evidence.",
+    "AI models and counterexamples are not claims the author made."
+  ]
+}
