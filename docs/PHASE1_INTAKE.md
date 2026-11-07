@@ -43,3 +43,9 @@ GitHub Actions 工作流结果：**success**，合成样本测试 1 项通过；
 本轮无页面解析异常（page_errors 为空），五卷 empty_text_pages 均为 0。注意这一统计不能证明文字识别完全正确、图表可读或版权权限已确认。
 
 已保留 machine-readable artifact；本阶段下一步是课号/起始页的完整映射和第一卷可溯源思想单元的深入试读。
+
+## 2026-11-07 正文课程标题定位（GitHub Actions #42365307713）
+
+五卷课程首标题自动检测完成：23 + 19 + 25 + 21 + 20 = **108 课**。课号连续为 1–108，无缺失、无重复；第 1 课定位在第一卷 PDF 第 3 页，第 108 课定位在第五卷 PDF 第 395 页。实际数据见 `catalog/chanlun_lesson_index.json` 与 `analyses/books/chanlun/volumes/LESSON_INDEX.md`。
+
+后续仍需完成印刷目录核对、跨页正文边界验证、图表定位与第 1 课的完整阅读；**当前不能宣称已经完成深度解读**。
