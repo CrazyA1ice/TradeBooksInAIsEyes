@@ -2,7 +2,7 @@
 
 > **研究状态**：首轮跨课分析；并非作者全部 108 课的最终定义。原始来源：第一卷 `ChineseBooks/缠论/缠论_卷1.pdf`，SHA-256 `0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865`。正文、编者注、后期答疑与图像解释必须分层处理。
 
-**单课研究入口：** [第 11 课](../chapters/lesson_11.md) · [第 12 课](../chapters/lesson_12.md) · [第 13 课](../chapters/lesson_13.md) · [第 14 课](../chapters/lesson_14.md) · [第 15 课](../chapters/lesson_15.md)。
+**单课研究入口：** [第 11 课](../chapters/lesson_011.md) · [第 12 课](../chapters/lesson_012.md) · [第 13 课](../chapters/lesson_013.md) · [第 14 课](../chapters/lesson_014.md) · [第 15 课](../chapters/lesson_015.md)。
 
 ## 一、从“看行情”迈向“如何做”的关键变化
 
