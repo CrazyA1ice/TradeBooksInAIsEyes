@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-V1-LESSON007-FIRSTPASS-20261107",
+  "status": "textual_first_pass_image_visual_review_pending",
+  "source": {
+    "path": "ChineseBooks/缠论/缠论_卷1.pdf",
+    "sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+    "lesson_number": 7,
+    "original_author_datetime": "2006-11-16 12:00:01",
+    "pdf_pages": [
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "appendix_boundary_candidate_page": 19
+  },
+  "source_quality": {
+    "native_chars": 3308,
+    "low_text_pages": [
+      18
+    ],
+    "image_pages": [
+      18
+    ],
+    "source_survey_run_id": 42368117633
+  },
+  "claims": [
+    {
+      "id": "CL007-S01",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        16,
+        17
+      ],
+      "summary": "作者讨论牛市结构、板块轮动与部分投资者错失上涨。"
+    },
+    {
+      "id": "CL007-S02",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        16,
+        17,
+        19
+      ],
+      "summary": "作者提到年线突破、量价变化及持仓退出。"
+    },
+    {
+      "id": "CL007-S03",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        19
+      ],
+      "summary": "作者强调不同上涨形态的退出风险及持仓纪律。"
+    },
+    {
+      "id": "CL007-I04",
+      "kind": "INTERPRETATION",
+      "pdf_pages": [
+        16,
+        19
+      ],
+      "summary": "本课把此前方法论逐渐连接到可观察的行情形态。"
+    },
+    {
+      "id": "CL007-I05",
+      "kind": "INFERENCE",
+      "pdf_pages": [
+        16,
+        17
+      ],
+      "summary": "精选历史案例不足以证明信号普遍具有超额收益。"
+    },
+    {
+      "id": "CL007-H06",
+      "kind": "HYPOTHESIS",
+      "pdf_pages": [
+        16,
+        17,
+        19
+      ],
+      "summary": "年线与量价条件组合是否在样本外具优势有待检验。",
+      "test_status": "not_tested"
+    }
+  ],
+  "limitations": [
+    "PDF p.18 is image-only and not visually verified",
+    "p.19 contains compiled Q&A; p.20 source layer after marker is uncertain",
+    "Bull market definitions can introduce lookahead bias"
+  ],
+  "empirical_status": "not_run"
+}
