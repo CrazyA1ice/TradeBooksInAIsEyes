@@ -1,0 +1,41 @@
+name: Chanlun lessons 51–55 source/editorial and semantic audits
+on:
+  push:
+    branches: [feat/chanlun-lessons051-055-deep-reading-20261107]
+    paths:
+      - ".github/workflows/chanlun-lessons051-055-audit.yml"
+      - "catalog/chanlun_lessons051_055_source_layers.json"
+      - "knowledge/evidence/chanlun_lesson*.json"
+      - "knowledge/claims/chanlun_early_core_dependencies.json"
+      - "analyses/books/chanlun/chapters/lesson_*.md"
+      - "analyses/books/chanlun/volumes/LESSONS_051_055_SYNTHESIS.md"
+      - "tools/verify_chanlun_lessons051_055.py"
+      - "tools/audit_chanlun_lesson053_editorial_provenance.py"
+      - "tools/audit_chanlun_lesson054_connections.py"
+      - "tools/audit_chanlun_lesson055_ledger.py"
+      - "tests/test_chanlun_lessons051_055.py"
+      - "tests/test_chanlun_lesson053_editorial_provenance.py"
+      - "tests/test_chanlun_lesson054_connections.py"
+      - "tests/test_chanlun_lesson055_ledger.py"
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m pip install --disable-pip-version-check pymupdf==1.26.7
+      - run: python -B tools/verify_chanlun_lessons051_055.py
+      - run: python -B tools/audit_chanlun_lesson053_editorial_provenance.py
+      - run: python -B tools/audit_chanlun_lesson054_connections.py
+      - run: python -B tools/audit_chanlun_lesson055_ledger.py
+      - run: python -B -m unittest discover -s tests -p "test_chanlun_lessons051_055.py" -v
+      - run: python -B -m unittest discover -s tests -p "test_chanlun_lesson053_editorial_provenance.py" -v
+      - run: python -B -m unittest discover -s tests -p "test_chanlun_lesson054_connections.py" -v
+      - run: python -B -m unittest discover -s tests -p "test_chanlun_lesson055_ledger.py" -v

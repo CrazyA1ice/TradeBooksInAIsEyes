@@ -1,0 +1,1031 @@
+{
+  "schema_version": 1,
+  "source_run": 42379841818,
+  "source_path": "ChineseBooks/缠论/缠论_卷3.pdf",
+  "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+  "scope": "third volume lessons 51–55 original PDF page survey plus bounded article cues",
+  "limitations": [
+    "PDF physical pages contain original 2007 article, later answers/editor notes and many images.",
+    "Asterisk separator is NOT a reliable earliest provenance boundary; lesson 53 p.162 has a 2009-01-05 discussion pasted inside an article page.",
+    "Figures identified, but their geometric or numerical meanings not independently visually verified.",
+    "Lesson 51 social-spreading allegations and ticker returns are author claims, not independently validated misconduct findings.",
+    "Lesson 55's sexualized metaphors are literary framing, not economic proof or claims about gender."
+  ],
+  "editorial_boundary_overrides": [
+    {
+      "lesson": 53,
+      "pdf_page": 162,
+      "heading": "第三类买卖点再分辨（思考贴9）",
+      "date": "2009-01-05 12:00:58",
+      "reason": "Date-stamped later discussion begins mid-page before asterisk separator; do not attribute following article-like text to author's 2007-05-23 original."
+    },
+    {
+      "lesson": 54,
+      "pdf_page": 170,
+      "heading": "（娇注：这课级别AO为笔，与分段后AO为段不同）",
+      "reason": "Editorial note appears before original lesson analysis; treat as a later annotation and version distinction."
+    }
+  ],
+  "lessons": [
+    {
+      "lesson": 51,
+      "title": "短线股评荐股者的传销把戏",
+      "volume": 3,
+      "path": "ChineseBooks/缠论/缠论_卷3.pdf",
+      "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "start": 117,
+      "end": 142,
+      "original_date": "2007-05-09 08:30:16",
+      "first_appendix": {
+        "page": 119,
+        "line": 10,
+        "marker": "********************"
+      },
+      "pages": [
+        {
+          "pdf_page": 117,
+          "native_chars": 1366,
+          "embedded_images": 0,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 118,
+          "native_chars": 1311,
+          "embedded_images": 0,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 119,
+          "native_chars": 536,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 120,
+          "native_chars": 29,
+          "embedded_images": 1,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 121,
+          "native_chars": 231,
+          "embedded_images": 1,
+          "has_editor_cues": true,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 122,
+          "native_chars": 147,
+          "embedded_images": 1,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 123,
+          "native_chars": 355,
+          "embedded_images": 0,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 124,
+          "native_chars": 29,
+          "embedded_images": 1,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 125,
+          "native_chars": 595,
+          "embedded_images": 0,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 126,
+          "native_chars": 29,
+          "embedded_images": 1,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 127,
+          "native_chars": 1199,
+          "embedded_images": 0,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 128,
+          "native_chars": 779,
+          "embedded_images": 0,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 129,
+          "native_chars": 29,
+          "embedded_images": 1,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 130,
+          "native_chars": 431,
+          "embedded_images": 0,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 131,
+          "native_chars": 29,
+          "embedded_images": 1,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 132,
+          "native_chars": 29,
+          "embedded_images": 1,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 133,
+          "native_chars": 29,
+          "embedded_images": 1,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 134,
+          "native_chars": 500,
+          "embedded_images": 0,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 135,
+          "native_chars": 29,
+          "embedded_images": 1,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 136,
+          "native_chars": 871,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 137,
+          "native_chars": 1006,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 138,
+          "native_chars": 1018,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 139,
+          "native_chars": 1079,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 140,
+          "native_chars": 893,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 141,
+          "native_chars": 988,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 142,
+          "native_chars": 1106,
+          "embedded_images": 0,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        }
+      ],
+      "author_topics": [
+        {
+          "page": 117,
+          "terms": [
+            "荐股",
+            "股评",
+            "传销",
+            "买入",
+            "风险",
+            "股票",
+            "资金"
+          ]
+        },
+        {
+          "page": 118,
+          "terms": [
+            "荐股",
+            "股评",
+            "传销",
+            "级别",
+            "股票",
+            "资金"
+          ]
+        },
+        {
+          "page": 119,
+          "terms": [
+            "荐股",
+            "股评",
+            "传销",
+            "股票"
+          ]
+        }
+      ],
+      "page_count": 26,
+      "native_chars": 14643,
+      "image_pages": [
+        120,
+        121,
+        122,
+        124,
+        126,
+        129,
+        131,
+        132,
+        133,
+        135
+      ],
+      "sparse_pages": [
+        120,
+        124,
+        126,
+        129,
+        131,
+        132,
+        133,
+        135
+      ]
+    },
+    {
+      "lesson": 52,
+      "title": "炒股票就是真正的学佛",
+      "volume": 3,
+      "path": "ChineseBooks/缠论/缠论_卷3.pdf",
+      "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "start": 143,
+      "end": 160,
+      "original_date": "2007-05-18 08:49:05",
+      "first_appendix": {
+        "page": 145,
+        "line": 4,
+        "marker": "********************"
+      },
+      "pages": [
+        {
+          "pdf_page": 143,
+          "native_chars": 1508,
+          "embedded_images": 0,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 144,
+          "native_chars": 1220,
+          "embedded_images": 0,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 145,
+          "native_chars": 902,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 146,
+          "native_chars": 901,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 147,
+          "native_chars": 1023,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 148,
+          "native_chars": 890,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 149,
+          "native_chars": 571,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 150,
+          "native_chars": 27,
+          "embedded_images": 1,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 151,
+          "native_chars": 27,
+          "embedded_images": 1,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 152,
+          "native_chars": 1038,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 153,
+          "native_chars": 1159,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 154,
+          "native_chars": 939,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 155,
+          "native_chars": 1122,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 156,
+          "native_chars": 1095,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 157,
+          "native_chars": 838,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 158,
+          "native_chars": 852,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 159,
+          "native_chars": 887,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 160,
+          "native_chars": 656,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        }
+      ],
+      "author_topics": [
+        {
+          "page": 143,
+          "terms": [
+            "学佛",
+            "中枢",
+            "走势",
+            "级别",
+            "背驰",
+            "股票"
+          ]
+        },
+        {
+          "page": 144,
+          "terms": [
+            "学佛",
+            "中枢",
+            "走势",
+            "级别",
+            "背驰",
+            "股票"
+          ]
+        },
+        {
+          "page": 145,
+          "terms": [
+            "学佛",
+            "股票"
+          ]
+        }
+      ],
+      "page_count": 18,
+      "native_chars": 15655,
+      "image_pages": [
+        150,
+        151
+      ],
+      "sparse_pages": [
+        150,
+        151
+      ]
+    },
+    {
+      "lesson": 53,
+      "title": "三类买卖点的再分辨",
+      "volume": 3,
+      "path": "ChineseBooks/缠论/缠论_卷3.pdf",
+      "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "start": 161,
+      "end": 169,
+      "original_date": "2007-05-23 08:47:18",
+      "first_appendix": {
+        "page": 165,
+        "line": 4,
+        "marker": "********************"
+      },
+      "pages": [
+        {
+          "pdf_page": 161,
+          "native_chars": 1377,
+          "embedded_images": 0,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 162,
+          "native_chars": 1233,
+          "embedded_images": 0,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 163,
+          "native_chars": 1384,
+          "embedded_images": 0,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 164,
+          "native_chars": 1089,
+          "embedded_images": 0,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 165,
+          "native_chars": 1084,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 166,
+          "native_chars": 980,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 167,
+          "native_chars": 802,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 168,
+          "native_chars": 964,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 169,
+          "native_chars": 678,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        }
+      ],
+      "author_topics": [
+        {
+          "page": 161,
+          "terms": [
+            "三类买卖点",
+            "中枢",
+            "走势",
+            "级别",
+            "背驰",
+            "盘整背驰",
+            "分笔",
+            "线段",
+            "股票"
+          ]
+        },
+        {
+          "page": 162,
+          "terms": [
+            "三类买卖点",
+            "第三类买点",
+            "中枢",
+            "走势",
+            "级别",
+            "背驰",
+            "盘整背驰",
+            "交易",
+            "分笔",
+            "股票",
+            "资金"
+          ]
+        },
+        {
+          "page": 163,
+          "terms": [
+            "三类买卖点",
+            "第二类买点",
+            "第三类买点",
+            "中枢",
+            "走势",
+            "级别",
+            "背驰",
+            "盘整背驰",
+            "线段",
+            "股票",
+            "资金"
+          ]
+        },
+        {
+          "page": 164,
+          "terms": [
+            "三类买卖点",
+            "第三类买点",
+            "中枢",
+            "走势",
+            "级别",
+            "背驰",
+            "股票"
+          ]
+        },
+        {
+          "page": 165,
+          "terms": [
+            "三类买卖点",
+            "股票"
+          ]
+        }
+      ],
+      "page_count": 9,
+      "native_chars": 9591,
+      "image_pages": [],
+      "sparse_pages": []
+    },
+    {
+      "lesson": 54,
+      "title": "一个具体走势的分析",
+      "volume": 3,
+      "path": "ChineseBooks/缠论/缠论_卷3.pdf",
+      "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "start": 170,
+      "end": 188,
+      "original_date": "2007-05-24 01:37:31",
+      "first_appendix": {
+        "page": 176,
+        "line": 10,
+        "marker": "********************"
+      },
+      "pages": [
+        {
+          "pdf_page": 170,
+          "native_chars": 910,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 171,
+          "native_chars": 293,
+          "embedded_images": 1,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 172,
+          "native_chars": 637,
+          "embedded_images": 0,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 173,
+          "native_chars": 370,
+          "embedded_images": 1,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 174,
+          "native_chars": 662,
+          "embedded_images": 1,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 175,
+          "native_chars": 1418,
+          "embedded_images": 0,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 176,
+          "native_chars": 730,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 177,
+          "native_chars": 216,
+          "embedded_images": 1,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 178,
+          "native_chars": 165,
+          "embedded_images": 1,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 179,
+          "native_chars": 255,
+          "embedded_images": 1,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 180,
+          "native_chars": 250,
+          "embedded_images": 1,
+          "has_editor_cues": true,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 181,
+          "native_chars": 849,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 182,
+          "native_chars": 149,
+          "embedded_images": 1,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 183,
+          "native_chars": 1068,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 184,
+          "native_chars": 992,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 185,
+          "native_chars": 1042,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 186,
+          "native_chars": 1267,
+          "embedded_images": 0,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 187,
+          "native_chars": 1318,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 188,
+          "native_chars": 604,
+          "embedded_images": 0,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        }
+      ],
+      "author_topics": [
+        {
+          "page": 170,
+          "terms": [
+            "中枢",
+            "走势",
+            "级别",
+            "分笔",
+            "线段",
+            "股票"
+          ]
+        },
+        {
+          "page": 171,
+          "terms": [
+            "中枢",
+            "走势",
+            "股票"
+          ]
+        },
+        {
+          "page": 172,
+          "terms": [
+            "中枢",
+            "走势",
+            "级别",
+            "背驰",
+            "盘整背驰",
+            "股票"
+          ]
+        },
+        {
+          "page": 173,
+          "terms": [
+            "三类买卖点",
+            "中枢",
+            "走势",
+            "股票"
+          ]
+        },
+        {
+          "page": 174,
+          "terms": [
+            "中枢",
+            "走势",
+            "级别",
+            "线段",
+            "确认",
+            "股票"
+          ]
+        },
+        {
+          "page": 175,
+          "terms": [
+            "三类买卖点",
+            "第三类买点",
+            "中枢",
+            "走势",
+            "级别",
+            "背驰",
+            "盘整背驰",
+            "风险",
+            "股票"
+          ]
+        },
+        {
+          "page": 176,
+          "terms": [
+            "走势",
+            "股票"
+          ]
+        }
+      ],
+      "page_count": 19,
+      "native_chars": 13195,
+      "image_pages": [
+        171,
+        173,
+        174,
+        177,
+        178,
+        179,
+        180,
+        182
+      ],
+      "sparse_pages": []
+    },
+    {
+      "lesson": 55,
+      "title": "买之前戏，卖之高潮",
+      "volume": 3,
+      "path": "ChineseBooks/缠论/缠论_卷3.pdf",
+      "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "start": 189,
+      "end": 205,
+      "original_date": "2007-05-28 08:12:41",
+      "first_appendix": {
+        "page": 190,
+        "line": 22,
+        "marker": "********************"
+      },
+      "pages": [
+        {
+          "pdf_page": 189,
+          "native_chars": 1363,
+          "embedded_images": 0,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 190,
+          "native_chars": 1350,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 191,
+          "native_chars": 308,
+          "embedded_images": 1,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 192,
+          "native_chars": 258,
+          "embedded_images": 1,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 193,
+          "native_chars": 26,
+          "embedded_images": 1,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 194,
+          "native_chars": 1034,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 195,
+          "native_chars": 963,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 196,
+          "native_chars": 1092,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 197,
+          "native_chars": 905,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 198,
+          "native_chars": 1262,
+          "embedded_images": 0,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 199,
+          "native_chars": 1081,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 200,
+          "native_chars": 1077,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 201,
+          "native_chars": 1231,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 202,
+          "native_chars": 1263,
+          "embedded_images": 0,
+          "has_editor_cues": false,
+          "has_appendix_marker": false
+        },
+        {
+          "pdf_page": 203,
+          "native_chars": 1258,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 204,
+          "native_chars": 942,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": true
+        },
+        {
+          "pdf_page": 205,
+          "native_chars": 376,
+          "embedded_images": 0,
+          "has_editor_cues": true,
+          "has_appendix_marker": false
+        }
+      ],
+      "author_topics": [
+        {
+          "page": 189,
+          "terms": [
+            "中枢",
+            "走势",
+            "级别",
+            "买入",
+            "股票"
+          ]
+        },
+        {
+          "page": 190,
+          "terms": [
+            "第一类买点",
+            "第二类买点",
+            "第三类买点",
+            "中枢",
+            "走势",
+            "级别",
+            "背驰",
+            "股票",
+            "资金"
+          ]
+        }
+      ],
+      "page_count": 17,
+      "native_chars": 15789,
+      "image_pages": [
+        191,
+        192,
+        193
+      ],
+      "sparse_pages": [
+        193
+      ]
+    }
+  ]
+}

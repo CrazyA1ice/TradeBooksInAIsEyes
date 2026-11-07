@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "Chanlun lessons 17–50 provisional versioned concepts with PDF volume/page provenance; not complete market proof",
+  "scope": "Chanlun lessons 17–55 provisional versioned concept graph, original/editorial/AI provenance separated; not an empirical strategy proof",
   "nodes": [
     {
       "id": "L17-CENTER",
@@ -273,6 +273,80 @@
         ]
       },
       "status": "original_indicator_hierarchy_with_ai_resampling_caveat"
+    },
+    {
+      "id": "L51-REFLEXIVITY",
+      "claim": "Public stock recommendations may affect follower demand and cannot automatically establish independent prediction skill",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          117,
+          118
+        ]
+      },
+      "status": "original_author_market_commentary_unverified_particular_allegations"
+    },
+    {
+      "id": "L52-OBSERVER-MARKET",
+      "claim": "Observing, predicting, and participating traders jointly shape observed market; structural scale invariance is an unverified author's claim",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          143,
+          144
+        ]
+      },
+      "status": "original_philosophical_claim_not_empirical_proof"
+    },
+    {
+      "id": "L53-THREE-POINT-TYPES",
+      "claim": "Three types of buy/sell points have distinct functions at one operating level despite smaller-scale interrelations",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          161,
+          162
+        ]
+      },
+      "status": "author_2007_original"
+    },
+    {
+      "id": "L53-LATER-2009-INSERT",
+      "claim": "A separately dated 2009-01-05 discussion on third-class buy/sell points begins mid-page 162 and extends over pages 163–164",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          162,
+          163,
+          164
+        ]
+      },
+      "status": "later_discussion_not_author_2007_original"
+    },
+    {
+      "id": "L54-LEGAL-GROUPING",
+      "claim": "Multiple associatively regrouped descriptions remain constrained by mandatory lower-level connector between two same-level centers",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          171,
+          172,
+          173
+        ]
+      },
+      "status": "original_author_semantic_constraint_with_later_editorial_caveats"
+    },
+    {
+      "id": "L55-BUY-SELL-ASYMMETRY",
+      "claim": "Long accumulation and exit can have different time strategies, but must obey actual cash/share accounting",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          189,
+          190
+        ]
+      },
+      "status": "original_argument_with_ai_ledger_qualification"
     }
   ],
   "edges": [
@@ -436,6 +510,60 @@
       "from": "L49-PROFIT-OPTIMUM",
       "to": "L50-MACD-PROXY",
       "type": "strategy_proof_reliant_on_reproducible_signal_measurement",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L51-REFLEXIVITY",
+      "to": "L52-OBSERVER-MARKET",
+      "type": "specific_information_feedback_related_to_market_participation",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L52-OBSERVER-MARKET",
+      "to": "L32-CONTEMPORANEOUS",
+      "type": "observation_part_of_online_action_context",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L53-THREE-POINT-TYPES",
+      "to": "L44-NECESSARY-NOT-SUFFICIENT",
+      "type": "different_signal_types_constrain_reversal_inference",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L53-LATER-2009-INSERT",
+      "to": "L53-THREE-POINT-TYPES",
+      "type": "later_commentary_must_not_be_backdated_to_author",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L54-LEGAL-GROUPING",
+      "to": "L33-AMBIGUITY",
+      "type": "constrains_legitimate_multigroup_interpretation",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L54-LEGAL-GROUPING",
+      "to": "L35-ASSOCIATIVITY",
+      "type": "adds_semantic_connector_requirement_to_sequence_associativity",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L54-LEGAL-GROUPING",
+      "to": "L38-FIXED-LEVEL",
+      "type": "illustrates_rule_dependent_admissible_parses",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L55-BUY-SELL-ASYMMETRY",
+      "to": "L31-COST",
+      "type": "transaction_ledger_separates_cost_recovery_and_remaining_price_risk",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L55-BUY-SELL-ASYMMETRY",
+      "to": "L40-SHARED-INVENTORY",
+      "type": "cash_share_conservation_during_level_switching",
       "certainty": "ai_analysis"
     }
   ],

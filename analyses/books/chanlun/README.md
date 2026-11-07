@@ -92,3 +92,11 @@
 [全天走势分类与利润最优命题的综合研究](volumes/LESSONS_046_050_SYNTHESIS.md) · [第46课日内标签前视审计](../../../experiments/protocols/chanlun_lesson046_online_day_classification.md) · [第49课利润目标函数审计](../../../experiments/protocols/chanlun_lesson049_objective_function_audit.md) · [第50课MACD采样边界审计](../../../experiments/protocols/chanlun_lesson050_macd_resampling_audit.md)
 
 来源：第三卷PDF p.49–116共68页（含后附材料及图片），独立SHA核对。原书高额盈利断言未经独立实证，不等于项目回测结果。
+
+## 第十一批成果：第 51–55 课（第三卷）
+
+[第51课](chapters/lesson_051.md) · [第52课](chapters/lesson_052.md) · [第53课](chapters/lesson_053.md) · [第54课](chapters/lesson_054.md) · [第55课](chapters/lesson_055.md)
+
+[五课来源版本与中枢语法综合](volumes/LESSONS_051_055_SYNTHESIS.md) · [第53课2009后附讨论时间戳审计](../../../experiments/protocols/chanlun_lesson053_editorial_boundary_audit.md) · [第54课同级别连接审计](../../../experiments/protocols/chanlun_lesson054_connection_grammar_audit.md) · [第55课现金股份账本](../../../experiments/protocols/chanlun_lesson055_cash_share_ledger.md)。
+
+第三卷p.117–205共89页（含图片、后附材料）。特别注意第53课p.162后半插入了2009材料，星号分隔在p.165，不能作为作者2007正文唯一界限。所有图示数值与作者利润断言未经独立核验。
