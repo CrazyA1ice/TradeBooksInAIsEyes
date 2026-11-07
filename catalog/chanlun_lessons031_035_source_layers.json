@@ -1,0 +1,1215 @@
+{
+  "schema_version": 1,
+  "source_run": 42374633597,
+  "source_path": "ChineseBooks/缠论/缠论_卷2.pdf",
+  "source_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+  "scope": "first-pass original text and physical PDF page metadata",
+  "limitations": [
+    "A page-range for a compiled lesson includes later Q&A and image-only figures, not solely its original article.",
+    "First asterisk divider is a heuristic provenance boundary and may not mark all later annotations.",
+    "Image counts verified with PyMuPDF, but figures are not yet semantically inspected.",
+    "Source-original limited text excerpts were read, not the entire appended correspondence."
+  ],
+  "lessons": [
+    {
+      "lesson": 31,
+      "title": "资金管理的最稳固基础",
+      "volume": 2,
+      "pdf_path": "ChineseBooks/缠论/缠论_卷2.pdf",
+      "sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "start_pdf_page": 192,
+      "end_pdf_page": 230,
+      "article_date": "2007-02-15 15:16:12",
+      "first_appendix_divider": {
+        "pdf_page": 196,
+        "line": 5,
+        "text": "********************"
+      },
+      "pages": [
+        {
+          "pdf_page": 192,
+          "native_text_chars": 1019,
+          "image_count": 0,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 193,
+          "native_text_chars": 27,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 194,
+          "native_text_chars": 1556,
+          "image_count": 0,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 195,
+          "native_text_chars": 1100,
+          "image_count": 0,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 196,
+          "native_text_chars": 732,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 197,
+          "native_text_chars": 27,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 198,
+          "native_text_chars": 27,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 199,
+          "native_text_chars": 27,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 200,
+          "native_text_chars": 233,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 201,
+          "native_text_chars": 745,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 202,
+          "native_text_chars": 27,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 203,
+          "native_text_chars": 868,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 204,
+          "native_text_chars": 781,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 205,
+          "native_text_chars": 1027,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 206,
+          "native_text_chars": 877,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 207,
+          "native_text_chars": 731,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 208,
+          "native_text_chars": 977,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 209,
+          "native_text_chars": 755,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 210,
+          "native_text_chars": 836,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 211,
+          "native_text_chars": 856,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 212,
+          "native_text_chars": 27,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 213,
+          "native_text_chars": 912,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 214,
+          "native_text_chars": 711,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 215,
+          "native_text_chars": 808,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 216,
+          "native_text_chars": 910,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 217,
+          "native_text_chars": 971,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 218,
+          "native_text_chars": 1115,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 219,
+          "native_text_chars": 915,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 220,
+          "native_text_chars": 340,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 221,
+          "native_text_chars": 27,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 222,
+          "native_text_chars": 708,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 223,
+          "native_text_chars": 1060,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 224,
+          "native_text_chars": 881,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 225,
+          "native_text_chars": 1005,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 226,
+          "native_text_chars": 942,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 227,
+          "native_text_chars": 785,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 228,
+          "native_text_chars": 682,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 229,
+          "native_text_chars": 106,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 230,
+          "native_text_chars": 463,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        }
+      ],
+      "original_topic_pages": [
+        {
+          "pdf_page": 192,
+          "terms": [
+            "资金管理",
+            "级别",
+            "仓位"
+          ]
+        },
+        {
+          "pdf_page": 193,
+          "terms": [
+            "资金管理"
+          ]
+        },
+        {
+          "pdf_page": 194,
+          "terms": [
+            "资金管理",
+            "级别",
+            "仓位"
+          ]
+        },
+        {
+          "pdf_page": 195,
+          "terms": [
+            "资金管理",
+            "级别",
+            "操作"
+          ]
+        },
+        {
+          "pdf_page": 196,
+          "terms": [
+            "资金管理"
+          ]
+        }
+      ],
+      "page_count": 39,
+      "text_chars": 26596,
+      "image_pages": [
+        193,
+        197,
+        198,
+        199,
+        200,
+        202,
+        212,
+        221,
+        229
+      ],
+      "low_native_text_pages": [
+        193,
+        197,
+        198,
+        199,
+        202,
+        212,
+        221
+      ]
+    },
+    {
+      "lesson": 32,
+      "title": "走势的当下与投资者的思维方式",
+      "volume": 2,
+      "pdf_path": "ChineseBooks/缠论/缠论_卷2.pdf",
+      "sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "start_pdf_page": 231,
+      "end_pdf_page": 255,
+      "article_date": "2007-02-28 08:44:37",
+      "first_appendix_divider": {
+        "pdf_page": 236,
+        "line": 11,
+        "text": "********************"
+      },
+      "pages": [
+        {
+          "pdf_page": 231,
+          "native_text_chars": 395,
+          "image_count": 0,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 232,
+          "native_text_chars": 31,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 233,
+          "native_text_chars": 1545,
+          "image_count": 0,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 234,
+          "native_text_chars": 1637,
+          "image_count": 0,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 235,
+          "native_text_chars": 110,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 236,
+          "native_text_chars": 703,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 237,
+          "native_text_chars": 31,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 238,
+          "native_text_chars": 727,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 239,
+          "native_text_chars": 1081,
+          "image_count": 0,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 240,
+          "native_text_chars": 291,
+          "image_count": 0,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 241,
+          "native_text_chars": 31,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 242,
+          "native_text_chars": 863,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 243,
+          "native_text_chars": 31,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 244,
+          "native_text_chars": 374,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 245,
+          "native_text_chars": 31,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 246,
+          "native_text_chars": 813,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 247,
+          "native_text_chars": 940,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 248,
+          "native_text_chars": 1032,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 249,
+          "native_text_chars": 893,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 250,
+          "native_text_chars": 813,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 251,
+          "native_text_chars": 1007,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 252,
+          "native_text_chars": 353,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 253,
+          "native_text_chars": 31,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 254,
+          "native_text_chars": 346,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 255,
+          "native_text_chars": 31,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        }
+      ],
+      "original_topic_pages": [
+        {
+          "pdf_page": 231,
+          "terms": [
+            "中枢",
+            "走势",
+            "当下"
+          ]
+        },
+        {
+          "pdf_page": 232,
+          "terms": [
+            "走势",
+            "当下"
+          ]
+        },
+        {
+          "pdf_page": 233,
+          "terms": [
+            "级别",
+            "中枢",
+            "走势",
+            "当下",
+            "背驰",
+            "风险",
+            "操作",
+            "第三类买点"
+          ]
+        },
+        {
+          "pdf_page": 234,
+          "terms": [
+            "级别",
+            "中枢",
+            "走势",
+            "当下",
+            "背驰",
+            "操作",
+            "第三类买点"
+          ]
+        },
+        {
+          "pdf_page": 235,
+          "terms": [
+            "走势",
+            "当下"
+          ]
+        },
+        {
+          "pdf_page": 236,
+          "terms": [
+            "走势",
+            "当下"
+          ]
+        }
+      ],
+      "page_count": 25,
+      "text_chars": 14140,
+      "image_pages": [
+        232,
+        235,
+        237,
+        241,
+        243,
+        245,
+        253,
+        255
+      ],
+      "low_native_text_pages": [
+        232,
+        237,
+        241,
+        243,
+        245,
+        253,
+        255
+      ]
+    },
+    {
+      "lesson": 33,
+      "title": "走势的多义性",
+      "volume": 2,
+      "pdf_path": "ChineseBooks/缠论/缠论_卷2.pdf",
+      "sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "start_pdf_page": 256,
+      "end_pdf_page": 270,
+      "article_date": "2007-03-02 15:20:37",
+      "first_appendix_divider": {
+        "pdf_page": 261,
+        "line": 16,
+        "text": "********************"
+      },
+      "pages": [
+        {
+          "pdf_page": 256,
+          "native_text_chars": 1471,
+          "image_count": 0,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 257,
+          "native_text_chars": 1610,
+          "image_count": 0,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 258,
+          "native_text_chars": 730,
+          "image_count": 0,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 259,
+          "native_text_chars": 23,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 260,
+          "native_text_chars": 23,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 261,
+          "native_text_chars": 1176,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 262,
+          "native_text_chars": 23,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 263,
+          "native_text_chars": 23,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 264,
+          "native_text_chars": 555,
+          "image_count": 0,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 265,
+          "native_text_chars": 23,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 266,
+          "native_text_chars": 258,
+          "image_count": 1,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 267,
+          "native_text_chars": 23,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 268,
+          "native_text_chars": 217,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 269,
+          "native_text_chars": 398,
+          "image_count": 1,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 270,
+          "native_text_chars": 189,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        }
+      ],
+      "original_topic_pages": [
+        {
+          "pdf_page": 256,
+          "terms": [
+            "级别",
+            "中枢",
+            "走势",
+            "当下",
+            "多义性"
+          ]
+        },
+        {
+          "pdf_page": 257,
+          "terms": [
+            "级别",
+            "中枢",
+            "走势",
+            "当下",
+            "多义性",
+            "背驰",
+            "第三类买点"
+          ]
+        },
+        {
+          "pdf_page": 258,
+          "terms": [
+            "级别",
+            "中枢",
+            "走势",
+            "当下",
+            "多义性",
+            "背驰"
+          ]
+        },
+        {
+          "pdf_page": 259,
+          "terms": [
+            "走势",
+            "多义性"
+          ]
+        },
+        {
+          "pdf_page": 260,
+          "terms": [
+            "走势",
+            "多义性"
+          ]
+        },
+        {
+          "pdf_page": 261,
+          "terms": [
+            "级别",
+            "中枢",
+            "走势",
+            "多义性",
+            "背驰",
+            "操作",
+            "第三类买点"
+          ]
+        }
+      ],
+      "page_count": 15,
+      "text_chars": 6742,
+      "image_pages": [
+        259,
+        260,
+        262,
+        263,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270
+      ],
+      "low_native_text_pages": [
+        259,
+        260,
+        262,
+        263,
+        265,
+        267
+      ]
+    },
+    {
+      "lesson": 34,
+      "title": "宁当面首，莫成怨男",
+      "volume": 2,
+      "pdf_path": "ChineseBooks/缠论/缠论_卷2.pdf",
+      "sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "start_pdf_page": 271,
+      "end_pdf_page": 290,
+      "article_date": "2007-03-07 15:09:54",
+      "first_appendix_divider": {
+        "pdf_page": 272,
+        "line": 25,
+        "text": "********************"
+      },
+      "pages": [
+        {
+          "pdf_page": 271,
+          "native_text_chars": 1314,
+          "image_count": 0,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 272,
+          "native_text_chars": 1129,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 273,
+          "native_text_chars": 26,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 274,
+          "native_text_chars": 26,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 275,
+          "native_text_chars": 26,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 276,
+          "native_text_chars": 26,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 277,
+          "native_text_chars": 26,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 278,
+          "native_text_chars": 209,
+          "image_count": 0,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 279,
+          "native_text_chars": 26,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 280,
+          "native_text_chars": 26,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 281,
+          "native_text_chars": 26,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 282,
+          "native_text_chars": 26,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 283,
+          "native_text_chars": 1073,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 284,
+          "native_text_chars": 699,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 285,
+          "native_text_chars": 849,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 286,
+          "native_text_chars": 26,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 287,
+          "native_text_chars": 887,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 288,
+          "native_text_chars": 909,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 289,
+          "native_text_chars": 26,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 290,
+          "native_text_chars": 291,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": false
+        }
+      ],
+      "original_topic_pages": [
+        {
+          "pdf_page": 271,
+          "terms": [
+            "走势",
+            "当下"
+          ]
+        },
+        {
+          "pdf_page": 272,
+          "terms": [
+            "级别",
+            "走势",
+            "当下",
+            "操作"
+          ]
+        }
+      ],
+      "page_count": 20,
+      "text_chars": 7646,
+      "image_pages": [
+        273,
+        274,
+        275,
+        276,
+        277,
+        279,
+        280,
+        281,
+        282,
+        286,
+        289
+      ],
+      "low_native_text_pages": [
+        273,
+        274,
+        275,
+        276,
+        277,
+        279,
+        280,
+        281,
+        282,
+        286,
+        289
+      ]
+    },
+    {
+      "lesson": 35,
+      "title": "给基础差的同学补补课",
+      "volume": 2,
+      "pdf_path": "ChineseBooks/缠论/缠论_卷2.pdf",
+      "sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "start_pdf_page": 291,
+      "end_pdf_page": 304,
+      "article_date": "2007-03-09 11:51:34",
+      "first_appendix_divider": {
+        "pdf_page": 298,
+        "line": 5,
+        "text": "********************"
+      },
+      "pages": [
+        {
+          "pdf_page": 291,
+          "native_text_chars": 1398,
+          "image_count": 0,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 292,
+          "native_text_chars": 1416,
+          "image_count": 0,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 293,
+          "native_text_chars": 1017,
+          "image_count": 0,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 294,
+          "native_text_chars": 27,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 295,
+          "native_text_chars": 27,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 296,
+          "native_text_chars": 27,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 297,
+          "native_text_chars": 27,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 298,
+          "native_text_chars": 363,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 299,
+          "native_text_chars": 27,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 300,
+          "native_text_chars": 27,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 301,
+          "native_text_chars": 288,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 302,
+          "native_text_chars": 27,
+          "image_count": 1,
+          "has_editor_dialogue_cue": false,
+          "has_appendix_divider": false
+        },
+        {
+          "pdf_page": 303,
+          "native_text_chars": 941,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": true
+        },
+        {
+          "pdf_page": 304,
+          "native_text_chars": 166,
+          "image_count": 0,
+          "has_editor_dialogue_cue": true,
+          "has_appendix_divider": false
+        }
+      ],
+      "original_topic_pages": [
+        {
+          "pdf_page": 291,
+          "terms": [
+            "级别",
+            "中枢",
+            "走势",
+            "操作"
+          ]
+        },
+        {
+          "pdf_page": 292,
+          "terms": [
+            "级别",
+            "买卖点",
+            "中枢",
+            "走势",
+            "结合律",
+            "结合性",
+            "分解",
+            "背驰",
+            "风险",
+            "操作"
+          ]
+        },
+        {
+          "pdf_page": 293,
+          "terms": [
+            "级别",
+            "买卖点",
+            "走势",
+            "分解",
+            "背驰",
+            "风险",
+            "操作"
+          ]
+        }
+      ],
+      "page_count": 14,
+      "text_chars": 5778,
+      "image_pages": [
+        294,
+        295,
+        296,
+        297,
+        299,
+        300,
+        302
+      ],
+      "low_native_text_pages": [
+        294,
+        295,
+        296,
+        297,
+        299,
+        300,
+        302
+      ]
+    }
+  ]
+}
