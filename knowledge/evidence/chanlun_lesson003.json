@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-V1-L003-FIRSTPASS-20261107",
+  "status": "firstpass_native_text_read",
+  "source": {
+    "path": "ChineseBooks/缠论/缠论_卷1.pdf",
+    "sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+    "lesson_number": 3,
+    "title": "你的喜好，你的死亡陷阱",
+    "dated_in_source": "2006-06-09 17:03:48",
+    "pdf_pages": [
+      7
+    ],
+    "next_lesson_pdf_start": 8
+  },
+  "page_audit": [
+    {
+      "pdf_page": 7,
+      "extracted_characters": 891,
+      "embedded_images": 0,
+      "text_state": "native_text_read",
+      "image_semantics_verified": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "CL003-S01",
+      "kind": "SOURCE",
+      "summary": "作者明确反对因个人喜欢某股票而改变盈利目的和判断。",
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "CL003-S02",
+      "kind": "SOURCE",
+      "summary": "作者提到市场多空陷阱与被情绪误导的买卖行为。",
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "CL003-S03",
+      "kind": "SOURCE",
+      "summary": "作者承认个体特质和努力可能影响交易结果。",
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "CL003-I04",
+      "kind": "INTERPRETATION",
+      "summary": "本课重点是批判把情感依恋伪装成交易理由。",
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "CL003-I05",
+      "kind": "INFERENCE",
+      "summary": "理性投资可以具有客观的风险偏好与非盈利目标。",
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "CL003-I06",
+      "kind": "INFERENCE",
+      "summary": "以事后涨跌定义多空陷阱，无法证明事前可识别。",
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "CL003-H07",
+      "kind": "HYPOTHESIS",
+      "summary": "强烈非证据性偏好可能增加偏离事前退出规则的倾向。",
+      "pages": [
+        7
+      ],
+      "test_status": "not_tested"
+    }
+  ],
+  "hypothesis": {
+    "id": "CL003-H01",
+    "title": "非证据性标的依恋与交易纪律偏离的关系",
+    "pages": [
+      7
+    ],
+    "status": "not_tested"
+  },
+  "caveats": [
+    "Source content is a single lesson; do not generalize anecdotes to population",
+    "No trading experiment has been run"
+  ],
+  "research_read_run": 42367037530,
+  "figure_qa_run": null
+}
