@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-V1-L001-FIRSTPASS-20261107",
+  "status": "source_text_reviewed_page4_image_pending_visual_confirmation",
+  "source": {
+    "path": "ChineseBooks/缠论/缠论_卷1.pdf",
+    "sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+    "lesson_number": 1,
+    "pdf_pages": [
+      3,
+      4,
+      5
+    ],
+    "next_lesson_pdf_start": 6,
+    "dated_in_source": "2006-06-07 18:08:15"
+  },
+  "page_audit": [
+    {
+      "pdf_page": 3,
+      "extracted_characters": 662,
+      "embedded_images": 0,
+      "method": "pymupdf_native_text",
+      "status": "read"
+    },
+    {
+      "pdf_page": 4,
+      "extracted_characters": 41,
+      "embedded_images": 1,
+      "image_dimensions": {
+        "width": 1276,
+        "height": 669
+      },
+      "ocr_characters": 527,
+      "method": "pymupdf_image_geometry+tesseract_chi_sim_eng",
+      "status": "ocr_unverified_visual_review_needed"
+    },
+    {
+      "pdf_page": 5,
+      "extracted_characters": 850,
+      "embedded_images": 0,
+      "method": "pymupdf_native_text",
+      "status": "read"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CL001-S01",
+      "kind": "SOURCE",
+      "pages": [
+        3
+      ],
+      "summary": "作者强调实战与写作的区别，并认为其他领域的成功不自动带来资本市场的成功。"
+    },
+    {
+      "id": "CL001-S02",
+      "kind": "SOURCE",
+      "pages": [
+        3
+      ],
+      "summary": "作者描述曾结合资源、汇率和资本市场背景建议朋友参与市场，朋友一度犹豫。"
+    },
+    {
+      "id": "CL001-S03",
+      "kind": "SOURCE",
+      "pages": [
+        5
+      ],
+      "summary": "朋友经历了索取荐股建议、介入后较快离场、后来在上涨中高度自信的过程。"
+    },
+    {
+      "id": "CL001-S04",
+      "kind": "SOURCE",
+      "pages": [
+        5
+      ],
+      "summary": "作者拒绝将输赢简单归因于入市资历，主张由交易理解能力区分参与者。"
+    },
+    {
+      "id": "CL001-S05",
+      "kind": "SOURCE",
+      "pages": [
+        5
+      ],
+      "summary": "作者用强烈措辞将资本市场的输赢作为评价标准。"
+    },
+    {
+      "id": "CL001-I01",
+      "kind": "INTERPRETATION",
+      "pages": [
+        3,
+        5
+      ],
+      "summary": "本课的主要任务可以理解为揭示市场参与中的认知与执行断裂。"
+    },
+    {
+      "id": "CL001-N01",
+      "kind": "INFERENCE",
+      "pages": [
+        3,
+        5
+      ],
+      "summary": "少数朋友轶事不充分证明一般市场规律，需区别行为机制与文字叙事。"
+    },
+    {
+      "id": "CL001-N02",
+      "kind": "INFERENCE",
+      "pages": [
+        5
+      ],
+      "summary": "如果以结果定义能力，会存在循环解释和结果偏差风险。"
+    },
+    {
+      "id": "CL001-H01",
+      "kind": "HYPOTHESIS",
+      "pages": [
+        3,
+        5
+      ],
+      "summary": "依赖他人推荐可能降低交易者在持仓管理中的规则一致性。",
+      "test_status": "not_tested"
+    },
+    {
+      "id": "CL001-H02",
+      "kind": "HYPOTHESIS",
+      "pages": [
+        5
+      ],
+      "summary": "上涨行情后，自评能力与实际样本外能力可能脱节。",
+      "test_status": "not_tested"
+    },
+    {
+      "id": "CL001-H03",
+      "kind": "HYPOTHESIS",
+      "pages": [
+        3,
+        5
+      ],
+      "summary": "事前决策清单可能改善高波动情境中的行为一致性。",
+      "test_status": "not_tested"
+    }
+  ],
+  "unresolved": [
+    "PDF page 4 image not yet visually confirmed; OCR labels and numerical values unreliable",
+    "No inter-lesson or inter-volume consistency audit yet",
+    "No experiments conducted",
+    "Copyright redistribution permissions not established"
+  ]
+}

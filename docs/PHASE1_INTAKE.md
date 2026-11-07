@@ -49,3 +49,11 @@ GitHub Actions 工作流结果：**success**，合成样本测试 1 项通过；
 五卷课程首标题自动检测完成：23 + 19 + 25 + 21 + 20 = **108 课**。课号连续为 1–108，无缺失、无重复；第 1 课定位在第一卷 PDF 第 3 页，第 108 课定位在第五卷 PDF 第 395 页。实际数据见 `catalog/chanlun_lesson_index.json` 与 `analyses/books/chanlun/volumes/LESSON_INDEX.md`。
 
 后续仍需完成印刷目录核对、跨页正文边界验证、图表定位与第 1 课的完整阅读；**当前不能宣称已经完成深度解读**。
+
+## 第 1 课真实原文试读（GitHub Actions #42365857442 / #42365948175）
+
+- PDF 正文边界：第一卷页 3–5，第 2 课起于第 6 页，SHA 与 108 课索引一致。
+- 第 3 页原生文本提取 662 字符、第 5 页 850 字符；第 4 页原生文字仅 41 字符，包含 1276×669 的大图。
+- 第 4 页已执行中文 OCR，得到 527 个字符，部分年份、数值和指标明显误识别；**仅证明存在带市场图表元素的图片，不用作可靠定量证据。**
+- 初次七重解读成果：`analyses/books/chanlun/chapters/lesson_001.md`；结构化证据：`knowledge/evidence/chanlun_lesson001.json`；AI 原创问题：`ai_thoughts/ideas/chanlun_lesson001_process_outcome.md`。
+- **未完成事项：**第 4 页图像的视觉复核、后续课程交叉审查、所有假说的实证验证。
