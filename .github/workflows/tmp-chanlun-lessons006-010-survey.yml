@@ -1,0 +1,22 @@
+name: Temporary source survey lessons 6–10 (bounded excerpts)
+on:
+  push:
+    branches: [feat/chanlun-lessons006-010-source-study-20261107]
+    paths:
+      - "tools/survey_chanlun_lessons006_010.py"
+      - ".github/workflows/tmp-chanlun-lessons006-010-survey.yml"
+permissions:
+  contents: read
+jobs:
+  survey:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install pinned PyMuPDF
+        run: python -m pip install --disable-pip-version-check pymupdf==1.26.7
+      - name: Read original source (fingerprint pinned; bounded excerpts only)
+        run: python -B tools/survey_chanlun_lessons006_010.py
