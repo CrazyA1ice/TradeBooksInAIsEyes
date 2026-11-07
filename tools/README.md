@@ -21,3 +21,7 @@
 - `survey_chanlun_lessons011_015.py`：第 11–15 课 PDF 只读页级结构核验和有界片段示例。
 - `verify_chanlun_lessons011_015.py`：逐课源指纹、页码、编辑层次与研究主张审计。
 - `audit_chanlun_lesson015_early_classification.py`：**早期**走势字面定义的相等边界与极值确认时间合成测试；不是市场回测。
+
+- `survey_chanlun_lessons016_020.py`：第 16–20 课的只读页级扫描，仅输出有界原文线索和结构数据。
+- `verify_chanlun_lessons016_020.py`：研究稿、证据页码、图像缺口和原始 PDF 指纹的自动验收。
+- `audit_chanlun_lesson020_center_intervals.py`：三个已完成区间交集和第三买点位置条件的合成测试，不是历史市场回测。

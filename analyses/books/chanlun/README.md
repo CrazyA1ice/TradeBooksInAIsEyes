@@ -36,3 +36,11 @@
 [第 11–15 课思想演化与前视风险](volumes/LESSONS_011_015_SYNTHESIS.md) · [第 15 课早期定义审计](../../../experiments/protocols/chanlun_lesson015_early_definitions_audit.md)
 
 **限制**：本组共 87 页，含后附问答、编者注和图片；研究稿是可追溯的第一轮文本分析，不代表逐图视觉终审或完整策略回测。p.143 编者注指出相关走势定义后期修订，必须保留不同版本。
+
+## 第四批成果：第 16–20 课
+
+[第 16 课](chapters/lesson_016.md) · [第 17 课](chapters/lesson_017.md) · [第 18 课](chapters/lesson_018.md) · [第 19 课](chapters/lesson_019.md) · [第 20 课](chapters/lesson_020.md)
+
+[中枢定义到第三买点：跨课研究](volumes/LESSONS_016_020_SYNTHESIS.md) · [中枢区间及买点收益边界审计](../../../experiments/protocols/chanlun_lesson020_center_and_third_buy_audit.md)
+
+这一组覆盖 PDF p.169–252 共 84 页，含图表与后附问答；报告为第一轮文本研究。中枢区间交集的合成测试**不构成真实交易收益证明**。
