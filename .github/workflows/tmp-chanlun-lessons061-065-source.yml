@@ -1,0 +1,19 @@
+name: Temporary original PDF text and figure intake lessons 61-65
+on:
+  push:
+    branches: [feat/chanlun-lessons061-065-source-and-parser-20261107]
+    paths:
+      - ".github/workflows/tmp-chanlun-lessons061-065-source.yml"
+      - "tools/survey_chanlun_lessons061_065.py"
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: python -m pip install --disable-pip-version-check pymupdf==1.26.7 pillow
+      - run: python -B tools/survey_chanlun_lessons061_065.py
