@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "Chanlun lessons 17–45 provisional source-backed concept map, with editorial and AI edges separately labeled",
+  "scope": "Chanlun lessons 17–50 provisional versioned concepts with PDF volume/page provenance; not complete market proof",
   "nodes": [
     {
       "id": "L17-CENTER",
@@ -212,6 +212,67 @@
         ]
       },
       "status": "original_author_holding_state_with_ai_risk_qualification"
+    },
+    {
+      "id": "L46-DAY-ASOF",
+      "claim": "Eight completed half-hour bars define full-day auxiliary central-overlap classification; interim labels cannot use future bars",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          49,
+          50
+        ]
+      },
+      "status": "original_day_classification_with_ai_asof_qualification"
+    },
+    {
+      "id": "L47-CASE-EXECUTION",
+      "claim": "Intraday 2007 example includes author-claimed exact points and explicitly recognizes T+1 next-day exit risk",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          69,
+          70,
+          72
+        ]
+      },
+      "status": "original_case_not_independently_verified"
+    },
+    {
+      "id": "L48-COST-RISK",
+      "claim": "Author repeats zero-cost-is-no-risk claim; remaining stock price risk persists under economic mark-to-market",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          83,
+          84
+        ]
+      },
+      "status": "original_strong_claim_with_ai_economic_qualification"
+    },
+    {
+      "id": "L49-PROFIT-OPTIMUM",
+      "claim": "Author claims two profit-maximizing operational modes under a fixed level but needs explicit feasible set and objective",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          95,
+          96
+        ]
+      },
+      "status": "original_theorem_claim_not_independently_proved"
+    },
+    {
+      "id": "L50-MACD-PROXY",
+      "claim": "Market structure/segments should be identified before selecting the auxiliary MACD sampling period",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          105,
+          106
+        ]
+      },
+      "status": "original_indicator_hierarchy_with_ai_resampling_caveat"
     }
   ],
   "edges": [
@@ -327,6 +388,54 @@
       "from": "L42-DECISION-REVIEW",
       "to": "L41-LEVEL-DISCIPLINE",
       "type": "behavioral_review_may_support_rule_adherence",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L46-DAY-ASOF",
+      "to": "L47-CASE-EXECUTION",
+      "type": "day_classification_used_in_intraday_example",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L45-HOLD-WAIT",
+      "to": "L49-PROFIT-OPTIMUM",
+      "type": "waiting_states_and_capital_occupancy_affect_objective",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L31-COST",
+      "to": "L48-COST-RISK",
+      "type": "economic_value_drawdown_qualifies_zero_cost_claim",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L26-DOMAIN",
+      "to": "L47-CASE-EXECUTION",
+      "type": "trading_continuity_and_execution_preconditions",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L32-CONTEMPORANEOUS",
+      "to": "L46-DAY-ASOF",
+      "type": "online_confirmation_constraint",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L37-TREND-TYPECHECK",
+      "to": "L50-MACD-PROXY",
+      "type": "structural_condition_before_indicator_strength",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L40-SHARED-INVENTORY",
+      "to": "L49-PROFIT-OPTIMUM",
+      "type": "portfolio_resource_and_cash_constraints",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L49-PROFIT-OPTIMUM",
+      "to": "L50-MACD-PROXY",
+      "type": "strategy_proof_reliant_on_reproducible_signal_measurement",
       "certainty": "ai_analysis"
     }
   ],

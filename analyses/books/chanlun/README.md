@@ -84,3 +84,11 @@
 [跨课综述：必要非充分和等待状态](volumes/LESSONS_041_045_SYNTHESIS.md) · [第44课必要条件数学审计](../../../experiments/protocols/chanlun_lesson044_necessary_not_sufficient.md) · [第45课持仓等待状态机](../../../experiments/protocols/chanlun_lesson045_hold_wait_state_machine.md)
 
 第二卷 p.378–406、第三卷 p.3–48 合计75页，包含后附资料及图像。所有项目均为首轮文本研究；缺少可靠图像审查和真实行情回测。
+
+## 第十批成果：第 46–50 课（第三卷）
+
+[第46课](chapters/lesson_046.md) · [第47课](chapters/lesson_047.md) · [第48课](chapters/lesson_048.md) · [第49课](chapters/lesson_049.md) · [第50课](chapters/lesson_050.md)
+
+[全天走势分类与利润最优命题的综合研究](volumes/LESSONS_046_050_SYNTHESIS.md) · [第46课日内标签前视审计](../../../experiments/protocols/chanlun_lesson046_online_day_classification.md) · [第49课利润目标函数审计](../../../experiments/protocols/chanlun_lesson049_objective_function_audit.md) · [第50课MACD采样边界审计](../../../experiments/protocols/chanlun_lesson050_macd_resampling_audit.md)
+
+来源：第三卷PDF p.49–116共68页（含后附材料及图片），独立SHA核对。原书高额盈利断言未经独立实证，不等于项目回测结果。

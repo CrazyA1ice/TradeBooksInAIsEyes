@@ -1,0 +1,39 @@
+name: Chanlun lessons 46–50 source, as-of and optimization audits
+on:
+  push:
+    branches: [feat/chanlun-lessons046-050-research-20261107]
+    paths:
+      - ".github/workflows/chanlun-lessons046-050-audit.yml"
+      - "tools/verify_chanlun_lessons046_050.py"
+      - "tools/audit_chanlun_lesson046_day_prefix.py"
+      - "tools/audit_chanlun_lesson049_objectives.py"
+      - "tools/audit_chanlun_lesson050_resampling.py"
+      - "tests/test_chanlun_lessons046_050.py"
+      - "tests/test_chanlun_lesson046_day_prefix.py"
+      - "tests/test_chanlun_lesson049_objectives.py"
+      - "tests/test_chanlun_lesson050_resampling.py"
+      - "catalog/chanlun_lessons046_050_source_layers.json"
+      - "knowledge/evidence/chanlun_lesson*.json"
+      - "knowledge/claims/chanlun_early_core_dependencies.json"
+      - "analyses/books/chanlun/chapters/lesson_*.md"
+      - "analyses/books/chanlun/volumes/LESSONS_046_050_SYNTHESIS.md"
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: python -B tools/verify_chanlun_lessons046_050.py
+      - run: python -B tools/audit_chanlun_lesson046_day_prefix.py
+      - run: python -B tools/audit_chanlun_lesson049_objectives.py
+      - run: python -B tools/audit_chanlun_lesson050_resampling.py
+      - run: python -B -m unittest discover -s tests -p "test_chanlun_lessons046_050.py" -v
+      - run: python -B -m unittest discover -s tests -p "test_chanlun_lesson046_day_prefix.py" -v
+      - run: python -B -m unittest discover -s tests -p "test_chanlun_lesson049_objectives.py" -v
+      - run: python -B -m unittest discover -s tests -p "test_chanlun_lesson050_resampling.py" -v

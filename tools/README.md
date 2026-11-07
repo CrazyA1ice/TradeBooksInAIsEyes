@@ -48,3 +48,9 @@
 - `verify_chanlun_lessons041_045.py`：跨卷来源、35条主张与概念图谱的完整性检查。
 - `audit_chanlun_lesson044_logic.py`：第三类买卖点必要非充分条件的命题逻辑检查，无行情。
 - `audit_chanlun_lesson045_wait_state.py`：无交易状态及待确认/成交失败的合成状态机，无真实订单。
+
+- `survey_chanlun_lessons046_050.py`：第三卷p.49–116锁定SHA的页级扫描及作者有限原文线索读取。
+- `verify_chanlun_lessons046_050.py`：新五课页码、来源、假说状态和跨卷概念图谱完整性审计。
+- `audit_chanlun_lesson046_day_prefix.py`：八根日内K线标签的合成前视限制检查。
+- `audit_chanlun_lesson049_objectives.py`：资金占用时间与期末财富排序可能不同的纯合成审计。
+- `audit_chanlun_lesson050_resampling.py`：EMA先滤波或先重采样的数值差异示例。
