@@ -1,0 +1,28 @@
+# 书籍索引（初始化草案）
+# 待处理状态不等于已经解析或验证原著。
+schema_version: 1
+books:
+  - id: BOOK-0001
+    working_title: 缠论
+    language: zh
+    status: pending_intake
+    edition: null
+    author: null
+    copyright_redistribution_status: unverified
+    note: "现有五卷文件已确认存在；书名版本、卷间关系、具体页码与授权待核对。"
+    volumes:
+      - id: BOOK-0001-V1
+        path: "ChineseBooks/缠论/缠论_卷1.pdf"
+        status: pending_parse
+      - id: BOOK-0001-V2
+        path: "ChineseBooks/缠论/缠论_卷2.pdf"
+        status: pending_parse
+      - id: BOOK-0001-V3
+        path: "ChineseBooks/缠论/缠论_卷3.pdf"
+        status: pending_parse
+      - id: BOOK-0001-V4
+        path: "ChineseBooks/缠论/缠论_卷4.pdf"
+        status: pending_parse
+      - id: BOOK-0001-V5
+        path: "ChineseBooks/缠论/缠论_卷5.pdf"
+        status: pending_parse
