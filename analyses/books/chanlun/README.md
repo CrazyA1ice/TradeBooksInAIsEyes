@@ -60,3 +60,11 @@
 [适用域、背驰与绝对性跨课研究](volumes/LESSONS_026_030_SYNTHESIS.md) · [有限区间套及信号确认时间审计](../../../experiments/protocols/chanlun_lesson027_nested_interval_audit.md)
 
 第二卷 PDF p.69–191 共 123 页，包含大量后附问答和图表。当前均为来源可追踪的文本首轮分析，图像未完成可靠视觉核对；没有真实行情回测或被证实的盈利保证。
+
+## 第七批成果：第 31–35 课（第二卷）
+
+[第 31 课](chapters/lesson_031.md) · [第 32 课](chapters/lesson_032.md) · [第 33 课](chapters/lesson_033.md) · [第 34 课](chapters/lesson_034.md) · [第 35 课](chapters/lesson_035.md)
+
+[五课跨章节研究](volumes/LESSONS_031_035_SYNTHESIS.md) · [零成本持仓风险审计](../../../experiments/protocols/chanlun_lesson031_zero_cost_basis_audit.md) · [递归定义与结合律审计](../../../experiments/protocols/chanlun_lesson035_recursive_decomposition_audit.md)
+
+另建 [早期概念依赖图](../../../knowledge/claims/chanlun_early_core_dependencies.json)。第二卷 p.192–304 共 113 页，含图表及后附资料。首轮文本解读、合成测试均不代表已实现完整逐笔走势解析或验证历史收益。

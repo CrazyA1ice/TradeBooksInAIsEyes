@@ -1,7 +1,6 @@
 {
   "schema_version": 1,
   "scope": "Chanlun lesson 17–35 provisional evidence-backed core concepts; NOT a complete axiomatic derivation",
-  "source_pdf_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
   "nodes": [
     {
       "id": "L17-CENTER",
@@ -133,5 +132,9 @@
     "Every source node includes volume + PDF page, no fabricated source content.",
     "Conceptual edges are tagged AI analysis unless explicitly given by original text.",
     "No real market backtest; no claim of unique parser or guaranteed profit."
-  ]
+  ],
+  "source_pdf_sha256_by_volume": {
+    "1": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+    "2": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66"
+  }
 }

@@ -33,3 +33,8 @@
 - `survey_chanlun_lessons026_030.py`：SHA 锁定的第二卷原文页级扫描与有界文本抽样。
 - `verify_chanlun_lessons026_030.py`：第 26–30 课证据、来源指纹、编纂分界和未验证假说核验。
 - `audit_chanlun_lesson027_nested_intervals.py`：仅对纯合成有限嵌套区间和信号确认时间作数学审计，不计算市场收益。
+
+- `survey_chanlun_lessons031_035.py`：第二卷 SHA 固定的 113 页来源和有限原文片段只读核查。
+- `verify_chanlun_lessons031_035.py`：卷号、页码、原文日期、图像缺口和概念依赖图验收。
+- `audit_chanlun_lesson031_zero_cost.py`：本金回收与剩余持仓市值风险的合成账本，不是回测。
+- `audit_chanlun_lesson035_recursion_and_associativity.py`：逐笔基例和拼接结合律边界检查，非完整走势分解程序。

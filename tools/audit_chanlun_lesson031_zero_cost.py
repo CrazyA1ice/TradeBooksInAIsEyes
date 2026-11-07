@@ -22,14 +22,14 @@ class PositionLedger:
                 "wealth_at_sale":cash+sale_mark,
                 "wealth_after_price_move":cash+later_mark,
                 "remaining_market_value_drawdown":sale_mark-later_mark,
-                "zero_economic_risk":remaining==0,
+                "no_remaining_stock_price_exposure":remaining==0,
                 "actual_market_data_used":False}
 def demo():
     r=PositionLedger(100,10,50,20,4).calculate()
     assert r["initial_capital_fully_recovered"] is True
     assert (r["wealth_at_sale"],r["wealth_after_price_move"])==(2000,1200)
     assert r["remaining_market_value_drawdown"]==800
-    assert r["zero_economic_risk"] is False
+    assert r["no_remaining_stock_price_exposure"] is False
     return r
 if __name__=="__main__":
     import json
