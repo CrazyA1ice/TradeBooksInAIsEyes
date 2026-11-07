@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "lesson": 65,
+  "state": "bounded_author_source_text_and_page_metadata_plus_selected_previews",
+  "source": {
+    "volume": 3,
+    "path": "ChineseBooks/缠论/缠论_卷3.pdf",
+    "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+    "visible_first_date": "2007-07-16 22:14:16",
+    "pdf_pages": [
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373
+    ],
+    "first_appendix_separator": 351
+  },
+  "quality": {
+    "page_count": 27,
+    "native_chars": 18889,
+    "image_pages": [
+      350,
+      352,
+      353,
+      356,
+      359,
+      366,
+      367,
+      369
+    ],
+    "visually_previewed_pages": [
+      349,
+      352,
+      355
+    ],
+    "numeric_figures_verified": false
+  },
+  "claims": [
+    {
+      "id": "CL65-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        347
+      ],
+      "summary": "作者定义上涨包含K线取高低的最大值、下跌时取最小值。"
+    },
+    {
+      "id": "CL65-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        347
+      ],
+      "summary": "作者明确指出包含关系不满足传递律，要求逐根按顺序合并。"
+    },
+    {
+      "id": "CL65-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        348
+      ],
+      "summary": "作者规定笔由顶底交替形成，并解释其中一些同类分型可忽略。"
+    },
+    {
+      "id": "CL65-SOURCE-4",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        348
+      ],
+      "summary": "作者认为线段前三笔必须重叠，非任意连续三笔都算线段。"
+    },
+    {
+      "id": "CL65-SOURCE-5",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        349
+      ],
+      "summary": "作者提出线段破坏与另一符合条件线段破坏的充要关系。"
+    },
+    {
+      "id": "CL65-INTERPRETATION-6",
+      "kind": "INTERPRETATION",
+      "volume": 3,
+      "pdf_pages": [
+        347,
+        348
+      ],
+      "summary": "分段唯一性仍依赖明确的操作规则与最低级别。"
+    },
+    {
+      "id": "CL65-INFERENCE-7",
+      "kind": "INFERENCE",
+      "volume": 3,
+      "pdf_pages": [
+        347
+      ],
+      "summary": "把两两包含当传递等价类会导致错误顺序归并。"
+    },
+    {
+      "id": "CL65-HYPOTHESIS-8",
+      "kind": "HYPOTHESIS",
+      "volume": 3,
+      "pdf_pages": [
+        347,
+        349
+      ],
+      "summary": "有序包含归并与笔线段识别在真实行情的稳定性需验证。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "Full visual review of all diagrams and precise values not completed.",
+    "Some compiled inserts have distinct authorship or chronology.",
+    "No real-market backtest; mathematical demos are synthetic."
+  ]
+}
