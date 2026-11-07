@@ -52,3 +52,11 @@
 [三类买卖点完备性与 MACD 辅助方法跨课研究](volumes/LESSONS_021_025_SYNTHESIS.md) · [MACD 部分面积不确定性审计](../../../experiments/protocols/chanlun_lesson024_macd_partial_area_audit.md)
 
 来源：第一卷 PDF p.253–337、第二卷 PDF p.3–68，共 151 页（含大量后附答疑和图像）；首轮报告不等于全部图片已核验，也没有真实行情回测。
+
+## 第六批成果：第 26–30 课（第二卷）
+
+[第 26 课](chapters/lesson_026.md) · [第 27 课](chapters/lesson_027.md) · [第 28 课](chapters/lesson_028.md) · [第 29 课](chapters/lesson_029.md) · [第 30 课](chapters/lesson_030.md)
+
+[适用域、背驰与绝对性跨课研究](volumes/LESSONS_026_030_SYNTHESIS.md) · [有限区间套及信号确认时间审计](../../../experiments/protocols/chanlun_lesson027_nested_interval_audit.md)
+
+第二卷 PDF p.69–191 共 123 页，包含大量后附问答和图表。当前均为来源可追踪的文本首轮分析，图像未完成可靠视觉核对；没有真实行情回测或被证实的盈利保证。

@@ -29,3 +29,7 @@
 - `survey_chanlun_lessons021_025.py`：跨第一/二卷双 SHA 只读来源扫描，报告卷内页码与图像缺口。
 - `verify_chanlun_lessons021_025.py`：跨卷研究报告、证据定位、假说状态与 PDF 指纹校验。
 - `audit_chanlun_lesson024_macd_partial_area.py`：仅用合成非负柱面积演示固定倍数预测的边界，不计算真实 MACD。
+
+- `survey_chanlun_lessons026_030.py`：SHA 锁定的第二卷原文页级扫描与有界文本抽样。
+- `verify_chanlun_lessons026_030.py`：第 26–30 课证据、来源指纹、编纂分界和未验证假说核验。
+- `audit_chanlun_lesson027_nested_intervals.py`：仅对纯合成有限嵌套区间和信号确认时间作数学审计，不计算市场收益。
