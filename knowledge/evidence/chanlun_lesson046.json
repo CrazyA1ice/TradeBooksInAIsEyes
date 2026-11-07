@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-V3-L46-FIRSTPASS-20261107",
+  "status": "real_pdf_excerpt_review_with_full_page_metadata_figures_unverified",
+  "source": {
+    "volume": 3,
+    "path": "ChineseBooks/缠论/缠论_卷3.pdf",
+    "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+    "lesson_number": 46,
+    "original_date": "2007-04-18 15:36:09",
+    "pdf_pages": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+    ],
+    "first_appendix_candidate": 54
+  },
+  "quality": {
+    "source_run": 42378321659,
+    "page_count": 20,
+    "native_chars": 10016,
+    "image_pages": [
+      51,
+      52,
+      53,
+      55,
+      58,
+      59,
+      60,
+      61
+    ],
+    "sparse_pages": [
+      52,
+      53,
+      55,
+      58,
+      61
+    ]
+  },
+  "claims": [
+    {
+      "id": "CL46-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        49
+      ],
+      "summary": "作者以八根30分钟K线表示一个交易日并讨论0、1、2个日内中枢。"
+    },
+    {
+      "id": "CL46-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        49
+      ],
+      "summary": "作者以前三根K线是否构成日内高低点细分一中枢平衡市。"
+    },
+    {
+      "id": "CL46-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        50
+      ],
+      "summary": "作者强调双中枢之间的单边区间和第4、5根K线位置。"
+    },
+    {
+      "id": "CL46-SOURCE-4",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        50
+      ],
+      "summary": "作者指出无中枢单边日不必保证后续趋势延续。"
+    },
+    {
+      "id": "CL46-INTERPRETATION-5",
+      "kind": "INTERPRETATION",
+      "volume": 3,
+      "pdf_pages": [
+        49,
+        50
+      ],
+      "summary": "日内分类是辅助观察而非完整的递归中枢定义。"
+    },
+    {
+      "id": "CL46-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 3,
+      "pdf_pages": [
+        49
+      ],
+      "summary": "盘中不可能先知全天极值及完整八根bar的最终标签。"
+    },
+    {
+      "id": "CL46-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 3,
+      "pdf_pages": [
+        49,
+        50
+      ],
+      "summary": "日内分类作为可得特征能否预测后续变化有待验证。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "Author's claims are not independent data verification.",
+    "Original charts and later Q&A not fully analyzed.",
+    "AI logical tests cannot prove the theory yields profits."
+  ]
+}
