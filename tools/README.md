@@ -38,3 +38,8 @@
 - `verify_chanlun_lessons031_035.py`：卷号、页码、原文日期、图像缺口和概念依赖图验收。
 - `audit_chanlun_lesson031_zero_cost.py`：本金回收与剩余持仓市值风险的合成账本，不是回测。
 - `audit_chanlun_lesson035_recursion_and_associativity.py`：逐笔基例和拼接结合律边界检查，非完整走势分解程序。
+
+- `survey_chanlun_lessons036_040.py`：第二卷p.305–377的SHA锁定来源与有限原文片段读取。
+- `verify_chanlun_lessons036_040.py`：五课证据、图像缺口、编者修订和跨卷概念图依赖验收。
+- `audit_chanlun_lesson039_branches.py`：明确标记第39课原文未覆盖的比较分支，不生成订单。
+- `audit_chanlun_lesson040_inventory.py`：多级别仓位共享库存守恒的合成检查，无真实交易。

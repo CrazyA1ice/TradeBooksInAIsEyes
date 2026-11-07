@@ -68,3 +68,11 @@
 [五课跨章节研究](volumes/LESSONS_031_035_SYNTHESIS.md) · [零成本持仓风险审计](../../../experiments/protocols/chanlun_lesson031_zero_cost_basis_audit.md) · [递归定义与结合律审计](../../../experiments/protocols/chanlun_lesson035_recursive_decomposition_audit.md)
 
 另建 [早期概念依赖图](../../../knowledge/claims/chanlun_early_core_dependencies.json)。第二卷 p.192–304 共 113 页，含图表及后附资料。首轮文本解读、合成测试均不代表已实现完整逐笔走势解析或验证历史收益。
+
+## 第八批成果：第 36–40 课
+
+[第36课](chapters/lesson_036.md) · [第37课](chapters/lesson_037.md) · [第38课](chapters/lesson_038.md) · [第39课](chapters/lesson_039.md) · [第40课](chapters/lesson_040.md)
+
+[同级别分解、背驰条件与多重赋格综述](volumes/LESSONS_036_040_SYNTHESIS.md) · [第39课规则遗漏审计](../../../experiments/protocols/chanlun_lesson039_branch_coverage_audit.md) · [第40课多级别库存审计](../../../experiments/protocols/chanlun_lesson040_multilevel_inventory_audit.md)。
+
+第二卷 p.305–377 共73页，包含图表和后续编者内容。本轮为首轮文本研究与合成测试，不代表已完成所有图像或真实市场回测。
