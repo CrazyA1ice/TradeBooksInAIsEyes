@@ -17,6 +17,9 @@ class Source(unittest.TestCase):
  def test_volume4_sha_changed(self):
     x=fixture();x[-1][4]="bad"
     with self.assertRaises(AssertionError):v(*x)
+ def test_terminal_lesson_of_vol3_ends_at_405(self):
+    x=fixture();self.assertEqual(v(*x)["pages"],100)
+    self.assertEqual(x[1]["lessons"][1]["last_page"],x[0]["volumes"][2]["pdf_page_count"])
  def test_volume_3_labeled_4(self):
     x=fixture();x[2][0]["source"]["volume"]=4
     with self.assertRaises(AssertionError):v(*x)

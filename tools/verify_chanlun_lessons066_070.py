@@ -19,7 +19,8 @@ def validate(idx,src,evidence,reports,overview,extension,base_graph,hashes):
         r=src["lessons"][n-66];e=evidence[n-66];md=reports[n-66]
         volume=3 if n<=67 else 4
         v=idx["volumes"][volume-1];k=next(i for i,x in enumerate(v["lessons"]) if x["lesson"]==n)
-        pages=list(range(v["lessons"][k]["start_pdf_page"],v["lessons"][k+1]["start_pdf_page"]))
+        end_exclusive=v["lessons"][k+1]["start_pdf_page"] if k+1<len(v["lessons"]) else v["pdf_page_count"]+1
+        pages=list(range(v["lessons"][k]["start_pdf_page"],end_exclusive))
         assert r["lesson"]==e["lesson"]==n and r["volume"]==e["source"]["volume"]==volume
         assert r["pdf_path"]==e["source"]["path"]==v["path"]
         assert r["sha256"]==e["source"]["sha256"]==hashes[volume]
