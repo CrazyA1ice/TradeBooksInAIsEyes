@@ -42,7 +42,7 @@ def audit(index,inventory,claims,reports,overview,graph,sha_by_volume):
         if n==39:assert "编者" in md and "遗漏" in md
         if n==40:assert "现金" in md and "库存" in md
     assert "73" in overview and "唯一性" in overview and "编者" in overview
-    for n in range(36,41):assert f"lesson_{n}.md" in overview
+    for n in range(36,41):assert f"lesson_{n:03d}.md" in overview
     assert graph["source_pdf_sha256_by_volume"]=={str(k):v for k,v in sha_by_volume.items()}
     nodes={node["id"]:node for node in graph["nodes"]}
     assert len(nodes)==len(graph["nodes"]) and len(nodes)>=13
