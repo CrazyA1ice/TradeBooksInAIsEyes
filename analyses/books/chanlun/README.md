@@ -12,3 +12,11 @@
 - `final_review.md`：未来完成的全系列独立长评（尚未创建）。
 
 整体标准见 `docs/ANALYSIS_STANDARD.md`。
+
+## 第一批研究成果
+
+[第 1 课](chapters/lesson_001.md) · [第 2 课](chapters/lesson_002.md) · [第 3 课](chapters/lesson_003.md) · [第 4 课](chapters/lesson_004.md) · [第 5 课](chapters/lesson_005.md)
+
+[前五课的思想链与争议](volumes/LESSONS_001_005_SYNTHESIS.md) · [AI 独立思想](../../../ai_thoughts/ideas/chanlun_lessons001_005_observation_action.md)
+
+以上均为首轮分析，且未实施实验或计算收益。

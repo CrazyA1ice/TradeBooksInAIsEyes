@@ -11,3 +11,5 @@
 - `verify_chanlun_lesson1_analysis.py`：首课研究报告与证据档案的基本一致性审计。
 
 图表精确识别和跨书研究仍未实现。
+
+- `verify_chanlun_lessons002_005.py`：校验第 2–5 课的指纹、页码、未验证假说、图像不确定性及跨课关系。
