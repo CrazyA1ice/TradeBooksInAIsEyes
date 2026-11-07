@@ -12,6 +12,8 @@ ROOT = Path(__file__).resolve().parents[1]
 FILES = [ROOT / "ChineseBooks" / "缠论" / f"缠论_卷{i}.pdf" for i in range(1, 6)]
 HEADING = re.compile(r"^\s*(?:第[一二三四五六七八九十百千〇零两0-9]+[编篇章节课讲回]|[0-9]{1,3}[、.．]\s*[^0-9])")
 
+LESSON_HEADER = re.compile(r"^教你炒股票\s*([0-9]{1,3})\s*[：:]\s*(.{2,100})$")
+
 def normalize(text: str) -> str:
     return " ".join(text.split())
 
@@ -30,11 +32,18 @@ def inspect_one(path: Path, limit: int = 35) -> dict:
             for level, title, page in toc[:80]]
         nonempty = native = image_pages = total_chars = 0
         empty_pages, sparse_pages, headings, previews, page_errors = [], [], [], [], []
+        lessons = {}
         for idx in range(len(doc)):
             pn = idx + 1
             try:
                 page = doc.load_page(idx)
                 txt = page.get_text("text", sort=True)
+                for raw in txt.splitlines()[:12]:
+                    match = LESSON_HEADER.match(normalize(raw))
+                    if match:
+                        number = int(match.group(1))
+                        if 1 <= number <= 200 and number not in lessons:
+                            lessons[number] = {"lesson": number, "title": match.group(2).strip(), "start_pdf_page": pn}
                 chars = len(txt.strip())
                 total_chars += chars
                 image_pages += int(bool(page.get_images(full=True)))
@@ -64,7 +73,8 @@ def inspect_one(path: Path, limit: int = 35) -> dict:
             "text_character_count": total_chars,
             "page_errors": page_errors[:60],
             "heading_candidates_first_pages": headings[:60],
-            "first_text_previews": previews})
+            "first_text_previews": previews,
+            "lesson_starts": [lessons[k] for k in sorted(lessons)]})
     return info
 
 def main() -> None:
@@ -90,6 +100,7 @@ def main() -> None:
             "path": item["path"], "embedded": item["embedded_toc_preview"][:30],
             "candidates": item["heading_candidates_first_pages"][:30],
             "sample": item["first_text_previews"][:3]}, ensure_ascii=False), flush=True)
+    print("LESSONS " + json.dumps({"path": item["path"], "lessons": item["lesson_starts"]}, ensure_ascii=False), flush=True)
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f'INVENTORY_DONE volumes={len(report["volumes"])} path={args.out}', flush=True)

@@ -12,6 +12,14 @@ REPO = Path(__file__).resolve().parents[1]
 SCRIPT = REPO / "tools" / "inspect_chanlun_sources.py"
 
 class ChanlunInventoryTests(unittest.TestCase):
+    def test_lesson_header(self):
+        import runpy
+        pat = runpy.run_path(str(SCRIPT))["LESSON_HEADER"]
+        ok = pat.match("教你炒股票24：MACD 对背弛的辅助判断")
+        self.assertIsNotNone(ok)
+        self.assertEqual(int(ok.group(1)), 24)
+        self.assertIsNone(pat.match("1. 网友评论：这不是章节标题"))
+
     def test_five_volume_readonly_inventory(self):
         with tempfile.TemporaryDirectory() as td:
             root = Path(td)
