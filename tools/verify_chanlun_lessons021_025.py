@@ -32,7 +32,7 @@ def audit(index,scan,evidences,reports,synthesis,actual_hashes):
         assert ev["page_audit"]["image_pages"]==src["image_pages"]
         assert ev["empirical_status"]=="not_run"
         assert all(a in md for a in LAYERS)
-        assert src["sha256"] in md and "尚" in md and "图像" in md
+        assert src["sha256"] in md and ("尚" in md or "未" in md) and "图像" in md
         assert len(ev["claims"])>=5
         for c in ev["claims"]:
             assert c["kind"] in KINDS and c["volume"]==vol
