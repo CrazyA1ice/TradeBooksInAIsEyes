@@ -116,3 +116,11 @@
 [五课来源和逻辑综合](volumes/LESSONS_061_065_SYNTHESIS.md) · [96页及8页视觉预览来源报告](../../../reports/source_inventory/chanlun_lessons061_065_source_and_figure_review.md) · [有序K线包含局部审计](../../../experiments/protocols/chanlun_lessons062_065_online_containment.md) · [0.5点容差非传递检查](../../../experiments/protocols/chanlun_lesson064_tolerance_nontransitive.md)。
 
 特别注意：第61课开头2010日期与编入的2007行情不同；第62课p.295“新笔定义”暂列后附修订版候选，不能覆盖2007原文。局部合成代码还不是完整走势解析器。图内小字和行情价位未可靠核验。
+
+## 第十四批研究：第66–70课（第三卷至第四卷跨卷）
+
+[第66课](chapters/lesson_066.md) · [第67课](chapters/lesson_067.md) · [第68课](chapters/lesson_068.md) · [第69课](chapters/lesson_069.md) · [第70课](chapters/lesson_070.md)。
+
+[综合](volumes/LESSONS_066_070_SYNTHESIS.md) · [第67课特征序列缺口双情形](../../../experiments/protocols/chanlun_lesson067_two_case_feature_sequence.md) · [第68课完整条件分类](../../../experiments/protocols/chanlun_lesson068_piecewise_policy.md) · [第69/70课候选版本日志](../../../experiments/protocols/chanlun_lessons069_070_revision_events.md)。
+
+原始第三卷p.374–405（32页）和第四卷p.3–70（68页）已SHA锁定，全100页结构核查；仅十页原书缩略图目视检查，价格数值未完整核准。第67课原著及编辑争论版本共存。跨卷新概念在`knowledge/claims/chanlun_lessons066_070_crossvolume_dependencies.json`单独维护以保留历史审计兼容性。

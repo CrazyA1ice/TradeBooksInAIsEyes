@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "lesson": 70,
+  "state": "bounded_verified_original_excerpts_and_page_level_inventory_figure_numeric_unverified",
+  "source": {
+    "volume": 4,
+    "path": "ChineseBooks/缠论/缠论_卷4.pdf",
+    "sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+    "original_date": "2007-08-15 22:41:35",
+    "pdf_pages": [
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+    ],
+    "first_appendix_separator": 60
+  },
+  "quality": {
+    "page_count": 19,
+    "native_chars": 8655,
+    "image_pages": [
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      62,
+      67,
+      69
+    ],
+    "visual_preview_pages": [
+      55,
+      60
+    ],
+    "numeric_chart_values_verified": false
+  },
+  "claims": [
+    {
+      "id": "CL70-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 4,
+      "pdf_pages": [
+        52
+      ],
+      "summary": "作者给出5分钟中枢后第三买、第三卖或延伸扩展的分类。"
+    },
+    {
+      "id": "CL70-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 4,
+      "pdf_pages": [
+        52,
+        53
+      ],
+      "summary": "作者把同一走势的决策按30分钟、5分钟和1分钟不同操作级别区分。"
+    },
+    {
+      "id": "CL70-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 4,
+      "pdf_pages": [
+        53
+      ],
+      "summary": "作者承认新的5分钟中枢划分可先暂定并随真实走势优化。"
+    },
+    {
+      "id": "CL70-SOURCE-4",
+      "kind": "SOURCE",
+      "volume": 4,
+      "pdf_pages": [
+        53
+      ],
+      "summary": "作者讨论MACD比较段及一分钟走势背驰实例。"
+    },
+    {
+      "id": "CL70-EDITORIAL-5",
+      "kind": "EDITORIAL",
+      "volume": 4,
+      "pdf_pages": [
+        53
+      ],
+      "summary": "后附注指出某点背驰的1分钟或5分钟级别表述不一致。"
+    },
+    {
+      "id": "CL70-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 4,
+      "pdf_pages": [
+        52,
+        53
+      ],
+      "summary": "最终分类不等于中枢初成时已知道将选择哪条路径。"
+    },
+    {
+      "id": "CL70-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 4,
+      "pdf_pages": [
+        52,
+        53
+      ],
+      "summary": "三路径在线确认与暂定中枢版本稳定性需要实测。",
+      "test_status": "not_tested"
+    }
+  ],
+  "real_market_tests": "not_run",
+  "limitations": [
+    "Original and later-editorial layers are distinct.",
+    "No detailed numeric verification of charts.",
+    "No real-market predictive validation."
+  ]
+}
