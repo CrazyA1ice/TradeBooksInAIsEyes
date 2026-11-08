@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "CL35-LOWEST-LEVEL-TREND-TERMINAL-CONDITIONAL-V1",
+  "scope": "AUTHOR_MAIN_IN_COMPILATION_TEXT_CONDITIONAL_ONLY_NOT_A_COMPLETE_CENTER_PARSER",
+  "original_pdf": {
+    "path": "ChineseBooks/缠论/缠论_卷2.pdf",
+    "sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+    "physical_page": 291,
+    "native_text_sha256": "1a2c291cff189ea4de5bef2ecf152e9888773d1194b0ed4e7218f4cd0f3b846b",
+    "claim_id": "CL35-SO-9",
+    "historical_first_publication_verified": false
+  },
+  "author_conditional_rules": [
+    {
+      "id": "initial_trend_pair",
+      "min_centers": 2,
+      "up_relation": "HIGHER",
+      "down_relation": "LOWER"
+    },
+    {
+      "id": "continuation_from_third",
+      "min_ordinal": 3,
+      "up_relation": "HIGHER",
+      "down_relation": "LOWER"
+    },
+    {
+      "id": "up_terminal_from_third",
+      "min_ordinal": 3,
+      "relations": [
+        "EQUAL",
+        "LOWER"
+      ]
+    },
+    {
+      "id": "down_terminal_from_third",
+      "min_ordinal": 3,
+      "relations": [
+        "EQUAL",
+        "HIGHER"
+      ]
+    }
+  ],
+  "comparison_meaning": "SYMBOLIC_CENTER_RANK_RELATION_GIVEN_EXTERNALLY_NOT_DERIVED_FROM_ZONE_PRICE",
+  "asof_semantics": "AI_CAUSAL_GUARD_ON_SYNTHETIC_CONFIRMATION_TIMES_NOT_ORIGINAL_REALTIME_PROOF",
+  "required_unverified": [
+    "source_legal_lowest_level_centers",
+    "author_center_relative_height_semantics",
+    "center_completion_confirmation_time",
+    "continuous_non_overlapping_center_membership",
+    "same_frozen_historical_rule_version"
+  ],
+  "complete_lowest_level_parser": false,
+  "legal_trend_completed_certified": false,
+  "may_feed_verified_higher_center": false,
+  "author_uniqueness_proven": false,
+  "real_market_data_accessed": false,
+  "market_backtest": "NOT_RUN"
+}

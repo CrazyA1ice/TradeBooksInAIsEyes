@@ -98,6 +98,23 @@
       "summary": "作者指出 T+1、交易费和执行误差会限制低级别操作。"
     },
     {
+      "id": "CL35-SO-9",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        291
+      ],
+      "summary": "作者讨论最低级别中枢递推时，将第N个中枢（N>2）不再高于前一中枢（相等或低于）作为上涨结束条件，最低级别下跌情形反向。",
+      "source_anchor": {
+        "pdf_volume_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+        "native_text_sha256": "1a2c291cff189ea4de5bef2ecf152e9888773d1194b0ed4e7218f4cd0f3b846b",
+        "physical_pdf_page": 291,
+        "role": "AUTHOR_MAIN_IN_COMPILATION",
+        "historical_first_publication_not_independently_proven": true,
+        "comparison_of_center_price_intervals_not_fully_specified_here": true
+      }
+    },
+    {
       "id": "CL35-IN-6",
       "kind": "INTERPRETATION",
       "volume": 2,
