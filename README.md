@@ -60,3 +60,7 @@
 ## 走势结构实验室：无前视前缀回放 v1（仅合成数据）
 
 已开始[时间门、固定方向K线包含、三K线分型候选及旧/新笔必要条件](docs/CHANLUN_PREFIX_REPLAY_LAB_V1.md)的真实可运行程序，并提供[多前缀版本差异审计](tools/audit_chanlun_prefix_version_comparison_v1.py)。不会从未来K线偷取确认，不强行把未知编注当作历史已发布规则。**该版本只接受显式人工合成行情**，不是完整笔/线段/中枢解析器，也不是实证回测或可交易策略。
+
+## 增量结构事件实验室 V2（2026-11-08）
+
+已建立[不可变分型/笔候选事件与严格特征序列必要条件](docs/CHANLUN_INCREMENTAL_EVENTS_V2.md)：逐根已完成合成K线生成`OPEN / REVISE / RETRACT / REOPEN`，追踪每个候选真实观察时刻和前缀SHA；第67/71课无缺口、有缺口待反向确认、独立序列STRICT/AUXILIARY成员的反例均可审计。它只是在上一版V1局部候选之上增加**证据修订与边界**，**未**实现完整笔、线段、走势中枢或真实回测。可运行`python -B tools/audit_chanlun_incremental_witnesses_v2.py`查看纯合成审计。

@@ -142,3 +142,7 @@
 `tools/audit_chanlun_prefix_version_comparison_v1.py`：四个历史截点、两个不同版本的跨前缀因果隔离比较，验证后附未来序列不改变过去结果。
 
 可单行运行`python -B tools/audit_chanlun_prefix_version_comparison_v1.py`，详见`docs/CHANLUN_PREFIX_REPLAY_LAB_V1.md`。本阶段拒绝真实行情类型、拒绝隐性未来确认，不读写用户A股数据库。
+
+## 增量证据事件与第67/71课特征序列局部门 v2
+
+`tools/chanlun_incremental_events_v2.py`：闭合K线的不可变分型/笔局部门事件；`tools/audit_chanlun_incremental_witnesses_v2.py`：同时展示实际`REVISE`、`RETRACT`和严格三元素特征序列反例。单行运行：`python -B tools/audit_chanlun_incremental_witnesses_v2.py`。仅合成数据、只读，无完整交易体系。

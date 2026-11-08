@@ -5,6 +5,7 @@ on:
     paths:
       - ".github/workflows/chanlun-incremental-events-v2-audit.yml"
       - "tools/chanlun_incremental_events_v2.py"
+      - "tools/audit_chanlun_incremental_witnesses_v2.py"
       - "tools/chanlun_event_lab_v1.py"
       - "tests/test_chanlun_incremental_events_v2.py"
       - "catalog/chanlun_rule_history_v1.json"
@@ -26,4 +27,5 @@ jobs:
       - run: python -B tools/chanlun_incremental_events_v2.py
       - run: python -B tools/chanlun_incremental_events_v2.py --rule pen_077_exposition --attested-known-at "2007-09-19T09:00:00+08:00" --proof-ref synthetic-research-availability
       - run: python -B tools/chanlun_incremental_events_v2.py --rule pen_081_later_dated_post --attested-known-at "2007-09-19T09:00:00+08:00" --proof-ref synthetic-research-availability
+      - run: python -B tools/audit_chanlun_incremental_witnesses_v2.py
       - run: python -B tools/audit_chanlun_unified_knowledge.py --verify
