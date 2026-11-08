@@ -22,7 +22,7 @@ NEW={"version_id":"pen_081_later_dated_post","attested_known_at":"2007-09-19T09:
 
 def replay(bars=None,**kw):
     return lab.replay(FIX["bars"] if bars is None else bars,
-                      market_asof=kw.get("market_asof",T),
+                      data_kind="synthetic_non_market_fixture",market_asof=kw.get("market_asof",T),
                       direction=kw.get("direction","UP"),
                       rule_pin=kw.get("rule_pin",OLD),registry=kw.get("registry",REG))
 
@@ -34,6 +34,9 @@ def err_bar(field,value):
 class MarketContract(unittest.TestCase):
     def test_fixture_only_marked_synthetic(self):
         self.assertEqual(FIX["kind"],"synthetic_non_market_fixture")
+    def test_unlabelled_or_real_data_rejected(self):
+        with self.assertRaisesRegex(ValueError,"synthetic"):
+            lab.replay(FIX["bars"],data_kind="real_market",market_asof=T,direction="UP")
     def test_exact_decimals_and_no_floats(self):
         err_bar("high",7.0)
         err_bar("low","NaN")
