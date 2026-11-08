@@ -68,3 +68,7 @@
 ## 缠论笔候选前沿 V3（只读人工合成）
 
 在[增量事件V2](docs/CHANLUN_INCREMENTAL_EVENTS_V2.md)基础上新增[保守笔前沿与线段类型隔离](docs/CHANLUN_PEN_FRONTIER_V3.md)：同类分型替换极端值，等价极值显式待定、相反分型需通过冻结规则的局部必要门；新版终点出现时撤销旧候选且不更改历史事件。仅将局部笔投影为`UNDETERMINED`特征，**禁止在没有完整笔证明时将它转入正式线段**。对应[独立合成审计](tools/audit_chanlun_pen_frontier_witnesses_v3.py)。完整笔、线段、中枢、真实行情和收益仍未完成。
+
+## V4：历史行情订正双时钟与完整笔证据闸门
+
+[缠论市场订正时间轴及完整笔认证所需证据V4](docs/CHANLUN_REVISION_PROOF_GATES_V4.md)已增加实际可执行的**合成来源版本**变更实验：更正发生前后，`as-of`快照分别保持原价/修订价，旧候选带旧版本来源指纹，修订后的新来源不得复用旧候选身份。任何自报“证据已验”只能提交审核请求，**一律不能升级完整笔或STRICT线段成员**；没有接入真实市场数据或交易。可单行运行`python -B tools/audit_chanlun_revision_causal_witness_v4.py`。

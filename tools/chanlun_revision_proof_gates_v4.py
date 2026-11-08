@@ -91,7 +91,7 @@ def asof_restatement(bars, corrections, *, market_asof, rule_pin, direction="UP"
     """
     require(direction in ("UP","DOWN"),"Explicit frozen containment direction required")
     parsed=_verify_source(bars)
-    history=validate_journal(bars,corrections)
+    validate_journal(bars,corrections)
     clock=dt(market_asof)
     observed=[e for e in corrections if dt(e["received_at"])<=clock]
     raw=copy.deepcopy(bars)

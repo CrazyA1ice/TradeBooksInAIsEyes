@@ -5,6 +5,7 @@ on:
     paths:
       - ".github/workflows/chanlun-revision-proof-v4-audit.yml"
       - "tools/chanlun_revision_proof_gates_v4.py"
+      - "tools/audit_chanlun_revision_causal_witness_v4.py"
       - "tests/test_chanlun_revision_proof_gates_v4.py"
       - "tools/chanlun_pen_frontier_v3.py"
       - "tools/chanlun_incremental_events_v2.py"
@@ -31,4 +32,5 @@ jobs:
       - run: python -B tools/chanlun_revision_proof_gates_v4.py --asof "2007-09-20T01:40:50+00:00"
       - run: python -B tools/chanlun_revision_proof_gates_v4.py --asof "2007-09-20T01:41:01+00:00"
       - run: python -B tools/chanlun_revision_proof_gates_v4.py --asof "2007-09-20T02:00:00+00:00" --rule pen_081_later_dated_post
+      - run: python -B tools/audit_chanlun_revision_causal_witness_v4.py
       - run: python -B tools/audit_chanlun_unified_knowledge.py --verify
