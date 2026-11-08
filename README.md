@@ -56,3 +56,7 @@
 ## 108课统一索引（第一版）
 
 第1–108课首轮研究覆盖之后，已经将**108份逐课证据、10份关系图谱（84个研究节点、145条关系）以及16条有来源角色的规则/编辑争议记录**整合到[只读统一索引](knowledge/claims/chanlun_unified_index_v1.json)。[来源与定义版本工作规范](docs/CHANLUN_UNIFIED_KNOWLEDGE.md)规定日期和证据边界：附编、后发新笔、作者原文及AI解释不可无来源合并；有原书时间不等于真实行情当时可用。可用`python -B tools/audit_chanlun_unified_knowledge.py --verify`复查，或按课号、节点和规则家族查询；**未实现完整走势解析器或真实收益验证**。
+
+## 走势结构实验室：无前视前缀回放 v1（仅合成数据）
+
+已开始[时间门、固定方向K线包含、三K线分型候选及旧/新笔必要条件](docs/CHANLUN_PREFIX_REPLAY_LAB_V1.md)的真实可运行程序，并提供[多前缀版本差异审计](tools/audit_chanlun_prefix_version_comparison_v1.py)。不会从未来K线偷取确认，不强行把未知编注当作历史已发布规则。**该版本只接受显式人工合成行情**，不是完整笔/线段/中枢解析器，也不是实证回测或可交易策略。

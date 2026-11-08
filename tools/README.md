@@ -134,3 +134,11 @@
 `python -B tools/audit_chanlun_unified_knowledge.py --verify --family pen`：研究规则家族内按来源日期的多版本及编注冲突，未知来源时间保持null。
 
 请勿将文献署时当成行情`asof`，也不要将合成逻辑测试当成盈利实测。详见`docs/CHANLUN_UNIFIED_KNOWLEDGE.md`。
+
+## 缠论封闭K线前缀回放与版本化笔局部条件v1
+
+`tools/chanlun_event_lab_v1.py`：完全独立的**人工合成**源序列as-of回放工具，使用固定UP/DOWN包含方向与可修订三K线局部分型，笔旧版/后发新候选分别计算必要条件，不得假设完整笔成立。
+
+`tools/audit_chanlun_prefix_version_comparison_v1.py`：四个历史截点、两个不同版本的跨前缀因果隔离比较，验证后附未来序列不改变过去结果。
+
+可单行运行`python -B tools/audit_chanlun_prefix_version_comparison_v1.py`，详见`docs/CHANLUN_PREFIX_REPLAY_LAB_V1.md`。本阶段拒绝真实行情类型、拒绝隐性未来确认，不读写用户A股数据库。
