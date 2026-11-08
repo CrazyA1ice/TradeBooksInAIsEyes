@@ -32,6 +32,10 @@ on:
       - "tests/test_chanlun_center_order_completion.py"
       - "tests/test_chanlun_primitive_trades_prefix.py"
       - "tests/test_chanlun_primitive_run_lifecycle.py"
+      - "tests/test_chanlun35_author_base_center_axiom.py"
+      - "tests/fixtures/chanlun35_author_base_center_axiom_cases_v1.json"
+      - "tools/audit_chanlun35_author_base_center_axiom.py"
+      - "catalog/chanlun35_author_base_center_axiom_v1.json"
       - "tests/fixtures/chanlun_primitive_run_lifecycle_cases_v1.json"
       - "tools/audit_chanlun_primitive_run_lifecycle.py"
       - "catalog/chanlun_primitive_run_lifecycle_v1.json"
@@ -128,6 +132,10 @@ jobs:
         run: python -B tools/audit_chanlun_primitive_run_lifecycle.py
       - name: Reject false completed centers, causal leaks and illegal downstream casts
         run: python -B -m unittest discover -s tests -p 'test_chanlun_primitive_run_lifecycle.py' -v
+      - name: Validate author p291 sufficient lowest-center definition in synthetic events
+        run: python -B tools/audit_chanlun35_author_base_center_axiom.py
+      - name: Deny forging actual executions, completed trends or recursive center promotion
+        run: python -B -m unittest discover -s tests -p 'test_chanlun35_author_base_center_axiom.py' -v
       - name: Verify as-of-only visualization and matched-future branches (offline Node)
         run: node tests/test_chanlun_asof_player.mjs
       - name: Assemble offline materials from canonical originals in runner temp
