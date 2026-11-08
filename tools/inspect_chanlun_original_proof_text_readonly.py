@@ -119,7 +119,7 @@ def main() -> int:
                 page_hash = hashlib.sha256(txt.encode("utf-8")).hexdigest()
                 if page_hash != EXPECTED_TEXT_SHA256[(vol, number)]:
                     raise ValueError(f"Native original text changed at volume {vol} p.{number}")
-                normalized = re.sub(r"\\s+", " ", txt)
+                normalized = " ".join(txt.split())
                 for needle in REQUIRED_TEXT_ANCHORS.get((vol, number), []):
                     if needle not in normalized:
                         raise ValueError(f"Missing source wording {needle!r} at volume {vol} p.{number}")
