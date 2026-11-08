@@ -194,7 +194,9 @@ def rule_gate(registry, pin, asof):
             "attested_known_at":attested.isoformat(),"proof_kind":pin["proof_kind"],
             "trade_ready":False}
 
-def replay(raw_bars, *, market_asof, direction, rule_pin=None, registry=None):
+def replay(raw_bars, *, data_kind, market_asof, direction, rule_pin=None, registry=None):
+    if data_kind != "synthetic_non_market_fixture":
+        raise ValueError("Phase 1 accepts explicitly synthetic data only; no real-market claim")
     asof=dt(market_asof)
     if not isinstance(raw_bars,list) or not raw_bars:
         raise ValueError("Nonempty chronological market bar list required")
@@ -255,6 +257,6 @@ def main():
         raise ValueError("Provide --rule, --attested-known-at and --proof-ref together")
     pin=({"version_id":args.rule,"attested_known_at":args.attested_known_at,
           "proof_ref":args.proof_ref,"proof_kind":"synthetic_fixture"} if args.rule else None)
-    print(json.dumps(replay(fixture["bars"],market_asof=args.asof,direction=args.direction,
+    print(json.dumps(replay(fixture["bars"],data_kind=fixture["kind"],market_asof=args.asof,direction=args.direction,
                             rule_pin=pin),ensure_ascii=False,sort_keys=True,indent=2))
 if __name__=="__main__":main()
