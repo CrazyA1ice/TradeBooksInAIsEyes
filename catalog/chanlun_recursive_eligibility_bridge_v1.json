@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "contract_id": "CHANLUN-RECURSIVE-ELIGIBILITY-ONLY-V1",
+  "scope": "CONDITIONAL_NECESSARY_SOURCE_RULES_NOT_COMPLETE_PARSE",
+  "original_publication_independently_checked": false,
+  "original_author_claims": [
+    {
+      "id": "L17-THREE-CONTINUOUS",
+      "lesson": 17,
+      "volume": 1,
+      "page": 197,
+      "claim_id": "CL017-S02",
+      "concept": "HIGHER_CENTER_REQUIRES_3_CONSECUTIVE_LOWER_TYPES_WITH_OVERLAP",
+      "source_role": "SOURCE_IN_COMPILED_PDF",
+      "native_text_sha256": "6aaecd9ad072715180c28c4bac0cdc2e5135604d17e26cabae449c8e47ec2936"
+    },
+    {
+      "id": "L35-LOWEST-BASE",
+      "lesson": 35,
+      "volume": 2,
+      "page": 291,
+      "claim_id": "CL35-SO-2",
+      "concept": "LOWEST_LEVEL_BASE_THREE_SAME_PRICE_TRADES",
+      "source_role": "SOURCE_IN_COMPILED_PDF",
+      "native_text_sha256": "1a2c291cff189ea4de5bef2ecf152e9888773d1194b0ed4e7218f4cd0f3b846b"
+    },
+    {
+      "id": "L35-RECURSIVE-STEP",
+      "lesson": 35,
+      "volume": 2,
+      "page": 291,
+      "claim_id": "CL35-SO-3",
+      "concept": "HIGHER_CENTER_RECURSIVE_3_LOWER_TYPES_WITH_OVERLAP",
+      "source_role": "SOURCE_IN_COMPILED_PDF",
+      "native_text_sha256": "1a2c291cff189ea4de5bef2ecf152e9888773d1194b0ed4e7218f4cd0f3b846b"
+    },
+    {
+      "id": "L35-ASSOCIATIVITY",
+      "lesson": 35,
+      "volume": 2,
+      "page": 292,
+      "claim_id": "CL35-SO-4",
+      "concept": "CONNECTION_ASSOCIATIVE_NOT_UNIQUE_BOUNDARIES",
+      "source_role": "SOURCE_IN_COMPILED_PDF",
+      "native_text_sha256": "f253ed2039c756133443ac2b43a846ef8ba06de3bcfe34e75f78a1ed635d9f37"
+    },
+    {
+      "id": "L38-FIXED-G",
+      "lesson": 38,
+      "volume": 2,
+      "page": 338,
+      "claim_id": "CL38-SOURCE-1",
+      "concept": "SELECTED_LEVEL_IS_FIXED",
+      "source_role": "SOURCE_IN_COMPILED_PDF",
+      "native_text_sha256": "369d79117897f949976704c21e81818f9e75899b0e925f637c581c32e1b21da7"
+    },
+    {
+      "id": "L38-ASYMMETRIC",
+      "lesson": 38,
+      "volume": 2,
+      "page": 339,
+      "claim_id": "CL38-SOURCE-2",
+      "concept": "SELECTED_AND_LOWER_LEVEL_CONNECTION_POLICIES_DIFFER",
+      "source_role": "SOURCE_IN_COMPILED_PDF",
+      "native_text_sha256": "1f48433d41259c6f82e4f5233dccd3728c823e9ab3723fe3ac77a06697689ce8"
+    }
+  ],
+  "author_verified_original_pdf_sha256": {
+    "1": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+    "2": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66"
+  },
+  "premise_slots": [
+    {
+      "id": "three_completed_consecutive_eligible_subtypes",
+      "status": "EXTERNAL_NOT_VERIFIED"
+    },
+    {
+      "id": "one_frozen_rule_version_across_all_subtypes",
+      "status": "EXTERNAL_NOT_VERIFIED"
+    },
+    {
+      "id": "subtype_intervals_come_from_verified_source",
+      "status": "EXTERNAL_NOT_VERIFIED"
+    },
+    {
+      "id": "child_to_parent_level_mapping_is_author_consistent",
+      "status": "EXTERNAL_NOT_VERIFIED"
+    },
+    {
+      "id": "unique_cut_boundary_and_extension_precedence",
+      "status": "EXTERNAL_NOT_VERIFIED"
+    },
+    {
+      "id": "point_touch_vs_positive_width_author_semantics",
+      "status": "EXTERNAL_NOT_VERIFIED"
+    }
+  ],
+  "interval_model": "AI_CLOSED_INTERVAL_SET_INTERSECTION_ONLY",
+  "complete_rule_R_g_available": false,
+  "conditional_center_is_certified": false,
+  "lesson38_uniqueness_proven": false,
+  "lesson99_eventual_center_proven": false,
+  "empirical_market_backtest": "NOT_RUN"
+}
