@@ -1,0 +1,1035 @@
+{
+  "schema_version": 1,
+  "contract_id": "CL35-EVENT-DERIVED-LOWEST-CENTER-PRICE-ORDER-V1",
+  "synthetic_only": true,
+  "cases": [
+    {
+      "id": "no_center",
+      "input": {
+        "kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+        "as_of": "2026-11-09T00:01:00+00:00",
+        "events": [
+          {
+            "trade_id": 1,
+            "observed_at": "2026-11-09T00:00:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 2,
+            "observed_at": "2026-11-09T00:01:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          }
+        ]
+      },
+      "expected": {
+        "status": "NO_VISIBLE_LOWEST_CENTER_INSTANCE",
+        "center_count": 0,
+        "first_terminal_center_ordinal": null,
+        "relations": []
+      }
+    },
+    {
+      "id": "one_center",
+      "input": {
+        "kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+        "as_of": "2026-11-09T00:02:00+00:00",
+        "events": [
+          {
+            "trade_id": 1,
+            "observed_at": "2026-11-09T00:00:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 2,
+            "observed_at": "2026-11-09T00:01:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 3,
+            "observed_at": "2026-11-09T00:02:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          }
+        ]
+      },
+      "expected": {
+        "status": "ONE_CENTER_POSSIBLE_CONSOLIDATION_NOT_COMPLETED",
+        "center_count": 1,
+        "first_terminal_center_ordinal": null,
+        "relations": [
+          "BASE"
+        ]
+      }
+    },
+    {
+      "id": "up_two",
+      "input": {
+        "kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+        "as_of": "2026-11-09T00:06:00+00:00",
+        "events": [
+          {
+            "trade_id": 1,
+            "observed_at": "2026-11-09T00:00:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 2,
+            "observed_at": "2026-11-09T00:01:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 3,
+            "observed_at": "2026-11-09T00:02:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 4,
+            "observed_at": "2026-11-09T00:03:00+00:00",
+            "price": "9",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 5,
+            "observed_at": "2026-11-09T00:04:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 6,
+            "observed_at": "2026-11-09T00:05:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 7,
+            "observed_at": "2026-11-09T00:06:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          }
+        ]
+      },
+      "expected": {
+        "status": "UP_INITIAL_PRICE_PAIR_ONLY",
+        "center_count": 2,
+        "first_terminal_center_ordinal": null,
+        "relations": [
+          "BASE",
+          "HIGHER"
+        ]
+      }
+    },
+    {
+      "id": "down_two",
+      "input": {
+        "kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+        "as_of": "2026-11-09T00:06:00+00:00",
+        "events": [
+          {
+            "trade_id": 1,
+            "observed_at": "2026-11-09T00:00:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 2,
+            "observed_at": "2026-11-09T00:01:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 3,
+            "observed_at": "2026-11-09T00:02:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 4,
+            "observed_at": "2026-11-09T00:03:00+00:00",
+            "price": "9",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 5,
+            "observed_at": "2026-11-09T00:04:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 6,
+            "observed_at": "2026-11-09T00:05:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 7,
+            "observed_at": "2026-11-09T00:06:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          }
+        ]
+      },
+      "expected": {
+        "status": "DOWN_INITIAL_PRICE_PAIR_ONLY",
+        "center_count": 2,
+        "first_terminal_center_ordinal": null,
+        "relations": [
+          "BASE",
+          "LOWER"
+        ]
+      }
+    },
+    {
+      "id": "initial_equal",
+      "input": {
+        "kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+        "as_of": "2026-11-09T00:06:00+00:00",
+        "events": [
+          {
+            "trade_id": 1,
+            "observed_at": "2026-11-09T00:00:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 2,
+            "observed_at": "2026-11-09T00:01:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 3,
+            "observed_at": "2026-11-09T00:02:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 4,
+            "observed_at": "2026-11-09T00:03:00+00:00",
+            "price": "9",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 5,
+            "observed_at": "2026-11-09T00:04:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 6,
+            "observed_at": "2026-11-09T00:05:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 7,
+            "observed_at": "2026-11-09T00:06:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          }
+        ]
+      },
+      "expected": {
+        "status": "INITIAL_EQUAL_CENTER_PRICES_UNRESOLVED",
+        "center_count": 2,
+        "first_terminal_center_ordinal": null,
+        "relations": [
+          "BASE",
+          "EQUAL"
+        ]
+      }
+    },
+    {
+      "id": "up_continuation",
+      "input": {
+        "kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+        "as_of": "2026-11-09T00:10:00+00:00",
+        "events": [
+          {
+            "trade_id": 1,
+            "observed_at": "2026-11-09T00:00:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 2,
+            "observed_at": "2026-11-09T00:01:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 3,
+            "observed_at": "2026-11-09T00:02:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 4,
+            "observed_at": "2026-11-09T00:03:00+00:00",
+            "price": "9",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 5,
+            "observed_at": "2026-11-09T00:04:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 6,
+            "observed_at": "2026-11-09T00:05:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 7,
+            "observed_at": "2026-11-09T00:06:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 8,
+            "observed_at": "2026-11-09T00:07:00+00:00",
+            "price": "9",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 9,
+            "observed_at": "2026-11-09T00:08:00+00:00",
+            "price": "3",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 10,
+            "observed_at": "2026-11-09T00:09:00+00:00",
+            "price": "3",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 11,
+            "observed_at": "2026-11-09T00:10:00+00:00",
+            "price": "3",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          }
+        ]
+      },
+      "expected": {
+        "status": "UP_DIRECTIONAL_PRICE_CONTINUATION_ONLY",
+        "center_count": 3,
+        "first_terminal_center_ordinal": null,
+        "relations": [
+          "BASE",
+          "HIGHER",
+          "HIGHER"
+        ]
+      }
+    },
+    {
+      "id": "down_continuation",
+      "input": {
+        "kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+        "as_of": "2026-11-09T00:10:00+00:00",
+        "events": [
+          {
+            "trade_id": 1,
+            "observed_at": "2026-11-09T00:00:00+00:00",
+            "price": "3",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 2,
+            "observed_at": "2026-11-09T00:01:00+00:00",
+            "price": "3",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 3,
+            "observed_at": "2026-11-09T00:02:00+00:00",
+            "price": "3",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 4,
+            "observed_at": "2026-11-09T00:03:00+00:00",
+            "price": "9",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 5,
+            "observed_at": "2026-11-09T00:04:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 6,
+            "observed_at": "2026-11-09T00:05:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 7,
+            "observed_at": "2026-11-09T00:06:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 8,
+            "observed_at": "2026-11-09T00:07:00+00:00",
+            "price": "9",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 9,
+            "observed_at": "2026-11-09T00:08:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 10,
+            "observed_at": "2026-11-09T00:09:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 11,
+            "observed_at": "2026-11-09T00:10:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          }
+        ]
+      },
+      "expected": {
+        "status": "DOWN_DIRECTIONAL_PRICE_CONTINUATION_ONLY",
+        "center_count": 3,
+        "first_terminal_center_ordinal": null,
+        "relations": [
+          "BASE",
+          "LOWER",
+          "LOWER"
+        ]
+      }
+    },
+    {
+      "id": "up_terminal_equal_third",
+      "input": {
+        "kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+        "as_of": "2026-11-09T00:10:00+00:00",
+        "events": [
+          {
+            "trade_id": 1,
+            "observed_at": "2026-11-09T00:00:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 2,
+            "observed_at": "2026-11-09T00:01:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 3,
+            "observed_at": "2026-11-09T00:02:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 4,
+            "observed_at": "2026-11-09T00:03:00+00:00",
+            "price": "9",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 5,
+            "observed_at": "2026-11-09T00:04:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 6,
+            "observed_at": "2026-11-09T00:05:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 7,
+            "observed_at": "2026-11-09T00:06:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 8,
+            "observed_at": "2026-11-09T00:07:00+00:00",
+            "price": "9",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 9,
+            "observed_at": "2026-11-09T00:08:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 10,
+            "observed_at": "2026-11-09T00:09:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 11,
+            "observed_at": "2026-11-09T00:10:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          }
+        ]
+      },
+      "expected": {
+        "status": "UP_AUTHOR_N_GT_2_TERMINAL_PRICE_TRIGGER_ONLY",
+        "center_count": 3,
+        "first_terminal_center_ordinal": 3,
+        "relations": [
+          "BASE",
+          "HIGHER",
+          "EQUAL"
+        ]
+      }
+    },
+    {
+      "id": "up_terminal_lower_third",
+      "input": {
+        "kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+        "as_of": "2026-11-09T00:10:00+00:00",
+        "events": [
+          {
+            "trade_id": 1,
+            "observed_at": "2026-11-09T00:00:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 2,
+            "observed_at": "2026-11-09T00:01:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 3,
+            "observed_at": "2026-11-09T00:02:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 4,
+            "observed_at": "2026-11-09T00:03:00+00:00",
+            "price": "9",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 5,
+            "observed_at": "2026-11-09T00:04:00+00:00",
+            "price": "3",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 6,
+            "observed_at": "2026-11-09T00:05:00+00:00",
+            "price": "3",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 7,
+            "observed_at": "2026-11-09T00:06:00+00:00",
+            "price": "3",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 8,
+            "observed_at": "2026-11-09T00:07:00+00:00",
+            "price": "9",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 9,
+            "observed_at": "2026-11-09T00:08:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 10,
+            "observed_at": "2026-11-09T00:09:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 11,
+            "observed_at": "2026-11-09T00:10:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          }
+        ]
+      },
+      "expected": {
+        "status": "UP_AUTHOR_N_GT_2_TERMINAL_PRICE_TRIGGER_ONLY",
+        "center_count": 3,
+        "first_terminal_center_ordinal": 3,
+        "relations": [
+          "BASE",
+          "HIGHER",
+          "LOWER"
+        ]
+      }
+    },
+    {
+      "id": "down_terminal_equal_third",
+      "input": {
+        "kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+        "as_of": "2026-11-09T00:10:00+00:00",
+        "events": [
+          {
+            "trade_id": 1,
+            "observed_at": "2026-11-09T00:00:00+00:00",
+            "price": "3",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 2,
+            "observed_at": "2026-11-09T00:01:00+00:00",
+            "price": "3",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 3,
+            "observed_at": "2026-11-09T00:02:00+00:00",
+            "price": "3",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 4,
+            "observed_at": "2026-11-09T00:03:00+00:00",
+            "price": "9",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 5,
+            "observed_at": "2026-11-09T00:04:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 6,
+            "observed_at": "2026-11-09T00:05:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 7,
+            "observed_at": "2026-11-09T00:06:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 8,
+            "observed_at": "2026-11-09T00:07:00+00:00",
+            "price": "9",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 9,
+            "observed_at": "2026-11-09T00:08:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 10,
+            "observed_at": "2026-11-09T00:09:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 11,
+            "observed_at": "2026-11-09T00:10:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          }
+        ]
+      },
+      "expected": {
+        "status": "DOWN_AUTHOR_N_GT_2_TERMINAL_PRICE_TRIGGER_ONLY",
+        "center_count": 3,
+        "first_terminal_center_ordinal": 3,
+        "relations": [
+          "BASE",
+          "LOWER",
+          "EQUAL"
+        ]
+      }
+    },
+    {
+      "id": "down_terminal_higher_third",
+      "input": {
+        "kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+        "as_of": "2026-11-09T00:10:00+00:00",
+        "events": [
+          {
+            "trade_id": 1,
+            "observed_at": "2026-11-09T00:00:00+00:00",
+            "price": "3",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 2,
+            "observed_at": "2026-11-09T00:01:00+00:00",
+            "price": "3",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 3,
+            "observed_at": "2026-11-09T00:02:00+00:00",
+            "price": "3",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 4,
+            "observed_at": "2026-11-09T00:03:00+00:00",
+            "price": "9",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 5,
+            "observed_at": "2026-11-09T00:04:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 6,
+            "observed_at": "2026-11-09T00:05:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 7,
+            "observed_at": "2026-11-09T00:06:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 8,
+            "observed_at": "2026-11-09T00:07:00+00:00",
+            "price": "9",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 9,
+            "observed_at": "2026-11-09T00:08:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 10,
+            "observed_at": "2026-11-09T00:09:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 11,
+            "observed_at": "2026-11-09T00:10:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          }
+        ]
+      },
+      "expected": {
+        "status": "DOWN_AUTHOR_N_GT_2_TERMINAL_PRICE_TRIGGER_ONLY",
+        "center_count": 3,
+        "first_terminal_center_ordinal": 3,
+        "relations": [
+          "BASE",
+          "LOWER",
+          "HIGHER"
+        ]
+      }
+    },
+    {
+      "id": "earliest_fourth_trigger",
+      "input": {
+        "kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+        "as_of": "2026-11-09T00:18:00+00:00",
+        "events": [
+          {
+            "trade_id": 1,
+            "observed_at": "2026-11-09T00:00:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 2,
+            "observed_at": "2026-11-09T00:01:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 3,
+            "observed_at": "2026-11-09T00:02:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 4,
+            "observed_at": "2026-11-09T00:03:00+00:00",
+            "price": "9",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 5,
+            "observed_at": "2026-11-09T00:04:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 6,
+            "observed_at": "2026-11-09T00:05:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 7,
+            "observed_at": "2026-11-09T00:06:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 8,
+            "observed_at": "2026-11-09T00:07:00+00:00",
+            "price": "9",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 9,
+            "observed_at": "2026-11-09T00:08:00+00:00",
+            "price": "3",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 10,
+            "observed_at": "2026-11-09T00:09:00+00:00",
+            "price": "3",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 11,
+            "observed_at": "2026-11-09T00:10:00+00:00",
+            "price": "3",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 12,
+            "observed_at": "2026-11-09T00:11:00+00:00",
+            "price": "9",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 13,
+            "observed_at": "2026-11-09T00:12:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 14,
+            "observed_at": "2026-11-09T00:13:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 15,
+            "observed_at": "2026-11-09T00:14:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 16,
+            "observed_at": "2026-11-09T00:15:00+00:00",
+            "price": "9",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 17,
+            "observed_at": "2026-11-09T00:16:00+00:00",
+            "price": "4",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 18,
+            "observed_at": "2026-11-09T00:17:00+00:00",
+            "price": "4",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 19,
+            "observed_at": "2026-11-09T00:18:00+00:00",
+            "price": "4",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          }
+        ]
+      },
+      "expected": {
+        "status": "UP_AUTHOR_N_GT_2_TERMINAL_PRICE_TRIGGER_ONLY",
+        "center_count": 5,
+        "first_terminal_center_ordinal": 4,
+        "relations": [
+          "BASE",
+          "HIGHER",
+          "HIGHER",
+          "LOWER",
+          "HIGHER"
+        ]
+      }
+    },
+    {
+      "id": "future_third_excluded",
+      "input": {
+        "kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+        "as_of": "2026-11-09T00:06:00+00:00",
+        "events": [
+          {
+            "trade_id": 1,
+            "observed_at": "2026-11-09T00:00:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 2,
+            "observed_at": "2026-11-09T00:01:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 3,
+            "observed_at": "2026-11-09T00:02:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 4,
+            "observed_at": "2026-11-09T00:03:00+00:00",
+            "price": "9",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 5,
+            "observed_at": "2026-11-09T00:04:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 6,
+            "observed_at": "2026-11-09T00:05:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 7,
+            "observed_at": "2026-11-09T00:06:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 8,
+            "observed_at": "2026-11-09T00:07:00+00:00",
+            "price": "9",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 9,
+            "observed_at": "2026-11-09T00:08:00+00:00",
+            "price": "3",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 10,
+            "observed_at": "2026-11-09T00:09:00+00:00",
+            "price": "3",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 11,
+            "observed_at": "2026-11-09T00:10:00+00:00",
+            "price": "3",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          }
+        ]
+      },
+      "expected": {
+        "status": "UP_INITIAL_PRICE_PAIR_ONLY",
+        "center_count": 2,
+        "first_terminal_center_ordinal": null,
+        "relations": [
+          "BASE",
+          "HIGHER"
+        ]
+      }
+    },
+    {
+      "id": "mixed_visible_rule",
+      "input": {
+        "kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+        "as_of": "2026-11-09T00:06:00+00:00",
+        "events": [
+          {
+            "trade_id": 1,
+            "observed_at": "2026-11-09T00:00:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 2,
+            "observed_at": "2026-11-09T00:01:00+00:00",
+            "price": "1",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 3,
+            "observed_at": "2026-11-09T00:02:00+00:00",
+            "price": "1",
+            "rule_version": "TEST_DIFFERENT_VERSION"
+          },
+          {
+            "trade_id": 4,
+            "observed_at": "2026-11-09T00:03:00+00:00",
+            "price": "9",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 5,
+            "observed_at": "2026-11-09T00:04:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 6,
+            "observed_at": "2026-11-09T00:05:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 7,
+            "observed_at": "2026-11-09T00:06:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          }
+        ]
+      },
+      "expected": {
+        "status": "VERSION_MISMATCH_NO_ORDER",
+        "center_count": 0,
+        "first_terminal_center_ordinal": null,
+        "relations": []
+      }
+    }
+  ]
+}
