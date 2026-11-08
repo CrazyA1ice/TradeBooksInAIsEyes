@@ -62,7 +62,8 @@ class LogicalProofObligations38And99(unittest.TestCase):
         self.assertEqual(sum((tuple(x) for x in partition_1), ()), atoms)
         self.assertEqual(sum((tuple(x) for x in partition_2), ()), atoms)
         self.assertIn("不是", self.text)
-        self.assertIn("不是“第38课有两个合法解”", self.text)
+        self.assertIn("“第38课有两个合法解”", self.text)
+        self.assertIn("它**不是**", self.text)
 
     def test_pairwise_overlap_does_not_imply_triple_overlap(self):
         a, b, c = (1,4), (3,6), (5,8)
