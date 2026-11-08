@@ -62,10 +62,8 @@ class MarketContract(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,"Mixed"):
             replay(x)
     def test_nonmonotone_known_at_rejected(self):
-        x=copy.deepcopy(FIX["bars"]);x[2]["known_at"]=x[1]["known_at"]
-        x[2]["known_at"]="2007-09-20T01:33:00+00:00"
-        x[3]["known_at"]="2007-09-20T01:33:00+00:00"
-        # Force valid completed timestamp but later record goes backwards.
+        # The third bar itself is valid, but has a later known-at than its successor.
+        x=copy.deepcopy(FIX["bars"])
         x[2]["known_at"]="2007-09-20T01:50:00+00:00"
         with self.assertRaisesRegex(ValueError,"availability"):
             replay(x)
@@ -137,7 +135,7 @@ class NormalizationAndFractal(unittest.TestCase):
         self.assertTrue(all(f.kind in ("TOP","BOTTOM") for f in first))
     def test_merged_source_keys_not_lost(self):
         x=copy.deepcopy(FIX["bars"][:2])
-        x[1]["low"]="3";x[1]["high"]="6";x[1]["open"]="4";x[1]["close"]="5"
+        x[1]["low"]="2.5";x[1]["high"]="3.5";x[1]["open"]="3";x[1]["close"]="3"
         z=lab.normalize([lab.ClosedBar.parse(v) for v in x],"UP")
         self.assertEqual(len(z),1)
         self.assertEqual(z[0].keys,(x[0]["key"],x[1]["key"]))
