@@ -4,6 +4,9 @@
 
 ## 先看这些最终成果
 
+0. **[5分钟快速概览与全书思想地图](01_FAST_READ.md)**：先用自己的话理解全书最值得记的主张、重点的来龙去脉及主要局限。接着打开 **[20张不该遗漏的灵感细节卡](02_SPARK_INDEX.md)**，按反直觉、小技巧、规则边界与不同观点冲突浏览，再决定要不要深入。
+
+
 1. **[全书AI综合评述](00_REVIEW/FINAL_BOOK_SYNTHESIS.md)**：分八段讨论108课的核心观点、来源版本、逻辑反证、AI独立判断及剩余证据缺口。
 2. **[108课验收矩阵](00_REVIEW/LESSON_ACCEPTANCE_MATRIX.md)**：逐行进入本仓库**唯一规范版本**的解读、证据和原始PDF。
 3. **[110条逐课形式化命题](03_formal_cases/110_CASES_REVIEW_TABLE.md)**：每条绑定原证据ID、原书物理页；[机器可读研究协议](03_formal_cases/ALL_110_PROSPECTIVE_FORMAL_CASES.json)记录变量、对照、前提、失败条件，均`NOT_RUN`。
@@ -35,6 +38,8 @@
 ```text
 deliverables/chanlun_108_acceptance/
 ├── README.md
+├── 01_FAST_READ.md
+├── 02_SPARK_INDEX.md
 ├── OFFLINE_PACKAGE_SPEC.json
 ├── 00_REVIEW/
 │   ├── FINAL_BOOK_SYNTHESIS.md
@@ -60,5 +65,7 @@ deliverables/chanlun_108_acceptance/
 ## 下一本书照什么流程？
 
 通用标准已写入 [docs/BOOK_RESEARCH_WORKFLOW.md](../../docs/BOOK_RESEARCH_WORKFLOW.md)：从PDF/EPUB登记→来源/OCR质量→逐章七重解读→图表证据→跨章研究→形式化待验证清单→单一验收目录→自动去重→CI临时打包。以每本书的`book_slug`复用，不再为下本书重复造同样的文件夹树。
+
+**阅读目的**：先拥有全书大图，再自由探索容易被传统摘要删除的细节；灵感卡是已有研究的精选入口，不虚称全部插图/脚注完成第二次逐条核验。
 
 **已知限制**：所有108课首轮研究存在，并不代表全书插图精确数字已核验；完整笔/线段/中枢唯一性、真实历史盈利与外部样本外统计均未得到证明。证据未知处必须保持未知。原书公开传播授权仍需单独确认。

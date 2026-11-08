@@ -7,6 +7,8 @@
 | 需求 | 唯一入口 |
 |---|---|
 | **验收已经研究的《缠论》** | [《缠论》五卷108课正式验收入口](deliverables/chanlun_108_acceptance/README.md) |
+| **5分钟看懂《缠论》** | **[全书一屏速览与20分钟思想地图](deliverables/chanlun_108_acceptance/01_FAST_READ.md)** |
+| **挖掘不该错过的细节** | **[20个灵感细节切口](deliverables/chanlun_108_acceptance/02_SPARK_INDEX.md)** |
 | **阅读全书综合评述** | [AI独立全书评述](deliverables/chanlun_108_acceptance/00_REVIEW/FINAL_BOOK_SYNTHESIS.md) |
 | **查看108课详细解读** | [单份规范章节研究](analyses/books/chanlun/chapters) |
 | **对照原始PDF** | [唯一原书来源：缠论五卷](ChineseBooks/缠论) |
@@ -28,9 +30,11 @@
 
 **已知缺口**：有些图表精确数字及后附编辑日期尚未完成独立终审；没有完整合法且唯一的笔—线段—中枢解析证明，没有真实A股无前视交易实验、样本外收益或风险实证。既有V1—V4合成研究代码仅在唯一规范目录保留以备查证，**按用户要求不继续扩建回测实验室**。
 
-## 下一本书的标准交付
+## 下一本书的标准交付：先快览、再发现细节
 
-上传书籍 → 规范来源SHA/目录与章节页码 → 文字/OCR/图表质量审查 → 逐章七重研究（原著/编者/AI严格分层） → 跨章概念/冲突图谱 → AI独立全书长评 → 全部显式未来可验证形式化题目（`NOT_RUN`） → 单一验收目录、去重和CI校验。
+上传书籍 → 原书SHA和目录/图页索引 → **立即制作带覆盖状态的5分钟全书速览** → 全书逐区域同时识别CORE主干和SPARK冷门灵感 → **15—20分钟思想地图＋可浏览灵感卡** → 按兴趣深读章节、补上重要图像来源 → 全书AI独立长评 → 待验证形式化题目（`NOT_RUN`） → 去重验收和临时ZIP。
+
+**不必读完所有逐章深度报告才能先获得全书整体认识，也不让“精简重点”吞掉那些令人意外的小细节。**
 
 详细验收门槛、目录模板、缺失证据处理、只读离线ZIP构建流程见 [docs/BOOK_RESEARCH_WORKFLOW.md](docs/BOOK_RESEARCH_WORKFLOW.md)；一般研究规范见 [七重解析标准](docs/ANALYSIS_STANDARD.md)、[阅读协议](docs/READING_PROTOCOL.md)、[证据与版权](docs/EVIDENCE_STANDARD.md)。
 
