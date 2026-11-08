@@ -1,29 +1,42 @@
-name: Chanlun 108 lesson acceptance bundle - audit only
+name: Chanlun 108 canonical-source acceptance and temporary offline ZIP
 on:
   push:
-    branches: [feat/chanlun-108-research-final-acceptance-bundle-20261108]
+    branches:
+      - main
+      - refactor/deduplicate-chanlun-acceptance-and-reusable-book-workflow-20261108
+    paths:
+      - "deliverables/chanlun_108_acceptance/**"
+      - "ChineseBooks/缠论/**"
+      - "analyses/books/chanlun/**"
+      - "knowledge/**"
+      - "catalog/**"
+      - "docs/BOOK_RESEARCH_WORKFLOW.md"
+      - "tools/build_book_acceptance_zip.py"
+      - ".github/workflows/chanlun-108-acceptance-bundle.yml"
   pull_request:
     branches: [main]
 permissions:
   contents: read
 jobs:
   acceptance:
-    name: All five PDFs, 108 analyses, 110 hypotheses and 36 examples
+    name: Five PDFs, 108 chapters, 110 formal hypotheses and deduplication
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Audit all copied book deliverables and future-case source links
+      - name: Audit original PDF SHA and unique canonical sources
         run: python -B deliverables/chanlun_108_acceptance/00_REVIEW/audit_acceptance.py
-      - name: Upload one-folder book acceptance bundle as ZIP artifact
+      - name: Assemble offline materials from canonical originals in runner temp
+        shell: bash
+        run: python -B tools/build_book_acceptance_zip.py --spec deliverables/chanlun_108_acceptance/OFFLINE_PACKAGE_SPEC.json --out "$RUNNER_TEMP/Chanlun-108-clean-offline.zip"
+      - name: Upload temporary offline ZIP without copying files into git
         uses: actions/upload-artifact@v4
         with:
-          name: Chanlun-108-acceptance-bundle
-          path: deliverables/chanlun_108_acceptance/
-          include-hidden-files: true
+          name: Chanlun-108-clean-offline
+          path: ${{ runner.temp }}/Chanlun-108-clean-offline.zip
           if-no-files-found: error
           retention-days: 30
           compression-level: 0
