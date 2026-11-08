@@ -148,3 +148,11 @@
 [五课研究综合](volumes/LESSONS_081_085_SYNTHESIS.md) · [114页来源与图像审计](../../../reports/source_inventory/chanlun_lessons081_085_source_and_visual_review.md) · [旧笔/后发新笔前提](../../../experiments/protocols/chanlun_lesson081_pen_version_comparison.md) · [分型后验状态](../../../experiments/protocols/chanlun_lesson082_fractal_outcome.md) · [递归和鲁棒性](../../../experiments/protocols/chanlun_lessons083_084_noise_and_recursion.md)。
 
 真实原PDF第四卷p.232–345，SHA锁定，全114页来源数据盘点、13页紧凑原图实际目视。第81课9月18日另发新笔条件、第84课术语更换及f1/f2区别保留时间/定义层，不追溯覆盖既有老课。**未核图像精确价位、未证明全体系唯一分解、未做真实行情回测**。
+
+## 第十八批：第86–90课（第四/五卷跨卷）
+
+[第86课](chapters/lesson_086.md) · [第87课](chapters/lesson_087.md) · [第88课](chapters/lesson_088.md) · [第89课](chapters/lesson_089.md) · [第90课](chapters/lesson_090.md)。
+
+[五课综合](volumes/LESSONS_086_090_SYNTHESIS.md) · [123页跨卷来源](../../../reports/source_inventory/chanlun_lessons086_090_source_visual_review.md) · [高层上下文合成](../../../experiments/protocols/chanlun_lesson086_crosslevel_context.md) · [过渡和中心类型](../../../experiments/protocols/chanlun_lessons088_089_transition_center.md) · [BOLL辅助边界](../../../experiments/protocols/chanlun_lesson090_boll_auxiliary.md)。
+
+源PDF第四卷p.346–407和第五卷p.3–63，共123页SHA锁定；14页图片渲染、5页实际低清目视。作者、编辑与后续市场评论区分。BOLL近100%属于尚未独立证实的作者表述，真实行情回测未进行。

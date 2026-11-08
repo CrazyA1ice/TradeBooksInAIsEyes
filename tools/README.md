@@ -95,3 +95,9 @@
 - `audit_chanlun_lesson082_fractal_outcome.py`：分型后续是否成笔/中继之增量状态记录。
 - `audit_chanlun_lessons083_084_recursion_noise.py`：有界噪声分类及两种f1/同一f2的合成反例。
 - `audit_chanlun_lesson085_provenance_roles.py`：自述合法性与外部证据角色标签，不含交易行为。
+
+- `survey_chanlun_lessons086_090.py`：第四至五卷跨卷123页SHA锁定的真实PDF页与14张缩略图。
+- `verify_chanlun_lessons086_090.py`：五课35项来源主张、10处PDF内容定位、跨卷终止页、视觉范围和依赖图谱。
+- `audit_chanlun_lesson086_crosslevel_context.py`：第三卖点受上层三态影响的描述性状态门。
+- `audit_chanlun_lessons088_089_transition_center.py`：不可前视的旧→新结构过渡、Center与盘整不同类型。
+- `audit_chanlun_lesson090_boll_asof.py`：仅利用已完成收盘bar计算BOLL轨道宽度收口，不自动确认中枢。
