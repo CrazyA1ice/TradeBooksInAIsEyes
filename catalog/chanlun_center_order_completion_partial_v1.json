@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "CL18-20-CENTER-ORDER-COMPLETION-PARTIAL-V1",
+  "scope": "AUTHOR_COMPILATION_NATIVE_PROSE_MATHEMATICAL_NECESSITY_ONLY",
+  "source_pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+  "source_native_text_sha_file": "reports/source_inventory/chanlun_center_order_completion_native_text_sha256.json",
+  "source_claims": [
+    {
+      "claim": "CL018-S01",
+      "lesson": 18,
+      "physical_pages": [
+        234
+      ],
+      "purpose": "FIRST_THREE_COMPLETED_CHILD_TYPES_CENTER_PREMISE"
+    },
+    {
+      "claim": "CL018-S07",
+      "lesson": 18,
+      "physical_pages": [
+        235
+      ],
+      "purpose": "CAN_COMPLETE_VS_ACTUALLY_COMPLETED_DISTINCT"
+    },
+    {
+      "claim": "CL020-S08",
+      "lesson": 20,
+      "physical_pages": [
+        246,
+        247
+      ],
+      "purpose": "GG_DD_ZG_ZD_AND_STRICT_COMPARISON_AND_EXPANSION"
+    }
+  ],
+  "author_comparison_formulas": {
+    "GG": "max(g_n)",
+    "DD": "min(d_n)",
+    "ZG": "min(g_1,g_2)",
+    "ZD": "max(d_1,d_2)",
+    "up": "later.DD > earlier.GG",
+    "down": "later.GG < earlier.DD",
+    "expansion_left": "later.ZG < earlier.ZD AND later.GG >= earlier.DD",
+    "expansion_right": "later.ZD > earlier.ZG AND later.DD <= earlier.GG"
+  },
+  "author_completion_distinctions": {
+    "center_requires": "three_consecutive_completed_lower_types",
+    "consolidation_after_threshold": "may_finish_but_may_extend",
+    "trend_after_two_centers": "may_finish_but_may_extend"
+  },
+  "formula_input_qualifier": "z_elements_must_be_author_qualified_directional_subtypes_not_any_three_intervals",
+  "computed_indicator_semantics": "EXACT_DECIMAL_ON_SYNTHETIC_DECLARED_Z_ELEMENTS_ONLY",
+  "unverified_source_premises": [
+    "legal_z_element_membership",
+    "legal_three_consecutive_lower_types",
+    "actual_center_and_center_relative_placement",
+    "actual_center_and_parent_type_completion",
+    "original_historical_asof_confirmation_and_version",
+    "original_author_inequality_boundary_semantics_vs_closed_interval_model"
+  ],
+  "complete_chanlun_parser": false,
+  "actual_center_certified": false,
+  "actual_type_completed": false,
+  "proof_38_or_99_established": false,
+  "market_data_read": false
+}
