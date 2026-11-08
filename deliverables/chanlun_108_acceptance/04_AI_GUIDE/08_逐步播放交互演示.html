@@ -129,6 +129,7 @@ el("play").addEventListener("click",function(){
  state.timer=setInterval(function(){stepTo(state.step+1);if(state.step===byId[state.id].events.length)stop();},1400);
 });
 document.addEventListener("keydown",function(e){if(["INPUT","SELECT","TEXTAREA"].includes(document.activeElement.tagName))return;if(e.key==="ArrowRight"){e.preventDefault();stop();stepTo(state.step+1);}if(e.key==="ArrowLeft"){e.preventDefault();stop();stepTo(state.step-1);}});
+all.forEach(function(d){var o=document.createElement("option");o.value=d.id;o.textContent=d.label;el("demo").appendChild(o);});
 render();
 })();
 </script></body></html>
