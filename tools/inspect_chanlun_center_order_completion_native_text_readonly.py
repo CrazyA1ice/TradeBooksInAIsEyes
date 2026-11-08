@@ -17,9 +17,11 @@ PINS = ROOT / "reports/source_inventory/chanlun_center_order_completion_native_t
 READER = "pymupdf_1.26.7_get_text_sort_true"
 TARGETS = {
     234: ("中枢", "ZD", "ZG", "区间", "完成"),
+    235: ("重叠", "高于", "低于", "趋势", "确认"),
     236: ("破坏", "第三", "离开", "中枢", "回抽"),
     245: ("GG", "DD", "ZG", "ZD", "延伸", "扩张"),
     246: ("GG", "DD", "ZG", "ZD", "区间", "延伸", "重叠"),
+    247: ("ZG", "ZD", "GG", "DD", "回试", "破坏", "完成"),
 }
 MAX_HITS = 5
 MAX_CHARS = 210
