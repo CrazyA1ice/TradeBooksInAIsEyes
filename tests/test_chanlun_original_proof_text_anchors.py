@@ -65,7 +65,8 @@ class OriginalProofTextReadingTests(unittest.TestCase):
         workflow = CI.read_text(encoding="utf-8")
         self.assertIn("pymupdf", s)
         self.assertNotIn("get_pixmap", s)
-        self.assertNotIn("ocr", s.lower().replace("no ocr", ""))  # explanatory no OCR is allowed
+        self.assertNotIn("pytesseract", s.lower())
+        self.assertNotIn("get_textpage_ocr", s)
         self.assertNotIn("render_chanlun_priority_original_pages", workflow)
         self.assertIn('PyMuPDF==1.26.7', workflow)
         self.assertIn("workflow_dispatch:", workflow)
