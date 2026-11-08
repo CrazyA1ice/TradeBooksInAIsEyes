@@ -187,7 +187,7 @@ def verify():
     ok("未" in spark_text and "AI联想" in spark_text,
        "Spark catalog must distinguish AI invention and unverified details")
     gap_ledger=(guides[2].read_text(encoding="utf-8") if guides[2].is_file() else "")
-    gap_evidence_lessons=set(re.findall(r"knowledge/evidence/chanlun_lesson(\\d{3})\\.json", gap_ledger))
+    gap_evidence_lessons=set(re.findall(r"knowledge/evidence/chanlun_lesson([0-9]{3})[.]json", gap_ledger))
     ok("REGION_AUDIT_NOT_DOCUMENTED" in gap_ledger and
        "VISUAL_LIMITED" in gap_ledger and "PROVENANCE_LIMITED" in gap_ledger,
        "Detail gap ledger must distinguish first-pass from region and visual verification")
