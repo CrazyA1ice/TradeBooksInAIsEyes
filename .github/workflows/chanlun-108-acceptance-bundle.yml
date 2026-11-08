@@ -29,6 +29,10 @@ on:
       - "tests/test_chanlun_lesson038_policy_scope.py"
       - "tests/test_chanlun_recursive_eligibility.py"
       - "tests/test_chanlun_lesson035_trend_terminal_asof.py"
+      - "tests/test_chanlun_center_order_completion.py"
+      - "tests/fixtures/chanlun_center_order_completion_cases_v1.json"
+      - "tools/audit_chanlun_center_order_completion.py"
+      - "reports/source_inventory/chanlun_center_order_completion_native_text_sha256.json"
       - "tests/fixtures/chanlun35_terminal_asof_cases_v1.json"
       - "tools/audit_chanlun_lesson035_trend_terminal_asof.py"
       - "tests/fixtures/chanlun_recursive_eligibility_cases_v1.json"
@@ -104,6 +108,10 @@ jobs:
         run: python -B tools/audit_chanlun_lesson035_trend_terminal_asof.py
       - name: Reject forged legal-center certifications, future peeking and missing equality constraints
         run: python -B -m unittest discover -s tests -p 'test_chanlun_lesson035_trend_terminal_asof.py' -v
+      - name: Check original author center-range indicators with strict equality / timing guards
+        run: python -B tools/audit_chanlun_center_order_completion.py
+      - name: Deny false completed-center certificates and mismatched source attribution
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_center_order_completion.py' -v
       - name: Verify as-of-only visualization and matched-future branches (offline Node)
         run: node tests/test_chanlun_asof_player.mjs
       - name: Assemble offline materials from canonical originals in runner temp
