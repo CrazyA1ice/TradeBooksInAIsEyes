@@ -39,9 +39,9 @@
 ## 来源与质量审计
 
 - 课程 PDF 页码 28–47，共 20 页；原生提取文本字符合计 16486。
-- 低文本页：p.30；含内嵌图片的页面：p.30。图片的视觉/交易数值**尚未确认**。
+- 低文本页p.30含一幅大图。**本轮原PDF SHA核验+185/300DPI实页图像目视：该图明确为“日K线图——武钢JTB1(580001)”，含K线、PMA均线和成交量，并非数学公式图**；图中所有细微价格和指标数值尚未逐个验证。
 - 首个互动/附录分界候选：p.31。此页面可能同时包含原文和后附材料，不能整页当作单一作者发表时的陈述。
-- 风险与留白：PDF p.30 is image-only; mathematical body on image page not yet visually verified；PDF p.31 begins later compiled Q&A；No empirical independence test or full strategy was supplied in the reviewed text。
+- 风险与留白：PDF物理p.30是**日K线/成交量图而非数学正文**；30%、40%、30%、3.6%的计算来自本课p.28—29的正文研究，不能错误地归入p.30图像。p.31开始后附问答；未提供独立性实证证明或组合策略回测。
 - 本文没有完成真实市场回测，所有涉及概率、盈利和价格下界的讨论均属理论审计或待检验假说。
 
 **结构化来源**：[本课主张证据](../../../../knowledge/evidence/chanlun_lesson009.json) · [页级资料分层](../../../../catalog/chanlun_lessons006_010_layers.json) · [前十课综述](../volumes/LESSONS_001_010_SYNTHESIS.md)。
