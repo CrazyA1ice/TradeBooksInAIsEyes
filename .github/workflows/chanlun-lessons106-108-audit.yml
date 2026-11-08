@@ -1,0 +1,22 @@
+name: Chanlun 106-108 original PDF source survey
+on:
+  push:
+    branches: [feat/chanlun-lessons106-108-source-audit-20261108]
+    paths:
+      - ".github/workflows/chanlun-lessons106-108-audit.yml"
+      - "tools/survey_chanlun_lessons106_108.py"
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  source-survey:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m pip install --disable-pip-version-check pymupdf==1.26.7
+      - run: python -B tools/survey_chanlun_lessons106_108.py
