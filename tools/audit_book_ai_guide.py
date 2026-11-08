@@ -112,7 +112,7 @@ def audit(slug: str, acceptance_dir: str | None = None, tutorials: tuple[str, ..
         case_text = docs.get(name, "")
         if not case_text:
             continue
-        case_ids = re.findall(r"^## SRC-([0-9]{3})\\b", case_text, re.M)
+        case_ids = re.findall(r"^## SRC-([0-9]{3})", case_text, re.M)
         source_case_counts[name] = len(case_ids)
         if len(case_ids) < min_source_cases or len(case_ids) != len(set(case_ids)):
             fail(f"Source-case atlas has too few or duplicate SRC case IDs: {name}")
