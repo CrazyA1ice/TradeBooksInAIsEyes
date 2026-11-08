@@ -31,7 +31,7 @@ class OriginalFigureEvidenceRegression(unittest.TestCase):
             with self.subTest(volume=n):
                 x=next(x for x in inv if x["path"].endswith(f"卷{n}.pdf"))
                 self.assertIn(x["sha256"], self.atlas)
-                self.assertIn(f"volume{n}", self.render)
+                self.assertIn('stem = f"volume{vol}', self.render)
 
     def test_exact_target_page_count_and_reproducible_ci_artifact(self):
         # This is deliberately strict for this scoped milestone only.
