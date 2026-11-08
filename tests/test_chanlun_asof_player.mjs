@@ -80,4 +80,38 @@ assert.equal(core.snapshot("ambiguity",0).alternatives.length,0);
 assert.equal(core.snapshot("ambiguity",5).latest.status,"UNKNOWN");
 const md=readFileSync(path.join(root,"deliverables/chanlun_108_acceptance/04_AI_GUIDE/08_交互式演示阅读卡.md"),"utf8");
 for(const needle of ["K3结束","K6结束","T3","T7","T8","C1","C2","U5","Raw","NOT_RUN"])assert.ok(md.includes(needle),"static readable fallback missing "+needle);
+// Lightweight DOM smoke test (no browser dependency): prove selector, buttons and render path work.
+function fakeNode(tag="div") {
+ const n={tagName:tag.toUpperCase(),value:"",textContent:"",children:[],handlers:{},disabled:false,
+  attributes:{},addEventListener(type,fn){this.handlers[type]=fn;},
+  setAttribute(key,value){this.attributes[key]=String(value);},
+  appendChild(child){this.children.push(child);return child;},
+  removeChild(child){const i=this.children.indexOf(child);if(i>=0)this.children.splice(i,1);return child;}};
+ Object.defineProperty(n,"firstChild",{get(){return n.children[0]||null;}});
+ return n;
+}
+const dom=new Map();
+const ids=["demo","range","next","prev","reset","play","progress","kind","status",
+ "title","detail","gate","note","timeline","alternatives","sources","chart"];
+for(const id of ids)dom.set(id,fakeNode(id==="chart"?"svg":id==="demo"?"select":"div"));
+const domDoc={
+ getElementById(id){return id==="lesson-data"?{textContent:fixtureString}:dom.get(id)||null;},
+ createElement(tag){return fakeNode(tag);},createElementNS(_namespace,tag){return fakeNode(tag);},
+ addEventListener(){},activeElement:{tagName:"BODY"},
+};
+const browserContext=vm.createContext({document:domDoc,console,
+ setInterval(){throw Error("timer should not run in smoke test");},clearInterval(){}});
+vm.runInContext(appString,browserContext,{timeout:2000});
+assert.equal(dom.get("demo").children.length,5,"selector populated");
+assert.equal(dom.get("status").textContent,"NOT_OBSERVED");
+dom.get("next").handlers.click();assert.equal(dom.get("status").textContent,"OBSERVED");
+dom.get("next").handlers.click();assert.equal(dom.get("status").textContent,"CANDIDATE");
+dom.get("prev").handlers.click();assert.equal(dom.get("status").textContent,"OBSERVED");
+dom.get("demo").value="center_a";dom.get("demo").handlers.change({target:dom.get("demo")});
+assert.equal(dom.get("status").textContent,"NOT_OBSERVED","scenario change resets timeline");
+for(let i=0;i<4;i++)dom.get("next").handlers.click();
+assert.equal(dom.get("status").textContent,"CENTER_CONFIRMED");
+assert.ok(dom.get("chart").children.length>5,"SVG populated");
+dom.get("reset").handlers.click();assert.equal(dom.get("status").textContent,"NOT_OBSERVED");
+
 console.log(JSON.stringify({status:"PASS",fixture_count:fixtures.demos.length,events:fixtures.demos.reduce((a,d)=>a+d.events.length,0),asof_snapshots_checked:fixtures.demos.reduce((a,d)=>a+d.events.length+1,0),branch_prefix_identical:true,static_fallback:true,backtests_run:0}));
