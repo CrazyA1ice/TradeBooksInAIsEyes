@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "book_slug": "chanlun",
+  "archive_root": "TradeBooksInAIsEyes",
+  "scope": "clean_offline_review_snapshot_built_from_one_canonical_copy",
+  "patterns": [
+    "ChineseBooks/缠论",
+    "analyses/books/chanlun",
+    "knowledge/evidence/chanlun_lesson*.json",
+    "knowledge/claims/chanlun_*.json",
+    "knowledge/relations/chanlun_*.json",
+    "catalog/chanlun_*.json",
+    "catalog/books.yaml",
+    "reports/source_inventory/chanlun_*",
+    "ai_thoughts/ideas/chanlun_*.md",
+    "experiments/protocols/chanlun_*.md",
+    "docs/BOOK_RESEARCH_WORKFLOW.md",
+    "docs/READING_PROTOCOL.md",
+    "docs/ANALYSIS_STANDARD.md",
+    "docs/EVIDENCE_STANDARD.md",
+    "deliverables/chanlun_108_acceptance"
+  ],
+  "exclude_suffix": [
+    ".gitkeep",
+    ".pyc"
+  ],
+  "skip_directory_names": [
+    "__pycache__",
+    ".pytest_cache"
+  ],
+  "notes": "CI builds this ZIP temporarily, no copied source tree committed. All book sources remain at canonical root paths."
+}
