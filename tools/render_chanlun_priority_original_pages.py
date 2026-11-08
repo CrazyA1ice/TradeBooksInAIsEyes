@@ -23,6 +23,14 @@ TARGETS = {
     3: [162, 254, 255, 256, 257, 292, 293, 294, 295, 296, 297, 300, 301],  # L053/L059/L062
     5: [225, 395, 396, 397, 398, 400],                   # L100/L108
 }
+# Phase 2: inspect the previous lesson's numbered charts, independent pen
+# supplement pages, and the page immediately after lesson108's illustrations.
+# These are *new source pages* only in the temporary artifact, not Git copies.
+TARGETS_LINEAGE = {
+    3: [221, 224, 230, 233, 234, 236, 237, 239, 242, 247,
+        251, 252, 253, 294, 295, 296, 297, 298, 299],
+    5: [399],
+}
 MAX_PAGES = 20
 
 
@@ -63,6 +71,8 @@ def main() -> int:
     parser.add_argument("--out", type=Path, required=True)
     parser.add_argument("--full-dpi", type=int, default=185)
     parser.add_argument("--crop-dpi", type=int, default=300)
+    parser.add_argument("--target-set", choices=["priority", "lineage"],
+                        default="priority")
     args = parser.parse_args()
     if not 90 <= args.full_dpi <= 280 or not 130 <= args.crop_dpi <= 400:
         raise ValueError("Out-of-range render resolution")
@@ -77,8 +87,10 @@ def main() -> int:
 
     inventory = json.loads(VERIFIED.read_text(encoding="utf-8"))
     volumes = {int(Path(x["path"]).stem.split("卷")[-1]): x for x in inventory["volumes"]}
+    targets = TARGETS if args.target_set == "priority" else TARGETS_LINEAGE
     metadata = {
         "schema_version": 1,
+        "target_set": args.target_set,
         "review_type": "original_pdf_priority_page_render_automated_geometry_only",
         "source_inventory": VERIFIED.relative_to(ROOT).as_posix(),
         "rendered_page_count": 0,
@@ -99,9 +111,9 @@ def main() -> int:
         (5, 225): ["娇", "卖点"],
         (5, 395): ["底部", "三买", "三卖"],
     }
-    if sum(map(len, TARGETS.values())) > MAX_PAGES:
+    if sum(map(len, targets.values())) > MAX_PAGES:
         raise ValueError("Too many pages requested")
-    for vol, pages in TARGETS.items():
+    for vol, pages in targets.items():
         item = volumes[vol]
         orig = ROOT / item["path"]
         digest = file_sha256(orig)
@@ -167,7 +179,7 @@ def main() -> int:
         doc.close()
     (out / "page_evidence_manifest.json").write_text(
         json.dumps(metadata, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    if metadata["rendered_page_count"] != sum(map(len, TARGETS.values())):
+    if metadata["rendered_page_count"] != sum(map(len, targets.values())):
         raise AssertionError("Incomplete page render")
     print(json.dumps({
         "status": "PASS_PRIORITY_PDF_PAGE_RENDERED",
