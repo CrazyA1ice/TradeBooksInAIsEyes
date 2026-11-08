@@ -1,0 +1,28 @@
+name: Chanlun 35-38-99 original native prose boundary audit
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "tools/inspect_chanlun_35_38_99_proof_text_readonly.py"
+      - "tests/test_chanlun_35_38_99_proof_text.py"
+      - "reports/source_inventory/chanlun_35_38_99_native_text_sha256.json"
+      - "deliverables/chanlun_108_acceptance/04_AI_GUIDE/19_*"
+      - ".github/workflows/chanlun-35-38-99-native-text.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  native-prose-source-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install pinned native PDF text reader
+        run: python -m pip install "PyMuPDF==1.26.7"
+      - name: Offline proof-audit source safety tests
+        run: python -B -m unittest discover -s tests -p "test_chanlun_35_38_99_proof_text.py" -v
+      - name: Discover bounded page text hashes before locking
+        run: python -B tools/inspect_chanlun_35_38_99_proof_text_readonly.py --discover
