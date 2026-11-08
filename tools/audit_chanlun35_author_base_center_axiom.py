@@ -141,7 +141,7 @@ def produce(case, doc, lifecycle=None):
             "native_text_sha256":PAGE_SHA,"source_version":primitive.BASE_RULE,
             "first_three_trade_ids":[x["trade_id"] for x in triplet],
             "first_three_source_event_sha256":sha(triplet),
-            "price_exact_decimal":str(val),
+            "price_exact_decimal":format(val.normalize(), "f"),
             "first_observed_at":r["third_observed_at"],
             "visible_prefix_sha256":raw["visible_prefix_sha256"],
             "conditional_base_center_exists_in_assumed_trades":True,
