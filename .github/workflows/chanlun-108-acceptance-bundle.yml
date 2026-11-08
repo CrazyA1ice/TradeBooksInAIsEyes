@@ -15,6 +15,7 @@ on:
       - "tools/audit_book_ai_guide.py"
       - "tests/test_chanlun_asof_player.mjs"
       - "tests/test_chanlun_source_case_atlas.py"
+      - "tests/test_chanlun_original_figure_review.py"
       - ".github/workflows/chanlun-108-acceptance-bundle.yml"
   pull_request:
     branches: [main]
@@ -36,6 +37,8 @@ jobs:
         run: python -B tools/audit_book_ai_guide.py --book-slug chanlun --acceptance-dir deliverables/chanlun_108_acceptance --require-tutorial 05_专题教程_走势分解与终完美.md --require-tutorial 06_专题教程_中枢背驰与三类点.md --require-tutorial 07_专题教程_从分型到线段中枢.md --require-source-case 09_原书关键案例与定理证据对照.md --min-source-cases 9
       - name: Cross-check nine real source case discussions against canonical text evidence
         run: python -B -m unittest discover -s tests -p 'test_chanlun_source_case_atlas.py' -v
+      - name: Regression-check original PDF figure observations, source dates and manifest
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_original_figure_review.py' -v
       - name: Verify as-of-only visualization and matched-future branches (offline Node)
         run: node tests/test_chanlun_asof_player.mjs
       - name: Assemble offline materials from canonical originals in runner temp

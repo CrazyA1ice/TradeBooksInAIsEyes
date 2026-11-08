@@ -40,7 +40,7 @@ class SourceCaseAtlasTests(unittest.TestCase):
                 self.assertRegex(section, r"卷[一二三四五]")
                 self.assertRegex(section, r"p[.]?[0-9]")
                 self.assertIn("AI", section)
-                self.assertRegex(section, r"【待核")
+                self.assertRegex(section, r"【(?:待核|原图|证据状态)")
                 self.assertRegex(section, r"VISUAL_LIMITED|PROVENANCE_LIMITED|UNVERIFIED|LIMITED")
                 self.assertIn(f'<a id="src-{cid}"></a>', self.text)
                 self.assertIn(f"[SRC-{cid}](#src-{cid})", self.text)
