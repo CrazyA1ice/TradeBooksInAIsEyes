@@ -88,3 +88,10 @@
 - `audit_chanlun_lesson077_pen_boundary.py`：等高低分型、独立K线和局部笔必要条件。
 - `audit_chanlun_lesson078_normalized_view.py`：不改写原始线段的高层派生标准化视图。
 - `audit_chanlun_lessons079_080_dual_clock.py`：盘中分钟卖点与日收盘分型确认不混淆及机会成本。
+
+- `survey_chanlun_lessons081_085.py`：第四卷p.232–345原SHA PDF文本和13页实际目视范围清点。
+- `verify_chanlun_lessons081_085.py`：114页、35证据、9处源PDF文字、后发新笔规则时间和兼容扩展图谱核对。
+- `audit_chanlun_lesson081_pen_rule_versions.py`：第77课旧规则和第81课9月18日新笔建议的局部前提差异。
+- `audit_chanlun_lesson082_fractal_outcome.py`：分型后续是否成笔/中继之增量状态记录。
+- `audit_chanlun_lessons083_084_recursion_noise.py`：有界噪声分类及两种f1/同一f2的合成反例。
+- `audit_chanlun_lesson085_provenance_roles.py`：自述合法性与外部证据角色标签，不含交易行为。

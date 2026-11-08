@@ -140,3 +140,11 @@
 [综合](volumes/LESSONS_076_080_SYNTHESIS.md) · [89页来源与实际视觉范围](../../../reports/source_inventory/chanlun_lessons076_080_source_visual_review.md) · [第77课唯一性前提和笔候选](../../../experiments/protocols/chanlun_lesson077_pen_candidates_audit.md) · [第78课原始/标准化双视图](../../../experiments/protocols/chanlun_lesson078_raw_vs_normalized.md) · [第79–80课分钟与日收盘双时钟](../../../experiments/protocols/chanlun_lessons079_080_asof_and_opportunity.md)。
 
 本批第四卷p.143–231共89页原始PDF校验，全11页缩略图渲染、实际目视检查7页。原文与不同日期评论、原作者和娇注分离。新增兼容图谱不影响前75课已有检查。所有真实市场假说not_tested，未完成整套笔线段解析器。
+
+## 第十七批：第81–85课（第四卷）
+
+[第81课](chapters/lesson_081.md) · [第82课](chapters/lesson_082.md) · [第83课](chapters/lesson_083.md) · [第84课](chapters/lesson_084.md) · [第85课](chapters/lesson_085.md)。
+
+[五课研究综合](volumes/LESSONS_081_085_SYNTHESIS.md) · [114页来源与图像审计](../../../reports/source_inventory/chanlun_lessons081_085_source_and_visual_review.md) · [旧笔/后发新笔前提](../../../experiments/protocols/chanlun_lesson081_pen_version_comparison.md) · [分型后验状态](../../../experiments/protocols/chanlun_lesson082_fractal_outcome.md) · [递归和鲁棒性](../../../experiments/protocols/chanlun_lessons083_084_noise_and_recursion.md)。
+
+真实原PDF第四卷p.232–345，SHA锁定，全114页来源数据盘点、13页紧凑原图实际目视。第81课9月18日另发新笔条件、第84课术语更换及f1/f2区别保留时间/定义层，不追溯覆盖既有老课。**未核图像精确价位、未证明全体系唯一分解、未做真实行情回测**。
