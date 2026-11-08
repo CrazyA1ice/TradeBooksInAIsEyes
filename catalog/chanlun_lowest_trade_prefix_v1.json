@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "contract_id": "CL35-PRIMITIVE-TRADE-THREE-EQUAL-PREFIX-V1",
+  "scope": "AUTHOR_NATIVE_TEXT_CONDITIONAL_BASE_PATTERN_NOT_COMPLETED_CENTER",
+  "source_volumes": {
+    "1": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+    "2": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66"
+  },
+  "author_source_links": [
+    {
+      "id": "CL35-SO-2",
+      "lesson": 35,
+      "volume": 2,
+      "page": 291,
+      "sha": "1a2c291cff189ea4de5bef2ecf152e9888773d1194b0ed4e7218f4cd0f3b846b",
+      "role": "AUTHOR_SOURCE_IN_COMPILATION",
+      "scope": "THREE_CONSECUTIVE_SAME_PRICE_TRADES_LOWEST_BASE"
+    },
+    {
+      "id": "CL018-S07",
+      "lesson": 18,
+      "volume": 1,
+      "page": 235,
+      "sha": "d4f06d4d8395748f7b38307ccdc83436fdf9480a729fad413c45f772ae7023d4",
+      "role": "AUTHOR_SOURCE_IN_COMPILATION_WITH_EDITORIAL_INSERTS",
+      "scope": "CAN_FINISH_NOT_MUST_FINISH"
+    },
+    {
+      "id": "CL020-S01",
+      "lesson": 20,
+      "volume": 1,
+      "page": 245,
+      "sha": "b699993c6d57238640eb94844f53d5391fcb1572659cae08fb2248139ca74ea3",
+      "role": "AUTHOR_SOURCE_IN_COMPILATION_WITH_EDITORIAL_INSERTS",
+      "scope": "INDEFINITE_SAME_PRICE_ACTIVITY_DOES_NOT_FORCE_HIGHER_CENTER"
+    }
+  ],
+  "author_condition": "THREE_CONSECUTIVE_TRADE_EVENTS_WITH_NUMERICALLY_IDENTICAL_PRICE",
+  "computation_qualifier": "SYNTHETIC_TRADE_EVENT_PREFIX_ONLY_WITH_EXACT_DECIMAL",
+  "observed_first_threshold": "THIRD_OBSERVED_TRADE_IN_CONTIGUOUS_SAME_PRICE_RUN",
+  "observed_extension": "ADDITIONAL_EQUAL_TRADES_MAY_EXTEND_SAME_RUN_NO_HIGHER_CENTER_PROOF",
+  "unverified": [
+    "real_execution_trade_provenance",
+    "unambiguous_author_lowest_level_time_base",
+    "transaction_timestamp_observability",
+    "nonidentical_price_run_separation_vs_complete_zen_center_rule",
+    "independent_historical_rule_version",
+    "finished_lowest_center_and_higher_type_eligibility"
+  ],
+  "output_certificate": "BASE_PATTERN_WITNESS_ONLY_NOT_ACTUAL_COMPLETED_CENTER",
+  "historical_first_publication_authenticated": false,
+  "market_data_read": false,
+  "actual_center_completed": false,
+  "higher_level_center_created": false,
+  "proof_38_or_99": false,
+  "market_backtest": "NOT_RUN"
+}
