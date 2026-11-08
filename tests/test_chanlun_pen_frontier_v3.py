@@ -103,6 +103,23 @@ class IncrementalPenFrontier(unittest.TestCase):
         x=run(stop_at="2007-09-20T01:30:00+00:00")
         self.assertEqual(x["prefixes"],[])
         self.assertEqual(x["events"],[])
+    def test_integrated_stronger_late_bottom_retracts_old_pen(self):
+        # TOP(1)->BOTTOM(5) was locally eligible at bar 6. A new strict
+        # lower BOTTOM(7), knowable only on bar 8, supersedes that endpoint.
+        x=copy.deepcopy(FIX["bars"])
+        x[7].update(low="0.5",high="3",open="2",close="2")
+        before=run(x[:7])
+        after=run(x[:9])
+        a={e["object_id"] for e in before["events"]
+           if e["object_kind"]=="PROVISIONAL_PEN_FRONTIER" and e["action"]=="OPEN"}
+        self.assertTrue(a)
+        all_pen=[e for e in after["events"] if e["object_kind"]=="PROVISIONAL_PEN_FRONTIER"]
+        withdrawn={e["object_id"] for e in all_pen if e["action"]=="RETRACT"}
+        opened={e["object_id"] for e in all_pen if e["action"]=="OPEN"}
+        self.assertTrue(a.issubset(withdrawn))
+        self.assertGreater(len(opened),len(a))
+        self.assertEqual(before["events"],after["events"][:len(before["events"])])
+        self.assertTrue(v2.validate_ledger(after))
     def test_event_hash_tamper_detected(self):
         z=run()
         self.assertTrue(z["events"])
