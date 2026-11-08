@@ -1,12 +1,7 @@
 name: Chanlun priority original PDF figure render (temporary evidence only)
+# Text-first research phase: original PDF figure jobs are opt-in only.
+# Keep old reproducible evidence tools available; never auto-render on guide edits.
 on:
-  pull_request:
-    branches: [main]
-    paths:
-      - "tools/render_chanlun_priority_original_pages.py"
-      - "tools/audit_chanlun_native_figure_resolution.py"
-      - ".github/workflows/chanlun-priority-original-figure-render.yml"
-      - "deliverables/chanlun_108_acceptance/04_AI_GUIDE/**"
   workflow_dispatch:
 permissions:
   contents: read
