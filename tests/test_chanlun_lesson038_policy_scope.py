@@ -43,7 +43,7 @@ class Lesson38PartialRules(unittest.TestCase):
     def test_never_relabel_undefined_extension_as_market_impossibility(self):
         c = copy.deepcopy(self.contract)
         c["clauses"][1]["policy"] = "PROHIBITED_EVERYWHERE"
-        with self.assertRaisesRegex(ValueError, "Rule value"):
+        with self.assertRaisesRegex(ValueError, "Original clause identity/value/source altered"):
             self.check(contract=c)
         case = self.fixtures["cases"][4]
         self.assertEqual(m.compare(case["left"], case["right"], self.contract),
@@ -100,7 +100,7 @@ class Lesson38PartialRules(unittest.TestCase):
             m.assess(c)
         c = copy.deepcopy(self.fixtures["cases"][0]["left"])
         c["cuts"] = [0, 2, 2, 6]
-        with self.assertRaisesRegex(ValueError, "ordered symbolic"):
+        with self.assertRaisesRegex(ValueError, "Candidate bounds do not partition"):
             m.assess(c)
 
     def test_article_and_index_present_without_theorem_upgrade(self):
