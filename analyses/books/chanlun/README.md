@@ -1,8 +1,8 @@
-# 《缠论》五卷：待研究
+# 《缠论》五卷：108课首轮研究覆盖
 
-**状态：Phase 1 第一课已完成第一轮原文试读；第 4 页图像的可靠视觉核查仍待完成，其余课程未开展深度解读。**
+**状态：Phase 1 已覆盖第1–108课的来源可追踪首轮研究；并不代表全部重要原图和编注完成核验，也不代表完整缠论解析器或真实市场回测完成。**
 
-登记的五卷位于 `ChineseBooks/缠论/`。首先核对真实目录、版本、原文页码、卷间重复和图表解析质量；已经核验五卷文件与 108 课标题起始页；第 1 课原文试读见 [lesson_001.md](chapters/lesson_001.md)，证据档案见 [lesson001_claims](../../../knowledge/evidence/chanlun_lesson001.json)。其余章节不得伪装为已完成。
+登记的五卷位于 `ChineseBooks/缠论/`。首先核对真实目录、版本、原文页码、卷间重复和图表解析质量；已经核验五卷文件与108课标题起始页；各课首轮研究（仍待整体终审），第1课见 [lesson_001.md](chapters/lesson_001.md)，证据档案见 [lesson001_claims](../../../knowledge/evidence/chanlun_lesson001.json)。不得将任何首轮文本研究写成图价终审或实证收益证明。
 
 预期成果位置：
 - `volumes/`：逐卷分析与跨章节关系；
@@ -180,3 +180,10 @@
 [五课综合](volumes/LESSONS_101_105_SYNTHESIS.md) · [140物理页来源与2010编注](../../../reports/source_inventory/chanlun_lessons101_105_source_visual_review.md) · [第二买点低于第一买点的局部审计](../../../experiments/protocols/chanlun_lesson101_second_buy_audit.md) · [唯一分解证明义务](../../../experiments/protocols/chanlun_lesson102_uniqueness_contract.md)。
 
 原PDF卷5 p.233–372共140物理页、15页低清渲染其中5页实际目视；多数页包含其他日期后附解盘，并非5篇首发完整正文。第104课2010年后编者解释单独标记；合成逻辑不证明收益。
+
+
+## 第二十二批：第106–108课（第五卷，108课首轮覆盖完成）
+
+[第106课](chapters/lesson_106.md) · [第107课](chapters/lesson_107.md) · [第108课](chapters/lesson_108.md) · [综合](volumes/LESSONS_106_108_SYNTHESIS.md) · [原书69页核查](../../../reports/source_inventory/chanlun_lessons106_108_source_review.md) · [MA/反弹/底部合成边界协议](../../../experiments/protocols/chanlun_lesson108_bottom_contracts.md)。
+
+三课原始PDF第五卷p.373–441共69物理页、SHA锁定、21条带页码类型化证据；**本组图片未实际目视**，历史图价未经数值复验；无整套走势递归解析、真实行情回测或净收益承诺。第106课板块排序和均线并非必然级别，第107课未来反弹路径不应预测，第108课两种底部不能混成同一个标签。

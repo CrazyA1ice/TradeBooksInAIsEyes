@@ -6,7 +6,8 @@
     "5": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65"
   },
   "references": [
-    "knowledge/claims/chanlun_lessons101_105_semantic_dependencies.json"
+    "knowledge/claims/chanlun_lessons101_105_semantic_dependencies.json",
+    "knowledge/claims/chanlun_lessons091_095_semantic_dependencies.json"
   ],
   "nodes": [
     {
