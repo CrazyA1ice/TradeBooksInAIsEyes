@@ -8,7 +8,7 @@
 <body><header><h1>《缠论》：把“当下”一步步播放出来</h1><p class="sub">逐根K线 · 中枢形成 · 首次回试 · 多义性｜离线单文件教学播放器 v1</p></header>
 <main class="wrap">
 <div class="warning"><strong>教学边界：</strong>所有价位、K线和结构事件都是AI虚构教学输入，不是原书行情图；分型仅演示可观察的局部条件；未实现完整包含归并、笔/线段/中枢唯一解析器。<strong>不会生成买卖建议、收益预测或回测结果</strong>。原书证据见当前场景的链接。</div>
-<section class="panel" aria-label="播放控制"><label for="demo"><strong>选择场景（同一前缀下可以比较后续分支）</strong></label><div><select id="demo"></select></div>
+<section class="panel" aria-label="播放控制"><label for="demo"><strong>选择场景（C1/C2切换保留共同前7步，不提前显示分叉）</strong></label><div><select id="demo"></select></div>
 <p class="small" id="note"></p><div class="controls"><button id="reset">⟲ 重来</button><button id="prev">← 上一步</button><button id="next" class="primary">下一步 →</button><button id="play">▶ 自动播放</button><output id="progress" aria-live="polite">0 / 0 步</output></div><label for="range" class="small">只显示此前已经到达的事件；也可拖动进度条复盘</label><input id="range" type="range" min="0" max="1" value="0"><p class="small">键盘：← / → 单步；移动端可点按钮。<strong>未来事件虽作为教学数据内嵌在文件中，屏幕不会在其时点前显示它们；这不等同实时市场系统。</strong></p></section>
 <div class="layout"><section class="panel"><h2>当前已知的K线/走势事件</h2><p><span id="kind" class="tag"></span></p><svg id="chart" role="img" aria-label="目前已观察到的价格高低区间图" viewBox="0 0 930 340"></svg><p class="small">纵轴仅由已播放的价格范围计算；底色区间和ZG线只能在中枢教学条件完成后出现。蓝点标示最新一条已知事件。图像为教学SVG，不是金融行情截图。</p>
 <h2>到目前为止发生了什么</h2><ol id="timeline" class="facts" aria-live="polite"></ol></section>
@@ -117,7 +117,7 @@ function render(){
 }
 function stop(){if(state.timer){clearInterval(state.timer);state.timer=null;}setText("play","▶ 自动播放");}
 function stepTo(n){state.step=Math.max(0,Math.min(byId[state.id].events.length,n));render();}
-el("demo").addEventListener("change",function(e){stop();state.id=e.target.value;stepTo(0);});
+el("demo").addEventListener("change",function(e){stop();var previous=state.id,previousStep=state.step,target=e.target.value;var pair=(previous==="center_a"&&target==="center_b")||(previous==="center_b"&&target==="center_a");state.id=target;stepTo(pair?Math.min(previousStep,7):0);});
 el("next").addEventListener("click",function(){stop();stepTo(state.step+1);});
 el("prev").addEventListener("click",function(){stop();stepTo(state.step-1);});
 el("reset").addEventListener("click",function(){stop();stepTo(0);});
