@@ -3154,41 +3154,6 @@
       "path": "03_formal_cases/ALL_110_PROSPECTIVE_FORMAL_CASES.json",
       "git_blob_sha1": "3118b25718a3fce97fd5f9d7d64797881e9f5804",
       "bytes": 225278
-    },
-    {
-      "path": "03_formal_cases/source_hypotheses_001_016.json",
-      "git_blob_sha1": "25c75219e3d9690489b4f5385368506a7a737bbb",
-      "bytes": 18828
-    },
-    {
-      "path": "03_formal_cases/source_hypotheses_017_032.json",
-      "git_blob_sha1": "b61bbf13254d42dc5d78ca467173e9f5714a8f9a",
-      "bytes": 21227
-    },
-    {
-      "path": "03_formal_cases/source_hypotheses_033_048.json",
-      "git_blob_sha1": "2a041666ac18ceb6c064cc2c54cc9e7a895f5928",
-      "bytes": 18448
-    },
-    {
-      "path": "03_formal_cases/source_hypotheses_049_064.json",
-      "git_blob_sha1": "8e8be38c59231ae53b3b9b4200f7aac553c21847",
-      "bytes": 19473
-    },
-    {
-      "path": "03_formal_cases/source_hypotheses_065_080.json",
-      "git_blob_sha1": "8824c6246f51e7082aa7156a9a2469a11540dd9d",
-      "bytes": 19103
-    },
-    {
-      "path": "03_formal_cases/source_hypotheses_081_096.json",
-      "git_blob_sha1": "6ca5c93f5aabd12ec3e8280573b36ce8458f8ccb",
-      "bytes": 19575
-    },
-    {
-      "path": "03_formal_cases/source_hypotheses_097_108.json",
-      "git_blob_sha1": "1180e115c7743874284d186347d0b2e17f63a976",
-      "bytes": 15332
     }
   ]
 }
