@@ -113,5 +113,17 @@ for(let i=0;i<4;i++)dom.get("next").handlers.click();
 assert.equal(dom.get("status").textContent,"CENTER_CONFIRMED");
 assert.ok(dom.get("chart").children.length>5,"SVG populated");
 dom.get("reset").handlers.click();assert.equal(dom.get("status").textContent,"NOT_OBSERVED");
+// Branch switching must preserve only the shared 7-step prefix, not the revealed future.
+for(let i=0;i<7;i++)dom.get("next").handlers.click();
+assert.equal(dom.get("status").textContent,"RETRACE_PENDING");
+dom.get("demo").value="center_b";dom.get("demo").handlers.change({target:dom.get("demo")});
+assert.equal(dom.get("progress").textContent,"7 / 9 步");
+assert.equal(dom.get("status").textContent,"RETRACE_PENDING");
+dom.get("next").handlers.click();
+assert.equal(dom.get("status").textContent,"THIRD_BUY_GEOMETRY_FAILED");
+dom.get("demo").value="center_a";dom.get("demo").handlers.change({target:dom.get("demo")});
+assert.equal(dom.get("status").textContent,"RETRACE_PENDING","switching from the failed future returns to common prefix");
+dom.get("next").handlers.click();
+assert.equal(dom.get("status").textContent,"THIRD_BUY_GEOMETRY");
 
 console.log(JSON.stringify({status:"PASS",fixture_count:fixtures.demos.length,events:fixtures.demos.reduce((a,d)=>a+d.events.length,0),asof_snapshots_checked:fixtures.demos.reduce((a,d)=>a+d.events.length+1,0),branch_prefix_identical:true,static_fallback:true,backtests_run:0}));
