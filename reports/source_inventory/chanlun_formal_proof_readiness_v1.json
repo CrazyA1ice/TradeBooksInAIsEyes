@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "claim_scope": "COMPILATION_TEXT_ANCHOR_NOT_INDEPENDENT_FIRST_PUBLICATION",
+  "source_pdf_text_pin_origin": "tools/inspect_chanlun_original_proof_text_readonly.py",
+  "certifies_theorem": false,
+  "real_market_data_accessed": false,
+  "complete_parser_executed": false,
+  "complete_frozen_rule_ref": null,
+  "registered_rule_family_snapshot": [
+    "bottom",
+    "branching",
+    "pen",
+    "policy_risk",
+    "segment",
+    "terminology"
+  ],
+  "goals": [
+    {
+      "id": "OB38-EXIST",
+      "status": "BLOCKED_NOT_CERTIFIED",
+      "assertion_status": "AUTHOR_ASSERTION_NOT_FORMAL_DERIVATION",
+      "complete_frozen_rule_ref": null,
+      "author_claim_anchors": [
+        {
+          "lesson": 38,
+          "claim_id": "CL38-SOURCE-1",
+          "volume": 2,
+          "page": 338,
+          "role": "author_claim_in_compiled_pdf",
+          "native_text_sha256": "369d79117897f949976704c21e81818f9e75899b0e925f637c581c32e1b21da7"
+        }
+      ],
+      "proof_slots": [
+        {
+          "key": "defined_admissible_input_domain",
+          "status": "OPEN",
+          "derivation_ref": null
+        },
+        {
+          "key": "canonical_segment_generation",
+          "status": "OPEN",
+          "derivation_ref": null
+        },
+        {
+          "key": "termination_or_pending_tail_policy",
+          "status": "OPEN",
+          "derivation_ref": null
+        }
+      ]
+    },
+    {
+      "id": "OB38-UNIQUE",
+      "status": "BLOCKED_NOT_CERTIFIED",
+      "assertion_status": "AUTHOR_ASSERTION_NOT_FORMAL_DERIVATION",
+      "complete_frozen_rule_ref": null,
+      "author_claim_anchors": [
+        {
+          "lesson": 38,
+          "claim_id": "CL38-SOURCE-1",
+          "volume": 2,
+          "page": 338,
+          "role": "author_claim_in_compiled_pdf",
+          "native_text_sha256": "369d79117897f949976704c21e81818f9e75899b0e925f637c581c32e1b21da7"
+        },
+        {
+          "lesson": 38,
+          "claim_id": "CL38-SOURCE-2",
+          "volume": 2,
+          "page": 338,
+          "role": "author_claim_in_compiled_pdf",
+          "native_text_sha256": "369d79117897f949976704c21e81818f9e75899b0e925f637c581c32e1b21da7"
+        }
+      ],
+      "proof_slots": [
+        {
+          "key": "equivalence_relation_on_parses",
+          "status": "OPEN",
+          "derivation_ref": null
+        },
+        {
+          "key": "same_rule_competing_cutpoint_exclusion",
+          "status": "OPEN",
+          "derivation_ref": null
+        },
+        {
+          "key": "equal_price_tie_breaks",
+          "status": "OPEN",
+          "derivation_ref": null
+        },
+        {
+          "key": "precedence_between_extensions_and_new_center",
+          "status": "OPEN",
+          "derivation_ref": null
+        }
+      ]
+    },
+    {
+      "id": "OB38-ASOF",
+      "status": "BLOCKED_NOT_CERTIFIED",
+      "assertion_status": "AUTHOR_ASSERTION_NOT_FORMAL_DERIVATION",
+      "complete_frozen_rule_ref": null,
+      "author_claim_anchors": [
+        {
+          "lesson": 38,
+          "claim_id": "CL38-SOURCE-3",
+          "volume": 2,
+          "page": 339,
+          "role": "author_claim_in_compiled_pdf",
+          "native_text_sha256": "1f48433d41259c6f82e4f5233dccd3728c823e9ab3723fe3ac77a06697689ce8"
+        }
+      ],
+      "proof_slots": [
+        {
+          "key": "first_confirmation_timestamp",
+          "status": "OPEN",
+          "derivation_ref": null
+        },
+        {
+          "key": "unfinished_tail_as_of_t",
+          "status": "OPEN",
+          "derivation_ref": null
+        },
+        {
+          "key": "later_rule_version_separation",
+          "status": "OPEN",
+          "derivation_ref": null
+        }
+      ]
+    },
+    {
+      "id": "OB99-EXIST",
+      "status": "BLOCKED_NOT_CERTIFIED",
+      "assertion_status": "AUTHOR_ASSERTION_NOT_FORMAL_DERIVATION",
+      "complete_frozen_rule_ref": null,
+      "author_claim_anchors": [
+        {
+          "lesson": 99,
+          "claim_id": "CL99-SOURCE-3",
+          "volume": 5,
+          "page": 202,
+          "role": "author_claim_in_compiled_pdf",
+          "native_text_sha256": "1ff79bb24d18734344e4c9035065a0b3fc37e59c1a40c01264ab01dc49feb0d1"
+        }
+      ],
+      "proof_slots": [
+        {
+          "key": "admissible_future_path_domain",
+          "status": "OPEN",
+          "derivation_ref": null
+        },
+        {
+          "key": "three_eligible_completed_consecutive_types",
+          "status": "OPEN",
+          "derivation_ref": null
+        },
+        {
+          "key": "nonempty_joint_overlap",
+          "status": "OPEN",
+          "derivation_ref": null
+        },
+        {
+          "key": "finite_time_or_temporal_quantifier",
+          "status": "OPEN",
+          "derivation_ref": null
+        }
+      ]
+    },
+    {
+      "id": "OB99-LOCATION",
+      "status": "BLOCKED_NOT_CERTIFIED",
+      "assertion_status": "AUTHOR_ASSERTION_NOT_FORMAL_DERIVATION",
+      "complete_frozen_rule_ref": null,
+      "author_claim_anchors": [
+        {
+          "lesson": 99,
+          "claim_id": "CL99-SOURCE-4",
+          "volume": 5,
+          "page": 203,
+          "role": "author_claim_in_compiled_pdf",
+          "native_text_sha256": "0b7f597241ac2e13d11ca1e6bacae06af66a393349fabe93e3dbc98d16171de6"
+        }
+      ],
+      "proof_slots": [
+        {
+          "key": "formal_location_predicate",
+          "status": "OPEN",
+          "derivation_ref": null
+        },
+        {
+          "key": "first_center_uniqueness",
+          "status": "OPEN",
+          "derivation_ref": null
+        },
+        {
+          "key": "exclude_legal_successors_outside_predicate",
+          "status": "OPEN",
+          "derivation_ref": null
+        }
+      ]
+    }
+  ]
+}
