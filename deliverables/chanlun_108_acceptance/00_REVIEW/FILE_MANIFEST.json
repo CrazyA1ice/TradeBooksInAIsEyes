@@ -1,16 +1,12 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "package": "chanlun_108_acceptance",
-  "source_snapshot_main_sha256_or_git_sha": "97ce90d006114c19a463727d35719833e8e4d7ca",
-  "file_copy_method": "Git tree preserves exact blob SHA; not a symlink or external reference.",
-  "existing_copied_file_count": 633,
-  "existing_copied_bytes": 50184607,
-  "copies": [
-    {
-      "path": ".github/workflows/.gitkeep",
-      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
-      "bytes": 0
-    },
+  "ownership": "single canonical copy in repository; final bundle links to these original files",
+  "source_revision_at_initial_archive": "a80af245ecc1df1adf32d4e8ad556bd759e91ae2",
+  "file_index_kind": "canonical_reference_not_duplicate_file",
+  "canonical_file_count": 625,
+  "canonical_bytes": 50184607,
+  "canonical_files": [
     {
       "path": ".github/workflows/chanlun-incremental-events-v2-audit.yml",
       "git_blob_sha1": "d23cb1d37ac8bc74c108b1627b5d076cf0eadea2",
@@ -187,11 +183,6 @@
       "bytes": 0
     },
     {
-      "path": "ai_thoughts/ideas/.gitkeep",
-      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
-      "bytes": 0
-    },
-    {
       "path": "ai_thoughts/ideas/chanlun_ambiguous_rules_shared_inventory.md",
       "git_blob_sha1": "b1a1defc8558c54228dde7e97fea2078e54fa290",
       "bytes": 1476
@@ -320,11 +311,6 @@
       "path": "analyses/books/chanlun/README.md",
       "git_blob_sha1": "2cf90fcae4be46a26a10aa9363872cb535ae7ac9",
       "bytes": 19538
-    },
-    {
-      "path": "analyses/books/chanlun/chapters/.gitkeep",
-      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
-      "bytes": 0
     },
     {
       "path": "analyses/books/chanlun/chapters/lesson_001.md",
@@ -877,11 +863,6 @@
       "bytes": 0
     },
     {
-      "path": "analyses/books/chanlun/volumes/.gitkeep",
-      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
-      "bytes": 0
-    },
-    {
       "path": "analyses/books/chanlun/volumes/LESSONS_001_005_SYNTHESIS.md",
       "git_blob_sha1": "f65f5f015d62753030ec76718111008c3b7089ad",
       "bytes": 8272
@@ -1198,11 +1179,6 @@
     },
     {
       "path": "experiments/hypotheses/.gitkeep",
-      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
-      "bytes": 0
-    },
-    {
-      "path": "experiments/protocols/.gitkeep",
       "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
       "bytes": 0
     },
@@ -1533,11 +1509,6 @@
     },
     {
       "path": "knowledge/concepts/.gitkeep",
-      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
-      "bytes": 0
-    },
-    {
-      "path": "knowledge/evidence/.gitkeep",
       "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
       "bytes": 0
     },
@@ -2082,19 +2053,9 @@
       "bytes": 4438
     },
     {
-      "path": "knowledge/relations/.gitkeep",
-      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
-      "bytes": 0
-    },
-    {
       "path": "knowledge/relations/chanlun_lessons001_005.json",
       "git_blob_sha1": "955624e5d67986dbe2a72a9988c9ecb4e82adbad",
       "bytes": 2799
-    },
-    {
-      "path": "reports/source_inventory/.gitkeep",
-      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
-      "bytes": 0
     },
     {
       "path": "reports/source_inventory/chanlun_20261107_verified.json",
@@ -3172,7 +3133,17 @@
       "bytes": 6041
     }
   ],
-  "cases_initial_output_count": 9,
+  "original_duplicate_copies_removed": 634,
+  "source_placeholder_files_cleaned": [
+    ".github/workflows/.gitkeep",
+    "ai_thoughts/ideas/.gitkeep",
+    "analyses/books/chanlun/chapters/.gitkeep",
+    "analyses/books/chanlun/volumes/.gitkeep",
+    "experiments/protocols/.gitkeep",
+    "knowledge/evidence/.gitkeep",
+    "knowledge/relations/.gitkeep",
+    "reports/source_inventory/.gitkeep"
+  ],
   "case_files": [
     {
       "path": "03_formal_cases/36_CROSS_LESSON_FORMAL_EXAMPLES.json",
