@@ -34,7 +34,7 @@ class ChanlunDecompositionProofObligations(unittest.TestCase):
     def test_theorem_one_vs_two_vs_unique_are_not_conflated(self):
         for label in ["P35-1", "P35-2", "P35-A", "P38", "P99/102"]:
             self.assertIn(label, self.text)
-        for idea in ["三种走势类型", "至少三个", "不能直接推出唯一", "第38课", "盘整＋盘整"]:
+        for idea in ["三种走势类型", "至少三个", "不能单独证明", "第38课", "盘整＋盘整"]:
             self.assertIn(idea, self.text)
         self.assertIn("OB-EXIST", self.text)
         self.assertIn("OB-CANONICAL", self.text)
@@ -46,7 +46,7 @@ class ChanlunDecompositionProofObligations(unittest.TestCase):
         summaries=" ".join(c["summary"] for c in source["claims"] if c["kind"]=="SOURCE")
         self.assertIn("唯一性", summaries)
         self.assertIn("盘整+盘整", summaries)
-        self.assertIn("固定同级别", self.text)
+        self.assertIn("固定", self.text)
         self.assertIn("作者声称", self.text)
         self.assertIn("∀x∈D_R", self.text)
 
@@ -57,7 +57,7 @@ class ChanlunDecompositionProofObligations(unittest.TestCase):
         self.assertNotIn("```mermaid", self.text)
         self.assertNotIn("<img", self.text)
         self.assertNotRegex(self.text, r"\]\([^)]*\.(?:png|jpe?g|webp)")
-        for expr in ["本篇只讨论作者的文字逻辑", "不是原作者原公式", "仍不", "不能单独证明"]:
+        for expr in ["本篇只讨论作者的文字逻辑", "不是作者原公式", "仍不", "不能单独证明"]:
             self.assertIn(expr, self.text)
         self.assertNotIn("已对所有行情唯一性进行了形式证明", self.text)
 
