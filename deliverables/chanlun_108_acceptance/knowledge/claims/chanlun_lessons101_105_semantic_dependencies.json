@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "graph_id": "CHANLUN-LESSONS-101-105-SOURCE-ARGUMENT-AUDIT-20261108",
+  "description": "Additive semantic dependencies, unique decomposition proof obligations, source role chronology, as-of filter/implementation separation.",
+  "source_pdf_sha256_by_volume": {
+    "5": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65"
+  },
+  "references": [
+    "knowledge/claims/chanlun_early_core_dependencies.json",
+    "knowledge/claims/chanlun_lessons066_070_crossvolume_dependencies.json",
+    "knowledge/claims/chanlun_lessons071_075_semantic_dependencies.json",
+    "knowledge/claims/chanlun_lessons076_080_semantic_dependencies.json",
+    "knowledge/claims/chanlun_lessons081_085_semantic_dependencies.json",
+    "knowledge/claims/chanlun_lessons086_090_crossvolume_dependencies.json",
+    "knowledge/claims/chanlun_lessons091_095_semantic_dependencies.json",
+    "knowledge/claims/chanlun_lessons096_100_semantic_dependencies.json"
+  ],
+  "nodes": [
+    {
+      "id": "L101-SECOND-BUY-NONMONOTONIC",
+      "claim": "Author allows second buy price lower than first buy; structurally completed second buy and independent third-buy overlap must be separated",
+      "source": {
+        "volume": 5,
+        "pdf_pages": [
+          233,
+          234
+        ]
+      },
+      "status": "author_qna_clarification_structural_nonmonotonic_price"
+    },
+    {
+      "id": "L102-UNIQUE-PARSE-PROOF-OBLIGATION",
+      "claim": "Author likens recursive market-movement unique decomposition to positional number bases, but full formal uniqueness requires a specified parser and proofs",
+      "source": {
+        "volume": 5,
+        "pdf_pages": [
+          241,
+          242
+        ]
+      },
+      "status": "author_strong_universal_theorem_not_independently_proven"
+    },
+    {
+      "id": "L103-MACD-ZERO-DEFENSE",
+      "claim": "Author proposes zero-axis MACD DIF/DEA defensive heuristic using preselected minimum chart timeframe, not empirically demonstrated no-loss",
+      "source": {
+        "volume": 5,
+        "pdf_pages": [
+          269,
+          271
+        ]
+      },
+      "status": "author_defensive_heuristic_real_market_not_tested"
+    },
+    {
+      "id": "L104-GEOMETRY-VS-PHYSICS-ANALOGY",
+      "claim": "Author proposes link between market geometries and energy dynamics, with prominent 2010 editorial additions that do not prove physical law or historical profitability",
+      "source": {
+        "volume": 5,
+        "pdf_pages": [
+          290,
+          291
+        ]
+      },
+      "status": "original_philosophical_analogy_distinct_from_later_editorial"
+    },
+    {
+      "id": "L105-MECHANICAL-EXECUTION-GATES",
+      "claim": "Author favors mechanical fractal/pen operation; rule expressibility is separate from timely observable signal, legal fill, and realized net profit",
+      "source": {
+        "volume": 5,
+        "pdf_pages": [
+          325,
+          326
+        ]
+      },
+      "status": "author_mechanical_discipline_ai_execution_quality_gates"
+    }
+  ],
+  "edges": [
+    {
+      "from": "L101-SECOND-BUY-NONMONOTONIC",
+      "to": "L92-CENTER-ZN-MONITOR",
+      "type": "third_buy_confirmation_not_replaced_by_center_midpoint",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L101-SECOND-BUY-NONMONOTONIC",
+      "to": "L89-CENTER-ONTOLOGY",
+      "type": "independent_center_break_confirmation_for_second_third_overlap",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L101-SECOND-BUY-NONMONOTONIC",
+      "to": "L82-FRACTAL-OUTCOME",
+      "type": "completed_lower_legs_distinct_from_fractal_candidate",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L102-UNIQUE-PARSE-PROOF-OBLIGATION",
+      "to": "L77-PEN-UNIQUENESS-PREMISES",
+      "type": "full_recursive_uniqueness_depends_on_local_tie_and_pen_conditions",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L102-UNIQUE-PARSE-PROOF-OBLIGATION",
+      "to": "L84-SELF-STRUCTURE-RECURSION",
+      "type": "base_f1_and_recursive_f2_require_explicit_type_and_uniqueness_proof",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L102-UNIQUE-PARSE-PROOF-OBLIGATION",
+      "to": "L81-PEN-VERSION",
+      "type": "old_and_revised_pen_rules_cannot_silently_mix_in_uniqueness_argument",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L103-MACD-ZERO-DEFENSE",
+      "to": "L90-BOLL-AUXILIARY",
+      "type": "MACD_and_BOLL_are_independent_optional_indicator_evidence",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L103-MACD-ZERO-DEFENSE",
+      "to": "L94-TPLUS1-FILL-GATE",
+      "type": "defense_warning_not_equivalent_to_executable_exit",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L104-GEOMETRY-VS-PHYSICS-ANALOGY",
+      "to": "L99-IMMUTABLE-MIDDLE-REGROUP",
+      "type": "market_geometry_object_is_distinct_from_untested_physical_dynamics",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L104-GEOMETRY-VS-PHYSICS-ANALOGY",
+      "to": "L85-LEGALITY-NOT-EVIDENCE",
+      "type": "author_and_later_editor_claims_need_distinct_provenance",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L105-MECHANICAL-EXECUTION-GATES",
+      "to": "L91-FOUR-STATE-PEN",
+      "type": "finite_state_grammar_not_full_trade_strategy",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L105-MECHANICAL-EXECUTION-GATES",
+      "to": "L97-THEORY-OBSERVE-ACT",
+      "type": "classification_and_observation_and_execution_are_separate_evidence_levels",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L105-MECHANICAL-EXECUTION-GATES",
+      "to": "L94-TPLUS1-FILL-GATE",
+      "type": "risk_eligibility_and_fill_proof_must_precede_profit_statement",
+      "certainty": "ai_analysis"
+    }
+  ]
+}

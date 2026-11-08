@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "lesson": 78,
+  "state": "sha_verified_bounded_original_cues_page_metadata_selected_low_resolution_preview",
+  "source": {
+    "volume": 4,
+    "path": "ChineseBooks/缠论/缠论_卷4.pdf",
+    "sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+    "original_post_date": "2007-09-06 22:28:31",
+    "pdf_pages": [
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186
+    ],
+    "starred_divider_candidate": 179
+  },
+  "quality": {
+    "page_count": 13,
+    "native_chars": 8142,
+    "image_pages": [
+      176,
+      178,
+      180,
+      183
+    ],
+    "preview_pages": [
+      177,
+      179
+    ],
+    "visually_inspected_pages": [
+      177
+    ],
+    "fine_chart_values_verified": false
+  },
+  "claims": [
+    {
+      "id": "CL78-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 4,
+      "pdf_pages": [
+        174
+      ],
+      "summary": "作者指出线段须具方向且破坏须由符合标准的反向线段实现。"
+    },
+    {
+      "id": "CL78-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 4,
+      "pdf_pages": [
+        175
+      ],
+      "summary": "作者区分笔破坏与后续未形成线段破坏的情形。"
+    },
+    {
+      "id": "CL78-EDITORIAL-3",
+      "kind": "EDITORIAL",
+      "volume": 4,
+      "pdf_pages": [
+        175
+      ],
+      "summary": "娇注对原作者提出的修订端点位置持不同看法。"
+    },
+    {
+      "id": "CL78-SOURCE-4",
+      "kind": "SOURCE",
+      "volume": 4,
+      "pdf_pages": [
+        177
+      ],
+      "summary": "作者允许高层线段视图按极值端点标准化以供中枢分析。"
+    },
+    {
+      "id": "CL78-INTERPRETATION-5",
+      "kind": "INTERPRETATION",
+      "volume": 4,
+      "pdf_pages": [
+        177
+      ],
+      "summary": "标准化应视作高层抽象而非对原路径数据的覆写。"
+    },
+    {
+      "id": "CL78-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 4,
+      "pdf_pages": [
+        175,
+        177
+      ],
+      "summary": "事后修订数据无法直接作为当时可成交价或已知端点。"
+    },
+    {
+      "id": "CL78-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 4,
+      "pdf_pages": [
+        174,
+        177
+      ],
+      "summary": "原轨迹与高层投影对中枢结果的差异需独立验证。",
+      "test_status": "not_tested"
+    }
+  ],
+  "real_market_backtest": "not_run",
+  "limitations": [
+    "Original-source and later commentary separated by dated post, not just starred dividers",
+    "Some image-heavy pages not OCR-verified",
+    "Cannot infer confirmed future line segment from incomplete prefix"
+  ]
+}

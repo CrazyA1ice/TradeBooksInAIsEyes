@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "lesson": 85,
+  "study_status": "source_sha_locked_original_page_and_bounded_excerpt_figure_numeric_unverified",
+  "source": {
+    "volume": 4,
+    "path": "ChineseBooks/缠论/缠论_卷4.pdf",
+    "sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+    "original_date": "2007-10-22 21:42:06",
+    "pdf_pages": [
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345
+    ],
+    "first_star_divider_candidate": null
+  },
+  "quality": {
+    "page_count": 8,
+    "native_chars": 5015,
+    "image_pages": [
+      340,
+      341,
+      344
+    ],
+    "rendered_preview_pages": [
+      340,
+      344
+    ],
+    "visually_inspected_pages": [
+      340,
+      344
+    ],
+    "fine_price_annotations_verified": false
+  },
+  "claims": [
+    {
+      "id": "CL85-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 4,
+      "pdf_pages": [
+        338
+      ],
+      "summary": "作者以第一人称方式讲述未经外部验证的市场故事。"
+    },
+    {
+      "id": "CL85-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 4,
+      "pdf_pages": [
+        338,
+        339
+      ],
+      "summary": "作者对历史行为的合规性自行作出判断。"
+    },
+    {
+      "id": "CL85-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 4,
+      "pdf_pages": [
+        340
+      ],
+      "summary": "后页开始10月23日独立日期的市场解盘。"
+    },
+    {
+      "id": "CL85-INTERPRETATION-4",
+      "kind": "INTERPRETATION",
+      "volume": 4,
+      "pdf_pages": [
+        338,
+        339
+      ],
+      "summary": "自我合法性断言不能代替独立监管或司法认定。"
+    },
+    {
+      "id": "CL85-INFERENCE-5",
+      "kind": "INFERENCE",
+      "volume": 4,
+      "pdf_pages": [
+        338,
+        339
+      ],
+      "summary": "匿名市场故事无法唯一证明具体行为者身份或价格因果。"
+    },
+    {
+      "id": "CL85-EVIDENCE-6",
+      "kind": "EVIDENCE",
+      "volume": 4,
+      "pdf_pages": [
+        340,
+        344
+      ],
+      "summary": "附录相邻页面包含不同日期文稿和行情插图。"
+    },
+    {
+      "id": "CL85-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 4,
+      "pdf_pages": [
+        338,
+        344
+      ],
+      "summary": "历史叙事与可核证市场事实的关联有待合规公开材料检验。",
+      "test_status": "not_tested"
+    }
+  ],
+  "real_market_test": "not_run",
+  "warnings": [
+    "Different dated documents and later editorial notes kept separate.",
+    "Claims about trading profit, legality and 100% universal laws not independently verified.",
+    "Exact market data and historical fills not inspected."
+  ]
+}

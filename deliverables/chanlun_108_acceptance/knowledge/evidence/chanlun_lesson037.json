@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "lesson": 37,
+  "state": "original_text_bounded_cues_and_full_page_metadata_reviewed_images_unverified",
+  "source": {
+    "volume": 2,
+    "path": "ChineseBooks/缠论/缠论_卷2.pdf",
+    "sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+    "pdf_pages": [
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337
+    ],
+    "original_date": "2007-03-16 11:51:32",
+    "appendix_divider": 326
+  },
+  "quality": {
+    "source_run": 42376015064,
+    "image_pages": [
+      321,
+      322,
+      323,
+      327,
+      329
+    ],
+    "native_text_chars": 11021,
+    "page_count": 18
+  },
+  "claims": [
+    {
+      "id": "CL37-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        320
+      ],
+      "summary": "作者明确区分趋势背驰与不成趋势的中枢震荡。"
+    },
+    {
+      "id": "CL37-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        320
+      ],
+      "summary": "作者要求趋势中 A、B 为同级别中枢。"
+    },
+    {
+      "id": "CL37-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        320
+      ],
+      "summary": "作者提出上涨 c 创新高、下跌 c 创新低的条件。"
+    },
+    {
+      "id": "CL37-SOURCE-4",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        320,
+        321
+      ],
+      "summary": "作者进一步解释 c 内部结构和区间套。"
+    },
+    {
+      "id": "CL37-INTERPRETATION-5",
+      "kind": "INTERPRETATION",
+      "volume": 2,
+      "pdf_pages": [
+        320
+      ],
+      "summary": "背驰力度比较前须通过结构前置检查。"
+    },
+    {
+      "id": "CL37-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 2,
+      "pdf_pages": [
+        320
+      ],
+      "summary": "仅靠 MACD 面积无法替代走势定义。"
+    },
+    {
+      "id": "CL37-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 2,
+      "pdf_pages": [
+        320
+      ],
+      "summary": "结构筛选能否改善成本后背驰信号尚待研究。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "Bounded original-text cues not full figure verification.",
+    "Compiled volumes may include later editor notes.",
+    "AI proposals not original author conclusions or historical tests."
+  ]
+}

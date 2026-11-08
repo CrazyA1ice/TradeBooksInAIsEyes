@@ -1,0 +1,727 @@
+{
+  "schema_version": 1,
+  "book": "缠论五卷108课",
+  "example_count": 36,
+  "relationship_to_110_claims": "Additional cross-lesson explicitly specified hypotheses and counterexample setups. The 110 source-linked claims remain in ALL_110_PROSPECTIVE_FORMAL_CASES.json; this curated set does not claim to exhaust untagged text.",
+  "status": "NO_MARKET_VALIDATION_PERFORMED",
+  "rules": [
+    "All prices or thresholds shown as toy inputs are illustrative AI examples, not original chart-verified quantities.",
+    "Do not conflate mathematical counterexamples, documentary audits, behavior studies and executable market backtests.",
+    "No profit assertion; later studies require separately frozen definitions, point-in-time data, baseline and cost model."
+  ],
+  "examples": [
+    {
+      "example_id": "C001",
+      "lessons": [
+        1,
+        3,
+        4,
+        5,
+        34,
+        42,
+        96
+      ],
+      "question": "事前规则/直觉/行为锚定是否提高交易纪律？",
+      "formal_example": "D_i=1{actual_action_i violates timestamped initial_plan_i}; Δ=E[D|checklist]-E[D|control].",
+      "expected_logic": "H0: Δ=0; 预注册对照与干预前决定的纪律阈值。",
+      "required_inputs": "经同意的用户交易记录、记录时刻、干预组、风险承受力",
+      "observables_or_metrics": "规则偏离率、校准误差、事前计划执行率",
+      "negative_control_and_bias_guard": "不可用事后是否赚钱来定义事前理性；样本自选择偏差",
+      "validation_type": "behavioral_non_price_only",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C002",
+      "lessons": [
+        2,
+        22,
+        66,
+        76
+      ],
+      "question": "交易规模/资金集中度与价格冲击是否相关？",
+      "formal_example": "impact_i=(execution_i-mid_before_i)/mid_before_i; x_i=notional_i/ADV_i.",
+      "expected_logic": "比较按x_i分层的实施成本及尾部冲击；控制波动与买卖价差。",
+      "required_inputs": "历史订单簿、实际委托成交、资金流与盘口可得时刻",
+      "observables_or_metrics": "冲击弹性、尾部成本、流动性风险",
+      "negative_control_and_bias_guard": "不从公开成交量推断单个资金账户身份",
+      "validation_type": "microstructure",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C003",
+      "lessons": [
+        6
+      ],
+      "question": "权证条款与行权价关系是否可以复现某次风险暴露？",
+      "formal_example": "payoff_call=max(S_T-K,0)-premium-cost; compare documented cash settlement.",
+      "expected_logic": "合约文本确定K,T,权利比例和实际可成交价；无条款不计算收益。",
+      "required_inputs": "原始权证合约、交易历史、结算规则和费用",
+      "observables_or_metrics": "理论收益、实现收益差、最大可承受损失",
+      "negative_control_and_bias_guard": "不将一笔历史轶事外推全部权证",
+      "validation_type": "archival_contract",
+      "blockers": "待核验历史合约条款与行权规则",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C004",
+      "lessons": [
+        7
+      ],
+      "question": "年线和量价条件是否有成本后增量信息？",
+      "formal_example": "S_t=1{frozen annual bar condition & volume condition}; Δ=E[R_net(t,t+h)|S]-E[R_net|B].",
+      "expected_logic": "h及条件阈值需先冻结；样本外比较年度趋势基线。",
+      "required_inputs": "点时年线、成交量、企业行动、价格复权版本",
+      "observables_or_metrics": "成本后收益、最大回撤、换手",
+      "negative_control_and_bias_guard": "禁止当年年线尚未完成就把全年高低价用于当时决策",
+      "validation_type": "market_or_structure",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C005",
+      "lessons": [
+        8,
+        13,
+        31,
+        45,
+        95
+      ],
+      "question": "允许空仓/失效退出/风险限额能否降低尾部风险？",
+      "formal_example": "Policy_t∈{CASH,OPEN,REDUCE}; optimize subject to budget_t≤B and legal fills.",
+      "expected_logic": "与同资本等风险持仓基线比较 CVaR_0.95 与收益机会成本。",
+      "required_inputs": "事前规则、现金股票账本、T+1和停牌规则、手续费",
+      "observables_or_metrics": "CVaR、最大回撤、期末净值、错失收益",
+      "negative_control_and_bias_guard": "不能把事后最低点当止损成交价",
+      "validation_type": "market_or_structure",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C006",
+      "lessons": [
+        9
+      ],
+      "question": "三重筛选是否优于单重信号？",
+      "formal_example": "S_t=F1_t ∧ F2_t ∧ F3_t; failures_i=1{predeclared invalidation within horizon}.",
+      "expected_logic": "同一失败事件和h比较三重、单重、零信号，置信区间校正多重比较。",
+      "required_inputs": "三信号可执行形式、前视安全行情、可成交价",
+      "observables_or_metrics": "信号覆盖率、误报率、净收益",
+      "negative_control_and_bias_guard": "不以观察结果反调失败事件或第三重阈值",
+      "validation_type": "market_or_structure",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C007",
+      "lessons": [
+        10,
+        74,
+        75,
+        85,
+        87
+      ],
+      "question": "公开政策或市场轶事与历史事实是否相符？",
+      "formal_example": "DocTruth(statement)=1{dated primary document independently verifies statement}.",
+      "expected_logic": "区分可证实合同/监管/公告事实、未经证实叙事和行情相关性。",
+      "required_inputs": "公告原件、发布/生效时间、市场价格、编辑版本",
+      "observables_or_metrics": "事实一致性、证据缺口与可重复事件研究",
+      "negative_control_and_bias_guard": "缺真实公告则不可通过单纯股价回测验证真伪",
+      "validation_type": "archival_non_price_only",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C008",
+      "lessons": [
+        11,
+        24,
+        25,
+        90,
+        103
+      ],
+      "question": "均线/MACD/BOLL类辅助指标在完成bar上有增量预测力吗？",
+      "formal_example": "I_t=f(OHLC_{≤t},θ); ΔMetric=Metric(structure+I_t)-Metric(structure_only).",
+      "expected_logic": "均线近似、MACD柱面积、BOLL收口、零轴各自独立定义并冻结θ。",
+      "required_inputs": "原始收盘价、统一复权、指标初始化与历史warmup",
+      "observables_or_metrics": "提前量、误报率、校准、净收益",
+      "negative_control_and_bias_guard": "先计算后聚合≠先聚合后计算；禁止使用未来bar重算指标",
+      "validation_type": "market_or_structure",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C009",
+      "lessons": [
+        12,
+        14,
+        20,
+        21,
+        53,
+        101
+      ],
+      "question": "第一/二/三类买卖点能否合法互斥、覆盖、无前视识别？",
+      "formal_example": "class_t∈{B1,B2,B3,S1,S2,S3,UNKNOWN}; label only if all lower-level prerequisites confirmed≤t.",
+      "expected_logic": "比较分型/中枢/笔与三级分类在as-of时的覆盖率和重绘次数。",
+      "required_inputs": "完整冻结的笔/线段/中枢规则、分级历史事件",
+      "observables_or_metrics": "类别覆盖、冲突/重叠率、确认滞后、收益仅后续",
+      "negative_control_and_bias_guard": "不允许把事后中枢归属追溯到当时自动发信号",
+      "validation_type": "structural_then_market",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C010",
+      "lessons": [
+        15,
+        29,
+        37,
+        43
+      ],
+      "question": "趋势和盘整背驰/转折力度是否对未来路径有不同预示？",
+      "formal_example": "D_t=1{predeclared divergence under trend}; Y_t∈{continuation,reversal,consolidation}.",
+      "expected_logic": "将趋势前提、力度指标与三类后续路径的标签分离。",
+      "required_inputs": "完整历史分解、事前力度/面积定义、未来路径用于最终评估",
+      "observables_or_metrics": "条件转折概率、误报、净收益",
+      "negative_control_and_bias_guard": "不得在当时未知趋势是否完成时声称已出现背驰",
+      "validation_type": "market_or_structure",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C011",
+      "lessons": [
+        16,
+        19,
+        26,
+        49,
+        73
+      ],
+      "question": "品种筛选和资金到期约束下，交易方案是否仍有效？",
+      "formal_example": "Eligible_t=liquid_t ∧ time_budget_t≥holding_horizon; Net=PnL-costs-liquidation_penalty.",
+      "expected_logic": "冻结资金约束，比较固定品种和可切换品种的可成交策略。",
+      "required_inputs": "可买品种池点时、资金期限、订单与费用",
+      "observables_or_metrics": "收益、持仓现金比例、强制平仓损失",
+      "negative_control_and_bias_guard": "禁止由事后存活的标的构建历史股票池",
+      "validation_type": "market_or_structure",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C012",
+      "lessons": [
+        17,
+        35,
+        38,
+        102
+      ],
+      "question": "走势递归分解是否在完整定义下唯一？",
+      "formal_example": "P_v(I_{≤t})=set of legal partitions; unique_t=1{|P_v|=1}.",
+      "expected_logic": "保留多种合法划分或UNKNOWN，不用事后行情裁决同日歧义。",
+      "required_inputs": "完整规则文法、算法终止证明、所有冲突/等值边界",
+      "observables_or_metrics": "未决比率、重绘率、规则反例、运行完整性",
+      "negative_control_and_bias_guard": "一个程序恰好输出一个划分不等于数学唯一性证明",
+      "validation_type": "formal_static_plus_online",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C013",
+      "lessons": [
+        18,
+        27,
+        32,
+        46,
+        61,
+        69,
+        79,
+        80
+      ],
+      "question": "多周期实时确认何时可得，是否发生重绘？",
+      "formal_example": "confirmed_at=max(known_at of all prerequisites); lag=confirmed_at-extremum_at.",
+      "expected_logic": "在历史逐根前缀与多级别同步中记录二时钟，未收盘高级别bar不参与确认。",
+      "required_inputs": "分钟/日/周/月bar闭合和到达时刻、版本更新日志",
+      "observables_or_metrics": "确认滞后、重绘率、可执行信号数量",
+      "negative_control_and_bias_guard": "禁止未来月末价用于月内日间交易",
+      "validation_type": "market_or_structure",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C014",
+      "lessons": [
+        22,
+        28,
+        55,
+        56,
+        60,
+        74,
+        94
+      ],
+      "question": "暴跌/跳空/流动性中断下策略是否真能成交？",
+      "formal_example": "Fill_t=1{order executable at offered quote within queue and price limit}; slippage=fill−signal_price.",
+      "expected_logic": "测试无成交、隔夜跳空、T+1、涨跌停、停牌、手续费压力样本。",
+      "required_inputs": "tick/盘口、委托簿、成交和交易制度历史",
+      "observables_or_metrics": "可成交率、执行损耗、极端日尾部损失",
+      "negative_control_and_bias_guard": "绝不按不可交易的信号价假想成交",
+      "validation_type": "market_or_structure",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C015",
+      "lessons": [
+        24,
+        50,
+        59,
+        64
+      ],
+      "question": "价格精度、区间近似和指标运算顺序如何改变信号？",
+      "formal_example": "P_v=Parse(round_tick(OHLC,policy_v)); mismatch=1{P_v≠P_w}.",
+      "expected_logic": "0.5点容差非传递；早舍入与晚舍入、MACD先聚合与后聚合分别比较。",
+      "required_inputs": "原始精度、tick size、复权版本、容差规则",
+      "observables_or_metrics": "解析差异率、边界反例、误报",
+      "negative_control_and_bias_guard": "不能以‘近似相等’直接作为等价关系的传递闭包",
+      "validation_type": "formal_static_then_market",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C016",
+      "lessons": [
+        31,
+        40,
+        55,
+        93,
+        95
+      ],
+      "question": "部分兑现、组合库存、回本后剩余风险是否守恒？",
+      "formal_example": "cash_t+Σ(q_{i,t}P_{i,t})=W_t; realized_PnL+unrealized_PnL=total_PnL.",
+      "expected_logic": "现金股份逐成交守恒；比较已提回本金但仍有持仓尾部下跌。",
+      "required_inputs": "成交/库存/费用流水、持仓标价和风险预算",
+      "observables_or_metrics": "资金守恒误差、尾部暴露、资金生存率",
+      "negative_control_and_bias_guard": "账面零成本≠无剩余市场风险",
+      "validation_type": "market_or_structure",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C017",
+      "lessons": [
+        33,
+        36,
+        39,
+        54,
+        99
+      ],
+      "question": "多种合理解析与重新组合是否使实时结构分歧？",
+      "formal_example": "Disagreement_t=1{Parser_v(I_≤t)≠Parser_w(I_≤t)}.",
+      "expected_logic": "提前冻结两种解释; 对缺失分支保留UNKNOWN并量化差异。",
+      "required_inputs": "来源限定文法、冲突版本、原始行情或原图注释",
+      "observables_or_metrics": "未覆盖分支频率、分歧、证据缺口",
+      "negative_control_and_bias_guard": "禁止事后选择净收益最高版本作为作者原文事实",
+      "validation_type": "formal_static_then_market",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C018",
+      "lessons": [
+        40,
+        41,
+        73,
+        86
+      ],
+      "question": "不同层级信号的冲突与持仓共享库存如何处理？",
+      "formal_example": "A_t=resolve(S_{low,t},S_{high,t},inventory_t); Σorders_sells≤available_shares.",
+      "expected_logic": "测试高层反趋势低层信号和多级别发单冲突。",
+      "required_inputs": "多级别已确认信号、T+1库存、现金风险预算",
+      "observables_or_metrics": "冲突率、未成交率、费用后收益",
+      "negative_control_and_bias_guard": "不能使两个周期的策略重复卖出同一股份",
+      "validation_type": "market_or_structure",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C019",
+      "lessons": [
+        44,
+        70,
+        88,
+        89,
+        100
+      ],
+      "question": "第三类点及新旧中枢转换分支是否完整？",
+      "formal_example": "transition∈{third_buy,third_sell,extension,UNKNOWN}; tested_branch_t=1{all prerequisites known}.",
+      "expected_logic": "逐分支枚举反例; 预留作者与后期编辑对第100课不同意见。",
+      "required_inputs": "完整中枢和次级别分段定义、来源日期",
+      "observables_or_metrics": "覆盖率、条件反例数、预警延迟",
+      "negative_control_and_bias_guard": "必要非充分条件不可升级为完整买卖点结论",
+      "validation_type": "formal_static_then_market",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C020",
+      "lessons": [
+        47,
+        56,
+        57,
+        58,
+        60
+      ],
+      "question": "书内具体图示能否在不看未来的条件下重演？",
+      "formal_example": "Compare(original_chart_annotations,online_parser_at_t) after page-image verification.",
+      "expected_logic": "至少核对卷3第56–60课重要图例，分别冻结数据截点和解析版本。",
+      "required_inputs": "清晰原PDF图页、图像标注、原交易日数据",
+      "observables_or_metrics": "时间线重建误差、数据源价差、信号重绘",
+      "negative_control_and_bias_guard": "低清缩略图和未经核准的图中数字不可作为真值",
+      "validation_type": "figure_golden_set",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C021",
+      "lessons": [
+        52,
+        63,
+        78,
+        83,
+        84
+      ],
+      "question": "跨网格/噪声/归一化/自同构声称在扰动下是否稳定？",
+      "formal_example": "Robust_v(ε)=1{Structure_v(I)=Structure_v(I+δ_ε)}.",
+      "expected_logic": "用保序变换、价格精度扰动、不同初始化比较输出，不自动推导所有递归不变。",
+      "required_inputs": "同标的多频率数据、扰动算子、规则版本",
+      "observables_or_metrics": "结构变动率、保持的级别关系、收敛反例",
+      "negative_control_and_bias_guard": "不得把几何自相似修辞直接写成分布不变定理",
+      "validation_type": "formal_static_then_market",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C022",
+      "lessons": [
+        62,
+        65,
+        77,
+        81
+      ],
+      "question": "旧笔与后发新笔的合格性差异有多大？",
+      "formal_example": "Eligible_old(t),Eligible_new(t) under same I_≤t; Δ(t)=1{Eligible_old≠Eligible_new}.",
+      "expected_logic": "固定第62原版/77/81规则, 第62p.295附录日期不明不得提前启用。",
+      "required_inputs": "同一已完成K线、原书来源角色和有日期的规则历史",
+      "observables_or_metrics": "候选差异、重绘、平局/包含边界",
+      "negative_control_and_bias_guard": "第81课另篇2007-09-18后发; 日期不等于市场参与者当时可得",
+      "validation_type": "formal_static_then_market",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C023",
+      "lessons": [
+        62,
+        64,
+        65,
+        67,
+        71
+      ],
+      "question": "K线包含归并和特征序列成员资格反例",
+      "formal_example": "A=[0,6], B=[0,10], C=[4,10]: Contains(A,B)=1, Contains(B,C)=1, Contains(A,C)=0.",
+      "expected_logic": "仅顺序、相邻、冻结方向归并; 非传递包含不允许等价类化。",
+      "required_inputs": "带原始源key的OHLC、UP/DOWN方向、STRICT成员role",
+      "observables_or_metrics": "标准化路径差异、重复/丢失源key、违反成员资格次数",
+      "negative_control_and_bias_guard": "辅助/不同序列元素绝不加入正式特征序列",
+      "validation_type": "formal_static_then_market",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C024",
+      "lessons": [
+        67,
+        71,
+        72
+      ],
+      "question": "线段特征序列无缺口、有缺口的结束证据区别",
+      "formal_example": "gap=1{range(feature1)∩range(feature2)=∅}; gap=1 ⇒ require later opposite triple fractal.",
+      "expected_logic": "反向序列至少三根STRICT且最后完成时间晚于初始候选。",
+      "required_inputs": "完成的正式笔(当前尚未拥有)、特征序列会员身份、源码页码",
+      "observables_or_metrics": "候选端点/确认时刻差、重绘、规则版本不一致",
+      "negative_control_and_bias_guard": "V1–V4的暂定笔不得伪装成正式STRICT元素",
+      "validation_type": "formal_static_then_market",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C025",
+      "lessons": [
+        68,
+        92
+      ],
+      "question": "事前边界与Zn突破是否产生更好的预警？",
+      "formal_example": "Z=(ZG+ZD)/2, Zn=(ZG−ZD)/2; alert_t=1{predeclared zone boundary crossed}.",
+      "expected_logic": "比较突破预警和真正中枢确认的条件概率，边界必须先冻结。",
+      "required_inputs": "真实已形成中枢区间、可知边界和突破bar",
+      "observables_or_metrics": "误报、延迟、净收益(若有可成交信号)",
+      "negative_control_and_bias_guard": "不能用后来才完成的ZG/ZD解释之前边界",
+      "validation_type": "market_or_structure",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C026",
+      "lessons": [
+        74
+      ],
+      "question": "政策冲击属于系统性还是非系统性风险？",
+      "formal_example": "Market_breadth=Σ 1{abnormal_return_i<−θ}/N_t; factor_share=Var(market_factor)/Var(total).",
+      "expected_logic": "预注册市场广度和行业覆盖，用作者与编辑争议作为竞争解释。",
+      "required_inputs": "官方政策公告时间、全市场当时成分股、停牌清单",
+      "observables_or_metrics": "超额收益横截面范围、共同因子贡献、受限成交",
+      "negative_control_and_bias_guard": "不将作者观点和后期编辑观点合并为单一事实",
+      "validation_type": "policy_event_study",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C027",
+      "lessons": [
+        79,
+        80,
+        107
+      ],
+      "question": "高级别未收盘与低级别实时信号能否分开交易？",
+      "formal_example": "low_signal_at≤t; high_fractal_ready=1{high_bar.end≤t & high_bar.known≤t}.",
+      "expected_logic": "以分钟信号与日/周未完成结构为双时钟，不将盘中高价当收盘确认。",
+      "required_inputs": "分钟与日线原始bar、完整交易制度、买卖点先验规则",
+      "observables_or_metrics": "信号次数、错失收益、重绘、可成交净收益",
+      "negative_control_and_bias_guard": "不能回填高周期完成标签",
+      "validation_type": "timing_clock",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C028",
+      "lessons": [
+        81,
+        82,
+        91
+      ],
+      "question": "笔分型的后继成笔概率与四态转移是否可校准？",
+      "formal_example": "P(next_complete_pen=1|prefix_fractal_features)=σ(βᵀx_t); FSM transition ∈ allowed states.",
+      "expected_logic": "将形态标签与未来是否成笔分开; 禁止未来已知段落作为x_t。",
+      "required_inputs": "标准化已完成bar、未来独立标签、四态先验版本",
+      "observables_or_metrics": "Brier、可靠性、覆盖、不可识别率",
+      "negative_control_and_bias_guard": "尚无完整笔真值时不得声称已具备可靠标签",
+      "validation_type": "market_or_structure",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C029",
+      "lessons": [
+        90,
+        103
+      ],
+      "question": "BOLL收口、MACD零轴是否真的提前于确认事件？",
+      "formal_example": "lead=confirmed_event_at−first_indicator_alert_at; false_alert=alert without event in h.",
+      "expected_logic": "指标计算使用历史完成bar; 对无后续事件也完整计入误报。",
+      "required_inputs": "历史完整价格、指标参数、结构确认时间",
+      "observables_or_metrics": "提前量分布、误报、累计成本",
+      "negative_control_and_bias_guard": "禁止仅选成功转折案例计算指标提前量",
+      "validation_type": "market_or_structure",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C030",
+      "lessons": [
+        100,
+        102
+      ],
+      "question": "是否存在使作者或编者某种形式化分支失败的反例？",
+      "formal_example": "Counterexample=∃ input satisfying antecedent but violating consequent under frozen grammar.",
+      "expected_logic": "先形式化第100课两条作者路径及编辑异议，再穷举/构造边界输入。",
+      "required_inputs": "作者原文p.224–225/注释角色、时间版本、完整文法",
+      "observables_or_metrics": "反例数量、可复算最小输入、版本归属",
+      "negative_control_and_bias_guard": "没有完备算法时只可标待证，不可宣称已推翻作者理论",
+      "validation_type": "logical_counterexample",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C031",
+      "lessons": [
+        106
+      ],
+      "question": "板块类别均值及动量能否增量预测风险收益？",
+      "formal_example": "score_{sector,t}=mean_{members known at t}(predeclared category statistic); Δ=net_result−equal_weight_momentum.",
+      "expected_logic": "动态成员与分类只取截至t已知版本，冻结类别距离尺度，滚动样本外比较。",
+      "required_inputs": "历史行业/概念成员时间戳、企业事件、收益和可成交性",
+      "observables_or_metrics": "净收益、回撤、行业轮换成本、幸存者敏感性",
+      "negative_control_and_bias_guard": "不能把今天的行业成员倒填2008年行业分类",
+      "validation_type": "market_predictive",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C032",
+      "lessons": [
+        108
+      ],
+      "question": "两种‘底部’概念是否有不同预测性质？",
+      "formal_example": "F_bottom=fractal boundary rule; S_bottom=first_buy→center→third_buy/third_sell FSM.",
+      "expected_logic": "在2008-08-29时间截点不使用未来月线收盘; 比较F与S的确认/失败。",
+      "required_inputs": "月/周/日完成bar与底分型规则、完整一二三买/中枢事件",
+      "observables_or_metrics": "确认滞后、失败率、重绘、后续条件收益",
+      "negative_control_and_bias_guard": "有效站住上沿和第三类点定义未冻结前，不得当作真实交易信号",
+      "validation_type": "structural_then_market",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C033",
+      "lessons": [
+        59,
+        64,
+        97,
+        99,
+        102
+      ],
+      "question": "不同数据修订版本能否改变当时可知的结构？",
+      "formal_example": "candidate(I_{≤t},versions received≤t) vs ex_post_restatement; event at revision_received_at.",
+      "expected_logic": "重算旧bar仅作事后订正视图；修订事件不能回溯当时已发出的信号。",
+      "required_inputs": "不可变旧bar、订正公告收到时间与替代版、结果候选ID",
+      "observables_or_metrics": "事后分歧、旧事件撤销时间、不可知状态率",
+      "negative_control_and_bias_guard": "不可把订正后的历史结果当年已知。",
+      "validation_type": "provenance_revision",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C034",
+      "lessons": [
+        97,
+        98,
+        105
+      ],
+      "question": "识别—决策—成交三个阶段各损失多少？",
+      "formal_example": "O_t=recognized_t × acted_t × filled_t; shortfall_total=Σ component_shortfalls.",
+      "expected_logic": "分开计算识别延迟、信号执行政策、订单制度和市场成交损耗。",
+      "required_inputs": "独立结构事件日志、交易决策记录、逐单成交与行情",
+      "observables_or_metrics": "各层漏损率、净收益、最大回撤",
+      "negative_control_and_bias_guard": "不能把仅可在历史图上定位的极值成交价算入业绩",
+      "validation_type": "market_microstructure",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C035",
+      "lessons": [
+        104
+      ],
+      "question": "图形位置和预注册量价代理之间是否有关联？",
+      "formal_example": "G_t=frozen_geometry(OHLC_{≤t}); V_t=frozen_volume_price_indicator(I_{≤t}); Corr(G_t,V_{t+h}).",
+      "expected_logic": "在作者比喻与可测量变量之间明确AI操作化，并不当成原著方程。",
+      "required_inputs": "价格成交量、原书几何约束或有边界的标注",
+      "observables_or_metrics": "条件相关性、稳定性、误差条带",
+      "negative_control_and_bias_guard": "图像比喻与严格物理定律不能等同",
+      "validation_type": "market_or_structure",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    },
+    {
+      "example_id": "C036",
+      "lessons": [
+        60,
+        73,
+        93,
+        94,
+        98
+      ],
+      "question": "A股制度约束对策略模拟的影响有多大？",
+      "formal_example": "SellAllowed(t,q)=1{q was available before same-day restrictions}; realized_net=fill−tax−fee.",
+      "expected_logic": "包含T+1、停牌、涨跌停和费率历史; 对照忽略制度的乐观结果。",
+      "required_inputs": "官方交易规则历史、账户持仓、报价和时间戳",
+      "observables_or_metrics": "不可成交比例、乐观偏差、净值曲线",
+      "negative_control_and_bias_guard": "不可按涨跌停封单价假定交易必成交",
+      "validation_type": "market_or_structure",
+      "blockers": "Requires fully frozen rule definitions, trusted point-in-time data, transaction conditions and chart-quality checks.",
+      "source_role": "AI proposed prospective test, not verified author formula",
+      "result_status": "NOT_RUN",
+      "empirical_result": null
+    }
+  ]
+}

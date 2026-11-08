@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-V2-L029-FIRSTPASS-20261107",
+  "status": "first_pass_textual_images_unverified",
+  "source": {
+    "volume": 2,
+    "path": "ChineseBooks/缠论/缠论_卷2.pdf",
+    "sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+    "lesson_number": 29,
+    "title": "转折的力度与级别",
+    "original_article_date": "2007-02-09 15:08:08",
+    "pdf_pages": [
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185
+    ],
+    "appendix_boundary_candidate": 174
+  },
+  "quality": {
+    "page_count": 23,
+    "native_text_chars": 10154,
+    "image_pages": [
+      166,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      175,
+      176,
+      178,
+      179,
+      180
+    ],
+    "low_text_pages": [
+      166,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      175,
+      176,
+      178,
+      179,
+      180
+    ],
+    "source_run": 42373286283
+  },
+  "claims": [
+    {
+      "id": "CL029-S01",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        163
+      ],
+      "volume": 2,
+      "summary": "作者提出背驰后的三类走势演化结果。"
+    },
+    {
+      "id": "CL029-S02",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        163,
+        164
+      ],
+      "volume": 2,
+      "summary": "作者用五分钟和一分钟走势的中枢级别关系解释区分条件。"
+    },
+    {
+      "id": "CL029-S03",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        165
+      ],
+      "volume": 2,
+      "summary": "作者表示精确证明此处没有展开，主要通过案例示意。"
+    },
+    {
+      "id": "CL029-S04",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        167
+      ],
+      "volume": 2,
+      "summary": "作者将首次反弹与第三类买点联系到实操选择。"
+    },
+    {
+      "id": "CL029-I05",
+      "kind": "INTERPRETATION",
+      "pdf_pages": [
+        163,
+        165
+      ],
+      "volume": 2,
+      "summary": "三种完成后走势的分类不自动形成实时预测器。"
+    },
+    {
+      "id": "CL029-I06",
+      "kind": "INFERENCE",
+      "pdf_pages": [
+        163,
+        164
+      ],
+      "volume": 2,
+      "summary": "结果类别的互斥与覆盖需要事先独立、完整的定义。"
+    },
+    {
+      "id": "CL029-H07",
+      "kind": "HYPOTHESIS",
+      "pdf_pages": [
+        163,
+        167
+      ],
+      "volume": 2,
+      "summary": "三分类在线识别、确认延迟和样本外效果尚待检验。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "PDF contains appendices and editor notes from potentially different times.",
+    "Images cannot be used as numerical evidence before visual verification.",
+    "Strong author claims are not empirical proof; AI reconstructions are explicitly separate."
+  ]
+}

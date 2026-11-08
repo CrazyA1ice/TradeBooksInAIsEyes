@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-V1-LESSON010-FIRSTPASS-20261107",
+  "status": "textual_first_pass_image_visual_review_pending",
+  "source": {
+    "path": "ChineseBooks/缠论/缠论_卷1.pdf",
+    "sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+    "lesson_number": 10,
+    "original_author_datetime": "2006-11-24 12:02:50",
+    "pdf_pages": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81
+    ],
+    "appendix_boundary_candidate_page": 49
+  },
+  "source_quality": {
+    "native_chars": 26713,
+    "low_text_pages": [
+      78,
+      79,
+      80,
+      81
+    ],
+    "image_pages": [
+      78,
+      79,
+      80,
+      81
+    ],
+    "source_survey_run_id": 42368117633
+  },
+  "claims": [
+    {
+      "id": "CL010-S01",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        48,
+        49
+      ],
+      "summary": "作者自述离开市场四年后于 2005 年重新观察股票。"
+    },
+    {
+      "id": "CL010-S02",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        48
+      ],
+      "summary": "作者区分政策好恶与对政策影响下市场方向的判断。"
+    },
+    {
+      "id": "CL010-S03",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        49
+      ],
+      "summary": "作者强调可参与性是变化中的状态，不应只因持有而找理由。"
+    },
+    {
+      "id": "CL010-I04",
+      "kind": "INTERPRETATION",
+      "pdf_pages": [
+        48,
+        49
+      ],
+      "summary": "本课再次把态度与证据、偏好与交易条件分离。"
+    },
+    {
+      "id": "CL010-I05",
+      "kind": "INFERENCE",
+      "pdf_pages": [
+        48
+      ],
+      "summary": "特定政策带来特定牛市的因果推断需控制其他市场驱动因素。"
+    },
+    {
+      "id": "CL010-H06",
+      "kind": "HYPOTHESIS",
+      "pdf_pages": [
+        48,
+        49
+      ],
+      "summary": "投资者政策立场与金融预测偏差之间的关系尚待检验。",
+      "test_status": "not_tested"
+    }
+  ],
+  "limitations": [
+    "PDF p.49 includes appended dialogue, not homogeneous original article",
+    "PDF p.50–81 mostly compiled follow-up and images, not a 34-page single original essay",
+    "OCR string resembling an algebraic expression in PDF p.48 should not be treated as a valid trading equation"
+  ],
+  "empirical_status": "not_run"
+}

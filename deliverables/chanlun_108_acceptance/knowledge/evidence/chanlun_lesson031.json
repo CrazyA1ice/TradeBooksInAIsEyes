@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-V2-LESSON-31-FIRSTPASS-20261107",
+  "status": "source_text_reviewed_figures_not_yet_visually_verified",
+  "source": {
+    "volume": 2,
+    "path": "ChineseBooks/缠论/缠论_卷2.pdf",
+    "sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+    "lesson_number": 31,
+    "original_date": "2007-02-15 15:16:12",
+    "pdf_pages": [
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230
+    ],
+    "appendix_boundary_candidate": 196
+  },
+  "source_quality": {
+    "native_chars": 26596,
+    "page_count": 39,
+    "image_pages": [
+      193,
+      197,
+      198,
+      199,
+      200,
+      202,
+      212,
+      221,
+      229
+    ],
+    "low_text_pages": [
+      193,
+      197,
+      198,
+      199,
+      202,
+      212,
+      221
+    ],
+    "read_only_actions_run": 42374633597
+  },
+  "claims": [
+    {
+      "id": "CL31-SO-1",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        192
+      ],
+      "summary": "作者认为资金规模增大后资金管理变得关键，并反对借贷透支造成期限压力。"
+    },
+    {
+      "id": "CL31-SO-2",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        194
+      ],
+      "summary": "作者主张预定持股仓位并保留部分资金做短差。"
+    },
+    {
+      "id": "CL31-SO-3",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        194,
+        195
+      ],
+      "summary": "作者提出先收回本金使股票成本归零，随后继续增加持股数量。"
+    },
+    {
+      "id": "CL31-IN-4",
+      "kind": "INTERPRETATION",
+      "volume": 2,
+      "pdf_pages": [
+        192,
+        194
+      ],
+      "summary": "持续资本和可控仓位是作者资金管理的重要前提。"
+    },
+    {
+      "id": "CL31-IN-5",
+      "kind": "INFERENCE",
+      "volume": 2,
+      "pdf_pages": [
+        194,
+        195
+      ],
+      "summary": "成本回收不消灭剩余股票的市值波动与机会成本。"
+    },
+    {
+      "id": "CL31-HY-6",
+      "kind": "HYPOTHESIS",
+      "volume": 2,
+      "pdf_pages": [
+        194,
+        195
+      ],
+      "summary": "部分兑现与机动仓管理是否改善回撤与资金生存率需实证。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "Original article and appended replies are editorially mixed in compilation.",
+    "No figure data used as numeric evidence.",
+    "AI models and counterexamples are not claims the author made."
+  ]
+}

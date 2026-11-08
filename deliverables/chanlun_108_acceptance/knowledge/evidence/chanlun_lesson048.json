@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-V3-L48-FIRSTPASS-20261107",
+  "status": "real_pdf_excerpt_review_with_full_page_metadata_figures_unverified",
+  "source": {
+    "volume": 3,
+    "path": "ChineseBooks/缠论/缠论_卷3.pdf",
+    "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+    "lesson_number": 48,
+    "original_date": "2007-04-24 08:52:02",
+    "pdf_pages": [
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91
+    ],
+    "first_appendix_candidate": 84
+  },
+  "quality": {
+    "source_run": 42378321659,
+    "page_count": 9,
+    "native_chars": 6303,
+    "image_pages": [
+      85,
+      86,
+      87
+    ],
+    "sparse_pages": [
+      85,
+      86,
+      87
+    ]
+  },
+  "claims": [
+    {
+      "id": "CL48-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        83
+      ],
+      "summary": "作者把牛市中迅猛下跌描述为可能短暂的市场调整。"
+    },
+    {
+      "id": "CL48-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        83,
+        84
+      ],
+      "summary": "作者强调积累筹码与在震荡中降低持仓成本。"
+    },
+    {
+      "id": "CL48-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        83
+      ],
+      "summary": "作者明确宣称零成本意味着绝对无风险。"
+    },
+    {
+      "id": "CL48-SOURCE-4",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        84
+      ],
+      "summary": "作者讨论不同时间级别下暴跌风险和操作能力的适配。"
+    },
+    {
+      "id": "CL48-INTERPRETATION-5",
+      "kind": "INTERPRETATION",
+      "volume": 3,
+      "pdf_pages": [
+        83
+      ],
+      "summary": "市场阶段判断属于有条件的宏观叙事而非每次暴跌必恢复。"
+    },
+    {
+      "id": "CL48-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 3,
+      "pdf_pages": [
+        83
+      ],
+      "summary": "回收本金不能推出剩余股票的市值风险为零。"
+    },
+    {
+      "id": "CL48-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 3,
+      "pdf_pages": [
+        83,
+        84
+      ],
+      "summary": "牛市急跌之后走势分布和零成本仓位风险需完整样本检验。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "Author's claims are not independent data verification.",
+    "Original charts and later Q&A not fully analyzed.",
+    "AI logical tests cannot prove the theory yields profits."
+  ]
+}

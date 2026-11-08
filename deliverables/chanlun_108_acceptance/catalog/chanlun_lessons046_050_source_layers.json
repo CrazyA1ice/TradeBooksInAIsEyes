@@ -1,0 +1,911 @@
+{
+  "schema_version": 1,
+  "source_run": 42378321659,
+  "tool": "PyMuPDF 1.26.7",
+  "source_path": "ChineseBooks/缠论/缠论_卷3.pdf",
+  "source_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+  "status": "source_pdf_sha_verified_and_page_metadata_complete_bounded_original_author_excerpts",
+  "caveats": [
+    "PDF contains original article, later comments, figures, and editorial corrections; total pages do not equal article text.",
+    "First asterisk divider is a heuristic and may start halfway through a page.",
+    "Native text on image-only pages does not verify any chart labels or historic price points.",
+    "Lesson 48 comparisons of historical market crashes and lesson 49 profit claims are unverified author statements.",
+    "Do not infer an intraday full-day classification from future unseen 30-minute bars."
+  ],
+  "lessons": [
+    {
+      "lesson": 46,
+      "title": "每日走势的分类",
+      "volume": 3,
+      "path": "ChineseBooks/缠论/缠论_卷3.pdf",
+      "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "start": 49,
+      "end": 68,
+      "date": "2007-04-18 15:36:09",
+      "first_appendix": {
+        "page": 54,
+        "line": 4,
+        "marker": "********************"
+      },
+      "pages": [
+        {
+          "pdf_page": 49,
+          "native_chars": 873,
+          "image_count": 0,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 50,
+          "native_chars": 922,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 51,
+          "native_chars": 119,
+          "image_count": 1,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 52,
+          "native_chars": 23,
+          "image_count": 1,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 53,
+          "native_chars": 23,
+          "image_count": 1,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 54,
+          "native_chars": 290,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 55,
+          "native_chars": 23,
+          "image_count": 1,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 56,
+          "native_chars": 838,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 57,
+          "native_chars": 235,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 58,
+          "native_chars": 23,
+          "image_count": 1,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 59,
+          "native_chars": 225,
+          "image_count": 1,
+          "has_editor_cue": true,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 60,
+          "native_chars": 295,
+          "image_count": 1,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 61,
+          "native_chars": 23,
+          "image_count": 1,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 62,
+          "native_chars": 1100,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 63,
+          "native_chars": 784,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 64,
+          "native_chars": 946,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 65,
+          "native_chars": 803,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 66,
+          "native_chars": 860,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 67,
+          "native_chars": 678,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 68,
+          "native_chars": 933,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        }
+      ],
+      "topics": [
+        {
+          "page": 49,
+          "terms": [
+            "每日",
+            "走势",
+            "分类",
+            "开盘",
+            "中枢",
+            "级别",
+            "高点",
+            "低点"
+          ]
+        },
+        {
+          "page": 50,
+          "terms": [
+            "每日",
+            "走势",
+            "分类",
+            "收盘",
+            "中枢",
+            "级别",
+            "买卖点"
+          ]
+        },
+        {
+          "page": 51,
+          "terms": [
+            "每日",
+            "走势",
+            "分类"
+          ]
+        },
+        {
+          "page": 52,
+          "terms": [
+            "每日",
+            "走势",
+            "分类"
+          ]
+        },
+        {
+          "page": 53,
+          "terms": [
+            "每日",
+            "走势",
+            "分类"
+          ]
+        },
+        {
+          "page": 54,
+          "terms": [
+            "每日",
+            "走势",
+            "分类"
+          ]
+        }
+      ],
+      "page_count": 20,
+      "native_chars": 10016,
+      "image_pages": [
+        51,
+        52,
+        53,
+        55,
+        58,
+        59,
+        60,
+        61
+      ],
+      "sparse_pages": [
+        52,
+        53,
+        55,
+        58,
+        61
+      ]
+    },
+    {
+      "lesson": 47,
+      "title": "一夜情行情分析",
+      "volume": 3,
+      "path": "ChineseBooks/缠论/缠论_卷3.pdf",
+      "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "start": 69,
+      "end": 82,
+      "date": "2007-04-20 08:51:58",
+      "first_appendix": {
+        "page": 76,
+        "line": 16,
+        "marker": "********************"
+      },
+      "pages": [
+        {
+          "pdf_page": 69,
+          "native_chars": 1454,
+          "image_count": 0,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 70,
+          "native_chars": 1190,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 71,
+          "native_chars": 23,
+          "image_count": 1,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 72,
+          "native_chars": 1212,
+          "image_count": 0,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 73,
+          "native_chars": 23,
+          "image_count": 1,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 74,
+          "native_chars": 23,
+          "image_count": 1,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 75,
+          "native_chars": 23,
+          "image_count": 1,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 76,
+          "native_chars": 1030,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 77,
+          "native_chars": 23,
+          "image_count": 1,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 78,
+          "native_chars": 1077,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 79,
+          "native_chars": 754,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 80,
+          "native_chars": 1093,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 81,
+          "native_chars": 1235,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 82,
+          "native_chars": 799,
+          "image_count": 0,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        }
+      ],
+      "topics": [
+        {
+          "page": 69,
+          "terms": [
+            "走势",
+            "分类",
+            "一夜情",
+            "开盘",
+            "中枢",
+            "级别",
+            "资金",
+            "低点"
+          ]
+        },
+        {
+          "page": 70,
+          "terms": [
+            "走势",
+            "一夜情",
+            "背驰",
+            "中枢",
+            "级别",
+            "买卖点"
+          ]
+        },
+        {
+          "page": 71,
+          "terms": [
+            "一夜情"
+          ]
+        },
+        {
+          "page": 72,
+          "terms": [
+            "走势",
+            "一夜情",
+            "背驰",
+            "收盘",
+            "中枢",
+            "级别",
+            "T+1",
+            "风险",
+            "资金",
+            "低点"
+          ]
+        },
+        {
+          "page": 73,
+          "terms": [
+            "一夜情"
+          ]
+        },
+        {
+          "page": 74,
+          "terms": [
+            "一夜情"
+          ]
+        },
+        {
+          "page": 75,
+          "terms": [
+            "一夜情"
+          ]
+        },
+        {
+          "page": 76,
+          "terms": [
+            "走势",
+            "一夜情",
+            "中枢"
+          ]
+        }
+      ],
+      "page_count": 14,
+      "native_chars": 9959,
+      "image_pages": [
+        71,
+        73,
+        74,
+        75,
+        77
+      ],
+      "sparse_pages": [
+        71,
+        73,
+        74,
+        75,
+        77
+      ]
+    },
+    {
+      "lesson": 48,
+      "title": "暴跌，牛市行情的一夜情",
+      "volume": 3,
+      "path": "ChineseBooks/缠论/缠论_卷3.pdf",
+      "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "start": 83,
+      "end": 91,
+      "date": "2007-04-24 08:52:02",
+      "first_appendix": {
+        "page": 84,
+        "line": 25,
+        "marker": "********************"
+      },
+      "pages": [
+        {
+          "pdf_page": 83,
+          "native_chars": 1422,
+          "image_count": 0,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 84,
+          "native_chars": 1177,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 85,
+          "native_chars": 27,
+          "image_count": 1,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 86,
+          "native_chars": 27,
+          "image_count": 1,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 87,
+          "native_chars": 27,
+          "image_count": 1,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 88,
+          "native_chars": 1082,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 89,
+          "native_chars": 917,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 90,
+          "native_chars": 891,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 91,
+          "native_chars": 733,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        }
+      ],
+      "topics": [
+        {
+          "page": 83,
+          "terms": [
+            "走势",
+            "一夜情",
+            "暴跌",
+            "级别",
+            "风险"
+          ]
+        },
+        {
+          "page": 84,
+          "terms": [
+            "走势",
+            "一夜情",
+            "暴跌",
+            "中枢",
+            "级别",
+            "T+1"
+          ]
+        }
+      ],
+      "page_count": 9,
+      "native_chars": 6303,
+      "image_pages": [
+        85,
+        86,
+        87
+      ],
+      "sparse_pages": [
+        85,
+        86,
+        87
+      ]
+    },
+    {
+      "lesson": 49,
+      "title": "利润率最大的操作模式",
+      "volume": 3,
+      "path": "ChineseBooks/缠论/缠论_卷3.pdf",
+      "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "start": 92,
+      "end": 104,
+      "date": "2007-04-26 08:16:56",
+      "first_appendix": {
+        "page": 99,
+        "line": 4,
+        "marker": "********************"
+      },
+      "pages": [
+        {
+          "pdf_page": 92,
+          "native_chars": 564,
+          "image_count": 0,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 93,
+          "native_chars": 233,
+          "image_count": 1,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 94,
+          "native_chars": 1430,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 95,
+          "native_chars": 1383,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 96,
+          "native_chars": 1031,
+          "image_count": 0,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 97,
+          "native_chars": 914,
+          "image_count": 0,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 98,
+          "native_chars": 26,
+          "image_count": 1,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 99,
+          "native_chars": 237,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 100,
+          "native_chars": 26,
+          "image_count": 1,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 101,
+          "native_chars": 779,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 102,
+          "native_chars": 891,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 103,
+          "native_chars": 1088,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 104,
+          "native_chars": 632,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        }
+      ],
+      "topics": [
+        {
+          "page": 92,
+          "terms": [
+            "走势",
+            "利润率",
+            "操作模式",
+            "中枢",
+            "级别"
+          ]
+        },
+        {
+          "page": 93,
+          "terms": [
+            "利润率",
+            "操作模式",
+            "中枢",
+            "买卖点"
+          ]
+        },
+        {
+          "page": 94,
+          "terms": [
+            "走势",
+            "分类",
+            "利润率",
+            "操作模式",
+            "背驰",
+            "盘整背驰",
+            "中枢",
+            "级别"
+          ]
+        },
+        {
+          "page": 95,
+          "terms": [
+            "走势",
+            "利润率",
+            "操作模式",
+            "背驰",
+            "盘整背驰",
+            "中枢",
+            "级别",
+            "风险",
+            "仓位"
+          ]
+        },
+        {
+          "page": 96,
+          "terms": [
+            "走势",
+            "利润率",
+            "操作模式",
+            "背驰",
+            "盘整背驰",
+            "中枢",
+            "级别",
+            "资金",
+            "高点"
+          ]
+        },
+        {
+          "page": 97,
+          "terms": [
+            "走势",
+            "利润率",
+            "操作模式",
+            "背驰",
+            "盘整背驰",
+            "中枢",
+            "级别",
+            "高点"
+          ]
+        },
+        {
+          "page": 98,
+          "terms": [
+            "利润率",
+            "操作模式"
+          ]
+        },
+        {
+          "page": 99,
+          "terms": [
+            "利润率",
+            "操作模式"
+          ]
+        }
+      ],
+      "page_count": 13,
+      "native_chars": 9234,
+      "image_pages": [
+        93,
+        98,
+        100
+      ],
+      "sparse_pages": [
+        98,
+        100
+      ]
+    },
+    {
+      "lesson": 50,
+      "title": "操作中的一些细节问题",
+      "volume": 3,
+      "path": "ChineseBooks/缠论/缠论_卷3.pdf",
+      "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "start": 105,
+      "end": 116,
+      "date": "2007-04-27 08:42:51",
+      "first_appendix": {
+        "page": 106,
+        "line": 31,
+        "marker": "********************"
+      },
+      "pages": [
+        {
+          "pdf_page": 105,
+          "native_chars": 1464,
+          "image_count": 0,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 106,
+          "native_chars": 1247,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 107,
+          "native_chars": 27,
+          "image_count": 1,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 108,
+          "native_chars": 27,
+          "image_count": 1,
+          "has_editor_cue": false,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 109,
+          "native_chars": 206,
+          "image_count": 1,
+          "has_editor_cue": true,
+          "has_appendix_separator": false
+        },
+        {
+          "pdf_page": 110,
+          "native_chars": 1107,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 111,
+          "native_chars": 964,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 112,
+          "native_chars": 892,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 113,
+          "native_chars": 1064,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 114,
+          "native_chars": 1021,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 115,
+          "native_chars": 941,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        },
+        {
+          "pdf_page": 116,
+          "native_chars": 714,
+          "image_count": 0,
+          "has_editor_cue": true,
+          "has_appendix_separator": true
+        }
+      ],
+      "topics": [
+        {
+          "page": 105,
+          "terms": [
+            "走势",
+            "细节",
+            "中枢",
+            "级别",
+            "买卖点"
+          ]
+        },
+        {
+          "page": 106,
+          "terms": [
+            "走势",
+            "细节",
+            "级别"
+          ]
+        }
+      ],
+      "page_count": 12,
+      "native_chars": 9674,
+      "image_pages": [
+        107,
+        108,
+        109
+      ],
+      "sparse_pages": [
+        107,
+        108
+      ]
+    }
+  ]
+}

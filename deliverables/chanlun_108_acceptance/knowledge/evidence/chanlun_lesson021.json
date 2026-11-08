@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-L021-FIRSTPASS-20261107",
+  "status": "source_text_and_bounded_excerpt_reviewed_images_unverified",
+  "source": {
+    "volume": 1,
+    "path": "ChineseBooks/缠论/缠论_卷1.pdf",
+    "sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+    "lesson_number": 21,
+    "author_date": "2007-01-09 15:03:58",
+    "pdf_pages": [
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271
+    ],
+    "first_dialogue_candidate": 258
+  },
+  "page_audit": {
+    "pages": 19,
+    "native_characters": 14939,
+    "image_pages": [
+      255,
+      257
+    ],
+    "low_text_pages": [
+      255,
+      257
+    ],
+    "source_actions_run": 42371836598
+  },
+  "claims": [
+    {
+      "id": "CL021-S01",
+      "kind": "SOURCE",
+      "volume": 1,
+      "pdf_pages": [
+        253
+      ],
+      "summary": "作者主张三类买卖点的完备性及绝对安全性。"
+    },
+    {
+      "id": "CL021-S02",
+      "kind": "SOURCE",
+      "volume": 1,
+      "pdf_pages": [
+        253,
+        254
+      ],
+      "summary": "作者以中枢位置和走势转折/延续讨论三类买点关系。"
+    },
+    {
+      "id": "CL021-S03",
+      "kind": "SOURCE",
+      "volume": 1,
+      "pdf_pages": [
+        254
+      ],
+      "summary": "作者讨论第二类与第三类买点重合的情况。"
+    },
+    {
+      "id": "CL021-S04",
+      "kind": "SOURCE",
+      "volume": 1,
+      "pdf_pages": [
+        256,
+        258
+      ],
+      "summary": "作者给出宏观指数预测及强保证式论述，材料中含编者后注。"
+    },
+    {
+      "id": "CL021-I05",
+      "kind": "INTERPRETATION",
+      "volume": 1,
+      "pdf_pages": [
+        253,
+        254
+      ],
+      "summary": "几何分类完备与可交易的利润保证是两个独立命题。"
+    },
+    {
+      "id": "CL021-I06",
+      "kind": "INFERENCE",
+      "volume": 1,
+      "pdf_pages": [
+        253,
+        254
+      ],
+      "summary": "若未独立定义买卖点集合，完备性可能带入循环定义。"
+    },
+    {
+      "id": "CL021-H07",
+      "kind": "HYPOTHESIS",
+      "volume": 1,
+      "pdf_pages": [
+        253,
+        254
+      ],
+      "summary": "三类买点在线覆盖率与成本后收益需分别样本外检验。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "Author's original article and later appended text are mixed in the compiled PDF.",
+    "All figure readings remain pending reliable visual review.",
+    "Synthetic logical audit is not empirical support for real trading advantages."
+  ]
+}
