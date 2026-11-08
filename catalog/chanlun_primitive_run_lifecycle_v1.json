@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "contract_id": "CL35-PRIMITIVE-RUN-LIFECYCLE-EVIDENCE-V1",
+  "scope": "DERIVED_RAW_TRADE_EVENT_LIFECYCLE_NOT_AUTHOR_CENTER_COMPLETION",
+  "upstream_source_contract": "CL35-PRIMITIVE-TRADE-THREE-EQUAL-PREFIX-V1",
+  "upstream_path": "catalog/chanlun_lowest_trade_prefix_v1.json",
+  "upstream_primitive_script": "tools/audit_chanlun_primitive_trades_prefix.py",
+  "downstream_rule_contract": "CHANLUN-RECURSIVE-ELIGIBILITY-ONLY-V1",
+  "downstream_path": "catalog/chanlun_recursive_eligibility_bridge_v1.json",
+  "source_claims": [
+    "CL35-SO-2",
+    "CL018-S07",
+    "CL020-S01"
+  ],
+  "state_rules": [
+    {
+      "id": "RUN_START",
+      "status": "RAW_PRICE_RUN_STARTED",
+      "when": "first observed trade or changed decimal price"
+    },
+    {
+      "id": "WITNESS_AT_THIRD",
+      "status": "BASE_THIRD_TRADE_WITNESSED",
+      "when": "third consecutive observed equal-price trade"
+    },
+    {
+      "id": "SAME_PRICE_EXTENSION",
+      "status": "RAW_EQUAL_RUN_EXTENDED",
+      "when": "fourth or later observed equal-price trade"
+    },
+    {
+      "id": "CHANGE_PRICE_CLOSES_RAW_RUN",
+      "status": "PRICE_CHANGED_CLOSES_PREVIOUS_RAW_RUN_ONLY",
+      "when": "first observed non-equal-price trade; raw run closure only"
+    }
+  ],
+  "completion_semantics": {
+    "raw_run_closed_is_center_completed": false,
+    "third_trade_threshold_is_center_completed": false,
+    "repeated_equal_trades_create_higher_center": false,
+    "can_feed_recursive_three_completed_lower_types": false
+  },
+  "required_upstream_to_downstream_evidence": [
+    "legal_lowest_level_center_qualification",
+    "independent_ending_not_just_price_change",
+    "author_same_level_child_type_legality",
+    "three_continuous_completed_child_types",
+    "fixed_level_and_historical_rule_version",
+    "author_authorized_boundary_and_asof_semantics"
+  ],
+  "output_certificate": "EVENT_DERIVED_RAW_RUN_PROVENANCE_ONLY_NOT_COMPLETED_CHANLUN_CENTER",
+  "market_records_read": false,
+  "pdf_images_read": false,
+  "original_historical_first_publication_verified": false,
+  "proof38_or_99_completed": false,
+  "market_backtest": "NOT_RUN"
+}
