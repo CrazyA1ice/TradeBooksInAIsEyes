@@ -122,3 +122,15 @@
 - `audit_chanlun_lesson102_uniqueness_contract.py`：唯一分解证明前需声明规则与平局处理，非全体系反例。
 - `audit_chanlun_lesson103_macd_zero_asof.py`：MACD零轴低风险倾向信号只读已完成数据。
 - `audit_chanlun_lessons104_105_evidence.py`：2008作者/2010编辑与物理比喻、机械执行证据门。
+
+## 108课只读统一研究图谱工具
+
+`python -B tools/audit_chanlun_unified_knowledge.py --verify`：验证108份逐课来源、10份图谱、84个节点、145条关系、16份规则与编者历史记录，以及物化目录是否过期（不改旧文件）。
+
+`python -B tools/audit_chanlun_unified_knowledge.py --verify --lesson 108`：按课号查看原PDF物理页和对应的概念节点。
+
+`python -B tools/audit_chanlun_unified_knowledge.py --verify --node L81-PEN-VERSION`：查看指定节点及关联研究路径。
+
+`python -B tools/audit_chanlun_unified_knowledge.py --verify --family pen`：研究规则家族内按来源日期的多版本及编注冲突，未知来源时间保持null。
+
+请勿将文献署时当成行情`asof`，也不要将合成逻辑测试当成盈利实测。详见`docs/CHANLUN_UNIFIED_KNOWLEDGE.md`。
