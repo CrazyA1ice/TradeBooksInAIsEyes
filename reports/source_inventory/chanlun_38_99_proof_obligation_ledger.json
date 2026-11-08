@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "scope": "TEXT_ONLY_ORIGINAL_COMPILATION_PROOF_OBLIGATION_LEDGER",
+  "source_page_pin": "reports/source_inventory/chanlun_35_38_99_native_text_sha256.json",
+  "prior_page_pins": [
+    "reports/source_inventory/chanlun_crosslesson_proof_native_text_sha256.json",
+    "reports/source_inventory/chanlun_bridge_native_text_sha256.json"
+  ],
+  "primary_author_article_boundaries": {
+    "lesson_38_main": "vol2_p338_to_before_appendix_at_p341",
+    "lesson_99_opening": "vol5_p202_p203_author_thesis",
+    "lesson_99_later_article": "vol5_p206_begins_separately_dated_2008_02_20_piece"
+  },
+  "scan_page_safety": [
+    {
+      "page": "2:294",
+      "native_text_chars": 44,
+      "classification": "LOW_NATIVE_TEXT_IMAGE_UNREVIEWED",
+      "must_not_infer": "no_unseen_definition"
+    },
+    {
+      "page": "2:295",
+      "native_text_chars": 44,
+      "classification": "LOW_NATIVE_TEXT_IMAGE_UNREVIEWED",
+      "must_not_infer": "no_unseen_definition"
+    },
+    {
+      "page": "2:340",
+      "native_text_chars": 44,
+      "classification": "LOW_NATIVE_TEXT_IMAGE_UNREVIEWED",
+      "must_not_infer": "no_unseen_definition"
+    },
+    {
+      "page": "2:341",
+      "native_text_chars": 960,
+      "classification": "APPENDED_INTERACTIVE_QA_NOT_MAIN_PROOF",
+      "must_not_infer": "main_article_proof"
+    },
+    {
+      "page": "5:204",
+      "native_text_chars": 292,
+      "classification": "CONTINUED_MARKET_EXAMPLE_NOT_THEOREM_PROOF",
+      "must_not_infer": "whole_general_theorem_proof"
+    },
+    {
+      "page": "5:205",
+      "native_text_chars": 272,
+      "classification": "CONTINUED_MARKET_EXAMPLE_NOT_THEOREM_PROOF",
+      "must_not_infer": "whole_general_theorem_proof"
+    },
+    {
+      "page": "5:206",
+      "native_text_chars": 613,
+      "classification": "SEPARATELY_DATED_2008_02_20_ARTICLE",
+      "must_not_infer": "2008_02_18_original_article"
+    },
+    {
+      "page": "5:207",
+      "native_text_chars": 276,
+      "classification": "FOLLOWING_SEPARATELY_DATED_ARTICLE",
+      "must_not_infer": "2008_02_18_original_article"
+    }
+  ],
+  "proof_obligations": [
+    {
+      "id": "OB38-EXIST",
+      "status": "NOT_ESTABLISHED",
+      "formal_target": "Every admissible complete input under one frozen R_g has at least one legal decomposition",
+      "known_source_pages": [
+        "2:338",
+        "2:339"
+      ],
+      "still_required": [
+        "defined_admissible_input_domain",
+        "canonical_segment_generation",
+        "termination_or_pending_tail_policy"
+      ],
+      "current_scope_caveat": "2:340 has 44 native text chars; absence of prose does not establish absence of rules"
+    },
+    {
+      "id": "OB38-UNIQUE",
+      "status": "NOT_ESTABLISHED",
+      "formal_target": "Every admissible complete input under one frozen R_g has at most one inequivalent legal segmentation",
+      "known_source_pages": [
+        "2:338",
+        "2:339",
+        "2:256",
+        "2:257",
+        "2:305"
+      ],
+      "still_required": [
+        "equivalence_relation_on_parses",
+        "same_rule_competing_cutpoint_exclusion",
+        "equal_price_tie_breaks",
+        "precedence_between_extensions_and_new_center"
+      ],
+      "current_scope_caveat": "Do not treat differing levels under lessons33/36 as counterexample to fixed-g rule"
+    },
+    {
+      "id": "OB38-ASOF",
+      "status": "NOT_ESTABLISHED",
+      "formal_target": "Every purportedly confirmed boundary at time t depends only on information available by t",
+      "known_source_pages": [
+        "2:305",
+        "2:338",
+        "2:339",
+        "5:202"
+      ],
+      "still_required": [
+        "first_confirmation_timestamp",
+        "unfinished_tail_as_of_t",
+        "later_rule_version_separation"
+      ],
+      "current_scope_caveat": "Lesson38 volume2 p341 is appended Q&A, not proof embedded in main lesson prose"
+    },
+    {
+      "id": "OB99-EXIST",
+      "status": "NOT_ESTABLISHED",
+      "formal_target": "Under the author's exact domain, every admissible future path after a completed g-level type eventually contains the claimed higher-level center",
+      "known_source_pages": [
+        "5:202",
+        "5:203"
+      ],
+      "still_required": [
+        "admissible_future_path_domain",
+        "three_eligible_completed_consecutive_types",
+        "nonempty_joint_overlap",
+        "finite_time_or_temporal_quantifier"
+      ],
+      "current_scope_caveat": "Vol5 p206 carries a separately dated 2008-02-20 article; no mixing with 2008-02-18 thesis"
+    },
+    {
+      "id": "OB99-LOCATION",
+      "status": "NOT_ESTABLISHED",
+      "formal_target": "The first such higher-level center satisfies the author's exact relationship with the last prior center",
+      "known_source_pages": [
+        "5:203"
+      ],
+      "still_required": [
+        "formal_location_predicate",
+        "first_center_uniqueness",
+        "exclude_legal_successors_outside_predicate"
+      ],
+      "current_scope_caveat": "Example later market commentary does not prove an all-path first-center location constraint"
+    }
+  ],
+  "attribution": "Source claims are attributed only to original PDF's internally labeled author/appendix; independent first-publication comparison not performed",
+  "flags": [
+    "TEXT_FIRST_NO_IMAGE",
+    "NOT_RUN",
+    "PROOF_NOT_ESTABLISHED",
+    "SOURCE_ROLE_SEPARATED",
+    "LOW_NATIVE_TEXT_NOT_EVIDENCE_OF_ABSENCE"
+  ]
+}
