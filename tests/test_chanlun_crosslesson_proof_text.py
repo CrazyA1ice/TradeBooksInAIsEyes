@@ -53,7 +53,7 @@ class CrossLessonProofTextTests(unittest.TestCase):
                       "TEXT_RULE_NOT_FOUND_IN_SCANNED_PAGES", "NOT_RUN",
                       "CL36-SOURCE-3", "未完成", "同级别"):
             self.assertIn(token, body)
-        refs = re.findall(r"\\]\\(([^)]+)\\)", body)
+        refs = re.findall(r"\]\(([^)]+)\)", body)
         local = 0
         for ref in refs:
             if ref.startswith(("http:", "https:", "#", "mailto:")):
