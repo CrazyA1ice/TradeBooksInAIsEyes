@@ -20,6 +20,7 @@ on:
       - "tests/test_chanlun_native_raster_ceiling.py"
       - "tests/test_chanlun_text_logic_audit.py"
       - "tests/test_chanlun_decomposition_proof_obligations.py"
+      - "tests/test_chanlun_original_proof_text_anchors.py"
       - "tools/audit_chanlun_native_figure_resolution.py"
       - ".github/workflows/chanlun-108-acceptance-bundle.yml"
   pull_request:
@@ -52,6 +53,8 @@ jobs:
         run: python -B -m unittest discover -s tests -p 'test_chanlun_text_logic_audit.py' -v
       - name: Verify two author decomposition theorems and conditional uniqueness are kept separate
         run: python -B -m unittest discover -s tests -p 'test_chanlun_decomposition_proof_obligations.py' -v
+      - name: Validate original-PDF theorem words, source role and proof-obligation boundaries
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_original_proof_text_anchors.py' -v
       - name: Verify as-of-only visualization and matched-future branches (offline Node)
         run: node tests/test_chanlun_asof_player.mjs
       - name: Assemble offline materials from canonical originals in runner temp
