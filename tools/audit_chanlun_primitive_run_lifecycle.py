@@ -21,6 +21,7 @@ RECURSION_CONTRACT = ROOT / "catalog/chanlun_recursive_eligibility_bridge_v1.jso
 CONTRACT_ID = "CL35-PRIMITIVE-RUN-LIFECYCLE-EVIDENCE-V1"
 RULE_STATES = (
     ("RUN_START", "RAW_PRICE_RUN_STARTED", "first observed trade or changed decimal price"),
+    ("BELOW_THIRD", "RAW_EQUAL_PREFIX_BELOW_THIRD",\n     "second observed equal-price trade; still below base witness"),
     ("WITNESS_AT_THIRD", "BASE_THIRD_TRADE_WITNESSED",
      "third consecutive observed equal-price trade"),
     ("SAME_PRICE_EXTENSION", "RAW_EQUAL_RUN_EXTENDED",
