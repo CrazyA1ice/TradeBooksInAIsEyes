@@ -31,6 +31,10 @@ on:
       - "tests/test_chanlun_lesson035_trend_terminal_asof.py"
       - "tests/test_chanlun_center_order_completion.py"
       - "tests/test_chanlun_primitive_trades_prefix.py"
+      - "tests/test_chanlun_primitive_run_lifecycle.py"
+      - "tests/fixtures/chanlun_primitive_run_lifecycle_cases_v1.json"
+      - "tools/audit_chanlun_primitive_run_lifecycle.py"
+      - "catalog/chanlun_primitive_run_lifecycle_v1.json"
       - "tests/fixtures/chanlun_lowest_trade_prefix_cases_v1.json"
       - "tools/audit_chanlun_primitive_trades_prefix.py"
       - "catalog/chanlun_lowest_trade_prefix_v1.json"
@@ -120,6 +124,10 @@ jobs:
         run: python -B tools/audit_chanlun_primitive_trades_prefix.py
       - name: Ensure primitive event witnesses are not mistaken for completed real centers
         run: python -B -m unittest discover -s tests -p 'test_chanlun_primitive_trades_prefix.py' -v
+      - name: Reconcile raw price-run lifecycle with pinned original third-trade evidence
+        run: python -B tools/audit_chanlun_primitive_run_lifecycle.py
+      - name: Reject false completed centers, causal leaks and illegal downstream casts
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_primitive_run_lifecycle.py' -v
       - name: Verify as-of-only visualization and matched-future branches (offline Node)
         run: node tests/test_chanlun_asof_player.mjs
       - name: Assemble offline materials from canonical originals in runner temp
