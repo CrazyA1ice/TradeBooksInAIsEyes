@@ -31,6 +31,25 @@
       "summary": "作者重述三段次级别走势重叠的中枢区间定义。"
     },
     {
+      "id": "CL018-S07",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        235
+      ],
+      "summary": "作者明确将三段连续次级别走势重叠视为盘整随时可完成的条件，同时说明盘整可继续延伸；有两个依次同向中枢的趋势也可继续延伸，不能把满足结构门槛当作实时完成。",
+      "source_anchor": {
+        "canonical_pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+        "native_text_sha256_by_physical_page": {
+          "235": "d4f06d4d8395748f7b38307ccdc83436fdf9480a729fad413c45f772ae7023d4"
+        },
+        "role": "AUTHOR_MAIN_TEXT_IN_COMPILATION_WITH_INLINE_LATER_EDITORIAL_NOTES",
+        "independent_first_publication_verified": false,
+        "inline_editorial_markers_present": true,
+        "full_image_review": false,
+        "not_a_complete_legal_center_certification": true
+      }
+    },
+    {
       "id": "CL018-S02",
       "kind": "SOURCE",
       "pdf_pages": [
