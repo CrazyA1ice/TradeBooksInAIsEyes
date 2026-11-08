@@ -5,7 +5,7 @@
   "source_revision_at_initial_archive": "a80af245ecc1df1adf32d4e8ad556bd759e91ae2",
   "file_index_kind": "canonical_reference_not_duplicate_file",
   "canonical_file_count": 625,
-  "canonical_bytes": 50173450,
+  "canonical_bytes": 50176182,
   "canonical_files": [
     {
       "path": ".github/workflows/chanlun-incremental-events-v2-audit.yml",
@@ -599,13 +599,13 @@
     },
     {
       "path": "analyses/books/chanlun/chapters/lesson_058.md",
-      "git_blob_sha1": "7e9917d87685564411a53c19d99f6f0e3554710d",
-      "bytes": 3673
+      "git_blob_sha1": "8fc9d2fa8b1b58cbd023eae513eb5a1bc2f83307",
+      "bytes": 4247
     },
     {
       "path": "analyses/books/chanlun/chapters/lesson_059.md",
-      "git_blob_sha1": "d6cf85e77f52bdc7e99f5ba50db4126f587589b2",
-      "bytes": 4119
+      "git_blob_sha1": "4e7db7579d8cc8200a186ab55b240e5b0004a3c0",
+      "bytes": 4799
     },
     {
       "path": "analyses/books/chanlun/chapters/lesson_060.md",
@@ -619,8 +619,8 @@
     },
     {
       "path": "analyses/books/chanlun/chapters/lesson_062.md",
-      "git_blob_sha1": "107b0285803b5ab447b6293efbd08f0d7d606928",
-      "bytes": 4185
+      "git_blob_sha1": "b92678a236f5f7c7dea56bb41ed8638080c7945c",
+      "bytes": 5077
     },
     {
       "path": "analyses/books/chanlun/chapters/lesson_063.md",
@@ -849,8 +849,8 @@
     },
     {
       "path": "analyses/books/chanlun/chapters/lesson_108.md",
-      "git_blob_sha1": "94a40f271cab123a2f39c2b2ffc59f93736c2237",
-      "bytes": 4003
+      "git_blob_sha1": "a468133e69009ae4dd0e04df499e01d61713d20b",
+      "bytes": 4589
     },
     {
       "path": "analyses/books/chanlun/concepts/.gitkeep",
