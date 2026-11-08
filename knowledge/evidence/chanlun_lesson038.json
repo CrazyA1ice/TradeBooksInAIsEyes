@@ -54,9 +54,20 @@
       "kind": "SOURCE",
       "volume": 2,
       "pdf_pages": [
-        338
+        338,
+        339
       ],
-      "summary": "作者允许同级别盘整+盘整且对低级别采用不同规则。"
+      "summary": "作者允许同级别盘整+盘整且对低级别采用不同规则。",
+      "source_anchor_details": {
+        "canonical_pdf_volume": 2,
+        "source_role": "author_main_article_in_compiled_volume",
+        "physical_pdf_pages_native_text_sha256": {
+          "338": "369d79117897f949976704c21e81818f9e75899b0e925f637c581c32e1b21da7",
+          "339": "1f48433d41259c6f82e4f5233dccd3728c823e9ab3723fe3ac77a06697689ce8"
+        },
+        "original_publication_provenance_independently_checked": false,
+        "reason": "Selected-level / lower-level asymmetric connection rules appear explicitly on physical p.339; legacy source only tagged p.338"
+      }
     },
     {
       "id": "CL38-SOURCE-3",
