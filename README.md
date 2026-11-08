@@ -1,5 +1,8 @@
 # TradeBooksInAIsEyes · 交易之书，AI 之眼
 
+> **《缠论》全书研究成果已集中验收：** [进入五卷108课统一验收文件夹](deliverables/chanlun_108_acceptance/README.md) · [110条逐课形式化命题、36个跨课案例](deliverables/chanlun_108_acceptance/03_formal_cases/README.md) · [全书综合评述](deliverables/chanlun_108_acceptance/00_REVIEW/FINAL_BOOK_SYNTHESIS.md)。按最新需求，**停止继续开发回测实验室**，仅整理未来验证例子；全部真实市场实验状态仍为`NOT_RUN`。
+
+
 > **Read deeply. Question carefully. Think independently.**  
 > 深入阅读，审慎质疑，独立思考。
 
