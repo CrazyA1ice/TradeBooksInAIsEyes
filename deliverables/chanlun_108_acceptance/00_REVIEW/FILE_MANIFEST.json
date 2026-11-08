@@ -5,7 +5,7 @@
   "source_revision_at_initial_archive": "a80af245ecc1df1adf32d4e8ad556bd759e91ae2",
   "file_index_kind": "canonical_reference_not_duplicate_file",
   "canonical_file_count": 625,
-  "canonical_bytes": 50167938,
+  "canonical_bytes": 50170143,
   "canonical_files": [
     {
       "path": ".github/workflows/chanlun-incremental-events-v2-audit.yml",
@@ -1114,8 +1114,8 @@
     },
     {
       "path": "docs/ANALYSIS_STANDARD.md",
-      "git_blob_sha1": "8edc29884bb892bd88aab29c995863c0b40acd9c",
-      "bytes": 1765
+      "git_blob_sha1": "b53a5b8e71272dd341fc69c495fd5233759f187a",
+      "bytes": 2989
     },
     {
       "path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -1154,13 +1154,13 @@
     },
     {
       "path": "docs/PROJECT_PLAN.md",
-      "git_blob_sha1": "f23b6282715b4bdad8864339e8fd1fdbd612367e",
-      "bytes": 12801
+      "git_blob_sha1": "ea1b2c395b6b712fc88b03a738a35ee2cbf8cbaf",
+      "bytes": 13139
     },
     {
       "path": "docs/READING_PROTOCOL.md",
-      "git_blob_sha1": "991d8931e7f3fdd2953c8fd012be633c47220aec",
-      "bytes": 1684
+      "git_blob_sha1": "5c52bf0079d5989a42c6ccff70a10a055ee3bcee",
+      "bytes": 2327
     },
     {
       "path": "docs/RESEARCH_ROADMAP.md",
