@@ -5,7 +5,7 @@
   "source_revision_at_initial_archive": "a80af245ecc1df1adf32d4e8ad556bd759e91ae2",
   "file_index_kind": "canonical_reference_not_duplicate_file",
   "canonical_file_count": 625,
-  "canonical_bytes": 50179564,
+  "canonical_bytes": 50179942,
   "canonical_files": [
     {
       "path": ".github/workflows/chanlun-incremental-events-v2-audit.yml",
@@ -2434,8 +2434,8 @@
     },
     {
       "path": "tests/test_chanlun_lessons031_035.py",
-      "git_blob_sha1": "1837a0ae1128f63539b205f96312836b8da22d72",
-      "bytes": 2384
+      "git_blob_sha1": "dd2ae9deb1c7cce1dcafa5d02eec93ecb0c7c3cd",
+      "bytes": 2762
     },
     {
       "path": "tests/test_chanlun_lessons036_040.py",
