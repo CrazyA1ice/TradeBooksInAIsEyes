@@ -71,6 +71,8 @@ deliverables/chanlun_108_acceptance/
 
 会核对五卷原PDF的SHA-256、**625份规范研究文件**的Git blob SHA、108课与110条来源假说的逐条对应、36例完整性，并检查验收目录不再出现重复书源。审计**不会**访问真实市场行情或运行旧回测实验室。
 
+**新增的AI深度导读验收**（同样只读、无回测）：`python -B tools/audit_book_ai_guide.py --book-slug chanlun --acceptance-dir deliverables/chanlun_108_acceptance`。GitHub Actions会在原有625份规范来源审计通过后自动运行这项检查，再构建临时离线ZIP。两项审核都通过才算该书本轮验收通过。
+
 ## 下一本书照什么流程？
 
 通用v3标准已写入 [docs/BOOK_RESEARCH_WORKFLOW.md](../../docs/BOOK_RESEARCH_WORKFLOW.md)：来源锁定→5分钟速览→全书CORE/SPARK双轨扫描→**必交AI深度导读（定理/规则白话＋原书论证脉络＋条件图解＋AI独立评论）**→选择性七重研究→`NOT_RUN`形式化例子→单一验收目录与CI临时打包。以每本书的`book_slug`复用，不再为下本书重复造同样的文件夹树。
