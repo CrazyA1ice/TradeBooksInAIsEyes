@@ -108,3 +108,10 @@
 - `audit_chanlun_lesson092_midpoint_monitor.py`：区间Z/Zn计算、越界非充分确认。
 - `audit_chanlun_lessons093_094_policy_fills.py`：同信号策略区别及A股T+1新购股票不可同日卖出。
 - `audit_chanlun_lesson095_remaining_exposure.py`：收回外部投入仍有剩余市值风险。
+
+- `survey_chanlun_lessons096_100.py`：第五卷p.155–232原始PDF SHA、有界文本、13张压缩原页。
+- `verify_chanlun_lessons096_100.py`：78物理页、35来源主张、10处真实PDF文字定位及第100课显式编辑异议门。
+- `audit_chanlun_lesson096_behavioral_gate.py`：赌徒式个人锚点与事前可验证的信号/资金预算区别。
+- `audit_chanlun_lessons097_098_evidence_gate.py`：条件分支的观察时钟、风险门和T+1实际成交证据。
+- `audit_chanlun_lesson099_resegmentation.py`：合成中阴重分组必须保留原始片段和中心完成时间。
+- `audit_chanlun_lesson100_branch_dispute.py`：2008年作者二分与后期娇注反例式批评并存，保守待核验。
