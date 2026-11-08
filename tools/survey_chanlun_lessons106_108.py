@@ -12,9 +12,9 @@ volume = index["volumes"][4]
 path = ROOT / volume["path"]
 sha = hashlib.sha256(path.read_bytes()).hexdigest()
 assert sha == volume["sha256"], "Immutable source SHA differs from index"
-date_pattern = re.compile(r"20\\d\\d[-/]\\d\\d[-/]\\d\\d\\s+\\d\\d:\\d\\d(?::\\d\\d)?")
+date_pattern = re.compile(r"20\d\d[-/]\d\d[-/]\d\d\s+\d\d:\d\d(?::\d\d)?")
 editor_pattern = re.compile(r"娇注|娇加|娇[:：]|编者|勘误|后记|更正|修订")
-separators = re.compile(r"^\\*{5,}$")
+separators = re.compile(r"^\*{5,}$")
 with fitz.open(path) as pdf:
     assert len(pdf) == 441
     for lesson in (106, 107, 108):
