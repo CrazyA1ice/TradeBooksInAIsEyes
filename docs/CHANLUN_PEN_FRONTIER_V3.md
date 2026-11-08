@@ -37,3 +37,9 @@ V3保留独立验证的纯合成数据与第77课旧、第81课新规则版本�
 `python -B -m unittest discover -s tests -p "test_chanlun_pen_frontier_v3.py" -v`
 
 **下阶段**：设计带source/role/availability独立证据的完整笔输出协议，以及在同等价位、缺失bar、包含重算和资料订正情形下的不可变历史修订；对各规则版本进行小范围原书高清图证据复核。取得完成笔合规证据后才能考虑自动构造正式特征序列、中枢和真实A股只读回测。任何当前合成PASS均不代表真实收益。
+
+## 新旧版本与后来更低底点的完整审计
+
+`python -B tools/audit_chanlun_pen_frontier_witnesses_v3.py`
+
+此工具在**单独的合法正例合成fixture**中以第77课旧笔和第81课后发版分别生成笔候选，保证两版使用完全相同的市场数据前缀但生成不相同的规则版本ID。随后人工调整未来一根K线，检查新底分型出现后旧候选`RETRACT`、更极端终点新候选另立，先前7根K线形成的事件日志保持逐条原样。其投影的线段元素仍为`UNDETERMINED`，由V2同一STRICT序列类型门明确拒绝。此为合成反例，不是实际缠论唯一笔的证明。

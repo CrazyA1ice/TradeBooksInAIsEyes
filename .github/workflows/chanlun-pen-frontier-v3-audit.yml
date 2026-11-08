@@ -5,6 +5,7 @@ on:
     paths:
       - ".github/workflows/chanlun-pen-frontier-v3-audit.yml"
       - "tools/chanlun_pen_frontier_v3.py"
+      - "tools/audit_chanlun_pen_frontier_witnesses_v3.py"
       - "tools/chanlun_incremental_events_v2.py"
       - "tools/chanlun_event_lab_v1.py"
       - "tests/test_chanlun_pen_frontier_v3.py"
@@ -29,4 +30,5 @@ jobs:
       - run: python -B tools/chanlun_pen_frontier_v3.py --rule pen_077_exposition
       - run: python -B tools/chanlun_pen_frontier_v3.py --rule pen_081_later_dated_post
       - run: python -B tools/chanlun_pen_frontier_v3.py --rule pen_077_exposition --stop-at "2007-09-20T01:35:01+00:00"
+      - run: python -B tools/audit_chanlun_pen_frontier_witnesses_v3.py
       - run: python -B tools/audit_chanlun_unified_knowledge.py --verify
