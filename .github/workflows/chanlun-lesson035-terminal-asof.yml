@@ -1,0 +1,28 @@
+name: Chanlun lesson35 lowest-level terminal condition and as-of source audit
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "knowledge/evidence/chanlun_lesson035.json"
+      - "catalog/chanlun_lesson035_terminal_comparison_v1.json"
+      - "tests/fixtures/chanlun35_terminal_asof_cases_v1.json"
+      - "tools/audit_chanlun_lesson035_trend_terminal_asof.py"
+      - "tests/test_chanlun_lesson035_trend_terminal_asof.py"
+      - "deliverables/chanlun_108_acceptance/04_AI_GUIDE/23_*"
+      - ".github/workflows/chanlun-lesson035-terminal-asof.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audited-terminal-condition:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Verify author source SHA, N greater than two and causal synthetic status
+        run: python -B tools/audit_chanlun_lesson035_trend_terminal_asof.py
+      - name: Reject source and clock forgery, fake center legitimacy or invented comparison rule
+        run: python -B -m unittest discover -s tests -p "test_chanlun_lesson035_trend_terminal_asof.py" -v
