@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "lesson": 106,
+  "source": {
+    "volume": 5,
+    "path": "ChineseBooks/缠论/缠论_卷5.pdf",
+    "sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+    "original_date": "2008-07-10 12:12:22",
+    "pdf_pages": [
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384
+    ]
+  },
+  "quality": {
+    "physical_pages": 12,
+    "native_chars": 11588,
+    "image_pages": [
+      384
+    ],
+    "rendered_previews": [],
+    "actually_inspected_pages": [],
+    "fine_chart_numeric_verified": false
+  },
+  "claims": [
+    {
+      "id": "CL106-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        373,
+        374
+      ],
+      "summary": "作者在p.373–374举5、13、21、34、55、89、144、233日均线为示例，以反弹未攻克的最小周期均线划分9类，并建议按板块成分股类别求平均。作者明言均线与走势级别不存在必然关系。"
+    },
+    {
+      "id": "CL106-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        373,
+        374
+      ],
+      "summary": "均线层级是作者的经验性观察，而非与走势级别存在数学必然等价关系；对反弹逐级突破的9类分类和按成员类别平均得到的板块指标，存在清晰的可计算内核。"
+    },
+    {
+      "id": "CL106-EVIDENCE-3",
+      "kind": "EVIDENCE",
+      "volume": 5,
+      "pdf_pages": [
+        374
+      ],
+      "summary": "仅展示选定均线与历史高低点‘贴合’可能是参数事后优化；MACD、均线交叉和长期强弱并不能从有限实例推出市场普遍规律。强弱类别是有序标签，类别均值隐含相邻类别间距相等这一建模假设。"
+    },
+    {
+      "id": "CL106-EDITORIAL-4",
+      "kind": "EDITORIAL",
+      "volume": 5,
+      "pdf_pages": [
+        375
+      ],
+      "summary": "p.375后续行情文章中有娇注，不能合并入7月10日初篇"
+    },
+    {
+      "id": "CL106-INTERPRETATION-5",
+      "kind": "INTERPRETATION",
+      "volume": 5,
+      "pdf_pages": [
+        374
+      ],
+      "summary": "第九类并非‘此刻价格一定在八条均线之上’，而是反弹进程下的分类，若反弹起点和‘攻克’的成交/收盘口径未冻结，同一股票的类别不可比较。板块平均类别数也要求当期成员名单，不能用事后成分股替换。"
+    },
+    {
+      "id": "CL106-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 5,
+      "pdf_pages": [
+        373,
+        374
+      ],
+      "summary": "固定交易日T之前可知的反弹起点、完整收盘价、调整方案和8个窗口。定义布尔C_i表示当前反弹至T是否曾按事前规定口径攻克第i条均线，则class = 1 + 连续真值前缀长度，范围1–9；缺第一个必要状态时应UNKNOWN。板块分数S_T=Σ class_i/N_T，须锁定T时真实成分样本与缺失处理。"
+    },
+    {
+      "id": "CL106-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 5,
+      "pdf_pages": [
+        373,
+        374
+      ],
+      "summary": "【HYPOTHESIS｜not_tested】在固定历史时点成员、无未来样本、冻结窗口与调整价格版本后，比较板块类别均值和等权动量/行业指数基线对随后收益与回撤的增量预测；用滚动样本外检验板块换手、交易成本、幸存者偏差和类别等距假设。",
+      "test_status": "not_tested"
+    }
+  ],
+  "real_market_backtest": "not_run",
+  "limitations": [
+    "Original author lessons separated from separately dated posts and compilation markers.",
+    "No actual page-render visual review completed in this batch; all fine historical chart values unverified.",
+    "Synthetic as-of checks are bounded necessary conditions, not a full Chanlun parser, fills or profitability proof."
+  ]
+}
