@@ -158,6 +158,33 @@ def verify():
     ok(not (BUNDLE/"ChineseBooks").exists() and not (BUNDLE/"analyses").exists(),
        "Duplicated book content folders must not be present")
 
+    # Reader-first entry points must exist and allow navigation to canonical
+    # evidence. Long-tail details are selected, not falsely claimed exhaustive.
+    guides=(BUNDLE/"01_FAST_READ.md", BUNDLE/"02_SPARK_INDEX.md")
+    local_links_checked=0
+    for doc in guides:
+        ok(doc.is_file(), "Missing reader-first guide: "+str(doc))
+        if not doc.is_file():
+            continue
+        content=doc.read_text(encoding="utf-8")
+        for m in re.finditer(r"\]\(([^)\n]+)\)",content):
+            link=m.group(1).split("#",1)[0]
+            if not link or link.startswith(("https://","http://","mailto:","#")):
+                continue
+            from urllib.parse import unquote
+            target=(doc.parent/unquote(link)).resolve()
+            ok(target.is_relative_to(ROOT.resolve()),"Reader link escapes repo "+link)
+            ok(target.exists(),"Broken reader-guide link "+str(doc)+" -> "+link)
+            local_links_checked+=1
+    overview=(guides[0].read_text(encoding="utf-8") if guides[0].is_file() else "")
+    spark_text=(guides[1].read_text(encoding="utf-8") if guides[1].is_file() else "")
+    spark_ids=re.findall(r"\*\*(SPARK-\d{3})",spark_text)
+    ok("一句话" in overview and "思想地图" in overview and "首轮" in overview,
+       "Five-minute overview must disclose summary, map and coverage limits")
+    ok(len(spark_ids)>=20 and len(set(spark_ids))==len(spark_ids),
+       "At least 20 distinct source-linked detail inspiration entries required")
+    ok("未" in spark_text and "AI联想" in spark_text,
+       "Spark catalog must distinguish AI invention and unverified details")
     summary={"status":"PASS" if not errors else "FAIL",
              "source_volume_pdfs_sha256_verified":len(index["volumes"]),
              "canonical_files_git_blob_sha1_verified":len(canonical),
