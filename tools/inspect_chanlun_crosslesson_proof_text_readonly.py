@@ -27,6 +27,13 @@ VOLUME = 2
 MAX_EXCERPTS_PER_PAGE = 3
 MAX_CONTEXT_CHARS = 145
 SOURCE_ROLE_CUES = ("娇注", "（娇：", "(娇：", "编者", "后记", "后附")
+REQUIRED_NATIVE_ANCHORS = {
+    256: ("多义性", "中枢", "延伸"),
+    257: ("多义性", "释义", "理论"),
+    305: ("结合律", "未完成"),
+    310: ("娇注", "线段", "中枢"),
+    320: ("背驰", "同级别", "（娇："),
+}
 
 
 def digest(path: Path) -> str:
@@ -82,6 +89,9 @@ def inspect(discover: bool) -> list[dict]:
             if pins is not None and pins[str(page)] != sha:
                 raise ValueError(f"Native text changed: volume 2 page {page}")
             text = " ".join(raw.split())
+            for word in REQUIRED_NATIVE_ANCHORS[page]:
+                if word not in text:
+                    raise ValueError(f"Original native text anchor missing at {page}: {word!r}")
             entry = {
                 "volume": VOLUME,
                 "physical_page": page,
