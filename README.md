@@ -8,6 +8,7 @@
 |---|---|
 | **验收已经研究的《缠论》** | [《缠论》五卷108课正式验收入口](deliverables/chanlun_108_acceptance/README.md) |
 | **5分钟看懂《缠论》** | **[全书一屏速览与20分钟思想地图](deliverables/chanlun_108_acceptance/01_FAST_READ.md)** |
+| **把晦涩定理和全书论证读懂（必交模块）** | **[《缠论》AI深度导读：12组核心命题、行文脉络和8张教学图](deliverables/chanlun_108_acceptance/04_AI_GUIDE/README.md)** |
 | **挖掘不该错过的细节** | **[20个灵感细节切口](deliverables/chanlun_108_acceptance/02_SPARK_INDEX.md)** |
 | **阅读全书综合评述** | [AI独立全书评述](deliverables/chanlun_108_acceptance/00_REVIEW/FINAL_BOOK_SYNTHESIS.md) |
 | **查看108课详细解读** | [单份规范章节研究](analyses/books/chanlun/chapters) |
@@ -35,7 +36,7 @@
 
 上传书籍 → 原书SHA和目录/图页索引 → **立即制作带覆盖状态的5分钟全书速览** → 全书逐区域同时识别CORE主干和SPARK冷门灵感 → **15—20分钟思想地图＋可浏览灵感卡** → 按兴趣深读章节、补上重要图像来源 → 全书AI独立长评 → 待验证形式化题目（`NOT_RUN`） → 去重验收和临时ZIP。
 
-**不必读完所有逐章深度报告才能先获得全书整体认识，也不让“精简重点”吞掉那些令人意外的小细节。**
+**不必读完所有逐章深度报告才能先获得全书整体认识，也不让“精简重点”吞掉那些令人意外的小细节。每一本书还必须交付独立的AI深度导读：定理/定义白话、作者行文脉络、可编辑图示、AI独立评论，不能只交摘要。**
 
 详细验收门槛、目录模板、缺失证据处理、只读离线ZIP构建流程见 [docs/BOOK_RESEARCH_WORKFLOW.md](docs/BOOK_RESEARCH_WORKFLOW.md)；一般研究规范见 [七重解析标准](docs/ANALYSIS_STANDARD.md)、[阅读协议](docs/READING_PROTOCOL.md)、[证据与版权](docs/EVIDENCE_STANDARD.md)。
 

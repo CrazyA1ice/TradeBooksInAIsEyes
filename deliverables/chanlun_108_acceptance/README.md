@@ -7,6 +7,8 @@
 0. **[5分钟快速概览与全书思想地图](01_FAST_READ.md)**：先用自己的话理解全书最值得记的主张、重点的来龙去脉及主要局限。接着打开 **[20张不该遗漏的灵感细节卡](02_SPARK_INDEX.md)**，按反直觉、小技巧、规则边界与不同观点冲突浏览，再决定要不要深入。想知道目前还有哪些细节可能漏看，请见 **[逐页复核优先表及覆盖缺口](00_REVIEW/DETAIL_COVERAGE_GAPS.md)**；已完成108课首轮研究**不等于**完成全部图例、脚注和附编的第二轮审核。
 
 
+**[AI深度导读｜核心定理、行文脉络、直观图示与独立观点](04_AI_GUIDE/README.md)**：**新增必交产品层**，包含12组核心命题白话、108课思想依赖与版本修订、8张教学图示和8类AI独立评议；可直接按难点阅读。
+
 1. **[全书AI综合评述](00_REVIEW/FINAL_BOOK_SYNTHESIS.md)**：分八段讨论108课的核心观点、来源版本、逻辑反证、AI独立判断及剩余证据缺口。
 2. **[108课验收矩阵](00_REVIEW/LESSON_ACCEPTANCE_MATRIX.md)**：逐行进入本仓库**唯一规范版本**的解读、证据和原始PDF。
 3. **[110条逐课形式化命题](03_formal_cases/110_CASES_REVIEW_TABLE.md)**：每条绑定原证据ID、原书物理页；[机器可读研究协议](03_formal_cases/ALL_110_PROSPECTIVE_FORMAL_CASES.json)记录变量、对照、前提、失败条件，均`NOT_RUN`。
@@ -41,6 +43,12 @@ deliverables/chanlun_108_acceptance/
 ├── 01_FAST_READ.md
 ├── 02_SPARK_INDEX.md
 ├── OFFLINE_PACKAGE_SPEC.json
+├── 04_AI_GUIDE/
+│   ├── README.md
+│   ├── 01_核心定理与规则白话解读.md
+│   ├── 02_全书行文脉络与思想地图.md
+│   ├── 03_关键概念图示讲解.md
+│   └── 04_AI视角下的争议与启发.md
 ├── 00_REVIEW/
 │   ├── FINAL_BOOK_SYNTHESIS.md
 │   ├── LESSON_ACCEPTANCE_MATRIX.md
@@ -63,9 +71,11 @@ deliverables/chanlun_108_acceptance/
 
 会核对五卷原PDF的SHA-256、**625份规范研究文件**的Git blob SHA、108课与110条来源假说的逐条对应、36例完整性，并检查验收目录不再出现重复书源。审计**不会**访问真实市场行情或运行旧回测实验室。
 
+**新增的AI深度导读验收**（同样只读、无回测）：`python -B tools/audit_book_ai_guide.py --book-slug chanlun --acceptance-dir deliverables/chanlun_108_acceptance`。GitHub Actions会在原有625份规范来源审计通过后自动运行这项检查，再构建临时离线ZIP。两项审核都通过才算该书本轮验收通过。
+
 ## 下一本书照什么流程？
 
-通用标准已写入 [docs/BOOK_RESEARCH_WORKFLOW.md](../../docs/BOOK_RESEARCH_WORKFLOW.md)：从来源锁定和覆盖状态→先出5分钟速览→全书CORE主干与SPARK冷门细节双轨扫描→有选择地七重深读→AI独立长评和`NOT_RUN`形式化例子→单一验收目录、去重和CI临时打包。以每本书的`book_slug`复用，不再为下本书重复造同样的文件夹树。
+通用v3标准已写入 [docs/BOOK_RESEARCH_WORKFLOW.md](../../docs/BOOK_RESEARCH_WORKFLOW.md)：来源锁定→5分钟速览→全书CORE/SPARK双轨扫描→**必交AI深度导读（定理/规则白话＋原书论证脉络＋条件图解＋AI独立评论）**→选择性七重研究→`NOT_RUN`形式化例子→单一验收目录与CI临时打包。以每本书的`book_slug`复用，不再为下本书重复造同样的文件夹树。
 
 **阅读目的**：先拥有全书大图，再自由探索容易被传统摘要删除的细节；灵感卡是已有研究的精选入口，不虚称全部插图/脚注完成第二次逐条核验。
 
