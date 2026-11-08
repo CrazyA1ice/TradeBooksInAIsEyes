@@ -7,7 +7,9 @@
 0. **[5分钟快速概览与全书思想地图](01_FAST_READ.md)**：先用自己的话理解全书最值得记的主张、重点的来龙去脉及主要局限。接着打开 **[20张不该遗漏的灵感细节卡](02_SPARK_INDEX.md)**，按反直觉、小技巧、规则边界与不同观点冲突浏览，再决定要不要深入。想知道目前还有哪些细节可能漏看，请见 **[逐页复核优先表及覆盖缺口](00_REVIEW/DETAIL_COVERAGE_GAPS.md)**；已完成108课首轮研究**不等于**完成全部图例、脚注和附编的第二轮审核。
 
 
-**[AI深度导读｜核心定理、行文脉络、直观图示与独立观点](04_AI_GUIDE/README.md)**：**新增必交产品层**，包含12组核心命题白话、108课思想依赖与版本修订、8张教学图示和8类AI独立评议；可直接按难点阅读。
+**[AI深度导读｜核心定理、行文脉络、直观图示与独立观点](04_AI_GUIDE/README.md)**：**新增必交产品层**，包含12组核心命题白话、108课思想依赖与版本修订、8张教学图示、8类AI独立评议，以及**3套连续推演专题**（分解定理、中枢背驰买卖点、分型笔线段）。可直接按难点阅读。
+
+**从零推演而不只看术语**：[走势终完美与分解定理](04_AI_GUIDE/05_专题教程_走势分解与终完美.md) · [中枢、背驰及三类点](04_AI_GUIDE/06_专题教程_中枢背驰与三类点.md) · [分型、笔、线段到中枢](04_AI_GUIDE/07_专题教程_从分型到线段中枢.md)。这些是带条件与时间轴的AI教学构造，并不冒充原书图或实证收益。
 
 1. **[全书AI综合评述](00_REVIEW/FINAL_BOOK_SYNTHESIS.md)**：分八段讨论108课的核心观点、来源版本、逻辑反证、AI独立判断及剩余证据缺口。
 2. **[108课验收矩阵](00_REVIEW/LESSON_ACCEPTANCE_MATRIX.md)**：逐行进入本仓库**唯一规范版本**的解读、证据和原始PDF。
@@ -71,7 +73,7 @@ deliverables/chanlun_108_acceptance/
 
 会核对五卷原PDF的SHA-256、**625份规范研究文件**的Git blob SHA、108课与110条来源假说的逐条对应、36例完整性，并检查验收目录不再出现重复书源。审计**不会**访问真实市场行情或运行旧回测实验室。
 
-**新增的AI深度导读验收**（同样只读、无回测）：`python -B tools/audit_book_ai_guide.py --book-slug chanlun --acceptance-dir deliverables/chanlun_108_acceptance`。GitHub Actions会在原有625份规范来源审计通过后自动运行这项检查，再构建临时离线ZIP。两项审核都通过才算该书本轮验收通过。
+**新增的AI深度导读验收**（同样只读、无回测）：`python -B tools/audit_book_ai_guide.py --book-slug chanlun --acceptance-dir deliverables/chanlun_108_acceptance --require-tutorial 05_专题教程_走势分解与终完美.md --require-tutorial 06_专题教程_中枢背驰与三类点.md --require-tutorial 07_专题教程_从分型到线段中枢.md`。GitHub Actions会在原有625份规范来源审计通过后自动运行这项检查，再构建临时离线ZIP。两项审核都通过才算该书本轮验收通过。
 
 ## 下一本书照什么流程？
 
