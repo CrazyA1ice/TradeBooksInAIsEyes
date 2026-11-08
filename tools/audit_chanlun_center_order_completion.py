@@ -174,6 +174,8 @@ def evaluate(case, contract):
         return "UNCOMPLETED_LOWER_TYPE_PENDING"
     if any(t is None or t > asof for center in (previous,later) for t in center["times"]):
         return "ASOF_LOWER_TYPE_NOT_YET_CONFIRMED"
+    need(later["times"][0] > previous["times"][-1],
+         "Hypothetical prior/later center confirmation order is not verified")
     if any(center["ZG"] < center["ZD"] for center in (previous,later)):
         return "DECLARED_CENTER_CORE_EMPTY"
     if any(center["ZG"] == center["ZD"] for center in (previous,later)):
