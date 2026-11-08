@@ -28,6 +28,28 @@ class BridgeSourceTextAuditTests(unittest.TestCase):
         self.assertTrue(all(len(x["context"]) <= module.MAX_CONTEXT_CHARS for x in items))
         self.assertEqual(module.bounded_excerpts("no matches", ("盘整背驰",)), [])
 
+    def test_lockfile_and_compiler_markers(self):
+        pins = module.load_pins()
+        target_keys = {f"{vol}:{page}" for vol, pages in module.TARGETS.items() for page in pages}
+        self.assertEqual(set(pins), target_keys)
+        self.assertEqual(set(module.REQUIRED_NATIVE_ANCHORS), target_keys)
+        self.assertTrue(all(len(x) == 64 for x in pins.values()))
+        self.assertIn("娇注", module.REQUIRED_NATIVE_ANCHORS["2:354"])
+        self.assertIn("（娇：", module.REQUIRED_NATIVE_ANCHORS["5:224"])
+        self.assertIn("娇注", module.REQUIRED_NATIVE_ANCHORS["5:225"])
+
+    def test_legacy_claim_is_correctly_attributed_and_linked(self):
+        evidence = json.loads((ROOT / "knowledge/evidence/chanlun_lesson039.json").read_text(encoding="utf-8"))
+        item = next(x for x in evidence["claims"] if x["id"] == "CL39-SOURCE-3")
+        self.assertEqual(item["kind"], "EDITORIAL")
+        self.assertEqual(item["attribution_evidence"]["native_page_text_sha256"], module.load_pins()["2:354"])
+        self.assertTrue(item["attribution_evidence"]["id_retained_for_backward_compatibility"])
+        path = ROOT / "deliverables/chanlun_108_acceptance/04_AI_GUIDE/17_第39与98至100课原PDF页级文字复核.md"
+        text = path.read_text(encoding="utf-8")
+        for token in ("ROLE_MISMATCH_RESOLVED", "SOURCE_PDF_NATIVE_TEXT_VERIFIED",
+                      "TEXT_FIRST_NO_IMAGE", "NOT_RUN", "PROVENANCE_LIMITED"):
+            self.assertIn(token, text)
+
     def test_production_requires_independent_pinfile_and_fixed_extraction(self):
         text = SCRIPT.read_text(encoding="utf-8")
         self.assertIn("if pinned is not None and pinned[key] != page_sha", text)
