@@ -13,6 +13,9 @@
 **第三步 · 审核未来需要验证的全部明确假说**  
 → [形式化例子导览](03_formal_cases/README.md) · [110条逐课命题浏览表](03_formal_cases/110_CASES_REVIEW_TABLE.md) · [110条形式化协议JSON](03_formal_cases/ALL_110_PROSPECTIVE_FORMAL_CASES.json) · [36个跨课详细形式化示例](03_formal_cases/36_CROSS_LESSON_FORMAL_EXAMPLES.json)。
 
+**第四步 · 查看本轮完成的验收报告和完整ZIP**  
+→ [本轮自动验收报告（含下载地址）](00_REVIEW/ACCEPTANCE_REPORT.md) · [GitHub Actions 完整ZIP（30天内）](https://github.com/CrazyA1ice/TradeBooksInAIsEyes/actions/runs/42445937213/artifacts/13603153963)。长期完整文件夹以GitHub主分支为准。
+
 **第四步 · 核查来源与复制完整性**  
 → [文件复制清单（633条SHA1）](00_REVIEW/FILE_MANIFEST.json) · [验收检查程序](00_REVIEW/audit_acceptance.py)。后者只做完整性、引用及状态审查，不运行行情回测。
 
