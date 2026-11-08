@@ -140,6 +140,13 @@ class CenterOrderCompletionSourceTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,"Incomplete lower"):
             m.evaluate(x,self.contract)
 
+    def test_later_center_must_actually_follow_prior_center_in_synthetic_clock(self):
+        row = self.case("up_strict_full_fluctuation_separation")
+        row["later"]["first_three_lower_confirmed_at"] = (
+            row["earlier"]["first_three_lower_confirmed_at"][:])
+        with self.assertRaisesRegex(ValueError, "confirmation order is not verified"):
+            m.evaluate(row, self.contract)
+
     def test_evidence_scope_report_linked_from_both_indexes(self):
         article=ROOT/"deliverables/chanlun_108_acceptance/04_AI_GUIDE/24_第18与20课中枢比较及可完成性原文检验.md"
         text=article.read_text(encoding="utf-8")
