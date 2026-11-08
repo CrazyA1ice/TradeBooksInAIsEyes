@@ -64,12 +64,21 @@
     },
     {
       "id": "CL36-SOURCE-3",
-      "kind": "SOURCE",
+      "kind": "EDITORIAL",
       "volume": 2,
       "pdf_pages": [
         310
       ],
-      "summary": "编者注指出早期一个中枢划分在后期线段规则下不合理。"
+      "summary": "编者注指出早期一个中枢划分在后期线段规则下不合理。",
+      "attribution_evidence": {
+        "source_role": "later_compiler_annotation",
+        "physical_pdf_page": 310,
+        "marker_in_native_text": "娇注",
+        "native_page_text_sha256": "9399dab5a7c9e8863570557e6befd529cabd3c2ef90ed4d806233ed051a64062",
+        "original_pdf_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+        "discovery_run_id": 42486140626,
+        "id_retained_for_backward_compatibility": true
+      }
     },
     {
       "id": "CL36-INTERPRETATION-4",
