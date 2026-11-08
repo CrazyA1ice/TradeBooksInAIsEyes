@@ -1,0 +1,29 @@
+name: Chanlun prefix replay / fixed-direction containment / pen version isolation v1
+on:
+  push:
+    branches: [feat/chanlun-prefix-replay-versioned-pen-lab-20261108]
+    paths:
+      - ".github/workflows/chanlun-prefix-replay-v1-audit.yml"
+      - "tools/chanlun_event_lab_v1.py"
+      - "tests/test_chanlun_event_lab_v1.py"
+      - "schemas/chanlun_synthetic_market_event_v1.schema.json"
+      - "experiments/fixtures/chanlun_prefix_synthetic_v1.json"
+      - "catalog/chanlun_rule_history_v1.json"
+      - "docs/CHANLUN_PREFIX_REPLAY_LAB_V1.md"
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  synthetic-replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: python -B -m unittest discover -s tests -p "test_chanlun_event_lab_v1.py" -v
+      - run: python -B tools/chanlun_event_lab_v1.py --asof "2007-09-20T01:35:01+00:00" --direction UP
+      - run: python -B tools/chanlun_event_lab_v1.py --asof "2007-09-20T02:00:00+00:00" --direction UP --rule pen_077_exposition --attested-known-at "2007-09-19T09:00:00+08:00" --proof-ref synthetic-publication-availability
+      - run: python -B tools/chanlun_event_lab_v1.py --asof "2007-09-20T02:00:00+00:00" --direction UP --rule pen_081_later_dated_post --attested-known-at "2007-09-19T09:00:00+08:00" --proof-ref synthetic-publication-availability
+      - run: python -B tools/audit_chanlun_unified_knowledge.py --verify
