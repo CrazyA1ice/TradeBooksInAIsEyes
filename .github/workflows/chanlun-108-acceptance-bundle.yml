@@ -16,6 +16,7 @@ on:
       - "tests/test_chanlun_asof_player.mjs"
       - "tests/test_chanlun_source_case_atlas.py"
       - "tests/test_chanlun_original_figure_review.py"
+      - "tests/test_chanlun_figure_lineage.py"
       - ".github/workflows/chanlun-108-acceptance-bundle.yml"
   pull_request:
     branches: [main]
@@ -39,6 +40,8 @@ jobs:
         run: python -B -m unittest discover -s tests -p 'test_chanlun_source_case_atlas.py' -v
       - name: Regression-check original PDF figure observations, source dates and manifest
         run: python -B -m unittest discover -s tests -p 'test_chanlun_original_figure_review.py' -v
+      - name: Verify 7-8-9 figure-source lineage and postdated pen-rule boundaries
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_figure_lineage.py' -v
       - name: Verify as-of-only visualization and matched-future branches (offline Node)
         run: node tests/test_chanlun_asof_player.mjs
       - name: Assemble offline materials from canonical originals in runner temp
