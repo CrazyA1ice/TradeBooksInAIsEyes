@@ -26,6 +26,9 @@ on:
       - "tests/test_chanlun_crosslesson_proof_text.py"
       - "tests/test_chanlun_35_38_99_proof_text.py"
       - "tests/test_chanlun_formal_proof_readiness.py"
+      - "tests/test_chanlun_lesson038_policy_scope.py"
+      - "tests/fixtures/chanlun38_symbolic_policy_cases_v1.json"
+      - "tools/audit_chanlun_lesson038_policy_scope.py"
       - "tools/verify_chanlun_formal_proof_readiness.py"
       - "reports/source_inventory/chanlun_formal_proof_readiness_v1.json"
       - "tools/inspect_chanlun_35_38_99_proof_text_readonly.py"
@@ -83,6 +86,10 @@ jobs:
         run: python -B tools/verify_chanlun_formal_proof_readiness.py
       - name: Verify forged proof, editorial attribution and missing derivation slots are rejected
         run: python -B -m unittest discover -s tests -p 'test_chanlun_formal_proof_readiness.py' -v
+      - name: Verify original lesson38 asymmetric rule scope and synthetic cutpoint limits
+        run: python -B tools/audit_chanlun_lesson038_policy_scope.py
+      - name: Reject fake complete-parser claims or cross-level counterexamples
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_lesson038_policy_scope.py' -v
       - name: Verify as-of-only visualization and matched-future branches (offline Node)
         run: node tests/test_chanlun_asof_player.mjs
       - name: Assemble offline materials from canonical originals in runner temp
