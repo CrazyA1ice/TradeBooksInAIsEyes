@@ -172,3 +172,11 @@
 [五课综合](volumes/LESSONS_096_100_SYNTHESIS.md) · [78页原书来源/后编注](../../../reports/source_inventory/chanlun_lessons096_100_source_visual_review.md) · [第100课作者/编辑异议](../../../experiments/protocols/chanlun_lesson100_disputed_branches.md)。
 
 原PDF第五卷p.155–232共78页SHA锁定、13页低清预览其中4页实际目视；对同一汇编中作者初发与后来娇注保留冲突。纯合成局部模型不证明全套走势理论、真实成交或投资利润。
+
+## 第二十一批：第101–105课（第五卷）
+
+[101课](chapters/lesson_101.md) · [102课](chapters/lesson_102.md) · [103课](chapters/lesson_103.md) · [104课](chapters/lesson_104.md) · [105课](chapters/lesson_105.md)。
+
+[五课综合](volumes/LESSONS_101_105_SYNTHESIS.md) · [140物理页来源与2010编注](../../../reports/source_inventory/chanlun_lessons101_105_source_visual_review.md) · [第二买点低于第一买点的局部审计](../../../experiments/protocols/chanlun_lesson101_second_buy_audit.md) · [唯一分解证明义务](../../../experiments/protocols/chanlun_lesson102_uniqueness_contract.md)。
+
+原PDF卷5 p.233–372共140物理页、15页低清渲染其中5页实际目视；多数页包含其他日期后附解盘，并非5篇首发完整正文。第104课2010年后编者解释单独标记；合成逻辑不证明收益。

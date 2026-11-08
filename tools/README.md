@@ -115,3 +115,10 @@
 - `audit_chanlun_lessons097_098_evidence_gate.py`：条件分支的观察时钟、风险门和T+1实际成交证据。
 - `audit_chanlun_lesson099_resegmentation.py`：合成中阴重分组必须保留原始片段和中心完成时间。
 - `audit_chanlun_lesson100_branch_dispute.py`：2008年作者二分与后期娇注反例式批评并存，保守待核验。
+
+- `survey_chanlun_lessons101_105.py`：第五卷p.233–372、140页原始SHA校验、有界文本与15张低清原页。
+- `verify_chanlun_lessons101_105.py`：140页、35类型化证据、12处原书文字核对、5页实际视觉范围、2010年编辑注和既有知识图谱兼容。
+- `audit_chanlun_lesson101_second_buy.py`：第101课第二买低于第一买与二三买合一的必要条件。
+- `audit_chanlun_lesson102_uniqueness_contract.py`：唯一分解证明前需声明规则与平局处理，非全体系反例。
+- `audit_chanlun_lesson103_macd_zero_asof.py`：MACD零轴低风险倾向信号只读已完成数据。
+- `audit_chanlun_lessons104_105_evidence.py`：2008作者/2010编辑与物理比喻、机械执行证据门。
