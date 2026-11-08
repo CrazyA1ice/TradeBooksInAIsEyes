@@ -4,7 +4,7 @@
 
 ## 先看这些最终成果
 
-0. **[5分钟快速概览与全书思想地图](01_FAST_READ.md)**：先用自己的话理解全书最值得记的主张、重点的来龙去脉及主要局限。接着打开 **[20张不该遗漏的灵感细节卡](02_SPARK_INDEX.md)**，按反直觉、小技巧、规则边界与不同观点冲突浏览，再决定要不要深入。
+0. **[5分钟快速概览与全书思想地图](01_FAST_READ.md)**：先用自己的话理解全书最值得记的主张、重点的来龙去脉及主要局限。接着打开 **[20张不该遗漏的灵感细节卡](02_SPARK_INDEX.md)**，按反直觉、小技巧、规则边界与不同观点冲突浏览，再决定要不要深入。想知道目前还有哪些细节可能漏看，请见 **[逐页复核优先表及覆盖缺口](00_REVIEW/DETAIL_COVERAGE_GAPS.md)**；已完成108课首轮研究**不等于**完成全部图例、脚注和附编的第二轮审核。
 
 
 1. **[全书AI综合评述](00_REVIEW/FINAL_BOOK_SYNTHESIS.md)**：分八段讨论108课的核心观点、来源版本、逻辑反证、AI独立判断及剩余证据缺口。
@@ -45,6 +45,7 @@ deliverables/chanlun_108_acceptance/
 │   ├── FINAL_BOOK_SYNTHESIS.md
 │   ├── LESSON_ACCEPTANCE_MATRIX.md
 │   ├── ACCEPTANCE_REPORT.md
+│   ├── DETAIL_COVERAGE_GAPS.md
 │   ├── FILE_MANIFEST.json
 │   └── audit_acceptance.py
 └── 03_formal_cases/
@@ -64,7 +65,7 @@ deliverables/chanlun_108_acceptance/
 
 ## 下一本书照什么流程？
 
-通用标准已写入 [docs/BOOK_RESEARCH_WORKFLOW.md](../../docs/BOOK_RESEARCH_WORKFLOW.md)：从PDF/EPUB登记→来源/OCR质量→逐章七重解读→图表证据→跨章研究→形式化待验证清单→单一验收目录→自动去重→CI临时打包。以每本书的`book_slug`复用，不再为下本书重复造同样的文件夹树。
+通用标准已写入 [docs/BOOK_RESEARCH_WORKFLOW.md](../../docs/BOOK_RESEARCH_WORKFLOW.md)：从来源锁定和覆盖状态→先出5分钟速览→全书CORE主干与SPARK冷门细节双轨扫描→有选择地七重深读→AI独立长评和`NOT_RUN`形式化例子→单一验收目录、去重和CI临时打包。以每本书的`book_slug`复用，不再为下本书重复造同样的文件夹树。
 
 **阅读目的**：先拥有全书大图，再自由探索容易被传统摘要删除的细节；灵感卡是已有研究的精选入口，不虚称全部插图/脚注完成第二次逐条核验。
 
