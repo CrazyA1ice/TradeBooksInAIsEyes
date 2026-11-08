@@ -31,7 +31,7 @@ jobs:
       - name: Audit original PDF SHA and unique canonical sources
         run: python -B deliverables/chanlun_108_acceptance/00_REVIEW/audit_acceptance.py
       - name: Audit mandatory source-linked, illustrated AI deep reading guide
-        run: python -B tools/audit_book_ai_guide.py --book-slug chanlun
+        run: python -B tools/audit_book_ai_guide.py --book-slug chanlun --acceptance-dir deliverables/chanlun_108_acceptance
       - name: Assemble offline materials from canonical originals in runner temp
         shell: bash
         run: python -B tools/build_book_acceptance_zip.py --spec deliverables/chanlun_108_acceptance/OFFLINE_PACKAGE_SPEC.json --out "$RUNNER_TEMP/Chanlun-108-clean-offline.zip"
