@@ -44,6 +44,27 @@
       "summary": "作者给出中枢延伸的区间条件和相应符号。"
     },
     {
+      "id": "CL020-S08",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        246,
+        247
+      ],
+      "summary": "作者定义中枢内Zn高低点衍生的GG=max(gn)、DD=min(dn)、ZG=min(g1,g2)、ZD=max(d1,d2)，给出前后同级别中枢严格上涨／下跌分离式，以及跨页的级别扩张条件；原卷页内同时有后附娇注，不能混用。",
+      "source_anchor": {
+        "canonical_pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+        "native_text_sha256_by_physical_page": {
+          "246": "441f33589318f29d539f01124a9be0ecf8fd98e372b2340cb2367a785a5397f9",
+          "247": "413cbc347ea62f60139f49920b667084aeb5d8453645d5f99d9387aaa8ea8039"
+        },
+        "role": "AUTHOR_MAIN_TEXT_IN_COMPILATION_WITH_INLINE_LATER_EDITORIAL_NOTES",
+        "independent_first_publication_verified": false,
+        "inline_editorial_markers_present": true,
+        "full_image_review": false,
+        "not_a_complete_legal_center_certification": true
+      }
+    },
+    {
       "id": "CL020-S03",
       "kind": "SOURCE",
       "pdf_pages": [

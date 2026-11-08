@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "reader": "pymupdf_1.26.7_get_text_sort_true",
+  "source_pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+  "discovery_runs": [
+    42491504149,
+    42491583263
+  ],
+  "page_native_text_sha256": {
+    "234": "69121d9a964de1298165d08291f802d4263be12adaabdd8f5e5353b396aca86f",
+    "235": "d4f06d4d8395748f7b38307ccdc83436fdf9480a729fad413c45f772ae7023d4",
+    "236": "434c7daf3ccae1460d9f1aa2078ec57a05454e73c3f6cbd3705b66187dca9794",
+    "245": "b699993c6d57238640eb94844f53d5391fcb1572659cae08fb2248139ca74ea3",
+    "246": "441f33589318f29d539f01124a9be0ecf8fd98e372b2340cb2367a785a5397f9",
+    "247": "413cbc347ea62f60139f49920b667084aeb5d8453645d5f99d9387aaa8ea8039"
+  },
+  "provenance": "Compilation PDF text, not a complete historical publication audit",
+  "editor_inline_pages": [
+    235,
+    245,
+    246,
+    247
+  ],
+  "no_image_ocr_or_market_access": true
+}

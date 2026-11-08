@@ -5,7 +5,7 @@
   "source_revision_at_initial_archive": "a80af245ecc1df1adf32d4e8ad556bd759e91ae2",
   "file_index_kind": "canonical_reference_not_duplicate_file",
   "canonical_file_count": 625,
-  "canonical_bytes": 50179942,
+  "canonical_bytes": 50182497,
   "canonical_files": [
     {
       "path": ".github/workflows/chanlun-incremental-events-v2-audit.yml",
@@ -1599,8 +1599,8 @@
     },
     {
       "path": "knowledge/evidence/chanlun_lesson018.json",
-      "git_blob_sha1": "26434d58b61306babb8d7d2c9604851514d7a9f8",
-      "bytes": 2102
+      "git_blob_sha1": "51bb49ed5a56a4bc587c67e62dc2b59fba7c0490",
+      "bytes": 3018
     },
     {
       "path": "knowledge/evidence/chanlun_lesson019.json",
@@ -1609,8 +1609,8 @@
     },
     {
       "path": "knowledge/evidence/chanlun_lesson020.json",
-      "git_blob_sha1": "c7269bf0cdc39dcd81587fae420feb5c2dcf4126",
-      "bytes": 2502
+      "git_blob_sha1": "f4f245196441a6c03bab221768bf4c5d40dcff31",
+      "bytes": 3534
     },
     {
       "path": "knowledge/evidence/chanlun_lesson021.json",
@@ -2419,8 +2419,8 @@
     },
     {
       "path": "tests/test_chanlun_lessons016_020.py",
-      "git_blob_sha1": "3a88fb9f0ea92f9fcae82d5dde078ad481ae025a",
-      "bytes": 2145
+      "git_blob_sha1": "ff75b49c225a1f88d7e2cefed464032de02823ac",
+      "bytes": 2752
     },
     {
       "path": "tests/test_chanlun_lessons021_025.py",
