@@ -152,3 +152,9 @@
 `tools/chanlun_pen_frontier_v3.py`在合成已闭合K线前缀上研究同类分型极值替换、等值冲突、局部必要笔候选和不可变修订历史。第77课旧版本、第81课后发版本均须固定可知时间与规则证据。所有`feature_projection`均标`UNDETERMINED`，未认证完成笔不能作为第67/71课线段STRICT元素。
 
 单行可运行`python -B tools/audit_chanlun_pen_frontier_witnesses_v3.py`重现新旧规则隔离、后来更低底点导致旧笔候选撤销、既往事件不被改写、严格成员门拒绝。实验仅合成，非收益回测。
+
+## V4市场修订来源与完整笔证据审计
+
+`tools/chanlun_revision_proof_gates_v4.py`：对人工合成市场bar进行包含独立接收时间、来源校验和旧记录哈希的只读多版本订正；回放仅输出当前as-of来源的**事后修订候选视图**。对完整笔所需的极值、方向、完整规则、唯一分解、真实可得性和原图六类证据逐项报告，绝不以自报证据签发正式完整笔。
+
+`tools/audit_chanlun_revision_causal_witness_v4.py`：演示更正前→第一次更正→第二次更正三个as-of，未来订正不能改变过去输出，旧候选不能沿用新版指纹，伪造证据不能让任何候选变成STRICT。运行：`python -B tools/audit_chanlun_revision_causal_witness_v4.py`。标准库、纯合成、无行情写入或下单。
