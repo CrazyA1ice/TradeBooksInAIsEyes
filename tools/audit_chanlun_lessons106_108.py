@@ -40,6 +40,8 @@ def sector_strength(rows, *, expected_members, asof_clock):
     for row in by_symbol.values():
         if row["observed_clock"] > asof_clock or not row.get("complete", False):
             return {"state": "PENDING", "mean_class": None, "reason": "future_or_partial_member"}
+        if row["observed_clock"] < asof_clock:
+            return {"state": "UNKNOWN", "mean_class": None, "reason": "stale_member_clock"}
         if row["state"] != "CLASSIFIED" or type(row["class"]) is not int or not 1 <= row["class"] <= 9:
             return {"state": "UNKNOWN", "mean_class": None, "reason": "member_class_unknown"}
     return {"state": "CLASSIFIED", "mean_class": sum(x["class"] for x in by_symbol.values()) / len(by_symbol), "members": len(by_symbol)}
@@ -73,7 +75,7 @@ def tplus_one_sellable(*, shares, acquired_day, sell_day):
         raise ValueError("Nonnegative integral position required")
     return shares if sell_day > acquired_day else 0
 
-def fractal_bottom(*, lower, upper, price, price_clock, asof_clock, upper_break_confirmed=False):
+def fractal_bottom(*, lower, upper, price, price_clock, asof_clock, upper_break_confirmed=False, confirmation_clock=None):
     """A level-specific fractal bottom; crossing upper alone is not confirmed holding."""
     if not all(_finite(x) for x in (lower, upper, price)) or not lower < upper:
         raise ValueError("Invalid bottom observation interval")
@@ -84,6 +86,10 @@ def fractal_bottom(*, lower, upper, price, price_clock, asof_clock, upper_break_
     if price < lower:
         return {"state": "FAILED", "reason": "lower_edge_broken"}
     if price > upper and upper_break_confirmed:
+        if confirmation_clock is None:
+            return {"state": "UNKNOWN", "reason": "confirmation_has_no_timestamp"}
+        if confirmation_clock > asof_clock:
+            return {"state": "PENDING", "reason": "future_confirmation"}
         return {"state": "BREAKOUT_CONFIRMED", "reason": "independent_upper_confirmation"}
     return {"state": "FORMING", "reason": "upper_confirmation_not_complete"}
 

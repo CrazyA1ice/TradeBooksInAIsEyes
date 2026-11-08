@@ -28,6 +28,8 @@ class Audit106(unittest.TestCase):
         self.assertEqual(f["sector_strength"](rows[:1],expected_members=["A","B"],asof_clock=2)["state"],"UNKNOWN")
         rows[1]["observed_clock"]=3
         self.assertEqual(f["sector_strength"](rows,expected_members=["A","B"],asof_clock=2)["state"],"PENDING")
+        rows[1]["observed_clock"]=1
+        self.assertEqual(f["sector_strength"](rows,expected_members=["A","B"],asof_clock=2)["state"],"UNKNOWN")
 
 class Audit107(unittest.TestCase):
     def legs(self):
@@ -58,7 +60,12 @@ class Audit108(unittest.TestCase):
         self.assertEqual(g(**opts,price=2283)["state"],"FAILED")
         self.assertEqual(g(**opts,price=2284)["state"],"FORMING")
         self.assertEqual(g(**opts,price=3100,upper_break_confirmed=False)["state"],"FORMING")
-        self.assertEqual(g(**opts,price=3100,upper_break_confirmed=True)["state"],"BREAKOUT_CONFIRMED")
+        self.assertEqual(g(**opts,price=3100,upper_break_confirmed=True,confirmation_clock=10)["state"],"BREAKOUT_CONFIRMED")
+    def test_confirmation_must_have_asof_timestamp(self):
+        g=f["fractal_bottom"]
+        opts={"lower":2284,"upper":2952,"price":3000,"price_clock":10,"asof_clock":10}
+        self.assertEqual(g(**opts,upper_break_confirmed=True)["state"],"UNKNOWN")
+        self.assertEqual(g(**opts,upper_break_confirmed=True,confirmation_clock=11)["state"],"PENDING")
     def test_future_month_is_unknown(self):
         self.assertEqual(f["fractal_bottom"](lower=2284,upper=2952,price=3100,price_clock=11,asof_clock=10,upper_break_confirmed=True)["state"],"PENDING")
     def test_two_distinct_bottom_contracts(self):
