@@ -35,6 +35,35 @@ TARGETS = {
         242: ["分解", "级别", "娇", "唯一"],
     },
 }
+# Exact native-text extraction SHA-256 at PyMuPDF==1.26.7, sorted text,
+# verified in GitHub Actions run 42480286214. These are TEXT hashes, not
+# image recognition, and must be reviewed before any intentional changes.
+EXPECTED_TEXT_SHA256 = {
+    (1, 196): "30986ca4815b717d49b2bb7921b1979895fdc966bc958f28e75e26a7bfccc55d",
+    (1, 197): "6aaecd9ad072715180c28c4bac0cdc2e5135604d17e26cabae449c8e47ec2936",
+    (2, 291): "1a2c291cff189ea4de5bef2ecf152e9888773d1194b0ed4e7218f4cd0f3b846b",
+    (2, 292): "f253ed2039c756133443ac2b43a846ef8ba06de3bcfe34e75f78a1ed635d9f37",
+    (2, 293): "f4af9069932c5ec876b459743303b222eb8ffe90189dc5c737c581c32e1b21da7",
+    (2, 338): "369d79117897f949976704c21e81818f9e75899b0e925f637c581c32e1b21da7",
+    (2, 339): "1f48433d41259c6f82e4f5233dccd3728c823e9ab3723fe3ac77a06697689ce8",
+    (5, 202): "1ff79bb24d18734344e4c9035065a0b3fc37e59c1a40c01264ab01dc49feb0d1",
+    (5, 203): "0b7f597241ac2e13d11ca1e6bacae06af66a393349fabe93e3dbc98d16171de6",
+    (5, 241): "c7e46bd14e757ec48b9e8ca51fce682fe405bd382beed5de6a63f0a012a75f96",
+    (5, 242): "75bfe849f767127f77520079c6bbc40c84d3359527006b71d190910f1630ba19",
+}
+REQUIRED_TEXT_ANCHORS = {
+    (1, 196): ["走势终完美", "走势类型终要完成"],
+    (1, 197): ["三个连续次级别走势类型", "单位K"],
+    (2, 291): ["连续三笔相同价位", "最低级别"],
+    (2, 292): ["走势分解定理一", "走势分解定理二", "结合律"],
+    (2, 338): ["同级别分解", "唯一性"],
+    (2, 339): ["中枢延伸", "盘整+盘整", "唯一"],
+    (5, 202): ["中阴", "同级别的划分"],
+    (5, 203): ["30 分钟", "中枢震荡"],
+    (5, 241): ["自然数", "唯一分解"],
+    (5, 242): ["a1A1+a5A5+a30A30", "娇注"],
+}
+
 MAX_HITS_PER_PAGE = 5
 MAX_EXCERPT_CHARS = 240
 
@@ -87,12 +116,19 @@ def main() -> int:
             for number, needles in targets.items():
                 page = document.load_page(number - 1)
                 txt = page.get_text("text", sort=True)
+                page_hash = hashlib.sha256(txt.encode("utf-8")).hexdigest()
+                if page_hash != EXPECTED_TEXT_SHA256[(vol, number)]:
+                    raise ValueError(f"Native original text changed at volume {vol} p.{number}")
+                normalized = re.sub(r"\\s+", " ", txt)
+                for needle in REQUIRED_TEXT_ANCHORS.get((vol, number), []):
+                    if needle not in normalized:
+                        raise ValueError(f"Missing source wording {needle!r} at volume {vol} p.{number}")
                 row = {
                     "volume": vol,
                     "physical_pdf_page": number,
                     "canonical_pdf_sha256": sha,
                     "native_text_chars": len(txt),
-                    "native_page_text_sha256": hashlib.sha256(txt.encode("utf-8")).hexdigest(),
+                    "native_page_text_sha256": page_hash,
                     "anchor_excerpts": excerpts(txt, needles),
                     "no_visual_figure_inspection": True,
                     "proof_status": "TEXT_EXCERPT_REQUIRES_CONTEXTUAL_REVIEW",
