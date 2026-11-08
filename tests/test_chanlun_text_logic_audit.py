@@ -84,7 +84,7 @@ class SourceTextFirstLogicAudit(unittest.TestCase):
         self.assertIn("workflow_dispatch:", header)
         self.assertNotIn("pull_request:", header)
         self.assertNotIn("push:", header)
-        self.assertIn("manual", header.lower())
+        self.assertIn("opt-in only", header.lower())
 
 
 if __name__ == "__main__":
