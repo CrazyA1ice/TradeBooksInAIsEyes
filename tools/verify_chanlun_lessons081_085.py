@@ -46,7 +46,7 @@ def validate(index,source,claims,reports,summary,new,older,hashes):
         if n==82:assert "中继" in md and "笔" in md
         if n==83:assert "噪声" in md and "线段" in md
         if n==84:assert "自同构" in md and "f1" in md and "f2" in md
-        if n==85:assert "法律" in md and "未经" in md
+        if n==85:assert "法律" in md and "独立" in md
     assert len(ids)==35 and "114页" in summary and "新笔" in summary and "自同构" in summary
     assert all(f"lesson_{n:03d}.md" in summary for n in range(81,86))
     base,ext66,ext71,ext76=older
