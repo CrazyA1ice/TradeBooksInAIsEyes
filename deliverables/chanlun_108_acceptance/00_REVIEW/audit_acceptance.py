@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Offline acceptance audit of the frozen Chanlun 108-lesson deliverable bundle.
+"""Offline acceptance audit of the de-duplicated Chanlun 108-lesson review index.
 
 This script verifies files, provenance links and prospective case inventories.
 It deliberately DOES NOT run the old market/pen/strategy experimental tools,
@@ -12,15 +12,17 @@ import json
 import re
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-READ = ROOT / "00_REVIEW"
-CASES = ROOT / "03_formal_cases"
+BUNDLE = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[3]   # canonical repo root
+READ = BUNDLE / "00_REVIEW"
+CASES = BUNDLE / "03_formal_cases"
 VOLUMES = ROOT / "ChineseBooks" / "缠论"
 SHA_RE = re.compile(r"^[0-9a-f]{40}$")
 
 
 def load(relative_path):
-    return json.loads((ROOT / relative_path).read_text(encoding="utf-8"))
+    home = BUNDLE if relative_path.startswith(("00_REVIEW/", "03_formal_cases/")) else ROOT
+    return json.loads((home / relative_path).read_text(encoding="utf-8"))
 
 
 def git_blob_hash(path):
@@ -48,17 +50,21 @@ def verify():
             errors.append(message)
 
     manifest = load("00_REVIEW/FILE_MANIFEST.json")
-    copies = manifest["copies"]
-    ok(len(copies) == manifest["existing_copied_file_count"] == 633,
-       "633 source-copied files required")
-    ok(len(set(row["path"] for row in copies)) == len(copies), "Duplicate manifest paths")
-    ok(sum(row["bytes"] for row in copies) == manifest["existing_copied_bytes"],
-       "Source-copy byte total mismatch")
-    for entry in copies:
+    canonical = manifest["canonical_files"]
+    ok(len(canonical) == manifest["canonical_file_count"] == 625,
+       "Expected 625 canonical referenced source files")
+    ok(len(set(row["path"] for row in canonical)) == len(canonical),
+       "Duplicate canonical manifest paths")
+    ok(sum(row["bytes"] for row in canonical) == manifest["canonical_bytes"],
+       "Canonical source byte total mismatch")
+    ok(manifest["file_index_kind"]=="canonical_reference_not_duplicate_file",
+       "Manifest must describe references, not second copies")
+    for entry in canonical:
         relative = Path(entry["path"])
         ok(not relative.is_absolute() and ".." not in relative.parts,
            "Invalid path in file manifest: " + entry["path"])
         path = ROOT / relative
+        ok(not (BUNDLE / relative).exists(), "Duplicated source file found in acceptance: " + entry["path"])
         if not path.is_file():
             errors.append("File missing: " + entry["path"])
             continue
@@ -69,7 +75,7 @@ def verify():
            "Git blob content mismatch: " + entry["path"])
 
     for entry in manifest["case_files"]:
-        path = ROOT / entry["path"]
+        path = BUNDLE / entry["path"]
         if not path.is_file():
             errors.append("Formal-case file missing: " + entry["path"])
             continue
@@ -153,16 +159,17 @@ def verify():
         ok(all(x.get(k) for k in ("formal_example","required_inputs",
                                  "observables_or_metrics","negative_control_and_bias_guard")),
            "Curated case missing a prospective validation protocol: "+x["example_id"])
-    ok((ROOT/"00_REVIEW/LESSON_ACCEPTANCE_MATRIX.md").is_file(),
+    ok((BUNDLE/"00_REVIEW/LESSON_ACCEPTANCE_MATRIX.md").is_file(),
        "Missing 108-lesson acceptance checklist")
-    ok((ROOT/"00_REVIEW/FINAL_BOOK_SYNTHESIS.md").is_file(),
+    ok((BUNDLE/"00_REVIEW/FINAL_BOOK_SYNTHESIS.md").is_file(),
        "Missing whole-book synthesis")
-    ok((ROOT/"03_formal_cases/README.md").is_file(),
+    ok((BUNDLE/"03_formal_cases/README.md").is_file(),
        "Missing formal cases reading guide")
     summary={"status":"PASS" if not errors else "FAIL",
              "source_volume_pdfs_sha256_verified":len(index["volumes"]),
-             "copied_files_git_blob_sha1_verified":len(copies),
-             "copied_bytes":manifest["existing_copied_bytes"],
+             "canonical_files_git_blob_sha1_verified":len(canonical),
+             "duplicate_canonical_copies_in_acceptance":0,
+             "canonical_bytes":manifest["canonical_bytes"],
              "lessons":len(lessons),"source_hypotheses":len(expected_claims),
              "prospective_cases":len(cs),"cross_lesson_examples":len(ex),
              "empirical_backtests_run":0,
