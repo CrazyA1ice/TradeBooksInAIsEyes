@@ -82,7 +82,7 @@ class SourceCaseAtlasTests(unittest.TestCase):
         report = (SOURCE_REPORTS/"chanlun_lessons096_100_source_visual_review.md").read_text(encoding="utf-8")
         self.assertIn("娇注", report)
         section = self.case_sections["100"]
-        for term in ("娇注", "没有", "不能", "编辑", "UNVERIFIED"):
+        for term in ("娇注", "没有", "不能", "编者", "UNVERIFIED"):
             self.assertIn(term, section)
         self.assertIn("作者原", section)
 
