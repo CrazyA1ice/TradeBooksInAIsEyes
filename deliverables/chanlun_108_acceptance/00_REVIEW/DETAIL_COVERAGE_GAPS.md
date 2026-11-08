@@ -21,12 +21,12 @@
 |---|---|---|---|---|
 | P0 | [第9课证据](../../../knowledge/evidence/chanlun_lesson009.json) · 卷一 p.28—30 | **纠错：p.30并非数学公式图，而是“武钢JTB1(580001)”日K线/成交量图**；3.6%数学式在p.28—29正文 | `VISUAL_PARTIAL_REVIEWED`（已核图名）+ `VISUAL_LIMITED`（细价） | 继续核其行情图附注与数学筛选正文是否误被混用；不再把p.30描述为算式图片 |
 | P0 | [第53课证据](../../../knowledge/evidence/chanlun_lesson053.json) · 卷三 p.162—165 | p.162实页已见独立署时**2009-01-05 12:00:58**；不能归入2007原文 | `PROVENANCE_PARTIAL_REVIEWED` + `PROVENANCE_LIMITED` | 继续核p.163—165的全部后附作者/编辑边界与分歧，星号并非唯一切分线 |
-| P0 | [第59课证据](../../../knowledge/evidence/chanlun_lesson059.json) · 卷三 p.251—258 | p.254—256实页见20—45编号图；**p.257是无嵌图正文**，3994.57/3994.21属于引用前课7—8—9的文字 | `VISUAL_PARTIAL_REVIEWED` + `VISUAL_LIMITED` | 追溯前一课7—8—9真正的图页和价位；不可把p.254—256的编号20—45图端点当7—8—9 |
+| P0 | [第59课证据](../../../knowledge/evidence/chanlun_lesson059.json) · 卷三p.257及前课p.230、233 | **已发现前课至少两张7/8/9编号候选图**，p.230在第58课原文前段、p.233末端覆盖2007-06-06晚于6月4日首发；3994.57/3994.21仍只可明确指向p.257正文 | `FIGURE_CANDIDATES_LOCATED` + `PRICE_TO_PIXEL_PENDING` | 继续准确核p.230/p.233各自编号语法及片段内部高低价，不得把7/8/9直接当两价像素端点；见[图例来源链](../04_AI_GUIDE/11_前课图例溯源与新笔版本时间线.md) |
 | P0 | [第100课证据](../../../knowledge/evidence/chanlun_lesson100.json) · 卷五 p.224—225 | p.225实页已见“娇注”关于第三卖点后的竞争解释 | `PROVENANCE_PARTIAL_REVIEWED` + `PROVENANCE_LIMITED` | 编者补注存在已核；其发布背景和反例行情是否成立仍须独立验证 |
-| P0 | [第108课证据](../../../knowledge/evidence/chanlun_lesson108.json) · 卷五 p.395—441，重点p.396—398 | p.396月线原图有2952、2284；**p.398图题明说“2007年10月—2008年10月分解图”**，晚于8月29日首发 | `VISUAL_PARTIAL_REVIEWED` + `PROVENANCE_LIMITED` + `VISUAL_LIMITED` | **区分8月29日可知信息与后验10月图**，其余精细划分、图层来源仍要复核 |
+| P0 | [第108课证据](../../../knowledge/evidence/chanlun_lesson108.json) · 卷五p.395—400 | **p.395上午2008-08-29 09:15:01原文**、p.398图题明说覆盖2008年10月的后验图、**p.399独立同日下午15:11:47评论**，同一PDF页序不具连续当下性 | `AS_OF_CAUSALITY_BOUNDARY_CONFIRMED` + `VISUAL_LIMITED` | 不回填后验图到上午发文；逐页区分后附图来源及细价，见[图例审计](../04_AI_GUIDE/11_前课图例溯源与新笔版本时间线.md) |
 | P1 | [第14课证据](../../../knowledge/evidence/chanlun_lesson014.json) · 卷一 p.116、118、120—121等 | 周线/日线买点示例、图像与后附问答的时间归属 | `VISUAL_LIMITED` | 再核跨级别标注、复权口径、编者附注日期 |
 | P1 | [第24课证据](../../../knowledge/evidence/chanlun_lesson024.json) · 卷二 p.5、7—8、10—15等 | 未完成MACD柱面积的估算，图上“已发生”与“未来预测”容易混写 | `VISUAL_LIMITED` | 区分实时可观测面积、估计量和完整事后面积 |
-| P1 | [第62课证据](../../../knowledge/evidence/chanlun_lesson062.json) · 卷三 p.292—301 | 292—293抽象图重复，p.295有“张大山习作”，p.297图有“FHSL 20080727”后发日期 | `VISUAL_PARTIAL_REVIEWED` + `PROVENANCE_LIMITED` + `VISUAL_LIMITED` | 后附图的实际作者/发表边界与旧新笔关系仍待确认；不能回填到2007-06-30 |
+| P1 | [第62课证据](../../../knowledge/evidence/chanlun_lesson062.json) · 卷三p.291—302 | p.295“新笔定义”两项必要条件正文已核（不共享K线、两端间至少3根K线）；p.297图注`FHSL 20080727`，**p.299另文署时2007-06-23**，证明页序非发表时序 | `TEXT_CONDITIONS_READ` + `UNKNOWN_SOURCE_DATE` + `PROVENANCE_LIMITED` | 查新笔规则首发与p.295图署名关系；旧/新笔规则按可知时间分开，详见[图例版本链](../04_AI_GUIDE/11_前课图例溯源与新笔版本时间线.md) |
 | P1 | [第71课证据](../../../knowledge/evidence/chanlun_lesson071.json) · 卷四 p.73—76、79 | 有些图片已人工看过，但细小价签仍未验证；“辅助判断”与“结构成员”不可混同 | `VISUAL_LIMITED` | 对照辅助线在原图中的位置、文本定义及编者边界 |
 | P1 | [第81课证据](../../../knowledge/evidence/chanlun_lesson081.json) · 卷四 p.232—265 | 不同笔规则版本和独立署时材料；部分图已看过，精细价标未定 | `VISUAL_LIMITED` + `PROVENANCE_LIMITED` | 保存规则实际可知时间、图文对应，不用后发规则改写早期文章 |
 | P1 | [第90课证据](../../../knowledge/evidence/chanlun_lesson090.json) · 卷五 p.30—63 | BOLL收口、过渡结构与提示信号；许多图片页仅部分预览 | `VISUAL_LIMITED` | 复核指标窗口、辅助/确认语义与图上的前视约束 |
@@ -36,6 +36,10 @@
 ## 2026-11-08新增20页原书实页复核
 
 已经完成[20个关键PDF物理页的SHA校验、高DPI渲染和重点标签目视核对](../04_AI_GUIDE/10_原书图像实页复核与后发资料辨析.md)，并更正第9课p.30的图像类型、确认第59课两个数值在p.257正文、第62课后附图的署名与2008日期、第108课p.398后验时间范围。**仅更新已核的局部证据状态**：其余97课或未选择的图仍按原缺口处理；绝不以“已渲染20页”宣布所有图像均已校对。
+
+## 2026-11-08第二轮：前课图例追溯与时间版本
+
+基于同一SHA源PDF再次渲染20个物理页条目（与前轮有少量重合），[已找到第58课p.230、p.233两幅7/8/9原图候选](../04_AI_GUIDE/11_前课图例溯源与新笔版本时间线.md)，核对第62课“新笔”文字双条件与汇编后附不同日期，以及第108课p.399同日下午文章。**尚未完成3994.57/3994.21在图中的像素端点逐点认证**；局部图标签已看清不等于整课图价已完全核验。研究实验仍`NOT_RUN`。
 
 ## 怎样真正补完覆盖，而不制造大量垃圾文件
 
