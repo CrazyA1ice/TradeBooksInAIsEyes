@@ -28,7 +28,7 @@ SOURCE_ROOTS = {
 }
 
 
-def audit(slug: str, acceptance_dir: str | None = None, tutorials: tuple[str, ...] = ()) -> dict:
+def audit(slug: str, acceptance_dir: str | None = None, tutorials: tuple[str, ...] = (), source_cases: tuple[str, ...] = (), min_source_cases: int = 1) -> dict:
     target = Path(acceptance_dir) if acceptance_dir else Path("deliverables") / f"{slug}_acceptance"
     if target.is_absolute() or ".." in target.parts:
         return {"status": "FAIL", "errors": ["Unsafe acceptance directory"]}
@@ -56,7 +56,14 @@ def audit(slug: str, acceptance_dir: str | None = None, tutorials: tuple[str, ..
     for name in tutorials:
         if Path(name).name != name or not name.endswith(".md") or not re.fullmatch(r"[0-9]{2}_[^/\\\\]+[.]md", name):
             fail(f"Invalid tutorial filename: {name}")
-    required_docs = FILES + [name for name in tutorials if Path(name).name == name]
+    if len(source_cases) != len(set(source_cases)):
+        fail("Duplicate requested source-case file")
+    for name in source_cases:
+        if Path(name).name != name or not name.endswith(".md") or not re.fullmatch(r"[0-9]{2}_[^/\\\\]+[.]md", name):
+            fail(f"Invalid source-case filename: {name}")
+    if min_source_cases < 1:
+        fail("Minimum source-case count must be >= 1")
+    required_docs = FILES + [name for name in tutorials if Path(name).name == name] + [name for name in source_cases if Path(name).name == name]
 
     for name in required_docs:
         file = base / name
@@ -100,6 +107,20 @@ def audit(slug: str, acceptance_dir: str | None = None, tutorials: tuple[str, ..
         if not all(term in tutorial for term in ("AI", "条件", "原", "未")) or not any(term in tutorial for term in ("自测", "自检", "理解检查")):
             fail(f"Worked tutorial misses source/condition/unknown/self-test boundaries: {name}")
 
+    source_case_counts = {}
+    for name in source_cases:
+        case_text = docs.get(name, "")
+        if not case_text:
+            continue
+        case_ids = re.findall(r"^## SRC-([0-9]{3})", case_text, re.M)
+        source_case_counts[name] = len(case_ids)
+        if len(case_ids) < min_source_cases or len(case_ids) != len(set(case_ids)):
+            fail(f"Source-case atlas has too few or duplicate SRC case IDs: {name}")
+        if case_text.count("```mermaid") + case_text.count("```text") < 1:
+            fail(f"Source-case atlas needs original AI teaching diagrams: {name}")
+        if not all(term in case_text for term in ("SOURCE", "AI", "PDF", "VISUAL_LIMITED", "原图", "未", "NOT_RUN")):
+            fail(f"Source-case atlas lacks explicit original-text/image/AI boundaries: {name}")
+
     explain = docs.get(FILES[1], "")
     argument = docs.get(FILES[2], "")
     visual = docs.get(FILES[3], "")
@@ -125,6 +146,8 @@ def audit(slug: str, acceptance_dir: str | None = None, tutorials: tuple[str, ..
         "required_files_present": len(docs) - sum(k.startswith("__source__") for k in docs),
         "minimum_files": len(required_docs),
         "required_worked_tutorials": len(tutorials),
+        "required_source_case_atlases": len(source_cases),
+        "source_case_counts": source_case_counts,
         "diagram_sections": diagram_titles,
         "mermaid_diagrams": mermaid_count,
         "ascii_diagrams": ascii_count,
@@ -142,8 +165,10 @@ def main() -> int:
     p.add_argument("--book-slug", required=True)
     p.add_argument("--acceptance-dir", help="Optional legacy deliverable folder, relative to repository root")
     p.add_argument("--require-tutorial", action="append", default=[], help="Required in-guide worked tutorial markdown basename; repeat per topic")
+    p.add_argument("--require-source-case", action="append", default=[], help="Source-anchored case atlas Markdown basename; repeat if needed")
+    p.add_argument("--min-source-cases", type=int, default=1, help="Minimum SRC-numbered examples per required atlas")
     args = p.parse_args()
-    report = audit(args.book_slug, args.acceptance_dir, tuple(args.require_tutorial))
+    report = audit(args.book_slug, args.acceptance_dir, tuple(args.require_tutorial), tuple(args.require_source_case), args.min_source_cases)
     print(json.dumps(report, ensure_ascii=False, sort_keys=True))
     return 0 if report["status"] == "PASS" else 1
 
