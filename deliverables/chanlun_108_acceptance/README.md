@@ -1,81 +1,64 @@
-# 《缠论》五卷108课｜研究成果统一验收文件夹
+# 《缠论》五卷108课：最终成果验收入口（无重复副本）
 
-> **交付目的**：将《缠论》（《教你炒股票》108课）当前全部已有研究成果集中在**一个可浏览的GitHub目录**里，提供逐文件指纹验收、逐课索引以及后续可验证的形式化案例清单。根据用户最新要求，**本项目停止继续推进回测实验室**；本文件夹没有真实行情回测结果，也不将未认证结构宣称为完整笔、线段或中枢。
+> **这里仅保存可供审核的最终成果、来源索引和形式化待检验命题。** 原书五卷PDF、108课解读和原始证据保存在仓库各自唯一规范目录中，直接通过下列链接访问；不再将633份过程材料和原书额外复制一套到此处。按照要求：**停止推进回测实验室**，不宣称真实行情测试或已验证收益。
 
-## 建议的验收顺序
+## 先看这些最终成果
 
-**第一步 · 看最终研究评述**  
-→ [《缠论》五卷全书综合评述](00_REVIEW/FINAL_BOOK_SYNTHESIS.md)：总览108课的八阶段思想脉络、争议版本、逻辑反证、AI独立判断及实证缺口。
+1. **[全书AI综合评述](00_REVIEW/FINAL_BOOK_SYNTHESIS.md)**：分八段讨论108课的核心观点、来源版本、逻辑反证、AI独立判断及剩余证据缺口。
+2. **[108课验收矩阵](00_REVIEW/LESSON_ACCEPTANCE_MATRIX.md)**：逐行进入本仓库**唯一规范版本**的解读、证据和原始PDF。
+3. **[110条逐课形式化命题](03_formal_cases/110_CASES_REVIEW_TABLE.md)**：每条绑定原证据ID、原书物理页；[机器可读研究协议](03_formal_cases/ALL_110_PROSPECTIVE_FORMAL_CASES.json)记录变量、对照、前提、失败条件，均`NOT_RUN`。
+4. **[36个跨课形式化例子](03_formal_cases/36_CROSS_LESSON_FORMAL_EXAMPLES.json)**：涵盖笔、段、背驰、MACD、风险、行为、前视与数据修订等；[阅读指南](03_formal_cases/README.md)解释哪些命题不能只靠价量回测。
+5. **[研究成果去重与完整性报告](00_REVIEW/ACCEPTANCE_REPORT.md)** 和 **[规范文件清单](00_REVIEW/FILE_MANIFEST.json)**：目录索引不存复制文件；[验收脚本](00_REVIEW/audit_acceptance.py)检查原文件内容SHA与逐课、逐案关系。
 
-**第二步 · 对照108课原研究**  
-→ [108课逐课验收矩阵](00_REVIEW/LESSON_ACCEPTANCE_MATRIX.md)：一行一课，链接本文件夹中的逐课研究、原PDF与原证据JSON。
+## 真实书源与完整研究材料（点击原件，不是第二份拷贝）
 
-**第三步 · 审核未来需要验证的全部明确假说**  
-→ [形式化例子导览](03_formal_cases/README.md) · [110条逐课命题浏览表](03_formal_cases/110_CASES_REVIEW_TABLE.md) · [110条形式化协议JSON](03_formal_cases/ALL_110_PROSPECTIVE_FORMAL_CASES.json) · [36个跨课详细形式化示例](03_formal_cases/36_CROSS_LESSON_FORMAL_EXAMPLES.json)。
+| 材料 | 唯一规范位置 | 已知范围 |
+|---|---|---|
+| **原书五卷PDF** | [ChineseBooks/缠论](../../ChineseBooks/缠论) | 5卷，逐卷SHA-256校验 |
+| **108课原始逐课分析** | [analyses/books/chanlun/chapters](../../analyses/books/chanlun/chapters) | 108课首轮深读 |
+| **分卷/跨课研究** | [analyses/books/chanlun/volumes](../../analyses/books/chanlun/volumes) | 分阶段论证及总览 |
+| **108份结构化证据** | [knowledge/evidence](../../knowledge/evidence) | 原著、后期编辑、推论、AI假说 |
+| **概念与来源关系** | [knowledge/claims](../../knowledge/claims) · [来源目录与规则版本](../../catalog) | 概念图谱及作者/编者版本 |
+| **原始来源/配图审计** | [reports/source_inventory](../../reports/source_inventory) | 来源时间、图示未验证项 |
+| **AI独立思考** | [ai_thoughts/ideas](../../ai_thoughts/ideas) | 不与原著断言混淆 |
+| **既有研究协议与审计** | [experiments/protocols](../../experiments/protocols) · [tools](../../tools) | 研究历史和合成反例；不继续扩建回测实验室 |
+| **可复现性测试** | [tests](../../tests) | 项目代码回归，不构成市场实证 |
 
-**第四步 · 查看本轮完成的验收报告和完整ZIP**  
-→ [本轮自动验收报告（含下载地址）](00_REVIEW/ACCEPTANCE_REPORT.md) · [GitHub Actions 完整ZIP（30天内）](https://github.com/CrazyA1ice/TradeBooksInAIsEyes/actions/runs/42445937213/artifacts/13603153963)。长期完整文件夹以GitHub主分支为准。
+## 如何下载完整离线验收包
 
-**第四步 · 核查来源与复制完整性**  
-→ [文件复制清单（633条SHA1）](00_REVIEW/FILE_MANIFEST.json) · [验收检查程序](00_REVIEW/audit_acceptance.py)。后者只做完整性、引用及状态审查，不运行行情回测。
+**GitHub不保存第二套副本**。如需一次拿齐原书、逐课分析、证据、全书评述和形式化例子，CI会在构建时**临时从上列规范位置组装完整ZIP**，上传GitHub Actions附件；该ZIP不是再次提交到仓库的文件。入口：[验收打包工作流](../../.github/workflows/chanlun-108-acceptance-bundle.yml) · [Actions运行记录](https://github.com/CrazyA1ice/TradeBooksInAIsEyes/actions/workflows/chanlun-108-acceptance-bundle.yml)。
 
-## 本文件夹内部结构
+打包范围由 [OFFLINE_PACKAGE_SPEC.json](OFFLINE_PACKAGE_SPEC.json) 冻结，使用 [通用ZIP构建工具](../../tools/build_book_acceptance_zip.py)；解压后根目录为`TradeBooksInAIsEyes/`，保留仓库的链接相对结构。
+
+## 去重后的目录组织
 
 ```text
-chanlun_108_acceptance/
-├── README.md                         ← 你正在看的验收入口
+deliverables/chanlun_108_acceptance/
+├── README.md
+├── OFFLINE_PACKAGE_SPEC.json
 ├── 00_REVIEW/
-│   ├── FINAL_BOOK_SYNTHESIS.md       ← 全书AI研究综合评述
-│   ├── LESSON_ACCEPTANCE_MATRIX.md   ← 108课每课解读、证据和原卷入口
-│   ├── FILE_MANIFEST.json            ← 633份原产物的Git blob SHA/大小
-│   └── audit_acceptance.py           ← 只读自检与复核
-├── 03_formal_cases/
-│   ├── README.md                     ← 设计类别及完整研究边界
-│   ├── 110_CASES_REVIEW_TABLE.md     ← 110条逐课待检验命题
-│   ├── ALL_110_PROSPECTIVE_FORMAL_CASES.json
-│   ├── 36_CROSS_LESSON_FORMAL_EXAMPLES.json
-│   └── source_hypotheses_*.json      ← 7个逐课原始证据提取分册
-├── ChineseBooks/缠论/                 ← 原始PDF五卷（真实文件，不只是链接）
-├── analyses/books/chanlun/           ← 108课解读、卷综述及研究总目录
-├── knowledge/                       ← 108份原证据、概念依赖/统一图谱
-├── catalog/                         ← 原PDF索引、编辑/原发日期、规则历史
-├── ai_thoughts/                     ← AI独立研究观点与论证线索
-├── experiments/                     ← 既有假说、协议、合成演示文件
-├── reports/                         ← 原始PDF及图像/来源审核报告
-├── docs/                            ← 已有研究规范与历史研究实验室说明
-├── schemas/                         ← 原有研究数据结构
-├── tools/                           ← 既有只读研究、审计与局部逻辑工具
-├── tests/                           ← 既有离线测试（用于可复现性）
-└── .github/workflows/               ← 既有研究CI工作流的冻结拷贝
+│   ├── FINAL_BOOK_SYNTHESIS.md
+│   ├── LESSON_ACCEPTANCE_MATRIX.md
+│   ├── ACCEPTANCE_REPORT.md
+│   ├── FILE_MANIFEST.json
+│   └── audit_acceptance.py
+└── 03_formal_cases/
+    ├── README.md
+    ├── 110_CASES_REVIEW_TABLE.md
+    ├── ALL_110_PROSPECTIVE_FORMAL_CASES.json
+    └── 36_CROSS_LESSON_FORMAL_EXAMPLES.json
 ```
 
-原有产品总计**633个实际文件**（约50.18 MB，其中五卷PDF约47.57 MB），本次在单目录中新增加形式化研究目录与验收说明文件。原有文件通过Git tree引用相同blob SHA**按原名原路径复制**，不更改原稿、原证据、图谱、代码或原始PDF；含PDF的材料用于私人验收，不表示拥有公开再分发权。原书五卷物理PDF文件中原有字节的SHA-256另有验证。
+## 可执行的完整性核查
 
-## 研究完整性与不可夸大的结论
+在**仓库根目录**用一条命令运行：
 
-| 事项 | 是否已具备 | 验收解释 |
-|---|---|---|
-| 原始五卷PDF | ✅ | 五卷实际文件、来源SHA与页码索引 |
-| 108课独立研究文本 | ✅ 首轮覆盖 | 每课都能打开，不等于每幅原图都已精确校订 |
-| 108份证据档案 | ✅ | 含原著/编辑/解释/假说的分层证据 |
-| 跨课及逐卷综述 | ✅ | `analyses/books/chanlun/volumes` 等 |
-| 来源、版本、概念关系 | ✅ 已有研究版本 | 日期未知与编辑争议不强行消除 |
-| 110条显式待验证假说 | ✅ 全部索引 | **未**冻结完整真实实证协议，**未**运行 |
-| 36个跨课形式化例子 | ✅ | 公式、必要输入、指标、负例/边界 |
-| 原书全部图表精确数字终审 | ❌ | 有页级检查，仍有低清或未经独立核实之处 |
-| 完整笔/线段/中枢解析证明 | ❌ | 旧研究程序只实现局部研究条件 |
-| A股真实行情回测和收益验证 | ❌（按要求停止） | 文件夹没有任何实证收益成绩 |
+`python -B deliverables/chanlun_108_acceptance/00_REVIEW/audit_acceptance.py`
 
-## 一键本地只读验收（可选）
+会核对五卷原PDF的SHA-256、**625份规范研究文件**的Git blob SHA、108课与110条来源假说的逐条对应、36例完整性，并检查验收目录不再出现重复书源。审计**不会**访问真实市场行情或运行旧回测实验室。
 
-在本文件夹根目录运行一行：
+## 下一本书照什么流程？
 
-`python -B 00_REVIEW/audit_acceptance.py`
+通用标准已写入 [docs/BOOK_RESEARCH_WORKFLOW.md](../../docs/BOOK_RESEARCH_WORKFLOW.md)：从PDF/EPUB登记→来源/OCR质量→逐章七重解读→图表证据→跨章研究→形式化待验证清单→单一验收目录→自动去重→CI临时打包。以每本书的`book_slug`复用，不再为下本书重复造同样的文件夹树。
 
-它检查五卷PDF **实际SHA256**、633份已有产品的Git blob完整性、108课与证据关系、全部110条形式化命题的来源对应、36个跨课例子以及所有案例确认为`NOT_RUN`。**不会**调用股票行情、下载额外数据、改写文件或发出交易订单。
-
-## 以后是否继续进行实测？
-
-本次交付**只列出未来可能检验的题目**，明确类型与阻断条件。不再执行V5等回测实验室开发计划。未来若确实需要验收市场预测，应把它当一个独立项目，用冻结规则、点时数据、交易制度和样本外统计完成，不能把本交付中任何`HYPOTHESIS`冒充原书已证实的投资结论。
-
-**验收建议**：先阅读“全书综合评述”与“110条逐课命题浏览表”；若对某一课结论存疑，点击该行的原证据编号与原PDF源页，便能看到出处与剩余不确定性。
+**已知限制**：所有108课首轮研究存在，并不代表全书插图精确数字已核验；完整笔/线段/中枢唯一性、真实历史盈利与外部样本外统计均未得到证明。证据未知处必须保持未知。原书公开传播授权仍需单独确认。
