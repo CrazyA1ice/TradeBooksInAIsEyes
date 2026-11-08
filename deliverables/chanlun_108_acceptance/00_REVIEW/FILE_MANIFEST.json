@@ -5,7 +5,7 @@
   "source_revision_at_initial_archive": "a80af245ecc1df1adf32d4e8ad556bd759e91ae2",
   "file_index_kind": "canonical_reference_not_duplicate_file",
   "canonical_file_count": 625,
-  "canonical_bytes": 50184607,
+  "canonical_bytes": 50167938,
   "canonical_files": [
     {
       "path": ".github/workflows/chanlun-incremental-events-v2-audit.yml",
@@ -1164,8 +1164,8 @@
     },
     {
       "path": "docs/RESEARCH_ROADMAP.md",
-      "git_blob_sha1": "c3b74d8f718ad59bee34fe7c7b946ee69f76295b",
-      "bytes": 19312
+      "git_blob_sha1": "a0682d4c84a135edbaf4e31be895a83077c8f973",
+      "bytes": 2643
     },
     {
       "path": "experiments/fixtures/chanlun_pen_frontier_synthetic_v3.json",
