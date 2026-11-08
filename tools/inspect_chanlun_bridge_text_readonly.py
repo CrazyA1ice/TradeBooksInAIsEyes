@@ -34,7 +34,16 @@ TARGETS = {
 }
 MAX_EXCERPTS_PER_PAGE = 3
 MAX_CONTEXT_CHARS = 150
-ROLE_CUES = ("娇注", "娇按", "编者", "后记", "后附")
+ROLE_CUES = ("娇注", "娇按", "（娇：", "(娇：", "编者", "后记", "后附")
+REQUIRED_NATIVE_ANCHORS = {
+    "2:353": ("盘整背驰", "30 分钟中枢"),
+    "2:354": ("娇注", "Ai+3"),
+    "5:192": ("回拉", "完全的分类"),
+    "5:193": ("线段",),
+    "5:194": ("线段", "中枢"),
+    "5:224": ("第三类卖点", "（娇："),
+    "5:225": ("娇注", "第三类卖点"),
+}
 
 
 def sha256_file(path: Path) -> str:
@@ -98,6 +107,9 @@ def inspect(discovery_only: bool = False) -> list[dict]:
                 if pinned is not None and pinned[key] != page_sha:
                     raise ValueError(f"Original native page text differs at {key}")
                 simplified = " ".join(raw.split())
+                for required in REQUIRED_NATIVE_ANCHORS[key]:
+                    if required not in simplified:
+                        raise ValueError(f"Original source anchor missing at {key}: {required!r}")
                 row = {
                     "key": key,
                     "original_volume_pdf_sha256": item["sha256"],
