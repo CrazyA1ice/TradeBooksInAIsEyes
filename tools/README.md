@@ -101,3 +101,10 @@
 - `audit_chanlun_lesson086_crosslevel_context.py`：第三卖点受上层三态影响的描述性状态门。
 - `audit_chanlun_lessons088_089_transition_center.py`：不可前视的旧→新结构过渡、Center与盘整不同类型。
 - `audit_chanlun_lesson090_boll_asof.py`：仅利用已完成收盘bar计算BOLL轨道宽度收口，不自动确认中枢。
+
+- `survey_chanlun_lessons091_095.py`：第五卷p.64–154原始SHA、限定摘录、13张PDF压缩源图。
+- `verify_chanlun_lessons091_095.py`：91物理页、35证据、11处原书内容定位、4页实际视觉范围及兼容图谱。
+- `audit_chanlun_lesson091_four_state_fsm.py`：笔四态允许转移与不合理跨方向跳转。
+- `audit_chanlun_lesson092_midpoint_monitor.py`：区间Z/Zn计算、越界非充分确认。
+- `audit_chanlun_lessons093_094_policy_fills.py`：同信号策略区别及A股T+1新购股票不可同日卖出。
+- `audit_chanlun_lesson095_remaining_exposure.py`：收回外部投入仍有剩余市值风险。

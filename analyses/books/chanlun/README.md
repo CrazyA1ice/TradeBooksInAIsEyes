@@ -156,3 +156,11 @@
 [五课综合](volumes/LESSONS_086_090_SYNTHESIS.md) · [123页跨卷来源](../../../reports/source_inventory/chanlun_lessons086_090_source_visual_review.md) · [高层上下文合成](../../../experiments/protocols/chanlun_lesson086_crosslevel_context.md) · [过渡和中心类型](../../../experiments/protocols/chanlun_lessons088_089_transition_center.md) · [BOLL辅助边界](../../../experiments/protocols/chanlun_lesson090_boll_auxiliary.md)。
 
 源PDF第四卷p.346–407和第五卷p.3–63，共123页SHA锁定；14页图片渲染、5页实际低清目视。作者、编辑与后续市场评论区分。BOLL近100%属于尚未独立证实的作者表述，真实行情回测未进行。
+
+## 第十九批：第91–95课（第五卷）
+
+[第91课](chapters/lesson_091.md) · [第92课](chapters/lesson_092.md) · [第93课](chapters/lesson_093.md) · [第94课](chapters/lesson_094.md) · [第95课](chapters/lesson_095.md)。
+
+[五课综合研究](volumes/LESSONS_091_095_SYNTHESIS.md) · [91页原书来源审计](../../../reports/source_inventory/chanlun_lessons091_095_source_visual_review.md) · [笔四态FSM](../../../experiments/protocols/chanlun_lesson091_four_state_fsm.md) · [中枢Zn监视器](../../../experiments/protocols/chanlun_lesson092_midpoint_monitor.md) · [策略与T+1](../../../experiments/protocols/chanlun_lessons093_094_policy_and_fills.md) · [成本风险](../../../experiments/protocols/chanlun_lesson095_remaining_exposure.md)。
+
+源第五卷p.64–154共91页SHA锁定，13页压缩原图渲染、4页实际目视；作者原篇、后附日期文章及娇注独立标记。局部合成测试不证明真实交易收益或完整笔/段解析器。
