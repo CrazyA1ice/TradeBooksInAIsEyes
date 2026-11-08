@@ -19,6 +19,11 @@
       "when": "first observed trade or changed decimal price"
     },
     {
+      "id": "BELOW_THIRD",
+      "status": "RAW_EQUAL_PREFIX_BELOW_THIRD",
+      "when": "second observed equal-price trade; still below base witness"
+    },
+    {
       "id": "WITNESS_AT_THIRD",
       "status": "BASE_THIRD_TRADE_WITNESSED",
       "when": "third consecutive observed equal-price trade"
