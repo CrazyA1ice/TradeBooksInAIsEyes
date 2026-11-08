@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "lesson": 61,
+  "state": "bounded_author_source_text_and_page_metadata_plus_selected_previews",
+  "source": {
+    "volume": 3,
+    "path": "ChineseBooks/缠论/缠论_卷3.pdf",
+    "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+    "visible_first_date": "2010-08-13 09:52:39",
+    "pdf_pages": [
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290
+    ],
+    "first_appendix_separator": 287
+  },
+  "quality": {
+    "page_count": 13,
+    "native_chars": 3890,
+    "image_pages": [
+      278,
+      280,
+      282,
+      284,
+      285,
+      286,
+      288,
+      290
+    ],
+    "visually_previewed_pages": [
+      280
+    ],
+    "numeric_figures_verified": false
+  },
+  "claims": [
+    {
+      "id": "CL61-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        278
+      ],
+      "summary": "编排标题显示第61课和2010-08-13署时。"
+    },
+    {
+      "id": "CL61-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        279
+      ],
+      "summary": "同一章节p.279包含2007-06-22日期的市场评论。"
+    },
+    {
+      "id": "CL61-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        281
+      ],
+      "summary": "p.281又包含2007-06-27署时的市场评论。"
+    },
+    {
+      "id": "CL61-SOURCE-4",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        279,
+        284
+      ],
+      "summary": "作者从较低级别线段与背驰讨论候选买卖点和未完成状态。"
+    },
+    {
+      "id": "CL61-INTERPRETATION-5",
+      "kind": "INTERPRETATION",
+      "volume": 3,
+      "pdf_pages": [
+        278,
+        281
+      ],
+      "summary": "该PDF章节并非一个清楚可归于同一发文时刻的原始单篇。"
+    },
+    {
+      "id": "CL61-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 3,
+      "pdf_pages": [
+        279,
+        285
+      ],
+      "summary": "已完成多日图不能自动成为某一天开盘可得信号。"
+    },
+    {
+      "id": "CL61-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 3,
+      "pdf_pages": [
+        279,
+        284
+      ],
+      "summary": "逐级缩小区间的实时能力需独立行情检验。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "Full visual review of all diagrams and precise values not completed.",
+    "Some compiled inserts have distinct authorship or chronology.",
+    "No real-market backtest; mathematical demos are synthetic."
+  ]
+}

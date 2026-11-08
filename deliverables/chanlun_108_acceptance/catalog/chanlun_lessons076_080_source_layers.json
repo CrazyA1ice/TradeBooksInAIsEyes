@@ -1,0 +1,1566 @@
+{
+  "schema_version": 1,
+  "source_run": 42389225020,
+  "source_path": "ChineseBooks/缠论/缠论_卷4.pdf",
+  "source_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+  "volume": 4,
+  "total_pdf_pages": 89,
+  "lessons": [
+    {
+      "lesson": 76,
+      "title": "逗庄家玩的一些杂史2",
+      "volume": 4,
+      "source_path": "ChineseBooks/缠论/缠论_卷4.pdf",
+      "sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "first_page": 143,
+      "last_page": 156,
+      "header_date": "2007-09-03 19:19:43",
+      "first_starred_divider": {
+        "pdf_page": 149,
+        "line": 21
+      },
+      "pages": [
+        {
+          "pdf_page": 143,
+          "native_chars": 1187,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 144,
+          "native_chars": 1079,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 145,
+          "native_chars": 806,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 146,
+          "native_chars": 248,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 147,
+          "native_chars": 299,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 148,
+          "native_chars": 118,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 149,
+          "native_chars": 896,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": true
+        },
+        {
+          "pdf_page": 150,
+          "native_chars": 178,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 151,
+          "native_chars": 27,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 152,
+          "native_chars": 872,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": true
+        },
+        {
+          "pdf_page": 153,
+          "native_chars": 27,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 154,
+          "native_chars": 660,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": true
+        },
+        {
+          "pdf_page": 155,
+          "native_chars": 667,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": true
+        },
+        {
+          "pdf_page": 156,
+          "native_chars": 27,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        }
+      ],
+      "key_terms": [
+        {
+          "pdf_page": 144,
+          "terms": [
+            "中枢",
+            "级别"
+          ]
+        },
+        {
+          "pdf_page": 145,
+          "terms": [
+            "缺口",
+            "风险",
+            "级别"
+          ]
+        },
+        {
+          "pdf_page": 146,
+          "terms": [
+            "中枢",
+            "级别"
+          ]
+        },
+        {
+          "pdf_page": 147,
+          "terms": [
+            "中枢",
+            "背驰"
+          ]
+        },
+        {
+          "pdf_page": 148,
+          "terms": [
+            "中枢"
+          ]
+        }
+      ],
+      "dated_post_headers": [
+        {
+          "page": 145,
+          "dates": [
+            "2007-09-04 15:12:24",
+            "2007-09-05 16:10:28"
+          ]
+        },
+        {
+          "page": 149,
+          "dates": [
+            "2007-09-05 16:13:43",
+            "2007-09-05 16:16:21"
+          ]
+        },
+        {
+          "page": 150,
+          "dates": [
+            "2007-09-05 16:18:53"
+          ]
+        },
+        {
+          "page": 152,
+          "dates": [
+            "2007-09-05 16:22:20",
+            "2007-09-05 16:28:12",
+            "2007-09-05 16:35:10"
+          ]
+        },
+        {
+          "page": 154,
+          "dates": [
+            "2007-09-05 16:38:41",
+            "2007-09-05 16:47:16",
+            "2007-09-05 16:48:07"
+          ]
+        },
+        {
+          "page": 155,
+          "dates": [
+            "2007-09-05\n16:59:41",
+            "2007-09-05 16:58:11",
+            "2007-09-05 17:04:05"
+          ]
+        }
+      ],
+      "preview_pages": [
+        145,
+        149
+      ],
+      "page_count": 14,
+      "native_chars": 7091,
+      "image_pages": [
+        146,
+        147,
+        148,
+        151,
+        153,
+        156
+      ],
+      "sparse_pages": [
+        151,
+        153,
+        156
+      ]
+    },
+    {
+      "lesson": 77,
+      "title": "一些概念的再分辨",
+      "volume": 4,
+      "source_path": "ChineseBooks/缠论/缠论_卷4.pdf",
+      "sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "first_page": 157,
+      "last_page": 173,
+      "header_date": "2007-09-05 23:24:01",
+      "first_starred_divider": null,
+      "pages": [
+        {
+          "pdf_page": 157,
+          "native_chars": 1223,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 158,
+          "native_chars": 1185,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 159,
+          "native_chars": 885,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 160,
+          "native_chars": 1154,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 161,
+          "native_chars": 131,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 162,
+          "native_chars": 329,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 163,
+          "native_chars": 25,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 164,
+          "native_chars": 25,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 165,
+          "native_chars": 25,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 166,
+          "native_chars": 25,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 167,
+          "native_chars": 25,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 168,
+          "native_chars": 25,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 169,
+          "native_chars": 25,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 170,
+          "native_chars": 91,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 171,
+          "native_chars": 25,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 172,
+          "native_chars": 1022,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 173,
+          "native_chars": 273,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        }
+      ],
+      "key_terms": [
+        {
+          "pdf_page": 157,
+          "terms": [
+            "缺口",
+            "定义",
+            "走势类型",
+            "级别"
+          ]
+        },
+        {
+          "pdf_page": 158,
+          "terms": [
+            "包含关系",
+            "线段",
+            "分型",
+            "笔",
+            "缺口",
+            "中枢",
+            "顶分型",
+            "底分型",
+            "划分",
+            "定义"
+          ]
+        },
+        {
+          "pdf_page": 159,
+          "terms": [
+            "线段",
+            "分型",
+            "笔",
+            "第一种情况",
+            "划分"
+          ]
+        },
+        {
+          "pdf_page": 160,
+          "terms": [
+            "特征序列",
+            "线段",
+            "分型",
+            "笔",
+            "缺口",
+            "第一种情况",
+            "第二种情况",
+            "划分",
+            "级别"
+          ]
+        },
+        {
+          "pdf_page": 161,
+          "terms": [
+            "线段",
+            "笔",
+            "定义"
+          ]
+        },
+        {
+          "pdf_page": 162,
+          "terms": [
+            "线段",
+            "分型",
+            "笔",
+            "顶分型",
+            "底分型",
+            "划分",
+            "定义"
+          ]
+        },
+        {
+          "pdf_page": 172,
+          "terms": [
+            "笔",
+            "缺口"
+          ]
+        }
+      ],
+      "dated_post_headers": [
+        {
+          "page": 172,
+          "dates": [
+            "2007-09-06 15:55:55"
+          ]
+        }
+      ],
+      "preview_pages": [
+        160,
+        165
+      ],
+      "page_count": 17,
+      "native_chars": 6493,
+      "image_pages": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171
+      ],
+      "sparse_pages": [
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171
+      ]
+    },
+    {
+      "lesson": 78,
+      "title": "继续说线段的划分",
+      "volume": 4,
+      "source_path": "ChineseBooks/缠论/缠论_卷4.pdf",
+      "sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "first_page": 174,
+      "last_page": 186,
+      "header_date": "2007-09-06 22:28:31",
+      "first_starred_divider": {
+        "pdf_page": 179,
+        "line": 4
+      },
+      "pages": [
+        {
+          "pdf_page": 174,
+          "native_chars": 1090,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 175,
+          "native_chars": 841,
+          "embedded_images": 0,
+          "has_editor_cue": true,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 176,
+          "native_chars": 143,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 177,
+          "native_chars": 868,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 178,
+          "native_chars": 91,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 179,
+          "native_chars": 299,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": true
+        },
+        {
+          "pdf_page": 180,
+          "native_chars": 25,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 181,
+          "native_chars": 857,
+          "embedded_images": 0,
+          "has_editor_cue": true,
+          "has_star_divider": true
+        },
+        {
+          "pdf_page": 182,
+          "native_chars": 506,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": true
+        },
+        {
+          "pdf_page": 183,
+          "native_chars": 608,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 184,
+          "native_chars": 995,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": true
+        },
+        {
+          "pdf_page": 185,
+          "native_chars": 901,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": true
+        },
+        {
+          "pdf_page": 186,
+          "native_chars": 918,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": true
+        }
+      ],
+      "key_terms": [
+        {
+          "pdf_page": 174,
+          "terms": [
+            "线段",
+            "分型",
+            "笔",
+            "划分"
+          ]
+        },
+        {
+          "pdf_page": 175,
+          "terms": [
+            "特征序列",
+            "线段",
+            "分型",
+            "笔",
+            "第一种情况",
+            "划分"
+          ]
+        },
+        {
+          "pdf_page": 176,
+          "terms": [
+            "线段",
+            "笔",
+            "划分"
+          ]
+        },
+        {
+          "pdf_page": 177,
+          "terms": [
+            "特征序列",
+            "包含关系",
+            "线段",
+            "分型",
+            "笔",
+            "中枢",
+            "第一种情况",
+            "第二种情况",
+            "划分",
+            "走势类型",
+            "级别"
+          ]
+        },
+        {
+          "pdf_page": 178,
+          "terms": [
+            "线段",
+            "划分"
+          ]
+        },
+        {
+          "pdf_page": 179,
+          "terms": [
+            "线段",
+            "划分"
+          ]
+        }
+      ],
+      "dated_post_headers": [
+        {
+          "page": 181,
+          "dates": [
+            "2007-09-10 16:01:19",
+            "2007-09-10 16:03:23",
+            "2007-09-10 16:06:34"
+          ]
+        },
+        {
+          "page": 182,
+          "dates": [
+            "2007-09-10 16:08:11",
+            "2007-09-10 16:05:32"
+          ]
+        },
+        {
+          "page": 183,
+          "dates": [
+            "2007-09-10 16:16:44",
+            "2007-09-10 16:22:54"
+          ]
+        },
+        {
+          "page": 184,
+          "dates": [
+            "2007-09-10 16:22:31",
+            "2007-09-10 16:24:45",
+            "2007-09-10 16:29:49"
+          ]
+        },
+        {
+          "page": 185,
+          "dates": [
+            "2007-09-10 16:34:36",
+            "2007-09-10 16:43:04"
+          ]
+        },
+        {
+          "page": 186,
+          "dates": [
+            "2007-09-10 16:23:28",
+            "2007-09-10 16:57:17"
+          ]
+        }
+      ],
+      "preview_pages": [
+        177,
+        179
+      ],
+      "page_count": 13,
+      "native_chars": 8142,
+      "image_pages": [
+        176,
+        178,
+        180,
+        183
+      ],
+      "sparse_pages": [
+        178,
+        180
+      ]
+    },
+    {
+      "lesson": 79,
+      "title": "分型的辅助操作与一些问题的再解答",
+      "volume": 4,
+      "source_path": "ChineseBooks/缠论/缠论_卷4.pdf",
+      "sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "first_page": 187,
+      "last_page": 200,
+      "header_date": "2007-09-10 22:37:13",
+      "first_starred_divider": {
+        "pdf_page": 200,
+        "line": 4
+      },
+      "pages": [
+        {
+          "pdf_page": 187,
+          "native_chars": 1088,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 188,
+          "native_chars": 1203,
+          "embedded_images": 0,
+          "has_editor_cue": true,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 189,
+          "native_chars": 810,
+          "embedded_images": 2,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 190,
+          "native_chars": 176,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 191,
+          "native_chars": 136,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 192,
+          "native_chars": 186,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 193,
+          "native_chars": 265,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 194,
+          "native_chars": 220,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 195,
+          "native_chars": 226,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 196,
+          "native_chars": 33,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 197,
+          "native_chars": 661,
+          "embedded_images": 0,
+          "has_editor_cue": true,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 198,
+          "native_chars": 326,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 199,
+          "native_chars": 33,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 200,
+          "native_chars": 955,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": true
+        }
+      ],
+      "key_terms": [
+        {
+          "pdf_page": 187,
+          "terms": [
+            "分型",
+            "市场"
+          ]
+        },
+        {
+          "pdf_page": 188,
+          "terms": [
+            "分型",
+            "中枢",
+            "买卖点",
+            "背驰",
+            "市场",
+            "级别"
+          ]
+        },
+        {
+          "pdf_page": 189,
+          "terms": [
+            "特征序列",
+            "包含关系",
+            "线段",
+            "分型",
+            "笔",
+            "底分型",
+            "第一种情况",
+            "背驰"
+          ]
+        },
+        {
+          "pdf_page": 190,
+          "terms": [
+            "特征序列",
+            "线段",
+            "分型",
+            "划分"
+          ]
+        },
+        {
+          "pdf_page": 191,
+          "terms": [
+            "分型",
+            "顶分型"
+          ]
+        },
+        {
+          "pdf_page": 192,
+          "terms": [
+            "包含关系",
+            "分型",
+            "顶分型"
+          ]
+        },
+        {
+          "pdf_page": 193,
+          "terms": [
+            "分型",
+            "笔",
+            "顶分型",
+            "底分型"
+          ]
+        },
+        {
+          "pdf_page": 194,
+          "terms": [
+            "分型",
+            "顶分型",
+            "买卖点",
+            "级别"
+          ]
+        },
+        {
+          "pdf_page": 195,
+          "terms": [
+            "分型",
+            "笔",
+            "背驰",
+            "级别"
+          ]
+        },
+        {
+          "pdf_page": 196,
+          "terms": [
+            "分型"
+          ]
+        },
+        {
+          "pdf_page": 197,
+          "terms": [
+            "分型",
+            "顶分型",
+            "买卖点",
+            "背驰",
+            "级别"
+          ]
+        },
+        {
+          "pdf_page": 198,
+          "terms": [
+            "分型",
+            "顶分型",
+            "背驰",
+            "级别"
+          ]
+        },
+        {
+          "pdf_page": 199,
+          "terms": [
+            "分型"
+          ]
+        },
+        {
+          "pdf_page": 200,
+          "terms": [
+            "分型"
+          ]
+        }
+      ],
+      "dated_post_headers": [],
+      "preview_pages": [
+        189,
+        194
+      ],
+      "page_count": 14,
+      "native_chars": 6318,
+      "image_pages": [
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        198,
+        199
+      ],
+      "sparse_pages": [
+        196,
+        199
+      ]
+    },
+    {
+      "lesson": 80,
+      "title": "市场没有同情、不信眼泪",
+      "volume": 4,
+      "source_path": "ChineseBooks/缠论/缠论_卷4.pdf",
+      "sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "first_page": 201,
+      "last_page": 231,
+      "header_date": "2007-09-11 21:38:07",
+      "first_starred_divider": {
+        "pdf_page": 218,
+        "line": 4
+      },
+      "pages": [
+        {
+          "pdf_page": 201,
+          "native_chars": 897,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 202,
+          "native_chars": 28,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 203,
+          "native_chars": 305,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 204,
+          "native_chars": 396,
+          "embedded_images": 0,
+          "has_editor_cue": true,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 205,
+          "native_chars": 28,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 206,
+          "native_chars": 207,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 207,
+          "native_chars": 993,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 208,
+          "native_chars": 713,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 209,
+          "native_chars": 860,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 210,
+          "native_chars": 165,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 211,
+          "native_chars": 214,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 212,
+          "native_chars": 239,
+          "embedded_images": 1,
+          "has_editor_cue": true,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 213,
+          "native_chars": 222,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 214,
+          "native_chars": 1015,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 215,
+          "native_chars": 28,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 216,
+          "native_chars": 667,
+          "embedded_images": 0,
+          "has_editor_cue": true,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 217,
+          "native_chars": 190,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 218,
+          "native_chars": 864,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": true
+        },
+        {
+          "pdf_page": 219,
+          "native_chars": 733,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 220,
+          "native_chars": 28,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 221,
+          "native_chars": 1348,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 222,
+          "native_chars": 1254,
+          "embedded_images": 0,
+          "has_editor_cue": true,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 223,
+          "native_chars": 956,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 224,
+          "native_chars": 861,
+          "embedded_images": 0,
+          "has_editor_cue": true,
+          "has_star_divider": true
+        },
+        {
+          "pdf_page": 225,
+          "native_chars": 28,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": false
+        },
+        {
+          "pdf_page": 226,
+          "native_chars": 856,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": true
+        },
+        {
+          "pdf_page": 227,
+          "native_chars": 911,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": true
+        },
+        {
+          "pdf_page": 228,
+          "native_chars": 891,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": true
+        },
+        {
+          "pdf_page": 229,
+          "native_chars": 511,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": true
+        },
+        {
+          "pdf_page": 230,
+          "native_chars": 584,
+          "embedded_images": 1,
+          "has_editor_cue": false,
+          "has_star_divider": true
+        },
+        {
+          "pdf_page": 231,
+          "native_chars": 623,
+          "embedded_images": 0,
+          "has_editor_cue": false,
+          "has_star_divider": true
+        }
+      ],
+      "key_terms": [
+        {
+          "pdf_page": 201,
+          "terms": [
+            "分型",
+            "笔",
+            "顶分型",
+            "底分型",
+            "市场"
+          ]
+        },
+        {
+          "pdf_page": 202,
+          "terms": [
+            "市场"
+          ]
+        },
+        {
+          "pdf_page": 203,
+          "terms": [
+            "分型",
+            "顶分型",
+            "市场"
+          ]
+        },
+        {
+          "pdf_page": 204,
+          "terms": [
+            "线段",
+            "分型",
+            "中枢",
+            "顶分型",
+            "背驰",
+            "市场"
+          ]
+        },
+        {
+          "pdf_page": 205,
+          "terms": [
+            "市场"
+          ]
+        },
+        {
+          "pdf_page": 206,
+          "terms": [
+            "分型",
+            "笔",
+            "顶分型",
+            "底分型",
+            "市场"
+          ]
+        },
+        {
+          "pdf_page": 207,
+          "terms": [
+            "分型",
+            "中枢",
+            "顶分型",
+            "买卖点",
+            "市场"
+          ]
+        },
+        {
+          "pdf_page": 208,
+          "terms": [
+            "笔",
+            "市场",
+            "级别"
+          ]
+        },
+        {
+          "pdf_page": 209,
+          "terms": [
+            "线段",
+            "笔",
+            "中枢",
+            "走势类型",
+            "背驰",
+            "市场",
+            "级别"
+          ]
+        },
+        {
+          "pdf_page": 210,
+          "terms": [
+            "中枢",
+            "买卖点",
+            "市场"
+          ]
+        },
+        {
+          "pdf_page": 211,
+          "terms": [
+            "中枢",
+            "背驰",
+            "市场"
+          ]
+        },
+        {
+          "pdf_page": 212,
+          "terms": [
+            "中枢",
+            "划分",
+            "背驰",
+            "市场"
+          ]
+        },
+        {
+          "pdf_page": 213,
+          "terms": [
+            "中枢",
+            "背驰",
+            "市场"
+          ]
+        },
+        {
+          "pdf_page": 214,
+          "terms": [
+            "分型",
+            "底分型",
+            "背驰",
+            "市场",
+            "风险"
+          ]
+        },
+        {
+          "pdf_page": 215,
+          "terms": [
+            "市场"
+          ]
+        },
+        {
+          "pdf_page": 216,
+          "terms": [
+            "线段",
+            "笔",
+            "中枢",
+            "划分",
+            "走势类型",
+            "市场"
+          ]
+        },
+        {
+          "pdf_page": 217,
+          "terms": [
+            "线段",
+            "中枢",
+            "市场"
+          ]
+        },
+        {
+          "pdf_page": 218,
+          "terms": [
+            "市场"
+          ]
+        }
+      ],
+      "dated_post_headers": [
+        {
+          "page": 209,
+          "dates": [
+            "2007-09-12 15:42:13"
+          ]
+        },
+        {
+          "page": 216,
+          "dates": [
+            "2007-09-13 20:55:15"
+          ]
+        },
+        {
+          "page": 218,
+          "dates": [
+            "2007-09-13 16:23:07",
+            "2007-09-13 17:10:22",
+            "2007-09-13 17:18:33"
+          ]
+        },
+        {
+          "page": 219,
+          "dates": [
+            "2007-09-14 15:33:01"
+          ]
+        },
+        {
+          "page": 221,
+          "dates": [
+            "2007-09-17 00:41:48"
+          ]
+        },
+        {
+          "page": 222,
+          "dates": [
+            "2007-09-17 15:46:13"
+          ]
+        },
+        {
+          "page": 224,
+          "dates": [
+            "2007-09-17 15:52:22",
+            "2007-09-17 15:51:54"
+          ]
+        },
+        {
+          "page": 226,
+          "dates": [
+            "2007-09-17 16:04:18",
+            "2007-09-17 15:57:50"
+          ]
+        },
+        {
+          "page": 227,
+          "dates": [
+            "2007-09-17 16:06:03",
+            "2007-09-17 16:17:44",
+            "2007-09-17\n16:20:40"
+          ]
+        },
+        {
+          "page": 228,
+          "dates": [
+            "2007-09-17 16:22:10",
+            "2007-09-17 15:59:04",
+            "2007-09-17 16:02:30"
+          ]
+        },
+        {
+          "page": 229,
+          "dates": [
+            "2007-09-17 16:56:02",
+            "2007-09-17 16:56:26"
+          ]
+        },
+        {
+          "page": 230,
+          "dates": [
+            "2007-09-17 16:56:26"
+          ]
+        },
+        {
+          "page": 231,
+          "dates": [
+            "2007-09-17 17:04:52"
+          ]
+        }
+      ],
+      "preview_pages": [
+        204,
+        213,
+        225
+      ],
+      "page_count": 31,
+      "native_chars": 17615,
+      "image_pages": [
+        202,
+        203,
+        205,
+        206,
+        210,
+        211,
+        212,
+        213,
+        215,
+        217,
+        220,
+        225,
+        230
+      ],
+      "sparse_pages": [
+        202,
+        205,
+        215,
+        220,
+        225
+      ]
+    }
+  ],
+  "visual": {
+    "rendered_pages": [
+      145,
+      149,
+      160,
+      165,
+      177,
+      179,
+      189,
+      194,
+      204,
+      213,
+      225
+    ],
+    "actually_inspected_pages": [
+      160,
+      165,
+      177,
+      189,
+      194,
+      204,
+      213
+    ],
+    "fine_chart_values_verified": false,
+    "notes": "Low-resolution full PDF page previews; selected seven inspected. Other four rendered pages not visually assessed. No chart-point price verification."
+  },
+  "provenance": [
+    {
+      "lesson": 76,
+      "pdf_page": 145,
+      "kind": "different_date",
+      "detail": "The first story starts 2007-09-03; p145 has market writeups dated Sep4 and Sep5. Story and trading commentary must not be treated as same post."
+    },
+    {
+      "lesson": 77,
+      "pdf_page": 172,
+      "kind": "different_date",
+      "detail": "Sep6 daily market text follows Sep5 concept essay; separate dates even though no starred divider."
+    },
+    {
+      "lesson": 77,
+      "pdf_pages": [
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171
+      ],
+      "kind": "figure_dominant",
+      "detail": "Nine image-heavy sparse extracted text pages include later examples/editorial annotations, not OCR-verified by the text feed."
+    },
+    {
+      "lesson": 78,
+      "pdf_page": 175,
+      "kind": "author_vs_editor_dispute",
+      "detail": "Author says revised historical marker 81 p175; adjacent 娇 note says visual example does not support author's proposed revised location."
+    },
+    {
+      "lesson": 78,
+      "pdf_page": 181,
+      "kind": "separate_commentary",
+      "detail": "Multiple dated September 10 replies appear after source explanation; date/role separation required."
+    },
+    {
+      "lesson": 79,
+      "pdf_page": 197,
+      "kind": "author_vs_editor_side_note",
+      "detail": "Later 娇 annotation about bottom fractal timing is not author's Sep10 original statement."
+    },
+    {
+      "lesson": 80,
+      "pdf_page": 209,
+      "kind": "separate_daily_post",
+      "detail": "Source article dated Sep11, September 12 daily post starts p209."
+    },
+    {
+      "lesson": 80,
+      "pdf_page": 212,
+      "kind": "retrospective_correction_note",
+      "detail": "PDF notes a 1-minute center segmentation was erroneous and plot retains prior version for reference; not original market-known signal."
+    },
+    {
+      "lesson": 80,
+      "pdf_page": 216,
+      "kind": "new_dated_post",
+      "detail": "September 13 post follows and other Sep14–17 content fills through p231; do not assign all to Sep11."
+    }
+  ],
+  "limitations": [
+    "Star divider is only a candidate: different dated posts often start before it.",
+    "Full numeric figure verification and real-market backtests not performed.",
+    "Self-described market-opponent stories are unverified, not instructions or regulatory conclusions.",
+    "Online fractal confirmation and pre-close provisional trading must be distinguished."
+  ]
+}

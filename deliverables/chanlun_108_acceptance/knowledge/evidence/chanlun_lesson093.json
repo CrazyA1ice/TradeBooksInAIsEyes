@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "lesson": 93,
+  "source": {
+    "volume": 5,
+    "path": "ChineseBooks/缠论/缠论_卷5.pdf",
+    "sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+    "original_date": "2008-01-15 18:08:05",
+    "pdf_pages": [
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142
+    ],
+    "first_starred_divider_candidate": 130
+  },
+  "quality": {
+    "physical_pages": 19,
+    "native_chars": 10471,
+    "image_pages": [
+      126,
+      127,
+      129,
+      131,
+      136,
+      137,
+      140,
+      141
+    ],
+    "rendered_pages": [
+      125,
+      131,
+      139
+    ],
+    "visually_inspected_pages": [
+      125
+    ],
+    "precise_chart_prices_verified": false
+  },
+  "claims": [
+    {
+      "id": "CL93-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        124
+      ],
+      "summary": "作者说明(1,0)后可回到(1,1)或转到(-1,1)，并与反向情形对称。"
+    },
+    {
+      "id": "CL93-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        124
+      ],
+      "summary": "作者按操作者震荡能力与风险偏好讨论不同操作方法。"
+    },
+    {
+      "id": "CL93-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        125
+      ],
+      "summary": "作者讨论两段向上延伸力度比较及其背驰式研判。"
+    },
+    {
+      "id": "CL93-EDITORIAL-4",
+      "kind": "EDITORIAL",
+      "volume": 5,
+      "pdf_pages": [
+        124
+      ],
+      "summary": "娇注对分型对应盘整背驰情形补充，区别于原始正文。"
+    },
+    {
+      "id": "CL93-EDITORIAL-5",
+      "kind": "EDITORIAL",
+      "volume": 5,
+      "pdf_pages": [
+        125
+      ],
+      "summary": "娇注提要和读后感属后加解释层。"
+    },
+    {
+      "id": "CL93-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 5,
+      "pdf_pages": [
+        124,
+        125
+      ],
+      "summary": "同状态下策略选择不保证事后收益及回补成交。"
+    },
+    {
+      "id": "CL93-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 5,
+      "pdf_pages": [
+        124,
+        125
+      ],
+      "summary": "不同风险政策的真实样本外表现尚未检验。",
+      "test_status": "not_tested"
+    }
+  ],
+  "market_backtest": "not_run",
+  "provenance_limitation": "Physical lesson page range includes later separate posts/editorial insertions."
+}

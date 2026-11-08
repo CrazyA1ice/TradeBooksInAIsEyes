@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "lesson": 108,
+  "source": {
+    "volume": 5,
+    "path": "ChineseBooks/缠论/缠论_卷5.pdf",
+    "sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+    "original_date": "2008-08-29 09:15:01",
+    "pdf_pages": [
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419,
+      420,
+      421,
+      422,
+      423,
+      424,
+      425,
+      426,
+      427,
+      428,
+      429,
+      430,
+      431,
+      432,
+      433,
+      434,
+      435,
+      436,
+      437,
+      438,
+      439,
+      440,
+      441
+    ]
+  },
+  "quality": {
+    "physical_pages": 47,
+    "native_chars": 32490,
+    "image_pages": [
+      396,
+      397,
+      398,
+      400,
+      407,
+      409,
+      410,
+      411,
+      412,
+      415,
+      416,
+      419,
+      420,
+      421,
+      441
+    ],
+    "rendered_previews": [],
+    "actually_inspected_pages": [],
+    "fine_chart_numeric_verified": false
+  },
+  "claims": [
+    {
+      "id": "CL108-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        395
+      ],
+      "summary": "p.395作者说，第一类买点以后至其引发的中枢首次出现第三类买卖点前属于底部构造过程：先三买则完成，先三卖则失败；分型角度跌破底分型最低点为失败，有效站住区间上沿意味着成功并至少展开一笔向上。"
+    },
+    {
+      "id": "CL108-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        395
+      ],
+      "summary": "第108课提供两个不能混为一谈的底部定义：走势类型下的一买—中枢—三买/三卖条件，以及分型区间下的上下边界确认。原文示例月线[2284,2952]只是2008年8月时点的条件判断。"
+    },
+    {
+      "id": "CL108-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        395,
+        397
+      ],
+      "summary": "原图p.396–398及p.400含图片，具体图中价位/指标尚未可靠逐项验证。2008年9月是否形成月分型在8月29日不可提前获知。‘不存在亏钱是理论问题’等强盈利判断不能替代带费用的样本外检验。"
+    },
+    {
+      "id": "CL108-EVIDENCE-4",
+      "kind": "EVIDENCE",
+      "volume": 5,
+      "pdf_pages": [
+        396,
+        397,
+        398
+      ],
+      "summary": "p.396–398原始图价格仍未经独立验证，p.399开始同日下午另一篇"
+    },
+    {
+      "id": "CL108-INTERPRETATION-5",
+      "kind": "INTERPRETATION",
+      "volume": 5,
+      "pdf_pages": [
+        395,
+        399
+      ],
+      "summary": "价格越过区间上沿不等于‘有效站住’，应单独定义完成条件。作者在p.395–399按月、周、日逐级讨论，截至8月29日上午的例子涉及2284、2952、2601、2455等位置；这些不是跨年代通用的价格常数。"
+    },
+    {
+      "id": "CL108-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 5,
+      "pdf_pages": [
+        395,
+        397
+      ],
+      "summary": "定义分型底部F：若已完成价格低于事前边界L则FAILED；高于U但缺少独立有效突破确认仍FORMING；高于U且有效突破证据已经完成则CONFIRMED。定义走势底部S：FIRST_BUY→CENTER→THIRD_BUY为COMPLETED或→THIRD_SELL为FAILED；未来或不完整事件PENDING。F和S并非等价标签。"
+    },
+    {
+      "id": "CL108-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 5,
+      "pdf_pages": [
+        395,
+        399
+      ],
+      "summary": "【HYPOTHESIS｜not_tested】在原始日/周/月线及逐事件时间戳下独立比较两种底部标记的重绘率、延后确认时间、失败率、独立预测效度；用2008-08-29作历史回放断点，严禁使用其后的月末/周末收线。",
+      "test_status": "not_tested"
+    }
+  ],
+  "real_market_backtest": "not_run",
+  "limitations": [
+    "Original author lessons separated from separately dated posts and compilation markers.",
+    "No actual page-render visual review completed in this batch; all fine historical chart values unverified.",
+    "Synthetic as-of checks are bounded necessary conditions, not a full Chanlun parser, fills or profitability proof."
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-V1-L002-FIRSTPASS-20261107",
+  "status": "firstpass_native_text_read",
+  "source": {
+    "path": "ChineseBooks/缠论/缠论_卷1.pdf",
+    "sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+    "lesson_number": 2,
+    "title": "没有庄家，有的只是赢家和输家",
+    "dated_in_source": "2006-06-07 22:41:27",
+    "pdf_pages": [
+      6
+    ],
+    "next_lesson_pdf_start": 7
+  },
+  "page_audit": [
+    {
+      "pdf_page": 6,
+      "extracted_characters": 862,
+      "embedded_images": 0,
+      "text_state": "native_text_read",
+      "image_semantics_verified": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "CL002-S01",
+      "kind": "SOURCE",
+      "summary": "作者首先复述将庄家等同于大量资金和控制价格的通行定义。",
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "CL002-S02",
+      "kind": "SOURCE",
+      "summary": "作者反对庄家无所不能的神话，并举出自述的大资金坐庄计划。",
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "CL002-S03",
+      "kind": "SOURCE",
+      "summary": "作者以猎手、猎物和输赢说明对市场力量的态度。",
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "CL002-I04",
+      "kind": "INTERPRETATION",
+      "summary": "核心批评指向全能庄家叙事，而非对市场影响力的精确定义。",
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "CL002-I05",
+      "kind": "INFERENCE",
+      "summary": "个别大资金参与者失败不能证明所有资金影响力为零。",
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "CL002-I06",
+      "kind": "INFERENCE",
+      "summary": "英雄猎手叙事可能替代原先被批判的全能庄家神话。",
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "CL002-H07",
+      "kind": "HYPOTHESIS",
+      "summary": "大额交易价格影响与风险调整后收益优势未必成正比。",
+      "pages": [
+        6
+      ],
+      "test_status": "not_tested"
+    }
+  ],
+  "hypothesis": {
+    "id": "CL002-H01",
+    "title": "资金规模与交易影响力不等价于稳定收益优势",
+    "pages": [
+      6
+    ],
+    "status": "not_tested"
+  },
+  "caveats": [
+    "Source content is a single lesson; do not generalize anecdotes to population",
+    "No trading experiment has been run"
+  ],
+  "research_read_run": 42367037530,
+  "figure_qa_run": null
+}

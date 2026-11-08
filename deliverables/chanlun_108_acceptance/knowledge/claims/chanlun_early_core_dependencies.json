@@ -1,0 +1,812 @@
+{
+  "schema_version": 1,
+  "scope": "Chanlun lessons 17–65 conceptual dependencies; source, editorial versions, synthetic AI tests and real trading evidence kept distinct",
+  "nodes": [
+    {
+      "id": "L17-CENTER",
+      "claim": "Center built from intersection of completed lower-level movements",
+      "source": {
+        "volume": 1,
+        "pdf_pages": [
+          197
+        ]
+      },
+      "status": "original_early_definition_requires_online_completion"
+    },
+    {
+      "id": "L26-DOMAIN",
+      "claim": "Continuous valid trading is a precondition, sudden suspension/voiding is outside assumed domain",
+      "source": {
+        "volume": 2,
+        "pdf_pages": [
+          69,
+          70
+        ]
+      },
+      "status": "original_author_limited_domain"
+    },
+    {
+      "id": "L31-COST",
+      "claim": "Recover principal and manage remaining shares, distinct from zero mark-to-market exposure",
+      "source": {
+        "volume": 2,
+        "pdf_pages": [
+          194,
+          195
+        ]
+      },
+      "status": "original_principle_with_ai_risk_qualification"
+    },
+    {
+      "id": "L32-CONTEMPORANEOUS",
+      "claim": "Current signals determine actions; future B or c is not guaranteed",
+      "source": {
+        "volume": 2,
+        "pdf_pages": [
+          233,
+          234
+        ]
+      },
+      "status": "original_online_intent_not_proven_implementation"
+    },
+    {
+      "id": "L33-AMBIGUITY",
+      "claim": "Multiple legitimate descriptions possible due to level/time resolution and center extensions",
+      "source": {
+        "volume": 2,
+        "pdf_pages": [
+          256,
+          257
+        ]
+      },
+      "status": "original_acknowledged_ambiguity"
+    },
+    {
+      "id": "L35-BASE",
+      "claim": "Trade-level base case proposed to break center/movement circular dependence",
+      "source": {
+        "volume": 2,
+        "pdf_pages": [
+          291
+        ]
+      },
+      "status": "original_recursive_definition_needs_totality_check"
+    },
+    {
+      "id": "L35-ASSOCIATIVITY",
+      "claim": "Movement connection is associative but not commutative",
+      "source": {
+        "volume": 2,
+        "pdf_pages": [
+          292
+        ]
+      },
+      "status": "original_algebraic_claim_not_unique_semantics"
+    },
+    {
+      "id": "L35-EXECUTION",
+      "claim": "T+1 fees and errors limit operational timeframe",
+      "source": {
+        "volume": 2,
+        "pdf_pages": [
+          292,
+          293
+        ]
+      },
+      "status": "original_tradeability_limits"
+    },
+    {
+      "id": "L36-MULTIPARSE",
+      "claim": "Associative regrouping admits multiple time/level interpretations and different third-buy boundaries",
+      "source": {
+        "volume": 2,
+        "pdf_pages": [
+          305,
+          308,
+          310
+        ]
+      },
+      "status": "original_assertion_and_later_editor_note"
+    },
+    {
+      "id": "L37-TREND-TYPECHECK",
+      "claim": "Trend divergence requires same-level centers A and B plus extremum continuation constraints",
+      "source": {
+        "volume": 2,
+        "pdf_pages": [
+          320
+        ]
+      },
+      "status": "original_required_condition"
+    },
+    {
+      "id": "L38-FIXED-LEVEL",
+      "claim": "Uniqueness is claimed under a fixed same-level decomposition rule, not all alternative rule choices",
+      "source": {
+        "volume": 2,
+        "pdf_pages": [
+          338,
+          339
+        ]
+      },
+      "status": "original_conditional_claim_not_independently_proved"
+    },
+    {
+      "id": "L39-MISSING-BRANCH",
+      "claim": "Later editorial note flags missing Ai/Ai+2 non-new-high/low condition",
+      "source": {
+        "volume": 2,
+        "pdf_pages": [
+          354
+        ]
+      },
+      "status": "editorial_correction_not_original_article"
+    },
+    {
+      "id": "L40-SHARED-INVENTORY",
+      "claim": "Multi-level allocations imply stock/cash conservation in a unified brokerage account",
+      "source": {
+        "volume": 2,
+        "pdf_pages": [
+          363
+        ]
+      },
+      "status": "ai_risk_qualification_of_original_multilevel_idea"
+    },
+    {
+      "id": "L41-LEVEL-DISCIPLINE",
+      "claim": "Small-level contrarian buy/sell signals may be overrun by non-exhausted higher-level trend",
+      "source": {
+        "volume": 2,
+        "pdf_pages": [
+          378,
+          379
+        ]
+      },
+      "status": "original_author_level_qualification"
+    },
+    {
+      "id": "L42-DECISION-REVIEW",
+      "claim": "Post-close review of trades and psychological decision process; not a medical diagnosis",
+      "source": {
+        "volume": 2,
+        "pdf_pages": [
+          392
+        ]
+      },
+      "status": "original_author_behavioral_recommendation"
+    },
+    {
+      "id": "L43-MULTISCALE-REVERSAL",
+      "claim": "Divergence level may equal or be smaller than current movement level and higher-level outcome is not predetermined",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          3,
+          5,
+          6
+        ]
+      },
+      "status": "original_author_multiscale_statement"
+    },
+    {
+      "id": "L44-NECESSARY-NOT-SUFFICIENT",
+      "claim": "Final lower-level center third-class sell/buy signal is necessary, not sufficient, for small divergence leading to larger reversal",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          17,
+          18
+        ]
+      },
+      "status": "explicit_original_author_logical_distinction"
+    },
+    {
+      "id": "L45-HOLD-WAIT",
+      "claim": "Hold stock or cash while observing unfinished movement; AI implementation adds tradeability and deadline constraints",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          28,
+          29
+        ]
+      },
+      "status": "original_author_holding_state_with_ai_risk_qualification"
+    },
+    {
+      "id": "L46-DAY-ASOF",
+      "claim": "Eight completed half-hour bars define full-day auxiliary central-overlap classification; interim labels cannot use future bars",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          49,
+          50
+        ]
+      },
+      "status": "original_day_classification_with_ai_asof_qualification"
+    },
+    {
+      "id": "L47-CASE-EXECUTION",
+      "claim": "Intraday 2007 example includes author-claimed exact points and explicitly recognizes T+1 next-day exit risk",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          69,
+          70,
+          72
+        ]
+      },
+      "status": "original_case_not_independently_verified"
+    },
+    {
+      "id": "L48-COST-RISK",
+      "claim": "Author repeats zero-cost-is-no-risk claim; remaining stock price risk persists under economic mark-to-market",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          83,
+          84
+        ]
+      },
+      "status": "original_strong_claim_with_ai_economic_qualification"
+    },
+    {
+      "id": "L49-PROFIT-OPTIMUM",
+      "claim": "Author claims two profit-maximizing operational modes under a fixed level but needs explicit feasible set and objective",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          95,
+          96
+        ]
+      },
+      "status": "original_theorem_claim_not_independently_proved"
+    },
+    {
+      "id": "L50-MACD-PROXY",
+      "claim": "Market structure/segments should be identified before selecting the auxiliary MACD sampling period",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          105,
+          106
+        ]
+      },
+      "status": "original_indicator_hierarchy_with_ai_resampling_caveat"
+    },
+    {
+      "id": "L51-REFLEXIVITY",
+      "claim": "Public stock recommendations may affect follower demand and cannot automatically establish independent prediction skill",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          117,
+          118
+        ]
+      },
+      "status": "original_author_market_commentary_unverified_particular_allegations"
+    },
+    {
+      "id": "L52-OBSERVER-MARKET",
+      "claim": "Observing, predicting, and participating traders jointly shape observed market; structural scale invariance is an unverified author's claim",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          143,
+          144
+        ]
+      },
+      "status": "original_philosophical_claim_not_empirical_proof"
+    },
+    {
+      "id": "L53-THREE-POINT-TYPES",
+      "claim": "Three types of buy/sell points have distinct functions at one operating level despite smaller-scale interrelations",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          161,
+          162
+        ]
+      },
+      "status": "author_2007_original"
+    },
+    {
+      "id": "L53-LATER-2009-INSERT",
+      "claim": "A separately dated 2009-01-05 discussion on third-class buy/sell points begins mid-page 162 and extends over pages 163–164",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          162,
+          163,
+          164
+        ]
+      },
+      "status": "later_discussion_not_author_2007_original"
+    },
+    {
+      "id": "L54-LEGAL-GROUPING",
+      "claim": "Multiple associatively regrouped descriptions remain constrained by mandatory lower-level connector between two same-level centers",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          171,
+          172,
+          173
+        ]
+      },
+      "status": "original_author_semantic_constraint_with_later_editorial_caveats"
+    },
+    {
+      "id": "L55-BUY-SELL-ASYMMETRY",
+      "claim": "Long accumulation and exit can have different time strategies, but must obey actual cash/share accounting",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          189,
+          190
+        ]
+      },
+      "status": "original_argument_with_ai_ledger_qualification"
+    },
+    {
+      "id": "L56-GAP-ASOF",
+      "claim": "Overnight 5·30 shock can render an earlier ideal first sell unexecutable; later second or third sell requires current confirmation",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          206,
+          208
+        ]
+      },
+      "status": "original_author_case_with_ai_execution_boundary"
+    },
+    {
+      "id": "L57-SEGMENT-THRESHOLD",
+      "claim": "Micro-retracement detection threshold may vary, but comparable cases must use one fixed segmentation policy",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          219,
+          220
+        ]
+      },
+      "status": "original_author_consistency_condition"
+    },
+    {
+      "id": "L58-PENDING-REVERSAL",
+      "claim": "A possible divergence leg can be invalidated by later acceleration, so prediction cannot be marked confirmed",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          231
+        ]
+      },
+      "status": "original_author_explicit_uncertainty"
+    },
+    {
+      "id": "L59-PRICE-QUANTIZATION",
+      "claim": "Author's 3994.57 versus 3994.21 comparison depends on prior precision; truncation and half-up integer rounding disagree",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          257
+        ]
+      },
+      "status": "original_precision_example_with_ai_decimal_method_distinction"
+    },
+    {
+      "id": "L60-SHOCK-SCALE",
+      "claim": "Unexpected news is assessed by the level of structural disruption but does not remove portfolio price or gap risk",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          267,
+          269
+        ]
+      },
+      "status": "original_author_shock_scale_with_ai_risk_qualification"
+    },
+    {
+      "id": "L61-DATE-STRATA",
+      "claim": "Vol3 lesson61 header is dated 2010-08-13 yet internal source contains distinct 2007-06-22/27 dated commentary",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          278,
+          279,
+          281
+        ]
+      },
+      "status": "source_provenance_heterogeneous"
+    },
+    {
+      "id": "L62-FRACTAL-PEN",
+      "claim": "Three-K-line fractals and pen/segment structure are built from cleaned non-containing bars with minimum interval requirements",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          292,
+          293,
+          294
+        ]
+      },
+      "status": "original_author_2007_definition"
+    },
+    {
+      "id": "L62-REVISED-PEN",
+      "claim": "The phrase 新笔定义 appears following the original explanation; provenance and revised rule must be versioned separately",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          295
+        ]
+      },
+      "status": "appended_rule_version_provenance_unresolved"
+    },
+    {
+      "id": "L63-OBSERVATION-SCALE",
+      "claim": "Data bar sampling frequency is not automatically equal to the level of the observed recursive center or movement",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          303,
+          304
+        ]
+      },
+      "status": "original_author_distinction"
+    },
+    {
+      "id": "L64-TOLERANCE",
+      "claim": "A price comparison tolerance and integer policy must remain fixed; proximity is not transitive",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          311
+        ]
+      },
+      "status": "original_author_consistency_with_ai_numeric_counterexample"
+    },
+    {
+      "id": "L65-ORDERED-CONTAINMENT",
+      "claim": "K-line containment is not transitive; the operator must merge successive bars in order and track original sources",
+      "source": {
+        "volume": 3,
+        "pdf_pages": [
+          347,
+          348
+        ]
+      },
+      "status": "original_author_mathematical_condition"
+    }
+  ],
+  "edges": [
+    {
+      "from": "L35-BASE",
+      "to": "L17-CENTER",
+      "type": "attempts_to_supply_base_case_for",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L33-AMBIGUITY",
+      "to": "L35-ASSOCIATIVITY",
+      "type": "coexists_not_resolved_by_concatenation",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L32-CONTEMPORANEOUS",
+      "to": "L17-CENTER",
+      "type": "requires_confirmation_timing_for",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L35-EXECUTION",
+      "to": "L32-CONTEMPORANEOUS",
+      "type": "limits_operational_frequency_of",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L26-DOMAIN",
+      "to": "L31-COST",
+      "type": "adds_applicability_conditions_to",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L33-AMBIGUITY",
+      "to": "L36-MULTIPARSE",
+      "type": "later_application_of",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L35-ASSOCIATIVITY",
+      "to": "L36-MULTIPARSE",
+      "type": "basis_for_regrouping",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L36-MULTIPARSE",
+      "to": "L38-FIXED-LEVEL",
+      "type": "qualified_by_fixed_rule",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L38-FIXED-LEVEL",
+      "to": "L39-MISSING-BRANCH",
+      "type": "mechanical_recipe_has_uncovered_case",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L35-EXECUTION",
+      "to": "L40-SHARED-INVENTORY",
+      "type": "implementation_constraint",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L36-MULTIPARSE",
+      "to": "L40-SHARED-INVENTORY",
+      "type": "supports_level_switching_but_not_stock_creation",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L37-TREND-TYPECHECK",
+      "to": "L17-CENTER",
+      "type": "requires_same_level_trend_centers",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L37-TREND-TYPECHECK",
+      "to": "L43-MULTISCALE-REVERSAL",
+      "type": "precondition_for_correct_divergence_label",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L43-MULTISCALE-REVERSAL",
+      "to": "L44-NECESSARY-NOT-SUFFICIENT",
+      "type": "refines_lower_to_higher_reversal_condition",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L41-LEVEL-DISCIPLINE",
+      "to": "L44-NECESSARY-NOT-SUFFICIENT",
+      "type": "highlights_small_signal_not_high_level_certainty",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L40-SHARED-INVENTORY",
+      "to": "L45-HOLD-WAIT",
+      "type": "shared_stock_cash_constraint_for_waiting",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L26-DOMAIN",
+      "to": "L45-HOLD-WAIT",
+      "type": "trading_continuity_and_capital_deadline_constraints",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L32-CONTEMPORANEOUS",
+      "to": "L45-HOLD-WAIT",
+      "type": "waiting_until_confirmed_structure",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L42-DECISION-REVIEW",
+      "to": "L41-LEVEL-DISCIPLINE",
+      "type": "behavioral_review_may_support_rule_adherence",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L46-DAY-ASOF",
+      "to": "L47-CASE-EXECUTION",
+      "type": "day_classification_used_in_intraday_example",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L45-HOLD-WAIT",
+      "to": "L49-PROFIT-OPTIMUM",
+      "type": "waiting_states_and_capital_occupancy_affect_objective",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L31-COST",
+      "to": "L48-COST-RISK",
+      "type": "economic_value_drawdown_qualifies_zero_cost_claim",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L26-DOMAIN",
+      "to": "L47-CASE-EXECUTION",
+      "type": "trading_continuity_and_execution_preconditions",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L32-CONTEMPORANEOUS",
+      "to": "L46-DAY-ASOF",
+      "type": "online_confirmation_constraint",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L37-TREND-TYPECHECK",
+      "to": "L50-MACD-PROXY",
+      "type": "structural_condition_before_indicator_strength",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L40-SHARED-INVENTORY",
+      "to": "L49-PROFIT-OPTIMUM",
+      "type": "portfolio_resource_and_cash_constraints",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L49-PROFIT-OPTIMUM",
+      "to": "L50-MACD-PROXY",
+      "type": "strategy_proof_reliant_on_reproducible_signal_measurement",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L51-REFLEXIVITY",
+      "to": "L52-OBSERVER-MARKET",
+      "type": "specific_information_feedback_related_to_market_participation",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L52-OBSERVER-MARKET",
+      "to": "L32-CONTEMPORANEOUS",
+      "type": "observation_part_of_online_action_context",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L53-THREE-POINT-TYPES",
+      "to": "L44-NECESSARY-NOT-SUFFICIENT",
+      "type": "different_signal_types_constrain_reversal_inference",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L53-LATER-2009-INSERT",
+      "to": "L53-THREE-POINT-TYPES",
+      "type": "later_commentary_must_not_be_backdated_to_author",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L54-LEGAL-GROUPING",
+      "to": "L33-AMBIGUITY",
+      "type": "constrains_legitimate_multigroup_interpretation",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L54-LEGAL-GROUPING",
+      "to": "L35-ASSOCIATIVITY",
+      "type": "adds_semantic_connector_requirement_to_sequence_associativity",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L54-LEGAL-GROUPING",
+      "to": "L38-FIXED-LEVEL",
+      "type": "illustrates_rule_dependent_admissible_parses",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L55-BUY-SELL-ASYMMETRY",
+      "to": "L31-COST",
+      "type": "transaction_ledger_separates_cost_recovery_and_remaining_price_risk",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L55-BUY-SELL-ASYMMETRY",
+      "to": "L40-SHARED-INVENTORY",
+      "type": "cash_share_conservation_during_level_switching",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L56-GAP-ASOF",
+      "to": "L44-NECESSARY-NOT-SUFFICIENT",
+      "type": "a_signal_pattern_does_not_guarantee_larger_reversal_or_execution",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L56-GAP-ASOF",
+      "to": "L47-CASE-EXECUTION",
+      "type": "historical_timestamp_and_execution_constraints",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L57-SEGMENT-THRESHOLD",
+      "to": "L54-LEGAL-GROUPING",
+      "type": "segmentation_threshold_precedes_valid_grouping",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L58-PENDING-REVERSAL",
+      "to": "L45-HOLD-WAIT",
+      "type": "pending_signal_should_not_force_trade",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L58-PENDING-REVERSAL",
+      "to": "L37-TREND-TYPECHECK",
+      "type": "divergence_requires_confirmed_trend_structure",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L59-PRICE-QUANTIZATION",
+      "to": "L57-SEGMENT-THRESHOLD",
+      "type": "precision_policy_changes_micro_segment_recognition",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L59-PRICE-QUANTIZATION",
+      "to": "L38-FIXED-LEVEL",
+      "type": "fixed_rule_must_include_numeric_quantization",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L60-SHOCK-SCALE",
+      "to": "L41-LEVEL-DISCIPLINE",
+      "type": "shock_response_varies_by_operation_level",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L60-SHOCK-SCALE",
+      "to": "L56-GAP-ASOF",
+      "type": "news_shock_may_require_late_exit_candidate",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L61-DATE-STRATA",
+      "to": "L53-LATER-2009-INSERT",
+      "type": "both_require_explicit_original_vs_compiled_provenance",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L62-FRACTAL-PEN",
+      "to": "L65-ORDERED-CONTAINMENT",
+      "type": "subsequent_explicit_ordered_merge_rule",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L62-REVISED-PEN",
+      "to": "L62-FRACTAL-PEN",
+      "type": "different_rules_must_not_be_silently_overwritten",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L63-OBSERVATION-SCALE",
+      "to": "L50-MACD-PROXY",
+      "type": "indicator_bar_frequency_and_structural_level_are_distinct",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L64-TOLERANCE",
+      "to": "L59-PRICE-QUANTIZATION",
+      "type": "precision_policy_includes_numeric_comparison_boundary",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L65-ORDERED-CONTAINMENT",
+      "to": "L54-LEGAL-GROUPING",
+      "type": "low_level_grammar_required_before_valid_high_level_groupings",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L65-ORDERED-CONTAINMENT",
+      "to": "L57-SEGMENT-THRESHOLD",
+      "type": "definition_version_affects_micro_segment_identification",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L62-FRACTAL-PEN",
+      "to": "L58-PENDING-REVERSAL",
+      "type": "three_completed_bars_needed_before_confirmed_fractal",
+      "certainty": "ai_analysis"
+    }
+  ],
+  "constraints": [
+    "Every source node includes volume + PDF page, no fabricated source content.",
+    "Conceptual edges are tagged AI analysis unless explicitly given by original text.",
+    "No real market backtest; no claim of unique parser or guaranteed profit."
+  ],
+  "source_pdf_sha256_by_volume": {
+    "1": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+    "2": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+    "3": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a"
+  }
+}

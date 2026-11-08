@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "lesson": 59,
+  "state": "original_text_source_and_five_selected_thumbnail_views_figures_numeric_unverified",
+  "source": {
+    "volume": 3,
+    "path": "ChineseBooks/缠论/缠论_卷3.pdf",
+    "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+    "original_date": "2007-06-14 08:23:43",
+    "pdf_pages": [
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266
+    ],
+    "appendix_divider_candidate": 261
+  },
+  "quality": {
+    "page_count": 16,
+    "native_chars": 6419,
+    "image_pages": [
+      252,
+      253,
+      254,
+      255,
+      256,
+      258,
+      262,
+      263,
+      264,
+      266
+    ],
+    "thumbnail_pages_visual_reviewed": [
+      252
+    ],
+    "figure_prices_verified": false
+  },
+  "claims": [
+    {
+      "id": "CL59-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        251
+      ],
+      "summary": "作者指出线段长度取决于具体结构而非单纯波幅。"
+    },
+    {
+      "id": "CL59-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        255
+      ],
+      "summary": "作者以不同中枢和第三类点继续标记后续分钟走势图。"
+    },
+    {
+      "id": "CL59-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        257
+      ],
+      "summary": "作者举例3994.57和3994.21，认为分析精度可以影响线段划分。"
+    },
+    {
+      "id": "CL59-SOURCE-4",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        257
+      ],
+      "summary": "作者强调应事先固定统一的观察精度。"
+    },
+    {
+      "id": "CL59-INTERPRETATION-5",
+      "kind": "INTERPRETATION",
+      "volume": 3,
+      "pdf_pages": [
+        257
+      ],
+      "summary": "较粗精度的重叠判断依赖明确的数值处理规则。"
+    },
+    {
+      "id": "CL59-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 3,
+      "pdf_pages": [
+        257
+      ],
+      "summary": "向零截断和常规四舍五入同样到个位却可能得到不同结果。"
+    },
+    {
+      "id": "CL59-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 3,
+      "pdf_pages": [
+        257
+      ],
+      "summary": "预注册不同精度政策对真实行情分段的影响需测试。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limits": [
+    "Rendered full-page thumbnail is insufficient to verify tiny price labels or MACD values.",
+    "Author lesson, appendices and editorial comments require version separation.",
+    "Synthetic mathematical checks are not a trading backtest."
+  ]
+}

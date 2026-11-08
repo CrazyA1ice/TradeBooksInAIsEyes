@@ -1,0 +1,596 @@
+{
+  "schema_version": 1,
+  "status": "automated_header_index_requires_manual_spotcheck",
+  "source_run_id": 42365307713,
+  "source_commit": "062f4c51c013e1d5f735eec8461e73ad9f6859f5",
+  "source_method": "pymupdf_text_line_regex_教你炒股票",
+  "notes": [
+    "pdf_page is 1-based, not printed page numbering",
+    "lesson headers found in body text, not PDF embedded bookmarks",
+    "lesson title and start page are extracted automatically; page boundary and chart placement not manually reviewed"
+  ],
+  "volume_count": 5,
+  "lesson_count": 108,
+  "volumes": [
+    {
+      "volume": 1,
+      "path": "ChineseBooks/缠论/缠论_卷1.pdf",
+      "pdf_page_count": 337,
+      "sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "不会赢钱的经济人，只是废人",
+          "start_pdf_page": 3
+        },
+        {
+          "lesson": 2,
+          "title": "没有庄家，有的只是赢家和输家",
+          "start_pdf_page": 6
+        },
+        {
+          "lesson": 3,
+          "title": "你的喜好，你的死亡陷阱",
+          "start_pdf_page": 7
+        },
+        {
+          "lesson": 4,
+          "title": "什么是理性？今早买N 中工就是理性",
+          "start_pdf_page": 8
+        },
+        {
+          "lesson": 5,
+          "title": "市场无须分析，只要看和干",
+          "start_pdf_page": 12
+        },
+        {
+          "lesson": 6,
+          "title": "本ID 如何在五粮液、包钢权证上提款的",
+          "start_pdf_page": 13
+        },
+        {
+          "lesson": 7,
+          "title": "给赚了指数亏了钱的人的一些忠告",
+          "start_pdf_page": 16
+        },
+        {
+          "lesson": 8,
+          "title": "投资如选面首，G 点为中心，拒绝ED 男",
+          "start_pdf_page": 21
+        },
+        {
+          "lesson": 9,
+          "title": "甄别“早泄”男的数学原则",
+          "start_pdf_page": 28
+        },
+        {
+          "lesson": 10,
+          "title": "2005 年6 月，本ID 为何时隔四年后重看股票",
+          "start_pdf_page": 48
+        },
+        {
+          "lesson": 11,
+          "title": "不会吻，无以高潮",
+          "start_pdf_page": 82
+        },
+        {
+          "lesson": 12,
+          "title": "一吻何能消魂？",
+          "start_pdf_page": 98
+        },
+        {
+          "lesson": 13,
+          "title": "不带套的操作不是好操作",
+          "start_pdf_page": 107
+        },
+        {
+          "lesson": 14,
+          "title": "喝茅台的高潮程序",
+          "start_pdf_page": 115
+        },
+        {
+          "lesson": 15,
+          "title": "没有趋势，没有背驰",
+          "start_pdf_page": 143
+        },
+        {
+          "lesson": 16,
+          "title": "中小资金的高效买卖法",
+          "start_pdf_page": 169
+        },
+        {
+          "lesson": 17,
+          "title": "走势终完美",
+          "start_pdf_page": 196
+        },
+        {
+          "lesson": 18,
+          "title": "不被面首的雏男是不完美的",
+          "start_pdf_page": 234
+        },
+        {
+          "lesson": 19,
+          "title": "学习缠中说禅技术分析理论的关键",
+          "start_pdf_page": 238
+        },
+        {
+          "lesson": 20,
+          "title": "缠中说禅走势中枢级别扩张及第三类买卖点",
+          "start_pdf_page": 245
+        },
+        {
+          "lesson": 21,
+          "title": "缠中说禅买卖点分析的完备性",
+          "start_pdf_page": 253
+        },
+        {
+          "lesson": 22,
+          "title": "将8 亿袋大米装到5 个庄家的肚里",
+          "start_pdf_page": 272
+        },
+        {
+          "lesson": 23,
+          "title": "市场与人生",
+          "start_pdf_page": 299
+        }
+      ]
+    },
+    {
+      "volume": 2,
+      "path": "ChineseBooks/缠论/缠论_卷2.pdf",
+      "pdf_page_count": 406,
+      "sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "lessons": [
+        {
+          "lesson": 24,
+          "title": "MACD 对背弛的辅助判断",
+          "start_pdf_page": 3
+        },
+        {
+          "lesson": 25,
+          "title": "吻，MACD、背弛、中枢",
+          "start_pdf_page": 33
+        },
+        {
+          "lesson": 26,
+          "title": "市场风险如何回避",
+          "start_pdf_page": 69
+        },
+        {
+          "lesson": 27,
+          "title": "盘整背驰与历史性底部",
+          "start_pdf_page": 91
+        },
+        {
+          "lesson": 28,
+          "title": "下一目标：摧毁基金",
+          "start_pdf_page": 130
+        },
+        {
+          "lesson": 29,
+          "title": "转折的力度与级别",
+          "start_pdf_page": 163
+        },
+        {
+          "lesson": 30,
+          "title": "缠中说禅理论的绝对性",
+          "start_pdf_page": 186
+        },
+        {
+          "lesson": 31,
+          "title": "资金管理的最稳固基础",
+          "start_pdf_page": 192
+        },
+        {
+          "lesson": 32,
+          "title": "走势的当下与投资者的思维方式",
+          "start_pdf_page": 231
+        },
+        {
+          "lesson": 33,
+          "title": "走势的多义性",
+          "start_pdf_page": 256
+        },
+        {
+          "lesson": 34,
+          "title": "宁当面首，莫成怨男",
+          "start_pdf_page": 271
+        },
+        {
+          "lesson": 35,
+          "title": "给基础差的同学补补课",
+          "start_pdf_page": 291
+        },
+        {
+          "lesson": 36,
+          "title": "走势类型连接结合性的简单运用",
+          "start_pdf_page": 305
+        },
+        {
+          "lesson": 37,
+          "title": "背驰的再分辨",
+          "start_pdf_page": 320
+        },
+        {
+          "lesson": 38,
+          "title": "走势类型连接的同级别分解",
+          "start_pdf_page": 338
+        },
+        {
+          "lesson": 39,
+          "title": "同级别分解再研究",
+          "start_pdf_page": 353
+        },
+        {
+          "lesson": 40,
+          "title": "同级别分解的多重赋格",
+          "start_pdf_page": 363
+        },
+        {
+          "lesson": 41,
+          "title": "没有节奏，只有死",
+          "start_pdf_page": 378
+        },
+        {
+          "lesson": 42,
+          "title": "有些人是不适合参与市场的",
+          "start_pdf_page": 390
+        }
+      ]
+    },
+    {
+      "volume": 3,
+      "path": "ChineseBooks/缠论/缠论_卷3.pdf",
+      "pdf_page_count": 405,
+      "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "lessons": [
+        {
+          "lesson": 43,
+          "title": "有关背驰的补习课",
+          "start_pdf_page": 3
+        },
+        {
+          "lesson": 44,
+          "title": "小级别背驰引发大级别转折",
+          "start_pdf_page": 17
+        },
+        {
+          "lesson": 45,
+          "title": "持股与持币，两种最基本的操作",
+          "start_pdf_page": 28
+        },
+        {
+          "lesson": 46,
+          "title": "每日走势的分类",
+          "start_pdf_page": 49
+        },
+        {
+          "lesson": 47,
+          "title": "一夜情行情分析",
+          "start_pdf_page": 69
+        },
+        {
+          "lesson": 48,
+          "title": "暴跌，牛市行情的一夜情",
+          "start_pdf_page": 83
+        },
+        {
+          "lesson": 49,
+          "title": "利润率最大的操作模式",
+          "start_pdf_page": 92
+        },
+        {
+          "lesson": 50,
+          "title": "操作中的一些细节问题",
+          "start_pdf_page": 105
+        },
+        {
+          "lesson": 51,
+          "title": "短线股评荐股者的传销把戏",
+          "start_pdf_page": 117
+        },
+        {
+          "lesson": 52,
+          "title": "炒股票就是真正的学佛",
+          "start_pdf_page": 143
+        },
+        {
+          "lesson": 53,
+          "title": "三类买卖点的再分辨",
+          "start_pdf_page": 161
+        },
+        {
+          "lesson": 54,
+          "title": "一个具体走势的分析",
+          "start_pdf_page": 170
+        },
+        {
+          "lesson": 55,
+          "title": "买之前戏，卖之高潮",
+          "start_pdf_page": 189
+        },
+        {
+          "lesson": 56,
+          "title": "530 印花税当日行情图解",
+          "start_pdf_page": 206
+        },
+        {
+          "lesson": 57,
+          "title": "当下图解分析再示范",
+          "start_pdf_page": 219
+        },
+        {
+          "lesson": 58,
+          "title": "图解分析示范三",
+          "start_pdf_page": 229
+        },
+        {
+          "lesson": 59,
+          "title": "图解分析示范四",
+          "start_pdf_page": 251
+        },
+        {
+          "lesson": 60,
+          "title": "图解分析示范五",
+          "start_pdf_page": 267
+        },
+        {
+          "lesson": 61,
+          "title": "区间套定位标准图解",
+          "start_pdf_page": 278
+        },
+        {
+          "lesson": 62,
+          "title": "分型、笔与线段",
+          "start_pdf_page": 291
+        },
+        {
+          "lesson": 63,
+          "title": "替各位理理基本概念",
+          "start_pdf_page": 303
+        },
+        {
+          "lesson": 64,
+          "title": "去机场路上给各位补课",
+          "start_pdf_page": 309
+        },
+        {
+          "lesson": 65,
+          "title": "再说说分型、笔、线段",
+          "start_pdf_page": 347
+        },
+        {
+          "lesson": 66,
+          "title": "主力资金的食物链",
+          "start_pdf_page": 374
+        },
+        {
+          "lesson": 67,
+          "title": "线段的划分标准",
+          "start_pdf_page": 388
+        }
+      ]
+    },
+    {
+      "volume": 4,
+      "path": "ChineseBooks/缠论/缠论_卷4.pdf",
+      "pdf_page_count": 407,
+      "sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "lessons": [
+        {
+          "lesson": 68,
+          "title": "走势预测的精确意义",
+          "start_pdf_page": 3
+        },
+        {
+          "lesson": 69,
+          "title": "月线分段与上海大走势分析、预判",
+          "start_pdf_page": 27
+        },
+        {
+          "lesson": 70,
+          "title": "一个教科书式走势的示范分析",
+          "start_pdf_page": 52
+        },
+        {
+          "lesson": 71,
+          "title": "线段划分标准的再分辨",
+          "start_pdf_page": 71
+        },
+        {
+          "lesson": 72,
+          "title": "本ID 已有课程的再梳理",
+          "start_pdf_page": 83
+        },
+        {
+          "lesson": 73,
+          "title": "市场获利机会的绝对分类",
+          "start_pdf_page": 98
+        },
+        {
+          "lesson": 74,
+          "title": "如何躲避政策性风险",
+          "start_pdf_page": 111
+        },
+        {
+          "lesson": 75,
+          "title": "逗庄家玩的一些杂史1",
+          "start_pdf_page": 121
+        },
+        {
+          "lesson": 76,
+          "title": "逗庄家玩的一些杂史2",
+          "start_pdf_page": 143
+        },
+        {
+          "lesson": 77,
+          "title": "一些概念的再分辨",
+          "start_pdf_page": 157
+        },
+        {
+          "lesson": 78,
+          "title": "继续说线段的划分",
+          "start_pdf_page": 174
+        },
+        {
+          "lesson": 79,
+          "title": "分型的辅助操作与一些问题的再解答",
+          "start_pdf_page": 187
+        },
+        {
+          "lesson": 80,
+          "title": "市场没有同情、不信眼泪",
+          "start_pdf_page": 201
+        },
+        {
+          "lesson": 81,
+          "title": "图例、更正及分型、走势类型的哲学本质",
+          "start_pdf_page": 232
+        },
+        {
+          "lesson": 82,
+          "title": "分型结构的心理因素",
+          "start_pdf_page": 266
+        },
+        {
+          "lesson": 83,
+          "title": "笔-线段与线段-最小中枢结构的不同心理意义1",
+          "start_pdf_page": 288
+        },
+        {
+          "lesson": 84,
+          "title": "本ID 理论一些必须注意的问题",
+          "start_pdf_page": 299
+        },
+        {
+          "lesson": 85,
+          "title": "逗庄家玩的一些杂史3",
+          "start_pdf_page": 338
+        },
+        {
+          "lesson": 86,
+          "title": "走势分析中必须杜绝一根筋思维",
+          "start_pdf_page": 346
+        },
+        {
+          "lesson": 87,
+          "title": "逗庄家玩的一些杂史4",
+          "start_pdf_page": 369
+        },
+        {
+          "lesson": 88,
+          "title": "图形生长的一个具体案例",
+          "start_pdf_page": 384
+        }
+      ]
+    },
+    {
+      "volume": 5,
+      "path": "ChineseBooks/缠论/缠论_卷5.pdf",
+      "pdf_page_count": 441,
+      "sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "lessons": [
+        {
+          "lesson": 89,
+          "title": "中阴阶段的具体分析",
+          "start_pdf_page": 3
+        },
+        {
+          "lesson": 90,
+          "title": "中阴阶段结束时间的辅助判断",
+          "start_pdf_page": 30
+        },
+        {
+          "lesson": 91,
+          "title": "走势结构的两重表里关系1",
+          "start_pdf_page": 64
+        },
+        {
+          "lesson": 92,
+          "title": "中枢震荡的监视器",
+          "start_pdf_page": 93
+        },
+        {
+          "lesson": 93,
+          "title": "走势结构的两重表里关系2",
+          "start_pdf_page": 124
+        },
+        {
+          "lesson": 94,
+          "title": "当机立断",
+          "start_pdf_page": 143
+        },
+        {
+          "lesson": 95,
+          "title": "修炼自己",
+          "start_pdf_page": 150
+        },
+        {
+          "lesson": 96,
+          "title": "无处不在的赌徒心理",
+          "start_pdf_page": 155
+        },
+        {
+          "lesson": 97,
+          "title": "中医、兵法、诗歌、操作1",
+          "start_pdf_page": 172
+        },
+        {
+          "lesson": 98,
+          "title": "中医、兵法、诗歌、操作2",
+          "start_pdf_page": 192
+        },
+        {
+          "lesson": 99,
+          "title": "走势结构的两重表里关系3",
+          "start_pdf_page": 202
+        },
+        {
+          "lesson": 100,
+          "title": "中医、兵法、诗歌、操作3",
+          "start_pdf_page": 224
+        },
+        {
+          "lesson": 101,
+          "title": "答疑1",
+          "start_pdf_page": 233
+        },
+        {
+          "lesson": 102,
+          "title": "再说走势必完美",
+          "start_pdf_page": 241
+        },
+        {
+          "lesson": 103,
+          "title": "学屠龙术前先学好防狼术",
+          "start_pdf_page": 269
+        },
+        {
+          "lesson": 104,
+          "title": "几何结构与能量动力结构1",
+          "start_pdf_page": 290
+        },
+        {
+          "lesson": 105,
+          "title": "远离聪明、机械操作",
+          "start_pdf_page": 325
+        },
+        {
+          "lesson": 106,
+          "title": "均线、轮动与缠中说禅板块强弱指标",
+          "start_pdf_page": 373
+        },
+        {
+          "lesson": 107,
+          "title": "如何操作短线反弹",
+          "start_pdf_page": 385
+        },
+        {
+          "lesson": 108,
+          "title": "何谓底部？从月线看中期走势演化",
+          "start_pdf_page": 395
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,878 @@
+{
+  "schema_version": 1,
+  "source_run": 42377309558,
+  "tool": "PyMuPDF 1.26.7",
+  "status": "full_page_structure_and_bounded_author_excerpts_reviewed_figures_not_visually_verified",
+  "original_source_sha_by_volume": {
+    "2": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+    "3": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a"
+  },
+  "caveats": [
+    "Different physical PDF page number origin in volumes 2 and 3.",
+    "Volume 2 lesson 42 is the final lesson of that volume, so scanned to PDF last page including compiled appendices.",
+    "First asterisk separator is a heuristic start of appended material and can occur mid-page.",
+    "Volume 3 article notes and example figures may be later editorial insertions; charts not visually checked.",
+    "Original text snippets are limited; claims about whole historical results are not verified."
+  ],
+  "lessons": [
+    {
+      "lesson": 41,
+      "title": "没有节奏，只有死",
+      "volume": 2,
+      "pdf_path": "ChineseBooks/缠论/缠论_卷2.pdf",
+      "sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "start_page": 378,
+      "end_page": 389,
+      "original_date": "2007-03-30 15:17:22",
+      "first_appendix": {
+        "pdf_page": 379,
+        "line": 28,
+        "marker": "********************"
+      },
+      "pages": [
+        {
+          "pdf_page": 378,
+          "native_chars": 1180,
+          "images": 0,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": false
+        },
+        {
+          "pdf_page": 379,
+          "native_chars": 1053,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 380,
+          "native_chars": 216,
+          "images": 1,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": false
+        },
+        {
+          "pdf_page": 381,
+          "native_chars": 25,
+          "images": 1,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": false
+        },
+        {
+          "pdf_page": 382,
+          "native_chars": 964,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 383,
+          "native_chars": 830,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 384,
+          "native_chars": 708,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 385,
+          "native_chars": 850,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 386,
+          "native_chars": 891,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 387,
+          "native_chars": 687,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 388,
+          "native_chars": 984,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 389,
+          "native_chars": 231,
+          "images": 0,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": true
+        }
+      ],
+      "topic_pages": [
+        {
+          "page": 378,
+          "terms": [
+            "小级别",
+            "大级别",
+            "节奏",
+            "风险",
+            "级别",
+            "中枢",
+            "第三类",
+            "走势",
+            "买卖点",
+            "操作",
+            "卖点"
+          ]
+        },
+        {
+          "page": 379,
+          "terms": [
+            "背驰",
+            "小级别",
+            "节奏",
+            "级别",
+            "买卖点",
+            "操作",
+            "一买",
+            "二买",
+            "卖点"
+          ]
+        }
+      ],
+      "page_count": 12,
+      "total_native_chars": 8619,
+      "image_pages": [
+        380,
+        381
+      ],
+      "low_text_pages": [
+        381
+      ]
+    },
+    {
+      "lesson": 42,
+      "title": "有些人是不适合参与市场的",
+      "volume": 2,
+      "pdf_path": "ChineseBooks/缠论/缠论_卷2.pdf",
+      "sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "start_page": 390,
+      "end_page": 406,
+      "original_date": "2007-04-04 15:31:30",
+      "first_appendix": {
+        "pdf_page": 392,
+        "line": 12,
+        "marker": "********************"
+      },
+      "pages": [
+        {
+          "pdf_page": 390,
+          "native_chars": 1154,
+          "images": 0,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": false
+        },
+        {
+          "pdf_page": 391,
+          "native_chars": 849,
+          "images": 0,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": false
+        },
+        {
+          "pdf_page": 392,
+          "native_chars": 558,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 393,
+          "native_chars": 29,
+          "images": 1,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": false
+        },
+        {
+          "pdf_page": 394,
+          "native_chars": 517,
+          "images": 0,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": false
+        },
+        {
+          "pdf_page": 395,
+          "native_chars": 29,
+          "images": 1,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": false
+        },
+        {
+          "pdf_page": 396,
+          "native_chars": 29,
+          "images": 1,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": false
+        },
+        {
+          "pdf_page": 397,
+          "native_chars": 29,
+          "images": 1,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": false
+        },
+        {
+          "pdf_page": 398,
+          "native_chars": 829,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 399,
+          "native_chars": 868,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 400,
+          "native_chars": 786,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 401,
+          "native_chars": 875,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 402,
+          "native_chars": 944,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 403,
+          "native_chars": 801,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 404,
+          "native_chars": 854,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 405,
+          "native_chars": 877,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 406,
+          "native_chars": 248,
+          "images": 1,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": true
+        }
+      ],
+      "topic_pages": [
+        {
+          "page": 390,
+          "terms": [
+            "操作",
+            "一买"
+          ]
+        },
+        {
+          "page": 391,
+          "terms": [
+            "操作"
+          ]
+        },
+        {
+          "page": 392,
+          "terms": [
+            "操作"
+          ]
+        }
+      ],
+      "page_count": 17,
+      "total_native_chars": 10276,
+      "image_pages": [
+        393,
+        395,
+        396,
+        397,
+        406
+      ],
+      "low_text_pages": [
+        393,
+        395,
+        396,
+        397
+      ]
+    },
+    {
+      "lesson": 43,
+      "title": "有关背驰的补习课",
+      "volume": 3,
+      "pdf_path": "ChineseBooks/缠论/缠论_卷3.pdf",
+      "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "start_page": 3,
+      "end_page": 16,
+      "original_date": "2007-04-06 15:31:28",
+      "first_appendix": {
+        "pdf_page": 6,
+        "line": 27,
+        "marker": "********************"
+      },
+      "pages": [
+        {
+          "pdf_page": 3,
+          "native_chars": 677,
+          "images": 0,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": false
+        },
+        {
+          "pdf_page": 4,
+          "native_chars": 23,
+          "images": 1,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": false
+        },
+        {
+          "pdf_page": 5,
+          "native_chars": 1203,
+          "images": 0,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 6,
+          "native_chars": 1023,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 7,
+          "native_chars": 859,
+          "images": 0,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": false
+        },
+        {
+          "pdf_page": 8,
+          "native_chars": 23,
+          "images": 1,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": false
+        },
+        {
+          "pdf_page": 9,
+          "native_chars": 23,
+          "images": 1,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": false
+        },
+        {
+          "pdf_page": 10,
+          "native_chars": 1128,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 11,
+          "native_chars": 894,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 12,
+          "native_chars": 1280,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 13,
+          "native_chars": 1054,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 14,
+          "native_chars": 984,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 15,
+          "native_chars": 949,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 16,
+          "native_chars": 687,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        }
+      ],
+      "topic_pages": [
+        {
+          "page": 3,
+          "terms": [
+            "背驰",
+            "盘整背驰",
+            "大级别",
+            "转折",
+            "级别",
+            "中枢",
+            "走势",
+            "操作"
+          ]
+        },
+        {
+          "page": 4,
+          "terms": [
+            "背驰"
+          ]
+        },
+        {
+          "page": 5,
+          "terms": [
+            "背驰",
+            "小级别",
+            "大级别",
+            "转折",
+            "级别",
+            "中枢",
+            "走势"
+          ]
+        },
+        {
+          "page": 6,
+          "terms": [
+            "背驰",
+            "小级别",
+            "大级别",
+            "转折",
+            "级别",
+            "中枢",
+            "走势",
+            "分解"
+          ]
+        }
+      ],
+      "page_count": 14,
+      "total_native_chars": 10807,
+      "image_pages": [
+        4,
+        8,
+        9
+      ],
+      "low_text_pages": [
+        4,
+        8,
+        9
+      ]
+    },
+    {
+      "lesson": 44,
+      "title": "小级别背驰引发大级别转折",
+      "volume": 3,
+      "pdf_path": "ChineseBooks/缠论/缠论_卷3.pdf",
+      "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "start_page": 17,
+      "end_page": 27,
+      "original_date": "2007-04-10 15:23:46",
+      "first_appendix": {
+        "pdf_page": 21,
+        "line": 21,
+        "marker": "********************"
+      },
+      "pages": [
+        {
+          "pdf_page": 17,
+          "native_chars": 1322,
+          "images": 0,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": false
+        },
+        {
+          "pdf_page": 18,
+          "native_chars": 809,
+          "images": 0,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 19,
+          "native_chars": 28,
+          "images": 1,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": false
+        },
+        {
+          "pdf_page": 20,
+          "native_chars": 28,
+          "images": 1,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": false
+        },
+        {
+          "pdf_page": 21,
+          "native_chars": 1015,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 22,
+          "native_chars": 1059,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 23,
+          "native_chars": 905,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 24,
+          "native_chars": 945,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 25,
+          "native_chars": 1149,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 26,
+          "native_chars": 910,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 27,
+          "native_chars": 282,
+          "images": 0,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": true
+        }
+      ],
+      "topic_pages": [
+        {
+          "page": 17,
+          "terms": [
+            "背驰",
+            "小级别",
+            "大级别",
+            "转折",
+            "级别",
+            "中枢",
+            "第三类",
+            "走势",
+            "操作",
+            "卖点"
+          ]
+        },
+        {
+          "page": 18,
+          "terms": [
+            "背驰",
+            "小级别",
+            "大级别",
+            "转折",
+            "级别",
+            "中枢",
+            "第三类",
+            "走势",
+            "操作",
+            "卖点"
+          ]
+        },
+        {
+          "page": 19,
+          "terms": [
+            "背驰",
+            "小级别",
+            "大级别",
+            "转折",
+            "级别"
+          ]
+        },
+        {
+          "page": 20,
+          "terms": [
+            "背驰",
+            "小级别",
+            "大级别",
+            "转折",
+            "级别"
+          ]
+        },
+        {
+          "page": 21,
+          "terms": [
+            "背驰",
+            "小级别",
+            "大级别",
+            "转折",
+            "节奏",
+            "风险",
+            "级别",
+            "走势",
+            "操作"
+          ]
+        }
+      ],
+      "page_count": 11,
+      "total_native_chars": 8452,
+      "image_pages": [
+        19,
+        20
+      ],
+      "low_text_pages": [
+        19,
+        20
+      ]
+    },
+    {
+      "lesson": 45,
+      "title": "持股与持币，两种最基本的操作",
+      "volume": 3,
+      "pdf_path": "ChineseBooks/缠论/缠论_卷3.pdf",
+      "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "start_page": 28,
+      "end_page": 48,
+      "original_date": "2007-04-12 15:39:04",
+      "first_appendix": {
+        "pdf_page": 29,
+        "line": 13,
+        "marker": "********************"
+      },
+      "pages": [
+        {
+          "pdf_page": 28,
+          "native_chars": 1437,
+          "images": 0,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 29,
+          "native_chars": 1177,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 30,
+          "native_chars": 171,
+          "images": 1,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": false
+        },
+        {
+          "pdf_page": 31,
+          "native_chars": 342,
+          "images": 0,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": false
+        },
+        {
+          "pdf_page": 32,
+          "native_chars": 30,
+          "images": 1,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": false
+        },
+        {
+          "pdf_page": 33,
+          "native_chars": 719,
+          "images": 0,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": false
+        },
+        {
+          "pdf_page": 34,
+          "native_chars": 30,
+          "images": 1,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": false
+        },
+        {
+          "pdf_page": 35,
+          "native_chars": 1122,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 36,
+          "native_chars": 926,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 37,
+          "native_chars": 1017,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 38,
+          "native_chars": 944,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 39,
+          "native_chars": 858,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 40,
+          "native_chars": 850,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 41,
+          "native_chars": 883,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 42,
+          "native_chars": 850,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 43,
+          "native_chars": 862,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 44,
+          "native_chars": 950,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 45,
+          "native_chars": 967,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 46,
+          "native_chars": 950,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 47,
+          "native_chars": 870,
+          "images": 0,
+          "has_appendix_separator": true,
+          "has_editor_or_reply_cue": true
+        },
+        {
+          "pdf_page": 48,
+          "native_chars": 476,
+          "images": 0,
+          "has_appendix_separator": false,
+          "has_editor_or_reply_cue": true
+        }
+      ],
+      "topic_pages": [
+        {
+          "page": 28,
+          "terms": [
+            "持股",
+            "持币",
+            "级别",
+            "中枢",
+            "走势",
+            "买卖点",
+            "操作",
+            "卖点"
+          ]
+        },
+        {
+          "page": 29,
+          "terms": [
+            "持股",
+            "持币",
+            "中枢",
+            "走势",
+            "买卖点",
+            "操作",
+            "卖点"
+          ]
+        }
+      ],
+      "page_count": 21,
+      "total_native_chars": 16431,
+      "image_pages": [
+        30,
+        32,
+        34
+      ],
+      "low_text_pages": [
+        32,
+        34
+      ]
+    }
+  ]
+}

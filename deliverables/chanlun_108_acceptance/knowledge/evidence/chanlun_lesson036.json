@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "lesson": 36,
+  "state": "original_text_bounded_cues_and_full_page_metadata_reviewed_images_unverified",
+  "source": {
+    "volume": 2,
+    "path": "ChineseBooks/缠论/缠论_卷2.pdf",
+    "sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+    "pdf_pages": [
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319
+    ],
+    "original_date": "2007-03-13 09:00:49",
+    "appendix_divider": null
+  },
+  "quality": {
+    "source_run": 42376015064,
+    "image_pages": [
+      306,
+      307,
+      309,
+      311,
+      313,
+      315,
+      316,
+      317,
+      318
+    ],
+    "native_text_chars": 4569,
+    "page_count": 15
+  },
+  "claims": [
+    {
+      "id": "CL36-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        305
+      ],
+      "summary": "作者使用连接结合律说明同一走势可按不同级别分解。"
+    },
+    {
+      "id": "CL36-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        308,
+        310
+      ],
+      "summary": "重组可能改变中枢及第三类买点位置。"
+    },
+    {
+      "id": "CL36-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        310
+      ],
+      "summary": "编者注指出早期一个中枢划分在后期线段规则下不合理。"
+    },
+    {
+      "id": "CL36-INTERPRETATION-4",
+      "kind": "INTERPRETATION",
+      "volume": 2,
+      "pdf_pages": [
+        305,
+        310
+      ],
+      "summary": "多义性不同于任意不受约束的分段。"
+    },
+    {
+      "id": "CL36-INFERENCE-5",
+      "kind": "INFERENCE",
+      "volume": 2,
+      "pdf_pages": [
+        308,
+        310
+      ],
+      "summary": "事后选择最有利重组可能夸大交易收益。"
+    },
+    {
+      "id": "CL36-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 2,
+      "pdf_pages": [
+        310
+      ],
+      "summary": "序列拼接结合律并不确保买点位置等价。"
+    },
+    {
+      "id": "CL36-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 2,
+      "pdf_pages": [
+        305,
+        310
+      ],
+      "summary": "多解析信号的实时一致性需要独立测试。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "Bounded original-text cues not full figure verification.",
+    "Compiled volumes may include later editor notes.",
+    "AI proposals not original author conclusions or historical tests."
+  ]
+}

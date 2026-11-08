@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "lesson": 60,
+  "state": "original_text_source_and_five_selected_thumbnail_views_figures_numeric_unverified",
+  "source": {
+    "volume": 3,
+    "path": "ChineseBooks/缠论/缠论_卷3.pdf",
+    "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+    "original_date": "2007-06-19 08:04:06",
+    "pdf_pages": [
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277
+    ],
+    "appendix_divider_candidate": 274
+  },
+  "quality": {
+    "page_count": 11,
+    "native_chars": 8231,
+    "image_pages": [
+      268,
+      270,
+      271,
+      273
+    ],
+    "thumbnail_pages_visual_reviewed": [
+      268
+    ],
+    "figure_prices_verified": false
+  },
+  "claims": [
+    {
+      "id": "CL60-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        267
+      ],
+      "summary": "作者把外化的交易行为与预期合力联系起来。"
+    },
+    {
+      "id": "CL60-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        267,
+        268
+      ],
+      "summary": "作者强调一段走势是否完成取决于已发生结构和观察级别。"
+    },
+    {
+      "id": "CL60-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        269
+      ],
+      "summary": "作者认为冲击应按实际破坏的走势级别评估操作响应。"
+    },
+    {
+      "id": "CL60-SOURCE-4",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        269
+      ],
+      "summary": "作者认为大级别操作者可以忽略不影响该级别的微小波动。"
+    },
+    {
+      "id": "CL60-INTERPRETATION-5",
+      "kind": "INTERPRETATION",
+      "volume": 3,
+      "pdf_pages": [
+        269
+      ],
+      "summary": "交易时钟和风险偏好会影响消息后的决策。"
+    },
+    {
+      "id": "CL60-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 3,
+      "pdf_pages": [
+        267,
+        269
+      ],
+      "summary": "不能从图形唯一还原参与者心理，也不能推断无价格风险。"
+    },
+    {
+      "id": "CL60-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 3,
+      "pdf_pages": [
+        269,
+        272
+      ],
+      "summary": "不同冲击级别下的实际执行与资产风险需市场数据验证。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limits": [
+    "Rendered full-page thumbnail is insufficient to verify tiny price labels or MACD values.",
+    "Author lesson, appendices and editorial comments require version separation.",
+    "Synthetic mathematical checks are not a trading backtest."
+  ]
+}

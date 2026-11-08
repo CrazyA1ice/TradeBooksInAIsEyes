@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-V2-LESSON-35-FIRSTPASS-20261107",
+  "status": "source_text_reviewed_figures_not_yet_visually_verified",
+  "source": {
+    "volume": 2,
+    "path": "ChineseBooks/缠论/缠论_卷2.pdf",
+    "sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+    "lesson_number": 35,
+    "original_date": "2007-03-09 11:51:34",
+    "pdf_pages": [
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304
+    ],
+    "appendix_boundary_candidate": 298
+  },
+  "source_quality": {
+    "native_chars": 5778,
+    "page_count": 14,
+    "image_pages": [
+      294,
+      295,
+      296,
+      297,
+      299,
+      300,
+      302
+    ],
+    "low_text_pages": [
+      294,
+      295,
+      296,
+      297,
+      299,
+      300,
+      302
+    ],
+    "read_only_actions_run": 42374633597
+  },
+  "claims": [
+    {
+      "id": "CL35-SO-1",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        291
+      ],
+      "summary": "作者明确指出中枢与走势类型的互相依赖若没有级别会形成循环定义。"
+    },
+    {
+      "id": "CL35-SO-2",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        291
+      ],
+      "summary": "作者以最低级别交易序列及同价三笔给出递归基例。"
+    },
+    {
+      "id": "CL35-SO-3",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        291,
+        292
+      ],
+      "summary": "作者用三段次级别走势重叠形成高一级别中枢，并提出两条走势分解定理。"
+    },
+    {
+      "id": "CL35-SO-4",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        292
+      ],
+      "summary": "作者称走势连接符合结合律而非交换律，并说明操作级别含义。"
+    },
+    {
+      "id": "CL35-SO-5",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        292,
+        293
+      ],
+      "summary": "作者指出 T+1、交易费和执行误差会限制低级别操作。"
+    },
+    {
+      "id": "CL35-IN-6",
+      "kind": "INTERPRETATION",
+      "volume": 2,
+      "pdf_pages": [
+        291,
+        292
+      ],
+      "summary": "递归基例旨在化解中枢与走势类型的循环定义问题。"
+    },
+    {
+      "id": "CL35-IN-7",
+      "kind": "INFERENCE",
+      "volume": 2,
+      "pdf_pages": [
+        291,
+        292
+      ],
+      "summary": "序列拼接结合律本身不足以保证走势分段语义唯一。"
+    },
+    {
+      "id": "CL35-HY-8",
+      "kind": "HYPOTHESIS",
+      "volume": 2,
+      "pdf_pages": [
+        291,
+        293
+      ],
+      "summary": "严格逐笔递归分解的唯一性和在线执行可行性尚待检验。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "Original article and appended replies are editorially mixed in compilation.",
+    "No figure data used as numeric evidence.",
+    "AI models and counterexamples are not claims the author made."
+  ]
+}
