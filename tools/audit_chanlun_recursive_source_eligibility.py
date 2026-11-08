@@ -64,7 +64,8 @@ def validate_contract(contract, inventory, pins, evidence_by_lesson):
                  "lesson38_uniqueness_proven", "lesson99_eventual_center_proven"):
         require(contract.get(name) is False, "Proof status may not self-upgrade: " + name)
     require(contract.get("empirical_market_backtest") == "NOT_RUN", "Unexpected market claim")
-    books = {str(item["volume"]): item["sha256"] for item in inventory["volumes"]}
+    books = {Path(item["path"]).stem.split("卷")[-1]: item["sha256"]
+             for item in inventory["volumes"]}
     require(set(contract.get("author_verified_original_pdf_sha256", {})) == {"1", "2"},
             "Book source scope differs")
     for vol in ("1", "2"):
