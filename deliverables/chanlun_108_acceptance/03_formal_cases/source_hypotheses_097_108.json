@@ -1,0 +1,590 @@
+{
+  "schema_version": 1,
+  "kind": "source_evidence_hypothesis_inventory",
+  "lesson_start": 97,
+  "lesson_end": 108,
+  "generated_from": "immutable evidence file content; no invented testable original statements",
+  "entries": [
+    {
+      "lesson": 97,
+      "source_path": "knowledge/evidence/chanlun_lesson097.json",
+      "analysis_path": "analyses/books/chanlun/chapters/lesson_097.md",
+      "source": {
+        "volume": 5,
+        "path": "ChineseBooks/缠论/缠论_卷5.pdf",
+        "sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+        "original_date": "2008-01-29 15:49:06",
+        "pdf_pages": [
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191
+        ]
+      },
+      "explicit_hypotheses": [
+        {
+          "source_claim_id": "CL97-HYPOTHESIS-7",
+          "statement": "分类、识别和成交各阶段的实际损耗有待检验。",
+          "pdf_pages": [
+            172,
+            173
+          ],
+          "source_kind": "HYPOTHESIS",
+          "empirical_status": "not_tested"
+        }
+      ],
+      "status": "HYPOTHESES_EXTRACTED_NEEDS_FORMAL_CONDITION_FREEZE"
+    },
+    {
+      "lesson": 98,
+      "source_path": "knowledge/evidence/chanlun_lesson098.json",
+      "analysis_path": "analyses/books/chanlun/chapters/lesson_098.md",
+      "source": {
+        "volume": 5,
+        "path": "ChineseBooks/缠论/缠论_卷5.pdf",
+        "sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+        "original_date": "2008-02-04 19:51:49",
+        "pdf_pages": [
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201
+        ]
+      },
+      "explicit_hypotheses": [
+        {
+          "source_claim_id": "CL98-HYPOTHESIS-7",
+          "statement": "分支时钟和净收益的真实市场表现未测试。",
+          "pdf_pages": [
+            192,
+            194
+          ],
+          "source_kind": "HYPOTHESIS",
+          "empirical_status": "not_tested"
+        }
+      ],
+      "status": "HYPOTHESES_EXTRACTED_NEEDS_FORMAL_CONDITION_FREEZE"
+    },
+    {
+      "lesson": 99,
+      "source_path": "knowledge/evidence/chanlun_lesson099.json",
+      "analysis_path": "analyses/books/chanlun/chapters/lesson_099.md",
+      "source": {
+        "volume": 5,
+        "path": "ChineseBooks/缠论/缠论_卷5.pdf",
+        "sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+        "original_date": "2008-02-18 16:19:16",
+        "pdf_pages": [
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          217,
+          218,
+          219,
+          220,
+          221,
+          222,
+          223
+        ]
+      },
+      "explicit_hypotheses": [
+        {
+          "source_claim_id": "CL99-HYPOTHESIS-7",
+          "statement": "中心重组条件与更高级别必然性未得到完整规则验证。",
+          "pdf_pages": [
+            202,
+            203
+          ],
+          "source_kind": "HYPOTHESIS",
+          "empirical_status": "not_tested"
+        }
+      ],
+      "status": "HYPOTHESES_EXTRACTED_NEEDS_FORMAL_CONDITION_FREEZE"
+    },
+    {
+      "lesson": 100,
+      "source_path": "knowledge/evidence/chanlun_lesson100.json",
+      "analysis_path": "analyses/books/chanlun/chapters/lesson_100.md",
+      "source": {
+        "volume": 5,
+        "path": "ChineseBooks/缠论/缠论_卷5.pdf",
+        "sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+        "original_date": "2008-02-25 16:32:23",
+        "pdf_pages": [
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232
+        ]
+      },
+      "explicit_hypotheses": [
+        {
+          "source_claim_id": "CL100-HYPOTHESIS-7",
+          "statement": "实际行情是否构成真实原始分支反例尚未验证。",
+          "pdf_pages": [
+            224,
+            225
+          ],
+          "source_kind": "HYPOTHESIS",
+          "empirical_status": "not_tested"
+        }
+      ],
+      "status": "HYPOTHESES_EXTRACTED_NEEDS_FORMAL_CONDITION_FREEZE"
+    },
+    {
+      "lesson": 101,
+      "source_path": "knowledge/evidence/chanlun_lesson101.json",
+      "analysis_path": "analyses/books/chanlun/chapters/lesson_101.md",
+      "source": {
+        "volume": 5,
+        "path": "ChineseBooks/缠论/缠论_卷5.pdf",
+        "sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+        "original_date": "2008-03-04 16:14:02",
+        "pdf_pages": [
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240
+        ]
+      },
+      "explicit_hypotheses": [
+        {
+          "source_claim_id": "CL101-HYPOTHESIS-7",
+          "statement": "强弱位置及与第三类点合一的真实发生率与收益尚未独立测试。",
+          "pdf_pages": [
+            233,
+            234
+          ],
+          "source_kind": "HYPOTHESIS",
+          "empirical_status": "not_tested"
+        }
+      ],
+      "status": "HYPOTHESES_EXTRACTED_NEEDS_FORMAL_CONDITION_FREEZE"
+    },
+    {
+      "lesson": 102,
+      "source_path": "knowledge/evidence/chanlun_lesson102.json",
+      "analysis_path": "analyses/books/chanlun/chapters/lesson_102.md",
+      "source": {
+        "volume": 5,
+        "path": "ChineseBooks/缠论/缠论_卷5.pdf",
+        "sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+        "original_date": "2008-03-06 16:10:18",
+        "pdf_pages": [
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268
+        ]
+      },
+      "explicit_hypotheses": [
+        {
+          "source_claim_id": "CL102-HYPOTHESIS-7",
+          "statement": "完整唯一性及在线不前视性质仍需可复算解析器和反例验证。",
+          "pdf_pages": [
+            241,
+            242
+          ],
+          "source_kind": "HYPOTHESIS",
+          "empirical_status": "not_tested"
+        }
+      ],
+      "status": "HYPOTHESES_EXTRACTED_NEEDS_FORMAL_CONDITION_FREEZE"
+    },
+    {
+      "lesson": 103,
+      "source_path": "knowledge/evidence/chanlun_lesson103.json",
+      "analysis_path": "analyses/books/chanlun/chapters/lesson_103.md",
+      "source": {
+        "volume": 5,
+        "path": "ChineseBooks/缠论/缠论_卷5.pdf",
+        "sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+        "original_date": "2008-03-19 15:58:15",
+        "pdf_pages": [
+          269,
+          270,
+          271,
+          272,
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288,
+          289
+        ]
+      },
+      "explicit_hypotheses": [
+        {
+          "source_claim_id": "CL103-HYPOTHESIS-7",
+          "statement": "历史样本外回撤、误报与错过收益等效果仍未独立验证。",
+          "pdf_pages": [
+            269,
+            271
+          ],
+          "source_kind": "HYPOTHESIS",
+          "empirical_status": "not_tested"
+        }
+      ],
+      "status": "HYPOTHESES_EXTRACTED_NEEDS_FORMAL_CONDITION_FREEZE"
+    },
+    {
+      "lesson": 104,
+      "source_path": "knowledge/evidence/chanlun_lesson104.json",
+      "analysis_path": "analyses/books/chanlun/chapters/lesson_104.md",
+      "source": {
+        "volume": 5,
+        "path": "ChineseBooks/缠论/缠论_卷5.pdf",
+        "sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+        "original_date": "2008-03-26 15:47:42",
+        "pdf_pages": [
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324
+        ]
+      },
+      "explicit_hypotheses": [
+        {
+          "source_claim_id": "CL104-HYPOTHESIS-7",
+          "statement": "几何与预注册量价代理的统计关系尚无独立实证。",
+          "pdf_pages": [
+            290,
+            291
+          ],
+          "source_kind": "HYPOTHESIS",
+          "empirical_status": "not_tested"
+        }
+      ],
+      "status": "HYPOTHESES_EXTRACTED_NEEDS_FORMAL_CONDITION_FREEZE"
+    },
+    {
+      "lesson": 105,
+      "source_path": "knowledge/evidence/chanlun_lesson105.json",
+      "analysis_path": "analyses/books/chanlun/chapters/lesson_105.md",
+      "source": {
+        "volume": 5,
+        "path": "ChineseBooks/缠论/缠论_卷5.pdf",
+        "sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+        "original_date": "2008-04-13 21:51:14",
+        "pdf_pages": [
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372
+        ]
+      },
+      "explicit_hypotheses": [
+        {
+          "source_claim_id": "CL105-HYPOTHESIS-7",
+          "statement": "机械化规则的线上重绘、成交和收益尚待真实市场检验。",
+          "pdf_pages": [
+            325
+          ],
+          "source_kind": "HYPOTHESIS",
+          "empirical_status": "not_tested"
+        }
+      ],
+      "status": "HYPOTHESES_EXTRACTED_NEEDS_FORMAL_CONDITION_FREEZE"
+    },
+    {
+      "lesson": 106,
+      "source_path": "knowledge/evidence/chanlun_lesson106.json",
+      "analysis_path": "analyses/books/chanlun/chapters/lesson_106.md",
+      "source": {
+        "volume": 5,
+        "path": "ChineseBooks/缠论/缠论_卷5.pdf",
+        "sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+        "original_date": "2008-07-10 12:12:22",
+        "pdf_pages": [
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384
+        ]
+      },
+      "explicit_hypotheses": [
+        {
+          "source_claim_id": "CL106-HYPOTHESIS-7",
+          "statement": "【HYPOTHESIS｜not_tested】在固定历史时点成员、无未来样本、冻结窗口与调整价格版本后，比较板块类别均值和等权动量/行业指数基线对随后收益与回撤的增量预测；用滚动样本外检验板块换手、交易成本、幸存者偏差和类别等距假设。",
+          "pdf_pages": [
+            373,
+            374
+          ],
+          "source_kind": "HYPOTHESIS",
+          "empirical_status": "not_tested"
+        }
+      ],
+      "status": "HYPOTHESES_EXTRACTED_NEEDS_FORMAL_CONDITION_FREEZE"
+    },
+    {
+      "lesson": 107,
+      "source_path": "knowledge/evidence/chanlun_lesson107.json",
+      "analysis_path": "analyses/books/chanlun/chapters/lesson_107.md",
+      "source": {
+        "volume": 5,
+        "path": "ChineseBooks/缠论/缠论_卷5.pdf",
+        "sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+        "original_date": "2008-08-19 16:10:39",
+        "pdf_pages": [
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394
+        ]
+      },
+      "explicit_hypotheses": [
+        {
+          "source_claim_id": "CL107-HYPOTHESIS-7",
+          "statement": "【HYPOTHESIS｜not_tested】比较预先定义的次级别分段策略与‘等确认第三段’基线，考察完整bar、不同解析版本、T+1、滑点、手续费和开盘缺口下的净收益/最大回撤；记录所有未决与不可成交时刻。",
+          "pdf_pages": [
+            385,
+            386
+          ],
+          "source_kind": "HYPOTHESIS",
+          "empirical_status": "not_tested"
+        }
+      ],
+      "status": "HYPOTHESES_EXTRACTED_NEEDS_FORMAL_CONDITION_FREEZE"
+    },
+    {
+      "lesson": 108,
+      "source_path": "knowledge/evidence/chanlun_lesson108.json",
+      "analysis_path": "analyses/books/chanlun/chapters/lesson_108.md",
+      "source": {
+        "volume": 5,
+        "path": "ChineseBooks/缠论/缠论_卷5.pdf",
+        "sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+        "original_date": "2008-08-29 09:15:01",
+        "pdf_pages": [
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441
+        ]
+      },
+      "explicit_hypotheses": [
+        {
+          "source_claim_id": "CL108-HYPOTHESIS-7",
+          "statement": "【HYPOTHESIS｜not_tested】在原始日/周/月线及逐事件时间戳下独立比较两种底部标记的重绘率、延后确认时间、失败率、独立预测效度；用2008-08-29作历史回放断点，严禁使用其后的月末/周末收线。",
+          "pdf_pages": [
+            395,
+            399
+          ],
+          "source_kind": "HYPOTHESIS",
+          "empirical_status": "not_tested"
+        }
+      ],
+      "status": "HYPOTHESES_EXTRACTED_NEEDS_FORMAL_CONDITION_FREEZE"
+    }
+  ]
+}
