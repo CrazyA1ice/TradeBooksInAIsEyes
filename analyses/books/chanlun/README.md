@@ -187,3 +187,7 @@
 [第106课](chapters/lesson_106.md) · [第107课](chapters/lesson_107.md) · [第108课](chapters/lesson_108.md) · [综合](volumes/LESSONS_106_108_SYNTHESIS.md) · [原书69页核查](../../../reports/source_inventory/chanlun_lessons106_108_source_review.md) · [MA/反弹/底部合成边界协议](../../../experiments/protocols/chanlun_lesson108_bottom_contracts.md)。
 
 三课原始PDF第五卷p.373–441共69物理页、SHA锁定、21条带页码类型化证据；**本组图片未实际目视**，历史图价未经数值复验；无整套走势递归解析、真实行情回测或净收益承诺。第106课板块排序和均线并非必然级别，第107课未来反弹路径不应预测，第108课两种底部不能混成同一个标签。
+
+## 统一课级查询和版本历史（108课首轮研究后）
+
+[统一84节点/145关系图谱](../../../knowledge/claims/chanlun_unified_index_v1.json) · [16条来源角色与规则版本](../../../catalog/chanlun_rule_history_v1.json) · [方法与边界](../../../docs/CHANLUN_UNIFIED_KNOWLEDGE.md)。保持108课各自来源和不同观点，不因出现新版笔规则就改写旧课。**这些索引仅说明研究体系的覆盖和可追溯性，不是108课图像、数学或收益已终审。**
