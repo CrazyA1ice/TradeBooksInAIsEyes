@@ -8,11 +8,9 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
-from datetime import datetime
 from pathlib import Path
-from decimal import Decimal
 
-from chanlun_event_lab_v1 import ClosedBar, dec, dt, replay, normalize, fractals, pair_gates, included
+from chanlun_event_lab_v1 import ClosedBar, dec, dt, replay, normalize, fractals, pair_gates
 
 ROOT=Path(__file__).resolve().parents[1]
 KIND="synthetic_non_market_fixture"
@@ -164,11 +162,8 @@ def validate_ledger(report):
     previous_clock=None
     latest={}
     active={}
-    for e in report["events"]:
-        require(e["action"] in VALID_EVENTS,"Unknown event action")
-        require(e["ordinal"]==len(latest.get("_ordinals",[]))+1 if False else e["ordinal"]>=1,
-                "Invalid ordinal")  # exact sequential check below
     for ordinal,e in enumerate(report["events"],1):
+        require(e["action"] in VALID_EVENTS,"Unknown event action")
         require(e["ordinal"]==ordinal,"Nonsequential event ordinal")
         require(e["event_id"]=="EV-"+digest({k:v for k,v in e.items() if k!="event_id"}),
                 "Event digest tampering")
