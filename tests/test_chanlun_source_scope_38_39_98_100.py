@@ -22,8 +22,8 @@ class SourceScope(unittest.TestCase):
             self.assertTrue(any(c["kind"] == "SOURCE" for c in e["claims"]))
             self.assertIn(f"chanlun_lesson{num:03d}.json", self.body)
             if num == 39:
-                self.assertTrue(any(c["id"] == "CL39-SOURCE-3" and c["kind"] == "SOURCE" and "编者" in c.get("summary", "") for c in e["claims"]))
-                self.assertIn("ROLE_MISMATCH_PENDING", self.body)
+                self.assertTrue(any(c["id"] == "CL39-SOURCE-3" and c["kind"] == "EDITORIAL" and "编者" in c.get("summary", "") for c in e["claims"]))
+                self.assertIn("ROLE_MISMATCH_RESOLVED", self.body)
                 self.assertIn("CL39-SOURCE-3", self.body)
             if num in (99,100):
                 self.assertTrue(any(c["kind"] == "EDITORIAL" for c in e["claims"]))
