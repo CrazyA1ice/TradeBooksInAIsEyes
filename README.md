@@ -64,3 +64,7 @@
 ## 增量结构事件实验室 V2（2026-11-08）
 
 已建立[不可变分型/笔候选事件与严格特征序列必要条件](docs/CHANLUN_INCREMENTAL_EVENTS_V2.md)：逐根已完成合成K线生成`OPEN / REVISE / RETRACT / REOPEN`，追踪每个候选真实观察时刻和前缀SHA；第67/71课无缺口、有缺口待反向确认、独立序列STRICT/AUXILIARY成员的反例均可审计。它只是在上一版V1局部候选之上增加**证据修订与边界**，**未**实现完整笔、线段、走势中枢或真实回测。可运行`python -B tools/audit_chanlun_incremental_witnesses_v2.py`查看纯合成审计。
+
+## 缠论笔候选前沿 V3（只读人工合成）
+
+在[增量事件V2](docs/CHANLUN_INCREMENTAL_EVENTS_V2.md)基础上新增[保守笔前沿与线段类型隔离](docs/CHANLUN_PEN_FRONTIER_V3.md)：同类分型替换极端值，等价极值显式待定、相反分型需通过冻结规则的局部必要门；新版终点出现时撤销旧候选且不更改历史事件。仅将局部笔投影为`UNDETERMINED`特征，**禁止在没有完整笔证明时将它转入正式线段**。对应[独立合成审计](tools/audit_chanlun_pen_frontier_witnesses_v3.py)。完整笔、线段、中枢、真实行情和收益仍未完成。

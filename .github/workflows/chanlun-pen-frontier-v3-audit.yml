@@ -1,0 +1,34 @@
+name: Chanlun v3 conservative pen frontier and provisional feature type fence
+on:
+  push:
+    branches: [feat/chanlun-pen-frontier-provisional-features-v3-20261108]
+    paths:
+      - ".github/workflows/chanlun-pen-frontier-v3-audit.yml"
+      - "tools/chanlun_pen_frontier_v3.py"
+      - "tools/audit_chanlun_pen_frontier_witnesses_v3.py"
+      - "tools/chanlun_incremental_events_v2.py"
+      - "tools/chanlun_event_lab_v1.py"
+      - "tests/test_chanlun_pen_frontier_v3.py"
+      - "catalog/chanlun_rule_history_v1.json"
+      - "experiments/fixtures/chanlun_prefix_synthetic_v1.json"
+      - "experiments/fixtures/chanlun_pen_frontier_synthetic_v3.json"
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  frontier-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: python -B -m unittest discover -s tests -p "test_chanlun_pen_frontier_v3.py" -v
+      - run: python -B -m unittest discover -s tests -p "test_chanlun_incremental_events_v2.py" -v
+      - run: python -B -m unittest discover -s tests -p "test_chanlun_event_lab_v1.py" -v
+      - run: python -B tools/chanlun_pen_frontier_v3.py --rule pen_077_exposition
+      - run: python -B tools/chanlun_pen_frontier_v3.py --rule pen_081_later_dated_post
+      - run: python -B tools/chanlun_pen_frontier_v3.py --rule pen_077_exposition --stop-at "2007-09-20T01:35:01+00:00"
+      - run: python -B tools/audit_chanlun_pen_frontier_witnesses_v3.py
+      - run: python -B tools/audit_chanlun_unified_knowledge.py --verify

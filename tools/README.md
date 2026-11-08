@@ -146,3 +146,9 @@
 ## 增量证据事件与第67/71课特征序列局部门 v2
 
 `tools/chanlun_incremental_events_v2.py`：闭合K线的不可变分型/笔局部门事件；`tools/audit_chanlun_incremental_witnesses_v2.py`：同时展示实际`REVISE`、`RETRACT`和严格三元素特征序列反例。单行运行：`python -B tools/audit_chanlun_incremental_witnesses_v2.py`。仅合成数据、只读，无完整交易体系。
+
+## V3保守笔前沿与未认证线段特征
+
+`tools/chanlun_pen_frontier_v3.py`在合成已闭合K线前缀上研究同类分型极值替换、等值冲突、局部必要笔候选和不可变修订历史。第77课旧版本、第81课后发版本均须固定可知时间与规则证据。所有`feature_projection`均标`UNDETERMINED`，未认证完成笔不能作为第67/71课线段STRICT元素。
+
+单行可运行`python -B tools/audit_chanlun_pen_frontier_witnesses_v3.py`重现新旧规则隔离、后来更低底点导致旧笔候选撤销、既往事件不被改写、严格成员门拒绝。实验仅合成，非收益回测。
