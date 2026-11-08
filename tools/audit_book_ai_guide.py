@@ -28,7 +28,7 @@ SOURCE_ROOTS = {
 }
 
 
-def audit(slug: str, acceptance_dir: str | None = None) -> dict:
+def audit(slug: str, acceptance_dir: str | None = None, tutorials: tuple[str, ...] = ()) -> dict:
     target = Path(acceptance_dir) if acceptance_dir else Path("deliverables") / f"{slug}_acceptance"
     if target.is_absolute() or ".." in target.parts:
         return {"status": "FAIL", "errors": ["Unsafe acceptance directory"]}
@@ -51,7 +51,14 @@ def audit(slug: str, acceptance_dir: str | None = None) -> dict:
     if list(base.rglob("*.pdf")) or list(base.rglob("*.PDF")):
         fail("Do not duplicate source PDFs inside the deep reading guide")
 
-    for name in FILES:
+    if len(tutorials) != len(set(tutorials)):
+        fail("Duplicate requested tutorial names")
+    for name in tutorials:
+        if Path(name).name != name or not name.endswith(".md") or not re.fullmatch(r"[0-9]{2}_[^/\\\\]+[.]md", name):
+            fail(f"Invalid tutorial filename: {name}")
+    required_docs = FILES + [name for name in tutorials if Path(name).name == name]
+
+    for name in required_docs:
         file = base / name
         if not file.is_file() or file.is_symlink():
             fail(f"Required AI deep guide file missing: {name}")
@@ -78,9 +85,20 @@ def audit(slug: str, acceptance_dir: str | None = None) -> dict:
                 if name != "README.md":
                     docs.setdefault("__source__" + name, "yes")
 
-    for name in FILES[1:]:
+    for name in required_docs[1:]:
         if name in docs and "__source__" + name not in docs:
             fail(f"Deep-reading chapter lacks links back to canonical evidence: {name}")
+
+    for name in tutorials:
+        tutorial = docs.get(name, "")
+        if not tutorial:
+            continue
+        if len(tutorial.strip()) < 1800:
+            fail(f"Worked tutorial lacks substantive steps: {name}")
+        if tutorial.count("```mermaid") + tutorial.count("```text") < 1:
+            fail(f"Worked tutorial needs a readable conditional or timeline diagram: {name}")
+        if not all(term in tutorial for term in ("AI", "条件", "原", "未")) or not any(term in tutorial for term in ("自测", "自检", "理解检查")):
+            fail(f"Worked tutorial misses source/condition/unknown/self-test boundaries: {name}")
 
     explain = docs.get(FILES[1], "")
     argument = docs.get(FILES[2], "")
@@ -105,7 +123,8 @@ def audit(slug: str, acceptance_dir: str | None = None) -> dict:
         "status": "PASS" if not errors else "FAIL",
         "book_slug": slug,
         "required_files_present": len(docs) - sum(k.startswith("__source__") for k in docs),
-        "minimum_files": len(FILES),
+        "minimum_files": len(required_docs),
+        "required_worked_tutorials": len(tutorials),
         "diagram_sections": diagram_titles,
         "mermaid_diagrams": mermaid_count,
         "ascii_diagrams": ascii_count,
@@ -122,8 +141,9 @@ def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--book-slug", required=True)
     p.add_argument("--acceptance-dir", help="Optional legacy deliverable folder, relative to repository root")
+    p.add_argument("--require-tutorial", action="append", default=[], help="Required in-guide worked tutorial markdown basename; repeat per topic")
     args = p.parse_args()
-    report = audit(args.book_slug, args.acceptance_dir)
+    report = audit(args.book_slug, args.acceptance_dir, tuple(args.require_tutorial))
     print(json.dumps(report, ensure_ascii=False, sort_keys=True))
     return 0 if report["status"] == "PASS" else 1
 
