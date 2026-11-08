@@ -20,7 +20,7 @@ VERIFIED = ROOT / "reports/source_inventory/chanlun_20261107_verified.json"
 # assertion that other pages in these lessons have been independently inspected.
 TARGETS = {
     1: [30],                        # L009 image/formula page
-    3: [162, 257, 292, 293, 294, 295, 297, 300, 301],  # L053/L059/L062
+    3: [162, 254, 255, 256, 257, 292, 293, 294, 295, 296, 297, 300, 301],  # L053/L059/L062
     5: [225, 395, 396, 397, 398, 400],                   # L100/L108
 }
 MAX_PAGES = 20
