@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "contract_id": "CL35-AUTHOR-LOWEST-CENTER-DEFINITIONAL-INSTANCE-V1",
+  "synthetic_only": true,
+  "cases": [
+    {
+      "id": "first_three_equal",
+      "input": {
+        "kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+        "as_of": "2026-11-08T09:02:00+00:00",
+        "events": [
+          {
+            "trade_id": 1,
+            "observed_at": "2026-11-08T09:00:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 2,
+            "observed_at": "2026-11-08T09:01:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 3,
+            "observed_at": "2026-11-08T09:02:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          }
+        ]
+      },
+      "expected_instance_count": 1,
+      "expected_raw_close_flags": [
+        false
+      ],
+      "expected_status": "AUTHOR_BASE_CENTER_AXIOM_APPLIES_IN_SYNTHETIC_STREAM"
+    },
+    {
+      "id": "before_third",
+      "input": {
+        "kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+        "as_of": "2026-11-08T09:01:00+00:00",
+        "events": [
+          {
+            "trade_id": 1,
+            "observed_at": "2026-11-08T09:00:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 2,
+            "observed_at": "2026-11-08T09:01:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 3,
+            "observed_at": "2026-11-08T09:02:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          }
+        ]
+      },
+      "expected_instance_count": 0,
+      "expected_raw_close_flags": [],
+      "expected_status": "NO_AUTHORED_BASE_CENTER_INSTANCE_IN_VISIBLE_PREFIX"
+    },
+    {
+      "id": "extend_equal_fourth",
+      "input": {
+        "kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+        "as_of": "2026-11-08T09:03:00+00:00",
+        "events": [
+          {
+            "trade_id": 1,
+            "observed_at": "2026-11-08T09:00:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 2,
+            "observed_at": "2026-11-08T09:01:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 3,
+            "observed_at": "2026-11-08T09:02:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 4,
+            "observed_at": "2026-11-08T09:03:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          }
+        ]
+      },
+      "expected_instance_count": 1,
+      "expected_raw_close_flags": [
+        false
+      ],
+      "expected_status": "AUTHOR_BASE_CENTER_AXIOM_APPLIES_IN_SYNTHETIC_STREAM"
+    },
+    {
+      "id": "two_equal_runs_separated",
+      "input": {
+        "kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+        "as_of": "2026-11-08T09:06:00+00:00",
+        "events": [
+          {
+            "trade_id": 1,
+            "observed_at": "2026-11-08T09:00:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 2,
+            "observed_at": "2026-11-08T09:01:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 3,
+            "observed_at": "2026-11-08T09:02:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 4,
+            "observed_at": "2026-11-08T09:03:00+00:00",
+            "price": "3",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 5,
+            "observed_at": "2026-11-08T09:04:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 6,
+            "observed_at": "2026-11-08T09:05:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 7,
+            "observed_at": "2026-11-08T09:06:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          }
+        ]
+      },
+      "expected_instance_count": 2,
+      "expected_raw_close_flags": [
+        true,
+        false
+      ],
+      "expected_status": "AUTHOR_BASE_CENTER_AXIOM_APPLIES_IN_SYNTHETIC_STREAM"
+    },
+    {
+      "id": "noncontiguous_equal_not_a_triple",
+      "input": {
+        "kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+        "as_of": "2026-11-08T09:04:00+00:00",
+        "events": [
+          {
+            "trade_id": 1,
+            "observed_at": "2026-11-08T09:00:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 2,
+            "observed_at": "2026-11-08T09:01:00+00:00",
+            "price": "3",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 3,
+            "observed_at": "2026-11-08T09:02:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 4,
+            "observed_at": "2026-11-08T09:03:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 5,
+            "observed_at": "2026-11-08T09:04:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          }
+        ]
+      },
+      "expected_instance_count": 1,
+      "expected_raw_close_flags": [
+        false
+      ],
+      "expected_status": "AUTHOR_BASE_CENTER_AXIOM_APPLIES_IN_SYNTHETIC_STREAM"
+    },
+    {
+      "id": "exact_decimal_canonical_equal",
+      "input": {
+        "kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+        "as_of": "2026-11-08T09:02:00+00:00",
+        "events": [
+          {
+            "trade_id": 1,
+            "observed_at": "2026-11-08T09:00:00+00:00",
+            "price": "2.0",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 2,
+            "observed_at": "2026-11-08T09:01:00+00:00",
+            "price": "2.00",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 3,
+            "observed_at": "2026-11-08T09:02:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          }
+        ]
+      },
+      "expected_instance_count": 1,
+      "expected_raw_close_flags": [
+        false
+      ],
+      "expected_status": "AUTHOR_BASE_CENTER_AXIOM_APPLIES_IN_SYNTHETIC_STREAM"
+    },
+    {
+      "id": "future_change_not_asof_visible",
+      "input": {
+        "kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+        "as_of": "2026-11-08T09:02:00+00:00",
+        "events": [
+          {
+            "trade_id": 1,
+            "observed_at": "2026-11-08T09:00:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 2,
+            "observed_at": "2026-11-08T09:01:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 3,
+            "observed_at": "2026-11-08T09:02:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 4,
+            "observed_at": "2026-11-08T09:03:00+00:00",
+            "price": "99",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 5,
+            "observed_at": "2026-11-08T09:04:00+00:00",
+            "price": "100",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          }
+        ]
+      },
+      "expected_instance_count": 1,
+      "expected_raw_close_flags": [
+        false
+      ],
+      "expected_status": "AUTHOR_BASE_CENTER_AXIOM_APPLIES_IN_SYNTHETIC_STREAM"
+    },
+    {
+      "id": "observed_mixed_version_blocks",
+      "input": {
+        "kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+        "as_of": "2026-11-08T09:02:00+00:00",
+        "events": [
+          {
+            "trade_id": 1,
+            "observed_at": "2026-11-08T09:00:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 2,
+            "observed_at": "2026-11-08T09:01:00+00:00",
+            "price": "2",
+            "rule_version": "DIFFERENT_RULE"
+          },
+          {
+            "trade_id": 3,
+            "observed_at": "2026-11-08T09:02:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          }
+        ]
+      },
+      "expected_instance_count": 0,
+      "expected_raw_close_flags": [],
+      "expected_status": "RULE_VERSION_INCOMPATIBLE_NO_AUTHORED_BASE_INSTANCE"
+    },
+    {
+      "id": "first_price_break_closes_only_raw_run",
+      "input": {
+        "kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+        "as_of": "2026-11-08T09:03:00+00:00",
+        "events": [
+          {
+            "trade_id": 1,
+            "observed_at": "2026-11-08T09:00:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 2,
+            "observed_at": "2026-11-08T09:01:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 3,
+            "observed_at": "2026-11-08T09:02:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 4,
+            "observed_at": "2026-11-08T09:03:00+00:00",
+            "price": "3",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          }
+        ]
+      },
+      "expected_instance_count": 1,
+      "expected_raw_close_flags": [
+        true
+      ],
+      "expected_status": "AUTHOR_BASE_CENTER_AXIOM_APPLIES_IN_SYNTHETIC_STREAM"
+    },
+    {
+      "id": "asof_before_first_event",
+      "input": {
+        "kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+        "as_of": "2026-11-08T08:59:00+00:00",
+        "events": [
+          {
+            "trade_id": 1,
+            "observed_at": "2026-11-08T09:00:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 2,
+            "observed_at": "2026-11-08T09:01:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          },
+          {
+            "trade_id": 3,
+            "observed_at": "2026-11-08T09:02:00+00:00",
+            "price": "2",
+            "rule_version": "CL35_PRIMITIVE_LOCAL_SYNTHETIC_V1"
+          }
+        ]
+      },
+      "expected_instance_count": 0,
+      "expected_raw_close_flags": [],
+      "expected_status": "NO_AUTHORED_BASE_CENTER_INSTANCE_IN_VISIBLE_PREFIX"
+    }
+  ]
+}
