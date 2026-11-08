@@ -33,6 +33,26 @@ TARGETS = {
 ROLE_MARKERS = ("娇注", "（娇：", "(娇：", "编者", "回复", "留言")
 MAX_EXCERPTS_PER_PAGE = 3
 MAX_EXCERPT_CHARS = 160
+# These are document-source boundaries, not assertions of author identity.
+PAGE_SCOPES = {
+    "2:294": "LOW_NATIVE_TEXT_IMAGE_UNREVIEWED",
+    "2:295": "LOW_NATIVE_TEXT_IMAGE_UNREVIEWED",
+    "2:340": "LOW_NATIVE_TEXT_IMAGE_UNREVIEWED",
+    "2:341": "APPENDED_INTERACTIVE_QA_NOT_MAIN_PROOF",
+    "5:204": "CONTINUED_MARKET_EXAMPLE_NOT_THEOREM_PROOF",
+    "5:205": "CONTINUED_MARKET_EXAMPLE_NOT_THEOREM_PROOF",
+    "5:206": "SEPARATELY_DATED_2008_02_20_ARTICLE",
+    "5:207": "FOLLOWING_SEPARATELY_DATED_ARTICLE",
+}
+REQUIRED_BOUNDARY_TEXT = {
+    "2:340": ("同级别",),
+    "2:341": ("解盘及互动问答",),
+    "5:204": ("4672",),
+    "5:205": ("4672",),
+    "5:206": ("2008-02-20", "大规模增发猛于虎"),
+    "5:207": ("多头",),
+}
+
 
 
 def digest_file(path: Path) -> str:
@@ -92,11 +112,18 @@ def scan(discovery: bool = False) -> list[dict]:
                 if pins is not None and pins[key] != sha:
                     raise ValueError(f"Original native text changed: {key}")
                 normalized = " ".join(raw.split())
+                for anchor in REQUIRED_BOUNDARY_TEXT.get(key, ()):
+                    if anchor not in normalized:
+                        raise ValueError(f"Document scope separator or source cue missing: {key} {anchor!r}")
+                if PAGE_SCOPES[key] == "LOW_NATIVE_TEXT_IMAGE_UNREVIEWED" and len(raw) >= 100:
+                    raise ValueError(f"Low-text page evidence status must be reviewed: {key}")
                 row = {
                     "key": key,
                     "source_pdf_sha256": item["sha256"],
                     "native_text_sha256": sha,
                     "native_text_chars": len(raw),
+                    "source_scope": PAGE_SCOPES[key],
+                    "native_text_coverage": "LOW_IMAGE_NOT_REVIEWED" if len(raw) < 100 else "BOUNDED_TEXT_ONLY",
                     "role_markers": {m: normalized.count(m) for m in ROLE_MARKERS if m in normalized},
                     "bounded_cues": cues(raw, terms),
                     "author_or_editor_historical_identity_verified": False,
