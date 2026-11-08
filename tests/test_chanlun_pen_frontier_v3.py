@@ -12,7 +12,7 @@ import chanlun_pen_frontier_v3 as v3
 import chanlun_incremental_events_v2 as v2
 from chanlun_event_lab_v1 import Fractal, Merged, dt
 
-FIX=json.loads((ROOT/"experiments/fixtures/chanlun_prefix_synthetic_v1.json").read_text("utf8"))
+FIX=json.loads((ROOT/"experiments/fixtures/chanlun_pen_frontier_synthetic_v3.json").read_text("utf8"))
 OLD={"version_id":"pen_077_exposition","attested_known_at":"2007-09-19T09:00:00+08:00",
      "proof_ref":"synthetic-paper-availability","proof_kind":"synthetic_fixture"}
 NEW={"version_id":"pen_081_later_dated_post","attested_known_at":"2007-09-19T09:00:00+08:00",
