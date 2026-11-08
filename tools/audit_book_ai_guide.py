@@ -97,7 +97,7 @@ def audit(slug: str, acceptance_dir: str | None = None, tutorials: tuple[str, ..
             fail(f"Worked tutorial lacks substantive steps: {name}")
         if tutorial.count("```mermaid") + tutorial.count("```text") < 1:
             fail(f"Worked tutorial needs a readable conditional or timeline diagram: {name}")
-        if not all(term in tutorial for term in ("AI", "条件", "原", "未", "自测")):
+        if not all(term in tutorial for term in ("AI", "条件", "原", "未")) or not any(term in tutorial for term in ("自测", "自检", "理解检查")):
             fail(f"Worked tutorial misses source/condition/unknown/self-test boundaries: {name}")
 
     explain = docs.get(FILES[1], "")
