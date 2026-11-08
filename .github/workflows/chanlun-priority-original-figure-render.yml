@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - "tools/render_chanlun_priority_original_pages.py"
+      - "tools/audit_chanlun_native_figure_resolution.py"
       - ".github/workflows/chanlun-priority-original-figure-render.yml"
       - "deliverables/chanlun_108_acceptance/04_AI_GUIDE/**"
   workflow_dispatch:
@@ -35,6 +36,8 @@ jobs:
       - name: Render source figure lineage around 7-8-9 and pen revision (20 pages)
         shell: bash
         run: python -B tools/render_chanlun_priority_original_pages.py --target-set lineage --out "$RUNNER_TEMP/chanlun-original-figure-lineage" --full-dpi 210 --crop-dpi 340
+      - name: Audit original raster resolution before any pixel-price claim
+        run: python -B tools/audit_chanlun_native_figure_resolution.py --manifest "$RUNNER_TEMP/chanlun-original-figure-lineage/page_evidence_manifest.json"
       - name: Upload seven-day source figure lineage evidence
         uses: actions/upload-artifact@v4
         with:
