@@ -12,7 +12,16 @@ def docs():
     h={v["volume"]:v["sha256"] for v in idx["volumes"][:2]}
     return [idx,src,ev,reports,overview,graph,h]
 class ProvenanceTests(unittest.TestCase):
-    def test_all_source_claims(self):self.assertEqual(audit(*docs())["claims"],32)
+    def test_all_source_claims(self):
+        self.assertEqual(audit(*docs())["claims"],33)
+        card = docs()[2][4]
+        claim = next(x for x in card["claims"] if x["id"] == "CL35-SO-9")
+        self.assertEqual(claim["kind"], "SOURCE")
+        self.assertEqual(claim["pdf_pages"], [291])
+        self.assertEqual(
+            claim["source_anchor"]["native_text_sha256"],
+            "1a2c291cff189ea4de5bef2ecf152e9888773d1194b0ed4e7218f4cd0f3b846b")
+
     def test_tampered_pdf_hash(self):
         x=docs();x[-1][2]="wrong"
         with self.assertRaises(AssertionError):audit(*x)
