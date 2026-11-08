@@ -12,7 +12,18 @@ def data():
     overview=(ROOT/"analyses/books/chanlun/volumes/LESSONS_016_020_SYNTHESIS.md").read_text(encoding="utf-8")
     return [idx,source,ev,report,overview,idx["volumes"][0]["sha256"]]
 class EvidenceAudit(unittest.TestCase):
-    def test_accepted(self):self.assertEqual(audit(*data())["claims"],32)
+    def test_accepted(self):
+        docs = data()
+        self.assertEqual(audit(*docs)["claims"], 34)
+        for lesson_index, claim_id, pages in ((2, "CL018-S07", [235]),
+                                              (4, "CL020-S08", [246, 247])):
+            record = next(x for x in docs[2][lesson_index]["claims"] if x["id"] == claim_id)
+            self.assertEqual(record["kind"], "SOURCE")
+            self.assertEqual(record["pdf_pages"], pages)
+            self.assertEqual(sorted(map(int,
+                record["source_anchor"]["native_text_sha256_by_physical_page"])), pages)
+            self.assertTrue(record["source_anchor"]["inline_editorial_markers_present"])
+
     def test_wrong_pdf_sha_rejected(self):
         x=data();x[-1]="wrong"
         with self.assertRaises(AssertionError):audit(*x)
