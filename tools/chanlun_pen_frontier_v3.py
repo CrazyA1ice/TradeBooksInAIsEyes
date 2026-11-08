@@ -195,7 +195,7 @@ def provisional_feature_audit(pen_payloads):
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--fixture",default="experiments/fixtures/chanlun_prefix_synthetic_v1.json")
+    p.add_argument("--fixture",default="experiments/fixtures/chanlun_pen_frontier_synthetic_v3.json")
     p.add_argument("--direction",choices=("UP","DOWN"),default="UP")
     p.add_argument("--rule",choices=("pen_077_exposition","pen_081_later_dated_post"),
                    default="pen_077_exposition")
