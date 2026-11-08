@@ -10,6 +10,7 @@ on:
       - "tests/test_chanlun_pen_frontier_v3.py"
       - "catalog/chanlun_rule_history_v1.json"
       - "experiments/fixtures/chanlun_prefix_synthetic_v1.json"
+      - "experiments/fixtures/chanlun_pen_frontier_synthetic_v3.json"
   pull_request:
     branches: [main]
 permissions:
