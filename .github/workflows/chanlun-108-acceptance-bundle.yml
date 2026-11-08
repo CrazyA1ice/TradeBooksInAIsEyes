@@ -24,6 +24,10 @@ on:
       - "tests/test_chanlun_38_99_textual_proof_obligations.py"
       - "tests/test_chanlun_bridge_text_audit.py"
       - "tests/test_chanlun_crosslesson_proof_text.py"
+      - "tests/test_chanlun_35_38_99_proof_text.py"
+      - "tools/inspect_chanlun_35_38_99_proof_text_readonly.py"
+      - "reports/source_inventory/chanlun_35_38_99_native_text_sha256.json"
+      - "reports/source_inventory/chanlun_38_99_proof_obligation_ledger.json"
       - "tools/inspect_chanlun_crosslesson_proof_text_readonly.py"
       - "reports/source_inventory/chanlun_crosslesson_proof_native_text_sha256.json"
       - "reports/source_inventory/chanlun_bridge_native_text_sha256.json"
@@ -70,6 +74,8 @@ jobs:
         run: python -B -m unittest discover -s tests -p 'test_chanlun_bridge_text_audit.py' -v
       - name: Check cross-lesson source SHA locks, editor roles and proof claims
         run: python -B -m unittest discover -s tests -p 'test_chanlun_crosslesson_proof_text.py' -v
+      - name: Reject fake proof upgrades from empty-native-text pages or later dated material
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_35_38_99_proof_text.py' -v
       - name: Verify as-of-only visualization and matched-future branches (offline Node)
         run: node tests/test_chanlun_asof_player.mjs
       - name: Assemble offline materials from canonical originals in runner temp
