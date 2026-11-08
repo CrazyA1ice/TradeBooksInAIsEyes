@@ -15,6 +15,7 @@
 | **浏览110条未来验证命题与36个跨课案例** | [形式化研究案例](deliverables/chanlun_108_acceptance/03_formal_cases/README.md) |
 | **研究下一本书怎么做** | **[交易书籍AI深度研究工作流（G0—G6）](docs/BOOK_RESEARCH_WORKFLOW.md)** |
 | **文件去重与核验情况** | [规范来源与清理报告](deliverables/chanlun_108_acceptance/00_REVIEW/ACCEPTANCE_REPORT.md) |
+| **哪些细节仍可能遗漏或待复核？** | [11处优先复核入口与全书覆盖边界](deliverables/chanlun_108_acceptance/00_REVIEW/DETAIL_COVERAGE_GAPS.md) |
 
 ## 一份内容只保存一个规范文件
 

@@ -160,7 +160,8 @@ def verify():
 
     # Reader-first entry points must exist and allow navigation to canonical
     # evidence. Long-tail details are selected, not falsely claimed exhaustive.
-    guides=(BUNDLE/"01_FAST_READ.md", BUNDLE/"02_SPARK_INDEX.md")
+    guides=(BUNDLE/"01_FAST_READ.md", BUNDLE/"02_SPARK_INDEX.md",
+            READ/"DETAIL_COVERAGE_GAPS.md")
     local_links_checked=0
     for doc in guides:
         ok(doc.is_file(), "Missing reader-first guide: "+str(doc))
@@ -185,6 +186,15 @@ def verify():
        "At least 20 distinct source-linked detail inspiration entries required")
     ok("未" in spark_text and "AI联想" in spark_text,
        "Spark catalog must distinguish AI invention and unverified details")
+    gap_ledger=(guides[2].read_text(encoding="utf-8") if guides[2].is_file() else "")
+    gap_evidence_lessons=set(re.findall(r"knowledge/evidence/chanlun_lesson([0-9]{3})[.]json", gap_ledger))
+    ok("REGION_AUDIT_NOT_DOCUMENTED" in gap_ledger and
+       "VISUAL_LIMITED" in gap_ledger and "PROVENANCE_LIMITED" in gap_ledger,
+       "Detail gap ledger must distinguish first-pass from region and visual verification")
+    ok(len(gap_evidence_lessons)>=11 and {"009","053","059","100","108"}.issubset(gap_evidence_lessons),
+       "Reader gap ledger must identify source-linked high-priority evidence")
+    ok("未做" in gap_ledger and "NOT_RUN" in gap_ledger,
+       "Detail gap ledger must disclose unperformed visual review and empirical tests")
     summary={"status":"PASS" if not errors else "FAIL",
              "source_volume_pdfs_sha256_verified":len(index["volumes"]),
              "canonical_files_git_blob_sha1_verified":len(canonical),
@@ -194,6 +204,8 @@ def verify():
              "prospective_cases":len(cs),"cross_lesson_examples":len(ex),
              "reader_first_overview_present":guides[0].is_file(),
              "inspiration_cards":len(spark_ids),
+             "detail_gap_ledger_present":guides[2].is_file(),
+             "prioritized_gap_evidence_lessons":len(gap_evidence_lessons),
              "reader_guide_local_links_checked":local_links_checked,
              "empirical_backtests_run":0,
              "complete_pen_parser_claimed":False,
