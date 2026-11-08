@@ -28,8 +28,14 @@ SOURCE_ROOTS = {
 }
 
 
-def audit(slug: str) -> dict:
-    base = ROOT / "deliverables" / f"{slug}_acceptance" / "04_AI_GUIDE"
+def audit(slug: str, acceptance_dir: str | None = None) -> dict:
+    target = Path(acceptance_dir) if acceptance_dir else Path("deliverables") / f"{slug}_acceptance"
+    if target.is_absolute() or ".." in target.parts:
+        return {"status": "FAIL", "errors": ["Unsafe acceptance directory"]}
+    folder = (ROOT / target).resolve()
+    if not folder.is_relative_to((ROOT / "deliverables").resolve()):
+        return {"status": "FAIL", "errors": ["Acceptance folder must be under deliverables"]}
+    base = folder / "04_AI_GUIDE"
     errors: list[str] = []
     docs: dict[str, str] = {}
     local_links = 0
@@ -115,8 +121,9 @@ def audit(slug: str) -> dict:
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--book-slug", required=True)
+    p.add_argument("--acceptance-dir", help="Optional legacy deliverable folder, relative to repository root")
     args = p.parse_args()
-    report = audit(args.book_slug)
+    report = audit(args.book_slug, args.acceptance_dir)
     print(json.dumps(report, ensure_ascii=False, sort_keys=True))
     return 0 if report["status"] == "PASS" else 1
 
