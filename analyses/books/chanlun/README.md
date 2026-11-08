@@ -164,3 +164,11 @@
 [五课综合研究](volumes/LESSONS_091_095_SYNTHESIS.md) · [91页原书来源审计](../../../reports/source_inventory/chanlun_lessons091_095_source_visual_review.md) · [笔四态FSM](../../../experiments/protocols/chanlun_lesson091_four_state_fsm.md) · [中枢Zn监视器](../../../experiments/protocols/chanlun_lesson092_midpoint_monitor.md) · [策略与T+1](../../../experiments/protocols/chanlun_lessons093_094_policy_and_fills.md) · [成本风险](../../../experiments/protocols/chanlun_lesson095_remaining_exposure.md)。
 
 源第五卷p.64–154共91页SHA锁定，13页压缩原图渲染、4页实际目视；作者原篇、后附日期文章及娇注独立标记。局部合成测试不证明真实交易收益或完整笔/段解析器。
+
+## 第二十批：第96–100课（第五卷）
+
+[96课](chapters/lesson_096.md) · [97课](chapters/lesson_097.md) · [98课](chapters/lesson_098.md) · [99课](chapters/lesson_099.md) · [100课](chapters/lesson_100.md)。
+
+[五课综合](volumes/LESSONS_096_100_SYNTHESIS.md) · [78页原书来源/后编注](../../../reports/source_inventory/chanlun_lessons096_100_source_visual_review.md) · [第100课作者/编辑异议](../../../experiments/protocols/chanlun_lesson100_disputed_branches.md)。
+
+原PDF第五卷p.155–232共78页SHA锁定、13页低清预览其中4页实际目视；对同一汇编中作者初发与后来娇注保留冲突。纯合成局部模型不证明全套走势理论、真实成交或投资利润。
