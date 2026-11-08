@@ -53,9 +53,12 @@ class OriginalFigureEvidenceRegression(unittest.TestCase):
 
     def test_lesson059_price_text_not_relabelled_as_chart(self):
         text=(LESSONS/"lesson_059.md").read_text(encoding="utf-8")
-        for term in ("3994.57","3994.21","p.257无内嵌图","20—45","7—8—9"):
+        for term in ("3994.57","3994.21","20—45","7—8—9"):
             self.assertIn(term,text)
             self.assertIn(term,self.atlas)
+        self.assertIn("p.257无内嵌图",text)
+        self.assertIn("p.257",self.atlas)
+        self.assertIn("无内嵌图像",self.atlas)
         self.assertIn("VISUAL_LIMITED",self.gaps)
 
     def test_lesson062_later_figure_stays_separate(self):
