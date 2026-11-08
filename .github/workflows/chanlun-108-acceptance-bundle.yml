@@ -22,6 +22,8 @@ on:
       - "tests/test_chanlun_decomposition_proof_obligations.py"
       - "tests/test_chanlun_original_proof_text_anchors.py"
       - "tests/test_chanlun_38_99_textual_proof_obligations.py"
+      - "tests/test_chanlun_bridge_text_audit.py"
+      - "reports/source_inventory/chanlun_bridge_native_text_sha256.json"
       - "tests/test_chanlun_source_scope_38_39_98_100.py"
       - "tools/audit_chanlun_native_figure_resolution.py"
       - ".github/workflows/chanlun-108-acceptance-bundle.yml"
@@ -61,6 +63,8 @@ jobs:
         run: python -B -m unittest discover -s tests -p 'test_chanlun_38_99_textual_proof_obligations.py' -v
       - name: Verify source roles and separate parsing, action and future obligations
         run: python -B -m unittest discover -s tests -p 'test_chanlun_source_scope_38_39_98_100.py' -v
+      - name: Verify locked page source roles and evidence fingerprints
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_bridge_text_audit.py' -v
       - name: Verify as-of-only visualization and matched-future branches (offline Node)
         run: node tests/test_chanlun_asof_player.mjs
       - name: Assemble offline materials from canonical originals in runner temp

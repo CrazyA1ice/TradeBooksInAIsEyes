@@ -3,7 +3,7 @@
 import hashlib,json
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-TYPES={"SOURCE","INTERPRETATION","INFERENCE","HYPOTHESIS","EVIDENCE"}
+TYPES={"SOURCE","EDITORIAL","INTERPRETATION","INFERENCE","HYPOTHESIS","EVIDENCE"}
 LENSES=("第一重","第二重","第三重","第四重","第五重","第六重","第七重")
 def audit(index,inventory,claims,reports,overview,graph,sha_by_volume):
     v=index["volumes"][1]
@@ -39,7 +39,12 @@ def audit(index,inventory,claims,reports,overview,graph,sha_by_volume):
         if n==36:assert "编者" in md and "重组" in md
         if n==37:assert "同级别" in md and "创新" in md
         if n==38:assert "唯一" in md and "盘整" in md
-        if n==39:assert "编者" in md and "遗漏" in md
+        if n==39:
+            assert "编者" in md and "遗漏" in md
+            note=next(c for c in ev["claims"] if c["id"]=="CL39-SOURCE-3")
+            assert note["kind"]=="EDITORIAL"
+            assert note["attribution_evidence"]["physical_pdf_page"]==354
+            assert note["attribution_evidence"]["marker_in_native_text"]=="娇注"
         if n==40:assert "现金" in md and "库存" in md
     assert "73" in overview and "唯一性" in overview and "编者" in overview
     for n in range(36,41):assert f"lesson_{n:03d}.md" in overview

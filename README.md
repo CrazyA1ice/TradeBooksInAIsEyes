@@ -8,6 +8,7 @@
 |---|---|
 | **验收已经研究的《缠论》** | [《缠论》五卷108课正式验收入口](deliverables/chanlun_108_acceptance/README.md) |
 | **5分钟看懂《缠论》** | **[全书一屏速览与20分钟思想地图](deliverables/chanlun_108_acceptance/01_FAST_READ.md)** |
+| **核对第39/98/100课原PDF文字与编者注** | **[七页原文核验与来源身份更正](deliverables/chanlun_108_acceptance/04_AI_GUIDE/17_第39与98至100课原PDF页级文字复核.md)** |
 | **把晦涩定理和全书论证读懂（必交模块）** | **[《缠论》AI深度导读：12组核心命题、行文脉络和8张教学图](deliverables/chanlun_108_acceptance/04_AI_GUIDE/README.md)** |
 | **挖掘不该错过的细节** | **[20个灵感细节切口](deliverables/chanlun_108_acceptance/02_SPARK_INDEX.md)** |
 | **阅读全书综合评述** | [AI独立全书评述](deliverables/chanlun_108_acceptance/00_REVIEW/FINAL_BOOK_SYNTHESIS.md) |

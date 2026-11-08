@@ -53,12 +53,21 @@
     },
     {
       "id": "CL39-SOURCE-3",
-      "kind": "SOURCE",
+      "kind": "EDITORIAL",
       "volume": 2,
       "pdf_pages": [
         354
       ],
-      "summary": "编者指出 Ai 与 Ai+2 未创新高低的情况原文遗漏。"
+      "summary": "编者指出 Ai 与 Ai+2 未创新高低的情况原文遗漏。",
+      "attribution_evidence": {
+        "source_role": "later_compiler_annotation",
+        "physical_pdf_page": 354,
+        "marker_in_native_text": "娇注",
+        "native_page_text_sha256": "ceba7246c5af7a265704d91088c110d05c4f6994144ca7dce5a6da78de46d87d",
+        "original_pdf_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+        "discovery_run_id": 42484155976,
+        "id_retained_for_backward_compatibility": true
+      }
     },
     {
       "id": "CL39-INTERPRETATION-4",
