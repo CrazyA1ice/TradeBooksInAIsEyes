@@ -9,6 +9,7 @@
 | 全文一体化综合与读者入口 | 已整理 | `deliverables/chanlun_108_acceptance/00_REVIEW/` |
 | 理论深读、16条来源推理、16组一致性争议 | 已完成对应研究阶段，保留明确限制 | `catalog/chanlun_theory_argument_links_v1.json`、`catalog/chanlun_crosslesson_consistency_v1.json` |
 | 108课逻辑主脊 | 11阶段、106条解释性概念桥、八道证明缺口 | `catalog/chanlun_108_fullbook_logical_spine_v1.json` |
+| **F01 完成证书类型与可递归资格（v4.2.0）** | **本轮理论深化：** 从第17/18/35/38及第62—81课查出最低构造、合法破坏、完整次级走势、可上级递归不是同一类型；第18课延伸容许性产生**条件性前缀不可判定**。尚无完整原作者全情形结束算法，**F01仍OPEN** | [本轮全文](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_COMPLETION_PROOF_OBLIGATIONS.md) / `catalog/chanlun_f01_typed_completion_obligations_v1.json` |
 | **F01/F02 跨课边界补足（本轮v4.1.0）** | **研究进展：已厘清第三买/卖“不破界”含等号，与严格闭区间不接触、完整中枢破坏不同；未通过合格子走势/首次回试/独立中枢证明** | [本轮全文](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_F02_BOUNDARY_BRIDGE.md) / `catalog/chanlun_f01_f02_third_point_boundary_v1.json` |
 | **F01/F02 最低级别至真实完成中枢** | **OPEN**：合法成员、终结与首次回试尚无完整来源证书 | [全书主脊](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_LOGICAL_CONTINUITY.md) |
 | **F03 背驰力度及历史完成时点** | **OPEN**：未建立全部合法段与指标性质的完整证明 | 同上 |
@@ -16,6 +17,6 @@
 | **OB99-EXIST/LOCATION** | **BLOCKED**：全部合法未来路径有限时间高层中枢与首次位置待证 | 同上 |
 | **F08 三类点到实际收益** | **NOT_RUN**：真实行情、成交、交易成本/样本外检验均未运行 | `experiments/`（仅研究计划和合成例） |
 
-**下一个理论动作**：已锁定F01/F02数值边界不是结构证书；进一步查找作者对真实次级走势**合法完成、首次回试成员资格及边界接触**的明确原文，以确定严格结构关系。随后检验固定`R_g`中竞争切点，然后检验固定`R_g`中所有竞争切点，最后才有资格尝试第38/99课的全称证明。不重复几十个没有理论增量的相似假设价格测试。
+**下一个理论动作**：F01已锁定跨级资格与条件性前缀不确定；应进一步核查第67/71/78课的原图与原文终结充分条件及第81课历史笔版本，才能认真寻找真实次级走势**合法完成、首次回试成员资格及边界接触**的明确原文，以确定严格结构关系。随后检验固定`R_g`中竞争切点，然后检验固定`R_g`中所有竞争切点，最后才有资格尝试第38/99课的全称证明。不重复几十个没有理论增量的相似假设价格测试。
 
 **下一个流程动作**：任何新增研究必须先更新规范源，再在同一工作步骤修`docs/BOOK_RESEARCH_WORKFLOW.md`与`WORK_LOG.md`、版本号，最后同步镜像和做完整性测试。
