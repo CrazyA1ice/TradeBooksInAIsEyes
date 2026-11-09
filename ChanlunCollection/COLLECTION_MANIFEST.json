@@ -3200,8 +3200,8 @@
     {
       "source_path": "tests/test_book_collection.py",
       "mirror_path": "ChanlunCollection/tests/test_book_collection.py",
-      "git_blob_sha": "5edc90492a91b6bdf8a07d525c69df35616294e6",
-      "size_bytes": 4836
+      "git_blob_sha": "0deccf8a732c9ed456db1869c82e1b555218b76e",
+      "size_bytes": 5028
     },
     {
       "source_path": "tests/test_chanlun20_center_extension_membership_gate.py",
