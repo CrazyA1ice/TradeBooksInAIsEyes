@@ -37,6 +37,9 @@ on:
       - "tests/test_chanlun20_center_extension_membership_gate.py"
       - "tests/test_chanlun_whole_book_integrated.py"
       - "tests/test_chanlun_deep_theory_second_pass.py"
+      - "tests/test_chanlun_crosslesson_consistency.py"
+      - "tools/audit_chanlun_crosslesson_consistency.py"
+      - "catalog/chanlun_crosslesson_consistency_v1.json"
       - "tools/audit_chanlun_theory_second_pass.py"
       - "catalog/chanlun_theory_argument_links_v1.json"
       - "tools/audit_chanlun_whole_book_integrated.py"
@@ -165,6 +168,10 @@ jobs:
         run: python -B tools/audit_chanlun_theory_second_pass.py
       - name: Protect second-pass theory proof limits from unsupported promotions
         run: python -B -m unittest discover -s tests -p 'test_chanlun_deep_theory_second_pass.py' -v
+      - name: Verify full-book 16 historical theory tensions against original SOURCE cards
+        run: python -B tools/audit_chanlun_crosslesson_consistency.py
+      - name: Reject false author contradiction, retroactive pen and toy proof upgrades
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_crosslesson_consistency.py' -v
       - name: Verify as-of-only visualization and matched-future branches (offline Node)
         run: node tests/test_chanlun_asof_player.mjs
       - name: Assemble offline materials from canonical originals in runner temp

@@ -8,6 +8,9 @@ on:
       - "tools/audit_chanlun_theory_second_pass.py"
       - "tests/test_chanlun_deep_theory_second_pass.py"
       - "catalog/chanlun_theory_argument_links_v1.json"
+      - "catalog/chanlun_crosslesson_consistency_v1.json"
+      - "tools/audit_chanlun_crosslesson_consistency.py"
+      - "tests/test_chanlun_crosslesson_consistency.py"
       - "tests/test_chanlun_whole_book_integrated.py"
       - ".github/workflows/chanlun-whole-book-integrated.yml"
       - "catalog/chanlun_lesson_index.json"
@@ -28,5 +31,9 @@ jobs:
         run: python -B tools/audit_chanlun_whole_book_integrated.py --check-atlas
       - name: Validate cross-lesson argument source cards, proof roles, and manuscript
         run: python -B -m unittest discover -s tests -p "test_chanlun_deep_theory_second_pass.py" -v
+      - name: Audit source-scoped 16 theory consistency tensions without claiming whole-book proof
+        run: python -B tools/audit_chanlun_crosslesson_consistency.py
+      - name: Test typed source/versions and 13 abstract countermodels
+        run: python -B -m unittest discover -s tests -p "test_chanlun_crosslesson_consistency.py" -v
       - name: Verify all 108 original-source record links and integrated manuscript
         run: python -B -m unittest discover -s tests -p "test_chanlun_whole_book_integrated.py" -v
