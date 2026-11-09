@@ -1,4 +1,4 @@
-# ChanlunCollection｜本书实施工作流 v4.9.0
+# ChanlunCollection｜本书实施工作流 v4.10.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
 
@@ -25,6 +25,8 @@
 **步骤2.12（v4.8.0）**：沿全书主线深化作者相邻规律：从中枢的延伸/离开/回试确定结构背景，按同级可比性讨论力度与背驰，区分一二三类点的不同结构阶段，并借区间套细化观察。不得把这些环节误写成无条件因果链。成果见 `deliverables/chanlun_108_acceptance/00_REVIEW/CENTER_DIVERGENCE_BUYPOINT_METHOD_CHAIN.md`。
 
 **步骤2.13（v4.9.0）**：以作者文本对照中枢延伸、新生、扩展的不同问题，区分趋势背驰/盘整背驰的结构语境及一二三类买卖点各自的适用阶段。报告在 `deliverables/chanlun_108_acceptance/00_REVIEW/CENTER_EVOLUTION_AND_DIVERGENCE_METHOD.md`；不要写成无前提单线因果，不识图、不回测。
+
+**步骤2.14（v4.10.0）**：沿作者方法论主线审视“走势终完美”与未完成时的当下可知区别、第33课多义性与第38课固定同级规范区别，以及第32课当下判断对预测冲动的约束。研究见 `deliverables/chanlun_108_acceptance/00_REVIEW/ASOF_NONPREDICTION_AND_MULTIPLE_DECOMPOSITIONS.md`；作者整体主张、AI方法归纳和未决数学证明分开。
 
 **步骤3：更新规范成果。** 先修改根目录规范来源：`analyses/`、`knowledge/`、`catalog/`、`deliverables/`、`reports/`、`tools/`及`tests/`。相应更新全文研究报告、来源卡或[108课逻辑地图](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md)的源合同；不允许独改镜像并与规范源分叉。
 
