@@ -5,6 +5,9 @@ on:
     paths:
       - "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_*"
       - "tools/audit_chanlun_whole_book_integrated.py"
+      - "tools/audit_chanlun_theory_second_pass.py"
+      - "tests/test_chanlun_deep_theory_second_pass.py"
+      - "catalog/chanlun_theory_argument_links_v1.json"
       - "tests/test_chanlun_whole_book_integrated.py"
       - ".github/workflows/chanlun-whole-book-integrated.yml"
       - "catalog/chanlun_lesson_index.json"
@@ -23,5 +26,7 @@ jobs:
           python-version: "3.11"
       - name: Recompute 108 original SOURCE cards and verify exact committed atlas bytes
         run: python -B tools/audit_chanlun_whole_book_integrated.py --check-atlas
+      - name: Validate cross-lesson argument source cards, proof roles, and manuscript
+        run: python -B -m unittest discover -s tests -p "test_chanlun_deep_theory_second_pass.py" -v
       - name: Verify all 108 original-source record links and integrated manuscript
         run: python -B -m unittest discover -s tests -p "test_chanlun_whole_book_integrated.py" -v
