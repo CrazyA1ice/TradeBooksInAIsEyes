@@ -861,7 +861,7 @@
         21
       ],
       "preconditions": [
-        "合法Zn成员及原核心",
+        "作者认可的合法Zn成员与冻结原中枢核心区间",
         "中心离开—首次回试完成与新同级中枢优先级"
       ],
       "status": "open_center_identity_and_retest",
@@ -879,7 +879,7 @@
         50
       ],
       "preconditions": [
-        "事前冻结可比A/B/C",
+        "事前按固定级别冻结的完整可比A/B/C走势段",
         "完整力度定义与C段完成时间"
       ],
       "status": "open_full_back_divergence_semantics",
@@ -933,7 +933,7 @@
         102
       ],
       "preconditions": [
-        "所有合法未来路径域",
+        "所有符合完整作者文法的合法无限及有限未来路径域",
         "有限时间内三个合格完成次级走势交叠"
       ],
       "status": "OB99-EXIST",
@@ -950,7 +950,7 @@
       ],
       "preconditions": [
         "完成某一级走势后的首个高级中心",
-        "首次构造唯一和位置谓词"
+        "首次构造的唯一性判据和中心位置谓词"
       ],
       "status": "OB99-LOCATION",
       "resolved": false
