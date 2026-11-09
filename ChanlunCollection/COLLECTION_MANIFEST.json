@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.8.0",
-  "source_count": 795,
+  "workflow_version": "4.9.0",
+  "source_count": 796,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -1548,6 +1548,12 @@
       "size_bytes": 7850
     },
     {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/CENTER_EVOLUTION_AND_DIVERGENCE_METHOD.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/CENTER_EVOLUTION_AND_DIVERGENCE_METHOD.md",
+      "git_blob_sha": "711481dc6461356cdb88f79330b4b3f5c84ceee5",
+      "size_bytes": 6664
+    },
+    {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/DETAIL_COVERAGE_GAPS.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/DETAIL_COVERAGE_GAPS.md",
       "git_blob_sha": "512eab36773f03b6fff61e583350fcab6d59d9dc",
@@ -1892,8 +1898,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "ab912ad506a46dc6e9e89bbc809e0dfcf3c0d74e",
-      "size_bytes": 48164
+      "git_blob_sha": "34052549c610c6c71d1fdadd04f5bb0c520a7bec",
+      "size_bytes": 48743
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
