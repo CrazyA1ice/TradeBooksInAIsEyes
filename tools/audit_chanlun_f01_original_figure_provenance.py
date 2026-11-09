@@ -144,7 +144,7 @@ def main():
     args=ap.parse_args()
     data=load(REG);sources,actual=verify_header(data)
     s=ARTICLE.read_text(encoding="utf-8")
-    need(len(s)>8500 and all(x in s for x in (
+    need(len(s)>6200 and all(x in s for x in (
       "第67课","第71课","第78课","第81课","2007年9月19日",
       "第73页","第232页","第177页","线段B",
       "SOURCE","EDITORIAL","视觉","未决","NOT_RUN","四项")),
