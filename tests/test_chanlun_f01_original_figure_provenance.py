@@ -58,8 +58,8 @@ class FigureProvenanceTests(unittest.TestCase):
         self.assertFalse(self.doc["OB38_or_99_proven"])
         self.assertFalse(self.doc["real_market_data_accessed"])
         self.assertEqual(self.doc["backtesting"],"NOT_RUN")
-        self.assertIn("PHOTO", "PHOTOGRAPH") if False else self.assertEqual(mod.verify_header(self.doc)[1][(4,241)]["source_tag"],
-          "SEPARATE_LATER_DATED_PEN_REVISION")
+        self.assertEqual(mod.verify_header(self.doc)[1][(4,241)]["source_tag"],
+                         "SEPARATE_LATER_DATED_PEN_REVISION")
 
 if __name__=="__main__":
     unittest.main()
