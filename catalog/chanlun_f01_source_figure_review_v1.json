@@ -1,0 +1,426 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-F01-FIGURE-SHA-PINNED-VISUAL-REVIEW-V1",
+  "source_github_run": 42617362956,
+  "original_repo": "CrazyA1ice/TradeBooksInAIsEyes",
+  "pdf_renderer": "PyMuPDF 1.26.7",
+  "page_readback_script": "tools/inspect_chanlun_f01_original_figures_readonly.py",
+  "scope": "VISUALLY_REVIEWED_BOUND_SOURCE_PAGES_WITH_LIMITED_THUMBNAIL_LEGIBILITY_NOT_AUTHOR_THEOREM_CERTIFICATION",
+  "pages": [
+    {
+      "volume": 3,
+      "physical_pdf_page": 388,
+      "original_pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "render_jpeg_sha256": "0189d91b2e6fcf7db4003ae729dcde8bb10532b6877c3356a77b48e26fcbb529",
+      "pdf_native_image_objects": 0,
+      "figure_placements": [],
+      "render_size": [
+        943,
+        667
+      ],
+      "thumbnail_visually_reviewed": true,
+      "fine_grained_price_and_member_labels_independently_verified": false,
+      "source_tag": "AUTHOR_AND_LATER_EDITORIAL_ON_SAME_PAGE",
+      "visible_finding": "Title dated 2007-08-01; author first-case no-gap rule; parenthetical 娇注 calls the presentation incomplete; these are different source roles."
+    },
+    {
+      "volume": 3,
+      "physical_pdf_page": 389,
+      "original_pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "render_jpeg_sha256": "c79028abdc22c79a9c1d8d45ca288a2310b9683a562693a0ac1a3144820ef7fd",
+      "pdf_native_image_objects": 1,
+      "figure_placements": [
+        [
+          253.2,
+          76.7,
+          614.9,
+          348
+        ]
+      ],
+      "render_size": [
+        943,
+        667
+      ],
+      "thumbnail_visually_reviewed": true,
+      "fine_grained_price_and_member_labels_independently_verified": false,
+      "source_tag": "AUTHOR_TWO_BRANCH_DIAGRAM",
+      "visible_finding": "Upper sketches labelled 情况1/情况2 and lower second-case diagram; native text says gap first-second demands later opposite feature-sequence fractal and no full gap refill; diagram alone does not certify whole segment break."
+    },
+    {
+      "volume": 3,
+      "physical_pdf_page": 390,
+      "original_pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "render_jpeg_sha256": "238393bc489ca1f721f6ead0e3aa8bb5a79f95a97768d33775d48fa198787d9b",
+      "pdf_native_image_objects": 1,
+      "figure_placements": [
+        [
+          248.1,
+          219.9,
+          620,
+          517
+        ]
+      ],
+      "render_size": [
+        943,
+        667
+      ],
+      "thumbnail_visually_reviewed": true,
+      "fine_grained_price_and_member_labels_independently_verified": false,
+      "source_tag": "EDITORIAL_OBJECTION_AND_LATER_EXAMPLE",
+      "visible_finding": "Parenthetical 娇注 disputes original explanation; embedded screenshot under 学习用图 visibly dated 2007-09-19, later than lesson67 2007-08-01; not contemporaneous proof."
+    },
+    {
+      "volume": 3,
+      "physical_pdf_page": 391,
+      "original_pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "render_jpeg_sha256": "6b869e412201f2e8d17486ed47add5bd0af62aa05f9939802e41ef1ae0357e93",
+      "pdf_native_image_objects": 1,
+      "figure_placements": [
+        [
+          108.3,
+          73.1,
+          759.8,
+          476.4
+        ]
+      ],
+      "render_size": [
+        943,
+        667
+      ],
+      "thumbnail_visually_reviewed": true,
+      "fine_grained_price_and_member_labels_independently_verified": false,
+      "source_tag": "HISTORICAL_MARKET_SCREENSHOT",
+      "visible_finding": "Market screenshot labelled price/MACD; no annotated legal feature-member decomposition or as-of completed-child certificate."
+    },
+    {
+      "volume": 3,
+      "physical_pdf_page": 392,
+      "original_pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "render_jpeg_sha256": "b5e0a71272355822f671002f592a1e8f6f072c031f599ae8e486f6142d29661d",
+      "pdf_native_image_objects": 1,
+      "figure_placements": [
+        [
+          82.3,
+          72.5,
+          632.9,
+          523.9
+        ]
+      ],
+      "render_size": [
+        943,
+        667
+      ],
+      "thumbnail_visually_reviewed": true,
+      "fine_grained_price_and_member_labels_independently_verified": false,
+      "source_tag": "HISTORICAL_MARKET_SCREENSHOT",
+      "visible_finding": "Market screenshot with date range later than 2007-08-01 lesson67 stated date; cannot backdate future image."
+    },
+    {
+      "volume": 4,
+      "physical_pdf_page": 71,
+      "original_pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "render_jpeg_sha256": "e2945e8e3fba1af55979ebdda2a180697f0edee42c8c6f0740a61a884b52b016",
+      "pdf_native_image_objects": 0,
+      "figure_placements": [],
+      "render_size": [
+        943,
+        667
+      ],
+      "thumbnail_visually_reviewed": true,
+      "fine_grained_price_and_member_labels_independently_verified": false,
+      "source_tag": "AUTHOR_STRICT_MEMBERSHIP_PROSE",
+      "visible_finding": "Author describes first reversal pen ambiguity, strict feature element must share a sequence; no embedded diagram on this page."
+    },
+    {
+      "volume": 4,
+      "physical_pdf_page": 72,
+      "original_pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "render_jpeg_sha256": "e90699ab21ae973a2b07a508b9a2fa5c3bba78ec8cd27427e6c3f7ae726d678e",
+      "pdf_native_image_objects": 0,
+      "figure_placements": [],
+      "render_size": [
+        943,
+        667
+      ],
+      "thumbnail_visually_reviewed": true,
+      "fine_grained_price_and_member_labels_independently_verified": false,
+      "source_tag": "AUTHOR_ONLINE_COMPLETION_ASSERTION_AND_AUXILIARY",
+      "visible_finding": "Author claims line-segment partition can be performed 当下, explains auxiliary feature outside original/new formal segment; statement is author assertion not verified parser theorem."
+    },
+    {
+      "volume": 4,
+      "physical_pdf_page": 73,
+      "original_pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "render_jpeg_sha256": "a4c812c99e5d477440ad4403fb38982da800250f479b25374e946c85c5151cb4",
+      "pdf_native_image_objects": 1,
+      "figure_placements": [
+        [
+          82.3,
+          91,
+          545,
+          442.9
+        ]
+      ],
+      "render_size": [
+        943,
+        667
+      ],
+      "thumbnail_visually_reviewed": true,
+      "fine_grained_price_and_member_labels_independently_verified": false,
+      "source_tag": "CORRECTED_LAST_DIAGRAM_WARNING",
+      "visible_finding": "Four stylized break examples; explicit printed sentence 注意，下图最后一个有问题，请看课程81里的更正说明; final diagram unsafe as uncorrected rule proof."
+    },
+    {
+      "volume": 4,
+      "physical_pdf_page": 74,
+      "original_pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "render_jpeg_sha256": "7d28366325fe8ac2470abe683acc2597e641781854562385faef8f9704b6cbb5",
+      "pdf_native_image_objects": 1,
+      "figure_placements": [
+        [
+          82.3,
+          74.3,
+          635.1,
+          475.2
+        ]
+      ],
+      "render_size": [
+        943,
+        667
+      ],
+      "thumbnail_visually_reviewed": true,
+      "fine_grained_price_and_member_labels_independently_verified": false,
+      "source_tag": "NUMBERED_MARKET_CHART",
+      "visible_finding": "Annotated historical numbered chart with indicator panels; visual may illustrate membership, but no independent member time certificate."
+    },
+    {
+      "volume": 4,
+      "physical_pdf_page": 75,
+      "original_pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "render_jpeg_sha256": "dcefe2a2a757d7e88209f79b45f4b5aa276ead6d262ad0d0551db2a5d51f4ab9",
+      "pdf_native_image_objects": 1,
+      "figure_placements": [
+        [
+          82.3,
+          73.3,
+          666.1,
+          398.2
+        ]
+      ],
+      "render_size": [
+        943,
+        667
+      ],
+      "thumbnail_visually_reviewed": true,
+      "fine_grained_price_and_member_labels_independently_verified": false,
+      "source_tag": "ANNOTATED_MARKET_CHART_CONDITIONAL_THIRD_POINT",
+      "visible_finding": "Illustrative 5-minute 32–41 center and highlighted rectangles with third-point conditional commentary; market screenshot not mathematical proof of universal segments."
+    },
+    {
+      "volume": 4,
+      "physical_pdf_page": 174,
+      "original_pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "render_jpeg_sha256": "605592eb171a55fe07d1982fc397098e66d084bfdc14a9b7ebf37a8ec0be32fb",
+      "pdf_native_image_objects": 0,
+      "figure_placements": [],
+      "render_size": [
+        943,
+        667
+      ],
+      "thumbnail_visually_reviewed": true,
+      "fine_grained_price_and_member_labels_independently_verified": false,
+      "source_tag": "AUTHOR_78_INTRODUCTORY_SOURCE_TEXT",
+      "visible_finding": "Dated 2007-09-06 author text distinguishes direction and starting segment; no embedded figure."
+    },
+    {
+      "volume": 4,
+      "physical_pdf_page": 175,
+      "original_pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "render_jpeg_sha256": "e8170c39bc03aa030f9bffec11d7999c58e0544d342a1ef2c1b0c65f7d36e45c",
+      "pdf_native_image_objects": 0,
+      "figure_placements": [],
+      "render_size": [
+        943,
+        667
+      ],
+      "thumbnail_visually_reviewed": true,
+      "fine_grained_price_and_member_labels_independently_verified": false,
+      "source_tag": "AUTHOR_ONE_PEN_VS_SEGMENT_DESTRUCTION_AND_EDITOR_COMMENT",
+      "visible_finding": "Author expressly says pen break need not evolve into segment break; separate 娇注 disputes interpretation of marked example."
+    },
+    {
+      "volume": 4,
+      "physical_pdf_page": 176,
+      "original_pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "render_jpeg_sha256": "2fcef908455008fda51acc84c3e65f07380a2319b64d5a69fcd198dde8902857",
+      "pdf_native_image_objects": 1,
+      "figure_placements": [
+        [
+          82.3,
+          73.9,
+          748.9,
+          475.6
+        ]
+      ],
+      "render_size": [
+        943,
+        667
+      ],
+      "thumbnail_visually_reviewed": true,
+      "fine_grained_price_and_member_labels_independently_verified": false,
+      "source_tag": "ANNOTATED_MARKET_CHART_SEGMENT_B",
+      "visible_finding": "Chart visibly labels 80,81,82 and right boundary; author caption discusses B broken when relevant reverse segment qualifies; price labels are not independently verified."
+    },
+    {
+      "volume": 4,
+      "physical_pdf_page": 177,
+      "original_pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "render_jpeg_sha256": "b57787ae922c17ba622321aed69d5b69efd7047b9a9af1605bec4d24c0259dc1",
+      "pdf_native_image_objects": 0,
+      "figure_placements": [],
+      "render_size": [
+        943,
+        667
+      ],
+      "thumbnail_visually_reviewed": true,
+      "fine_grained_price_and_member_labels_independently_verified": false,
+      "source_tag": "AUTHOR_EXPLICIT_B_BREAK_PREREQUISITE",
+      "visible_finding": "Author text explicitly conditions A/B/C reasoning on prior confirmed B segment break of preceding segment; otherwise analysis not applicable."
+    },
+    {
+      "volume": 4,
+      "physical_pdf_page": 232,
+      "original_pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "render_jpeg_sha256": "91dbed91dc2d05c75c1fa14e75ea7afd3deb768fa8230c3f9095fcb1feafc25a",
+      "pdf_native_image_objects": 1,
+      "figure_placements": [
+        [
+          234.2,
+          138.9,
+          636,
+          270.2
+        ]
+      ],
+      "render_size": [
+        943,
+        667
+      ],
+      "thumbnail_visually_reviewed": true,
+      "fine_grained_price_and_member_labels_independently_verified": false,
+      "source_tag": "AUTHOR_L81_RETROSPECTIVE_CORRECTION",
+      "visible_finding": "Lesson81 dated 2007-09-17 says last picture in lesson71 was wrong, point 7 position relative to 5 was misdrawn; two corrective sketches on page."
+    },
+    {
+      "volume": 4,
+      "physical_pdf_page": 233,
+      "original_pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "render_jpeg_sha256": "561cda0ac5d3653e00d0d3fdc428b3814540229388573f73201711d86a058501",
+      "pdf_native_image_objects": 1,
+      "figure_placements": [
+        [
+          82.3,
+          123.1,
+          780,
+          488.9
+        ]
+      ],
+      "render_size": [
+        943,
+        667
+      ],
+      "thumbnail_visually_reviewed": true,
+      "fine_grained_price_and_member_labels_independently_verified": false,
+      "source_tag": "AUTHOR_81_CORRECTIVE_MARKET_CHART",
+      "visible_finding": "Annotated chart labelled 102,103,104,105; confirms source has later contextual correction examples, not independent price-accuracy audit."
+    },
+    {
+      "volume": 4,
+      "physical_pdf_page": 234,
+      "original_pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "render_jpeg_sha256": "ead296c806a123ee1ab189980f90c6201e9f8fd7d57b1667a5a3052b3e9dbd5f",
+      "pdf_native_image_objects": 0,
+      "figure_placements": [],
+      "render_size": [
+        943,
+        667
+      ],
+      "thumbnail_visually_reviewed": true,
+      "fine_grained_price_and_member_labels_independently_verified": false,
+      "source_tag": "AUTHOR_81_DATA_PRECISION_CAUTION",
+      "visible_finding": "Author discusses exact bar and vendor precision effects on true pen rules; no embedded figure on page."
+    },
+    {
+      "volume": 4,
+      "physical_pdf_page": 241,
+      "original_pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "render_jpeg_sha256": "9beb3500a6128bcf3491819b1b68c3eb29ee43838f882dfe4b32145d02247cab",
+      "pdf_native_image_objects": 0,
+      "figure_placements": [],
+      "render_size": [
+        943,
+        667
+      ],
+      "thumbnail_visually_reviewed": true,
+      "fine_grained_price_and_member_labels_independently_verified": false,
+      "source_tag": "SEPARATE_LATER_DATED_PEN_REVISION",
+      "visible_finding": "Another work on the same compiled lesson section visibly dated 2007-09-18 proposes different pen requirements; not part of 2007-09-17 note or earlier lesson71."
+    }
+  ],
+  "source_discoveries": [
+    {
+      "id": "F01-VIS-01",
+      "source": [
+        "3:388",
+        "3:389",
+        "3:390"
+      ],
+      "assertion": "L67 authored local two-case feature logic coexists with undated later editor objection; Sep19 screenshot later than Aug1 original article; do not use as contemporaneous proof."
+    },
+    {
+      "id": "F01-VIS-02",
+      "source": [
+        "4:73",
+        "4:232"
+      ],
+      "assertion": "Lesson71 p73 last schematic explicitly warned incorrect; lesson81 p232 retrospectively corrects mispositioned points; old schematic is not authoritative by itself."
+    },
+    {
+      "id": "F01-VIS-03",
+      "source": [
+        "4:175",
+        "4:176",
+        "4:177"
+      ],
+      "assertion": "Lesson78 text and 80/81/82 chart depend on independently confirmed B destroyer of prior segment; without it later A/B/C analysis inapplicable."
+    },
+    {
+      "id": "F01-VIS-04",
+      "source": [
+        "4:71",
+        "4:72"
+      ],
+      "assertion": "Lesson71 explicitly asserts present-time segmentation and strict vs auxiliary feature distinctions; not a complete code proof of universal real-time parser."
+    },
+    {
+      "id": "F01-VIS-05",
+      "source": [
+        "4:232",
+        "4:241"
+      ],
+      "assertion": "Two dated passages on Sep17 and Sep18 in same compilation have independent date/scope and must not be backfilled into earlier Aug16 lesson71."
+    }
+  ],
+  "semantic_bridges_remaining_open": [
+    "LOCAL_L67_NO_GAP_END_VS_L78_BREAK",
+    "FIRST_REVERSE_PEN_ROLE_L71",
+    "L67_GAP_CONFIRMATION_VS_L78_REVERSE_SEGMENT",
+    "SEGMENT_BREAK_TO_FINISHED_LOWER_TYPE"
+  ],
+  "original_charts_fine_coordinates_verified": false,
+  "original_figure_every_embedded_annotation_resolved": false,
+  "source_author_first_publication_authenticated": false,
+  "completed_lower_trend_author_certified": false,
+  "OB38_or_99_proven": false,
+  "real_market_data_accessed": false,
+  "backtesting": "NOT_RUN"
+}
