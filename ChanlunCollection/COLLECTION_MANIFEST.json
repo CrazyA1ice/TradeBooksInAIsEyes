@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.7.0",
-  "source_count": 794,
+  "workflow_version": "4.8.0",
+  "source_count": 795,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -1542,6 +1542,12 @@
       "size_bytes": 10356
     },
     {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/CENTER_DIVERGENCE_BUYPOINT_METHOD_CHAIN.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/CENTER_DIVERGENCE_BUYPOINT_METHOD_CHAIN.md",
+      "git_blob_sha": "c7114645f13b8ef87f1c39572b4d3848b22aafd4",
+      "size_bytes": 7850
+    },
+    {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/DETAIL_COVERAGE_GAPS.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/DETAIL_COVERAGE_GAPS.md",
       "git_blob_sha": "512eab36773f03b6fff61e583350fcab6d59d9dc",
@@ -1886,8 +1892,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "787677d84e2207fa9e066cf155137e5b909d6c1b",
-      "size_bytes": 47551
+      "git_blob_sha": "ab912ad506a46dc6e9e89bbc809e0dfcf3c0d74e",
+      "size_bytes": 48164
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
