@@ -1,4 +1,4 @@
-# ChanlunCollection｜本书实施工作流 v4.5.0
+# ChanlunCollection｜本书实施工作流 v4.6.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
 
@@ -17,6 +17,8 @@
 **步骤2.8：v4.4.0新增原始PDF图证更正链。** 对依赖原书图的F01/F02结论先核查PDF物理页、源SHA、图片的真正内容；第67课卷三p.390的9月19日学习用图不能被冒充为8月1日原课当时图证；第71课卷四p.73末图的错误必须参照第81课p.232更正；第78课p.177要求B段已合法破坏前段方能使用后续示例。所有视觉检查在[新图证报告](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_FIGURE_EVIDENCE_67_71_78.md)和[页级档案](catalog/chanlun_f01_source_figure_review_v1.json)中保留，明确标明微小坐标仍未验证，避免从示意图直接生成唯一性证明。
 
 **步骤2.9：v4.5.0当前纯文字优先。** 用户已取消本阶段新的图片识别/高清复原与行情回测。依已登记的作者正文来源，建立第17/18/62/67/71/78/81课定义→条件→合法对象→结束→递归的文字依赖链，特别区分历史作者版本、编者意见及AI形式化假设。历史图证文件可回查但不作为本节点验收要求；四处缺乏原文证明之处标OPEN。研究底稿在 `deliverables/chanlun_108_acceptance/00_REVIEW/ISSUE69_F01_SOURCE_BOUNDARY_WORKING_NOTE.md`。
+
+**步骤2.10（v4.6.0，文字递归证明）**：先核实每一条输入构件已经合法且完成，再应用17/18课的同级、连续、重叠中枢定义；不得以中枢计算结果证明原子构件合法，也不得从第78课线段破坏直接推论整个次级走势类型已完成。新研究见 `deliverables/chanlun_108_acceptance/00_REVIEW/F01_TEXTUAL_RECURSION_PROOF_CHAIN.md`。保留OPEN/NOT_RUN，不处理图像或行情。
 
 **步骤3：更新规范成果。** 先修改根目录规范来源：`analyses/`、`knowledge/`、`catalog/`、`deliverables/`、`reports/`、`tools/`及`tests/`。相应更新全文研究报告、来源卡或[108课逻辑地图](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md)的源合同；不允许独改镜像并与规范源分叉。
 
