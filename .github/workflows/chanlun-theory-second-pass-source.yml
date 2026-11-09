@@ -1,0 +1,27 @@
+name: Chanlun 108 deep theory second-pass original 18 pages
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "tools/inspect_chanlun_theory_second_pass_native.py"
+      - ".github/workflows/chanlun-theory-second-pass-source.yml"
+      - "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_DEEP_THEORY_SECOND_PASS.md"
+      - "catalog/chanlun_theory_argument_links_v1.json"
+      - "tests/test_chanlun_deep_theory_second_pass.py"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect-original-text-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m pip install --disable-pip-version-check pymupdf==1.26.7
+      - name: Inspect 18 bounded page excerpts and SHA locks from 5 original volume PDFs
+        run: python -B tools/inspect_chanlun_theory_second_pass_native.py
+      - name: Validate cross-lesson argument source cards, proof roles, and manuscript
+        run: python -B -m unittest discover -s tests -p "test_chanlun_deep_theory_second_pass.py" -v
