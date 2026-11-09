@@ -19,7 +19,9 @@
 | **OB99-EXIST/LOCATION** | **BLOCKED**：全部合法未来路径有限时间高层中枢与首次位置待证 | 同上 |
 | **F08 三类点到实际收益** | **NOT_RUN**：真实行情、成交、交易成本/样本外检验均未运行 | `experiments/`（仅研究计划和合成例） |
 
-**当前v4.9.0中枢演化分支研究**：新增 [中枢延伸/新生/扩展与盘整/趋势背驰方法](deliverables/chanlun_108_acceptance/00_REVIEW/CENTER_EVOLUTION_AND_DIVERGENCE_METHOD.md)。以作者文字及现有SOURCE资料重建结构状态分叉、力度比较与三类点适用条件；这是方法论串联而非利润或数学证明。F01 OPEN、OB38/99 BLOCKED、NOT_RUN。
+**当前v4.10.0作者“当下”认识论研究**：新增 [走势终完美、多义性与不预测的当下方法](deliverables/chanlun_108_acceptance/00_REVIEW/ASOF_NONPREDICTION_AND_MULTIPLE_DECOMPOSITIONS.md)。建立整体结构主张、当前结构分类、条件性分支方案和风险纪律之间的连接；既不把作者强断言当成已完成证明，也不将不预测解读成禁止当前分析。F01/OB38/OB99仍开放，NOT_RUN。
+
+**此前v4.9.0中枢演化分支研究**：新增 [中枢延伸/新生/扩展与盘整/趋势背驰方法](deliverables/chanlun_108_acceptance/00_REVIEW/CENTER_EVOLUTION_AND_DIVERGENCE_METHOD.md)。以作者文字及现有SOURCE资料重建结构状态分叉、力度比较与三类点适用条件；这是方法论串联而非利润或数学证明。F01 OPEN、OB38/99 BLOCKED、NOT_RUN。
 
 **此前v4.8.0中间方法链深化**：新增 [中枢—背驰—三类点—区间套的连续方法](deliverables/chanlun_108_acceptance/00_REVIEW/CENTER_DIVERGENCE_BUYPOINT_METHOD_CHAIN.md)，明确结构演化提供背景、力度比较与离开回试分别处理不同问题、买卖点是条件分类、区间套用于下钻观察而非保证收益。研究仅用文字，F01/OB38/OB99未证。
 
