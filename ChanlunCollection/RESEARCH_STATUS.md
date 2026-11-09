@@ -19,7 +19,9 @@
 | **OB99-EXIST/LOCATION** | **BLOCKED**：全部合法未来路径有限时间高层中枢与首次位置待证 | 同上 |
 | **F08 三类点到实际收益** | **NOT_RUN**：真实行情、成交、交易成本/样本外检验均未运行 | `experiments/`（仅研究计划和合成例） |
 
-**当前v4.11.0资金与操作纪律衔接**：新增 [结构、资金和操作纪律方法主线](deliverables/chanlun_108_acceptance/00_REVIEW/STRUCTURE_CAPITAL_DISCIPLINE_METHOD.md)，将级别化分析、条件可知、统一仓位账本、成本风险区别和动态行动连成方法论。仍是作者文本基础上的AI综合，不宣称市场验证，NOT_RUN。
+**当前v4.12.0规律知识卡**：新增[12张跨课规律与方法论卡](deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAW_CARDS_INDEX.md)及`catalog/chanlun_author_law_cards_v1.json`，含来源、方法、边界与相互连接。文字研究已整理，未获行情实证，F01/OB38/OB99开放。
+
+**此前v4.11.0资金与操作纪律衔接**：新增 [结构、资金和操作纪律方法主线](deliverables/chanlun_108_acceptance/00_REVIEW/STRUCTURE_CAPITAL_DISCIPLINE_METHOD.md)，将级别化分析、条件可知、统一仓位账本、成本风险区别和动态行动连成方法论。仍是作者文本基础上的AI综合，不宣称市场验证，NOT_RUN。
 
 **此前v4.10.0作者“当下”认识论研究**：新增 [走势终完美、多义性与不预测的当下方法](deliverables/chanlun_108_acceptance/00_REVIEW/ASOF_NONPREDICTION_AND_MULTIPLE_DECOMPOSITIONS.md)。建立整体结构主张、当前结构分类、条件性分支方案和风险纪律之间的连接；既不把作者强断言当成已完成证明，也不将不预测解读成禁止当前分析。F01/OB38/OB99仍开放，NOT_RUN。
 
