@@ -8,6 +8,10 @@ on:
       - "tools/audit_chanlun_fullbook_logical_spine.py"
       - "tools/audit_chanlun_f01_f02_third_point_boundary.py"
       - "tools/audit_chanlun_f01_typed_completion_obligations.py"
+      - "tools/audit_chanlun_f01_segment_termination_reconciliation.py"
+      - "tests/test_chanlun_f01_segment_termination_reconciliation.py"
+      - "tests/fixtures/chanlun_f01_segment_termination_cases_v1.json"
+      - "catalog/chanlun_f01_segment_termination_reconciliation_v1.json"
       - "tests/test_chanlun_f01_typed_completion_obligations.py"
       - "catalog/chanlun_f01_typed_completion_obligations_v1.json"
       - "tests/test_chanlun_f01_f02_third_point_boundary.py"
@@ -57,5 +61,9 @@ jobs:
         run: python -B tools/audit_chanlun_f01_typed_completion_obligations.py
       - name: Check no falsely certified child trajectories or future-only source data
         run: python -B -m unittest discover -s tests -p 'test_chanlun_f01_typed_completion_obligations.py' -v
+      - name: Audit source 67/71/72/78 double-branch segment termination provenance and still-open F01 bridges
+        run: python -B tools/audit_chanlun_f01_segment_termination_reconciliation.py
+      - name: Check typed membership, as-of opposite fractal, legal reverse and author-source scope
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_f01_segment_termination_reconciliation.py' -v
       - name: Verify all 108 original-source record links and integrated manuscript
         run: python -B -m unittest discover -s tests -p "test_chanlun_whole_book_integrated.py" -v
