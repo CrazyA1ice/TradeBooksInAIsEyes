@@ -1,0 +1,26 @@
+name: Chanlun 108 cross-lesson theory consistency and source-version audit
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "catalog/chanlun_crosslesson_consistency_v1.json"
+      - "tools/audit_chanlun_crosslesson_consistency.py"
+      - "tests/test_chanlun_crosslesson_consistency.py"
+      - "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_THEORY_CONSISTENCY.md"
+      - ".github/workflows/chanlun-crosslesson-consistency.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  author-role-source-scope:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Verify 16 original source-linked theory tensions and finite abstract countermodels
+        run: python -B tools/audit_chanlun_crosslesson_consistency.py
+      - name: Prohibit treating conceptual models as Chanlun source counterexamples
+        run: python -B -m unittest discover -s tests -p "test_chanlun_crosslesson_consistency.py" -v
