@@ -4,6 +4,9 @@ on:
     branches: [main]
     paths:
       - "tools/inspect_chanlun_f01_original_figures_readonly.py"
+      - "tools/audit_chanlun_f01_original_figure_provenance.py"
+      - "catalog/chanlun_f01_source_figure_review_v1.json"
+      - "tests/test_chanlun_f01_original_figure_provenance.py"
       - "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_FIGURE_EVIDENCE_67_71_78.md"
       - ".github/workflows/chanlun-f01-figure-readback.yml"
   workflow_dispatch:
@@ -20,5 +23,9 @@ jobs:
           python-version: "3.11"
       - name: Install pinned PDF native renderer
         run: python -m pip install pymupdf==1.26.7
+      - name: Verify recorded 18 actually reviewed PDF figure pages with exact native rendering hashes
+        run: python -B tools/audit_chanlun_f01_original_figure_provenance.py --pdf-check
+      - name: Check historical correction links and no unearned original segment/theorem certificates
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_f01_original_figure_provenance.py' -v
       - name: Render limited PDF figure pages transiently from SHA-pinned originals
         run: python -B tools/inspect_chanlun_f01_original_figures_readonly.py --emit-pages
