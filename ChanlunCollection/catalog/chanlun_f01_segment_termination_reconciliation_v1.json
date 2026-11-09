@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-F01-SEGMENT-TERMINATION-SOURCE-RECONCILIATION-V1",
+  "scope": "COMPILED_AUTHOR_SOURCE_LOCAL_67_71_78_ELIGIBILITY_NOT_FULL_SEGMENT_OR_LOWER_TREND_CERTIFICATE",
+  "sources": [
+    {
+      "lesson": 67,
+      "claim_id": "CL67-SOURCE-1",
+      "physical_pdf_page": 388,
+      "interpretive_predicate": "FEATURE_SEQUENCE_DIRECTION",
+      "role": "SOURCE_IN_COMPILATION_NOT_INDEPENDENT_FIRST_PUBLICATION"
+    },
+    {
+      "lesson": 67,
+      "claim_id": "CL67-SOURCE-2",
+      "physical_pdf_page": 388,
+      "interpretive_predicate": "FIRST_TWO_FEATURE_GAP",
+      "role": "SOURCE_IN_COMPILATION_NOT_INDEPENDENT_FIRST_PUBLICATION"
+    },
+    {
+      "lesson": 67,
+      "claim_id": "CL67-SOURCE-3",
+      "physical_pdf_page": 388,
+      "interpretive_predicate": "NO_GAP_OR_GAP_TWO_BRANCHES",
+      "role": "SOURCE_IN_COMPILATION_NOT_INDEPENDENT_FIRST_PUBLICATION"
+    },
+    {
+      "lesson": 67,
+      "claim_id": "CL67-SOURCE-4",
+      "physical_pdf_page": 389,
+      "interpretive_predicate": "GAP_REQUIRES_LATER_OPPOSITE_FRACTAL",
+      "role": "SOURCE_IN_COMPILATION_NOT_INDEPENDENT_FIRST_PUBLICATION"
+    },
+    {
+      "lesson": 71,
+      "claim_id": "CL71-SOURCE-1",
+      "physical_pdf_page": 71,
+      "interpretive_predicate": "CONTAINMENT_WITHIN_STRICT_SAME_SEQUENCE",
+      "role": "SOURCE_IN_COMPILATION_NOT_INDEPENDENT_FIRST_PUBLICATION"
+    },
+    {
+      "lesson": 71,
+      "claim_id": "CL71-SOURCE-2",
+      "physical_pdf_page": 71,
+      "interpretive_predicate": "FIRST_REVERSE_PEN_IS_AMBIGUOUS",
+      "role": "SOURCE_IN_COMPILATION_NOT_INDEPENDENT_FIRST_PUBLICATION"
+    },
+    {
+      "lesson": 71,
+      "claim_id": "CL71-SOURCE-3",
+      "physical_pdf_page": 71,
+      "interpretive_predicate": "THIRD_PEN_BOUNDARY_MAY_RESOLVE_LOCAL_DIRECTION",
+      "role": "SOURCE_IN_COMPILATION_NOT_INDEPENDENT_FIRST_PUBLICATION"
+    },
+    {
+      "lesson": 71,
+      "claim_id": "CL71-SOURCE-4",
+      "physical_pdf_page": 72,
+      "interpretive_predicate": "AUXILIARY_FEATURE_NOT_STRICT_MEMBER",
+      "role": "SOURCE_IN_COMPILATION_NOT_INDEPENDENT_FIRST_PUBLICATION"
+    },
+    {
+      "lesson": 72,
+      "claim_id": "CL72-SOURCE-4",
+      "physical_pdf_page": 87,
+      "interpretive_predicate": "LATER_AUTHOR_CLARIFICATION_OF_EARLY_SEGMENT_RULE",
+      "role": "SOURCE_IN_COMPILATION_NOT_INDEPENDENT_FIRST_PUBLICATION"
+    },
+    {
+      "lesson": 78,
+      "claim_id": "CL78-SOURCE-1",
+      "physical_pdf_page": 174,
+      "interpretive_predicate": "LEGAL_OPPOSITE_SEGMENT_DESTRUCTION_CONDITION",
+      "role": "SOURCE_IN_COMPILATION_NOT_INDEPENDENT_FIRST_PUBLICATION"
+    },
+    {
+      "lesson": 78,
+      "claim_id": "CL78-SOURCE-2",
+      "physical_pdf_page": 175,
+      "interpretive_predicate": "REVERSE_PEN_DOES_NOT_SUFFICE_FOR_SEGMENT_BREAK",
+      "role": "SOURCE_IN_COMPILATION_NOT_INDEPENDENT_FIRST_PUBLICATION"
+    }
+  ],
+  "prior_contract": "catalog/chanlun_f01_typed_completion_obligations_v1.json",
+  "rule_history": "catalog/chanlun_rule_history_v1.json",
+  "three_observation_gates": [
+    {
+      "gate": "G1_STRICT_TYPED_FEATURES",
+      "author_claims": [
+        "CL71-SOURCE-1",
+        "CL71-SOURCE-4"
+      ],
+      "status_without_evidence": "PENDING_FEATURE_MEMBERSHIP"
+    },
+    {
+      "gate": "G2_L67_TWO_BRANCH_END_CONDITION",
+      "author_claims": [
+        "CL67-SOURCE-2",
+        "CL67-SOURCE-3",
+        "CL67-SOURCE-4"
+      ],
+      "status_without_evidence": "PENDING_OPPOSITE_FRACTAL_OR_NO_LOCAL_PATTERN"
+    },
+    {
+      "gate": "G3_L78_LEGAL_OPPOSITE_SEGMENT",
+      "author_claims": [
+        "CL78-SOURCE-1",
+        "CL78-SOURCE-2"
+      ],
+      "status_without_evidence": "PENDING_SOURCE_LEGAL_REVERSE_SEGMENT"
+    }
+  ],
+  "unresolved_text_scope": [
+    {
+      "key": "LOCAL_L67_NO_GAP_END_VS_L78_BREAK",
+      "issue": "Are no-gap local feature end and full legal reverse-segment destruction equivalent at the same frozen original rule version?",
+      "status": "OPEN_AUTHOR_RULE_SCOPE_AND_VERSION"
+    },
+    {
+      "key": "FIRST_REVERSE_PEN_ROLE_L71",
+      "issue": "Auxiliary feature elements and first reverse stroke cannot be force-attached to either original or new segment before typed evidence.",
+      "status": "OPEN_MEMBERSHIP_AND_TIMING"
+    },
+    {
+      "key": "L67_GAP_CONFIRMATION_VS_L78_REVERSE_SEGMENT",
+      "issue": "An externally declared opposite fractal following gap need not certify a whole legal opposite segment.",
+      "status": "OPEN_REVERSE_SEGMENT_COMPLETION"
+    },
+    {
+      "key": "SEGMENT_BREAK_TO_FINISHED_LOWER_TYPE",
+      "issue": "No general source theorem here equates a segment break to completed lower-level consolidation/trend type.",
+      "status": "OPEN_F01_RECURSIVE_BRIDGE"
+    }
+  ],
+  "evaluation_roles": {
+    "source_local_end": "ILLUSTRATIVE_LOCAL_AUTHOR_WORDING_CONDITION_IF_FEATURES_ASSUMED_VALID",
+    "opposite_fractal": "EXTERNALLY_DECLARED_NOT_SOURCE_VERIFIED",
+    "opposite_segment": "EXTERNALLY_DECLARED_NOT_SOURCE_VERIFIED",
+    "candidate_break": "CONDITIONAL_IF_EXTERNAL_REVERSE_SEGMENT_IS_LEGAL",
+    "author_legal_segment_break_certified": false,
+    "author_finished_lower_trend_certified": false,
+    "higher_level_center_eligible": false
+  },
+  "full_original_chart_visuals_verified": false,
+  "unresolved_editorial_comments_backdated": false,
+  "complete_Rg_frozen": false,
+  "proof_38_99_completed": false,
+  "actual_market_data_accessed": false,
+  "real_market_backtests": "NOT_RUN"
+}
