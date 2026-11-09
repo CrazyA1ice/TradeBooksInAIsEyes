@@ -38,6 +38,9 @@ on:
       - "tests/test_chanlun_whole_book_integrated.py"
       - "tests/test_chanlun_deep_theory_second_pass.py"
       - "tests/test_chanlun_crosslesson_consistency.py"
+      - "tests/test_chanlun_fullbook_logical_spine.py"
+      - "tools/audit_chanlun_fullbook_logical_spine.py"
+      - "catalog/chanlun_108_fullbook_logical_spine_v1.json"
       - "tools/audit_chanlun_crosslesson_consistency.py"
       - "catalog/chanlun_crosslesson_consistency_v1.json"
       - "tools/audit_chanlun_theory_second_pass.py"
@@ -172,6 +175,10 @@ jobs:
         run: python -B tools/audit_chanlun_crosslesson_consistency.py
       - name: Reject false author contradiction, retroactive pen and toy proof upgrades
         run: python -B -m unittest discover -s tests -p 'test_chanlun_crosslesson_consistency.py' -v
+      - name: Audit source-pinned all-108 chapter theory roles and unresolved frontiers
+        run: python -B tools/audit_chanlun_fullbook_logical_spine.py
+      - name: Reject missing 108 logic chapters or false author proof dependencies
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_fullbook_logical_spine.py' -v
       - name: Verify as-of-only visualization and matched-future branches (offline Node)
         run: node tests/test_chanlun_asof_player.mjs
       - name: Assemble offline materials from canonical originals in runner temp
