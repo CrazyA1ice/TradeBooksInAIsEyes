@@ -4,6 +4,9 @@
 
 ## 先从哪里读？
 
+**规律与方法论专用入口**：[第一批12张跨课规律卡](deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAW_CARDS_INDEX.md)，以课号和关联路径检索，不必从108课逐篇翻找。
+
+
 | 想了解什么 | 直接打开 |
 |---|---|
 | **整本书讲了什么、值不值得细读？** | [5分钟速览](deliverables/chanlun_108_acceptance/01_FAST_READ.md) |
