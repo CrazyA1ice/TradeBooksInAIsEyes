@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "lesson": 98,
+  "source": {
+    "volume": 5,
+    "path": "ChineseBooks/缠论/缠论_卷5.pdf",
+    "sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+    "original_date": "2008-02-04 19:51:49",
+    "pdf_pages": [
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201
+    ]
+  },
+  "quality": {
+    "physical_pages": 10,
+    "native_chars": 9178,
+    "image_pages": [
+      193
+    ],
+    "rendered_previews": [
+      193,
+      199
+    ],
+    "actually_inspected_pages": [
+      193
+    ],
+    "precise_chart_numbers_verified": false
+  },
+  "claims": [
+    {
+      "id": "CL98-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        192
+      ],
+      "summary": "作者用背驰后的回拉讨论不预测后续走向而分类等待。"
+    },
+    {
+      "id": "CL98-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        192,
+        194
+      ],
+      "summary": "作者以线段破坏与继续延伸为不同事件分支。"
+    },
+    {
+      "id": "CL98-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        194
+      ],
+      "summary": "作者要求随着已观察结构变化调整条件计划。"
+    },
+    {
+      "id": "CL98-SOURCE-4",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        194
+      ],
+      "summary": "作者提到A股T+1可能妨碍同日卖出。"
+    },
+    {
+      "id": "CL98-INTERPRETATION-5",
+      "kind": "INTERPRETATION",
+      "volume": 5,
+      "pdf_pages": [
+        192,
+        194
+      ],
+      "summary": "未来条件路径不应作为过去已知标签。"
+    },
+    {
+      "id": "CL98-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 5,
+      "pdf_pages": [
+        192,
+        194
+      ],
+      "summary": "图例的编号与成交可能性尚需独立历史行情核验。"
+    },
+    {
+      "id": "CL98-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 5,
+      "pdf_pages": [
+        192,
+        194
+      ],
+      "summary": "分支时钟和净收益的真实市场表现未测试。",
+      "test_status": "not_tested"
+    }
+  ],
+  "real_market_backtest": "not_run",
+  "limitations": [
+    "Original author and later editorial/date-separated materials are not interchangeable",
+    "Exact figure and price data not independently checked",
+    "Synthetic logic not actual Chanlun parser or market validation"
+  ]
+}

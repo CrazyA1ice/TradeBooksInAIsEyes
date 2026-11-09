@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "lesson": 38,
+  "state": "original_text_bounded_cues_and_full_page_metadata_reviewed_images_unverified",
+  "source": {
+    "volume": 2,
+    "path": "ChineseBooks/缠论/缠论_卷2.pdf",
+    "sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+    "pdf_pages": [
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352
+    ],
+    "original_date": "2007-03-21 15:23:21",
+    "appendix_divider": 341
+  },
+  "quality": {
+    "source_run": 42376015064,
+    "image_pages": [
+      340,
+      342,
+      346,
+      347,
+      348,
+      349
+    ],
+    "native_text_chars": 8290,
+    "page_count": 15
+  },
+  "claims": [
+    {
+      "id": "CL38-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        338
+      ],
+      "summary": "作者认为固定同级别分解规则可提供唯一性。"
+    },
+    {
+      "id": "CL38-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        338,
+        339
+      ],
+      "summary": "作者允许同级别盘整+盘整且对低级别采用不同规则。",
+      "source_anchor_details": {
+        "canonical_pdf_volume": 2,
+        "source_role": "author_main_article_in_compiled_volume",
+        "physical_pdf_pages_native_text_sha256": {
+          "338": "369d79117897f949976704c21e81818f9e75899b0e925f637c581c32e1b21da7",
+          "339": "1f48433d41259c6f82e4f5233dccd3728c823e9ab3723fe3ac77a06697689ce8"
+        },
+        "original_publication_provenance_independently_checked": false,
+        "reason": "Selected-level / lower-level asymmetric connection rules appear explicitly on physical p.339; legacy source only tagged p.338"
+      }
+    },
+    {
+      "id": "CL38-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        339
+      ],
+      "summary": "作者描述按同级别涨跌段组织的机械买卖流程。"
+    },
+    {
+      "id": "CL38-SOURCE-4",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        339
+      ],
+      "summary": "作者提出可按级别为不同资金分区。"
+    },
+    {
+      "id": "CL38-INTERPRETATION-5",
+      "kind": "INTERPRETATION",
+      "volume": 2,
+      "pdf_pages": [
+        338
+      ],
+      "summary": "唯一性主张以规则固定为条件。"
+    },
+    {
+      "id": "CL38-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 2,
+      "pdf_pages": [
+        338,
+        339
+      ],
+      "summary": "规则文本仍需补充完整边界和在线完成条件。"
+    },
+    {
+      "id": "CL38-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 2,
+      "pdf_pages": [
+        338,
+        339
+      ],
+      "summary": "同级别解析的实现唯一性及交易效果尚待检验。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "Bounded original-text cues not full figure verification.",
+    "Compiled volumes may include later editor notes.",
+    "AI proposals not original author conclusions or historical tests."
+  ]
+}

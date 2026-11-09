@@ -1,0 +1,31 @@
+name: Audit Chanlun lessons 21–25 across two PDF volumes
+on:
+  push:
+    branches: [feat/chanlun-lessons021-025-crossvolume-20261107]
+    paths:
+      - ".github/workflows/chanlun-lessons021-025-audit.yml"
+      - "tools/verify_chanlun_lessons021_025.py"
+      - "tests/test_chanlun_lessons021_025.py"
+      - "tools/audit_chanlun_lesson024_macd_partial_area.py"
+      - "tests/test_chanlun_lesson024_macd_partial_area.py"
+      - "catalog/chanlun_lessons021_025_source_layers.json"
+      - "knowledge/evidence/chanlun_lesson*.json"
+      - "analyses/books/chanlun/chapters/lesson_*.md"
+      - "analyses/books/chanlun/volumes/LESSONS_021_025_SYNTHESIS.md"
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -B tools/verify_chanlun_lessons021_025.py
+      - run: python -B tools/audit_chanlun_lesson024_macd_partial_area.py
+      - run: python -B -m unittest discover -s tests -p "test_chanlun_lessons021_025.py" -v
+      - run: python -B -m unittest discover -s tests -p "test_chanlun_lesson024_macd_partial_area.py" -v

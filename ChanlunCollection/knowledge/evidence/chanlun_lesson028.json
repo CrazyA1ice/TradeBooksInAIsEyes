@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-V2-L028-FIRSTPASS-20261107",
+  "status": "first_pass_textual_images_unverified",
+  "source": {
+    "volume": 2,
+    "path": "ChineseBooks/缠论/缠论_卷2.pdf",
+    "sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+    "lesson_number": 28,
+    "title": "下一目标：摧毁基金",
+    "original_article_date": "2007-02-06 15:04:50",
+    "pdf_pages": [
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162
+    ],
+    "appendix_boundary_candidate": 132
+  },
+  "quality": {
+    "page_count": 33,
+    "native_text_chars": 19016,
+    "image_pages": [
+      133,
+      134,
+      135,
+      136,
+      137,
+      142,
+      143,
+      144,
+      145,
+      150,
+      155,
+      156
+    ],
+    "low_text_pages": [
+      134,
+      135,
+      136,
+      137,
+      142,
+      143,
+      144,
+      145,
+      150,
+      155,
+      156
+    ],
+    "source_run": 42373286283
+  },
+  "claims": [
+    {
+      "id": "CL028-S01",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        130
+      ],
+      "volume": 2,
+      "summary": "作者强烈批评基金，将其持仓和赎回机制视为脆弱性来源。"
+    },
+    {
+      "id": "CL028-S02",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        130,
+        131
+      ],
+      "volume": 2,
+      "summary": "作者描述与机构交易者对抗的个人策略叙事。"
+    },
+    {
+      "id": "CL028-S03",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        132
+      ],
+      "volume": 2,
+      "summary": "编者注明确对原作者攻击基金的部分论点表示异议。"
+    },
+    {
+      "id": "CL028-I04",
+      "kind": "INTERPRETATION",
+      "pdf_pages": [
+        130,
+        132
+      ],
+      "volume": 2,
+      "summary": "赎回流动性机制值得研究，作者价值判断与编辑意见不可混同。"
+    },
+    {
+      "id": "CL028-I05",
+      "kind": "INFERENCE",
+      "pdf_pages": [
+        130,
+        131
+      ],
+      "volume": 2,
+      "summary": "无法据个人交易叙述确认对某机构的操纵事实或投资利润。"
+    },
+    {
+      "id": "CL028-H06",
+      "kind": "HYPOTHESIS",
+      "pdf_pages": [
+        130,
+        131
+      ],
+      "volume": 2,
+      "summary": "持仓集中度与赎回压力对系统流动性的影响有待检验。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "PDF contains appendices and editor notes from potentially different times.",
+    "Images cannot be used as numerical evidence before visual verification.",
+    "Strong author claims are not empirical proof; AI reconstructions are explicitly separate."
+  ]
+}

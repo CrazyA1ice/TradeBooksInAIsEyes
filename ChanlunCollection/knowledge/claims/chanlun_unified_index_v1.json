@@ -1,0 +1,3080 @@
+{
+  "schema_version": 1,
+  "scope": "108 lessons, research provenance only; no proof of trading profitability",
+  "graph_files": [
+    "knowledge/claims/chanlun_early_core_dependencies.json",
+    "knowledge/claims/chanlun_lessons066_070_crossvolume_dependencies.json",
+    "knowledge/claims/chanlun_lessons071_075_semantic_dependencies.json",
+    "knowledge/claims/chanlun_lessons076_080_semantic_dependencies.json",
+    "knowledge/claims/chanlun_lessons081_085_semantic_dependencies.json",
+    "knowledge/claims/chanlun_lessons086_090_crossvolume_dependencies.json",
+    "knowledge/claims/chanlun_lessons091_095_semantic_dependencies.json",
+    "knowledge/claims/chanlun_lessons096_100_semantic_dependencies.json",
+    "knowledge/claims/chanlun_lessons101_105_semantic_dependencies.json",
+    "knowledge/claims/chanlun_lessons106_108_semantic_dependencies.json"
+  ],
+  "rule_registry_file": "catalog/chanlun_rule_history_v1.json",
+  "source_sha256_by_volume": {
+    "1": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+    "2": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+    "3": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+    "4": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+    "5": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65"
+  },
+  "counts": {
+    "lessons": 108,
+    "graph_nodes": 84,
+    "graph_edges": 145,
+    "rule_attributions": 16,
+    "evidence_files": 108
+  },
+  "lessons": [
+    {
+      "lesson": 1,
+      "title": "不会赢钱的经济人，只是废人",
+      "volume": 1,
+      "start_pdf_page": 3,
+      "end_pdf_page": 5,
+      "pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "evidence_file": "knowledge/evidence/chanlun_lesson001.json"
+    },
+    {
+      "lesson": 2,
+      "title": "没有庄家，有的只是赢家和输家",
+      "volume": 1,
+      "start_pdf_page": 6,
+      "end_pdf_page": 6,
+      "pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "evidence_file": "knowledge/evidence/chanlun_lesson002.json"
+    },
+    {
+      "lesson": 3,
+      "title": "你的喜好，你的死亡陷阱",
+      "volume": 1,
+      "start_pdf_page": 7,
+      "end_pdf_page": 7,
+      "pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "evidence_file": "knowledge/evidence/chanlun_lesson003.json"
+    },
+    {
+      "lesson": 4,
+      "title": "什么是理性？今早买N 中工就是理性",
+      "volume": 1,
+      "start_pdf_page": 8,
+      "end_pdf_page": 11,
+      "pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "evidence_file": "knowledge/evidence/chanlun_lesson004.json"
+    },
+    {
+      "lesson": 5,
+      "title": "市场无须分析，只要看和干",
+      "volume": 1,
+      "start_pdf_page": 12,
+      "end_pdf_page": 12,
+      "pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "evidence_file": "knowledge/evidence/chanlun_lesson005.json"
+    },
+    {
+      "lesson": 6,
+      "title": "本ID 如何在五粮液、包钢权证上提款的",
+      "volume": 1,
+      "start_pdf_page": 13,
+      "end_pdf_page": 15,
+      "pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "evidence_file": "knowledge/evidence/chanlun_lesson006.json"
+    },
+    {
+      "lesson": 7,
+      "title": "给赚了指数亏了钱的人的一些忠告",
+      "volume": 1,
+      "start_pdf_page": 16,
+      "end_pdf_page": 20,
+      "pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "evidence_file": "knowledge/evidence/chanlun_lesson007.json"
+    },
+    {
+      "lesson": 8,
+      "title": "投资如选面首，G 点为中心，拒绝ED 男",
+      "volume": 1,
+      "start_pdf_page": 21,
+      "end_pdf_page": 27,
+      "pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "evidence_file": "knowledge/evidence/chanlun_lesson008.json"
+    },
+    {
+      "lesson": 9,
+      "title": "甄别“早泄”男的数学原则",
+      "volume": 1,
+      "start_pdf_page": 28,
+      "end_pdf_page": 47,
+      "pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "evidence_file": "knowledge/evidence/chanlun_lesson009.json"
+    },
+    {
+      "lesson": 10,
+      "title": "2005 年6 月，本ID 为何时隔四年后重看股票",
+      "volume": 1,
+      "start_pdf_page": 48,
+      "end_pdf_page": 81,
+      "pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "evidence_file": "knowledge/evidence/chanlun_lesson010.json"
+    },
+    {
+      "lesson": 11,
+      "title": "不会吻，无以高潮",
+      "volume": 1,
+      "start_pdf_page": 82,
+      "end_pdf_page": 97,
+      "pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "evidence_file": "knowledge/evidence/chanlun_lesson011.json"
+    },
+    {
+      "lesson": 12,
+      "title": "一吻何能消魂？",
+      "volume": 1,
+      "start_pdf_page": 98,
+      "end_pdf_page": 106,
+      "pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "evidence_file": "knowledge/evidence/chanlun_lesson012.json"
+    },
+    {
+      "lesson": 13,
+      "title": "不带套的操作不是好操作",
+      "volume": 1,
+      "start_pdf_page": 107,
+      "end_pdf_page": 114,
+      "pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "evidence_file": "knowledge/evidence/chanlun_lesson013.json"
+    },
+    {
+      "lesson": 14,
+      "title": "喝茅台的高潮程序",
+      "volume": 1,
+      "start_pdf_page": 115,
+      "end_pdf_page": 142,
+      "pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "evidence_file": "knowledge/evidence/chanlun_lesson014.json"
+    },
+    {
+      "lesson": 15,
+      "title": "没有趋势，没有背驰",
+      "volume": 1,
+      "start_pdf_page": 143,
+      "end_pdf_page": 168,
+      "pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "evidence_file": "knowledge/evidence/chanlun_lesson015.json"
+    },
+    {
+      "lesson": 16,
+      "title": "中小资金的高效买卖法",
+      "volume": 1,
+      "start_pdf_page": 169,
+      "end_pdf_page": 195,
+      "pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "evidence_file": "knowledge/evidence/chanlun_lesson016.json"
+    },
+    {
+      "lesson": 17,
+      "title": "走势终完美",
+      "volume": 1,
+      "start_pdf_page": 196,
+      "end_pdf_page": 233,
+      "pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "evidence_file": "knowledge/evidence/chanlun_lesson017.json"
+    },
+    {
+      "lesson": 18,
+      "title": "不被面首的雏男是不完美的",
+      "volume": 1,
+      "start_pdf_page": 234,
+      "end_pdf_page": 237,
+      "pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "evidence_file": "knowledge/evidence/chanlun_lesson018.json"
+    },
+    {
+      "lesson": 19,
+      "title": "学习缠中说禅技术分析理论的关键",
+      "volume": 1,
+      "start_pdf_page": 238,
+      "end_pdf_page": 244,
+      "pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "evidence_file": "knowledge/evidence/chanlun_lesson019.json"
+    },
+    {
+      "lesson": 20,
+      "title": "缠中说禅走势中枢级别扩张及第三类买卖点",
+      "volume": 1,
+      "start_pdf_page": 245,
+      "end_pdf_page": 252,
+      "pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "evidence_file": "knowledge/evidence/chanlun_lesson020.json"
+    },
+    {
+      "lesson": 21,
+      "title": "缠中说禅买卖点分析的完备性",
+      "volume": 1,
+      "start_pdf_page": 253,
+      "end_pdf_page": 271,
+      "pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "evidence_file": "knowledge/evidence/chanlun_lesson021.json"
+    },
+    {
+      "lesson": 22,
+      "title": "将8 亿袋大米装到5 个庄家的肚里",
+      "volume": 1,
+      "start_pdf_page": 272,
+      "end_pdf_page": 298,
+      "pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "evidence_file": "knowledge/evidence/chanlun_lesson022.json"
+    },
+    {
+      "lesson": 23,
+      "title": "市场与人生",
+      "volume": 1,
+      "start_pdf_page": 299,
+      "end_pdf_page": 337,
+      "pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "evidence_file": "knowledge/evidence/chanlun_lesson023.json"
+    },
+    {
+      "lesson": 24,
+      "title": "MACD 对背弛的辅助判断",
+      "volume": 2,
+      "start_pdf_page": 3,
+      "end_pdf_page": 32,
+      "pdf_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "evidence_file": "knowledge/evidence/chanlun_lesson024.json"
+    },
+    {
+      "lesson": 25,
+      "title": "吻，MACD、背弛、中枢",
+      "volume": 2,
+      "start_pdf_page": 33,
+      "end_pdf_page": 68,
+      "pdf_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "evidence_file": "knowledge/evidence/chanlun_lesson025.json"
+    },
+    {
+      "lesson": 26,
+      "title": "市场风险如何回避",
+      "volume": 2,
+      "start_pdf_page": 69,
+      "end_pdf_page": 90,
+      "pdf_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "evidence_file": "knowledge/evidence/chanlun_lesson026.json"
+    },
+    {
+      "lesson": 27,
+      "title": "盘整背驰与历史性底部",
+      "volume": 2,
+      "start_pdf_page": 91,
+      "end_pdf_page": 129,
+      "pdf_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "evidence_file": "knowledge/evidence/chanlun_lesson027.json"
+    },
+    {
+      "lesson": 28,
+      "title": "下一目标：摧毁基金",
+      "volume": 2,
+      "start_pdf_page": 130,
+      "end_pdf_page": 162,
+      "pdf_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "evidence_file": "knowledge/evidence/chanlun_lesson028.json"
+    },
+    {
+      "lesson": 29,
+      "title": "转折的力度与级别",
+      "volume": 2,
+      "start_pdf_page": 163,
+      "end_pdf_page": 185,
+      "pdf_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "evidence_file": "knowledge/evidence/chanlun_lesson029.json"
+    },
+    {
+      "lesson": 30,
+      "title": "缠中说禅理论的绝对性",
+      "volume": 2,
+      "start_pdf_page": 186,
+      "end_pdf_page": 191,
+      "pdf_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "evidence_file": "knowledge/evidence/chanlun_lesson030.json"
+    },
+    {
+      "lesson": 31,
+      "title": "资金管理的最稳固基础",
+      "volume": 2,
+      "start_pdf_page": 192,
+      "end_pdf_page": 230,
+      "pdf_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "evidence_file": "knowledge/evidence/chanlun_lesson031.json"
+    },
+    {
+      "lesson": 32,
+      "title": "走势的当下与投资者的思维方式",
+      "volume": 2,
+      "start_pdf_page": 231,
+      "end_pdf_page": 255,
+      "pdf_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "evidence_file": "knowledge/evidence/chanlun_lesson032.json"
+    },
+    {
+      "lesson": 33,
+      "title": "走势的多义性",
+      "volume": 2,
+      "start_pdf_page": 256,
+      "end_pdf_page": 270,
+      "pdf_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "evidence_file": "knowledge/evidence/chanlun_lesson033.json"
+    },
+    {
+      "lesson": 34,
+      "title": "宁当面首，莫成怨男",
+      "volume": 2,
+      "start_pdf_page": 271,
+      "end_pdf_page": 290,
+      "pdf_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "evidence_file": "knowledge/evidence/chanlun_lesson034.json"
+    },
+    {
+      "lesson": 35,
+      "title": "给基础差的同学补补课",
+      "volume": 2,
+      "start_pdf_page": 291,
+      "end_pdf_page": 304,
+      "pdf_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "evidence_file": "knowledge/evidence/chanlun_lesson035.json"
+    },
+    {
+      "lesson": 36,
+      "title": "走势类型连接结合性的简单运用",
+      "volume": 2,
+      "start_pdf_page": 305,
+      "end_pdf_page": 319,
+      "pdf_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "evidence_file": "knowledge/evidence/chanlun_lesson036.json"
+    },
+    {
+      "lesson": 37,
+      "title": "背驰的再分辨",
+      "volume": 2,
+      "start_pdf_page": 320,
+      "end_pdf_page": 337,
+      "pdf_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "evidence_file": "knowledge/evidence/chanlun_lesson037.json"
+    },
+    {
+      "lesson": 38,
+      "title": "走势类型连接的同级别分解",
+      "volume": 2,
+      "start_pdf_page": 338,
+      "end_pdf_page": 352,
+      "pdf_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "evidence_file": "knowledge/evidence/chanlun_lesson038.json"
+    },
+    {
+      "lesson": 39,
+      "title": "同级别分解再研究",
+      "volume": 2,
+      "start_pdf_page": 353,
+      "end_pdf_page": 362,
+      "pdf_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "evidence_file": "knowledge/evidence/chanlun_lesson039.json"
+    },
+    {
+      "lesson": 40,
+      "title": "同级别分解的多重赋格",
+      "volume": 2,
+      "start_pdf_page": 363,
+      "end_pdf_page": 377,
+      "pdf_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "evidence_file": "knowledge/evidence/chanlun_lesson040.json"
+    },
+    {
+      "lesson": 41,
+      "title": "没有节奏，只有死",
+      "volume": 2,
+      "start_pdf_page": 378,
+      "end_pdf_page": 389,
+      "pdf_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "evidence_file": "knowledge/evidence/chanlun_lesson041.json"
+    },
+    {
+      "lesson": 42,
+      "title": "有些人是不适合参与市场的",
+      "volume": 2,
+      "start_pdf_page": 390,
+      "end_pdf_page": 406,
+      "pdf_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "evidence_file": "knowledge/evidence/chanlun_lesson042.json"
+    },
+    {
+      "lesson": 43,
+      "title": "有关背驰的补习课",
+      "volume": 3,
+      "start_pdf_page": 3,
+      "end_pdf_page": 16,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson043.json"
+    },
+    {
+      "lesson": 44,
+      "title": "小级别背驰引发大级别转折",
+      "volume": 3,
+      "start_pdf_page": 17,
+      "end_pdf_page": 27,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson044.json"
+    },
+    {
+      "lesson": 45,
+      "title": "持股与持币，两种最基本的操作",
+      "volume": 3,
+      "start_pdf_page": 28,
+      "end_pdf_page": 48,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson045.json"
+    },
+    {
+      "lesson": 46,
+      "title": "每日走势的分类",
+      "volume": 3,
+      "start_pdf_page": 49,
+      "end_pdf_page": 68,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson046.json"
+    },
+    {
+      "lesson": 47,
+      "title": "一夜情行情分析",
+      "volume": 3,
+      "start_pdf_page": 69,
+      "end_pdf_page": 82,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson047.json"
+    },
+    {
+      "lesson": 48,
+      "title": "暴跌，牛市行情的一夜情",
+      "volume": 3,
+      "start_pdf_page": 83,
+      "end_pdf_page": 91,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson048.json"
+    },
+    {
+      "lesson": 49,
+      "title": "利润率最大的操作模式",
+      "volume": 3,
+      "start_pdf_page": 92,
+      "end_pdf_page": 104,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson049.json"
+    },
+    {
+      "lesson": 50,
+      "title": "操作中的一些细节问题",
+      "volume": 3,
+      "start_pdf_page": 105,
+      "end_pdf_page": 116,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson050.json"
+    },
+    {
+      "lesson": 51,
+      "title": "短线股评荐股者的传销把戏",
+      "volume": 3,
+      "start_pdf_page": 117,
+      "end_pdf_page": 142,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson051.json"
+    },
+    {
+      "lesson": 52,
+      "title": "炒股票就是真正的学佛",
+      "volume": 3,
+      "start_pdf_page": 143,
+      "end_pdf_page": 160,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson052.json"
+    },
+    {
+      "lesson": 53,
+      "title": "三类买卖点的再分辨",
+      "volume": 3,
+      "start_pdf_page": 161,
+      "end_pdf_page": 169,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson053.json"
+    },
+    {
+      "lesson": 54,
+      "title": "一个具体走势的分析",
+      "volume": 3,
+      "start_pdf_page": 170,
+      "end_pdf_page": 188,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson054.json"
+    },
+    {
+      "lesson": 55,
+      "title": "买之前戏，卖之高潮",
+      "volume": 3,
+      "start_pdf_page": 189,
+      "end_pdf_page": 205,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson055.json"
+    },
+    {
+      "lesson": 56,
+      "title": "530 印花税当日行情图解",
+      "volume": 3,
+      "start_pdf_page": 206,
+      "end_pdf_page": 218,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson056.json"
+    },
+    {
+      "lesson": 57,
+      "title": "当下图解分析再示范",
+      "volume": 3,
+      "start_pdf_page": 219,
+      "end_pdf_page": 228,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson057.json"
+    },
+    {
+      "lesson": 58,
+      "title": "图解分析示范三",
+      "volume": 3,
+      "start_pdf_page": 229,
+      "end_pdf_page": 250,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson058.json"
+    },
+    {
+      "lesson": 59,
+      "title": "图解分析示范四",
+      "volume": 3,
+      "start_pdf_page": 251,
+      "end_pdf_page": 266,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson059.json"
+    },
+    {
+      "lesson": 60,
+      "title": "图解分析示范五",
+      "volume": 3,
+      "start_pdf_page": 267,
+      "end_pdf_page": 277,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson060.json"
+    },
+    {
+      "lesson": 61,
+      "title": "区间套定位标准图解",
+      "volume": 3,
+      "start_pdf_page": 278,
+      "end_pdf_page": 290,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson061.json"
+    },
+    {
+      "lesson": 62,
+      "title": "分型、笔与线段",
+      "volume": 3,
+      "start_pdf_page": 291,
+      "end_pdf_page": 302,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson062.json"
+    },
+    {
+      "lesson": 63,
+      "title": "替各位理理基本概念",
+      "volume": 3,
+      "start_pdf_page": 303,
+      "end_pdf_page": 308,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson063.json"
+    },
+    {
+      "lesson": 64,
+      "title": "去机场路上给各位补课",
+      "volume": 3,
+      "start_pdf_page": 309,
+      "end_pdf_page": 346,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson064.json"
+    },
+    {
+      "lesson": 65,
+      "title": "再说说分型、笔、线段",
+      "volume": 3,
+      "start_pdf_page": 347,
+      "end_pdf_page": 373,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson065.json"
+    },
+    {
+      "lesson": 66,
+      "title": "主力资金的食物链",
+      "volume": 3,
+      "start_pdf_page": 374,
+      "end_pdf_page": 387,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson066.json"
+    },
+    {
+      "lesson": 67,
+      "title": "线段的划分标准",
+      "volume": 3,
+      "start_pdf_page": 388,
+      "end_pdf_page": 405,
+      "pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "evidence_file": "knowledge/evidence/chanlun_lesson067.json"
+    },
+    {
+      "lesson": 68,
+      "title": "走势预测的精确意义",
+      "volume": 4,
+      "start_pdf_page": 3,
+      "end_pdf_page": 26,
+      "pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "evidence_file": "knowledge/evidence/chanlun_lesson068.json"
+    },
+    {
+      "lesson": 69,
+      "title": "月线分段与上海大走势分析、预判",
+      "volume": 4,
+      "start_pdf_page": 27,
+      "end_pdf_page": 51,
+      "pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "evidence_file": "knowledge/evidence/chanlun_lesson069.json"
+    },
+    {
+      "lesson": 70,
+      "title": "一个教科书式走势的示范分析",
+      "volume": 4,
+      "start_pdf_page": 52,
+      "end_pdf_page": 70,
+      "pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "evidence_file": "knowledge/evidence/chanlun_lesson070.json"
+    },
+    {
+      "lesson": 71,
+      "title": "线段划分标准的再分辨",
+      "volume": 4,
+      "start_pdf_page": 71,
+      "end_pdf_page": 82,
+      "pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "evidence_file": "knowledge/evidence/chanlun_lesson071.json"
+    },
+    {
+      "lesson": 72,
+      "title": "本ID 已有课程的再梳理",
+      "volume": 4,
+      "start_pdf_page": 83,
+      "end_pdf_page": 97,
+      "pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "evidence_file": "knowledge/evidence/chanlun_lesson072.json"
+    },
+    {
+      "lesson": 73,
+      "title": "市场获利机会的绝对分类",
+      "volume": 4,
+      "start_pdf_page": 98,
+      "end_pdf_page": 110,
+      "pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "evidence_file": "knowledge/evidence/chanlun_lesson073.json"
+    },
+    {
+      "lesson": 74,
+      "title": "如何躲避政策性风险",
+      "volume": 4,
+      "start_pdf_page": 111,
+      "end_pdf_page": 120,
+      "pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "evidence_file": "knowledge/evidence/chanlun_lesson074.json"
+    },
+    {
+      "lesson": 75,
+      "title": "逗庄家玩的一些杂史1",
+      "volume": 4,
+      "start_pdf_page": 121,
+      "end_pdf_page": 142,
+      "pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "evidence_file": "knowledge/evidence/chanlun_lesson075.json"
+    },
+    {
+      "lesson": 76,
+      "title": "逗庄家玩的一些杂史2",
+      "volume": 4,
+      "start_pdf_page": 143,
+      "end_pdf_page": 156,
+      "pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "evidence_file": "knowledge/evidence/chanlun_lesson076.json"
+    },
+    {
+      "lesson": 77,
+      "title": "一些概念的再分辨",
+      "volume": 4,
+      "start_pdf_page": 157,
+      "end_pdf_page": 173,
+      "pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "evidence_file": "knowledge/evidence/chanlun_lesson077.json"
+    },
+    {
+      "lesson": 78,
+      "title": "继续说线段的划分",
+      "volume": 4,
+      "start_pdf_page": 174,
+      "end_pdf_page": 186,
+      "pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "evidence_file": "knowledge/evidence/chanlun_lesson078.json"
+    },
+    {
+      "lesson": 79,
+      "title": "分型的辅助操作与一些问题的再解答",
+      "volume": 4,
+      "start_pdf_page": 187,
+      "end_pdf_page": 200,
+      "pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "evidence_file": "knowledge/evidence/chanlun_lesson079.json"
+    },
+    {
+      "lesson": 80,
+      "title": "市场没有同情、不信眼泪",
+      "volume": 4,
+      "start_pdf_page": 201,
+      "end_pdf_page": 231,
+      "pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "evidence_file": "knowledge/evidence/chanlun_lesson080.json"
+    },
+    {
+      "lesson": 81,
+      "title": "图例、更正及分型、走势类型的哲学本质",
+      "volume": 4,
+      "start_pdf_page": 232,
+      "end_pdf_page": 265,
+      "pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "evidence_file": "knowledge/evidence/chanlun_lesson081.json"
+    },
+    {
+      "lesson": 82,
+      "title": "分型结构的心理因素",
+      "volume": 4,
+      "start_pdf_page": 266,
+      "end_pdf_page": 287,
+      "pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "evidence_file": "knowledge/evidence/chanlun_lesson082.json"
+    },
+    {
+      "lesson": 83,
+      "title": "笔-线段与线段-最小中枢结构的不同心理意义1",
+      "volume": 4,
+      "start_pdf_page": 288,
+      "end_pdf_page": 298,
+      "pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "evidence_file": "knowledge/evidence/chanlun_lesson083.json"
+    },
+    {
+      "lesson": 84,
+      "title": "本ID 理论一些必须注意的问题",
+      "volume": 4,
+      "start_pdf_page": 299,
+      "end_pdf_page": 337,
+      "pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "evidence_file": "knowledge/evidence/chanlun_lesson084.json"
+    },
+    {
+      "lesson": 85,
+      "title": "逗庄家玩的一些杂史3",
+      "volume": 4,
+      "start_pdf_page": 338,
+      "end_pdf_page": 345,
+      "pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "evidence_file": "knowledge/evidence/chanlun_lesson085.json"
+    },
+    {
+      "lesson": 86,
+      "title": "走势分析中必须杜绝一根筋思维",
+      "volume": 4,
+      "start_pdf_page": 346,
+      "end_pdf_page": 368,
+      "pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "evidence_file": "knowledge/evidence/chanlun_lesson086.json"
+    },
+    {
+      "lesson": 87,
+      "title": "逗庄家玩的一些杂史4",
+      "volume": 4,
+      "start_pdf_page": 369,
+      "end_pdf_page": 383,
+      "pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "evidence_file": "knowledge/evidence/chanlun_lesson087.json"
+    },
+    {
+      "lesson": 88,
+      "title": "图形生长的一个具体案例",
+      "volume": 4,
+      "start_pdf_page": 384,
+      "end_pdf_page": 407,
+      "pdf_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "evidence_file": "knowledge/evidence/chanlun_lesson088.json"
+    },
+    {
+      "lesson": 89,
+      "title": "中阴阶段的具体分析",
+      "volume": 5,
+      "start_pdf_page": 3,
+      "end_pdf_page": 29,
+      "pdf_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "evidence_file": "knowledge/evidence/chanlun_lesson089.json"
+    },
+    {
+      "lesson": 90,
+      "title": "中阴阶段结束时间的辅助判断",
+      "volume": 5,
+      "start_pdf_page": 30,
+      "end_pdf_page": 63,
+      "pdf_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "evidence_file": "knowledge/evidence/chanlun_lesson090.json"
+    },
+    {
+      "lesson": 91,
+      "title": "走势结构的两重表里关系1",
+      "volume": 5,
+      "start_pdf_page": 64,
+      "end_pdf_page": 92,
+      "pdf_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "evidence_file": "knowledge/evidence/chanlun_lesson091.json"
+    },
+    {
+      "lesson": 92,
+      "title": "中枢震荡的监视器",
+      "volume": 5,
+      "start_pdf_page": 93,
+      "end_pdf_page": 123,
+      "pdf_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "evidence_file": "knowledge/evidence/chanlun_lesson092.json"
+    },
+    {
+      "lesson": 93,
+      "title": "走势结构的两重表里关系2",
+      "volume": 5,
+      "start_pdf_page": 124,
+      "end_pdf_page": 142,
+      "pdf_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "evidence_file": "knowledge/evidence/chanlun_lesson093.json"
+    },
+    {
+      "lesson": 94,
+      "title": "当机立断",
+      "volume": 5,
+      "start_pdf_page": 143,
+      "end_pdf_page": 149,
+      "pdf_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "evidence_file": "knowledge/evidence/chanlun_lesson094.json"
+    },
+    {
+      "lesson": 95,
+      "title": "修炼自己",
+      "volume": 5,
+      "start_pdf_page": 150,
+      "end_pdf_page": 154,
+      "pdf_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "evidence_file": "knowledge/evidence/chanlun_lesson095.json"
+    },
+    {
+      "lesson": 96,
+      "title": "无处不在的赌徒心理",
+      "volume": 5,
+      "start_pdf_page": 155,
+      "end_pdf_page": 171,
+      "pdf_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "evidence_file": "knowledge/evidence/chanlun_lesson096.json"
+    },
+    {
+      "lesson": 97,
+      "title": "中医、兵法、诗歌、操作1",
+      "volume": 5,
+      "start_pdf_page": 172,
+      "end_pdf_page": 191,
+      "pdf_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "evidence_file": "knowledge/evidence/chanlun_lesson097.json"
+    },
+    {
+      "lesson": 98,
+      "title": "中医、兵法、诗歌、操作2",
+      "volume": 5,
+      "start_pdf_page": 192,
+      "end_pdf_page": 201,
+      "pdf_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "evidence_file": "knowledge/evidence/chanlun_lesson098.json"
+    },
+    {
+      "lesson": 99,
+      "title": "走势结构的两重表里关系3",
+      "volume": 5,
+      "start_pdf_page": 202,
+      "end_pdf_page": 223,
+      "pdf_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "evidence_file": "knowledge/evidence/chanlun_lesson099.json"
+    },
+    {
+      "lesson": 100,
+      "title": "中医、兵法、诗歌、操作3",
+      "volume": 5,
+      "start_pdf_page": 224,
+      "end_pdf_page": 232,
+      "pdf_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "evidence_file": "knowledge/evidence/chanlun_lesson100.json"
+    },
+    {
+      "lesson": 101,
+      "title": "答疑1",
+      "volume": 5,
+      "start_pdf_page": 233,
+      "end_pdf_page": 240,
+      "pdf_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "evidence_file": "knowledge/evidence/chanlun_lesson101.json"
+    },
+    {
+      "lesson": 102,
+      "title": "再说走势必完美",
+      "volume": 5,
+      "start_pdf_page": 241,
+      "end_pdf_page": 268,
+      "pdf_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "evidence_file": "knowledge/evidence/chanlun_lesson102.json"
+    },
+    {
+      "lesson": 103,
+      "title": "学屠龙术前先学好防狼术",
+      "volume": 5,
+      "start_pdf_page": 269,
+      "end_pdf_page": 289,
+      "pdf_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "evidence_file": "knowledge/evidence/chanlun_lesson103.json"
+    },
+    {
+      "lesson": 104,
+      "title": "几何结构与能量动力结构1",
+      "volume": 5,
+      "start_pdf_page": 290,
+      "end_pdf_page": 324,
+      "pdf_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "evidence_file": "knowledge/evidence/chanlun_lesson104.json"
+    },
+    {
+      "lesson": 105,
+      "title": "远离聪明、机械操作",
+      "volume": 5,
+      "start_pdf_page": 325,
+      "end_pdf_page": 372,
+      "pdf_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "evidence_file": "knowledge/evidence/chanlun_lesson105.json"
+    },
+    {
+      "lesson": 106,
+      "title": "均线、轮动与缠中说禅板块强弱指标",
+      "volume": 5,
+      "start_pdf_page": 373,
+      "end_pdf_page": 384,
+      "pdf_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "evidence_file": "knowledge/evidence/chanlun_lesson106.json"
+    },
+    {
+      "lesson": 107,
+      "title": "如何操作短线反弹",
+      "volume": 5,
+      "start_pdf_page": 385,
+      "end_pdf_page": 394,
+      "pdf_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "evidence_file": "knowledge/evidence/chanlun_lesson107.json"
+    },
+    {
+      "lesson": 108,
+      "title": "何谓底部？从月线看中期走势演化",
+      "volume": 5,
+      "start_pdf_page": 395,
+      "end_pdf_page": 441,
+      "pdf_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "evidence_file": "knowledge/evidence/chanlun_lesson108.json"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "L17-CENTER",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 1,
+      "pdf_pages": [
+        197
+      ],
+      "claim": "Center built from intersection of completed lower-level movements",
+      "status": "original_early_definition_requires_online_completion"
+    },
+    {
+      "id": "L26-DOMAIN",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 2,
+      "pdf_pages": [
+        69,
+        70
+      ],
+      "claim": "Continuous valid trading is a precondition, sudden suspension/voiding is outside assumed domain",
+      "status": "original_author_limited_domain"
+    },
+    {
+      "id": "L31-COST",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 2,
+      "pdf_pages": [
+        194,
+        195
+      ],
+      "claim": "Recover principal and manage remaining shares, distinct from zero mark-to-market exposure",
+      "status": "original_principle_with_ai_risk_qualification"
+    },
+    {
+      "id": "L32-CONTEMPORANEOUS",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 2,
+      "pdf_pages": [
+        233,
+        234
+      ],
+      "claim": "Current signals determine actions; future B or c is not guaranteed",
+      "status": "original_online_intent_not_proven_implementation"
+    },
+    {
+      "id": "L33-AMBIGUITY",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 2,
+      "pdf_pages": [
+        256,
+        257
+      ],
+      "claim": "Multiple legitimate descriptions possible due to level/time resolution and center extensions",
+      "status": "original_acknowledged_ambiguity"
+    },
+    {
+      "id": "L35-BASE",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 2,
+      "pdf_pages": [
+        291
+      ],
+      "claim": "Trade-level base case proposed to break center/movement circular dependence",
+      "status": "original_recursive_definition_needs_totality_check"
+    },
+    {
+      "id": "L35-ASSOCIATIVITY",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 2,
+      "pdf_pages": [
+        292
+      ],
+      "claim": "Movement connection is associative but not commutative",
+      "status": "original_algebraic_claim_not_unique_semantics"
+    },
+    {
+      "id": "L35-EXECUTION",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 2,
+      "pdf_pages": [
+        292,
+        293
+      ],
+      "claim": "T+1 fees and errors limit operational timeframe",
+      "status": "original_tradeability_limits"
+    },
+    {
+      "id": "L36-MULTIPARSE",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 2,
+      "pdf_pages": [
+        305,
+        308,
+        310
+      ],
+      "claim": "Associative regrouping admits multiple time/level interpretations and different third-buy boundaries",
+      "status": "original_assertion_and_later_editor_note"
+    },
+    {
+      "id": "L37-TREND-TYPECHECK",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 2,
+      "pdf_pages": [
+        320
+      ],
+      "claim": "Trend divergence requires same-level centers A and B plus extremum continuation constraints",
+      "status": "original_required_condition"
+    },
+    {
+      "id": "L38-FIXED-LEVEL",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 2,
+      "pdf_pages": [
+        338,
+        339
+      ],
+      "claim": "Uniqueness is claimed under a fixed same-level decomposition rule, not all alternative rule choices",
+      "status": "original_conditional_claim_not_independently_proved"
+    },
+    {
+      "id": "L39-MISSING-BRANCH",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 2,
+      "pdf_pages": [
+        354
+      ],
+      "claim": "Later editorial note flags missing Ai/Ai+2 non-new-high/low condition",
+      "status": "editorial_correction_not_original_article"
+    },
+    {
+      "id": "L40-SHARED-INVENTORY",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 2,
+      "pdf_pages": [
+        363
+      ],
+      "claim": "Multi-level allocations imply stock/cash conservation in a unified brokerage account",
+      "status": "ai_risk_qualification_of_original_multilevel_idea"
+    },
+    {
+      "id": "L41-LEVEL-DISCIPLINE",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 2,
+      "pdf_pages": [
+        378,
+        379
+      ],
+      "claim": "Small-level contrarian buy/sell signals may be overrun by non-exhausted higher-level trend",
+      "status": "original_author_level_qualification"
+    },
+    {
+      "id": "L42-DECISION-REVIEW",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 2,
+      "pdf_pages": [
+        392
+      ],
+      "claim": "Post-close review of trades and psychological decision process; not a medical diagnosis",
+      "status": "original_author_behavioral_recommendation"
+    },
+    {
+      "id": "L43-MULTISCALE-REVERSAL",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        3,
+        5,
+        6
+      ],
+      "claim": "Divergence level may equal or be smaller than current movement level and higher-level outcome is not predetermined",
+      "status": "original_author_multiscale_statement"
+    },
+    {
+      "id": "L44-NECESSARY-NOT-SUFFICIENT",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        17,
+        18
+      ],
+      "claim": "Final lower-level center third-class sell/buy signal is necessary, not sufficient, for small divergence leading to larger reversal",
+      "status": "explicit_original_author_logical_distinction"
+    },
+    {
+      "id": "L45-HOLD-WAIT",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        28,
+        29
+      ],
+      "claim": "Hold stock or cash while observing unfinished movement; AI implementation adds tradeability and deadline constraints",
+      "status": "original_author_holding_state_with_ai_risk_qualification"
+    },
+    {
+      "id": "L46-DAY-ASOF",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        49,
+        50
+      ],
+      "claim": "Eight completed half-hour bars define full-day auxiliary central-overlap classification; interim labels cannot use future bars",
+      "status": "original_day_classification_with_ai_asof_qualification"
+    },
+    {
+      "id": "L47-CASE-EXECUTION",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        69,
+        70,
+        72
+      ],
+      "claim": "Intraday 2007 example includes author-claimed exact points and explicitly recognizes T+1 next-day exit risk",
+      "status": "original_case_not_independently_verified"
+    },
+    {
+      "id": "L48-COST-RISK",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        83,
+        84
+      ],
+      "claim": "Author repeats zero-cost-is-no-risk claim; remaining stock price risk persists under economic mark-to-market",
+      "status": "original_strong_claim_with_ai_economic_qualification"
+    },
+    {
+      "id": "L49-PROFIT-OPTIMUM",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        95,
+        96
+      ],
+      "claim": "Author claims two profit-maximizing operational modes under a fixed level but needs explicit feasible set and objective",
+      "status": "original_theorem_claim_not_independently_proved"
+    },
+    {
+      "id": "L50-MACD-PROXY",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        105,
+        106
+      ],
+      "claim": "Market structure/segments should be identified before selecting the auxiliary MACD sampling period",
+      "status": "original_indicator_hierarchy_with_ai_resampling_caveat"
+    },
+    {
+      "id": "L51-REFLEXIVITY",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        117,
+        118
+      ],
+      "claim": "Public stock recommendations may affect follower demand and cannot automatically establish independent prediction skill",
+      "status": "original_author_market_commentary_unverified_particular_allegations"
+    },
+    {
+      "id": "L52-OBSERVER-MARKET",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        143,
+        144
+      ],
+      "claim": "Observing, predicting, and participating traders jointly shape observed market; structural scale invariance is an unverified author's claim",
+      "status": "original_philosophical_claim_not_empirical_proof"
+    },
+    {
+      "id": "L53-THREE-POINT-TYPES",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        161,
+        162
+      ],
+      "claim": "Three types of buy/sell points have distinct functions at one operating level despite smaller-scale interrelations",
+      "status": "author_2007_original"
+    },
+    {
+      "id": "L53-LATER-2009-INSERT",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        162,
+        163,
+        164
+      ],
+      "claim": "A separately dated 2009-01-05 discussion on third-class buy/sell points begins mid-page 162 and extends over pages 163–164",
+      "status": "later_discussion_not_author_2007_original"
+    },
+    {
+      "id": "L54-LEGAL-GROUPING",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        171,
+        172,
+        173
+      ],
+      "claim": "Multiple associatively regrouped descriptions remain constrained by mandatory lower-level connector between two same-level centers",
+      "status": "original_author_semantic_constraint_with_later_editorial_caveats"
+    },
+    {
+      "id": "L55-BUY-SELL-ASYMMETRY",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        189,
+        190
+      ],
+      "claim": "Long accumulation and exit can have different time strategies, but must obey actual cash/share accounting",
+      "status": "original_argument_with_ai_ledger_qualification"
+    },
+    {
+      "id": "L56-GAP-ASOF",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        206,
+        208
+      ],
+      "claim": "Overnight 5·30 shock can render an earlier ideal first sell unexecutable; later second or third sell requires current confirmation",
+      "status": "original_author_case_with_ai_execution_boundary"
+    },
+    {
+      "id": "L57-SEGMENT-THRESHOLD",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        219,
+        220
+      ],
+      "claim": "Micro-retracement detection threshold may vary, but comparable cases must use one fixed segmentation policy",
+      "status": "original_author_consistency_condition"
+    },
+    {
+      "id": "L58-PENDING-REVERSAL",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        231
+      ],
+      "claim": "A possible divergence leg can be invalidated by later acceleration, so prediction cannot be marked confirmed",
+      "status": "original_author_explicit_uncertainty"
+    },
+    {
+      "id": "L59-PRICE-QUANTIZATION",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        257
+      ],
+      "claim": "Author's 3994.57 versus 3994.21 comparison depends on prior precision; truncation and half-up integer rounding disagree",
+      "status": "original_precision_example_with_ai_decimal_method_distinction"
+    },
+    {
+      "id": "L60-SHOCK-SCALE",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        267,
+        269
+      ],
+      "claim": "Unexpected news is assessed by the level of structural disruption but does not remove portfolio price or gap risk",
+      "status": "original_author_shock_scale_with_ai_risk_qualification"
+    },
+    {
+      "id": "L61-DATE-STRATA",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        278,
+        279,
+        281
+      ],
+      "claim": "Vol3 lesson61 header is dated 2010-08-13 yet internal source contains distinct 2007-06-22/27 dated commentary",
+      "status": "source_provenance_heterogeneous"
+    },
+    {
+      "id": "L62-FRACTAL-PEN",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        292,
+        293,
+        294
+      ],
+      "claim": "Three-K-line fractals and pen/segment structure are built from cleaned non-containing bars with minimum interval requirements",
+      "status": "original_author_2007_definition"
+    },
+    {
+      "id": "L62-REVISED-PEN",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        295
+      ],
+      "claim": "The phrase 新笔定义 appears following the original explanation; provenance and revised rule must be versioned separately",
+      "status": "appended_rule_version_provenance_unresolved"
+    },
+    {
+      "id": "L63-OBSERVATION-SCALE",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        303,
+        304
+      ],
+      "claim": "Data bar sampling frequency is not automatically equal to the level of the observed recursive center or movement",
+      "status": "original_author_distinction"
+    },
+    {
+      "id": "L64-TOLERANCE",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        311
+      ],
+      "claim": "A price comparison tolerance and integer policy must remain fixed; proximity is not transitive",
+      "status": "original_author_consistency_with_ai_numeric_counterexample"
+    },
+    {
+      "id": "L65-ORDERED-CONTAINMENT",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        347,
+        348
+      ],
+      "claim": "K-line containment is not transitive; the operator must merge successive bars in order and track original sources",
+      "status": "original_author_mathematical_condition"
+    },
+    {
+      "id": "L66-MULTIAGENT",
+      "graph_file": "knowledge/claims/chanlun_lessons066_070_crossvolume_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        374,
+        375
+      ],
+      "claim": "No price-only evidence can identify a single omnipotent operator; multiple capital interests may interact",
+      "status": "original_market_commentary_unverified_actor_attribution"
+    },
+    {
+      "id": "L67-FEATURE-SEQUENCE",
+      "graph_file": "knowledge/claims/chanlun_lessons066_070_crossvolume_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        388
+      ],
+      "claim": "Opposite-direction strokes form a segment feature sequence; adjacent nonoverlap is a feature gap",
+      "status": "original_author_feature_sequence_rule"
+    },
+    {
+      "id": "L67-OPPOSITE-CONFIRM",
+      "graph_file": "knowledge/claims/chanlun_lessons066_070_crossvolume_dependencies.json",
+      "volume": 3,
+      "pdf_pages": [
+        388,
+        389
+      ],
+      "claim": "First-second feature gap requires later opposite-sequence fractal before locally confirming segment termination",
+      "status": "author_2007_rule_with_unresolved_editorial_order_objection"
+    },
+    {
+      "id": "L68-PIECEWISE",
+      "graph_file": "knowledge/claims/chanlun_lessons066_070_crossvolume_dependencies.json",
+      "volume": 4,
+      "pdf_pages": [
+        3,
+        4,
+        5
+      ],
+      "claim": "Partition observable price states by prior boundary and respond on actual triggered condition, not fixed future price prediction",
+      "status": "author_original_with_editorial_piecewise_annotation"
+    },
+    {
+      "id": "L69-MONTHLY-REVISION",
+      "graph_file": "knowledge/claims/chanlun_lessons066_070_crossvolume_dependencies.json",
+      "volume": 4,
+      "pdf_pages": [
+        27,
+        28,
+        29
+      ],
+      "claim": "Provisional monthly fractal/pen may be revised before completion; confirmed structure cannot be retroactively backdated",
+      "status": "original_and_editorial_future_disagreement"
+    },
+    {
+      "id": "L70-CENTER-BRANCH",
+      "graph_file": "knowledge/claims/chanlun_lessons066_070_crossvolume_dependencies.json",
+      "volume": 4,
+      "pdf_pages": [
+        52,
+        53
+      ],
+      "claim": "After an existing center forms, third buy, third sell, or extension/expansion are different possible outcomes requiring observed confirmation",
+      "status": "original_author_conditional_branch_with_timeframe_editorial_caveat"
+    },
+    {
+      "id": "L71-TYPED-FEATURE",
+      "graph_file": "knowledge/claims/chanlun_lessons071_075_semantic_dependencies.json",
+      "volume": 4,
+      "pdf_pages": [
+        71,
+        72
+      ],
+      "claim": "Only strict elements of the same feature sequence may be containment-merged; tentative transition-side features may be auxiliary or unknown",
+      "status": "author_original_and_ai_type_gate"
+    },
+    {
+      "id": "L72-DEFINITION-VERSION",
+      "graph_file": "knowledge/claims/chanlun_lessons071_075_semantic_dependencies.json",
+      "volume": 4,
+      "pdf_pages": [
+        84,
+        85,
+        87
+      ],
+      "claim": "Morphology vs dynamics and chapter 64 informal segment claims were later tightened by chapter 67 feature-sequence definitions",
+      "status": "author_original_with_editorial_scope_caveat"
+    },
+    {
+      "id": "L73-OPPORTUNITY-TAXONOMY",
+      "graph_file": "knowledge/claims/chanlun_lessons071_075_semantic_dependencies.json",
+      "volume": 4,
+      "pdf_pages": [
+        98,
+        99,
+        100
+      ],
+      "claim": "Center up-movement and center oscillation are author's structural opportunity types; they do not ensure actual after-cost positive profits",
+      "status": "author_structural_classification_ai_economic_qualification"
+    },
+    {
+      "id": "L74-POLICY-DISPUTE",
+      "graph_file": "knowledge/claims/chanlun_lessons071_075_semantic_dependencies.json",
+      "volume": 4,
+      "pdf_pages": [
+        111,
+        112,
+        113
+      ],
+      "claim": "Author calls policy risk nonsystematic while later editorial note challenges this as broad systematic risk",
+      "status": "original_editorial_direct_disagreement"
+    },
+    {
+      "id": "L75-UNVERIFIED-ANECDOTES",
+      "graph_file": "knowledge/claims/chanlun_lessons071_075_semantic_dependencies.json",
+      "volume": 4,
+      "pdf_pages": [
+        121,
+        122,
+        123
+      ],
+      "claim": "Self-described dream-like market opponent stories are unattributed narrative claims rather than independently verified trading events",
+      "status": "original_first_person_narrative_evidence_unverified"
+    },
+    {
+      "id": "L76-ANECDOTE-EVIDENCE",
+      "graph_file": "knowledge/claims/chanlun_lessons076_080_semantic_dependencies.json",
+      "volume": 4,
+      "pdf_pages": [
+        143,
+        144,
+        145
+      ],
+      "claim": "Author's self-described dream market-opponent stories cannot prove counterpart identity or manipulation",
+      "status": "author_unverified_anecdote_and_later_dated_material"
+    },
+    {
+      "id": "L77-PEN-UNIQUENESS-PREMISES",
+      "graph_file": "knowledge/claims/chanlun_lessons076_080_semantic_dependencies.json",
+      "volume": 4,
+      "pdf_pages": [
+        158,
+        159,
+        160
+      ],
+      "claim": "Unique pen decomposition presupposes formal completed fractals, non-overlapping K-line definitions and handling of equal extrema",
+      "status": "original_author_claim_ai_pending_tie_boundary"
+    },
+    {
+      "id": "L78-IMMUTABLE-PROJECTION",
+      "graph_file": "knowledge/claims/chanlun_lessons076_080_semantic_dependencies.json",
+      "volume": 4,
+      "pdf_pages": [
+        175,
+        177
+      ],
+      "claim": "A line segment may be normalized into a high-low derived view for higher level center analysis without changing its original path or confirmation time",
+      "status": "original_author_derived_view_with_editorial_dispute"
+    },
+    {
+      "id": "L79-INTRADAY-DUAL-CLOCK",
+      "graph_file": "knowledge/claims/chanlun_lessons076_080_semantic_dependencies.json",
+      "volume": 4,
+      "pdf_pages": [
+        193,
+        197,
+        198
+      ],
+      "claim": "Earlier intraday lower-level signal does not imply that the third daily fractal bar has already closed and confirmed",
+      "status": "original_low_level_timing_ai_asof_boundary"
+    },
+    {
+      "id": "L80-ASSERTION-NOT-PROFIT",
+      "graph_file": "knowledge/claims/chanlun_lessons076_080_semantic_dependencies.json",
+      "volume": 4,
+      "pdf_pages": [
+        201,
+        207,
+        208,
+        212
+      ],
+      "claim": "Strong sell discipline and completed technical conditions cannot guarantee realized gain or eliminate repurchase opportunity cost",
+      "status": "original_normative_statements_ai_economic_counterexample"
+    },
+    {
+      "id": "L81-PEN-VERSION",
+      "graph_file": "knowledge/claims/chanlun_lessons081_085_semantic_dependencies.json",
+      "volume": 4,
+      "pdf_pages": [
+        232,
+        234,
+        241
+      ],
+      "claim": "Different dated original source corrects previous figures and proposes revised pen conditions, requiring independent version and dataset provenance",
+      "status": "original_author_date_separated_source_rule_revision"
+    },
+    {
+      "id": "L82-FRACTAL-OUTCOME",
+      "graph_file": "knowledge/claims/chanlun_lessons081_085_semantic_dependencies.json",
+      "volume": 4,
+      "pdf_pages": [
+        266,
+        270,
+        271
+      ],
+      "claim": "Confirmed 3-bar fractal still needs later evidence to decide continuation versus extension to a pen; trading psych interpretation is not observed actor intent",
+      "status": "author_market_interpretation_ai_online_pending_outcome"
+    },
+    {
+      "id": "L83-SEGMENT-ROBUSTNESS",
+      "graph_file": "knowledge/claims/chanlun_lessons081_085_semantic_dependencies.json",
+      "volume": 4,
+      "pdf_pages": [
+        288,
+        289
+      ],
+      "claim": "Original author prefers segments as minimum center building blocks for claimed noise robustness, an independent testable hypothesis",
+      "status": "author_robustness_argument_unproven_empirically"
+    },
+    {
+      "id": "L84-SELF-STRUCTURE-RECURSION",
+      "graph_file": "knowledge/claims/chanlun_lessons081_085_semantic_dependencies.json",
+      "volume": 4,
+      "pdf_pages": [
+        299,
+        301,
+        302
+      ],
+      "claim": "Author replaces term self-similarity with self-isomorphic structure and separates f1 base extraction from f2 higher-level recursion",
+      "status": "author_terminology_and_recursion_rule_not_universal_proof"
+    },
+    {
+      "id": "L85-LEGALITY-NOT-EVIDENCE",
+      "graph_file": "knowledge/claims/chanlun_lessons081_085_semantic_dependencies.json",
+      "volume": 4,
+      "pdf_pages": [
+        338,
+        339,
+        340
+      ],
+      "claim": "Author's unverified past-market story and self-assessed legal status cannot prove actual behavior or regulatory judgment",
+      "status": "original_first_person_assertions_unverified"
+    },
+    {
+      "id": "L86-HIERARCHICAL-CONTEXT",
+      "graph_file": "knowledge/claims/chanlun_lessons086_090_crossvolume_dependencies.json",
+      "volume": 4,
+      "pdf_pages": [
+        346,
+        348,
+        350,
+        352
+      ],
+      "claim": "Interpretation of a lower-level third sell varies by a known higher-level center rising/falling/oscillating context; later editorial cases are source separated",
+      "status": "original_context_rule_with_editorial_completion"
+    },
+    {
+      "id": "L87-UNVERIFIED-ANECDOTE",
+      "graph_file": "knowledge/claims/chanlun_lessons086_090_crossvolume_dependencies.json",
+      "volume": 4,
+      "pdf_pages": [
+        369,
+        370
+      ],
+      "claim": "First-person dream-like market behavior and zero-accounting-cost claims do not verify trading actor identity or risk-free economic value",
+      "status": "unverified_original_story"
+    },
+    {
+      "id": "L88-MIDDLE-TRANSITION",
+      "graph_file": "knowledge/claims/chanlun_lessons086_090_crossvolume_dependencies.json",
+      "volume": 4,
+      "pdf_pages": [
+        384,
+        386,
+        387
+      ],
+      "claim": "Old movement termination may precede confirmed new movement, requiring an unresolved middle period with prior center as read-only context",
+      "status": "author_transition_model_ai_asof_gate"
+    },
+    {
+      "id": "L89-CENTER-ONTOLOGY",
+      "graph_file": "knowledge/claims/chanlun_lessons086_090_crossvolume_dependencies.json",
+      "volume": 5,
+      "pdf_pages": [
+        3,
+        4,
+        6
+      ],
+      "claim": "Center component and completed consolidation movement type are distinct; necessary structural existence is not a trading-profit guarantee",
+      "status": "author_theorem_claim_unproven_in_market"
+    },
+    {
+      "id": "L90-BOLL-AUXILIARY",
+      "graph_file": "knowledge/claims/chanlun_lessons086_090_crossvolume_dependencies.json",
+      "volume": 5,
+      "pdf_pages": [
+        30,
+        35,
+        36
+      ],
+      "claim": "BOLL band width squeeze is auxiliary timing heuristic, cannot itself confirm movement termination or third buy/sell points",
+      "status": "author_auxiliary_claim_no_independent_near_100pct_validation"
+    },
+    {
+      "id": "L91-FOUR-STATE-PEN",
+      "graph_file": "knowledge/claims/chanlun_lessons091_095_semantic_dependencies.json",
+      "volume": 5,
+      "pdf_pages": [
+        64,
+        65,
+        66
+      ],
+      "claim": "Author models two-valued pen direction and phase as a canonical four-state finite-transition system, not independently established unique OHLC identification",
+      "status": "author_canonical_fsm_grammar_not_market_proof"
+    },
+    {
+      "id": "L92-CENTER-ZN-MONITOR",
+      "graph_file": "knowledge/claims/chanlun_lessons091_095_semantic_dependencies.json",
+      "volume": 5,
+      "pdf_pages": [
+        93,
+        94,
+        95
+      ],
+      "claim": "Center A/B midpoint Z and suboscillation midpoint Zn monitor strength; Zn outside center boundaries does not suffice for confirmed third buy/sell",
+      "status": "author_midpoint_monitor_non_sufficient_trigger"
+    },
+    {
+      "id": "L93-POLICY-VS-OBSERVATION",
+      "graph_file": "knowledge/claims/chanlun_lessons091_095_semantic_dependencies.json",
+      "volume": 5,
+      "pdf_pages": [
+        124,
+        125
+      ],
+      "claim": "Same (1,0) fractal candidate can lead to continuation or reversal; conservative and oscillation-skilled decisions are distinct optional policies",
+      "status": "author_optional_policies_with_editorial_addenda"
+    },
+    {
+      "id": "L94-TPLUS1-FILL-GATE",
+      "graph_file": "knowledge/claims/chanlun_lessons091_095_semantic_dependencies.json",
+      "volume": 5,
+      "pdf_pages": [
+        143,
+        145
+      ],
+      "claim": "Conditional future price-structure opportunities need trade execution proof, including same-day sale restrictions for newly purchased T+1 A-shares",
+      "status": "author_real_execution_limit_economic_qualification"
+    },
+    {
+      "id": "L95-RECOVERED-PRINCIPAL-RISK",
+      "graph_file": "knowledge/claims/chanlun_lessons091_095_semantic_dependencies.json",
+      "volume": 5,
+      "pdf_pages": [
+        150,
+        151
+      ],
+      "claim": "Recovered initial external cash or self-reported zero contribution does not remove remaining marked-to-market financial exposure",
+      "status": "author_capital_management_story_ai_risk_counterexample"
+    },
+    {
+      "id": "L96-BEHAVIORAL-ANCHOR",
+      "graph_file": "knowledge/claims/chanlun_lessons096_100_semantic_dependencies.json",
+      "volume": 5,
+      "pdf_pages": [
+        155,
+        156
+      ],
+      "claim": "Author criticizes gambling anchors, fear of missing out, chasing and uncontrolled capital additions; no empirical proof of guaranteed profitability",
+      "status": "original_author_behavior_claim_ai_decision_provenance"
+    },
+    {
+      "id": "L97-THEORY-OBSERVE-ACT",
+      "graph_file": "knowledge/claims/chanlun_lessons096_100_semantic_dependencies.json",
+      "volume": 5,
+      "pdf_pages": [
+        172,
+        173
+      ],
+      "claim": "Author's medical/strategy analogies distinguish theoretical classification, observation and actionable implementation with different evidence requirements",
+      "status": "author_three_phase_analogy_ai_evidence_gates"
+    },
+    {
+      "id": "L98-ASOF-CONDITIONAL-PLAN",
+      "graph_file": "knowledge/claims/chanlun_lessons096_100_semantic_dependencies.json",
+      "volume": 5,
+      "pdf_pages": [
+        192,
+        194
+      ],
+      "claim": "Author advocates conditional post-divergence plans without guessing which future branch will happen and notes T+1 execution limits",
+      "status": "author_classification_claim_ai_no_future_leak"
+    },
+    {
+      "id": "L99-IMMUTABLE-MIDDLE-REGROUP",
+      "graph_file": "knowledge/claims/chanlun_lessons096_100_semantic_dependencies.json",
+      "volume": 5,
+      "pdf_pages": [
+        202,
+        203
+      ],
+      "claim": "Author invokes associative resegmentation to retain valid centers across undefined middle period, requiring distinct as-of and hindsight views",
+      "status": "author_center_necessity_claim_not_independently_proven"
+    },
+    {
+      "id": "L100-AUTHOR-EDITOR-BRANCH-DISPUTE",
+      "graph_file": "knowledge/claims/chanlun_lessons096_100_semantic_dependencies.json",
+      "volume": 5,
+      "pdf_pages": [
+        224,
+        225
+      ],
+      "claim": "Author two-way fifth-minute third-sell branches coexist with later editorial claim that actual trajectory fell outside the original two-way account",
+      "status": "original_author_and_later_editor_conflict_unresolved"
+    },
+    {
+      "id": "L101-SECOND-BUY-NONMONOTONIC",
+      "graph_file": "knowledge/claims/chanlun_lessons101_105_semantic_dependencies.json",
+      "volume": 5,
+      "pdf_pages": [
+        233,
+        234
+      ],
+      "claim": "Author allows second buy price lower than first buy; structurally completed second buy and independent third-buy overlap must be separated",
+      "status": "author_qna_clarification_structural_nonmonotonic_price"
+    },
+    {
+      "id": "L102-UNIQUE-PARSE-PROOF-OBLIGATION",
+      "graph_file": "knowledge/claims/chanlun_lessons101_105_semantic_dependencies.json",
+      "volume": 5,
+      "pdf_pages": [
+        241,
+        242
+      ],
+      "claim": "Author likens recursive market-movement unique decomposition to positional number bases, but full formal uniqueness requires a specified parser and proofs",
+      "status": "author_strong_universal_theorem_not_independently_proven"
+    },
+    {
+      "id": "L103-MACD-ZERO-DEFENSE",
+      "graph_file": "knowledge/claims/chanlun_lessons101_105_semantic_dependencies.json",
+      "volume": 5,
+      "pdf_pages": [
+        269,
+        271
+      ],
+      "claim": "Author proposes zero-axis MACD DIF/DEA defensive heuristic using preselected minimum chart timeframe, not empirically demonstrated no-loss",
+      "status": "author_defensive_heuristic_real_market_not_tested"
+    },
+    {
+      "id": "L104-GEOMETRY-VS-PHYSICS-ANALOGY",
+      "graph_file": "knowledge/claims/chanlun_lessons101_105_semantic_dependencies.json",
+      "volume": 5,
+      "pdf_pages": [
+        290,
+        291
+      ],
+      "claim": "Author proposes link between market geometries and energy dynamics, with prominent 2010 editorial additions that do not prove physical law or historical profitability",
+      "status": "original_philosophical_analogy_distinct_from_later_editorial"
+    },
+    {
+      "id": "L105-MECHANICAL-EXECUTION-GATES",
+      "graph_file": "knowledge/claims/chanlun_lessons101_105_semantic_dependencies.json",
+      "volume": 5,
+      "pdf_pages": [
+        325,
+        326
+      ],
+      "claim": "Author favors mechanical fractal/pen operation; rule expressibility is separate from timely observable signal, legal fill, and realized net profit",
+      "status": "author_mechanical_discipline_ai_execution_quality_gates"
+    },
+    {
+      "id": "L106-MA-ROTATION-ASOF",
+      "graph_file": "knowledge/claims/chanlun_lessons106_108_semantic_dependencies.json",
+      "volume": 5,
+      "pdf_pages": [
+        373,
+        374
+      ],
+      "claim": "MA rebound nine-level ordinal classification and sector mean require complete as-of inputs, frozen rules and constituent snapshots",
+      "status": "author_classification_proposal_no_independent_market_validation"
+    },
+    {
+      "id": "L107-SUBLEVEL-REBOUND",
+      "graph_file": "knowledge/claims/chanlun_lessons106_108_semantic_dependencies.json",
+      "volume": 5,
+      "pdf_pages": [
+        385,
+        386
+      ],
+      "claim": "30-minute rebound discussed using sublevel 5-minute up-down-up elements; third segment high is not guaranteed higher; actual fills separate",
+      "status": "author_conditional_decomposition_partial_synthetic_contract"
+    },
+    {
+      "id": "L108-TWO-BOTTOM-CONTRACTS",
+      "graph_file": "knowledge/claims/chanlun_lessons106_108_semantic_dependencies.json",
+      "volume": 5,
+      "pdf_pages": [
+        395,
+        397,
+        399
+      ],
+      "claim": "Fractal boundary and first-buy-center-third-buy/sell are distinct bottom definitions, neither a completed forward signal without later evidence",
+      "status": "author_two_bottom_definitions_asof_not_backtested"
+    }
+  ],
+  "edges": [
+    {
+      "from": "L35-BASE",
+      "to": "L17-CENTER",
+      "type": "attempts_to_supply_base_case_for",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L33-AMBIGUITY",
+      "to": "L35-ASSOCIATIVITY",
+      "type": "coexists_not_resolved_by_concatenation",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L32-CONTEMPORANEOUS",
+      "to": "L17-CENTER",
+      "type": "requires_confirmation_timing_for",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L35-EXECUTION",
+      "to": "L32-CONTEMPORANEOUS",
+      "type": "limits_operational_frequency_of",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L26-DOMAIN",
+      "to": "L31-COST",
+      "type": "adds_applicability_conditions_to",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L33-AMBIGUITY",
+      "to": "L36-MULTIPARSE",
+      "type": "later_application_of",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L35-ASSOCIATIVITY",
+      "to": "L36-MULTIPARSE",
+      "type": "basis_for_regrouping",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L36-MULTIPARSE",
+      "to": "L38-FIXED-LEVEL",
+      "type": "qualified_by_fixed_rule",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L38-FIXED-LEVEL",
+      "to": "L39-MISSING-BRANCH",
+      "type": "mechanical_recipe_has_uncovered_case",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L35-EXECUTION",
+      "to": "L40-SHARED-INVENTORY",
+      "type": "implementation_constraint",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L36-MULTIPARSE",
+      "to": "L40-SHARED-INVENTORY",
+      "type": "supports_level_switching_but_not_stock_creation",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L37-TREND-TYPECHECK",
+      "to": "L17-CENTER",
+      "type": "requires_same_level_trend_centers",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L37-TREND-TYPECHECK",
+      "to": "L43-MULTISCALE-REVERSAL",
+      "type": "precondition_for_correct_divergence_label",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L43-MULTISCALE-REVERSAL",
+      "to": "L44-NECESSARY-NOT-SUFFICIENT",
+      "type": "refines_lower_to_higher_reversal_condition",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L41-LEVEL-DISCIPLINE",
+      "to": "L44-NECESSARY-NOT-SUFFICIENT",
+      "type": "highlights_small_signal_not_high_level_certainty",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L40-SHARED-INVENTORY",
+      "to": "L45-HOLD-WAIT",
+      "type": "shared_stock_cash_constraint_for_waiting",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L26-DOMAIN",
+      "to": "L45-HOLD-WAIT",
+      "type": "trading_continuity_and_capital_deadline_constraints",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L32-CONTEMPORANEOUS",
+      "to": "L45-HOLD-WAIT",
+      "type": "waiting_until_confirmed_structure",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L42-DECISION-REVIEW",
+      "to": "L41-LEVEL-DISCIPLINE",
+      "type": "behavioral_review_may_support_rule_adherence",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L46-DAY-ASOF",
+      "to": "L47-CASE-EXECUTION",
+      "type": "day_classification_used_in_intraday_example",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L45-HOLD-WAIT",
+      "to": "L49-PROFIT-OPTIMUM",
+      "type": "waiting_states_and_capital_occupancy_affect_objective",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L31-COST",
+      "to": "L48-COST-RISK",
+      "type": "economic_value_drawdown_qualifies_zero_cost_claim",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L26-DOMAIN",
+      "to": "L47-CASE-EXECUTION",
+      "type": "trading_continuity_and_execution_preconditions",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L32-CONTEMPORANEOUS",
+      "to": "L46-DAY-ASOF",
+      "type": "online_confirmation_constraint",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L37-TREND-TYPECHECK",
+      "to": "L50-MACD-PROXY",
+      "type": "structural_condition_before_indicator_strength",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L40-SHARED-INVENTORY",
+      "to": "L49-PROFIT-OPTIMUM",
+      "type": "portfolio_resource_and_cash_constraints",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L49-PROFIT-OPTIMUM",
+      "to": "L50-MACD-PROXY",
+      "type": "strategy_proof_reliant_on_reproducible_signal_measurement",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L51-REFLEXIVITY",
+      "to": "L52-OBSERVER-MARKET",
+      "type": "specific_information_feedback_related_to_market_participation",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L52-OBSERVER-MARKET",
+      "to": "L32-CONTEMPORANEOUS",
+      "type": "observation_part_of_online_action_context",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L53-THREE-POINT-TYPES",
+      "to": "L44-NECESSARY-NOT-SUFFICIENT",
+      "type": "different_signal_types_constrain_reversal_inference",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L53-LATER-2009-INSERT",
+      "to": "L53-THREE-POINT-TYPES",
+      "type": "later_commentary_must_not_be_backdated_to_author",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L54-LEGAL-GROUPING",
+      "to": "L33-AMBIGUITY",
+      "type": "constrains_legitimate_multigroup_interpretation",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L54-LEGAL-GROUPING",
+      "to": "L35-ASSOCIATIVITY",
+      "type": "adds_semantic_connector_requirement_to_sequence_associativity",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L54-LEGAL-GROUPING",
+      "to": "L38-FIXED-LEVEL",
+      "type": "illustrates_rule_dependent_admissible_parses",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L55-BUY-SELL-ASYMMETRY",
+      "to": "L31-COST",
+      "type": "transaction_ledger_separates_cost_recovery_and_remaining_price_risk",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L55-BUY-SELL-ASYMMETRY",
+      "to": "L40-SHARED-INVENTORY",
+      "type": "cash_share_conservation_during_level_switching",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L56-GAP-ASOF",
+      "to": "L44-NECESSARY-NOT-SUFFICIENT",
+      "type": "a_signal_pattern_does_not_guarantee_larger_reversal_or_execution",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L56-GAP-ASOF",
+      "to": "L47-CASE-EXECUTION",
+      "type": "historical_timestamp_and_execution_constraints",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L57-SEGMENT-THRESHOLD",
+      "to": "L54-LEGAL-GROUPING",
+      "type": "segmentation_threshold_precedes_valid_grouping",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L58-PENDING-REVERSAL",
+      "to": "L45-HOLD-WAIT",
+      "type": "pending_signal_should_not_force_trade",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L58-PENDING-REVERSAL",
+      "to": "L37-TREND-TYPECHECK",
+      "type": "divergence_requires_confirmed_trend_structure",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L59-PRICE-QUANTIZATION",
+      "to": "L57-SEGMENT-THRESHOLD",
+      "type": "precision_policy_changes_micro_segment_recognition",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L59-PRICE-QUANTIZATION",
+      "to": "L38-FIXED-LEVEL",
+      "type": "fixed_rule_must_include_numeric_quantization",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L60-SHOCK-SCALE",
+      "to": "L41-LEVEL-DISCIPLINE",
+      "type": "shock_response_varies_by_operation_level",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L60-SHOCK-SCALE",
+      "to": "L56-GAP-ASOF",
+      "type": "news_shock_may_require_late_exit_candidate",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L61-DATE-STRATA",
+      "to": "L53-LATER-2009-INSERT",
+      "type": "both_require_explicit_original_vs_compiled_provenance",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L62-FRACTAL-PEN",
+      "to": "L65-ORDERED-CONTAINMENT",
+      "type": "subsequent_explicit_ordered_merge_rule",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L62-REVISED-PEN",
+      "to": "L62-FRACTAL-PEN",
+      "type": "different_rules_must_not_be_silently_overwritten",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L63-OBSERVATION-SCALE",
+      "to": "L50-MACD-PROXY",
+      "type": "indicator_bar_frequency_and_structural_level_are_distinct",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L64-TOLERANCE",
+      "to": "L59-PRICE-QUANTIZATION",
+      "type": "precision_policy_includes_numeric_comparison_boundary",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L65-ORDERED-CONTAINMENT",
+      "to": "L54-LEGAL-GROUPING",
+      "type": "low_level_grammar_required_before_valid_high_level_groupings",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L65-ORDERED-CONTAINMENT",
+      "to": "L57-SEGMENT-THRESHOLD",
+      "type": "definition_version_affects_micro_segment_identification",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L62-FRACTAL-PEN",
+      "to": "L58-PENDING-REVERSAL",
+      "type": "three_completed_bars_needed_before_confirmed_fractal",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_early_core_dependencies.json"
+    },
+    {
+      "from": "L66-MULTIAGENT",
+      "to": "L51-REFLEXIVITY",
+      "type": "plural_participant_model_qualifies_recommendation_impact",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons066_070_crossvolume_dependencies.json"
+    },
+    {
+      "from": "L67-FEATURE-SEQUENCE",
+      "to": "L65-ORDERED-CONTAINMENT",
+      "type": "sequence_normalization_inherits_ordered_containment_problem",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons066_070_crossvolume_dependencies.json"
+    },
+    {
+      "from": "L67-OPPOSITE-CONFIRM",
+      "to": "L67-FEATURE-SEQUENCE",
+      "type": "gap_case_requires_later_opposite_evidence",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_lessons066_070_crossvolume_dependencies.json"
+    },
+    {
+      "from": "L67-OPPOSITE-CONFIRM",
+      "to": "L58-PENDING-REVERSAL",
+      "type": "distinct_candidate_extremum_and_confirmation_time",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons066_070_crossvolume_dependencies.json"
+    },
+    {
+      "from": "L68-PIECEWISE",
+      "to": "L45-HOLD-WAIT",
+      "type": "partitioned_action_includes_observation_and_waiting",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons066_070_crossvolume_dependencies.json"
+    },
+    {
+      "from": "L69-MONTHLY-REVISION",
+      "to": "L62-FRACTAL-PEN",
+      "type": "monthly_scale_uses_same_basic_fractal_constraints",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_lessons066_070_crossvolume_dependencies.json"
+    },
+    {
+      "from": "L70-CENTER-BRANCH",
+      "to": "L68-PIECEWISE",
+      "type": "conditional_market_branches_instead_of_unconditional_future_assertion",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons066_070_crossvolume_dependencies.json"
+    },
+    {
+      "from": "L70-CENTER-BRANCH",
+      "to": "L69-MONTHLY-REVISION",
+      "type": "preserve_temporary_interpretations_and_future_revision_events",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons066_070_crossvolume_dependencies.json"
+    },
+    {
+      "from": "L71-TYPED-FEATURE",
+      "to": "L67-FEATURE-SEQUENCE",
+      "type": "refines_admissible_containment_domain",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_lessons071_075_semantic_dependencies.json"
+    },
+    {
+      "from": "L71-TYPED-FEATURE",
+      "to": "L67-OPPOSITE-CONFIRM",
+      "type": "treat_transition_elements_as_auxiliary_until_correctly_confirmed",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons071_075_semantic_dependencies.json"
+    },
+    {
+      "from": "L71-TYPED-FEATURE",
+      "to": "L65-ORDERED-CONTAINMENT",
+      "type": "typed_feature_sequence_gate_does_not_remove_ordered_low_level_containment",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons071_075_semantic_dependencies.json"
+    },
+    {
+      "from": "L72-DEFINITION-VERSION",
+      "to": "L62-REVISED-PEN",
+      "type": "course_revision_requires_explicit_version_metadata",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons071_075_semantic_dependencies.json"
+    },
+    {
+      "from": "L72-DEFINITION-VERSION",
+      "to": "L67-FEATURE-SEQUENCE",
+      "type": "author_identifies_later_feature_definition_as_stricter_than_earlier_lessons",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_lessons071_075_semantic_dependencies.json"
+    },
+    {
+      "from": "L73-OPPORTUNITY-TAXONOMY",
+      "to": "L70-CENTER-BRANCH",
+      "type": "new_center_rise_requires_confirmed_branch_and_market_executability",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons071_075_semantic_dependencies.json"
+    },
+    {
+      "from": "L73-OPPORTUNITY-TAXONOMY",
+      "to": "L48-COST-RISK",
+      "type": "zero_accounting_cost_not_zero_remaining_market_value_at_risk",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons071_075_semantic_dependencies.json"
+    },
+    {
+      "from": "L74-POLICY-DISPUTE",
+      "to": "L56-GAP-ASOF",
+      "type": "policy_shock_may_make_theoretical_sell_unexecutable",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons071_075_semantic_dependencies.json"
+    },
+    {
+      "from": "L75-UNVERIFIED-ANECDOTES",
+      "to": "L66-MULTIAGENT",
+      "type": "multiagent_claim_does_not_prove_specific_actor_behavior",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons071_075_semantic_dependencies.json"
+    },
+    {
+      "from": "L76-ANECDOTE-EVIDENCE",
+      "to": "L75-UNVERIFIED-ANECDOTES",
+      "type": "continuation_of_unverified_first_person_narratives",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_lessons076_080_semantic_dependencies.json"
+    },
+    {
+      "from": "L77-PEN-UNIQUENESS-PREMISES",
+      "to": "L62-FRACTAL-PEN",
+      "type": "explicit_subsequent_extrema_and_independent_Kline_requirements",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_lessons076_080_semantic_dependencies.json"
+    },
+    {
+      "from": "L77-PEN-UNIQUENESS-PREMISES",
+      "to": "L72-DEFINITION-VERSION",
+      "type": "pen_uniqueness_has_rule_version_premises",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons076_080_semantic_dependencies.json"
+    },
+    {
+      "from": "L78-IMMUTABLE-PROJECTION",
+      "to": "L65-ORDERED-CONTAINMENT",
+      "type": "base_stream_and_derived_center_projection_should_be_different_types",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons076_080_semantic_dependencies.json"
+    },
+    {
+      "from": "L78-IMMUTABLE-PROJECTION",
+      "to": "L71-TYPED-FEATURE",
+      "type": "strict_feature_membership_and_derived_high_level_views_must_not_be_confused",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons076_080_semantic_dependencies.json"
+    },
+    {
+      "from": "L79-INTRADAY-DUAL-CLOCK",
+      "to": "L58-PENDING-REVERSAL",
+      "type": "later_confirmation_cannot_be_assumed_in_earlier_intraday_state",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons076_080_semantic_dependencies.json"
+    },
+    {
+      "from": "L79-INTRADAY-DUAL-CLOCK",
+      "to": "L77-PEN-UNIQUENESS-PREMISES",
+      "type": "fractal_completion_is_a_prerequisite_for_confirmed_daily_classification",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons076_080_semantic_dependencies.json"
+    },
+    {
+      "from": "L80-ASSERTION-NOT-PROFIT",
+      "to": "L73-OPPORTUNITY-TAXONOMY",
+      "type": "profitability_not_guaranteed_by_geometric_opportunity_classes",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons076_080_semantic_dependencies.json"
+    },
+    {
+      "from": "L80-ASSERTION-NOT-PROFIT",
+      "to": "L79-INTRADAY-DUAL-CLOCK",
+      "type": "signal_time_and_hindsight_confirmed_daily_fractal_are_distinct",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons076_080_semantic_dependencies.json"
+    },
+    {
+      "from": "L81-PEN-VERSION",
+      "to": "L77-PEN-UNIQUENESS-PREMISES",
+      "type": "dated_later_pen_rule_alters_necessary_conditions",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_lessons081_085_semantic_dependencies.json"
+    },
+    {
+      "from": "L81-PEN-VERSION",
+      "to": "L62-REVISED-PEN",
+      "type": "provenance_version_history_of_simplified_and_revised_pen_rules",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons081_085_semantic_dependencies.json"
+    },
+    {
+      "from": "L81-PEN-VERSION",
+      "to": "L64-TOLERANCE",
+      "type": "minute_price_precision_and_source_version_can_change_borderline_label",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons081_085_semantic_dependencies.json"
+    },
+    {
+      "from": "L82-FRACTAL-OUTCOME",
+      "to": "L79-INTRADAY-DUAL-CLOCK",
+      "type": "confirmed_fractal_and_future_pen_outcome_are_separate_online_events",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons081_085_semantic_dependencies.json"
+    },
+    {
+      "from": "L82-FRACTAL-OUTCOME",
+      "to": "L77-PEN-UNIQUENESS-PREMISES",
+      "type": "later_completed_pen_depends_on_valid_fractal_and_pen_version",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons081_085_semantic_dependencies.json"
+    },
+    {
+      "from": "L83-SEGMENT-ROBUSTNESS",
+      "to": "L78-IMMUTABLE-PROJECTION",
+      "type": "segment_as_basic_center_input_distinct_from_original_noisy_pen_sequence",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons081_085_semantic_dependencies.json"
+    },
+    {
+      "from": "L83-SEGMENT-ROBUSTNESS",
+      "to": "L67-FEATURE-SEQUENCE",
+      "type": "feature_sequence_confirmation_plausible_noise_filter_requires_validation",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons081_085_semantic_dependencies.json"
+    },
+    {
+      "from": "L84-SELF-STRUCTURE-RECURSION",
+      "to": "L81-PEN-VERSION",
+      "type": "base_definition_changes_may_affect_recursive_higher_structure",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons081_085_semantic_dependencies.json"
+    },
+    {
+      "from": "L84-SELF-STRUCTURE-RECURSION",
+      "to": "L63-OBSERVATION-SCALE",
+      "type": "structure_level_not_identical_to_displayed_Kline_timeframe",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_lessons081_085_semantic_dependencies.json"
+    },
+    {
+      "from": "L85-LEGALITY-NOT-EVIDENCE",
+      "to": "L75-UNVERIFIED-ANECDOTES",
+      "type": "continuation_of_unverified_historical_and_self_legal_claim",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_lessons081_085_semantic_dependencies.json"
+    },
+    {
+      "from": "L85-LEGALITY-NOT-EVIDENCE",
+      "to": "L76-ANECDOTE-EVIDENCE",
+      "type": "retains_same_source_evidence_boundary_for_marketing_and_causal_claims",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons081_085_semantic_dependencies.json"
+    },
+    {
+      "from": "L86-HIERARCHICAL-CONTEXT",
+      "to": "L70-CENTER-BRANCH",
+      "type": "higher_center_conditions_lower_sell_interpretation",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_lessons086_090_crossvolume_dependencies.json"
+    },
+    {
+      "from": "L86-HIERARCHICAL-CONTEXT",
+      "to": "L79-INTRADAY-DUAL-CLOCK",
+      "type": "higher_context_must_be_known_asof_lower_event",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons086_090_crossvolume_dependencies.json"
+    },
+    {
+      "from": "L86-HIERARCHICAL-CONTEXT",
+      "to": "L68-PIECEWISE",
+      "type": "conditional_decision_not_fixed_price_prediction",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons086_090_crossvolume_dependencies.json"
+    },
+    {
+      "from": "L87-UNVERIFIED-ANECDOTE",
+      "to": "L85-LEGALITY-NOT-EVIDENCE",
+      "type": "same_unverified_market_stories_and_accounting_risk_boundary",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_lessons086_090_crossvolume_dependencies.json"
+    },
+    {
+      "from": "L88-MIDDLE-TRANSITION",
+      "to": "L69-MONTHLY-REVISION",
+      "type": "preserve_provisional_structure_until_new_confirmation",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons086_090_crossvolume_dependencies.json"
+    },
+    {
+      "from": "L88-MIDDLE-TRANSITION",
+      "to": "L79-INTRADAY-DUAL-CLOCK",
+      "type": "new_movement_confirmation_is_later_than_old_end_candidate",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons086_090_crossvolume_dependencies.json"
+    },
+    {
+      "from": "L89-CENTER-ONTOLOGY",
+      "to": "L88-MIDDLE-TRANSITION",
+      "type": "higher_level_center_pending_until_completed",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_lessons086_090_crossvolume_dependencies.json"
+    },
+    {
+      "from": "L89-CENTER-ONTOLOGY",
+      "to": "L84-SELF-STRUCTURE-RECURSION",
+      "type": "recursive_hierarchy_center_component_vs_movement_type",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons086_090_crossvolume_dependencies.json"
+    },
+    {
+      "from": "L90-BOLL-AUXILIARY",
+      "to": "L89-CENTER-ONTOLOGY",
+      "type": "statistical_squeeze_cannot_confirm_structural_center",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons086_090_crossvolume_dependencies.json"
+    },
+    {
+      "from": "L90-BOLL-AUXILIARY",
+      "to": "L72-DEFINITION-VERSION",
+      "type": "indicator_momentum_signal_is_distinct_from_geometric_structure",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons086_090_crossvolume_dependencies.json"
+    },
+    {
+      "from": "L90-BOLL-AUXILIARY",
+      "to": "L73-OPPORTUNITY-TAXONOMY",
+      "type": "auxiliary_indicator_classification_does_not_guarantee_profit",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons086_090_crossvolume_dependencies.json"
+    },
+    {
+      "from": "L91-FOUR-STATE-PEN",
+      "to": "L77-PEN-UNIQUENESS-PREMISES",
+      "type": "four_state_claim_requires_valid_finished_pen_version",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons091_095_semantic_dependencies.json"
+    },
+    {
+      "from": "L91-FOUR-STATE-PEN",
+      "to": "L81-PEN-VERSION",
+      "type": "dated_old_new_pen_definitions_condition_state_extraction",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons091_095_semantic_dependencies.json"
+    },
+    {
+      "from": "L91-FOUR-STATE-PEN",
+      "to": "L79-INTRADAY-DUAL-CLOCK",
+      "type": "phase_zero_pending_fractal_must_not_use_future_daily_bar",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons091_095_semantic_dependencies.json"
+    },
+    {
+      "from": "L92-CENTER-ZN-MONITOR",
+      "to": "L89-CENTER-ONTOLOGY",
+      "type": "midpoint_observation_requires_formally_existing_center_component",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons091_095_semantic_dependencies.json"
+    },
+    {
+      "from": "L92-CENTER-ZN-MONITOR",
+      "to": "L90-BOLL-AUXILIARY",
+      "type": "two_auxiliary_monitors_distinct_from_confirmed_geometric_break",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons091_095_semantic_dependencies.json"
+    },
+    {
+      "from": "L92-CENTER-ZN-MONITOR",
+      "to": "L73-OPPORTUNITY-TAXONOMY",
+      "type": "center_monitor_not_guaranteed_profitable_classification",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons091_095_semantic_dependencies.json"
+    },
+    {
+      "from": "L93-POLICY-VS-OBSERVATION",
+      "to": "L91-FOUR-STATE-PEN",
+      "type": "two_outcomes_of_same_candidate_state_with_precommitted_risk_policies",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_lessons091_095_semantic_dependencies.json"
+    },
+    {
+      "from": "L93-POLICY-VS-OBSERVATION",
+      "to": "L86-HIERARCHICAL-CONTEXT",
+      "type": "individual_action_still_depends_on_known_parent_context",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons091_095_semantic_dependencies.json"
+    },
+    {
+      "from": "L94-TPLUS1-FILL-GATE",
+      "to": "L79-INTRADAY-DUAL-CLOCK",
+      "type": "earliest_signal_timestamp_not_actual_fill",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons091_095_semantic_dependencies.json"
+    },
+    {
+      "from": "L94-TPLUS1-FILL-GATE",
+      "to": "L80-ASSERTION-NOT-PROFIT",
+      "type": "structure_confirmation_and_legal_execution_not_profit_guarantee",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons091_095_semantic_dependencies.json"
+    },
+    {
+      "from": "L95-RECOVERED-PRINCIPAL-RISK",
+      "to": "L73-OPPORTUNITY-TAXONOMY",
+      "type": "zero_accounting_cost_does_not_eliminate_remaining_value_exposure",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons091_095_semantic_dependencies.json"
+    },
+    {
+      "from": "L95-RECOVERED-PRINCIPAL-RISK",
+      "to": "L87-UNVERIFIED-ANECDOTE",
+      "type": "author_first_person_investment_history_requires_independent_evidence",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons091_095_semantic_dependencies.json"
+    },
+    {
+      "from": "L96-BEHAVIORAL-ANCHOR",
+      "to": "L95-RECOVERED-PRINCIPAL-RISK",
+      "type": "behavioral_budget_consequence_of_investment_risk",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_lessons096_100_semantic_dependencies.json"
+    },
+    {
+      "from": "L96-BEHAVIORAL-ANCHOR",
+      "to": "L93-POLICY-VS-OBSERVATION",
+      "type": "risk_policy_must_not_be_derived_from_unverified_personal_price_target",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons096_100_semantic_dependencies.json"
+    },
+    {
+      "from": "L97-THEORY-OBSERVE-ACT",
+      "to": "L94-TPLUS1-FILL-GATE",
+      "type": "knowledge_of_buy_sell_signal_does_not_imply_actual_execution",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons096_100_semantic_dependencies.json"
+    },
+    {
+      "from": "L97-THEORY-OBSERVE-ACT",
+      "to": "L91-FOUR-STATE-PEN",
+      "type": "formal_theory_needs_live_observation_to_assign_pen_state",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons096_100_semantic_dependencies.json"
+    },
+    {
+      "from": "L98-ASOF-CONDITIONAL-PLAN",
+      "to": "L97-THEORY-OBSERVE-ACT",
+      "type": "conditional_branch_receives_evidence_then_approved_policy",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_lessons096_100_semantic_dependencies.json"
+    },
+    {
+      "from": "L98-ASOF-CONDITIONAL-PLAN",
+      "to": "L94-TPLUS1-FILL-GATE",
+      "type": "same_day_unsettled_sell_is_not_a_market_fill",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_lessons096_100_semantic_dependencies.json"
+    },
+    {
+      "from": "L99-IMMUTABLE-MIDDLE-REGROUP",
+      "to": "L88-MIDDLE-TRANSITION",
+      "type": "middle_state_needs_pending_structural_confirmation",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_lessons096_100_semantic_dependencies.json"
+    },
+    {
+      "from": "L99-IMMUTABLE-MIDDLE-REGROUP",
+      "to": "L89-CENTER-ONTOLOGY",
+      "type": "center_structure_and_completed_movement_type_remain_distinct",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons096_100_semantic_dependencies.json"
+    },
+    {
+      "from": "L99-IMMUTABLE-MIDDLE-REGROUP",
+      "to": "L78-IMMUTABLE-PROJECTION",
+      "type": "derived_higher_view_must_not_overwrite_original_segment_history",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons096_100_semantic_dependencies.json"
+    },
+    {
+      "from": "L100-AUTHOR-EDITOR-BRANCH-DISPUTE",
+      "to": "L98-ASOF-CONDITIONAL-PLAN",
+      "type": "theory_classification_must_admit_unresolved_or_outside_observed_trajectories",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons096_100_semantic_dependencies.json"
+    },
+    {
+      "from": "L100-AUTHOR-EDITOR-BRANCH-DISPUTE",
+      "to": "L74-POLICY-DISPUTE",
+      "type": "retain_author_and_editorial_claims_separately",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons096_100_semantic_dependencies.json"
+    },
+    {
+      "from": "L100-AUTHOR-EDITOR-BRANCH-DISPUTE",
+      "to": "L81-PEN-VERSION",
+      "type": "explicit_source_date_and_data_version_needed_before_adjudication",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons096_100_semantic_dependencies.json"
+    },
+    {
+      "from": "L101-SECOND-BUY-NONMONOTONIC",
+      "to": "L92-CENTER-ZN-MONITOR",
+      "type": "third_buy_confirmation_not_replaced_by_center_midpoint",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons101_105_semantic_dependencies.json"
+    },
+    {
+      "from": "L101-SECOND-BUY-NONMONOTONIC",
+      "to": "L89-CENTER-ONTOLOGY",
+      "type": "independent_center_break_confirmation_for_second_third_overlap",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons101_105_semantic_dependencies.json"
+    },
+    {
+      "from": "L101-SECOND-BUY-NONMONOTONIC",
+      "to": "L82-FRACTAL-OUTCOME",
+      "type": "completed_lower_legs_distinct_from_fractal_candidate",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons101_105_semantic_dependencies.json"
+    },
+    {
+      "from": "L102-UNIQUE-PARSE-PROOF-OBLIGATION",
+      "to": "L77-PEN-UNIQUENESS-PREMISES",
+      "type": "full_recursive_uniqueness_depends_on_local_tie_and_pen_conditions",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons101_105_semantic_dependencies.json"
+    },
+    {
+      "from": "L102-UNIQUE-PARSE-PROOF-OBLIGATION",
+      "to": "L84-SELF-STRUCTURE-RECURSION",
+      "type": "base_f1_and_recursive_f2_require_explicit_type_and_uniqueness_proof",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_lessons101_105_semantic_dependencies.json"
+    },
+    {
+      "from": "L102-UNIQUE-PARSE-PROOF-OBLIGATION",
+      "to": "L81-PEN-VERSION",
+      "type": "old_and_revised_pen_rules_cannot_silently_mix_in_uniqueness_argument",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons101_105_semantic_dependencies.json"
+    },
+    {
+      "from": "L103-MACD-ZERO-DEFENSE",
+      "to": "L90-BOLL-AUXILIARY",
+      "type": "MACD_and_BOLL_are_independent_optional_indicator_evidence",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons101_105_semantic_dependencies.json"
+    },
+    {
+      "from": "L103-MACD-ZERO-DEFENSE",
+      "to": "L94-TPLUS1-FILL-GATE",
+      "type": "defense_warning_not_equivalent_to_executable_exit",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons101_105_semantic_dependencies.json"
+    },
+    {
+      "from": "L104-GEOMETRY-VS-PHYSICS-ANALOGY",
+      "to": "L99-IMMUTABLE-MIDDLE-REGROUP",
+      "type": "market_geometry_object_is_distinct_from_untested_physical_dynamics",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons101_105_semantic_dependencies.json"
+    },
+    {
+      "from": "L104-GEOMETRY-VS-PHYSICS-ANALOGY",
+      "to": "L85-LEGALITY-NOT-EVIDENCE",
+      "type": "author_and_later_editor_claims_need_distinct_provenance",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons101_105_semantic_dependencies.json"
+    },
+    {
+      "from": "L105-MECHANICAL-EXECUTION-GATES",
+      "to": "L91-FOUR-STATE-PEN",
+      "type": "finite_state_grammar_not_full_trade_strategy",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons101_105_semantic_dependencies.json"
+    },
+    {
+      "from": "L105-MECHANICAL-EXECUTION-GATES",
+      "to": "L97-THEORY-OBSERVE-ACT",
+      "type": "classification_and_observation_and_execution_are_separate_evidence_levels",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_lessons101_105_semantic_dependencies.json"
+    },
+    {
+      "from": "L105-MECHANICAL-EXECUTION-GATES",
+      "to": "L94-TPLUS1-FILL-GATE",
+      "type": "risk_eligibility_and_fill_proof_must_precede_profit_statement",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons101_105_semantic_dependencies.json"
+    },
+    {
+      "from": "L106-MA-ROTATION-ASOF",
+      "to": "L103-MACD-ZERO-DEFENSE",
+      "type": "non_equivalent_empirical_features",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons106_108_semantic_dependencies.json"
+    },
+    {
+      "from": "L106-MA-ROTATION-ASOF",
+      "to": "L108-TWO-BOTTOM-CONTRACTS",
+      "type": "multiple_timeframe_online_evidence_needed",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons106_108_semantic_dependencies.json"
+    },
+    {
+      "from": "L107-SUBLEVEL-REBOUND",
+      "to": "L105-MECHANICAL-EXECUTION-GATES",
+      "type": "conditioned_actions_require_completed_sublevel_evidence",
+      "certainty": "documented_conceptual_relation",
+      "graph_file": "knowledge/claims/chanlun_lessons106_108_semantic_dependencies.json"
+    },
+    {
+      "from": "L107-SUBLEVEL-REBOUND",
+      "to": "L94-TPLUS1-FILL-GATE",
+      "type": "stage_signal_not_same_day_executable_sale",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons106_108_semantic_dependencies.json"
+    },
+    {
+      "from": "L108-TWO-BOTTOM-CONTRACTS",
+      "to": "L101-SECOND-BUY-NONMONOTONIC",
+      "type": "separate_completed_structure_from_price_position",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons106_108_semantic_dependencies.json"
+    },
+    {
+      "from": "L108-TWO-BOTTOM-CONTRACTS",
+      "to": "L102-UNIQUE-PARSE-PROOF-OBLIGATION",
+      "type": "structural_bottom_depends_on_legal_parser_and_rules",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons106_108_semantic_dependencies.json"
+    },
+    {
+      "from": "L108-TWO-BOTTOM-CONTRACTS",
+      "to": "L107-SUBLEVEL-REBOUND",
+      "type": "independent_timeframe_stage_confirmation",
+      "certainty": "ai_analysis",
+      "graph_file": "knowledge/claims/chanlun_lessons106_108_semantic_dependencies.json"
+    }
+  ],
+  "rule_version_refs": [
+    {
+      "id": "pen_062_original",
+      "family": "pen",
+      "role": "author_original",
+      "source_node_id": "L62-FRACTAL-PEN",
+      "source_displayed_at": "2007-06-30T09:49:51"
+    },
+    {
+      "id": "pen_062_appended_candidate",
+      "family": "pen",
+      "role": "appendix_provenance_unresolved",
+      "source_node_id": "L62-REVISED-PEN",
+      "source_displayed_at": null
+    },
+    {
+      "id": "pen_077_exposition",
+      "family": "pen",
+      "role": "author_original",
+      "source_node_id": "L77-PEN-UNIQUENESS-PREMISES",
+      "source_displayed_at": "2007-09-05T23:24:01"
+    },
+    {
+      "id": "pen_081_later_dated_post",
+      "family": "pen",
+      "role": "author_separately_dated",
+      "source_node_id": "L81-PEN-VERSION",
+      "source_displayed_at": "2007-09-18T22:53:57"
+    },
+    {
+      "id": "segment_062_first_pass",
+      "family": "segment",
+      "role": "author_original",
+      "source_node_id": "L62-FRACTAL-PEN",
+      "source_displayed_at": "2007-06-30T09:49:51"
+    },
+    {
+      "id": "segment_067_feature_sequence",
+      "family": "segment",
+      "role": "author_original",
+      "source_node_id": "L67-FEATURE-SEQUENCE",
+      "source_displayed_at": "2007-08-01T22:31:55"
+    },
+    {
+      "id": "segment_067_editor_objection",
+      "family": "segment",
+      "role": "editor_later_undated",
+      "source_node_id": "L67-OPPOSITE-CONFIRM",
+      "source_displayed_at": null
+    },
+    {
+      "id": "segment_071_typed_membership",
+      "family": "segment",
+      "role": "author_original",
+      "source_node_id": "L71-TYPED-FEATURE",
+      "source_displayed_at": "2007-08-16T23:02:06"
+    },
+    {
+      "id": "segment_072_retrospective",
+      "family": "segment",
+      "role": "author_original",
+      "source_node_id": "L72-DEFINITION-VERSION",
+      "source_displayed_at": "2007-08-21T22:37:20"
+    },
+    {
+      "id": "policy_074_author",
+      "family": "policy_risk",
+      "role": "author_original",
+      "source_node_id": "L74-POLICY-DISPUTE",
+      "source_displayed_at": "2007-08-28T08:41:11"
+    },
+    {
+      "id": "policy_074_editor",
+      "family": "policy_risk",
+      "role": "editor_later_undated",
+      "source_node_id": "L74-POLICY-DISPUTE",
+      "source_displayed_at": null
+    },
+    {
+      "id": "terminology_084_self_structure",
+      "family": "terminology",
+      "role": "author_original",
+      "source_node_id": "L84-SELF-STRUCTURE-RECURSION",
+      "source_displayed_at": "2007-10-07T16:09:06"
+    },
+    {
+      "id": "branch_100_author",
+      "family": "branching",
+      "role": "author_original",
+      "source_node_id": "L100-AUTHOR-EDITOR-BRANCH-DISPUTE",
+      "source_displayed_at": "2008-02-25T16:32:23"
+    },
+    {
+      "id": "branch_100_editor",
+      "family": "branching",
+      "role": "editor_later_undated",
+      "source_node_id": "L100-AUTHOR-EDITOR-BRANCH-DISPUTE",
+      "source_displayed_at": null
+    },
+    {
+      "id": "bottom_108_fractal",
+      "family": "bottom",
+      "role": "author_original",
+      "source_node_id": "L108-TWO-BOTTOM-CONTRACTS",
+      "source_displayed_at": "2008-08-29T09:15:01"
+    },
+    {
+      "id": "bottom_108_structural",
+      "family": "bottom",
+      "role": "author_original",
+      "source_node_id": "L108-TWO-BOTTOM-CONTRACTS",
+      "source_displayed_at": "2008-08-29T09:15:01"
+    }
+  ]
+}

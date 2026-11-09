@@ -1,0 +1,984 @@
+{
+  "schema_version": 1,
+  "id": "CL108-READING_LOGIC-SPINE-AND-PROOF-FRONTIER-V1",
+  "scope": "CURATED_108_CHAPTER_RESEARCH_ROLES_AND_INTERPRETIVE_BRIDGES_NOT_PROVEN_THEORY",
+  "original_lesson_index": "catalog/chanlun_lesson_index.json",
+  "source_evidence_pattern": "knowledge/evidence/chanlun_lessonNNN.json",
+  "source_argument_contracts": [
+    "catalog/chanlun_theory_argument_links_v1.json",
+    "catalog/chanlun_crosslesson_consistency_v1.json"
+  ],
+  "formal_proof_readiness": "reports/source_inventory/chanlun_formal_proof_readiness_v1.json",
+  "phases": [
+    {
+      "id": "P01",
+      "name": "交易行为、认知与样本怀疑",
+      "start": 1,
+      "end": 10,
+      "interpretive_limit": "原始经验叙述不是交易结果或理论定理"
+    },
+    {
+      "id": "P02",
+      "name": "早期技术语言和操作纪律",
+      "start": 11,
+      "end": 16,
+      "interpretive_limit": "早期均线/价格语言不自动等于后发中枢或笔文法"
+    },
+    {
+      "id": "P03",
+      "name": "中枢、走势类型与三类买卖点初定义",
+      "start": 17,
+      "end": 21,
+      "interpretive_limit": "中心存在、完成、独立资格及三类点覆盖须分开"
+    },
+    {
+      "id": "P04",
+      "name": "背驰、力度、风险与递归级别",
+      "start": 22,
+      "end": 30,
+      "interpretive_limit": "指标辅助力度不反向认证合格走势"
+    },
+    {
+      "id": "P05",
+      "name": "同级别分解、操作级别与唯一性问题",
+      "start": 31,
+      "end": 42,
+      "interpretive_limit": "多义性、结合律、固定Rg唯一性不是同一断言"
+    },
+    {
+      "id": "P06",
+      "name": "当下操作、背驰细分、历史情境与区间套",
+      "start": 43,
+      "end": 61,
+      "interpretive_limit": "回顾行情不等于历史时点可见/可成交"
+    },
+    {
+      "id": "P07",
+      "name": "分型笔线段与有向K线规范化",
+      "start": 62,
+      "end": 67,
+      "interpretive_limit": "底层笔版本及特征成员资格不能无证上推"
+    },
+    {
+      "id": "P08",
+      "name": "精度、线段后发修订、实战解释与自同构前奏",
+      "start": 68,
+      "end": 81,
+      "interpretive_limit": "后来版本/附注不追溯覆盖旧规则"
+    },
+    {
+      "id": "P09",
+      "name": "微观力量、结构理论与中阴过渡",
+      "start": 82,
+      "end": 89,
+      "interpretive_limit": "结构解释与数学自同构/预测不同"
+    },
+    {
+      "id": "P10",
+      "name": "实时监视、多义后验、第二买及未来中枢",
+      "start": 90,
+      "end": 103,
+      "interpretive_limit": "实时待定、规范解析及未来全称不同"
+    },
+    {
+      "id": "P11",
+      "name": "能量、纪律、板块、反弹与两种底部",
+      "start": 104,
+      "end": 108,
+      "interpretive_limit": "结构分类不等于金融执行;两种底部定义不可合并"
+    }
+  ],
+  "chapter_roles": [
+    "用实战与叙述区分盈利事实和理论宣言",
+    "追问庄家标签与多参与者价格形成",
+    "反对个人喜好替代交易判据",
+    "提出理性需置于当下操作场景",
+    "强调观察和行动先于事后评论",
+    "将权证轶事作为来源叙事而非业绩证明",
+    "以板块轮动提出指数与个股差异",
+    "提出动态筛选与放弃入场条件",
+    "提出交易方案失败情形和退出资金纪律",
+    "以历史市场观察叙述引入事前信息界限",
+    "明确技术指标是分类辅助不是保证",
+    "将买卖持有选择置于风险状态",
+    "建立入场方案与失效退出的纪律",
+    "通过个股周线讨论早期买点语言",
+    "区分上涨下跌盘整并提出趋势背驰先决条件",
+    "连接小资金操作、同级别走势组合与交易能力",
+    "提出走势终完美及上下层级递归命题",
+    "以连续已完成次级走势定义中枢并强调可延伸",
+    "提示数学推导责任与其他方法的区别",
+    "区分中枢延伸新生扩张并给出第三类点",
+    "提出三类买卖点覆盖与安全的独立待证断言",
+    "插入资金分配和持仓叙事作为执行层上下文",
+    "区别人生价值叙述与技术判据",
+    "限定MACD仅是合格走势力度的辅助",
+    "重申中枢优先于均线及MACD",
+    "界定制度跳空等理论无法直接执行的边界",
+    "区分盘整背驰和趋势背驰及区间套",
+    "将基金持仓叙事与结构理论分开",
+    "分类背驰之后可能出现的转折力度与级别",
+    "以交易时间与价格轨迹提出更广基础",
+    "资金规模与库存风险单独约束",
+    "把操作与当下观察、非预言区分",
+    "允许不同级别/结合方式下走势多义性",
+    "讨论情绪纪律对结构执行的干扰",
+    "以三笔同价交易提出最低中枢递归基例",
+    "分析走势连接结合律和跨级别重组",
+    "细化趋势背驰与中枢震荡的不同用途",
+    "提出固定级别同级别分解唯一性的论证目标",
+    "把同级Ai比较用于机械交易研究",
+    "展示从5分钟向30分钟分解切换",
+    "讨论遵循买卖点与节奏而非追涨",
+    "对交易者行为错误列举反例",
+    "补充背驰之后未来路径不唯一的限制",
+    "明确小背驰引发大转折的必要非充分条件",
+    "将持股持币视作策略状态而非预测",
+    "以日内K线数和中心结构分类交易日",
+    "用急跌事件说明日内第三类点分析",
+    "说明牛市急跌仍可能只属局部调整",
+    "按最后操作中心分类当前买卖模式",
+    "强调先合法走势后MACD尺度匹配",
+    "讨论荐股对跟随者需求的反作用",
+    "引入参与者行为影响行情而非纯观察",
+    "重审一二三类点分工与级别映射",
+    "演示图解重组及结合律但非唯一性证明",
+    "将建仓、减仓与大级别退出分开",
+    "把5·30跳空与已失效信号的可交易性分开",
+    "以逐笔低层线段解释1分钟分解",
+    "用急跌样本演示级别和背驰判别",
+    "说明线段长短不由波幅直接决定",
+    "讨论市场行为与集体预期相互作用",
+    "讨论区间套图示且来源存在晚期署时边界",
+    "用三K分型及最早笔/段语言建底层对象",
+    "要求区分原文定义存在与识别效率",
+    "用整数取整例子强调价格分析精度",
+    "定义K线有向包含合并的规则",
+    "反对单一庄家决定所有市场动作",
+    "引入严格特征序列及有缺口线段终结分支",
+    "限定预测只能给出分类及条件而非精确点位",
+    "将分型线段用于月线示范并附精度限制",
+    "以多路径演示新中心三买三卖和延伸",
+    "限定严格特征成员与辅助分型的不同身份",
+    "回顾基本面技术面和线段规范尚非完备",
+    "分类中枢上移及中枢震荡机会",
+    "区分作者政策风险主张与编者后发批评",
+    "用梦话式人物叙述标出不可认证的市场故事",
+    "延续未证实的市场参与者历史叙事",
+    "补充笔唯一性所需边界与缺口条件",
+    "补充反向线段的合法破坏条件",
+    "将分型辅助与不同持有期限分开",
+    "把顶分型卖点与市场心理纪律共同用于执行状态判断",
+    "纠正旧图例并标记更晚笔定义版本",
+    "以分型解释买卖力量作为理论直觉",
+    "指出用笔作最小中心与线段作中心的稳定性差异",
+    "区分结构自相似递归与严格数学自同构",
+    "保留未经第三方证实的市场人物故事",
+    "解释第三类卖点意义取决更高层背景",
+    "再次记录市场轶事并与定量命题隔离",
+    "图示新旧走势之间的中阴过渡状态",
+    "用中阴标记走势级别间尚未确定的阶段",
+    "用BOLL对中阴结束做辅助预警而非强证明",
+    "用笔四态与线段相互关联形成实时状态语言",
+    "以Z和Zn构造中心强弱监视器但不生成三类点",
+    "给出四态的后续允许转移而非单一路径",
+    "强调条件分支决断而非单点预言",
+    "加强训练与风控而非无成本必胜",
+    "指出价格锚和亏损厌恶可能导致错误持仓",
+    "用中医兵法类比拒绝万能预言型指标",
+    "以背驰回拉说明未来分类选择",
+    "论述中阴、未来高级别中心和首发位置的强量词",
+    "讨论多级别分类与资金能力匹配并保留编者争议",
+    "重新解释第二类买点作为第一买之后回抽终点",
+    "以进位制类比递归唯一性并保留数学证明义务",
+    "以MACD零轴作执行风险辅助防线",
+    "提出几何结构与能量动力结构的研究接口",
+    "鼓励按结构执行而非事后聪明",
+    "给出均线板块强弱与走势级别不必然对应",
+    "以次级反弹结构描述持仓延续条件",
+    "将分型底部与第一买—中枢—首次三类点底部并列"
+  ],
+  "conceptual_links": [
+    {
+      "id": "L001",
+      "from": 1,
+      "to": 11,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L002",
+      "from": 5,
+      "to": 32,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L003",
+      "from": 9,
+      "to": 31,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L004",
+      "from": 11,
+      "to": 15,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L005",
+      "from": 12,
+      "to": 21,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L006",
+      "from": 13,
+      "to": 45,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L007",
+      "from": 14,
+      "to": 16,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L008",
+      "from": 15,
+      "to": 17,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L009",
+      "from": 15,
+      "to": 24,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L010",
+      "from": 16,
+      "to": 17,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L011",
+      "from": 17,
+      "to": 18,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L012",
+      "from": 17,
+      "to": 35,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L013",
+      "from": 18,
+      "to": 20,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L014",
+      "from": 18,
+      "to": 21,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L015",
+      "from": 19,
+      "to": 35,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L016",
+      "from": 20,
+      "to": 21,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L017",
+      "from": 20,
+      "to": 33,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L018",
+      "from": 20,
+      "to": 53,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L019",
+      "from": 21,
+      "to": 53,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L020",
+      "from": 22,
+      "to": 31,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L021",
+      "from": 24,
+      "to": 25,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L022",
+      "from": 24,
+      "to": 27,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L023",
+      "from": 25,
+      "to": 50,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L024",
+      "from": 26,
+      "to": 56,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L025",
+      "from": 27,
+      "to": 29,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L026",
+      "from": 27,
+      "to": 61,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L027",
+      "from": 29,
+      "to": 43,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L028",
+      "from": 29,
+      "to": 44,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L029",
+      "from": 30,
+      "to": 35,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L030",
+      "from": 32,
+      "to": 38,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L031",
+      "from": 33,
+      "to": 35,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L032",
+      "from": 33,
+      "to": 36,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L033",
+      "from": 33,
+      "to": 38,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L034",
+      "from": 35,
+      "to": 36,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L035",
+      "from": 35,
+      "to": 38,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L036",
+      "from": 36,
+      "to": 38,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L037",
+      "from": 37,
+      "to": 43,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L038",
+      "from": 38,
+      "to": 39,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L039",
+      "from": 38,
+      "to": 40,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L040",
+      "from": 38,
+      "to": 102,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L041",
+      "from": 39,
+      "to": 40,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L042",
+      "from": 40,
+      "to": 46,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L043",
+      "from": 41,
+      "to": 45,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L044",
+      "from": 43,
+      "to": 44,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L045",
+      "from": 44,
+      "to": 53,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L046",
+      "from": 45,
+      "to": 49,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L047",
+      "from": 46,
+      "to": 47,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L048",
+      "from": 47,
+      "to": 56,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L049",
+      "from": 49,
+      "to": 53,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L050",
+      "from": 50,
+      "to": 61,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L051",
+      "from": 53,
+      "to": 101,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L052",
+      "from": 54,
+      "to": 62,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L053",
+      "from": 55,
+      "to": 93,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L054",
+      "from": 56,
+      "to": 94,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L055",
+      "from": 57,
+      "to": 62,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L056",
+      "from": 58,
+      "to": 61,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L057",
+      "from": 59,
+      "to": 67,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L058",
+      "from": 62,
+      "to": 65,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L059",
+      "from": 62,
+      "to": 67,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L060",
+      "from": 62,
+      "to": 77,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L061",
+      "from": 63,
+      "to": 84,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L062",
+      "from": 64,
+      "to": 69,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L063",
+      "from": 65,
+      "to": 67,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L064",
+      "from": 67,
+      "to": 71,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L065",
+      "from": 67,
+      "to": 72,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L066",
+      "from": 67,
+      "to": 78,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L067",
+      "from": 68,
+      "to": 94,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L068",
+      "from": 69,
+      "to": 70,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L069",
+      "from": 70,
+      "to": 73,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L070",
+      "from": 71,
+      "to": 78,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L071",
+      "from": 72,
+      "to": 81,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L072",
+      "from": 73,
+      "to": 86,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L073",
+      "from": 77,
+      "to": 81,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L074",
+      "from": 77,
+      "to": 83,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L075",
+      "from": 78,
+      "to": 81,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L076",
+      "from": 79,
+      "to": 80,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L077",
+      "from": 81,
+      "to": 83,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L078",
+      "from": 81,
+      "to": 84,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L079",
+      "from": 82,
+      "to": 83,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L080",
+      "from": 83,
+      "to": 84,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L081",
+      "from": 84,
+      "to": 91,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L082",
+      "from": 84,
+      "to": 99,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L083",
+      "from": 86,
+      "to": 92,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L084",
+      "from": 88,
+      "to": 89,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L085",
+      "from": 89,
+      "to": 90,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L086",
+      "from": 89,
+      "to": 99,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L087",
+      "from": 90,
+      "to": 91,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L088",
+      "from": 90,
+      "to": 92,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L089",
+      "from": 91,
+      "to": 93,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L090",
+      "from": 91,
+      "to": 99,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L091",
+      "from": 92,
+      "to": 94,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L092",
+      "from": 92,
+      "to": 99,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L093",
+      "from": 93,
+      "to": 99,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L094",
+      "from": 94,
+      "to": 98,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L095",
+      "from": 97,
+      "to": 98,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L096",
+      "from": 98,
+      "to": 99,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L097",
+      "from": 99,
+      "to": 102,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L098",
+      "from": 99,
+      "to": 108,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L099",
+      "from": 100,
+      "to": 101,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L100",
+      "from": 101,
+      "to": 108,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L101",
+      "from": 102,
+      "to": 104,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L102",
+      "from": 103,
+      "to": 105,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L103",
+      "from": 104,
+      "to": 105,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L104",
+      "from": 105,
+      "to": 106,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L105",
+      "from": 106,
+      "to": 107,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    },
+    {
+      "id": "L106",
+      "from": 107,
+      "to": 108,
+      "type": "AI_CONCEPTUAL_READING_BRIDGE_NOT_DEDUCTIVE_PROOF"
+    }
+  ],
+  "proof_frontier": [
+    {
+      "id": "F01",
+      "topic": "LOWEST_LEVEL_TRADE_COMPLETENESS",
+      "lessons": [
+        35,
+        17,
+        18
+      ],
+      "preconditions": [
+        "原始交易事件满足第35课最低级别输入",
+        "上推时连续且已完成次级走势资格"
+      ],
+      "status": "open_no_independent_completed_child_type_certificate",
+      "resolved": false
+    },
+    {
+      "id": "F02",
+      "topic": "CENTER_MEMBERSHIP_AND_BREAK",
+      "lessons": [
+        18,
+        20,
+        21
+      ],
+      "preconditions": [
+        "作者认可的合法Zn成员与冻结原中枢核心区间",
+        "中心离开—首次回试完成与新同级中枢优先级"
+      ],
+      "status": "open_center_identity_and_retest",
+      "resolved": false
+    },
+    {
+      "id": "F03",
+      "topic": "BACK_DIVERGENCE_MOMENT",
+      "lessons": [
+        15,
+        24,
+        27,
+        43,
+        44,
+        50
+      ],
+      "preconditions": [
+        "事前按固定级别冻结的完整可比A/B/C走势段",
+        "完整力度定义与C段完成时间"
+      ],
+      "status": "open_full_back_divergence_semantics",
+      "resolved": false
+    },
+    {
+      "id": "F04",
+      "topic": "FROZEN_RG_UNIQUE",
+      "lessons": [
+        33,
+        35,
+        38,
+        62,
+        67,
+        71,
+        77,
+        81,
+        102
+      ],
+      "preconditions": [
+        "固定Rg合法输入、切点优先与等价规则",
+        "笔线段历史版本及未完成尾部政策"
+      ],
+      "status": "OB38-UNIQUE",
+      "resolved": false
+    },
+    {
+      "id": "F05",
+      "topic": "FROZEN_RG_ONLINE",
+      "lessons": [
+        32,
+        38,
+        61,
+        91,
+        99
+      ],
+      "preconditions": [
+        "无前视地确认每个完整构件",
+        "未来重新分类与首次可知时间区别"
+      ],
+      "status": "OB38-ASOF",
+      "resolved": false
+    },
+    {
+      "id": "F06",
+      "topic": "UNIVERSAL_FUTURE_HIGHER_CENTER",
+      "lessons": [
+        17,
+        35,
+        99,
+        102
+      ],
+      "preconditions": [
+        "所有符合完整作者文法的合法无限及有限未来路径域",
+        "有限时间内三个合格完成次级走势交叠"
+      ],
+      "status": "OB99-EXIST",
+      "resolved": false
+    },
+    {
+      "id": "F07",
+      "topic": "FIRST_HIGHER_CENTER_LOCATION",
+      "lessons": [
+        20,
+        38,
+        99,
+        108
+      ],
+      "preconditions": [
+        "完成某一级走势后的首个高级中心",
+        "首次构造的唯一性判据和中心位置谓词"
+      ],
+      "status": "OB99-LOCATION",
+      "resolved": false
+    },
+    {
+      "id": "F08",
+      "topic": "CLASSIFICATION_VS_FINANCIAL_OUTCOME",
+      "lessons": [
+        21,
+        31,
+        49,
+        56,
+        94,
+        108
+      ],
+      "preconditions": [
+        "三类买卖点完整合法事件集",
+        "可执行订单、交易成本与真实收益验证"
+      ],
+      "status": "open_not_empirically_run",
+      "resolved": false
+    }
+  ],
+  "reading_order_only_not_logical_proof": true,
+  "all_108_original_author_pages_fully_manually_reviewed": false,
+  "all_figure_claims_verified": false,
+  "all_theorems_proven": false,
+  "all_historical_rules_frozen": false,
+  "real_market_data_accessed": false,
+  "market_backtesting": "NOT_RUN"
+}

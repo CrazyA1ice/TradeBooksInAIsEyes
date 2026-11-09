@@ -2,6 +2,10 @@
 
 > **深入阅读、审慎质疑、独立思考。** 以原书为证据，拆分作者观点、后期编者材料、AI解释与未来可检验命题。研究目的不是批量生成所谓必赢策略。
 
+## 每本书独立研究成果文件夹（v4.0.0）
+
+**《缠论》全部研究成果已整理到 [ChanlunCollection/](ChanlunCollection/README.md)**：五卷原PDF、108篇逐课分析、108张原文证据卡、108课统一理论主脊、深度导读、来源与版本登记、报告、测试和审计工具均在一个文件夹内可查；保留原仓库规范路径作为编辑源，由`COLLECTION_MANIFEST.json`逐文件验证精确一致。后续每本书都建立独立`<BookName>Collection/`；**每一步研究都必须同步修订[通用工作流](docs/BOOK_RESEARCH_WORKFLOW.md)、该书[工作日志](ChanlunCollection/WORK_LOG.md)和集合完整性清单**。
+
 ## 从哪里开始
 
 | 需求 | 唯一入口 |
@@ -19,12 +23,12 @@
 | **文件去重与核验情况** | [规范来源与清理报告](deliverables/chanlun_108_acceptance/00_REVIEW/ACCEPTANCE_REPORT.md) |
 | **哪些细节仍可能遗漏或待复核？** | [11处优先复核入口与全书覆盖边界](deliverables/chanlun_108_acceptance/00_REVIEW/DETAIL_COVERAGE_GAPS.md) |
 
-## 一份内容只保存一个规范文件
+## 原仓库规范编辑源与每书独立镜像的分工
 
 - 原书按语种与书名存入`ChineseBooks/<书名>/`、`EnglishBooks/<书名>/`，研究报告使用`Reports/`。确认版权或分享权限后再考虑公开原文。
 - 原书目录、文件哈希、不同版本日期、出处保存在`catalog/`；章节研究放在`analyses/books/<book_slug>/`。
 - 结构化引用证据保存在`knowledge/`；跨学科独立想法在`ai_thoughts/`；需要时保留独立数学反例、已有研究协议和测试在`experiments/`、`tools/`、`tests/`。
-- **最终验收文件夹**`deliverables/<book_slug>_acceptance/`只保存综合研究、章节索引、形式化待验证案例和验收证明；**不复制**原书、逐课源报告、工具或整个仓库。需要离线整包时，由CI从唯一规范位置**临时打包**，并不把ZIP或第二套原文件写进Git。
+- **G7新约束**：每本书一套独立`<BookName>Collection/`完整镜像，原有规范目录不迁移，旧CI/引用保持可用。所有规范文件，包括PDF和工具，按相同相对路径镜像，逐文件比对Git blob SHA、大小与清单；每步变更必须更新工作流日志和镜像。
 - 不在已有内容的目录保留空`.gitkeep`，不保留同一资料的“最终版再复制”或中间OCR/假说批次输出；保留唯一可信来源和Git历史即可回溯。
 
 ## 《缠论》当前研究成果

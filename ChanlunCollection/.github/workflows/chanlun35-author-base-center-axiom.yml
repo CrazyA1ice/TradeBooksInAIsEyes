@@ -1,0 +1,27 @@
+name: Chanlun lesson35 authored sufficient base-center source axiom
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "catalog/chanlun35_author_base_center_axiom_v1.json"
+      - "tools/audit_chanlun35_author_base_center_axiom.py"
+      - "tests/fixtures/chanlun35_author_base_center_axiom_cases_v1.json"
+      - "tests/test_chanlun35_author_base_center_axiom.py"
+      - "deliverables/chanlun_108_acceptance/04_AI_GUIDE/27_*"
+      - ".github/workflows/chanlun35-author-base-center-axiom.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  derive-author-axiom-conditionally:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Verify author source-locked sufficient base center from 3 primitive trades
+        run: python -B tools/audit_chanlun35_author_base_center_axiom.py
+      - name: Reject forging provenance, completed trajectories or higher-center promotion
+        run: python -B -m unittest discover -s tests -p "test_chanlun35_author_base_center_axiom.py" -v

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "method": "pymupdf_1.26.7_get_text_sort_true",
+  "discovery_run_id": 42484155976,
+  "source_volumes": {
+    "2": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+    "5": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65"
+  },
+  "page_text_sha256": {
+    "2:353": "e0ed71f40a1f4e1e194f5c617d7837cbb928e0d7aad6dde54fb49981535b7e58",
+    "2:354": "ceba7246c5af7a265704d91088c110d05c4f6994144ca7dce5a6da78de46d87d",
+    "5:192": "62c28d3251119c462c273599afe7ebddf4dfa08097f47f843cf044bead9c082a",
+    "5:193": "1b5f80ce42c575f5e1271d40185e311befa90cc77b826a4e45ed970c50bb5560",
+    "5:194": "2d402cdd378b1ea9c5fe4d20c8086c1cff016255afba18c2830757660fb2f18c",
+    "5:224": "8caf4db9549d71248b550d6ebacdeb8740594adb2eb5fb40686b3d2ec6b680b5",
+    "5:225": "37c88946b3510bc01d52d230840d732c8e14a8590b5a83e25cc790c3210caddc"
+  },
+  "scope_note": "Only seven bounded native PDF physical pages; not an independent publication chronology, figure review, theorem proof or market experiment."
+}

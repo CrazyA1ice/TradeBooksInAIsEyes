@@ -1,0 +1,3159 @@
+{
+  "schema_version": 2,
+  "package": "chanlun_108_acceptance",
+  "ownership": "single canonical copy in repository; final bundle links to these original files",
+  "source_revision_at_initial_archive": "a80af245ecc1df1adf32d4e8ad556bd759e91ae2",
+  "file_index_kind": "canonical_reference_not_duplicate_file",
+  "canonical_file_count": 625,
+  "canonical_bytes": 50182497,
+  "canonical_files": [
+    {
+      "path": ".github/workflows/chanlun-incremental-events-v2-audit.yml",
+      "git_blob_sha1": "d23cb1d37ac8bc74c108b1627b5d076cf0eadea2",
+      "bytes": 1569
+    },
+    {
+      "path": ".github/workflows/chanlun-lessons002-005-evidence.yml",
+      "git_blob_sha1": "e9c4543b541484bf1c676c619c97c8e7d5999b2a",
+      "bytes": 1084
+    },
+    {
+      "path": ".github/workflows/chanlun-lessons006-010-audit.yml",
+      "git_blob_sha1": "9ca03814c945383d5b5f83bf8d15bcded4fee5a6",
+      "bytes": 1402
+    },
+    {
+      "path": ".github/workflows/chanlun-lessons011-015-audit.yml",
+      "git_blob_sha1": "86b8665c540a55d44cd1ebeb4ec99c2af2109cb9",
+      "bytes": 1522
+    },
+    {
+      "path": ".github/workflows/chanlun-lessons016-020-audit.yml",
+      "git_blob_sha1": "5a618f84334cb46e765c26b8c5e3a53e9e8d4f95",
+      "bytes": 1480
+    },
+    {
+      "path": ".github/workflows/chanlun-lessons021-025-audit.yml",
+      "git_blob_sha1": "466d0c8362dfde14724389d625f1ec2f4d0d2f30",
+      "bytes": 1254
+    },
+    {
+      "path": ".github/workflows/chanlun-lessons026-030-audit.yml",
+      "git_blob_sha1": "e0a3dd583c414b97385722905fd63683f24cbc2f",
+      "bytes": 1249
+    },
+    {
+      "path": ".github/workflows/chanlun-lessons031-035-audit.yml",
+      "git_blob_sha1": "c0df0f64d9d744aa0bfbf45bed213e52ddfba711",
+      "bytes": 1910
+    },
+    {
+      "path": ".github/workflows/chanlun-lessons036-040-audit.yml",
+      "git_blob_sha1": "be4da773fe8487f23c5f4974c5e30a206ee71957",
+      "bytes": 1549
+    },
+    {
+      "path": ".github/workflows/chanlun-lessons041-045-audit.yml",
+      "git_blob_sha1": "379f4c876b36754da0ba498d3c0c5af1c9d1b0a6",
+      "bytes": 1838
+    },
+    {
+      "path": ".github/workflows/chanlun-lessons046-050-audit.yml",
+      "git_blob_sha1": "2558d2114e97a462bd7b815e5c8dc053afffe129",
+      "bytes": 1833
+    },
+    {
+      "path": ".github/workflows/chanlun-lessons051-055-audit.yml",
+      "git_blob_sha1": "4dddce0d1860a6aac0cb49fcfb7524aeaeedd9ed",
+      "bytes": 1952
+    },
+    {
+      "path": ".github/workflows/chanlun-lessons056-060-audit.yml",
+      "git_blob_sha1": "67e634f428c8896fe9d1f33953c2ac0992b13d8a",
+      "bytes": 1547
+    },
+    {
+      "path": ".github/workflows/chanlun-lessons061-065-audit.yml",
+      "git_blob_sha1": "064bb0d37877787aa27121d43e83bbec344369d5",
+      "bytes": 1686
+    },
+    {
+      "path": ".github/workflows/chanlun-lessons066-070-audit.yml",
+      "git_blob_sha1": "775e6194a671788b58a62241977ed86b06ef77f7",
+      "bytes": 1961
+    },
+    {
+      "path": ".github/workflows/chanlun-lessons071-075-audit.yml",
+      "git_blob_sha1": "79e767c2323d6bc6c2efa03c48878b3a53962aa5",
+      "bytes": 2000
+    },
+    {
+      "path": ".github/workflows/chanlun-lessons076-080-audit.yml",
+      "git_blob_sha1": "22478667e95c68632cc2bc191641fbc2179b540e",
+      "bytes": 1983
+    },
+    {
+      "path": ".github/workflows/chanlun-lessons081-085-audit.yml",
+      "git_blob_sha1": "eea2dae05387cc3805876a30333f71bb99e49a53",
+      "bytes": 2339
+    },
+    {
+      "path": ".github/workflows/chanlun-lessons086-090-audit.yml",
+      "git_blob_sha1": "297906ad7ebf1e0b509c21b88f2275d7093203ea",
+      "bytes": 2027
+    },
+    {
+      "path": ".github/workflows/chanlun-lessons091-095-audit.yml",
+      "git_blob_sha1": "e2a2f01529cddcd0cd6c97ffdadd27388fb34cd8",
+      "bytes": 2323
+    },
+    {
+      "path": ".github/workflows/chanlun-lessons096-100-audit.yml",
+      "git_blob_sha1": "796cbcbf5868f916089767600db98e13ecb1cfce",
+      "bytes": 2306
+    },
+    {
+      "path": ".github/workflows/chanlun-lessons101-105-audit.yml",
+      "git_blob_sha1": "1b4984460c0ea23d7b21c0721140250c5c49c65d",
+      "bytes": 2283
+    },
+    {
+      "path": ".github/workflows/chanlun-lessons106-108-audit.yml",
+      "git_blob_sha1": "54ef15d5c08caaf75b6af3cf0fee1ded930ba49c",
+      "bytes": 1394
+    },
+    {
+      "path": ".github/workflows/chanlun-pen-frontier-v3-audit.yml",
+      "git_blob_sha1": "247c5155678dde3d4e7e60ebbaae5b6cc77c20f4",
+      "bytes": 1639
+    },
+    {
+      "path": ".github/workflows/chanlun-prefix-replay-v1-audit.yml",
+      "git_blob_sha1": "2a51ee7b1f54ec9168273112bbe8296697aec3f4",
+      "bytes": 1670
+    },
+    {
+      "path": ".github/workflows/chanlun-revision-proof-v4-audit.yml",
+      "git_blob_sha1": "f0f2b56d7a55e1cdcd9abf7941e84503387f1c02",
+      "bytes": 1824
+    },
+    {
+      "path": ".github/workflows/chanlun-unified-evidence-audit.yml",
+      "git_blob_sha1": "daf32b34c4e6ffdc9879c9e91f7d6a205495b3d9",
+      "bytes": 1210
+    },
+    {
+      "path": ".github/workflows/phase1-chanlun-inventory.yml",
+      "git_blob_sha1": "251eb2e1446552253fe8d43e8871ad6df5756b90",
+      "bytes": 2069
+    },
+    {
+      "path": ".github/workflows/phase1-lesson1-review.yml",
+      "git_blob_sha1": "8a3aee47122276998f55b776637c0f48094fed96",
+      "bytes": 1100
+    },
+    {
+      "path": "ChineseBooks/缠论/缠论_卷1.pdf",
+      "git_blob_sha1": "25a4ec5d0263953fc7361aac4d8bb53e276596aa",
+      "bytes": 6549393
+    },
+    {
+      "path": "ChineseBooks/缠论/缠论_卷2.pdf",
+      "git_blob_sha1": "199cc68df1fc5750fa32fcac0204f7971e68f5ff",
+      "bytes": 10431800
+    },
+    {
+      "path": "ChineseBooks/缠论/缠论_卷3.pdf",
+      "git_blob_sha1": "3e2dee762e59ceabf46118bdb6397098f6399017",
+      "bytes": 8864461
+    },
+    {
+      "path": "ChineseBooks/缠论/缠论_卷4.pdf",
+      "git_blob_sha1": "2ab607eb3708ce08d777114f7bd6c855fe0de749",
+      "bytes": 11296114
+    },
+    {
+      "path": "ChineseBooks/缠论/缠论_卷5.pdf",
+      "git_blob_sha1": "2ff8dae19b7f69322e28dc4a82947add01047632",
+      "bytes": 10427135
+    },
+    {
+      "path": "ai_thoughts/hypotheses/.gitkeep",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0
+    },
+    {
+      "path": "ai_thoughts/ideas/chanlun_ambiguous_rules_shared_inventory.md",
+      "git_blob_sha1": "b1a1defc8558c54228dde7e97fea2078e54fa290",
+      "bytes": 1476
+    },
+    {
+      "path": "ai_thoughts/ideas/chanlun_asof_objective_indicator_versions.md",
+      "git_blob_sha1": "82fdb83b553033ba974f8815acd22cd963961822",
+      "bytes": 1556
+    },
+    {
+      "path": "ai_thoughts/ideas/chanlun_asof_segment_precision_versions.md",
+      "git_blob_sha1": "0804bca93f59aa403c432dbb6250341869589eeb",
+      "bytes": 1398
+    },
+    {
+      "path": "ai_thoughts/ideas/chanlun_completeness_online_tradability.md",
+      "git_blob_sha1": "86b0cfb0b41f68a56719274f57a30a20d838cb98",
+      "bytes": 1130
+    },
+    {
+      "path": "ai_thoughts/ideas/chanlun_dual_ledgers_unique_versus_tradable.md",
+      "git_blob_sha1": "6da79575b63087186aee1216006d3ec7723886ac",
+      "bytes": 1460
+    },
+    {
+      "path": "ai_thoughts/ideas/chanlun_endpoint_confirmation_versioned_conditions.md",
+      "git_blob_sha1": "3ed798c696a0a7f58a52a1c2ca9947cb362cad3a",
+      "bytes": 1435
+    },
+    {
+      "path": "ai_thoughts/ideas/chanlun_feature_membership_and_evidence_gates.md",
+      "git_blob_sha1": "5ac78a0d9a581fead0d4a22a07439d87a954664f",
+      "bytes": 1864
+    },
+    {
+      "path": "ai_thoughts/ideas/chanlun_final_three_lessons_information_gates.md",
+      "git_blob_sha1": "f6048c6703c61c4c3181de402ea058e433ff066a",
+      "bytes": 1134
+    },
+    {
+      "path": "ai_thoughts/ideas/chanlun_four_proof_gates_structure_indicator_execution.md",
+      "git_blob_sha1": "bba3f0e82c1428e76ceee17fcbf0d799f78a0b63",
+      "bytes": 1856
+    },
+    {
+      "path": "ai_thoughts/ideas/chanlun_lesson001_process_outcome.md",
+      "git_blob_sha1": "04ac84298d562681cfaabd2574e593c97a9d13e6",
+      "bytes": 1492
+    },
+    {
+      "path": "ai_thoughts/ideas/chanlun_lessons001_005_observation_action.md",
+      "git_blob_sha1": "5890e65053d9bdd7c4731071fcd22a8fedd25a47",
+      "bytes": 1922
+    },
+    {
+      "path": "ai_thoughts/ideas/chanlun_lessons006_010_probability_ideas.md",
+      "git_blob_sha1": "acdc34aff940df66227f5aa5b4a3d59bbdfddd24",
+      "bytes": 1776
+    },
+    {
+      "path": "ai_thoughts/ideas/chanlun_necessity_waiting_signal_framework.md",
+      "git_blob_sha1": "8b2c6b9965bac4d62b627f7955322b4b5e49d4c8",
+      "bytes": 1410
+    },
+    {
+      "path": "ai_thoughts/ideas/chanlun_online_ambiguity_preserving_state_machine.md",
+      "git_blob_sha1": "03ff227c36d8b57834fa4cabfdbd136a2fea3160",
+      "bytes": 1481
+    },
+    {
+      "path": "ai_thoughts/ideas/chanlun_signal_three_timestamps.md",
+      "git_blob_sha1": "0b96f4cf60ce80ccc8d219c91b7364cf63446817",
+      "bytes": 1880
+    },
+    {
+      "path": "ai_thoughts/ideas/chanlun_source_containment_parser_versions.md",
+      "git_blob_sha1": "fff984db42deb3384ca6be01abf17e4a26bb2531",
+      "bytes": 1452
+    },
+    {
+      "path": "ai_thoughts/ideas/chanlun_source_disagreement_is_research_asset.md",
+      "git_blob_sha1": "4e90e4df57114bd09452bf0c36c6627961593fa9",
+      "bytes": 1638
+    },
+    {
+      "path": "ai_thoughts/ideas/chanlun_source_rules_data_recursion_triple_history.md",
+      "git_blob_sha1": "fcdb72e0f36f789201622ac672cca890a1a6891b",
+      "bytes": 1700
+    },
+    {
+      "path": "ai_thoughts/ideas/chanlun_source_semantic_execution_versions.md",
+      "git_blob_sha1": "e0236cfdd583f0cdf6898b696ec84e800d3fd594",
+      "bytes": 1772
+    },
+    {
+      "path": "ai_thoughts/ideas/chanlun_three_evidence_channels.md",
+      "git_blob_sha1": "dc6f076235e6926caee63538144e1b5c281f0e39",
+      "bytes": 1606
+    },
+    {
+      "path": "ai_thoughts/ideas/chanlun_three_evidence_gates.md",
+      "git_blob_sha1": "6ca42db3be60e5dcb8f0997c019a69644948e0d8",
+      "bytes": 1471
+    },
+    {
+      "path": "ai_thoughts/ideas/chanlun_three_non_equivalent_proofs.md",
+      "git_blob_sha1": "68bc1f00e2f6c549d6107e08af80ec4d3c4422f6",
+      "bytes": 1607
+    },
+    {
+      "path": "ai_thoughts/ideas/chanlun_trading_theory_applicability_domain.md",
+      "git_blob_sha1": "4f01311547eb663a2e39165a95c0f578b8821b5b",
+      "bytes": 1161
+    },
+    {
+      "path": "ai_thoughts/models/.gitkeep",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0
+    },
+    {
+      "path": "ai_thoughts/reflections/.gitkeep",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0
+    },
+    {
+      "path": "analyses/books/chanlun/README.md",
+      "git_blob_sha1": "2cf90fcae4be46a26a10aa9363872cb535ae7ac9",
+      "bytes": 19538
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_001.md",
+      "git_blob_sha1": "39c502f1dd15ca65b9b4ae7d8d13823dc6ee60ec",
+      "bytes": 15178
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_002.md",
+      "git_blob_sha1": "a34c7b45ff8cd125758b72cc3f90d4efd4eecd21",
+      "bytes": 5106
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_003.md",
+      "git_blob_sha1": "5c9fb042a2c33023ebec7de83169efa8af6d8895",
+      "bytes": 5010
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_004.md",
+      "git_blob_sha1": "e81520b8011620e169af494c95d4a0a7996ec4ba",
+      "bytes": 5689
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_005.md",
+      "git_blob_sha1": "309cec3d9fbc8ec091d14a2a91f8df2bd67502d9",
+      "bytes": 4830
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_006.md",
+      "git_blob_sha1": "ead48ec2c56860a78257835360946db4757919db",
+      "bytes": 5269
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_007.md",
+      "git_blob_sha1": "10b1c12c48b69adea9aba59ab7d04de9c8d2d429",
+      "bytes": 4787
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_008.md",
+      "git_blob_sha1": "3f6936df62f311223df98977b1c1b5a4196e9de1",
+      "bytes": 4715
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_009.md",
+      "git_blob_sha1": "c71d76347357d53fb161be44e55c2253704f9e15",
+      "bytes": 6093
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_010.md",
+      "git_blob_sha1": "6b1547564b1ee39470b88740a3c22a7d6021d5a6",
+      "bytes": 5270
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_011.md",
+      "git_blob_sha1": "65856347a70aed2b65c4318af78610631f24a2dc",
+      "bytes": 4352
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_012.md",
+      "git_blob_sha1": "1f972a71c665061f74d4f60ecc70066563c82f8d",
+      "bytes": 4488
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_013.md",
+      "git_blob_sha1": "24775b5afa7bd2da7e1b3a71d2a18f2709c72916",
+      "bytes": 4199
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_014.md",
+      "git_blob_sha1": "263a3869e1054994e59732bda08a2f7c677da383",
+      "bytes": 4594
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_015.md",
+      "git_blob_sha1": "60d235b64fa983746e9719511c862390b0a50ea0",
+      "bytes": 4906
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_016.md",
+      "git_blob_sha1": "3a53ff6715ad818d9eec250422c602f00a293f45",
+      "bytes": 3989
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_017.md",
+      "git_blob_sha1": "10e57c05afb6c0da146d8bd6339fc8b5f2f09a01",
+      "bytes": 4089
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_018.md",
+      "git_blob_sha1": "dbc41a146361869dd1994979c9f315c4368b3f65",
+      "bytes": 3753
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_019.md",
+      "git_blob_sha1": "ddb71d9c548b9cf8fc90d2e3f458101874650293",
+      "bytes": 3844
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_020.md",
+      "git_blob_sha1": "83c8fce99b15fb14cbc314debd24d74f8d95dc4e",
+      "bytes": 4481
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_021.md",
+      "git_blob_sha1": "e12b851827de9824a8485a35e5a52d85cd312507",
+      "bytes": 4897
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_022.md",
+      "git_blob_sha1": "e70f334c955ed020c7a86fd447131194a80b280d",
+      "bytes": 4412
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_023.md",
+      "git_blob_sha1": "56c684504af232cb347a4f25599ce9db4ded5b1b",
+      "bytes": 4257
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_024.md",
+      "git_blob_sha1": "432bde82bdf7c0c199607180d1a410352d8c47b1",
+      "bytes": 4684
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_025.md",
+      "git_blob_sha1": "a9ce0a8b9909c9b44a4c1aedc4e3d92c2766c335",
+      "bytes": 4315
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_026.md",
+      "git_blob_sha1": "07ec5b2feed990fab661c1147f8987d41ab78f2e",
+      "bytes": 4769
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_027.md",
+      "git_blob_sha1": "3e77d8fecb31b04ee4773eb9f9fd214e4ee7fd59",
+      "bytes": 4577
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_028.md",
+      "git_blob_sha1": "55572751e3ceb9aa3b4fb9c7d0ed808c4c61c87c",
+      "bytes": 4374
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_029.md",
+      "git_blob_sha1": "5ec005f8f9ce627829e067c76b014935c586503b",
+      "bytes": 4499
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_030.md",
+      "git_blob_sha1": "da6cd15b3503d15575abb55cec14034ff43a8070",
+      "bytes": 4602
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_031.md",
+      "git_blob_sha1": "c09234323d2f154e1f6036ae62d38b644c95312f",
+      "bytes": 4883
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_032.md",
+      "git_blob_sha1": "1e147a0e61d28e4db42f02400b882d3179f36237",
+      "bytes": 4360
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_033.md",
+      "git_blob_sha1": "2c2b3bf32d1a9cc59f2671bd7a45d3103f5fbeb6",
+      "bytes": 4221
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_034.md",
+      "git_blob_sha1": "c6f3def04242a01cf6eba2c5d1928a3230089e37",
+      "bytes": 3913
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_035.md",
+      "git_blob_sha1": "160c9d93213adf333a5c9583c7c4060f889d4d6b",
+      "bytes": 5106
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_036.md",
+      "git_blob_sha1": "f25a2f3f2c752b0f802b8b0bf9d2123a0a4d5f22",
+      "bytes": 2439
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_037.md",
+      "git_blob_sha1": "c85866425e238f1b7863efe5211c6c0f463931f2",
+      "bytes": 2383
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_038.md",
+      "git_blob_sha1": "9bc1a6138e68c1a4f4707a2d34f273e8069b7584",
+      "bytes": 2515
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_039.md",
+      "git_blob_sha1": "fcc4684bd946020b13529e3aff36e22366a27cfc",
+      "bytes": 2330
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_040.md",
+      "git_blob_sha1": "b1fabf7467cba7b61a83ab795a0812d2ab2ecc2d",
+      "bytes": 2341
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_041.md",
+      "git_blob_sha1": "2f3c542342c7d89ae5d8eb8b21fa1e718a5d59a2",
+      "bytes": 3845
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_042.md",
+      "git_blob_sha1": "beedde1acf19460bee71ee1019b92ed0e2d0d30b",
+      "bytes": 3647
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_043.md",
+      "git_blob_sha1": "04efcbbf79ceccc9b253a1d94fdbded49a7bad96",
+      "bytes": 3803
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_044.md",
+      "git_blob_sha1": "2b93f3452328dfbc8f75f921e4d9e5c45584c8d2",
+      "bytes": 4053
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_045.md",
+      "git_blob_sha1": "4a29a1738bc894cdc8c8afb41c1c0a074a5d2f83",
+      "bytes": 3868
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_046.md",
+      "git_blob_sha1": "d8e32f69718dd9dd673e0b352135a0699968c55e",
+      "bytes": 4290
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_047.md",
+      "git_blob_sha1": "c44c42c483132f5ff18be483777aa61105c2ff0a",
+      "bytes": 3951
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_048.md",
+      "git_blob_sha1": "296a7d6e914e50a710272eb961959e23c2f0ff19",
+      "bytes": 3981
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_049.md",
+      "git_blob_sha1": "be4bc56a035ee31232a759f9eb99f911cc059766",
+      "bytes": 4715
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_050.md",
+      "git_blob_sha1": "984513665faf6b7a99841afbabb14cb1cf5ba52c",
+      "bytes": 4157
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_051.md",
+      "git_blob_sha1": "9d81b85764a894763940ce4f3d32ff9fbbefeabe",
+      "bytes": 3967
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_052.md",
+      "git_blob_sha1": "5bd5a4a1049e700ca1128b3a02392a2ff62473f7",
+      "bytes": 3921
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_053.md",
+      "git_blob_sha1": "4d76ff6b569a0b5dff53097815bfaa21746eac07",
+      "bytes": 4236
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_054.md",
+      "git_blob_sha1": "523cd64842799b0be74c17f55dcc7316a11ad9f3",
+      "bytes": 4192
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_055.md",
+      "git_blob_sha1": "9cf31ff777e4190afda3caa91a8b926b3d4da5c8",
+      "bytes": 4099
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_056.md",
+      "git_blob_sha1": "025f40825c3cfdfd6c9c8f4d00cad529c0895ed5",
+      "bytes": 4021
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_057.md",
+      "git_blob_sha1": "486b4ea98a8a3325f90652a5e0227cfcd63e4f6b",
+      "bytes": 3658
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_058.md",
+      "git_blob_sha1": "8fc9d2fa8b1b58cbd023eae513eb5a1bc2f83307",
+      "bytes": 4247
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_059.md",
+      "git_blob_sha1": "68ebd656740541d69b846ffc393c144e3951d94a",
+      "bytes": 5560
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_060.md",
+      "git_blob_sha1": "bf25c44abbddcd9ed0794e949980949aecc3b2ac",
+      "bytes": 3836
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_061.md",
+      "git_blob_sha1": "6440b1ec21ccbf5aa797649cfd8a63ac8a4053cc",
+      "bytes": 3720
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_062.md",
+      "git_blob_sha1": "b92678a236f5f7c7dea56bb41ed8638080c7945c",
+      "bytes": 5077
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_063.md",
+      "git_blob_sha1": "153b1780f2215672fb7f9d6b0a1d4140baa084a9",
+      "bytes": 3593
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_064.md",
+      "git_blob_sha1": "e85afb05e381b4a1b29cfbf8795c914be7d90dc3",
+      "bytes": 3563
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_065.md",
+      "git_blob_sha1": "ff981dabe03388abb33ce1fdb9d6c5c97fd17548",
+      "bytes": 3815
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_066.md",
+      "git_blob_sha1": "efae2a1042e418492bc40aebf2ec76f5b4f01146",
+      "bytes": 3950
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_067.md",
+      "git_blob_sha1": "9c5b8ea714273fe087046cdf5e13c0f011cd8f8b",
+      "bytes": 4317
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_068.md",
+      "git_blob_sha1": "4913625f82b2df1256e052fb8526210648c45949",
+      "bytes": 3995
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_069.md",
+      "git_blob_sha1": "32cf535971b9d6fb7fd611d9b875cf7d5dbb9227",
+      "bytes": 3898
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_070.md",
+      "git_blob_sha1": "e5284efbad455f1d9d21f1472361e033deabd75a",
+      "bytes": 4312
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_071.md",
+      "git_blob_sha1": "67d949ba47f30b7dd43a94d1ecd0e32505a04325",
+      "bytes": 4636
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_072.md",
+      "git_blob_sha1": "230b9bc1de3a4151920c7fe5120db6bada188503",
+      "bytes": 4669
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_073.md",
+      "git_blob_sha1": "b2dbb9b6405e0f37b3d4971c3046a60c24fc96a0",
+      "bytes": 4639
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_074.md",
+      "git_blob_sha1": "a35676a523098eedac908c97e3403533dbcbd1b2",
+      "bytes": 4599
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_075.md",
+      "git_blob_sha1": "27821fe8bba3a698291993ff5b07104aa735d517",
+      "bytes": 4488
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_076.md",
+      "git_blob_sha1": "3ccedd5e7a21b295366f4c366135272dad3acef2",
+      "bytes": 3615
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_077.md",
+      "git_blob_sha1": "54452d485b2e1df4210e10c9262614d304ba6a44",
+      "bytes": 3919
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_078.md",
+      "git_blob_sha1": "9f02f44ff59a40a3a84a0d12df7941884ea2f7a2",
+      "bytes": 3651
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_079.md",
+      "git_blob_sha1": "6a5f466d320a457e17f87b7a56097dde55bed293",
+      "bytes": 3826
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_080.md",
+      "git_blob_sha1": "e6b12e1992b12c4e536b5bd89211fd9755edf67d",
+      "bytes": 4044
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_081.md",
+      "git_blob_sha1": "f7aaeb1c1d5b837a11d3264498a75b53fd8e4917",
+      "bytes": 4032
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_082.md",
+      "git_blob_sha1": "a314145e32fffb112335912c83278f5cd0019750",
+      "bytes": 3741
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_083.md",
+      "git_blob_sha1": "70adff9f8f4d77dd57d30e5293c78e78184c929f",
+      "bytes": 3802
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_084.md",
+      "git_blob_sha1": "21b1cc70b65ece67cc79ab9e2d222f8f636b4526",
+      "bytes": 4022
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_085.md",
+      "git_blob_sha1": "4a83dce0194b9f1bccd54fb4214b960f3b0e2a99",
+      "bytes": 3752
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_086.md",
+      "git_blob_sha1": "f6d61f8b85b74a4fbeddda7b70260685756a8236",
+      "bytes": 2822
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_087.md",
+      "git_blob_sha1": "07a9b4585930fcc0f89ef8964def3c049df42af3",
+      "bytes": 2387
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_088.md",
+      "git_blob_sha1": "ac579b05df718cf979b2bdcc51b950d6a1ff20a4",
+      "bytes": 2533
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_089.md",
+      "git_blob_sha1": "6ae342533b3856e4ae1c23ee76c1e10731442c30",
+      "bytes": 2645
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_090.md",
+      "git_blob_sha1": "79434b1ff4c72b0ec4f2c6ba4f8c98fb25c1cabb",
+      "bytes": 2818
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_091.md",
+      "git_blob_sha1": "269fab4de676fa5a2735247c25d13fa4615e2a54",
+      "bytes": 4713
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_092.md",
+      "git_blob_sha1": "ec303324075770488fc8a2605b048db73d21abd7",
+      "bytes": 4206
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_093.md",
+      "git_blob_sha1": "f8090f5ff7a102c28abae0b59d72f8583e551e80",
+      "bytes": 4106
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_094.md",
+      "git_blob_sha1": "913bc72856b9deabf7a3e2fc2f01f0e98e267605",
+      "bytes": 3915
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_095.md",
+      "git_blob_sha1": "f47a7a6f13eeda1f2760327f6b0bd07ece0b2a90",
+      "bytes": 4082
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_096.md",
+      "git_blob_sha1": "666f55b11a0212cd99b594701b3e715c2f60f294",
+      "bytes": 3770
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_097.md",
+      "git_blob_sha1": "6e74e85f7f31ae715941243f91afe5707589ae44",
+      "bytes": 3661
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_098.md",
+      "git_blob_sha1": "0ce396426b34acf6e9a6741836a1a1c5a8573f96",
+      "bytes": 3552
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_099.md",
+      "git_blob_sha1": "a13f47c62a11a2b5cb3eb95b452603e27c8d0790",
+      "bytes": 3790
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_100.md",
+      "git_blob_sha1": "d184173b8161438ccfd7fff15b51ead111cb2ba9",
+      "bytes": 3859
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_101.md",
+      "git_blob_sha1": "cf8dfb7c15652d3d580ee88097d2f75b99292652",
+      "bytes": 4326
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_102.md",
+      "git_blob_sha1": "75f4c5b1ca35c381190517e6afdfd8ddb31f39b0",
+      "bytes": 4355
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_103.md",
+      "git_blob_sha1": "71fc6ecc8e4222d949cb5fae28d3dac05a7acc72",
+      "bytes": 3984
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_104.md",
+      "git_blob_sha1": "99b7e503eeef03e523b8e3e51d10d934b09a2be9",
+      "bytes": 4209
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_105.md",
+      "git_blob_sha1": "e0dc8bf9e1735ebd5d994181857d52aab5dcedce",
+      "bytes": 4089
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_106.md",
+      "git_blob_sha1": "7ffe7a045c4aac3b3cc79f9daa5f46ff8475b6a9",
+      "bytes": 3591
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_107.md",
+      "git_blob_sha1": "67dc0cc2b93b4ad15bf80b6d26d44a3922503e04",
+      "bytes": 3463
+    },
+    {
+      "path": "analyses/books/chanlun/chapters/lesson_108.md",
+      "git_blob_sha1": "a468133e69009ae4dd0e04df499e01d61713d20b",
+      "bytes": 4589
+    },
+    {
+      "path": "analyses/books/chanlun/concepts/.gitkeep",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0
+    },
+    {
+      "path": "analyses/books/chanlun/critiques/.gitkeep",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0
+    },
+    {
+      "path": "analyses/books/chanlun/volumes/LESSONS_001_005_SYNTHESIS.md",
+      "git_blob_sha1": "f65f5f015d62753030ec76718111008c3b7089ad",
+      "bytes": 8272
+    },
+    {
+      "path": "analyses/books/chanlun/volumes/LESSONS_001_010_SYNTHESIS.md",
+      "git_blob_sha1": "cc9b038dae5516c657a5dc503c3f57bfd0b1593b",
+      "bytes": 5628
+    },
+    {
+      "path": "analyses/books/chanlun/volumes/LESSONS_011_015_SYNTHESIS.md",
+      "git_blob_sha1": "18622b2bc8e0d424a63c89fe5e1d6ccddc7f41b9",
+      "bytes": 6278
+    },
+    {
+      "path": "analyses/books/chanlun/volumes/LESSONS_016_020_SYNTHESIS.md",
+      "git_blob_sha1": "5e9673f4eff94e7607d1ac143ee52851d91c9a80",
+      "bytes": 5696
+    },
+    {
+      "path": "analyses/books/chanlun/volumes/LESSONS_021_025_SYNTHESIS.md",
+      "git_blob_sha1": "34d95777d56f238c26557bb7c94e34a58cc4a897",
+      "bytes": 4397
+    },
+    {
+      "path": "analyses/books/chanlun/volumes/LESSONS_026_030_SYNTHESIS.md",
+      "git_blob_sha1": "ddb8f4aaf69ad0bd721e338b7e6133e288431ce2",
+      "bytes": 5346
+    },
+    {
+      "path": "analyses/books/chanlun/volumes/LESSONS_031_035_SYNTHESIS.md",
+      "git_blob_sha1": "e9903a09b04744d1dd4b91fdafea22d74b8296bb",
+      "bytes": 5152
+    },
+    {
+      "path": "analyses/books/chanlun/volumes/LESSONS_036_040_SYNTHESIS.md",
+      "git_blob_sha1": "307980cfa260325c62b639aea157689adb242fdc",
+      "bytes": 5260
+    },
+    {
+      "path": "analyses/books/chanlun/volumes/LESSONS_041_045_SYNTHESIS.md",
+      "git_blob_sha1": "5bdaa45e33d5b7a81a12af453f73df173d4b3109",
+      "bytes": 5326
+    },
+    {
+      "path": "analyses/books/chanlun/volumes/LESSONS_046_050_SYNTHESIS.md",
+      "git_blob_sha1": "afdd9de3426162f8c0a0cc19f9a1ecaf576c7472",
+      "bytes": 5833
+    },
+    {
+      "path": "analyses/books/chanlun/volumes/LESSONS_051_055_SYNTHESIS.md",
+      "git_blob_sha1": "50355723a2ae8ab9dbfea6021f87647f748a323b",
+      "bytes": 5357
+    },
+    {
+      "path": "analyses/books/chanlun/volumes/LESSONS_056_060_SYNTHESIS.md",
+      "git_blob_sha1": "09e22c221b153856e804642502665d832795f14a",
+      "bytes": 5053
+    },
+    {
+      "path": "analyses/books/chanlun/volumes/LESSONS_061_065_SYNTHESIS.md",
+      "git_blob_sha1": "6b50308b88aa6740aafe976cd7a86d822f8b9ed9",
+      "bytes": 4940
+    },
+    {
+      "path": "analyses/books/chanlun/volumes/LESSONS_066_070_SYNTHESIS.md",
+      "git_blob_sha1": "909073d97153fdc061f404b2743f419898b2b0d9",
+      "bytes": 5668
+    },
+    {
+      "path": "analyses/books/chanlun/volumes/LESSONS_071_075_SYNTHESIS.md",
+      "git_blob_sha1": "6a3f359871ab4fd6c27335c0ff163b35af77b201",
+      "bytes": 6605
+    },
+    {
+      "path": "analyses/books/chanlun/volumes/LESSONS_076_080_SYNTHESIS.md",
+      "git_blob_sha1": "aa4877fd621cf080b5b258b4812ed4306d46c3d8",
+      "bytes": 5315
+    },
+    {
+      "path": "analyses/books/chanlun/volumes/LESSONS_081_085_SYNTHESIS.md",
+      "git_blob_sha1": "35dac3a1d77e49eea6ad77740cebec09f1f9b716",
+      "bytes": 5764
+    },
+    {
+      "path": "analyses/books/chanlun/volumes/LESSONS_086_090_SYNTHESIS.md",
+      "git_blob_sha1": "9f61f180870b1400548e2fc3499af049cb12d19b",
+      "bytes": 4839
+    },
+    {
+      "path": "analyses/books/chanlun/volumes/LESSONS_091_095_SYNTHESIS.md",
+      "git_blob_sha1": "f82446680c24a58f136982067775627011712590",
+      "bytes": 5373
+    },
+    {
+      "path": "analyses/books/chanlun/volumes/LESSONS_096_100_SYNTHESIS.md",
+      "git_blob_sha1": "1d3725889ddf83ae4f29403755dc2cd0d83e82cc",
+      "bytes": 5226
+    },
+    {
+      "path": "analyses/books/chanlun/volumes/LESSONS_101_105_SYNTHESIS.md",
+      "git_blob_sha1": "b5a38421f56d999a208e2002f490cea7efa82673",
+      "bytes": 5403
+    },
+    {
+      "path": "analyses/books/chanlun/volumes/LESSONS_106_108_SYNTHESIS.md",
+      "git_blob_sha1": "49b542efadff703ea84df6c41c132ac8fd098337",
+      "bytes": 3342
+    },
+    {
+      "path": "analyses/books/chanlun/volumes/LESSON_INDEX.md",
+      "git_blob_sha1": "47032db59223805cf725827b37132da3571e983d",
+      "bytes": 6343
+    },
+    {
+      "path": "catalog/README.md",
+      "git_blob_sha1": "14514b1746b203a4fb57aeec994e91163abd4c83",
+      "bytes": 361
+    },
+    {
+      "path": "catalog/books.yaml",
+      "git_blob_sha1": "7e9e9144db841249fbb7e38ed23487135c8b001f",
+      "bytes": 2117
+    },
+    {
+      "path": "catalog/chanlun_lesson_index.json",
+      "git_blob_sha1": "f9b2a5f552211e9609107e144a1bd297e1d30fc0",
+      "bytes": 15838
+    },
+    {
+      "path": "catalog/chanlun_lessons006_010_layers.json",
+      "git_blob_sha1": "c192dddb476a4fb6878d05b04587e539bb52d72e",
+      "bytes": 18217
+    },
+    {
+      "path": "catalog/chanlun_lessons011_015_source_layers.json",
+      "git_blob_sha1": "fa8d60419898201af71d7177845f7a82bf660ea0",
+      "bytes": 21982
+    },
+    {
+      "path": "catalog/chanlun_lessons016_020_source_layers.json",
+      "git_blob_sha1": "b618aa8cf28e4a29d0862bedb7ed27e7fcf5773b",
+      "bytes": 24107
+    },
+    {
+      "path": "catalog/chanlun_lessons021_025_source_layers.json",
+      "git_blob_sha1": "5e7d2d877d0cdf8fce385a244ab9860e79e8ddbb",
+      "bytes": 39622
+    },
+    {
+      "path": "catalog/chanlun_lessons026_030_source_layers.json",
+      "git_blob_sha1": "6a125d8db730b80f4ba5fc07d298bef8497ab57b",
+      "bytes": 33470
+    },
+    {
+      "path": "catalog/chanlun_lessons031_035_source_layers.json",
+      "git_blob_sha1": "3b8866637416f34d0e006404b33120fdb9dd597e",
+      "bytes": 30969
+    },
+    {
+      "path": "catalog/chanlun_lessons036_040_source_layers.json",
+      "git_blob_sha1": "b0132c9d610050af3f2753e1b869fd4abfd87ba7",
+      "bytes": 23366
+    },
+    {
+      "path": "catalog/chanlun_lessons041_045_source_layers.json",
+      "git_blob_sha1": "d80ffe86c27438c1f192a5338c1bccad709ac276",
+      "bytes": 21908
+    },
+    {
+      "path": "catalog/chanlun_lessons046_050_source_layers.json",
+      "git_blob_sha1": "334529c89705f6ea4ab609863661bbdd84233d5d",
+      "bytes": 21512
+    },
+    {
+      "path": "catalog/chanlun_lessons051_055_source_layers.json",
+      "git_blob_sha1": "e8dbc2d5a60d62dbe6033c70ad1f5ffcb707853f",
+      "bytes": 25868
+    },
+    {
+      "path": "catalog/chanlun_lessons056_060_source_layers.json",
+      "git_blob_sha1": "ce4b7c46f1c4eaceee4389af5ed648721cbcfb10",
+      "bytes": 23642
+    },
+    {
+      "path": "catalog/chanlun_lessons061_065_source_layers.json",
+      "git_blob_sha1": "ff2d6836a08204efb0b442d966487ffdca6aec7e",
+      "bytes": 28425
+    },
+    {
+      "path": "catalog/chanlun_lessons066_070_source_layers.json",
+      "git_blob_sha1": "753c7041a37d2d88a69017f59720641bdf5886f4",
+      "bytes": 28899
+    },
+    {
+      "path": "catalog/chanlun_lessons071_075_source_layers.json",
+      "git_blob_sha1": "5d48286c9f4521e87b23c6554cb4fdd1df31f335",
+      "bytes": 28486
+    },
+    {
+      "path": "catalog/chanlun_lessons076_080_source_layers.json",
+      "git_blob_sha1": "91c6892bec6663ba62ed142e0fefc2a9c134e1e7",
+      "bytes": 35847
+    },
+    {
+      "path": "catalog/chanlun_lessons081_085_source_layers.json",
+      "git_blob_sha1": "190c82c043a02ae361dd9780461e1b3df685d374",
+      "bytes": 47433
+    },
+    {
+      "path": "catalog/chanlun_lessons086_090_source_layers.json",
+      "git_blob_sha1": "0d7d64ae5e452e3023bdd0e2e6eb0480ed140451",
+      "bytes": 46793
+    },
+    {
+      "path": "catalog/chanlun_lessons091_095_source_layers.json",
+      "git_blob_sha1": "5daf4856e6fd9b56e48cae4e24d5dd1ecb69afa9",
+      "bytes": 39370
+    },
+    {
+      "path": "catalog/chanlun_lessons096_100_source_layers.json",
+      "git_blob_sha1": "d3e2186b88846b3ff36538bee1c228b8ee74e328",
+      "bytes": 39438
+    },
+    {
+      "path": "catalog/chanlun_lessons101_105_source_layers.json",
+      "git_blob_sha1": "86618b387f8b5a921ef72af65260786767472aec",
+      "bytes": 46818
+    },
+    {
+      "path": "catalog/chanlun_lessons106_108_source_layers.json",
+      "git_blob_sha1": "c355172e8a51a83c9b7b8cf7c892a146705d6120",
+      "bytes": 17831
+    },
+    {
+      "path": "catalog/chanlun_rule_history_v1.json",
+      "git_blob_sha1": "438a9685dae39c0c44d81166b78b53f6f0c17b57",
+      "bytes": 10854
+    },
+    {
+      "path": "catalog/reports.yaml",
+      "git_blob_sha1": "91b2f5d232a2be3e9a937e3c418f4f83b5c26486",
+      "bytes": 96
+    },
+    {
+      "path": "catalog/sources.yaml",
+      "git_blob_sha1": "2ddd8bf00d2a303d7fac83982e1b03df2579fbfd",
+      "bytes": 114
+    },
+    {
+      "path": "docs/ANALYSIS_STANDARD.md",
+      "git_blob_sha1": "af6dcec8f262014ee4dadaa9a9af8add8d12e6d7",
+      "bytes": 4100
+    },
+    {
+      "path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
+      "git_blob_sha1": "6c2ec7ffc2e65f34c50e7be2548cdafb22ccd5ee",
+      "bytes": 5444
+    },
+    {
+      "path": "docs/CHANLUN_PEN_FRONTIER_V3.md",
+      "git_blob_sha1": "b554798d7e1fb1734cd4dad763fa41282e4e419b",
+      "bytes": 4902
+    },
+    {
+      "path": "docs/CHANLUN_PREFIX_REPLAY_LAB_V1.md",
+      "git_blob_sha1": "97ce219f37221b3543e2aa1b3d7d61141ac4e603",
+      "bytes": 6243
+    },
+    {
+      "path": "docs/CHANLUN_REVISION_PROOF_GATES_V4.md",
+      "git_blob_sha1": "20871946d342b2c0a7920437e9f3bc6a7249ecd8",
+      "bytes": 5958
+    },
+    {
+      "path": "docs/CHANLUN_UNIFIED_KNOWLEDGE.md",
+      "git_blob_sha1": "2513dd13f807f6da8337330120225a2bd85bfc15",
+      "bytes": 4187
+    },
+    {
+      "path": "docs/EVIDENCE_STANDARD.md",
+      "git_blob_sha1": "a98a3d45d6f659631a0f6bdb06b9a59e21b31be6",
+      "bytes": 1890
+    },
+    {
+      "path": "docs/PHASE1_INTAKE.md",
+      "git_blob_sha1": "028ee8f4986df3369e837c76d03437339ddd5111",
+      "bytes": 25334
+    },
+    {
+      "path": "docs/PROJECT_PLAN.md",
+      "git_blob_sha1": "ea1b2c395b6b712fc88b03a738a35ee2cbf8cbaf",
+      "bytes": 13139
+    },
+    {
+      "path": "docs/READING_PROTOCOL.md",
+      "git_blob_sha1": "25169c4946399563c248a64cf863a64d4935d5ab",
+      "bytes": 3081
+    },
+    {
+      "path": "docs/RESEARCH_ROADMAP.md",
+      "git_blob_sha1": "a0682d4c84a135edbaf4e31be895a83077c8f973",
+      "bytes": 2643
+    },
+    {
+      "path": "experiments/fixtures/chanlun_pen_frontier_synthetic_v3.json",
+      "git_blob_sha1": "7c1f4fd04dea507aa5743d0e27513deca383ac6f",
+      "bytes": 5721
+    },
+    {
+      "path": "experiments/fixtures/chanlun_prefix_synthetic_v1.json",
+      "git_blob_sha1": "4208e3a3f6bad68dc19540ef2d64fa0999099af6",
+      "bytes": 5607
+    },
+    {
+      "path": "experiments/hypotheses/.gitkeep",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson009_probability_audit.md",
+      "git_blob_sha1": "cd42ad348728ad1f80779b5583da195c2a5c7b0c",
+      "bytes": 5546
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson015_early_definitions_audit.md",
+      "git_blob_sha1": "63660c0c40b92a68527cb071cf89e082f8dfdbcd",
+      "bytes": 3864
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson020_center_and_third_buy_audit.md",
+      "git_blob_sha1": "09fbd7630dd3b3fe865fcd174c9995e944c7909f",
+      "bytes": 3253
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson024_macd_partial_area_audit.md",
+      "git_blob_sha1": "b6e5f232cb912d5a46569b79bbb8cceacc2ec8c8",
+      "bytes": 1488
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson027_nested_interval_audit.md",
+      "git_blob_sha1": "59429e840405b53184e431f726d31f090b835a76",
+      "bytes": 2245
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson031_zero_cost_basis_audit.md",
+      "git_blob_sha1": "de33479310fc71d3430ae01446eda6bb0f8f7a9b",
+      "bytes": 2225
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson035_recursive_decomposition_audit.md",
+      "git_blob_sha1": "6969e57e9347f1f368ddd90456dd5a35f29d8596",
+      "bytes": 2521
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson039_branch_coverage_audit.md",
+      "git_blob_sha1": "e56f3487c2492a29fb99282f1391ccade84d4024",
+      "bytes": 1459
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson040_multilevel_inventory_audit.md",
+      "git_blob_sha1": "1db4dadedd0222f9331178cb97eca201c456453b",
+      "bytes": 1280
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson044_necessary_not_sufficient.md",
+      "git_blob_sha1": "6feff098ac99b95577a3545873b43445859f048c",
+      "bytes": 1446
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson045_hold_wait_state_machine.md",
+      "git_blob_sha1": "58bbb04429ab7747b458d4898b88070e5936dde3",
+      "bytes": 1150
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson046_online_day_classification.md",
+      "git_blob_sha1": "61f59415414c5acfffc2520cd30d5eb69943d287",
+      "bytes": 1231
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson049_objective_function_audit.md",
+      "git_blob_sha1": "e3bb020b97f2ad6ae5184239d9e89067e83ed270",
+      "bytes": 1396
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson050_macd_resampling_audit.md",
+      "git_blob_sha1": "d185e33f959810c61342c86268b8f47df87c7189",
+      "bytes": 1123
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson053_editorial_boundary_audit.md",
+      "git_blob_sha1": "88fa3d7196d11b672a88fd45aee229907aa9dbd7",
+      "bytes": 1256
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson054_connection_grammar_audit.md",
+      "git_blob_sha1": "23b672321dccfd4c6b6a3b0dcf36f7bfacfcae95",
+      "bytes": 998
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson055_cash_share_ledger.md",
+      "git_blob_sha1": "1a4354532aed10addbaabe2d09aa5aba669345b9",
+      "bytes": 1022
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson059_price_quantization_audit.md",
+      "git_blob_sha1": "3598902c21ac89fb8ce42f49eaca52023266a1a6",
+      "bytes": 1042
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson064_tolerance_nontransitive.md",
+      "git_blob_sha1": "88ec120029bc1f0857398508be6fe16260386285",
+      "bytes": 778
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson067_two_case_feature_sequence.md",
+      "git_blob_sha1": "21fce3fa2e40b3ca870f62e520fb516e43d70e17",
+      "bytes": 1379
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson068_piecewise_policy.md",
+      "git_blob_sha1": "fccb0548952480661c09e61c398481d2a97e86b9",
+      "bytes": 912
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson071_typed_feature_membership.md",
+      "git_blob_sha1": "082659da8eca68e16a33ca6110e6ff481d6f87ea",
+      "bytes": 1441
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson077_pen_candidates_audit.md",
+      "git_blob_sha1": "c56fb6360fc0181fec8690d9ad8fccdce6f414fc",
+      "bytes": 966
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson078_raw_vs_normalized.md",
+      "git_blob_sha1": "a75259154eaae8db2fb3d105a9b6cc1daf105d1b",
+      "bytes": 821
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson081_pen_version_comparison.md",
+      "git_blob_sha1": "94a521e7d4fbb64fe5ab9b2f2e99703fecf5d414",
+      "bytes": 1156
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson082_fractal_outcome.md",
+      "git_blob_sha1": "df088b7f2fa9c2ea0e629f8f69a07d6a3ec0bf0a",
+      "bytes": 815
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson085_claim_provenance.md",
+      "git_blob_sha1": "4364c1be255575404da7d86fc2bdf9c24bad68d4",
+      "bytes": 755
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson086_crosslevel_context.md",
+      "git_blob_sha1": "3de9f98a3e1d5062280c0f19eb42270790184468",
+      "bytes": 702
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson090_boll_auxiliary.md",
+      "git_blob_sha1": "56f96988c23f39fa0e9edc7cdc5f8409c71617e9",
+      "bytes": 797
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson091_four_state_fsm.md",
+      "git_blob_sha1": "4f22872bfa477f335d46a014f92def660692e632",
+      "bytes": 755
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson092_midpoint_monitor.md",
+      "git_blob_sha1": "01ca9f16f9d37a6bd29c0bd0fff10788b6b4306a",
+      "bytes": 853
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson095_remaining_exposure.md",
+      "git_blob_sha1": "ee24405471eeec16dd8b5dcf1228688002a4efbc",
+      "bytes": 697
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson096_behavioral_gate.md",
+      "git_blob_sha1": "4815d073eda8a8398587b01e6f4ffab6de88d159",
+      "bytes": 710
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson099_resegmentation.md",
+      "git_blob_sha1": "2c9034cd30bd5ba4311e1b0af632d58177ee57bb",
+      "bytes": 783
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson100_disputed_branches.md",
+      "git_blob_sha1": "5ec0fb3d600f8d04122db31d2d00fe6d5428daa6",
+      "bytes": 909
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson101_second_buy_audit.md",
+      "git_blob_sha1": "c73ba935e72df2c8dbf8a6bdf4716aec16dd79aa",
+      "bytes": 717
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson102_uniqueness_contract.md",
+      "git_blob_sha1": "9b2bb48d3ebe84a7bd0a5174f2041d52dc09733b",
+      "bytes": 791
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson103_macd_asof.md",
+      "git_blob_sha1": "330049b5609742e58ccec792d8e726ce91ea8d90",
+      "bytes": 580
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson106_ma_rotation.md",
+      "git_blob_sha1": "960c5cbfed7c39dcc0e6f75c5fab238bef7ceeaa",
+      "bytes": 1107
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson107_rebound_staging.md",
+      "git_blob_sha1": "cbe5721e4f6ff35d08b874c70befe4aced85e280",
+      "bytes": 907
+    },
+    {
+      "path": "experiments/protocols/chanlun_lesson108_bottom_contracts.md",
+      "git_blob_sha1": "1d2da6345f35fbfe1db8f6eabad4d9004c0a9a81",
+      "bytes": 1111
+    },
+    {
+      "path": "experiments/protocols/chanlun_lessons056_058_gap_pending_audit.md",
+      "git_blob_sha1": "061a1fec2304a5dfbc41447bb0b433f833b3711c",
+      "bytes": 1036
+    },
+    {
+      "path": "experiments/protocols/chanlun_lessons057_060_online_replay_audit.md",
+      "git_blob_sha1": "39a704702ed32e7d73b3689da219444e22cfede7",
+      "bytes": 883
+    },
+    {
+      "path": "experiments/protocols/chanlun_lessons062_065_online_containment.md",
+      "git_blob_sha1": "b890b7614fc64ae598195f2af8556220194254fa",
+      "bytes": 1686
+    },
+    {
+      "path": "experiments/protocols/chanlun_lessons069_070_revision_events.md",
+      "git_blob_sha1": "885d8e8b97a8c4814cce9f2a2f81a21901f27747",
+      "bytes": 1243
+    },
+    {
+      "path": "experiments/protocols/chanlun_lessons072_075_claim_provenance.md",
+      "git_blob_sha1": "7883f9e21583b5c69d5e505b9120687c2716f830",
+      "bytes": 1177
+    },
+    {
+      "path": "experiments/protocols/chanlun_lessons073_074_exposure_and_policy_shock.md",
+      "git_blob_sha1": "291665a32ff14d57b2e0f370cec8b06bd353a647",
+      "bytes": 1356
+    },
+    {
+      "path": "experiments/protocols/chanlun_lessons079_080_asof_and_opportunity.md",
+      "git_blob_sha1": "e47785d7a27c4aff42382087bc1b6bfe73b04e89",
+      "bytes": 939
+    },
+    {
+      "path": "experiments/protocols/chanlun_lessons083_084_noise_and_recursion.md",
+      "git_blob_sha1": "67eaa388d6ae5e9e625626707a00032cdf3bf8ac",
+      "bytes": 881
+    },
+    {
+      "path": "experiments/protocols/chanlun_lessons088_089_transition_center.md",
+      "git_blob_sha1": "076e0081232aa062df84868d6341a0384052db2a",
+      "bytes": 838
+    },
+    {
+      "path": "experiments/protocols/chanlun_lessons093_094_policy_and_fills.md",
+      "git_blob_sha1": "122888a84ee0034cd52fc6dd764bc7a1008fc3c2",
+      "bytes": 944
+    },
+    {
+      "path": "experiments/protocols/chanlun_lessons097_098_evidence_gate.md",
+      "git_blob_sha1": "000c3594a5340fee973f679784f8bbca03c3fd03",
+      "bytes": 773
+    },
+    {
+      "path": "experiments/protocols/chanlun_lessons104_105_evidence_gates.md",
+      "git_blob_sha1": "22e65dc498aa0b53d6354676606c7b46e7d42c98",
+      "bytes": 836
+    },
+    {
+      "path": "experiments/results/.gitkeep",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0
+    },
+    {
+      "path": "knowledge/claims/chanlun_early_core_dependencies.json",
+      "git_blob_sha1": "a108d5dccf6f712b9a88d6f8bf8fa6c0998cede8",
+      "bytes": 23850
+    },
+    {
+      "path": "knowledge/claims/chanlun_lessons066_070_crossvolume_dependencies.json",
+      "git_blob_sha1": "6d0292fccfd097839f183c3d6424c73ecfeceecf",
+      "bytes": 4294
+    },
+    {
+      "path": "knowledge/claims/chanlun_lessons071_075_semantic_dependencies.json",
+      "git_blob_sha1": "ade32bd9262a1664672f4def8b673467cc75b2f6",
+      "bytes": 4243
+    },
+    {
+      "path": "knowledge/claims/chanlun_lessons076_080_semantic_dependencies.json",
+      "git_blob_sha1": "7b64b99cac9faf014d547e43013f1a0a6687b68f",
+      "bytes": 4470
+    },
+    {
+      "path": "knowledge/claims/chanlun_lessons081_085_semantic_dependencies.json",
+      "git_blob_sha1": "be46cd0ac72309a0999fb37cc4ac7d94a06d9445",
+      "bytes": 4970
+    },
+    {
+      "path": "knowledge/claims/chanlun_lessons086_090_crossvolume_dependencies.json",
+      "git_blob_sha1": "b47dab4d428bc4cfdf514c328f5c9e1541ae2d8f",
+      "bytes": 4966
+    },
+    {
+      "path": "knowledge/claims/chanlun_lessons091_095_semantic_dependencies.json",
+      "git_blob_sha1": "7dedf387fadc799d4a7d4c5d3101164bfe14e54f",
+      "bytes": 5241
+    },
+    {
+      "path": "knowledge/claims/chanlun_lessons096_100_semantic_dependencies.json",
+      "git_blob_sha1": "99fc9293bc68d5f75ecd698457181a6a9845ab37",
+      "bytes": 5418
+    },
+    {
+      "path": "knowledge/claims/chanlun_lessons101_105_semantic_dependencies.json",
+      "git_blob_sha1": "b1454ed68813b9a6af7950e98ade2a10266876bb",
+      "bytes": 5811
+    },
+    {
+      "path": "knowledge/claims/chanlun_lessons106_108_semantic_dependencies.json",
+      "git_blob_sha1": "6d3c877d5f26f291dbd6ce7e9bea75ccf2373e52",
+      "bytes": 3110
+    },
+    {
+      "path": "knowledge/claims/chanlun_unified_index_v1.json",
+      "git_blob_sha1": "e0832677d6846220ff2610c4605479015aeda482",
+      "bytes": 114149
+    },
+    {
+      "path": "knowledge/concepts/.gitkeep",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson001.json",
+      "git_blob_sha1": "55621cbd17f085983f7c5f089b253aa2ae479f89",
+      "bytes": 3833
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson002.json",
+      "git_blob_sha1": "94b02960946ce552ee1763da924c7b64b0cb07e7",
+      "bytes": 2475
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson003.json",
+      "git_blob_sha1": "18a3aa43192bdd5810f798bc2deb1995d0ad4ad2",
+      "bytes": 2400
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson004.json",
+      "git_blob_sha1": "48bb191f41b98ce3f5afc15dd776ba8d4e323c28",
+      "bytes": 3414
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson005.json",
+      "git_blob_sha1": "5111a13b8227f1fcbab9e76a55f54d305bbc8d03",
+      "bytes": 2413
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson006.json",
+      "git_blob_sha1": "d462d2192fab10a755ef98411ea94b7712da4956",
+      "bytes": 2179
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson007.json",
+      "git_blob_sha1": "502e0a9ff0501d382b4ac0e6145a86ab6513eaa3",
+      "bytes": 2201
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson008.json",
+      "git_blob_sha1": "b5f6a458ffb8c55f6d580c2169aa50ee7a9445d2",
+      "bytes": 2179
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson009.json",
+      "git_blob_sha1": "43baae066db53994ada98332238762f0207d1b0d",
+      "bytes": 2690
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson010.json",
+      "git_blob_sha1": "a8e9dece8c108ae8bbc81ac2987bd4460cfd0252",
+      "bytes": 2636
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson011.json",
+      "git_blob_sha1": "0ab55401e0db849d313ba040466da38e519bb37b",
+      "bytes": 2177
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson012.json",
+      "git_blob_sha1": "1a4c016e64c0e8f84a9f2fbb5b6ba0d4045b8a7e",
+      "bytes": 2309
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson013.json",
+      "git_blob_sha1": "57325edc5c1b8f037f3cb6e9b937dae729e10226",
+      "bytes": 1991
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson014.json",
+      "git_blob_sha1": "283d9f33c8cacffe2591d75c661cad347b6fb80f",
+      "bytes": 2761
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson015.json",
+      "git_blob_sha1": "7550aeb513ad27d1d517dab30c48bae4253eef5c",
+      "bytes": 2822
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson016.json",
+      "git_blob_sha1": "47d3fa39d5267e3600bf25e43749461c080ff0e0",
+      "bytes": 2486
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson017.json",
+      "git_blob_sha1": "645641c9027838ddfc30caa7bdc556a2a89d3ad5",
+      "bytes": 2873
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson018.json",
+      "git_blob_sha1": "51bb49ed5a56a4bc587c67e62dc2b59fba7c0490",
+      "bytes": 3018
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson019.json",
+      "git_blob_sha1": "8fb9a63739c703bd86378304db6b99fda18fe056",
+      "bytes": 2182
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson020.json",
+      "git_blob_sha1": "f4f245196441a6c03bab221768bf4c5d40dcff31",
+      "bytes": 3534
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson021.json",
+      "git_blob_sha1": "d8ef97dc13219e336ca6b8c0e2d1ad7d0b400fdc",
+      "bytes": 2779
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson022.json",
+      "git_blob_sha1": "e6a59ee7a2b19103ef4159cab6aae009bf7231ea",
+      "bytes": 2694
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson023.json",
+      "git_blob_sha1": "b9d3539243a1cee0f9640c1eb5e3cff2dbc85977",
+      "bytes": 2620
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson024.json",
+      "git_blob_sha1": "83b4053e382c9a269e33f90d910a21650219c101",
+      "bytes": 3019
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson025.json",
+      "git_blob_sha1": "0e56ea070c0c8fa0d067158e92864f97666ef5e4",
+      "bytes": 2876
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson026.json",
+      "git_blob_sha1": "a361ea1a2dc788530cb25238e2e133e4ac0ec997",
+      "bytes": 2811
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson027.json",
+      "git_blob_sha1": "872479321d8f5c41c2681c584f15e63eb4914246",
+      "bytes": 3336
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson028.json",
+      "git_blob_sha1": "ddee17b40d69ae3acd273e65bb3b3fae9ed5205a",
+      "bytes": 2997
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson029.json",
+      "git_blob_sha1": "962e63abe08f19dc223c52d9337a1267697829dd",
+      "bytes": 3062
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson030.json",
+      "git_blob_sha1": "0c3d740cdcbb511d2b9e63ee3565c937c1c5eeed",
+      "bytes": 2669
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson031.json",
+      "git_blob_sha1": "df55e23c6b166ff6889ce56d365c658fd381d893",
+      "bytes": 2930
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson032.json",
+      "git_blob_sha1": "f69f0df99682ec1bcea0b2ae2a5638446e8506df",
+      "bytes": 2729
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson033.json",
+      "git_blob_sha1": "9b0c3c0bc8f2884ae263a3686c3dddf584595082",
+      "bytes": 2837
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson034.json",
+      "git_blob_sha1": "5e1ac8dbd062466dec93162d123580cee4e41a12",
+      "bytes": 2515
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson035.json",
+      "git_blob_sha1": "d98b5e271a0d2ef7a2dda6b5eefcd1a60ca471b6",
+      "bytes": 3873
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson036.json",
+      "git_blob_sha1": "66c8bd321b1727527df5b6403353ebbfceecd719",
+      "bytes": 3092
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson037.json",
+      "git_blob_sha1": "05aa8307e1e1ff6d61e93348ec8b277b230b6000",
+      "bytes": 2539
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson038.json",
+      "git_blob_sha1": "35697c62783f27d675fd6784ed7e4d838e74a0d7",
+      "bytes": 3157
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson039.json",
+      "git_blob_sha1": "898b65c86e8a9b7d13253fed88bd9abc471cce69",
+      "bytes": 2963
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson040.json",
+      "git_blob_sha1": "331f787ebc8cab2322de5f217d47692442d3c298",
+      "bytes": 2509
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson041.json",
+      "git_blob_sha1": "ca078ac57d78a4953651379548adcdc1afe15a4f",
+      "bytes": 2472
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson042.json",
+      "git_blob_sha1": "9de8d8698c7366854050544255dae3aff88dd3aa",
+      "bytes": 2576
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson043.json",
+      "git_blob_sha1": "c5c31c18e2f531af692efc922d015692ead7e7cd",
+      "bytes": 2867
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson044.json",
+      "git_blob_sha1": "3ef25e93089f2745cefee61da45b923f0fab5349",
+      "bytes": 2799
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson045.json",
+      "git_blob_sha1": "700c54665252f610f2bd3770142499382b475625",
+      "bytes": 2774
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson046.json",
+      "git_blob_sha1": "5f5cbc949c6ca74c2bba9426d4edf5d395a2746c",
+      "bytes": 2805
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson047.json",
+      "git_blob_sha1": "0b215629d1757dded2b8dee5244a89af1dd101e1",
+      "bytes": 2751
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson048.json",
+      "git_blob_sha1": "795a72d8745d6e99f3d39c04630c53db21cdf274",
+      "bytes": 2601
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson049.json",
+      "git_blob_sha1": "ae082ad1e15f28561ab4b5e1a27fcfe52f5e70bc",
+      "bytes": 2941
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson050.json",
+      "git_blob_sha1": "d5ee716f08736989ccf9ae01ffc856686af45af8",
+      "bytes": 2669
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson051.json",
+      "git_blob_sha1": "b2d9401d1a6958bcdc0ef6e1ba80983a34cb69c3",
+      "bytes": 2791
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson052.json",
+      "git_blob_sha1": "c689efb628d6f34da501e300fd04baa63ade10e7",
+      "bytes": 2483
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson053.json",
+      "git_blob_sha1": "3ac37ea9b00235f643ab3dce38fe2eb64c49ee7a",
+      "bytes": 3216
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson054.json",
+      "git_blob_sha1": "d04826b2a1e5148efdc526a85251a961caa95d96",
+      "bytes": 3313
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson055.json",
+      "git_blob_sha1": "d4e6010ffea730c854a3b30fd49dcb12708517c5",
+      "bytes": 2771
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson056.json",
+      "git_blob_sha1": "cefa333be35dbf3240014cd8a1be045b5216adb2",
+      "bytes": 2780
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson057.json",
+      "git_blob_sha1": "f6f5e8cf1cf8e81bd1b1397d685b77cd44f86c08",
+      "bytes": 2679
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson058.json",
+      "git_blob_sha1": "655493f5a3ca6d0bade599703b2fdbb9ce5675b4",
+      "bytes": 2818
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson059.json",
+      "git_blob_sha1": "475b36be53ef5fba42313f029904cad875852c45",
+      "bytes": 2773
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson060.json",
+      "git_blob_sha1": "8d21d997f9e475ee46ff39851505d5c259e9223b",
+      "bytes": 2713
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson061.json",
+      "git_blob_sha1": "1737de9e106289573e8ed448b4e0305f69679a85",
+      "bytes": 2678
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson062.json",
+      "git_blob_sha1": "cef033e9d05c9092a7bd86945ff2ae762bf35237",
+      "bytes": 2691
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson063.json",
+      "git_blob_sha1": "ef46389706b9bed44c0a93d39d0d1a5ecb45b6e8",
+      "bytes": 2407
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson064.json",
+      "git_blob_sha1": "55cb84d24f6878cea996d36b9c9eb91bfbbf7611",
+      "bytes": 3037
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson065.json",
+      "git_blob_sha1": "606cc1e3e4e65e878c654ae22944dde278537bad",
+      "bytes": 3142
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson066.json",
+      "git_blob_sha1": "e0bb6502295f63fe75c15b4151bd5d0403b55180",
+      "bytes": 2446
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson067.json",
+      "git_blob_sha1": "2dc0acd804e30d8c877f3904edd056597f6f7456",
+      "bytes": 2793
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson068.json",
+      "git_blob_sha1": "98b596ec8efc8447a358726db8b8d60cb78ecbb8",
+      "bytes": 2696
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson069.json",
+      "git_blob_sha1": "0bd43f89ece977690584894edc6438d365fd6fea",
+      "bytes": 2803
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson070.json",
+      "git_blob_sha1": "d33c331ee953820a30d7024d37d32f8d7e721074",
+      "bytes": 2734
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson071.json",
+      "git_blob_sha1": "5ec451ccf3b40031f6de2698ace2792d90778caf",
+      "bytes": 2706
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson072.json",
+      "git_blob_sha1": "127b482bc3ff856fa616e892ca248872ee53db4f",
+      "bytes": 2784
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson073.json",
+      "git_blob_sha1": "ce377f687d9b5883c61404c232cf7f694387c4ba",
+      "bytes": 2768
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson074.json",
+      "git_blob_sha1": "ba882032b593c4dc89134617ec4e994e736ae884",
+      "bytes": 2746
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson075.json",
+      "git_blob_sha1": "6555db4d2dc1e8fb431393df108ab3ab6fc0f773",
+      "bytes": 2874
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson076.json",
+      "git_blob_sha1": "495bf611c5e60ed43d84765d2daa35fbac666756",
+      "bytes": 2773
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson077.json",
+      "git_blob_sha1": "3a03dde37205988a5dc59ee52083de322be33c57",
+      "bytes": 2879
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson078.json",
+      "git_blob_sha1": "828f786369e0900a61a32a3b31e8d27769755590",
+      "bytes": 2746
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson079.json",
+      "git_blob_sha1": "b168ac2e0fed228590cbfa1e8dd721e0a68665f1",
+      "bytes": 2843
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson080.json",
+      "git_blob_sha1": "cc2c3c6d3fb3d09ff61238b87bf2e8b1c2e11f18",
+      "bytes": 3052
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson081.json",
+      "git_blob_sha1": "a460af3ff66ef9066699071e4cb811bac4162874",
+      "bytes": 3293
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson082.json",
+      "git_blob_sha1": "e522937776316ecf3c8654fb2ce824f818f58164",
+      "bytes": 2989
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson083.json",
+      "git_blob_sha1": "5e506eed7ac928e64826d8c683c9440d541f91ee",
+      "bytes": 2826
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson084.json",
+      "git_blob_sha1": "72937029b2bb16f5aa5ca8d324fedb5103e579ab",
+      "bytes": 3215
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson085.json",
+      "git_blob_sha1": "7f6b28558a998e22a53aa08ec2b5d37a22f9f749",
+      "bytes": 2719
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson086.json",
+      "git_blob_sha1": "4f5f0836d57a2c32fec7d384d9c18cfbde6137b3",
+      "bytes": 2464
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson087.json",
+      "git_blob_sha1": "1cfdcc011b50ad1ef5702617e74d49ebc8c2b8ae",
+      "bytes": 2236
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson088.json",
+      "git_blob_sha1": "212f5a828983ad7899e08290de99fda0c2aa259a",
+      "bytes": 2419
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson089.json",
+      "git_blob_sha1": "586cb402271ab2eb12657c0e6d2b3d05e1ac52fb",
+      "bytes": 2436
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson090.json",
+      "git_blob_sha1": "865cdb6d686643ac4d6c404e3e67bc8bbb27aa93",
+      "bytes": 2640
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson091.json",
+      "git_blob_sha1": "8e396e4945eeb983897811d23d97835988fd78c5",
+      "bytes": 2865
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson092.json",
+      "git_blob_sha1": "125ce9cb1f884942e7fdfe062ebb34a3b95a473b",
+      "bytes": 2841
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson093.json",
+      "git_blob_sha1": "ea7604742d30676163d65110f107867643cd52ca",
+      "bytes": 2606
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson094.json",
+      "git_blob_sha1": "04f00a15a2cadd44df1de8c7448dff7084570562",
+      "bytes": 2410
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson095.json",
+      "git_blob_sha1": "e4245656b3ac9f7c2b8febf54beac7c414fb9e02",
+      "bytes": 2326
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson096.json",
+      "git_blob_sha1": "cd5b619c5436dda7509b0481bb89d92c24e95d1a",
+      "bytes": 2725
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson097.json",
+      "git_blob_sha1": "a72d761624bdb9767b72a84c6ef629686fa47592",
+      "bytes": 2754
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson098.json",
+      "git_blob_sha1": "16758ba1a52c0399e4fc6f152f1e92280807e672",
+      "bytes": 2508
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson099.json",
+      "git_blob_sha1": "1fef80e6d8a50f4cca9b24516c5a5c80312735ea",
+      "bytes": 2808
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson100.json",
+      "git_blob_sha1": "4e38ce61d58217baac42f08709320eb5b135a300",
+      "bytes": 2535
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson101.json",
+      "git_blob_sha1": "7cb81785d74e3c61166a46a29b7de684ef09444b",
+      "bytes": 2633
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson102.json",
+      "git_blob_sha1": "c44ce323e3a54e1ed7d6565f38afcf81b0e4d1ae",
+      "bytes": 2954
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson103.json",
+      "git_blob_sha1": "8bddf657dbde353caafee09b0a5ddf8e45eb0fe2",
+      "bytes": 2886
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson104.json",
+      "git_blob_sha1": "e10b966c9dc088cbf5775375f496e3d3794d0bbd",
+      "bytes": 3111
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson105.json",
+      "git_blob_sha1": "6ad168ae4a4b6a25c224e1e9250dec230f5509f4",
+      "bytes": 3182
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson106.json",
+      "git_blob_sha1": "ad5e1e02a8665508c9768c3f76fad41a7d002c58",
+      "bytes": 3920
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson107.json",
+      "git_blob_sha1": "672b0e693edb0a3312e32640ab532de29daec3d0",
+      "bytes": 3867
+    },
+    {
+      "path": "knowledge/evidence/chanlun_lesson108.json",
+      "git_blob_sha1": "66536d39de0108c8c1130bc80477c13e25f0fbb2",
+      "bytes": 4438
+    },
+    {
+      "path": "knowledge/relations/chanlun_lessons001_005.json",
+      "git_blob_sha1": "955624e5d67986dbe2a72a9988c9ecb4e82adbad",
+      "bytes": 2799
+    },
+    {
+      "path": "reports/source_inventory/chanlun_20261107_verified.json",
+      "git_blob_sha1": "a7b206f1c8aa9df9ddefc722090dd1e56c05f37e",
+      "bytes": 2562
+    },
+    {
+      "path": "reports/source_inventory/chanlun_20261107_verified.md",
+      "git_blob_sha1": "d12ceb1a8926f262a37f59aebfd8864958c5736e",
+      "bytes": 1442
+    },
+    {
+      "path": "reports/source_inventory/chanlun_lessons006_010_source_layers.md",
+      "git_blob_sha1": "9e00ae1074461c5c9838a27ea11d9dd59f69688a",
+      "bytes": 2316
+    },
+    {
+      "path": "reports/source_inventory/chanlun_lessons011_015_source_layers.md",
+      "git_blob_sha1": "fad48355b41ef8e74902b8ae57ff44acfc0b6118",
+      "bytes": 1936
+    },
+    {
+      "path": "reports/source_inventory/chanlun_lessons016_020_source_layers.md",
+      "git_blob_sha1": "051e254cebe5b0348ea8098bf6bec5d0567a2324",
+      "bytes": 2260
+    },
+    {
+      "path": "reports/source_inventory/chanlun_lessons021_025_source_layers.md",
+      "git_blob_sha1": "c1e962a142c06d78589326da06df6378d50c8f19",
+      "bytes": 1875
+    },
+    {
+      "path": "reports/source_inventory/chanlun_lessons026_030_source_layers.md",
+      "git_blob_sha1": "f3fe804e716388ee94dc3cf5d2b2d94e626d4c11",
+      "bytes": 2286
+    },
+    {
+      "path": "reports/source_inventory/chanlun_lessons031_035_source_layers.md",
+      "git_blob_sha1": "6ba2eaa44f00ba30e799a93e26085bbc4f544234",
+      "bytes": 1891
+    },
+    {
+      "path": "reports/source_inventory/chanlun_lessons036_040_source_layers.md",
+      "git_blob_sha1": "bc504fff3cc6248bce17ac6289e98b0a9ae86373",
+      "bytes": 2019
+    },
+    {
+      "path": "reports/source_inventory/chanlun_lessons041_045_source_layers.md",
+      "git_blob_sha1": "e9e8f23ec9ea01fecabdb95346471644a17f31a6",
+      "bytes": 1823
+    },
+    {
+      "path": "reports/source_inventory/chanlun_lessons046_050_source_layers.md",
+      "git_blob_sha1": "06090ae5c62f042faea25c110c1cd272360fcf40",
+      "bytes": 2181
+    },
+    {
+      "path": "reports/source_inventory/chanlun_lessons051_055_source_layers.md",
+      "git_blob_sha1": "926212080c1e735cd2c5de9b431b1eff5878ff37",
+      "bytes": 2388
+    },
+    {
+      "path": "reports/source_inventory/chanlun_lessons056_060_visual_and_source_audit.md",
+      "git_blob_sha1": "acb8b0ea2315ccb7e9855ea9ffa4e5d5b03a6381",
+      "bytes": 2849
+    },
+    {
+      "path": "reports/source_inventory/chanlun_lessons061_065_source_and_figure_review.md",
+      "git_blob_sha1": "d14a4385dbc3bc68f070541adfe576ebb78329c2",
+      "bytes": 2447
+    },
+    {
+      "path": "reports/source_inventory/chanlun_lessons066_070_source_layers.md",
+      "git_blob_sha1": "473a43bb9de67aec4f2c01c501d1474825a5b302",
+      "bytes": 2767
+    },
+    {
+      "path": "reports/source_inventory/chanlun_lessons071_075_source_and_visual_review.md",
+      "git_blob_sha1": "6f2f2d9199cfe9114f03b7b8b09a57ee08e1e792",
+      "bytes": 2992
+    },
+    {
+      "path": "reports/source_inventory/chanlun_lessons076_080_source_visual_review.md",
+      "git_blob_sha1": "73dd082acd00a8cf170e5e8e9fdc620db3329715",
+      "bytes": 3235
+    },
+    {
+      "path": "reports/source_inventory/chanlun_lessons081_085_source_and_visual_review.md",
+      "git_blob_sha1": "8093ab1d8bbf48d0e7feb73ae761e6813b973235",
+      "bytes": 3758
+    },
+    {
+      "path": "reports/source_inventory/chanlun_lessons086_090_source_visual_review.md",
+      "git_blob_sha1": "df8159727e0090a935ced96baa4b18886c6745d5",
+      "bytes": 3152
+    },
+    {
+      "path": "reports/source_inventory/chanlun_lessons091_095_source_visual_review.md",
+      "git_blob_sha1": "e8792c0f2926448768264bd18b39c7483ac6d17c",
+      "bytes": 2917
+    },
+    {
+      "path": "reports/source_inventory/chanlun_lessons096_100_source_visual_review.md",
+      "git_blob_sha1": "021b99a37850daa97c8a815c4d9043afcc85ec54",
+      "bytes": 2931
+    },
+    {
+      "path": "reports/source_inventory/chanlun_lessons101_105_source_visual_review.md",
+      "git_blob_sha1": "d79364becd5efc7b060d2a02fef54f0adc48cf92",
+      "bytes": 3142
+    },
+    {
+      "path": "reports/source_inventory/chanlun_lessons106_108_source_review.md",
+      "git_blob_sha1": "9a7e06a0eef803fb6e838a7a4178f93433be78ab",
+      "bytes": 2253
+    },
+    {
+      "path": "schemas/README.md",
+      "git_blob_sha1": "3f590ac79bc440e3bb5181528f9c049caf50781a",
+      "bytes": 211
+    },
+    {
+      "path": "schemas/chanlun_synthetic_market_event_v1.schema.json",
+      "git_blob_sha1": "56a7df10e088b1707ca1f3fc5c7a138fe781556b",
+      "bytes": 2354
+    },
+    {
+      "path": "tests/README.md",
+      "git_blob_sha1": "7499a9ffcc199eaf163e22207162531c519e4a3e",
+      "bytes": 200
+    },
+    {
+      "path": "tests/test_chanlun_056_058_timing.py",
+      "git_blob_sha1": "e98f37393d7f961a0c298c1a2bba8f25eb762b7f",
+      "bytes": 1255
+    },
+    {
+      "path": "tests/test_chanlun_event_lab_v1.py",
+      "git_blob_sha1": "f08df35892e0c36c4b37e09676fbc609873c59fd",
+      "bytes": 10757
+    },
+    {
+      "path": "tests/test_chanlun_incremental_events_v2.py",
+      "git_blob_sha1": "30b4471d24e41512cedc1a8c769a491c58a9e815",
+      "bytes": 13583
+    },
+    {
+      "path": "tests/test_chanlun_inventory.py",
+      "git_blob_sha1": "c96c9e04d440b716c4e1ec343c97348daa1e48bf",
+      "bytes": 2360
+    },
+    {
+      "path": "tests/test_chanlun_lesson009_probability.py",
+      "git_blob_sha1": "a29e485b5111bebbe7bddfeddce18a4b7aae87d4",
+      "bytes": 841
+    },
+    {
+      "path": "tests/test_chanlun_lesson015_classification.py",
+      "git_blob_sha1": "3fbbdc385f44145a25a1b502a186410c4887cf87",
+      "bytes": 1151
+    },
+    {
+      "path": "tests/test_chanlun_lesson020_center_intervals.py",
+      "git_blob_sha1": "bb8de3c3ccedcdc6c5ef82353c0ef75239c5e623",
+      "bytes": 1795
+    },
+    {
+      "path": "tests/test_chanlun_lesson024_macd_partial_area.py",
+      "git_blob_sha1": "d422e07e3467cc59a9c3e5f44b332948b7475f47",
+      "bytes": 1020
+    },
+    {
+      "path": "tests/test_chanlun_lesson027_nested_intervals.py",
+      "git_blob_sha1": "b1b4004acadb8de02282483ddf49cb7329a1bfaf",
+      "bytes": 1236
+    },
+    {
+      "path": "tests/test_chanlun_lesson031_zero_cost.py",
+      "git_blob_sha1": "1083374837b6913f5c05f9ec0ac0cb60478a9901",
+      "bytes": 1017
+    },
+    {
+      "path": "tests/test_chanlun_lesson035_recursion_and_associativity.py",
+      "git_blob_sha1": "5d3f3fe3df60787ccb3eba87a5afca38ac7e9892",
+      "bytes": 936
+    },
+    {
+      "path": "tests/test_chanlun_lesson039_branches.py",
+      "git_blob_sha1": "081d927d1efe3642ed443aafb93786897753fce3",
+      "bytes": 1038
+    },
+    {
+      "path": "tests/test_chanlun_lesson040_inventory.py",
+      "git_blob_sha1": "7904d27f0b6757b9639cbf2da42e0f8d79cb3b6a",
+      "bytes": 1182
+    },
+    {
+      "path": "tests/test_chanlun_lesson044_logic.py",
+      "git_blob_sha1": "db54a8e9094af1fcb3fa65fb61ad034d057147b2",
+      "bytes": 851
+    },
+    {
+      "path": "tests/test_chanlun_lesson045_wait_state.py",
+      "git_blob_sha1": "e5060dc8cb5c9071e2c5f033bc3e048c52202ef1",
+      "bytes": 1236
+    },
+    {
+      "path": "tests/test_chanlun_lesson046_day_prefix.py",
+      "git_blob_sha1": "d6d790630478e35dda683ac3ed0bd958cf571789",
+      "bytes": 1128
+    },
+    {
+      "path": "tests/test_chanlun_lesson049_objectives.py",
+      "git_blob_sha1": "9453fd27a2f24c369289b2d94bc174cff9dbc251",
+      "bytes": 853
+    },
+    {
+      "path": "tests/test_chanlun_lesson050_resampling.py",
+      "git_blob_sha1": "16dfabe9cd0f2c1bba46440b1c180f40cac04465",
+      "bytes": 734
+    },
+    {
+      "path": "tests/test_chanlun_lesson053_editorial_provenance.py",
+      "git_blob_sha1": "a6a774976b6bc1f282ffcc37ec3b3aa80f26b154",
+      "bytes": 1176
+    },
+    {
+      "path": "tests/test_chanlun_lesson054_connections.py",
+      "git_blob_sha1": "2691aa9284bf879374513cbeb65e7fc1fdf9dfaa",
+      "bytes": 1213
+    },
+    {
+      "path": "tests/test_chanlun_lesson055_ledger.py",
+      "git_blob_sha1": "53c144cd2ff43dcf871fcf4b8e7644f31bfdefb0",
+      "bytes": 977
+    },
+    {
+      "path": "tests/test_chanlun_lesson059_precision.py",
+      "git_blob_sha1": "c5bbcd8be52a52a4f18d201089d0b774fc3a6f3a",
+      "bytes": 1025
+    },
+    {
+      "path": "tests/test_chanlun_lesson064_tolerance.py",
+      "git_blob_sha1": "7eccec2846e70654b0f78932a0bb12f6195bd64d",
+      "bytes": 814
+    },
+    {
+      "path": "tests/test_chanlun_lesson067_feature_gap.py",
+      "git_blob_sha1": "e05ddd5e776b070733b888fa8872723589b8a955",
+      "bytes": 1234
+    },
+    {
+      "path": "tests/test_chanlun_lesson068_boundary_policy.py",
+      "git_blob_sha1": "bfeaeae75f37ec39b74492b0a91a095b3e5fae65",
+      "bytes": 1044
+    },
+    {
+      "path": "tests/test_chanlun_lesson071_typed_membership.py",
+      "git_blob_sha1": "93264043ee8fc1d789ec55e9ddd62da674897cc6",
+      "bytes": 1524
+    },
+    {
+      "path": "tests/test_chanlun_lesson077_pen_boundary.py",
+      "git_blob_sha1": "2f3ab412195dfa28494dfa4368796a1000e40edb",
+      "bytes": 1308
+    },
+    {
+      "path": "tests/test_chanlun_lesson078_normalized_view.py",
+      "git_blob_sha1": "7d853ffa89a530ac6733fe78b000ffb70dfc77c9",
+      "bytes": 1236
+    },
+    {
+      "path": "tests/test_chanlun_lesson081_pen_rule_versions.py",
+      "git_blob_sha1": "7a1b83c98e8e3c0a11d1aaf303d5ce7eebcb43b9",
+      "bytes": 1450
+    },
+    {
+      "path": "tests/test_chanlun_lesson082_fractal_outcome.py",
+      "git_blob_sha1": "be69ac54344f2b7297fc970be0fab0d1a6b883f2",
+      "bytes": 1315
+    },
+    {
+      "path": "tests/test_chanlun_lesson085_provenance_roles.py",
+      "git_blob_sha1": "de36895e194889542f5c20cd57e9fd2b5ac33193",
+      "bytes": 1201
+    },
+    {
+      "path": "tests/test_chanlun_lesson086_crosslevel_context.py",
+      "git_blob_sha1": "23fe82176e6d5d2372f25d4164c117ea1d527a3e",
+      "bytes": 1258
+    },
+    {
+      "path": "tests/test_chanlun_lesson090_boll_asof.py",
+      "git_blob_sha1": "d7c14d1ffbe22f33b5939c0620147281467d4784",
+      "bytes": 1605
+    },
+    {
+      "path": "tests/test_chanlun_lesson091_four_state_fsm.py",
+      "git_blob_sha1": "675515fad3b5dfcb6a438e13b475f5da696b5ab0",
+      "bytes": 1444
+    },
+    {
+      "path": "tests/test_chanlun_lesson092_midpoint_monitor.py",
+      "git_blob_sha1": "81adc0b43aed7de20053d6beedecd6ea78c78e1e",
+      "bytes": 1488
+    },
+    {
+      "path": "tests/test_chanlun_lesson095_remaining_exposure.py",
+      "git_blob_sha1": "cd72529376d1fa44d266340549e40ca54481c869",
+      "bytes": 1194
+    },
+    {
+      "path": "tests/test_chanlun_lesson096_behavioral_gate.py",
+      "git_blob_sha1": "3a53073ac972a2109ae7f8a5a7e0017738ee19cd",
+      "bytes": 1195
+    },
+    {
+      "path": "tests/test_chanlun_lesson099_resegmentation.py",
+      "git_blob_sha1": "af6b34fdf8071df784de9cb7fb3afbc5ebb97761",
+      "bytes": 1503
+    },
+    {
+      "path": "tests/test_chanlun_lesson100_branch_dispute.py",
+      "git_blob_sha1": "b9adf206f60533ce76e7e1dd042442718b1f0533",
+      "bytes": 1508
+    },
+    {
+      "path": "tests/test_chanlun_lesson101_second_buy.py",
+      "git_blob_sha1": "a17e9513e2317b42f5bc50619f9db427ab289fa1",
+      "bytes": 1386
+    },
+    {
+      "path": "tests/test_chanlun_lesson102_uniqueness_contract.py",
+      "git_blob_sha1": "462a4b63e9206020bbd3dc95619677bd352099ad",
+      "bytes": 1035
+    },
+    {
+      "path": "tests/test_chanlun_lesson103_macd_zero_asof.py",
+      "git_blob_sha1": "3bb86afa3e75d8eafd32d5e25971737ac94692ed",
+      "bytes": 1023
+    },
+    {
+      "path": "tests/test_chanlun_lesson1_audit.py",
+      "git_blob_sha1": "4f981e151c746a93a4da2a4983ab46d7a9e72377",
+      "bytes": 1783
+    },
+    {
+      "path": "tests/test_chanlun_lessons002_005.py",
+      "git_blob_sha1": "d60ba2e071fdbda1857fd38c072fdb4f98f3d643",
+      "bytes": 2133
+    },
+    {
+      "path": "tests/test_chanlun_lessons006_010.py",
+      "git_blob_sha1": "d8e827c08bfd3763d0a689098cb80806283033aa",
+      "bytes": 2428
+    },
+    {
+      "path": "tests/test_chanlun_lessons011_015.py",
+      "git_blob_sha1": "f3a9b44eb537fb36218b1c14a55f02b4a813881b",
+      "bytes": 2176
+    },
+    {
+      "path": "tests/test_chanlun_lessons016_020.py",
+      "git_blob_sha1": "ff75b49c225a1f88d7e2cefed464032de02823ac",
+      "bytes": 2752
+    },
+    {
+      "path": "tests/test_chanlun_lessons021_025.py",
+      "git_blob_sha1": "9d22b872a1ce1d4bce9c80605c0a456aff85ca8b",
+      "bytes": 2322
+    },
+    {
+      "path": "tests/test_chanlun_lessons026_030.py",
+      "git_blob_sha1": "03b824904ff586353f33f08ecaf320b708dcdb81",
+      "bytes": 2070
+    },
+    {
+      "path": "tests/test_chanlun_lessons031_035.py",
+      "git_blob_sha1": "dd2ae9deb1c7cce1dcafa5d02eec93ecb0c7c3cd",
+      "bytes": 2762
+    },
+    {
+      "path": "tests/test_chanlun_lessons036_040.py",
+      "git_blob_sha1": "5b83a687979f52d089be0b9d9b21c7c80eca2e33",
+      "bytes": 2612
+    },
+    {
+      "path": "tests/test_chanlun_lessons041_045.py",
+      "git_blob_sha1": "56de8353b9190372fc831731a818e70048bb1024",
+      "bytes": 2409
+    },
+    {
+      "path": "tests/test_chanlun_lessons046_050.py",
+      "git_blob_sha1": "0c9c4b8ddc4080c5be64466fcd1e3911bea99a8a",
+      "bytes": 2441
+    },
+    {
+      "path": "tests/test_chanlun_lessons051_055.py",
+      "git_blob_sha1": "4d8813c9630e85d6626993820561a04941b0d64e",
+      "bytes": 2461
+    },
+    {
+      "path": "tests/test_chanlun_lessons056_060.py",
+      "git_blob_sha1": "a83f5656b748539ed65a056b10bae6b04a7cb46f",
+      "bytes": 2571
+    },
+    {
+      "path": "tests/test_chanlun_lessons061_065.py",
+      "git_blob_sha1": "ade663ffd6b379d83b486840a2f54559eccc71be",
+      "bytes": 2754
+    },
+    {
+      "path": "tests/test_chanlun_lessons062_065_containment.py",
+      "git_blob_sha1": "8ba57d45e5ba73a409757691c6cccd9c5b53f841",
+      "bytes": 1832
+    },
+    {
+      "path": "tests/test_chanlun_lessons066_070.py",
+      "git_blob_sha1": "32353ab193b4df8995e2e3173e77ddc3c435adaf",
+      "bytes": 2950
+    },
+    {
+      "path": "tests/test_chanlun_lessons069_070_events.py",
+      "git_blob_sha1": "e0ab464555a131dd0d57c869f9928e96799907ef",
+      "bytes": 1794
+    },
+    {
+      "path": "tests/test_chanlun_lessons071_075.py",
+      "git_blob_sha1": "39edd5ed8947b9aae230787b2c99104b0fb486f0",
+      "bytes": 3192
+    },
+    {
+      "path": "tests/test_chanlun_lessons072_075_attribution.py",
+      "git_blob_sha1": "90e43cdcf2a8657fb685dac293697c5fd596692f",
+      "bytes": 1149
+    },
+    {
+      "path": "tests/test_chanlun_lessons073_074_exposure.py",
+      "git_blob_sha1": "1a9ef1ee320f92a80e828e8236325272fe718219",
+      "bytes": 1261
+    },
+    {
+      "path": "tests/test_chanlun_lessons076_080.py",
+      "git_blob_sha1": "8cbe1da7f3dd6476f6aa5328704973574bda479e",
+      "bytes": 2897
+    },
+    {
+      "path": "tests/test_chanlun_lessons079_080_dual_clock.py",
+      "git_blob_sha1": "5735e9b81222b029ac6bcd6ad55c433bdd0ce122",
+      "bytes": 1335
+    },
+    {
+      "path": "tests/test_chanlun_lessons081_085.py",
+      "git_blob_sha1": "6b026510ea07844bc4a24655ec668fb7cca0c465",
+      "bytes": 3611
+    },
+    {
+      "path": "tests/test_chanlun_lessons083_084_recursion_noise.py",
+      "git_blob_sha1": "142c78d8b8ea507cfd39d4bc7ae325af549542fe",
+      "bytes": 1121
+    },
+    {
+      "path": "tests/test_chanlun_lessons086_090.py",
+      "git_blob_sha1": "75003fd9c72562483c5dbe9ed005fa9525c4e6e3",
+      "bytes": 3642
+    },
+    {
+      "path": "tests/test_chanlun_lessons088_089_transition_center.py",
+      "git_blob_sha1": "39c6d68ff140eed2e01d9961b8b0c04c8f433b71",
+      "bytes": 1604
+    },
+    {
+      "path": "tests/test_chanlun_lessons091_095.py",
+      "git_blob_sha1": "293de94eec4fd680f6fef4e4a16fc251966e212d",
+      "bytes": 3571
+    },
+    {
+      "path": "tests/test_chanlun_lessons093_094_policy_fills.py",
+      "git_blob_sha1": "a978f7b0a79ab8f1ff2971c46943f7596c9551fc",
+      "bytes": 1479
+    },
+    {
+      "path": "tests/test_chanlun_lessons096_100.py",
+      "git_blob_sha1": "14ba2f8d866df66b41279322ab27c0050cb7a99f",
+      "bytes": 3610
+    },
+    {
+      "path": "tests/test_chanlun_lessons097_098_evidence_gate.py",
+      "git_blob_sha1": "5ed0c5ff9aadef462f5bed26313e3d822d64b429",
+      "bytes": 1449
+    },
+    {
+      "path": "tests/test_chanlun_lessons101_105.py",
+      "git_blob_sha1": "6dbab1b02515172728e22d4de0b5d86a29456db7",
+      "bytes": 3302
+    },
+    {
+      "path": "tests/test_chanlun_lessons104_105_evidence.py",
+      "git_blob_sha1": "28e65bbd35f917a2057e5a28c4af0356f4ee8735",
+      "bytes": 1444
+    },
+    {
+      "path": "tests/test_chanlun_lessons106_108.py",
+      "git_blob_sha1": "8e9c9f41d2def5efa5ff41e5864ba9c42a829058",
+      "bytes": 1960
+    },
+    {
+      "path": "tests/test_chanlun_lessons106_108_audits.py",
+      "git_blob_sha1": "e183712aa69222b42081d5d4498c0f76d5c65640",
+      "bytes": 5329
+    },
+    {
+      "path": "tests/test_chanlun_pen_frontier_v3.py",
+      "git_blob_sha1": "6613607ea22ce8b45c38abf7eddc39477eb52480",
+      "bytes": 12077
+    },
+    {
+      "path": "tests/test_chanlun_revision_proof_gates_v4.py",
+      "git_blob_sha1": "4be8969e0e1071634df318fb0c8a93e27c06e13b",
+      "bytes": 11803
+    },
+    {
+      "path": "tests/test_chanlun_unified_knowledge.py",
+      "git_blob_sha1": "09790341153e860bc3372fdf2d52e9b4d8fcf05d",
+      "bytes": 4843
+    },
+    {
+      "path": "tests/test_verify_chanlun_lesson_index.py",
+      "git_blob_sha1": "b7de9dd331264f08b4190c31788b81d4921c8333",
+      "bytes": 1573
+    },
+    {
+      "path": "tools/README.md",
+      "git_blob_sha1": "8073591e4ec34f50b2a4be424a44b92a772cd5ff",
+      "bytes": 14965
+    },
+    {
+      "path": "tools/audit_chanlun_056_058_timing.py",
+      "git_blob_sha1": "24242e86de82a968614293ff90d35dfc33ffe863",
+      "bytes": 1533
+    },
+    {
+      "path": "tools/audit_chanlun_incremental_witnesses_v2.py",
+      "git_blob_sha1": "cae6daaab34aadd7d66c7e2116bd6d2139770c06",
+      "bytes": 3806
+    },
+    {
+      "path": "tools/audit_chanlun_lesson015_early_classification.py",
+      "git_blob_sha1": "deb5f45c4e192cac436a642001d196a2fee00231",
+      "bytes": 1115
+    },
+    {
+      "path": "tools/audit_chanlun_lesson020_center_intervals.py",
+      "git_blob_sha1": "61f5412d7a5a5dbccef6a80160836ef20d218c21",
+      "bytes": 2067
+    },
+    {
+      "path": "tools/audit_chanlun_lesson024_macd_partial_area.py",
+      "git_blob_sha1": "32a474704b3ea55c678cb8d5cba2ba80ae5a6eab",
+      "bytes": 959
+    },
+    {
+      "path": "tools/audit_chanlun_lesson027_nested_intervals.py",
+      "git_blob_sha1": "1041f4b4e19a44836935ceae2f1f12e187fed036",
+      "bytes": 1599
+    },
+    {
+      "path": "tools/audit_chanlun_lesson031_zero_cost.py",
+      "git_blob_sha1": "255de646e1fd3908936ffd1b3f8cb93b5ae6dd8a",
+      "bytes": 1630
+    },
+    {
+      "path": "tools/audit_chanlun_lesson035_recursion_and_associativity.py",
+      "git_blob_sha1": "da7882f06eafbc9cb80f1aad1dae7abc0cad2418",
+      "bytes": 1147
+    },
+    {
+      "path": "tools/audit_chanlun_lesson039_branches.py",
+      "git_blob_sha1": "28276f8108db4a68ac7296bf5b9ea642e0c7de89",
+      "bytes": 1049
+    },
+    {
+      "path": "tools/audit_chanlun_lesson040_inventory.py",
+      "git_blob_sha1": "c3a48f428c940cd389b5a78f2d328d2400246cfa",
+      "bytes": 1620
+    },
+    {
+      "path": "tools/audit_chanlun_lesson044_logic.py",
+      "git_blob_sha1": "ef61291d70c98de0dbf44a4ef3d61abcbe3fd71e",
+      "bytes": 748
+    },
+    {
+      "path": "tools/audit_chanlun_lesson045_wait_state.py",
+      "git_blob_sha1": "b42da407ec0b5fbe391aa9bd966b05c9825fc51b",
+      "bytes": 1376
+    },
+    {
+      "path": "tools/audit_chanlun_lesson046_day_prefix.py",
+      "git_blob_sha1": "769c4b3f24b7eb229adbf75c2c9e8f28b36883c2",
+      "bytes": 1337
+    },
+    {
+      "path": "tools/audit_chanlun_lesson049_objectives.py",
+      "git_blob_sha1": "f1f33fdfb882673112f0fd4fdbc80d6c20484eb4",
+      "bytes": 1086
+    },
+    {
+      "path": "tools/audit_chanlun_lesson050_resampling.py",
+      "git_blob_sha1": "54f0889a082c768653f3c8d03a1e9d6bc6c305d9",
+      "bytes": 791
+    },
+    {
+      "path": "tools/audit_chanlun_lesson053_editorial_provenance.py",
+      "git_blob_sha1": "f1404b07908354ba18fb5ee818b6004804887267",
+      "bytes": 1332
+    },
+    {
+      "path": "tools/audit_chanlun_lesson054_connections.py",
+      "git_blob_sha1": "d81af625a26aae1619c09ace1ab820ba463c6bdd",
+      "bytes": 1542
+    },
+    {
+      "path": "tools/audit_chanlun_lesson055_ledger.py",
+      "git_blob_sha1": "ea44082a982089a4635bd2841d64560113eda543",
+      "bytes": 1627
+    },
+    {
+      "path": "tools/audit_chanlun_lesson059_precision.py",
+      "git_blob_sha1": "35e00e4beecc1ebfbdd5484c125a27bf0ba8627e",
+      "bytes": 1243
+    },
+    {
+      "path": "tools/audit_chanlun_lesson064_tolerance.py",
+      "git_blob_sha1": "9b35c6f3344bb0dbd103c2fa4089674051f9986e",
+      "bytes": 736
+    },
+    {
+      "path": "tools/audit_chanlun_lesson067_feature_gap.py",
+      "git_blob_sha1": "3dee0d636d7c9cfb752bf817e7e087354a5b4a89",
+      "bytes": 2164
+    },
+    {
+      "path": "tools/audit_chanlun_lesson068_boundary_policy.py",
+      "git_blob_sha1": "577118f45553cbfc709e743f4cf9cc181986c16c",
+      "bytes": 1126
+    },
+    {
+      "path": "tools/audit_chanlun_lesson071_typed_membership.py",
+      "git_blob_sha1": "b7b0d245729178eddb48c46b7599262ed9f92738",
+      "bytes": 2224
+    },
+    {
+      "path": "tools/audit_chanlun_lesson077_pen_boundary.py",
+      "git_blob_sha1": "904ad24fb70ec38d808c1a81fa9fa789bc7f9db3",
+      "bytes": 1543
+    },
+    {
+      "path": "tools/audit_chanlun_lesson078_normalized_view.py",
+      "git_blob_sha1": "815b02a9a4d69457d39ec83c22841937ef94e460",
+      "bytes": 1581
+    },
+    {
+      "path": "tools/audit_chanlun_lesson081_pen_rule_versions.py",
+      "git_blob_sha1": "47a9d7f67e506e6cc4c7ccfee640180946b2352f",
+      "bytes": 1323
+    },
+    {
+      "path": "tools/audit_chanlun_lesson082_fractal_outcome.py",
+      "git_blob_sha1": "917790c2fa9557503db3dfcda0581d4251764281",
+      "bytes": 1259
+    },
+    {
+      "path": "tools/audit_chanlun_lesson085_provenance_roles.py",
+      "git_blob_sha1": "30278e138a8db51fffa978577621c4daa3fec900",
+      "bytes": 1293
+    },
+    {
+      "path": "tools/audit_chanlun_lesson086_crosslevel_context.py",
+      "git_blob_sha1": "e03574cfdf689e969b85b63a0db1f7859904016b",
+      "bytes": 1270
+    },
+    {
+      "path": "tools/audit_chanlun_lesson090_boll_asof.py",
+      "git_blob_sha1": "d383a6b412c5308c1f1598ca08dc51333ff0d44a",
+      "bytes": 1830
+    },
+    {
+      "path": "tools/audit_chanlun_lesson091_four_state_fsm.py",
+      "git_blob_sha1": "22e6072c58bde8389dad1a8732764c611a4a119b",
+      "bytes": 1326
+    },
+    {
+      "path": "tools/audit_chanlun_lesson092_midpoint_monitor.py",
+      "git_blob_sha1": "7cc43d1f3182ad7edb7abab58bdf89423168369b",
+      "bytes": 1440
+    },
+    {
+      "path": "tools/audit_chanlun_lesson095_remaining_exposure.py",
+      "git_blob_sha1": "f75a55e5b1010ade6a83d8fe354689fd2a43d5dc",
+      "bytes": 983
+    },
+    {
+      "path": "tools/audit_chanlun_lesson096_behavioral_gate.py",
+      "git_blob_sha1": "e85d9862b1d630214ba48bb33937c08c378c3649",
+      "bytes": 1339
+    },
+    {
+      "path": "tools/audit_chanlun_lesson099_resegmentation.py",
+      "git_blob_sha1": "a5b3e5d3cc74e30847793332594a82e928e2991e",
+      "bytes": 1734
+    },
+    {
+      "path": "tools/audit_chanlun_lesson100_branch_dispute.py",
+      "git_blob_sha1": "53497a257a26925613a0bb1ed3d61256b941a642",
+      "bytes": 1549
+    },
+    {
+      "path": "tools/audit_chanlun_lesson101_second_buy.py",
+      "git_blob_sha1": "142c6ec24e45efeaddbc7415c5aa70f7a68ec75c",
+      "bytes": 1399
+    },
+    {
+      "path": "tools/audit_chanlun_lesson102_uniqueness_contract.py",
+      "git_blob_sha1": "30c29454e4e57c015af5d3b18d0475e184054fae",
+      "bytes": 891
+    },
+    {
+      "path": "tools/audit_chanlun_lesson103_macd_zero_asof.py",
+      "git_blob_sha1": "11fb0f4ad85c96f6c089ad2179b2db0d2434874d",
+      "bytes": 928
+    },
+    {
+      "path": "tools/audit_chanlun_lessons062_065_containment.py",
+      "git_blob_sha1": "85ee81ae55ea48d8cbe8392752396686d2cdc510",
+      "bytes": 2416
+    },
+    {
+      "path": "tools/audit_chanlun_lessons069_070_events.py",
+      "git_blob_sha1": "fa841d189e0768f9c8e307284b8d2221e76a5025",
+      "bytes": 2229
+    },
+    {
+      "path": "tools/audit_chanlun_lessons072_075_attribution.py",
+      "git_blob_sha1": "e224e608c82ed4d0749ca01869c1ebf2891abdae",
+      "bytes": 1351
+    },
+    {
+      "path": "tools/audit_chanlun_lessons073_074_exposure.py",
+      "git_blob_sha1": "92b0cb075151fd36b69bd7fce93f12d5ed19ebbc",
+      "bytes": 1577
+    },
+    {
+      "path": "tools/audit_chanlun_lessons079_080_dual_clock.py",
+      "git_blob_sha1": "ddd6bb3ea25994c96be3cb9289f24b3e94f12af5",
+      "bytes": 1507
+    },
+    {
+      "path": "tools/audit_chanlun_lessons083_084_recursion_noise.py",
+      "git_blob_sha1": "a22be73c0aec669f55e9c701bb3d555d7af6e2cc",
+      "bytes": 1141
+    },
+    {
+      "path": "tools/audit_chanlun_lessons088_089_transition_center.py",
+      "git_blob_sha1": "7c730b5341e1e79ea8c87d5ee1c8875ddf038a50",
+      "bytes": 1609
+    },
+    {
+      "path": "tools/audit_chanlun_lessons093_094_policy_fills.py",
+      "git_blob_sha1": "d2123d2674f36dc28143b7d1a01643a0e7c96cbc",
+      "bytes": 1422
+    },
+    {
+      "path": "tools/audit_chanlun_lessons097_098_evidence_gate.py",
+      "git_blob_sha1": "10d120e70529a1aa4f1970d118fdcc1ef166bf70",
+      "bytes": 1702
+    },
+    {
+      "path": "tools/audit_chanlun_lessons104_105_evidence.py",
+      "git_blob_sha1": "de8b1149e9e3e7f771fa03fea1195eaabce0c829",
+      "bytes": 1767
+    },
+    {
+      "path": "tools/audit_chanlun_lessons106_108.py",
+      "git_blob_sha1": "1c12170571fcff2542800b047cd64441a3f235ac",
+      "bytes": 6935
+    },
+    {
+      "path": "tools/audit_chanlun_pen_frontier_witnesses_v3.py",
+      "git_blob_sha1": "b2281c967f4af453355776f5cf83c2b7d7584973",
+      "bytes": 3180
+    },
+    {
+      "path": "tools/audit_chanlun_prefix_version_comparison_v1.py",
+      "git_blob_sha1": "a3d76aaddf67fae93c0b96567dba6cafcee633ff",
+      "bytes": 3088
+    },
+    {
+      "path": "tools/audit_chanlun_revision_causal_witness_v4.py",
+      "git_blob_sha1": "723adadce6cfd73e6043a8d2f5a99d888fb38ba5",
+      "bytes": 3359
+    },
+    {
+      "path": "tools/audit_chanlun_unified_knowledge.py",
+      "git_blob_sha1": "62d8ea1f2dcb3e68d8b81d9ec582243db760e510",
+      "bytes": 11591
+    },
+    {
+      "path": "tools/chanlun_event_lab_v1.py",
+      "git_blob_sha1": "7e3075c08ed96758ee899fa9c44c408499c4b719",
+      "bytes": 13149
+    },
+    {
+      "path": "tools/chanlun_incremental_events_v2.py",
+      "git_blob_sha1": "9dc09334712f7b2e6a033a562acf2ad3e684f039",
+      "bytes": 16762
+    },
+    {
+      "path": "tools/chanlun_pen_frontier_v3.py",
+      "git_blob_sha1": "874a8db855b204e6957f109e7f74f4bf434ca787",
+      "bytes": 12045
+    },
+    {
+      "path": "tools/chanlun_revision_proof_gates_v4.py",
+      "git_blob_sha1": "12143abb61e5d178c959a5f62300a2db72c17c02",
+      "bytes": 12216
+    },
+    {
+      "path": "tools/check_chanlun_lesson009_probability.py",
+      "git_blob_sha1": "3ad32e4fab9f5f4a93dc97a5b116e4376c578597",
+      "bytes": 1469
+    },
+    {
+      "path": "tools/inspect_chanlun_sources.py",
+      "git_blob_sha1": "9349e1bc0a18355073340085bb0ca54b386437ef",
+      "bytes": 5406
+    },
+    {
+      "path": "tools/ocr_chanlun_lesson1_page4.py",
+      "git_blob_sha1": "397c1af02f188f25189b365ea86dd070be0ea25a",
+      "bytes": 1516
+    },
+    {
+      "path": "tools/read_chanlun_lesson_readonly.py",
+      "git_blob_sha1": "0bde3fec267e84cb187caa7cf1e18f9d28060194",
+      "bytes": 2219
+    },
+    {
+      "path": "tools/scan_chanlun_early_figures.py",
+      "git_blob_sha1": "1f0189600760aa46f91b098c9e66f8134826dd87",
+      "bytes": 1259
+    },
+    {
+      "path": "tools/survey_chanlun_lessons006_010.py",
+      "git_blob_sha1": "ff430358f3c63ce3871958b7cd0c916cdf6178e5",
+      "bytes": 1928
+    },
+    {
+      "path": "tools/survey_chanlun_lessons011_015.py",
+      "git_blob_sha1": "f4929e1aa16dd2aa84fb7295039c8c638d2f13a6",
+      "bytes": 2911
+    },
+    {
+      "path": "tools/survey_chanlun_lessons016_020.py",
+      "git_blob_sha1": "ab11d64fe1ff1a5b13ba41dedc0d6b52f49fef74",
+      "bytes": 3155
+    },
+    {
+      "path": "tools/survey_chanlun_lessons021_025.py",
+      "git_blob_sha1": "1aaf4b6af9e68f1a69f552dcbfe46a58802ee275",
+      "bytes": 3561
+    },
+    {
+      "path": "tools/survey_chanlun_lessons026_030.py",
+      "git_blob_sha1": "89ad3d191fd0d5e0af14bbd1c6ef7a4702350e1b",
+      "bytes": 2847
+    },
+    {
+      "path": "tools/survey_chanlun_lessons031_035.py",
+      "git_blob_sha1": "932805f33e60f3683003d6893ac322446174d035",
+      "bytes": 2881
+    },
+    {
+      "path": "tools/survey_chanlun_lessons036_040.py",
+      "git_blob_sha1": "1954d9be7def8322aa0302221206477ff248b2bc",
+      "bytes": 2827
+    },
+    {
+      "path": "tools/survey_chanlun_lessons041_045.py",
+      "git_blob_sha1": "c24e0dcc973cb3e6f522e99e6cb976e7dfc4b00f",
+      "bytes": 3108
+    },
+    {
+      "path": "tools/survey_chanlun_lessons046_050.py",
+      "git_blob_sha1": "5d1a044f234711cab5ba8aaf43d0a0c3c24ea4ee",
+      "bytes": 2852
+    },
+    {
+      "path": "tools/survey_chanlun_lessons051_055.py",
+      "git_blob_sha1": "57f51d721d9d164bde9ef22f845083df31d08918",
+      "bytes": 2962
+    },
+    {
+      "path": "tools/survey_chanlun_lessons056_060.py",
+      "git_blob_sha1": "dd4009e44761149a983d1c8bcfba237e74cf43a1",
+      "bytes": 3382
+    },
+    {
+      "path": "tools/survey_chanlun_lessons061_065.py",
+      "git_blob_sha1": "38df651dc50ddf4737fbe2ad6b2c2a1501112a61",
+      "bytes": 3518
+    },
+    {
+      "path": "tools/survey_chanlun_lessons066_070.py",
+      "git_blob_sha1": "ac8560f105e1ec55d2d908acd6adfe29c830d42f",
+      "bytes": 3708
+    },
+    {
+      "path": "tools/survey_chanlun_lessons071_075.py",
+      "git_blob_sha1": "aef343e37e90284ba387458bff226eeb06651a0d",
+      "bytes": 3561
+    },
+    {
+      "path": "tools/survey_chanlun_lessons076_080.py",
+      "git_blob_sha1": "81a858aff17876cd8bba937e4791d23186f285ed",
+      "bytes": 3608
+    },
+    {
+      "path": "tools/survey_chanlun_lessons081_085.py",
+      "git_blob_sha1": "9a4529058af34c13048c249bfb40b72a11cfdc09",
+      "bytes": 3772
+    },
+    {
+      "path": "tools/survey_chanlun_lessons086_090.py",
+      "git_blob_sha1": "681b0b5bf5dc5a4db21e2275af2827ed4d05d770",
+      "bytes": 3981
+    },
+    {
+      "path": "tools/survey_chanlun_lessons091_095.py",
+      "git_blob_sha1": "af0d5846c51afb197272f48f9e37dafa44796787",
+      "bytes": 3471
+    },
+    {
+      "path": "tools/survey_chanlun_lessons096_100.py",
+      "git_blob_sha1": "cd68e3b1c6ea6c41a939226c42b2d1169c4aa8a7",
+      "bytes": 3489
+    },
+    {
+      "path": "tools/survey_chanlun_lessons101_105.py",
+      "git_blob_sha1": "cd7980de61ed7b19bdc30313596abcf42a72d620",
+      "bytes": 3720
+    },
+    {
+      "path": "tools/survey_chanlun_lessons106_108.py",
+      "git_blob_sha1": "1c876ff7cbca8049fa40e23564252dd8e3308380",
+      "bytes": 2935
+    },
+    {
+      "path": "tools/verify_chanlun_lesson1_analysis.py",
+      "git_blob_sha1": "a4c98e644fbd8b75ae8ae8c33bc520cb7f70439e",
+      "bytes": 2291
+    },
+    {
+      "path": "tools/verify_chanlun_lesson_index.py",
+      "git_blob_sha1": "51346439ecbc54597c12760a7aef90f9676fcdb8",
+      "bytes": 1710
+    },
+    {
+      "path": "tools/verify_chanlun_lessons002_005.py",
+      "git_blob_sha1": "856f7c0f9aef7261c3eed058976b36bf7b3f4177",
+      "bytes": 3221
+    },
+    {
+      "path": "tools/verify_chanlun_lessons006_010.py",
+      "git_blob_sha1": "396d82fe33f824fdfdcec69731414bdcd33e2748",
+      "bytes": 3553
+    },
+    {
+      "path": "tools/verify_chanlun_lessons011_015.py",
+      "git_blob_sha1": "b6f4a7629dfe4ae5fe7aa51605789d178fdfc08e",
+      "bytes": 3391
+    },
+    {
+      "path": "tools/verify_chanlun_lessons016_020.py",
+      "git_blob_sha1": "952ec4bd6a2c1cb70fc3060f4d1cc511b55411ff",
+      "bytes": 3400
+    },
+    {
+      "path": "tools/verify_chanlun_lessons021_025.py",
+      "git_blob_sha1": "af12f20d98fd0aa3c22e6d780576c83819270f93",
+      "bytes": 3667
+    },
+    {
+      "path": "tools/verify_chanlun_lessons026_030.py",
+      "git_blob_sha1": "305939cc66e67ce041d6b6b593a1b09aae1683c7",
+      "bytes": 3599
+    },
+    {
+      "path": "tools/verify_chanlun_lessons031_035.py",
+      "git_blob_sha1": "f084271ab690657bee8bbef4f8488171e5e328f0",
+      "bytes": 4679
+    },
+    {
+      "path": "tools/verify_chanlun_lessons036_040.py",
+      "git_blob_sha1": "3a58f808e2f1f131fc6dcd53387bff119d491640",
+      "bytes": 4955
+    },
+    {
+      "path": "tools/verify_chanlun_lessons041_045.py",
+      "git_blob_sha1": "c0d799e0cc173b15448e6cc80e6061697d4e3a4c",
+      "bytes": 4521
+    },
+    {
+      "path": "tools/verify_chanlun_lessons046_050.py",
+      "git_blob_sha1": "a0e62bfbff47abf48ab6888a35c05bea5a6cba71",
+      "bytes": 4544
+    },
+    {
+      "path": "tools/verify_chanlun_lessons051_055.py",
+      "git_blob_sha1": "b26bf5e1a886e704e940d402f0aa610077ecbf60",
+      "bytes": 4975
+    },
+    {
+      "path": "tools/verify_chanlun_lessons056_060.py",
+      "git_blob_sha1": "58ad57bfb168971933d7a69f5be9c79634d39a3a",
+      "bytes": 4652
+    },
+    {
+      "path": "tools/verify_chanlun_lessons061_065.py",
+      "git_blob_sha1": "bc8ab74e1a69a08b7516a2b9689b6afcb5750fe8",
+      "bytes": 5767
+    },
+    {
+      "path": "tools/verify_chanlun_lessons066_070.py",
+      "git_blob_sha1": "0ce7527c73fba1e507c429e632e13eb3bbf88786",
+      "bytes": 6005
+    },
+    {
+      "path": "tools/verify_chanlun_lessons071_075.py",
+      "git_blob_sha1": "10e646e500f30d0e59f990343782a7b456fb40d0",
+      "bytes": 6617
+    },
+    {
+      "path": "tools/verify_chanlun_lessons076_080.py",
+      "git_blob_sha1": "f0480660102b2943e582c39d3725ecd4a8f16679",
+      "bytes": 6338
+    },
+    {
+      "path": "tools/verify_chanlun_lessons081_085.py",
+      "git_blob_sha1": "9b6976d3d3fcbc889d436514d39145a12740817a",
+      "bytes": 6972
+    },
+    {
+      "path": "tools/verify_chanlun_lessons086_090.py",
+      "git_blob_sha1": "355734449315fb000e37d8bc049386222567d12f",
+      "bytes": 6910
+    },
+    {
+      "path": "tools/verify_chanlun_lessons091_095.py",
+      "git_blob_sha1": "563610dc6c8ede9d09bb4b9b75a42adb864e5ae1",
+      "bytes": 6854
+    },
+    {
+      "path": "tools/verify_chanlun_lessons096_100.py",
+      "git_blob_sha1": "84a05d394fbf43449941c375f11bb57e43b29bf2",
+      "bytes": 6563
+    },
+    {
+      "path": "tools/verify_chanlun_lessons101_105.py",
+      "git_blob_sha1": "8c34daf82ad17058b15dd329422a78899882c779",
+      "bytes": 6701
+    },
+    {
+      "path": "tools/verify_chanlun_lessons106_108.py",
+      "git_blob_sha1": "a1e32b9c1a12c60b353cae7d6d75725846900f67",
+      "bytes": 6041
+    }
+  ],
+  "original_duplicate_copies_removed": 634,
+  "source_placeholder_files_cleaned": [
+    ".github/workflows/.gitkeep",
+    "ai_thoughts/ideas/.gitkeep",
+    "analyses/books/chanlun/chapters/.gitkeep",
+    "analyses/books/chanlun/volumes/.gitkeep",
+    "experiments/protocols/.gitkeep",
+    "knowledge/evidence/.gitkeep",
+    "knowledge/relations/.gitkeep",
+    "reports/source_inventory/.gitkeep"
+  ],
+  "case_files": [
+    {
+      "path": "03_formal_cases/36_CROSS_LESSON_FORMAL_EXAMPLES.json",
+      "git_blob_sha1": "ab75b21f02a7d31ab26c2f0e3c91e4cbee36dae3",
+      "bytes": 37818
+    },
+    {
+      "path": "03_formal_cases/ALL_110_PROSPECTIVE_FORMAL_CASES.json",
+      "git_blob_sha1": "3118b25718a3fce97fd5f9d7d64797881e9f5804",
+      "bytes": 225278
+    }
+  ]
+}

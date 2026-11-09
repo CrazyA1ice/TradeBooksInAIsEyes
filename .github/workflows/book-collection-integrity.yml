@@ -1,0 +1,28 @@
+name: Book collections - exact mirror, source coverage and evolving workflow per research step
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  book-collection-integrity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Verify all original research outputs are preserved as byte-identical per-book files
+        run: python -B tools/book_collection.py --book chanlun --check
+      - name: Test reusable collections, source SHA and source-role/market boundaries
+        run: python -B -m unittest discover -s tests -p "test_book_collection.py" -v
+      - name: Enforce per-research-step workflow revision, log, status and manifest update
+        if: github.event_name == 'pull_request'
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+          HEAD: ${{ github.event.pull_request.head.sha }}
+        run: python -B tools/audit_book_collection_change.py --base "$BASE" --head "$HEAD"

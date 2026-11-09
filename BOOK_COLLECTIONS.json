@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "policy": "CANONICAL_SOURCES_PLUS_VERIFIED_PER_BOOK_MIRROR",
+  "workflow": "docs/BOOK_RESEARCH_WORKFLOW.md",
+  "collections": [
+    {
+      "id": "chanlun",
+      "folder": "ChanlunCollection",
+      "name": "缠论（五卷108课）",
+      "status": "108_CHAPTERS_FIRST_PASS_AND_INTEGRATED_THEORY_WITH_OPEN_PROOFS",
+      "source_roots": [
+        ".github/workflows",
+        "ChineseBooks/缠论",
+        "ai_thoughts/ideas",
+        "analyses/books/chanlun",
+        "catalog",
+        "deliverables/chanlun_108_acceptance",
+        "docs",
+        "experiments",
+        "knowledge",
+        "reports/source_inventory",
+        "schemas",
+        "tests",
+        "tools"
+      ],
+      "source_exclusions": [
+        ".gitkeep"
+      ],
+      "expected_original_volumes": 5,
+      "expected_lesson_research_files": 108,
+      "expected_evidence_cards": 108,
+      "proof_status": "OPEN_OB38_OB99_AND_OTHER_FRONTIERS",
+      "real_market_experiments": "NOT_RUN",
+      "canonical_unchanged": true,
+      "mirror_policy": "EXACT_GIT_BLOB_WITH_ORIGINAL_RELATIVE_PATH",
+      "workflow_version": "4.0.0",
+      "collection_work_log": "ChanlunCollection/WORK_LOG.md"
+    }
+  ]
+}

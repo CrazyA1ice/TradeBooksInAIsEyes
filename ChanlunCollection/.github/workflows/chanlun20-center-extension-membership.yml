@@ -1,0 +1,27 @@
+name: Chanlun original lesson20 Zn extension membership and raw center identity gate
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "catalog/chanlun20_center_extension_membership_gate_v1.json"
+      - "tools/audit_chanlun20_center_extension_membership_gate.py"
+      - "tests/fixtures/chanlun20_center_extension_membership_cases_v1.json"
+      - "tests/test_chanlun20_center_extension_membership_gate.py"
+      - "deliverables/chanlun_108_acceptance/04_AI_GUIDE/29_*"
+      - ".github/workflows/chanlun20-center-extension-membership.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  original-zn-extension-partial-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Verify page 245-246 source rule and independently reject raw-run center grouping
+        run: python -B tools/audit_chanlun20_center_extension_membership_gate.py
+      - name: Deny forged Zn membership, price-touch proof and completed center identity
+        run: python -B -m unittest discover -s tests -p "test_chanlun20_center_extension_membership_gate.py" -v

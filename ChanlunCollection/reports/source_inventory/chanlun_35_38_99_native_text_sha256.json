@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "method": "pymupdf_1.26.7_get_text_sort_true",
+  "discovery_run_id": 42487190343,
+  "canonical_pdf_sha256": {
+    "2": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+    "5": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65"
+  },
+  "page_text_sha256": {
+    "2:294": "1191d6da796bdf28d3425feabdeb2f64c172cbf854f3916b4e101aecf44d2856",
+    "2:295": "c0cc11ff6468929631477255da11df637fb4a1c3b4843172d894a4c913771eac",
+    "2:340": "492698242068169e0a94ad8bfad122894dcf7d5f22d7ea2b9d813ec1ba555b3b",
+    "2:341": "f4f67c0155804d14e3117f029a5ca6b94d46192f7509c9a04de2176ef1ac1c1f",
+    "5:204": "96c08c4ad4b6ae08aa22f511010f4b648d3aefb4fc88f86cbfa1280227df2913",
+    "5:205": "a09684df2805aa97c08536883385c33e0d89f31fbcebd3a937197e149934bdb5",
+    "5:206": "72969a966f1e4e47e9b158ccbb6e36ace6a6e492adfc50728da7774ec0d8210a",
+    "5:207": "296bada8846374e0a03b5520814d36756fa5810083a5abcd31d7e714dd9e68da"
+  },
+  "source_scope_note": "Low-native-text pages 2:294/295/340 must NOT be treated as proof that underlying original PDF image text is absent. Volume2 p341 starts appended Q&A; volume5 p206 carries a separately dated Feb 20 article, after Feb18 lesson99 prose. Original publication provenance beyond compiled PDF still unverified; no images inspected.",
+  "original_pages_native_text_chars": {
+    "2:294": 44,
+    "2:295": 44,
+    "2:340": 44,
+    "2:341": 960,
+    "5:204": 292,
+    "5:205": 272,
+    "5:206": 613,
+    "5:207": 276
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-V3-L45-FIRSTPASS-20261107",
+  "state": "original_bounded_text_and_full_page_metadata_figures_unverified",
+  "source": {
+    "volume": 3,
+    "path": "ChineseBooks/缠论/缠论_卷3.pdf",
+    "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+    "lesson_number": 45,
+    "original_date": "2007-04-12 15:39:04",
+    "pdf_pages": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ],
+    "appendix_boundary_candidate": 29
+  },
+  "quality": {
+    "page_count": 21,
+    "native_text_chars": 16431,
+    "image_pages": [
+      30,
+      32,
+      34
+    ],
+    "source_run": 42377309558
+  },
+  "claims": [
+    {
+      "id": "CL45-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        28
+      ],
+      "summary": "作者明确认为持股与持币是买卖之间两种基本操作。"
+    },
+    {
+      "id": "CL45-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        28
+      ],
+      "summary": "作者解释基于操作级别的买卖点与等待状态转换。"
+    },
+    {
+      "id": "CL45-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        28,
+        29
+      ],
+      "summary": "作者指出市场走势类型的未来形成不能提前完全确定。"
+    },
+    {
+      "id": "CL45-SOURCE-4",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        29
+      ],
+      "summary": "作者讨论一个中枢完成后走势类型可能结束及后续分类。"
+    },
+    {
+      "id": "CL45-INTERPRETATION-5",
+      "kind": "INTERPRETATION",
+      "volume": 3,
+      "pdf_pages": [
+        28,
+        29
+      ],
+      "summary": "等待应理解为连续的管理状态而非一次性空白时间。"
+    },
+    {
+      "id": "CL45-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 3,
+      "pdf_pages": [
+        28,
+        29
+      ],
+      "summary": "理论上终有买卖点不能保证资本期限、可执行价及经济零风险。"
+    },
+    {
+      "id": "CL45-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 3,
+      "pdf_pages": [
+        28,
+        29
+      ],
+      "summary": "显式等待状态是否改善行为与风险表现需实证。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "Compiled volume includes later dialogue and editor notes.",
+    "Original image figures and historical prices not independently verified.",
+    "AI models and test cases are not the original author's formula or a market backtest."
+  ]
+}

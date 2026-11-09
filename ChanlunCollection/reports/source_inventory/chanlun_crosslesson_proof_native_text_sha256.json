@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "method": "pymupdf_1.26.7_get_text_sort_true",
+  "source_volume": 2,
+  "source_volume_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+  "discovery_run_id": 42486140626,
+  "page_text_sha256": {
+    "256": "3308ee9c0f20b599fc607710c52df10174ab9a1a072faaaa915b7db9d6ca599a",
+    "257": "29c92c7bbee9569e7f0cab90f09636ca4600bb62de3f247afa5fe37b054389ec",
+    "305": "3d0f7bfbaea79032818b0c4ccd1713285ab04d2c57988be1bcf5167c2afd221d",
+    "310": "9399dab5a7c9e8863570557e6befd529cabd3c2ef90ed4d806233ed051a64062",
+    "320": "4d6311692cdbc2e0522ea480cdf0d451bf2333c83dec890b4222b1b36ad8b947"
+  },
+  "scope_note": "Five original PDF native-text physical pages; composite PDF authorship and date not independently proven; no figure inspection, full original transcript, full formal theorem proof or trading backtest."
+}

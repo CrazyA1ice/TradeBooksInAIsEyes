@@ -1,0 +1,27 @@
+name: Chanlun lesson35 primitive trade prefix source and causal witness
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "catalog/chanlun_lowest_trade_prefix_v1.json"
+      - "tests/fixtures/chanlun_lowest_trade_prefix_cases_v1.json"
+      - "tools/audit_chanlun_primitive_trades_prefix.py"
+      - "tests/test_chanlun_primitive_trades_prefix.py"
+      - "deliverables/chanlun_108_acceptance/04_AI_GUIDE/25_*"
+      - ".github/workflows/chanlun-primitive-trade-prefix.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  original-base-event-witness:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Verify three author page provenance sources and primitive exact-prefix witnesses
+        run: python -B tools/audit_chanlun_primitive_trades_prefix.py
+      - name: Reject raw-event forgery, early base completion and future lookahead
+        run: python -B -m unittest discover -s tests -p "test_chanlun_primitive_trades_prefix.py" -v

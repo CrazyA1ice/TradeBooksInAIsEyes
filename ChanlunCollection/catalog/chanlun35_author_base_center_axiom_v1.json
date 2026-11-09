@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "CL35-AUTHOR-LOWEST-CENTER-DEFINITIONAL-INSTANCE-V1",
+  "scope": "SOURCE_AUTHORED_BASE_CENTER_CONDITIONAL_ON_SYNTHETIC_TRADES_NOT_COMPLETED_TREND",
+  "author_text_claim_id": "CL35-SO-2",
+  "original_pdf_path": "ChineseBooks/缠论/缠论_卷2.pdf",
+  "original_pdf_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+  "physical_pdf_page": 291,
+  "native_text_sha256": "1a2c291cff189ea4de5bef2ecf152e9888773d1194b0ed4e7218f4cd0f3b846b",
+  "author_original_base_axiom": "THREE_CONSECUTIVE_IDENTICAL_PRICE_TRADES_CONSTITUTE_LOWEST_LEVEL_CENTER",
+  "new_source_interpretation": "AUTHOR_DEFINITION_IS_SUFFICIENT_WITHIN_A_VALIDATED_PRIMITIVE_TRADE_MODEL",
+  "important_contrast": "CENTER_EXISTS_CONDITIONALLY_DOES_NOT_MEAN_CENTER_ENDS_OR_PARENT_TREND_COMPLETES",
+  "derived_from": "CL35-PRIMITIVE-RUN-LIFECYCLE-EVIDENCE-V1",
+  "source_links": [
+    "CL35-SO-2",
+    "CL018-S07",
+    "CL020-S01"
+  ],
+  "assumed_data_kind": "SYNTHETIC_ORDERED_TRADES_NOT_REAL_MARKET",
+  "proof_certificate": "AUTHOR_LOWEST_CENTER_AXIOM_IN_ASSUMED_EVENT_STREAM",
+  "lifecycle_receipt_trusted_only_when_recomputed": true,
+  "independent_market_trade_authentication": false,
+  "historical_first_publication_authenticated": false,
+  "actual_center_completed": false,
+  "actual_consolidation_trend_completed": false,
+  "can_feed_higher_level_constructor": false,
+  "blocked_promotions": [
+    "ASSUMED_EVENT_IS_REAL_EXECUTION",
+    "SAME_PRICE_RUN_CLOSURE_IS_CENTER_COMPLETION",
+    "ONE_CENTER_IN_PREFIX_IS_FINISHED_CONSOLIDATION",
+    "THREE_BASE_CENTERS_ARE_THREE_FINISHED_LOWER_TRAJECTORIES",
+    "SOURCE_PUBLICATION_DATE_IS_LIVE_KNOWABILITY"
+  ],
+  "original_rule_version_scope": "AUTHOR_TEXT_AT_VOLUME2_PAGE291_NO_LATER_PEN_OR_SEGMENT_REVISIONS",
+  "validation_required": [
+    "independent_trade_origin_and_order",
+    "market_timestamp_observability",
+    "author_applicable_primitive_level",
+    "historical_version_at_observation",
+    "center_termination_evidence",
+    "finished_lower_trajectory_and_higher_center_eligibility"
+  ],
+  "market_data_read": false,
+  "pdf_images_read": false,
+  "original_proofs38_99_completed": false,
+  "market_backtests": "NOT_RUN"
+}

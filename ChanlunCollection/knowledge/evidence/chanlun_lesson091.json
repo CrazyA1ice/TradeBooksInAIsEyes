@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "lesson": 91,
+  "source": {
+    "volume": 5,
+    "path": "ChineseBooks/缠论/缠论_卷5.pdf",
+    "sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+    "original_date": "2007-12-17 21:40:15",
+    "pdf_pages": [
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92
+    ],
+    "first_starred_divider_candidate": null
+  },
+  "quality": {
+    "physical_pages": 29,
+    "native_chars": 15729,
+    "image_pages": [
+      67,
+      68,
+      70,
+      71,
+      72,
+      73,
+      75,
+      76,
+      78,
+      79,
+      82,
+      83,
+      84,
+      85,
+      87,
+      88,
+      89
+    ],
+    "rendered_pages": [
+      65,
+      72,
+      84
+    ],
+    "visually_inspected_pages": [
+      65
+    ],
+    "precise_chart_prices_verified": false
+  },
+  "claims": [
+    {
+      "id": "CL91-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        64
+      ],
+      "summary": "作者把笔与线段/高级别走势区分，并提出跨时间周期的第一重表里关系。"
+    },
+    {
+      "id": "CL91-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        65
+      ],
+      "summary": "作者给出(±1,0/1)四状态含义和有限的后继状态转移。"
+    },
+    {
+      "id": "CL91-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        65,
+        66
+      ],
+      "summary": "作者把相邻时间周期状态组合用于趋势警戒和跨周期过滤。"
+    },
+    {
+      "id": "CL91-SOURCE-4",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        66
+      ],
+      "summary": "作者提出八级别状态矩阵并称可开发自动化监控交易装置。"
+    },
+    {
+      "id": "CL91-EDITORIAL-5",
+      "kind": "EDITORIAL",
+      "volume": 5,
+      "pdf_pages": [
+        64
+      ],
+      "summary": "娇注加入多级别诊断解释，应与首发作者正文区分。"
+    },
+    {
+      "id": "CL91-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 5,
+      "pdf_pages": [
+        65,
+        66
+      ],
+      "summary": "四态在真实在线解析的完备性需要笔版本、bar完成和歧义规则前提。"
+    },
+    {
+      "id": "CL91-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 5,
+      "pdf_pages": [
+        64,
+        66
+      ],
+      "summary": "四态状态机覆盖率及动态交易有效性尚无真实市场验证。",
+      "test_status": "not_tested"
+    }
+  ],
+  "market_backtest": "not_run",
+  "provenance_limitation": "Physical lesson page range includes later separate posts/editorial insertions."
+}

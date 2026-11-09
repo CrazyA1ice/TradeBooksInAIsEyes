@@ -1,0 +1,507 @@
+{
+  "schema_version": 1,
+  "id": "CL108-CROSSLESSON-THEORY-CONSISTENCY-V1",
+  "scope": "SECOND_PASS_INTERPRETIVE_CONSISTENCY_NOT_AUTHOR_THEOREM_PROOF",
+  "upstream_argument_map": "catalog/chanlun_theory_argument_links_v1.json",
+  "source_versions": "catalog/chanlun_rule_history_v1.json",
+  "source_kind": "EXISTING_CANONICAL_SOURCE_CARDS_AND_DISPLAYED_DATES_ONLY",
+  "global_author_theory_consistent_proven": false,
+  "global_author_theory_inconsistent_proven": false,
+  "complete_Rg_fixed": false,
+  "actual_market_data_read": false,
+  "all_original_images_read": false,
+  "financial_backtests": "NOT_RUN",
+  "case_types": [
+    "NON_IMPLICATION",
+    "CONDITIONAL_SCOPE_RECONCILIATION",
+    "VERSIONED_COEXISTENCE",
+    "TYPE_DOMAIN_RESTRICTION",
+    "QUANTIFIER_AND_CLOCK_GAP"
+  ],
+  "entries": [
+    {
+      "id": "C01",
+      "title": "三笔同价构成最低级别中枢 vs 走势已经完成",
+      "status": "NON_IMPLICATION",
+      "source_claims": [
+        {
+          "lesson": 35,
+          "claim_id": "CL35-SO-2"
+        },
+        {
+          "lesson": 18,
+          "claim_id": "CL018-S07"
+        }
+      ],
+      "registry_ids": [],
+      "abstract_model": "BASE_CENTER_EXISTS_NOT_ENDED",
+      "thesis": "作者最低基例是中枢存在定义；满足最低门槛不等于当下整段盘整/走势已经结束。",
+      "needed_assumptions": [
+        "已确认最低级别的原始逐笔成交与完整性",
+        "实际走势类型完成确认时钟"
+      ],
+      "counterexample_proves_original_author_wrong": false,
+      "authorial_intent_inferred": false,
+      "actual_trade_verified": false
+    },
+    {
+      "id": "C02",
+      "title": "中枢延伸核心重叠 vs 已形成合法独立新中枢",
+      "status": "NON_IMPLICATION",
+      "source_claims": [
+        {
+          "lesson": 20,
+          "claim_id": "CL020-S02"
+        },
+        {
+          "lesson": 20,
+          "claim_id": "CL020-S01"
+        },
+        {
+          "lesson": 18,
+          "claim_id": "CL018-S01"
+        }
+      ],
+      "registry_ids": [],
+      "abstract_model": "OVERLAP_NOT_NEW_CENTER",
+      "thesis": "假设Zn数值核心重叠/分离是数值判据，但Zn归属与新同级别中心的三个完成次级构件仍须独立证明。",
+      "needed_assumptions": [
+        "合法方向Zn与固定核心区间",
+        "新中心的连续完成三段、级别扩张优先判定"
+      ],
+      "counterexample_proves_original_author_wrong": false,
+      "authorial_intent_inferred": false,
+      "actual_trade_verified": false
+    },
+    {
+      "id": "C03",
+      "title": "第三类买点成立 vs 后续必然产生上涨趋势",
+      "status": "NON_IMPLICATION",
+      "source_claims": [
+        {
+          "lesson": 20,
+          "claim_id": "CL020-S03"
+        },
+        {
+          "lesson": 20,
+          "claim_id": "CL020-S04"
+        }
+      ],
+      "registry_ids": [],
+      "abstract_model": "THIRD_BUY_NOT_FUTURE_TREND",
+      "thesis": "作者允许第三类买点后形成较高级别盘整，故不能直接提升为单一路径未来趋势。",
+      "needed_assumptions": [
+        "第一次合格离开及已完成回试",
+        "后续同级别合法中枢趋势确立"
+      ],
+      "counterexample_proves_original_author_wrong": false,
+      "authorial_intent_inferred": false,
+      "actual_trade_verified": false
+    },
+    {
+      "id": "C04",
+      "title": "三类买卖点覆盖 vs 绝对安全与赚钱",
+      "status": "NON_IMPLICATION",
+      "source_claims": [
+        {
+          "lesson": 21,
+          "claim_id": "CL021-S01"
+        },
+        {
+          "lesson": 21,
+          "claim_id": "CL021-S03"
+        }
+      ],
+      "registry_ids": [],
+      "abstract_model": "COVERAGE_NOT_PROFIT",
+      "thesis": "结构分类覆盖可在B2/B3重合时成立，却不证明实盘净盈利或100%安全。",
+      "needed_assumptions": [
+        "固定对象全集和三类点分类谓词",
+        "独立执行价格、成本、未来路径和风险"
+      ],
+      "counterexample_proves_original_author_wrong": false,
+      "authorial_intent_inferred": false,
+      "actual_trade_verified": false
+    },
+    {
+      "id": "C05",
+      "title": "第44课大转折的必要第三类点 vs 出现第三类点足以大转折",
+      "status": "NON_IMPLICATION",
+      "source_claims": [
+        {
+          "lesson": 44,
+          "claim_id": "CL44-SOURCE-1"
+        },
+        {
+          "lesson": 44,
+          "claim_id": "CL44-SOURCE-2"
+        },
+        {
+          "lesson": 44,
+          "claim_id": "CL44-SOURCE-3"
+        }
+      ],
+      "registry_ids": [],
+      "abstract_model": "NECESSARY_NOT_SUFFICIENT",
+      "thesis": "第三类点作为特定大级别转折必要条件，出现它不能逆推必然转折。",
+      "needed_assumptions": [
+        "小级背驰以及作者所指的级别与中心",
+        "大级别转折后续路径与合法终结"
+      ],
+      "counterexample_proves_original_author_wrong": false,
+      "authorial_intent_inferred": false,
+      "actual_trade_verified": false
+    },
+    {
+      "id": "C06",
+      "title": "MACD力度辅助减弱 vs 合法的走势分段存在",
+      "status": "NON_IMPLICATION",
+      "source_claims": [
+        {
+          "lesson": 24,
+          "claim_id": "CL024-S02"
+        },
+        {
+          "lesson": 50,
+          "claim_id": "CL50-SOURCE-1"
+        },
+        {
+          "lesson": 25,
+          "claim_id": "CL025-S01"
+        }
+      ],
+      "registry_ids": [],
+      "abstract_model": "INDICATOR_NOT_LEGAL_SEGMENT",
+      "thesis": "指标可以在合法A/B/C划分完成后辅助比较，不能反向确定其自身的合法比较对象。",
+      "needed_assumptions": [
+        "冻结计算参数并选定结构段",
+        "独立完成且可比的同级走势段"
+      ],
+      "counterexample_proves_original_author_wrong": false,
+      "authorial_intent_inferred": false,
+      "actual_trade_verified": false
+    },
+    {
+      "id": "C07",
+      "title": "第33课分解多义性 vs 第38课固定同级别分解唯一性",
+      "status": "CONDITIONAL_SCOPE_RECONCILIATION",
+      "source_claims": [
+        {
+          "lesson": 33,
+          "claim_id": "CL33-SO-1"
+        },
+        {
+          "lesson": 33,
+          "claim_id": "CL33-SO-3"
+        },
+        {
+          "lesson": 38,
+          "claim_id": "CL38-SOURCE-1"
+        },
+        {
+          "lesson": 38,
+          "claim_id": "CL38-SOURCE-2"
+        }
+      ],
+      "registry_ids": [],
+      "abstract_model": "NO_FORMAL_COUNTERMODEL_TO_RG",
+      "thesis": "可能在级别、分解策略或允许的延伸方式不同而同时成立；是否相容须锁定同一Rg与同一等价关系。",
+      "needed_assumptions": [
+        "同一级别与同一冻结Rg定义",
+        "竞争切点排除证明与原文多义性究竟对应何种变量"
+      ],
+      "counterexample_proves_original_author_wrong": false,
+      "authorial_intent_inferred": false,
+      "actual_trade_verified": false
+    },
+    {
+      "id": "C08",
+      "title": "走势连接满足结合律 vs 合法划分唯一",
+      "status": "NON_IMPLICATION",
+      "source_claims": [
+        {
+          "lesson": 35,
+          "claim_id": "CL35-SO-4"
+        },
+        {
+          "lesson": 38,
+          "claim_id": "CL38-SOURCE-1"
+        },
+        {
+          "lesson": 102,
+          "claim_id": "CL102-SOURCE-1"
+        }
+      ],
+      "registry_ids": [],
+      "abstract_model": "ASSOCIATIVITY_NOT_UNIQUE_PARSE",
+      "thesis": "字符串连接结合而词法允许两个切法，是抽象数学反模型，不是原作者完整Rg的反例。",
+      "needed_assumptions": [
+        "给定合法连接与一个抽象词典",
+        "作者固定切分规则的排他性证明"
+      ],
+      "counterexample_proves_original_author_wrong": false,
+      "authorial_intent_inferred": false,
+      "actual_trade_verified": false
+    },
+    {
+      "id": "C09",
+      "title": "第62/77/81课笔条件与后附新笔候选",
+      "status": "VERSIONED_COEXISTENCE",
+      "source_claims": [
+        {
+          "lesson": 62,
+          "claim_id": "CL62-SOURCE-3"
+        },
+        {
+          "lesson": 77,
+          "claim_id": "CL77-SOURCE-3"
+        },
+        {
+          "lesson": 81,
+          "claim_id": "CL81-SOURCE-4"
+        }
+      ],
+      "registry_ids": [
+        "pen_062_original",
+        "pen_062_appended_candidate",
+        "pen_077_exposition",
+        "pen_081_later_dated_post"
+      ],
+      "abstract_model": "RULE_REVISION_NOT_RETROACTIVE",
+      "thesis": "第81课p241独立署时后发笔规则，卷三p295附录作者/首发时间不明，不能从后来的规则推断旧版本当时相同。",
+      "needed_assumptions": [
+        "明确发文时间与来源角色",
+        "独立首发验证和历史行情当时可用版本"
+      ],
+      "counterexample_proves_original_author_wrong": false,
+      "authorial_intent_inferred": false,
+      "actual_trade_verified": false
+    },
+    {
+      "id": "C10",
+      "title": "第67课特征序列结构 vs 第71课辅助元素的成员资格",
+      "status": "TYPE_DOMAIN_RESTRICTION",
+      "source_claims": [
+        {
+          "lesson": 67,
+          "claim_id": "CL67-SOURCE-1"
+        },
+        {
+          "lesson": 71,
+          "claim_id": "CL71-SOURCE-1"
+        },
+        {
+          "lesson": 71,
+          "claim_id": "CL71-SOURCE-4"
+        }
+      ],
+      "registry_ids": [
+        "segment_067_feature_sequence",
+        "segment_071_typed_membership",
+        "segment_067_editor_objection"
+      ],
+      "abstract_model": "SUPPORT_NOT_MEMBERSHIP",
+      "thesis": "辅助特征分型元素不必属于新旧任一严格特征序列，辅助观察不能自动获得成员包含处理权限。",
+      "needed_assumptions": [
+        "同一特征序列的严格成员集合",
+        "转折待定区间与反向特征确认"
+      ],
+      "counterexample_proves_original_author_wrong": false,
+      "authorial_intent_inferred": false,
+      "actual_trade_verified": false
+    },
+    {
+      "id": "C11",
+      "title": "第99课未来更高级别中枢必然 vs 第一处的位置与实时已知",
+      "status": "QUANTIFIER_AND_CLOCK_GAP",
+      "source_claims": [
+        {
+          "lesson": 99,
+          "claim_id": "CL99-SOURCE-3"
+        },
+        {
+          "lesson": 99,
+          "claim_id": "CL99-SOURCE-4"
+        },
+        {
+          "lesson": 38,
+          "claim_id": "CL38-SOURCE-3"
+        }
+      ],
+      "registry_ids": [],
+      "abstract_model": "EXISTS_NOT_FORALL",
+      "thesis": "存在一种未来延续并不能证明所有合法未来有限时出现指定位置的第一高级别中枢。",
+      "needed_assumptions": [
+        "合法未来路径域与有限时间完结定义",
+        "所有未来序列的结构构造和首个高级别中心的位置"
+      ],
+      "counterexample_proves_original_author_wrong": false,
+      "authorial_intent_inferred": false,
+      "actual_trade_verified": false
+    },
+    {
+      "id": "C12",
+      "title": "第84课f1/f2递归形式保留 vs 强数学自同构",
+      "status": "NON_IMPLICATION",
+      "source_claims": [
+        {
+          "lesson": 84,
+          "claim_id": "CL84-SOURCE-1"
+        },
+        {
+          "lesson": 84,
+          "claim_id": "CL84-SOURCE-3"
+        }
+      ],
+      "registry_ids": [
+        "terminology_084_self_structure"
+      ],
+      "abstract_model": "RECURSIVE_GRAMMAR_NOT_BIJECTION",
+      "thesis": "统一递归函数与可替换的基例不自动构成自同构所需保结构双射。",
+      "needed_assumptions": [
+        "级别文法的映射对象与关系",
+        "映射双射性及所保结构的不变量证明"
+      ],
+      "counterexample_proves_original_author_wrong": false,
+      "authorial_intent_inferred": false,
+      "actual_trade_verified": false
+    },
+    {
+      "id": "C13",
+      "title": "第92课Zn越出中枢边界 vs 第20课第三类点成立",
+      "status": "NON_IMPLICATION",
+      "source_claims": [
+        {
+          "lesson": 92,
+          "claim_id": "CL92-SOURCE-2"
+        },
+        {
+          "lesson": 20,
+          "claim_id": "CL020-S03"
+        }
+      ],
+      "registry_ids": [],
+      "abstract_model": "ZN_OUTSIDE_NOT_THIRD_BUY",
+      "thesis": "作者明确指出Zn越出A/B不充分判定第三类点；仍需完整离开与首次回试事件链。",
+      "needed_assumptions": [
+        "有效中枢与Zn数值定义",
+        "首次合格回试及次级走势完成"
+      ],
+      "counterexample_proves_original_author_wrong": false,
+      "authorial_intent_inferred": false,
+      "actual_trade_verified": false
+    },
+    {
+      "id": "C14",
+      "title": "第108课分型底部成功 vs 走势类型底部成功",
+      "status": "TYPE_DOMAIN_RESTRICTION",
+      "source_claims": [
+        {
+          "lesson": 108,
+          "claim_id": "CL108-SOURCE-1"
+        },
+        {
+          "lesson": 108,
+          "claim_id": "CL108-SOURCE-2"
+        }
+      ],
+      "registry_ids": [
+        "bottom_108_fractal",
+        "bottom_108_structural"
+      ],
+      "abstract_model": "FRACTAL_BOTTOM_NOT_STRUCTURAL_BOTTOM",
+      "thesis": "底分型上下边界和第一买—中枢—首次第三买卖路径是不同定义；一种确认不自动生成另一种证书。",
+      "needed_assumptions": [
+        "已确认合法分型与独立走势底部路径",
+        "第一次第三类事件完成时刻与图示后附时间"
+      ],
+      "counterexample_proves_original_author_wrong": false,
+      "authorial_intent_inferred": false,
+      "actual_trade_verified": false
+    },
+    {
+      "id": "C15",
+      "title": "第20课合格Zn核心两段 vs 第18课中心初建三段",
+      "status": "TYPE_DOMAIN_RESTRICTION",
+      "source_claims": [
+        {
+          "lesson": 20,
+          "claim_id": "CL020-S02"
+        },
+        {
+          "lesson": 18,
+          "claim_id": "CL018-S01"
+        }
+      ],
+      "registry_ids": [],
+      "abstract_model": "TWO_ZN_CORE_NOT_THREE_COMPLETED_TYPES",
+      "thesis": "核心端点用两个合格Zn界定不表示初始中枢仅需两个完成的次级走势类型。",
+      "needed_assumptions": [
+        "Zn与初建三段次级成员的对象映射",
+        "第三段成员完成及中心是否合法构造"
+      ],
+      "counterexample_proves_original_author_wrong": false,
+      "authorial_intent_inferred": false,
+      "actual_trade_verified": false
+    },
+    {
+      "id": "C16",
+      "title": "第62—81课笔线段规则变化 vs 第38课分解唯一的应用",
+      "status": "VERSIONED_COEXISTENCE",
+      "source_claims": [
+        {
+          "lesson": 62,
+          "claim_id": "CL62-SOURCE-3"
+        },
+        {
+          "lesson": 77,
+          "claim_id": "CL77-SOURCE-3"
+        },
+        {
+          "lesson": 81,
+          "claim_id": "CL81-SOURCE-4"
+        },
+        {
+          "lesson": 38,
+          "claim_id": "CL38-SOURCE-1"
+        }
+      ],
+      "registry_ids": [
+        "pen_062_original",
+        "pen_077_exposition",
+        "pen_081_later_dated_post"
+      ],
+      "abstract_model": "REGISTRY_NO_GLOBAL_SUPERSESSION",
+      "thesis": "不同底层笔构造版本不自动共享同一个Rg的唯一性结论，不能把后发版本回填旧数据。",
+      "needed_assumptions": [
+        "明确合法底层笔规则版本、来源角色及其在历史观察时点的可用性",
+        "新旧版本之间同构与固定Rg的独立唯一性证明"
+      ],
+      "counterexample_proves_original_author_wrong": false,
+      "authorial_intent_inferred": false,
+      "actual_trade_verified": false
+    }
+  ],
+  "abstract_nonimplications": {
+    "C04": [
+      "classification_complete",
+      "execution_profitable"
+    ],
+    "C05": [
+      "necessary_condition_present",
+      "large_reversal"
+    ],
+    "C08": [
+      "concatenation_associative",
+      "parse_unique"
+    ],
+    "C11": [
+      "some_future_higher_center",
+      "all_futures_finitely_form_higher_center"
+    ],
+    "C12": [
+      "recursive_rule_reused",
+      "strong_isomorphism"
+    ]
+  }
+}

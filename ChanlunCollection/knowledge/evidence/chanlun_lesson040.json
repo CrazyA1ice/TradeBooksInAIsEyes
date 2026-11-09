@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "lesson": 40,
+  "state": "original_text_bounded_cues_and_full_page_metadata_reviewed_images_unverified",
+  "source": {
+    "volume": 2,
+    "path": "ChineseBooks/缠论/缠论_卷2.pdf",
+    "sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+    "pdf_pages": [
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377
+    ],
+    "original_date": "2007-03-27 12:53:22",
+    "appendix_divider": 366
+  },
+  "quality": {
+    "source_run": 42376015064,
+    "image_pages": [
+      364,
+      365,
+      367,
+      368,
+      369
+    ],
+    "native_text_chars": 8524,
+    "page_count": 15
+  },
+  "claims": [
+    {
+      "id": "CL40-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        363
+      ],
+      "summary": "作者描述5分钟分解向30分钟分解的换挡。"
+    },
+    {
+      "id": "CL40-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        363
+      ],
+      "summary": "作者允许资金与筹码分配至不同时间级别。"
+    },
+    {
+      "id": "CL40-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 2,
+      "pdf_pages": [
+        363
+      ],
+      "summary": "作者将换挡条件关联交易者资金、时间和风格。"
+    },
+    {
+      "id": "CL40-INTERPRETATION-4",
+      "kind": "INTERPRETATION",
+      "volume": 2,
+      "pdf_pages": [
+        363
+      ],
+      "summary": "不同级别交易可有独立节奏。"
+    },
+    {
+      "id": "CL40-INFERENCE-5",
+      "kind": "INFERENCE",
+      "volume": 2,
+      "pdf_pages": [
+        363
+      ],
+      "summary": "级别之间不能重复分配同一份实际库存或现金。"
+    },
+    {
+      "id": "CL40-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 2,
+      "pdf_pages": [
+        363
+      ],
+      "summary": "缺少订单记录不能据此判断其具体盈利。"
+    },
+    {
+      "id": "CL40-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 2,
+      "pdf_pages": [
+        363
+      ],
+      "summary": "多级别组合的实际有效性及订单冲突尚待研究。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "Bounded original-text cues not full figure verification.",
+    "Compiled volumes may include later editor notes.",
+    "AI proposals not original author conclusions or historical tests."
+  ]
+}

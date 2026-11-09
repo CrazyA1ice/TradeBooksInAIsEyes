@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-V2-L027-FIRSTPASS-20261107",
+  "status": "first_pass_textual_images_unverified",
+  "source": {
+    "volume": 2,
+    "path": "ChineseBooks/缠论/缠论_卷2.pdf",
+    "sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+    "lesson_number": 27,
+    "title": "盘整背驰与历史性底部",
+    "original_article_date": "2007-02-02 15:11:27",
+    "pdf_pages": [
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129
+    ],
+    "appendix_boundary_candidate": 98
+  },
+  "quality": {
+    "page_count": 39,
+    "native_text_chars": 16159,
+    "image_pages": [
+      92,
+      94,
+      95,
+      97,
+      99,
+      100,
+      101,
+      102,
+      103,
+      105,
+      106,
+      108,
+      109,
+      110,
+      112,
+      114,
+      115,
+      116,
+      117,
+      122
+    ],
+    "low_text_pages": [
+      94,
+      95,
+      97,
+      100,
+      101,
+      102,
+      108,
+      110,
+      112,
+      115,
+      117,
+      122
+    ],
+    "source_run": 42373286283
+  },
+  "claims": [
+    {
+      "id": "CL027-S01",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        91
+      ],
+      "volume": 2,
+      "summary": "作者区分趋势背驰与盘整背驰，强调不同时间级别意义。"
+    },
+    {
+      "id": "CL027-S02",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        91,
+        93
+      ],
+      "volume": 2,
+      "summary": "作者提出大级别历史底部可按多层背驰段区间逐级收缩。"
+    },
+    {
+      "id": "CL027-S03",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        93
+      ],
+      "volume": 2,
+      "summary": "作者承认实际级别不可无限细分，不能证明精确到数学单点。"
+    },
+    {
+      "id": "CL027-S04",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        96
+      ],
+      "volume": 2,
+      "summary": "文本存在编纂注记对盘整背驰相关表述进行修正。"
+    },
+    {
+      "id": "CL027-I05",
+      "kind": "INTERPRETATION",
+      "pdf_pages": [
+        93
+      ],
+      "volume": 2,
+      "summary": "区间套理论需验证每一级候选段嵌套关系与完成时间。"
+    },
+    {
+      "id": "CL027-I06",
+      "kind": "INFERENCE",
+      "pdf_pages": [
+        93
+      ],
+      "volume": 2,
+      "summary": "回看缩小区间不等于真实交易时可以确认最低点。"
+    },
+    {
+      "id": "CL027-H07",
+      "kind": "HYPOTHESIS",
+      "pdf_pages": [
+        91,
+        93
+      ],
+      "volume": 2,
+      "summary": "在线多级别套叠候选能否覆盖真实转折及其时滞有待样本外检验。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "PDF contains appendices and editor notes from potentially different times.",
+    "Images cannot be used as numerical evidence before visual verification.",
+    "Strong author claims are not empirical proof; AI reconstructions are explicitly separate."
+  ]
+}

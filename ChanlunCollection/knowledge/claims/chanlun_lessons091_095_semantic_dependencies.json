@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "graph_id": "CHANLUN-LESSONS-091-095-PEN-FSM-MIDPOINT-TPLUS1-20261108",
+  "description": "Versioned and additive semantic dependencies for lessons91–95, preserving prior 1–90 graph contracts",
+  "source_pdf_sha256_by_volume": {
+    "5": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65"
+  },
+  "references": [
+    "knowledge/claims/chanlun_early_core_dependencies.json",
+    "knowledge/claims/chanlun_lessons066_070_crossvolume_dependencies.json",
+    "knowledge/claims/chanlun_lessons071_075_semantic_dependencies.json",
+    "knowledge/claims/chanlun_lessons076_080_semantic_dependencies.json",
+    "knowledge/claims/chanlun_lessons081_085_semantic_dependencies.json",
+    "knowledge/claims/chanlun_lessons086_090_crossvolume_dependencies.json"
+  ],
+  "nodes": [
+    {
+      "id": "L91-FOUR-STATE-PEN",
+      "claim": "Author models two-valued pen direction and phase as a canonical four-state finite-transition system, not independently established unique OHLC identification",
+      "source": {
+        "volume": 5,
+        "pdf_pages": [
+          64,
+          65,
+          66
+        ]
+      },
+      "status": "author_canonical_fsm_grammar_not_market_proof"
+    },
+    {
+      "id": "L92-CENTER-ZN-MONITOR",
+      "claim": "Center A/B midpoint Z and suboscillation midpoint Zn monitor strength; Zn outside center boundaries does not suffice for confirmed third buy/sell",
+      "source": {
+        "volume": 5,
+        "pdf_pages": [
+          93,
+          94,
+          95
+        ]
+      },
+      "status": "author_midpoint_monitor_non_sufficient_trigger"
+    },
+    {
+      "id": "L93-POLICY-VS-OBSERVATION",
+      "claim": "Same (1,0) fractal candidate can lead to continuation or reversal; conservative and oscillation-skilled decisions are distinct optional policies",
+      "source": {
+        "volume": 5,
+        "pdf_pages": [
+          124,
+          125
+        ]
+      },
+      "status": "author_optional_policies_with_editorial_addenda"
+    },
+    {
+      "id": "L94-TPLUS1-FILL-GATE",
+      "claim": "Conditional future price-structure opportunities need trade execution proof, including same-day sale restrictions for newly purchased T+1 A-shares",
+      "source": {
+        "volume": 5,
+        "pdf_pages": [
+          143,
+          145
+        ]
+      },
+      "status": "author_real_execution_limit_economic_qualification"
+    },
+    {
+      "id": "L95-RECOVERED-PRINCIPAL-RISK",
+      "claim": "Recovered initial external cash or self-reported zero contribution does not remove remaining marked-to-market financial exposure",
+      "source": {
+        "volume": 5,
+        "pdf_pages": [
+          150,
+          151
+        ]
+      },
+      "status": "author_capital_management_story_ai_risk_counterexample"
+    }
+  ],
+  "edges": [
+    {
+      "from": "L91-FOUR-STATE-PEN",
+      "to": "L77-PEN-UNIQUENESS-PREMISES",
+      "type": "four_state_claim_requires_valid_finished_pen_version",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L91-FOUR-STATE-PEN",
+      "to": "L81-PEN-VERSION",
+      "type": "dated_old_new_pen_definitions_condition_state_extraction",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L91-FOUR-STATE-PEN",
+      "to": "L79-INTRADAY-DUAL-CLOCK",
+      "type": "phase_zero_pending_fractal_must_not_use_future_daily_bar",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L92-CENTER-ZN-MONITOR",
+      "to": "L89-CENTER-ONTOLOGY",
+      "type": "midpoint_observation_requires_formally_existing_center_component",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L92-CENTER-ZN-MONITOR",
+      "to": "L90-BOLL-AUXILIARY",
+      "type": "two_auxiliary_monitors_distinct_from_confirmed_geometric_break",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L92-CENTER-ZN-MONITOR",
+      "to": "L73-OPPORTUNITY-TAXONOMY",
+      "type": "center_monitor_not_guaranteed_profitable_classification",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L93-POLICY-VS-OBSERVATION",
+      "to": "L91-FOUR-STATE-PEN",
+      "type": "two_outcomes_of_same_candidate_state_with_precommitted_risk_policies",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L93-POLICY-VS-OBSERVATION",
+      "to": "L86-HIERARCHICAL-CONTEXT",
+      "type": "individual_action_still_depends_on_known_parent_context",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L94-TPLUS1-FILL-GATE",
+      "to": "L79-INTRADAY-DUAL-CLOCK",
+      "type": "earliest_signal_timestamp_not_actual_fill",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L94-TPLUS1-FILL-GATE",
+      "to": "L80-ASSERTION-NOT-PROFIT",
+      "type": "structure_confirmation_and_legal_execution_not_profit_guarantee",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L95-RECOVERED-PRINCIPAL-RISK",
+      "to": "L73-OPPORTUNITY-TAXONOMY",
+      "type": "zero_accounting_cost_does_not_eliminate_remaining_value_exposure",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L95-RECOVERED-PRINCIPAL-RISK",
+      "to": "L87-UNVERIFIED-ANECDOTE",
+      "type": "author_first_person_investment_history_requires_independent_evidence",
+      "certainty": "ai_analysis"
+    }
+  ]
+}

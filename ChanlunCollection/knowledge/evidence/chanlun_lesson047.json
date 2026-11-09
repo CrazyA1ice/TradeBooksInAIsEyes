@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-V3-L47-FIRSTPASS-20261107",
+  "status": "real_pdf_excerpt_review_with_full_page_metadata_figures_unverified",
+  "source": {
+    "volume": 3,
+    "path": "ChineseBooks/缠论/缠论_卷3.pdf",
+    "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+    "lesson_number": 47,
+    "original_date": "2007-04-20 08:51:58",
+    "pdf_pages": [
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82
+    ],
+    "first_appendix_candidate": 76
+  },
+  "quality": {
+    "source_run": 42378321659,
+    "page_count": 14,
+    "native_chars": 9959,
+    "image_pages": [
+      71,
+      73,
+      74,
+      75,
+      77
+    ],
+    "sparse_pages": [
+      71,
+      73,
+      74,
+      75,
+      77
+    ]
+  },
+  "claims": [
+    {
+      "id": "CL47-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        69
+      ],
+      "summary": "作者以2007-04-19日内下跌及第三类卖点举例。"
+    },
+    {
+      "id": "CL47-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        69,
+        70
+      ],
+      "summary": "作者使用日内中枢、MACD辅助比较和分笔背驰描述反弹。"
+    },
+    {
+      "id": "CL47-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        72
+      ],
+      "summary": "作者明确承认T+1买入后次日可能无法顺利退出。"
+    },
+    {
+      "id": "CL47-SOURCE-4",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        72
+      ],
+      "summary": "作者说明不同资金规模与交易级别不应都采用这种超短线方案。"
+    },
+    {
+      "id": "CL47-INTERPRETATION-5",
+      "kind": "INTERPRETATION",
+      "volume": 3,
+      "pdf_pages": [
+        69,
+        72
+      ],
+      "summary": "历史关键时点必须按行情确认时间和交易执行时间拆分。"
+    },
+    {
+      "id": "CL47-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 3,
+      "pdf_pages": [
+        69,
+        70
+      ],
+      "summary": "未独立核验图像与时间序列不能认定文中盈利幅度为事实。"
+    },
+    {
+      "id": "CL47-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 3,
+      "pdf_pages": [
+        69,
+        72
+      ],
+      "summary": "关键分时案例的实时重演与成交风险需要独立市场数据。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "Author's claims are not independent data verification.",
+    "Original charts and later Q&A not fully analyzed.",
+    "AI logical tests cannot prove the theory yields profits."
+  ]
+}

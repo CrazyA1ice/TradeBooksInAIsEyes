@@ -1,0 +1,932 @@
+{
+  "schema_version": 1,
+  "source": "ChineseBooks/缠论/缠论_卷1.pdf",
+  "sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+  "action_run": 42370612377,
+  "status": "native_text_and_image_presence_verified_not_full_visual_review",
+  "limitations": [
+    "First dialogue marker is a boundary candidate, not a complete paragraph-level document separation.",
+    "PDF images were detected; semantics, any price labels and trading locations are not independently verified.",
+    "The 17th lesson's printed original date may use Chinese date notation, so the date parser returned null.",
+    "Editorial notes may change interpretation; later author replies must not be treated as same-date original."
+  ],
+  "lessons": [
+    {
+      "lesson": 16,
+      "title": "中小资金的高效买卖法",
+      "start": 169,
+      "end": 195,
+      "pages": [
+        {
+          "pdf_page": 169,
+          "native_text_chars": 552,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 170,
+          "native_text_chars": 27,
+          "image_count": 1,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 171,
+          "native_text_chars": 1317,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 172,
+          "native_text_chars": 483,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 173,
+          "native_text_chars": 27,
+          "image_count": 1,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 174,
+          "native_text_chars": 929,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 175,
+          "native_text_chars": 27,
+          "image_count": 1,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 176,
+          "native_text_chars": 27,
+          "image_count": 1,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 177,
+          "native_text_chars": 874,
+          "image_count": 0,
+          "has_dialogue_marker": true,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 178,
+          "native_text_chars": 236,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 179,
+          "native_text_chars": 27,
+          "image_count": 1,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 180,
+          "native_text_chars": 946,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 181,
+          "native_text_chars": 833,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 182,
+          "native_text_chars": 27,
+          "image_count": 1,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 183,
+          "native_text_chars": 1052,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 184,
+          "native_text_chars": 946,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 185,
+          "native_text_chars": 861,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 186,
+          "native_text_chars": 1026,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 187,
+          "native_text_chars": 951,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 188,
+          "native_text_chars": 1027,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 189,
+          "native_text_chars": 1031,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 190,
+          "native_text_chars": 585,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 191,
+          "native_text_chars": 27,
+          "image_count": 1,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 192,
+          "native_text_chars": 1078,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 193,
+          "native_text_chars": 994,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 194,
+          "native_text_chars": 843,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 195,
+          "native_text_chars": 666,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        }
+      ],
+      "author_date": "2006-12-14 12:06:47",
+      "first_dialogue": {
+        "page": 177,
+        "line": 6,
+        "marker": "解盘及互动问答："
+      },
+      "sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "source_cues": [
+        {
+          "page": 169,
+          "terms": [
+            "级别",
+            "分解"
+          ]
+        },
+        {
+          "page": 171,
+          "terms": [
+            "第一类买点",
+            "级别",
+            "背驰",
+            "分解"
+          ]
+        },
+        {
+          "page": 172,
+          "terms": [
+            "第一类买点",
+            "级别"
+          ]
+        },
+        {
+          "page": 174,
+          "terms": [
+            "第一类买点",
+            "第二类买点"
+          ]
+        }
+      ],
+      "total_native_text_chars": 17419,
+      "image_pages": [
+        170,
+        173,
+        175,
+        176,
+        179,
+        182,
+        191
+      ],
+      "low_text_pages": [
+        170,
+        173,
+        175,
+        176,
+        179,
+        182,
+        191
+      ]
+    },
+    {
+      "lesson": 17,
+      "title": "走势终完美",
+      "start": 196,
+      "end": 233,
+      "pages": [
+        {
+          "pdf_page": 196,
+          "native_text_chars": 1111,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 197,
+          "native_text_chars": 1218,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 198,
+          "native_text_chars": 1047,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 199,
+          "native_text_chars": 923,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 200,
+          "native_text_chars": 262,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 201,
+          "native_text_chars": 22,
+          "image_count": 1,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 202,
+          "native_text_chars": 22,
+          "image_count": 1,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 203,
+          "native_text_chars": 22,
+          "image_count": 1,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 204,
+          "native_text_chars": 22,
+          "image_count": 1,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 205,
+          "native_text_chars": 952,
+          "image_count": 0,
+          "has_dialogue_marker": true,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 206,
+          "native_text_chars": 477,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 207,
+          "native_text_chars": 22,
+          "image_count": 1,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 208,
+          "native_text_chars": 22,
+          "image_count": 1,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 209,
+          "native_text_chars": 908,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 210,
+          "native_text_chars": 881,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 211,
+          "native_text_chars": 1187,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 212,
+          "native_text_chars": 946,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 213,
+          "native_text_chars": 945,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 214,
+          "native_text_chars": 857,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 215,
+          "native_text_chars": 936,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 216,
+          "native_text_chars": 1112,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 217,
+          "native_text_chars": 191,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 218,
+          "native_text_chars": 22,
+          "image_count": 1,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 219,
+          "native_text_chars": 792,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 220,
+          "native_text_chars": 22,
+          "image_count": 1,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 221,
+          "native_text_chars": 702,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 222,
+          "native_text_chars": 451,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 223,
+          "native_text_chars": 22,
+          "image_count": 1,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 224,
+          "native_text_chars": 897,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 225,
+          "native_text_chars": 784,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 226,
+          "native_text_chars": 939,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 227,
+          "native_text_chars": 909,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 228,
+          "native_text_chars": 976,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 229,
+          "native_text_chars": 1013,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 230,
+          "native_text_chars": 933,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 231,
+          "native_text_chars": 722,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 232,
+          "native_text_chars": 848,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 233,
+          "native_text_chars": 138,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        }
+      ],
+      "author_date": null,
+      "first_dialogue": {
+        "page": 205,
+        "line": 6,
+        "marker": "解盘及互动问答："
+      },
+      "sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "source_cues": [
+        {
+          "page": 196,
+          "terms": [
+            "走势终完美",
+            "级别",
+            "当下",
+            "分解"
+          ]
+        },
+        {
+          "page": 197,
+          "terms": [
+            "走势中枢",
+            "中枢",
+            "走势终完美",
+            "级别",
+            "递归",
+            "当下",
+            "分解"
+          ]
+        },
+        {
+          "page": 198,
+          "terms": [
+            "走势中枢",
+            "中枢",
+            "第一类买点",
+            "第二类买点",
+            "走势终完美",
+            "级别",
+            "分解"
+          ]
+        },
+        {
+          "page": 199,
+          "terms": [
+            "走势中枢",
+            "中枢",
+            "走势终完美",
+            "级别"
+          ]
+        },
+        {
+          "page": 200,
+          "terms": [
+            "走势中枢",
+            "中枢",
+            "走势终完美",
+            "级别",
+            "背驰"
+          ]
+        },
+        {
+          "page": 201,
+          "terms": [
+            "走势终完美"
+          ]
+        },
+        {
+          "page": 202,
+          "terms": [
+            "走势终完美"
+          ]
+        },
+        {
+          "page": 203,
+          "terms": [
+            "走势终完美"
+          ]
+        },
+        {
+          "page": 204,
+          "terms": [
+            "走势终完美"
+          ]
+        },
+        {
+          "page": 205,
+          "terms": [
+            "走势终完美"
+          ]
+        }
+      ],
+      "total_native_text_chars": 24255,
+      "image_pages": [
+        201,
+        202,
+        203,
+        204,
+        207,
+        208,
+        218,
+        220,
+        223
+      ],
+      "low_text_pages": [
+        201,
+        202,
+        203,
+        204,
+        207,
+        208,
+        218,
+        220,
+        223
+      ]
+    },
+    {
+      "lesson": 18,
+      "title": "不被面首的雏男是不完美的",
+      "start": 234,
+      "end": 237,
+      "pages": [
+        {
+          "pdf_page": 234,
+          "native_text_chars": 798,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 235,
+          "native_text_chars": 1337,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 236,
+          "native_text_chars": 1118,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 237,
+          "native_text_chars": 817,
+          "image_count": 0,
+          "has_dialogue_marker": true,
+          "has_editor_or_dialogue_cues": true
+        }
+      ],
+      "author_date": "2006-12-26 15:05:58",
+      "first_dialogue": {
+        "page": 237,
+        "line": 15,
+        "marker": "解盘及互动问答："
+      },
+      "sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "source_cues": [
+        {
+          "page": 234,
+          "terms": [
+            "走势中枢",
+            "中枢",
+            "级别"
+          ]
+        },
+        {
+          "page": 235,
+          "terms": [
+            "走势中枢",
+            "中枢",
+            "级别",
+            "当下",
+            "分解"
+          ]
+        },
+        {
+          "page": 236,
+          "terms": [
+            "走势中枢",
+            "中枢",
+            "级别"
+          ]
+        },
+        {
+          "page": 237,
+          "terms": [
+            "走势中枢",
+            "中枢",
+            "级别"
+          ]
+        }
+      ],
+      "total_native_text_chars": 4070,
+      "image_pages": [],
+      "low_text_pages": []
+    },
+    {
+      "lesson": 19,
+      "title": "学习缠中说禅技术分析理论的关键",
+      "start": 238,
+      "end": 244,
+      "pages": [
+        {
+          "pdf_page": 238,
+          "native_text_chars": 1407,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 239,
+          "native_text_chars": 1264,
+          "image_count": 0,
+          "has_dialogue_marker": true,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 240,
+          "native_text_chars": 192,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 241,
+          "native_text_chars": 32,
+          "image_count": 1,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": false
+        },
+        {
+          "pdf_page": 242,
+          "native_text_chars": 1031,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 243,
+          "native_text_chars": 1009,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 244,
+          "native_text_chars": 158,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        }
+      ],
+      "author_date": "2006-12-27 15:18:10",
+      "first_dialogue": {
+        "page": 239,
+        "line": 25,
+        "marker": "解盘及互动问答："
+      },
+      "sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "source_cues": [
+        {
+          "page": 238,
+          "terms": [
+            "走势中枢",
+            "中枢"
+          ]
+        },
+        {
+          "page": 239,
+          "terms": [
+            "走势中枢",
+            "中枢",
+            "级别",
+            "背驰",
+            "当下"
+          ]
+        }
+      ],
+      "total_native_text_chars": 5093,
+      "image_pages": [
+        241
+      ],
+      "low_text_pages": [
+        241
+      ]
+    },
+    {
+      "lesson": 20,
+      "title": "缠中说禅走势中枢级别扩张及第三类买卖点",
+      "start": 245,
+      "end": 252,
+      "pages": [
+        {
+          "pdf_page": 245,
+          "native_text_chars": 1229,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 246,
+          "native_text_chars": 1345,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 247,
+          "native_text_chars": 1067,
+          "image_count": 0,
+          "has_dialogue_marker": true,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 248,
+          "native_text_chars": 1162,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 249,
+          "native_text_chars": 1042,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 250,
+          "native_text_chars": 971,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 251,
+          "native_text_chars": 936,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        },
+        {
+          "pdf_page": 252,
+          "native_text_chars": 908,
+          "image_count": 0,
+          "has_dialogue_marker": false,
+          "has_editor_or_dialogue_cues": true
+        }
+      ],
+      "author_date": "2007-01-05 15:23:22",
+      "first_dialogue": {
+        "page": 247,
+        "line": 20,
+        "marker": "解盘及互动问答："
+      },
+      "sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "source_cues": [
+        {
+          "page": 245,
+          "terms": [
+            "走势中枢",
+            "中枢",
+            "级别"
+          ]
+        },
+        {
+          "page": 246,
+          "terms": [
+            "走势中枢",
+            "中枢",
+            "级别"
+          ]
+        },
+        {
+          "page": 247,
+          "terms": [
+            "走势中枢",
+            "中枢",
+            "第三类买点",
+            "第三类卖点",
+            "级别"
+          ]
+        }
+      ],
+      "total_native_text_chars": 8660,
+      "image_pages": [],
+      "low_text_pages": []
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+name: Chanlun original center order and completion prose audit
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "tools/inspect_chanlun_center_order_completion_native_text_readonly.py"
+      - "reports/source_inventory/chanlun_center_order_completion_native_text_sha256.json"
+      - "tests/test_chanlun_center_order_completion.py"
+      - "deliverables/chanlun_108_acceptance/04_AI_GUIDE/24_*"
+      - ".github/workflows/chanlun-center-order-completion-native.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-page-native-text:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install exact original native text reader
+        run: python -m pip install "PyMuPDF==1.26.7"
+      - name: Verify six original PDF page native-text SHA locks
+        run: python -B tools/inspect_chanlun_center_order_completion_native_text_readonly.py
+      - name: Verify source claims, exact author GG/DD and expansion comparison conditions
+        run: python -B tools/audit_chanlun_center_order_completion.py
+      - name: Reject editorial misattribution, forged real centers and premature completion
+        run: python -B -m unittest discover -s tests -p "test_chanlun_center_order_completion.py" -v

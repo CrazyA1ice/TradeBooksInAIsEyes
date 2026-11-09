@@ -1,0 +1,194 @@
+name: Chanlun 108 canonical-source acceptance and temporary offline ZIP
+on:
+  push:
+    branches:
+      - main
+      - refactor/deduplicate-chanlun-acceptance-and-reusable-book-workflow-20261108
+    paths:
+      - "deliverables/chanlun_108_acceptance/**"
+      - "ChineseBooks/缠论/**"
+      - "analyses/books/chanlun/**"
+      - "knowledge/**"
+      - "catalog/**"
+      - "docs/BOOK_RESEARCH_WORKFLOW.md"
+      - "tools/build_book_acceptance_zip.py"
+      - "tools/audit_book_ai_guide.py"
+      - "tests/test_chanlun_asof_player.mjs"
+      - "tests/test_chanlun_source_case_atlas.py"
+      - "tests/test_chanlun_original_figure_review.py"
+      - "tests/test_chanlun_figure_lineage.py"
+      - "tests/test_chanlun_native_raster_ceiling.py"
+      - "tests/test_chanlun_text_logic_audit.py"
+      - "tests/test_chanlun_decomposition_proof_obligations.py"
+      - "tests/test_chanlun_original_proof_text_anchors.py"
+      - "tests/test_chanlun_38_99_textual_proof_obligations.py"
+      - "tests/test_chanlun_bridge_text_audit.py"
+      - "tests/test_chanlun_crosslesson_proof_text.py"
+      - "tests/test_chanlun_35_38_99_proof_text.py"
+      - "tests/test_chanlun_formal_proof_readiness.py"
+      - "tests/test_chanlun_lesson038_policy_scope.py"
+      - "tests/test_chanlun_recursive_eligibility.py"
+      - "tests/test_chanlun_lesson035_trend_terminal_asof.py"
+      - "tests/test_chanlun_center_order_completion.py"
+      - "tests/test_chanlun_primitive_trades_prefix.py"
+      - "tests/test_chanlun_primitive_run_lifecycle.py"
+      - "tests/test_chanlun35_author_base_center_axiom.py"
+      - "tests/test_chanlun35_event_derived_center_price_order.py"
+      - "tests/test_chanlun20_center_extension_membership_gate.py"
+      - "tests/test_chanlun_whole_book_integrated.py"
+      - "tests/test_chanlun_deep_theory_second_pass.py"
+      - "tests/test_chanlun_crosslesson_consistency.py"
+      - "tests/test_chanlun_fullbook_logical_spine.py"
+      - "tools/audit_chanlun_fullbook_logical_spine.py"
+      - "catalog/chanlun_108_fullbook_logical_spine_v1.json"
+      - "tools/audit_chanlun_crosslesson_consistency.py"
+      - "catalog/chanlun_crosslesson_consistency_v1.json"
+      - "tools/audit_chanlun_theory_second_pass.py"
+      - "catalog/chanlun_theory_argument_links_v1.json"
+      - "tools/audit_chanlun_whole_book_integrated.py"
+      - "tests/fixtures/chanlun20_center_extension_membership_cases_v1.json"
+      - "tools/audit_chanlun20_center_extension_membership_gate.py"
+      - "catalog/chanlun20_center_extension_membership_gate_v1.json"
+      - "tests/fixtures/chanlun35_event_derived_center_price_order_cases_v1.json"
+      - "tools/audit_chanlun35_event_center_price_order.py"
+      - "catalog/chanlun35_event_derived_center_price_order_v1.json"
+      - "tests/fixtures/chanlun35_author_base_center_axiom_cases_v1.json"
+      - "tools/audit_chanlun35_author_base_center_axiom.py"
+      - "catalog/chanlun35_author_base_center_axiom_v1.json"
+      - "tests/fixtures/chanlun_primitive_run_lifecycle_cases_v1.json"
+      - "tools/audit_chanlun_primitive_run_lifecycle.py"
+      - "catalog/chanlun_primitive_run_lifecycle_v1.json"
+      - "tests/fixtures/chanlun_lowest_trade_prefix_cases_v1.json"
+      - "tools/audit_chanlun_primitive_trades_prefix.py"
+      - "catalog/chanlun_lowest_trade_prefix_v1.json"
+      - "tests/fixtures/chanlun_center_order_completion_cases_v1.json"
+      - "tools/audit_chanlun_center_order_completion.py"
+      - "reports/source_inventory/chanlun_center_order_completion_native_text_sha256.json"
+      - "tests/fixtures/chanlun35_terminal_asof_cases_v1.json"
+      - "tools/audit_chanlun_lesson035_trend_terminal_asof.py"
+      - "tests/fixtures/chanlun_recursive_eligibility_cases_v1.json"
+      - "tools/audit_chanlun_recursive_source_eligibility.py"
+      - "tests/fixtures/chanlun38_symbolic_policy_cases_v1.json"
+      - "tools/audit_chanlun_lesson038_policy_scope.py"
+      - "tools/verify_chanlun_formal_proof_readiness.py"
+      - "reports/source_inventory/chanlun_formal_proof_readiness_v1.json"
+      - "tools/inspect_chanlun_35_38_99_proof_text_readonly.py"
+      - "reports/source_inventory/chanlun_35_38_99_native_text_sha256.json"
+      - "reports/source_inventory/chanlun_38_99_proof_obligation_ledger.json"
+      - "tools/inspect_chanlun_crosslesson_proof_text_readonly.py"
+      - "reports/source_inventory/chanlun_crosslesson_proof_native_text_sha256.json"
+      - "reports/source_inventory/chanlun_bridge_native_text_sha256.json"
+      - "tests/test_chanlun_source_scope_38_39_98_100.py"
+      - "tools/audit_chanlun_native_figure_resolution.py"
+      - ".github/workflows/chanlun-108-acceptance-bundle.yml"
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  acceptance:
+    name: Five PDFs, 108 chapters, 110 formal hypotheses and deduplication
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Audit original PDF SHA and unique canonical sources
+        run: python -B deliverables/chanlun_108_acceptance/00_REVIEW/audit_acceptance.py
+      - name: Audit mandatory source-linked, illustrated AI deep reading guide
+        run: python -B tools/audit_book_ai_guide.py --book-slug chanlun --acceptance-dir deliverables/chanlun_108_acceptance --require-tutorial 05_专题教程_走势分解与终完美.md --require-tutorial 06_专题教程_中枢背驰与三类点.md --require-tutorial 07_专题教程_从分型到线段中枢.md --require-source-case 09_原书关键案例与定理证据对照.md --min-source-cases 9
+      - name: Cross-check nine real source case discussions against canonical text evidence
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_source_case_atlas.py' -v
+      - name: Regression-check original PDF figure observations, source dates and manifest
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_original_figure_review.py' -v
+      - name: Verify 7-8-9 figure-source lineage and postdated pen-rule boundaries
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_figure_lineage.py' -v
+      - name: Verify native PDF image resolution is not mistaken for a verified price pixel
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_native_raster_ceiling.py' -v
+      - name: Validate source-text-first reasoning and manual-only figure review
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_text_logic_audit.py' -v
+      - name: Verify two author decomposition theorems and conditional uniqueness are kept separate
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_decomposition_proof_obligations.py' -v
+      - name: Validate original-PDF theorem words, source role and proof-obligation boundaries
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_original_proof_text_anchors.py' -v
+      - name: Check textual logical proof obligations and no fake financial counterexamples
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_38_99_textual_proof_obligations.py' -v
+      - name: Verify source roles and separate parsing, action and future obligations
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_source_scope_38_39_98_100.py' -v
+      - name: Verify locked page source roles and evidence fingerprints
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_bridge_text_audit.py' -v
+      - name: Check cross-lesson source SHA locks, editor roles and proof claims
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_crosslesson_proof_text.py' -v
+      - name: Reject fake proof upgrades from empty-native-text pages or later dated material
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_35_38_99_proof_text.py' -v
+      - name: Verify all original-author proof citations and reject counterfeit theorem certificates
+        run: python -B tools/verify_chanlun_formal_proof_readiness.py
+      - name: Verify forged proof, editorial attribution and missing derivation slots are rejected
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_formal_proof_readiness.py' -v
+      - name: Verify original lesson38 asymmetric rule scope and synthetic cutpoint limits
+        run: python -B tools/audit_chanlun_lesson038_policy_scope.py
+      - name: Reject fake complete-parser claims or cross-level counterexamples
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_lesson038_policy_scope.py' -v
+      - name: Validate six authored center recursion anchors and conditional decimal geometry
+        run: python -B tools/audit_chanlun_recursive_source_eligibility.py
+      - name: Reject false center/type certifications and missing lower-level premises
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_recursive_eligibility.py' -v
+      - name: Verify author lesson35 N greater than two terminal equality and synthetic as-of
+        run: python -B tools/audit_chanlun_lesson035_trend_terminal_asof.py
+      - name: Reject forged legal-center certifications, future peeking and missing equality constraints
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_lesson035_trend_terminal_asof.py' -v
+      - name: Check original author center-range indicators with strict equality / timing guards
+        run: python -B tools/audit_chanlun_center_order_completion.py
+      - name: Deny false completed-center certificates and mismatched source attribution
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_center_order_completion.py' -v
+      - name: Derive third equal-trade raw event prefix and source-lock author base rules
+        run: python -B tools/audit_chanlun_primitive_trades_prefix.py
+      - name: Ensure primitive event witnesses are not mistaken for completed real centers
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_primitive_trades_prefix.py' -v
+      - name: Reconcile raw price-run lifecycle with pinned original third-trade evidence
+        run: python -B tools/audit_chanlun_primitive_run_lifecycle.py
+      - name: Reject false completed centers, causal leaks and illegal downstream casts
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_primitive_run_lifecycle.py' -v
+      - name: Validate author p291 sufficient lowest-center definition in synthetic events
+        run: python -B tools/audit_chanlun35_author_base_center_axiom.py
+      - name: Deny forging actual executions, completed trends or recursive center promotion
+        run: python -B -m unittest discover -s tests -p 'test_chanlun35_author_base_center_axiom.py' -v
+      - name: Compute conditional lowest-center price rankings directly from original trade events
+        run: python -B tools/audit_chanlun35_event_center_price_order.py
+      - name: Reject manual center ranking, initial equality guess and false completed type
+        run: python -B -m unittest discover -s tests -p 'test_chanlun35_event_derived_center_price_order.py' -v
+      - name: Check authored Zn overlap extension and raw center identity scope
+        run: python -B tools/audit_chanlun20_center_extension_membership_gate.py
+      - name: Deny forged author membership, completed trends and point-touch proof
+        run: python -B -m unittest discover -s tests -p 'test_chanlun20_center_extension_membership_gate.py' -v
+      - name: Reconcile 108 SOURCE cards and exact generated whole-book atlas
+        run: python -B tools/audit_chanlun_whole_book_integrated.py --check-atlas
+      - name: Check 108 lesson source links, provenance boundaries and unified study
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_whole_book_integrated.py' -v
+      - name: Audit 16 original source-linked cross-lesson theory deductions
+        run: python -B tools/audit_chanlun_theory_second_pass.py
+      - name: Protect second-pass theory proof limits from unsupported promotions
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_deep_theory_second_pass.py' -v
+      - name: Verify full-book 16 historical theory tensions against original SOURCE cards
+        run: python -B tools/audit_chanlun_crosslesson_consistency.py
+      - name: Reject false author contradiction, retroactive pen and toy proof upgrades
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_crosslesson_consistency.py' -v
+      - name: Audit exact source-pinned 108 chapter logic atlas and open frontiers
+        run: python -B tools/audit_chanlun_fullbook_logical_spine.py --check-atlas
+      - name: Reject missing 108 logic chapters or false author proof dependencies
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_fullbook_logical_spine.py' -v
+      - name: Verify as-of-only visualization and matched-future branches (offline Node)
+        run: node tests/test_chanlun_asof_player.mjs
+      - name: Assemble offline materials from canonical originals in runner temp
+        shell: bash
+        run: python -B tools/build_book_acceptance_zip.py --spec deliverables/chanlun_108_acceptance/OFFLINE_PACKAGE_SPEC.json --out "$RUNNER_TEMP/Chanlun-108-clean-offline.zip"
+      - name: Upload temporary offline ZIP without copying files into git
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chanlun-108-clean-offline
+          path: ${{ runner.temp }}/Chanlun-108-clean-offline.zip
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 0

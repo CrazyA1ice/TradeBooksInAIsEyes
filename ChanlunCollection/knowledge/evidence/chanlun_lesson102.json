@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "lesson": 102,
+  "source": {
+    "volume": 5,
+    "path": "ChineseBooks/缠论/缠论_卷5.pdf",
+    "sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+    "original_date": "2008-03-06 16:10:18",
+    "pdf_pages": [
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268
+    ]
+  },
+  "quality": {
+    "physical_pages": 28,
+    "native_chars": 17334,
+    "image_pages": [
+      249,
+      251,
+      253,
+      254,
+      258,
+      259,
+      261,
+      263,
+      267
+    ],
+    "rendered_previews": [
+      242,
+      248,
+      259,
+      266
+    ],
+    "actually_inspected_pages": [
+      242
+    ],
+    "fine_chart_numeric_verified": false
+  },
+  "claims": [
+    {
+      "id": "CL102-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        241
+      ],
+      "summary": "作者把走势递归唯一分解类比自然数的进位记数法。"
+    },
+    {
+      "id": "CL102-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        241,
+        242
+      ],
+      "summary": "作者认为级别递归使跨级别区间套定位买卖点成为可能。"
+    },
+    {
+      "id": "CL102-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        242
+      ],
+      "summary": "作者提出1、5、30分钟级别分解的表示方式。"
+    },
+    {
+      "id": "CL102-EDITORIAL-4",
+      "kind": "EDITORIAL",
+      "volume": 5,
+      "pdf_pages": [
+        242
+      ],
+      "summary": "娇注解释a和A等记号，与原作者数学主张分开。"
+    },
+    {
+      "id": "CL102-INTERPRETATION-5",
+      "kind": "INTERPRETATION",
+      "volume": 5,
+      "pdf_pages": [
+        241,
+        242
+      ],
+      "summary": "固定递归算法与对任意行情输入的唯一合法分解需要分别证明。"
+    },
+    {
+      "id": "CL102-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 5,
+      "pdf_pages": [
+        241,
+        242
+      ],
+      "summary": "数学分类完备不构成历史可成交和交易获利保证。"
+    },
+    {
+      "id": "CL102-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 5,
+      "pdf_pages": [
+        241,
+        242
+      ],
+      "summary": "完整唯一性及在线不前视性质仍需可复算解析器和反例验证。",
+      "test_status": "not_tested"
+    }
+  ],
+  "real_market_backtest": "not_run",
+  "limitations": [
+    "Dated original author prose and later commentary/editor notes are not combined.",
+    "Historical price labels and exact chart values have not been independently verified.",
+    "Synthetic contracts are not complete market parsers or empirical profit proofs."
+  ]
+}

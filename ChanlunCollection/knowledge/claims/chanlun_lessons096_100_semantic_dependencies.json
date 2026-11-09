@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "graph_id": "CHANLUN-LESSONS-096-100-SOURCE-CHALLENGE-20261108",
+  "description": "Additive source-locked behavioral, evidence-gate, regrouping and author/editor dispute extension; prior graphs untouched.",
+  "source_pdf_sha256_by_volume": {
+    "5": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65"
+  },
+  "references": [
+    "knowledge/claims/chanlun_early_core_dependencies.json",
+    "knowledge/claims/chanlun_lessons066_070_crossvolume_dependencies.json",
+    "knowledge/claims/chanlun_lessons071_075_semantic_dependencies.json",
+    "knowledge/claims/chanlun_lessons076_080_semantic_dependencies.json",
+    "knowledge/claims/chanlun_lessons081_085_semantic_dependencies.json",
+    "knowledge/claims/chanlun_lessons086_090_crossvolume_dependencies.json",
+    "knowledge/claims/chanlun_lessons091_095_semantic_dependencies.json"
+  ],
+  "nodes": [
+    {
+      "id": "L96-BEHAVIORAL-ANCHOR",
+      "claim": "Author criticizes gambling anchors, fear of missing out, chasing and uncontrolled capital additions; no empirical proof of guaranteed profitability",
+      "source": {
+        "volume": 5,
+        "pdf_pages": [
+          155,
+          156
+        ]
+      },
+      "status": "original_author_behavior_claim_ai_decision_provenance"
+    },
+    {
+      "id": "L97-THEORY-OBSERVE-ACT",
+      "claim": "Author's medical/strategy analogies distinguish theoretical classification, observation and actionable implementation with different evidence requirements",
+      "source": {
+        "volume": 5,
+        "pdf_pages": [
+          172,
+          173
+        ]
+      },
+      "status": "author_three_phase_analogy_ai_evidence_gates"
+    },
+    {
+      "id": "L98-ASOF-CONDITIONAL-PLAN",
+      "claim": "Author advocates conditional post-divergence plans without guessing which future branch will happen and notes T+1 execution limits",
+      "source": {
+        "volume": 5,
+        "pdf_pages": [
+          192,
+          194
+        ]
+      },
+      "status": "author_classification_claim_ai_no_future_leak"
+    },
+    {
+      "id": "L99-IMMUTABLE-MIDDLE-REGROUP",
+      "claim": "Author invokes associative resegmentation to retain valid centers across undefined middle period, requiring distinct as-of and hindsight views",
+      "source": {
+        "volume": 5,
+        "pdf_pages": [
+          202,
+          203
+        ]
+      },
+      "status": "author_center_necessity_claim_not_independently_proven"
+    },
+    {
+      "id": "L100-AUTHOR-EDITOR-BRANCH-DISPUTE",
+      "claim": "Author two-way fifth-minute third-sell branches coexist with later editorial claim that actual trajectory fell outside the original two-way account",
+      "source": {
+        "volume": 5,
+        "pdf_pages": [
+          224,
+          225
+        ]
+      },
+      "status": "original_author_and_later_editor_conflict_unresolved"
+    }
+  ],
+  "edges": [
+    {
+      "from": "L96-BEHAVIORAL-ANCHOR",
+      "to": "L95-RECOVERED-PRINCIPAL-RISK",
+      "type": "behavioral_budget_consequence_of_investment_risk",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L96-BEHAVIORAL-ANCHOR",
+      "to": "L93-POLICY-VS-OBSERVATION",
+      "type": "risk_policy_must_not_be_derived_from_unverified_personal_price_target",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L97-THEORY-OBSERVE-ACT",
+      "to": "L94-TPLUS1-FILL-GATE",
+      "type": "knowledge_of_buy_sell_signal_does_not_imply_actual_execution",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L97-THEORY-OBSERVE-ACT",
+      "to": "L91-FOUR-STATE-PEN",
+      "type": "formal_theory_needs_live_observation_to_assign_pen_state",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L98-ASOF-CONDITIONAL-PLAN",
+      "to": "L97-THEORY-OBSERVE-ACT",
+      "type": "conditional_branch_receives_evidence_then_approved_policy",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L98-ASOF-CONDITIONAL-PLAN",
+      "to": "L94-TPLUS1-FILL-GATE",
+      "type": "same_day_unsettled_sell_is_not_a_market_fill",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L99-IMMUTABLE-MIDDLE-REGROUP",
+      "to": "L88-MIDDLE-TRANSITION",
+      "type": "middle_state_needs_pending_structural_confirmation",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L99-IMMUTABLE-MIDDLE-REGROUP",
+      "to": "L89-CENTER-ONTOLOGY",
+      "type": "center_structure_and_completed_movement_type_remain_distinct",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L99-IMMUTABLE-MIDDLE-REGROUP",
+      "to": "L78-IMMUTABLE-PROJECTION",
+      "type": "derived_higher_view_must_not_overwrite_original_segment_history",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L100-AUTHOR-EDITOR-BRANCH-DISPUTE",
+      "to": "L98-ASOF-CONDITIONAL-PLAN",
+      "type": "theory_classification_must_admit_unresolved_or_outside_observed_trajectories",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L100-AUTHOR-EDITOR-BRANCH-DISPUTE",
+      "to": "L74-POLICY-DISPUTE",
+      "type": "retain_author_and_editorial_claims_separately",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L100-AUTHOR-EDITOR-BRANCH-DISPUTE",
+      "to": "L81-PEN-VERSION",
+      "type": "explicit_source_date_and_data_version_needed_before_adjudication",
+      "certainty": "ai_analysis"
+    }
+  ]
+}

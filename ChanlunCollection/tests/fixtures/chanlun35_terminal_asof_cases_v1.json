@@ -1,0 +1,487 @@
+{
+  "schema_version": 1,
+  "contract_id": "CL35-LOWEST-LEVEL-TREND-TERMINAL-CONDITIONAL-V1",
+  "synthetic_only": true,
+  "cases": [
+    {
+      "id": "up_continue",
+      "input": {
+        "kind": "SYNTHETIC_DECLARED_LOWEST_CENTERS_NOT_MARKET",
+        "direction": "UP",
+        "as_of": "2007-03-09T09:10:00+00:00",
+        "events": [
+          {
+            "ordinal": 1,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "BASE",
+            "seen_at": "2007-03-09T09:00:00+00:00",
+            "confirmed_at": "2007-03-09T09:00:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          },
+          {
+            "ordinal": 2,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "HIGHER",
+            "seen_at": "2007-03-09T09:01:00+00:00",
+            "confirmed_at": "2007-03-09T09:01:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          },
+          {
+            "ordinal": 3,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "HIGHER",
+            "seen_at": "2007-03-09T09:02:00+00:00",
+            "confirmed_at": "2007-03-09T09:02:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          }
+        ]
+      },
+      "expected": {
+        "status": "CONTINUATION_ONLY_NO_TERMINATION_CONFIRMATION",
+        "used": 3,
+        "terminal_ordinal": null,
+        "legally_completed": false
+      }
+    },
+    {
+      "id": "up_equal_third",
+      "input": {
+        "kind": "SYNTHETIC_DECLARED_LOWEST_CENTERS_NOT_MARKET",
+        "direction": "UP",
+        "as_of": "2007-03-09T09:10:00+00:00",
+        "events": [
+          {
+            "ordinal": 1,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "BASE",
+            "seen_at": "2007-03-09T09:00:00+00:00",
+            "confirmed_at": "2007-03-09T09:00:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          },
+          {
+            "ordinal": 2,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "HIGHER",
+            "seen_at": "2007-03-09T09:01:00+00:00",
+            "confirmed_at": "2007-03-09T09:01:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          },
+          {
+            "ordinal": 3,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "EQUAL",
+            "seen_at": "2007-03-09T09:02:00+00:00",
+            "confirmed_at": "2007-03-09T09:02:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          }
+        ]
+      },
+      "expected": {
+        "status": "AUTHOR_TERMINAL_COMPARISON_TRIGGER_ONLY",
+        "used": 3,
+        "terminal_ordinal": 3,
+        "legally_completed": false
+      }
+    },
+    {
+      "id": "up_lower_third",
+      "input": {
+        "kind": "SYNTHETIC_DECLARED_LOWEST_CENTERS_NOT_MARKET",
+        "direction": "UP",
+        "as_of": "2007-03-09T09:10:00+00:00",
+        "events": [
+          {
+            "ordinal": 1,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "BASE",
+            "seen_at": "2007-03-09T09:00:00+00:00",
+            "confirmed_at": "2007-03-09T09:00:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          },
+          {
+            "ordinal": 2,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "HIGHER",
+            "seen_at": "2007-03-09T09:01:00+00:00",
+            "confirmed_at": "2007-03-09T09:01:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          },
+          {
+            "ordinal": 3,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "LOWER",
+            "seen_at": "2007-03-09T09:02:00+00:00",
+            "confirmed_at": "2007-03-09T09:02:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          }
+        ]
+      },
+      "expected": {
+        "status": "AUTHOR_TERMINAL_COMPARISON_TRIGGER_ONLY",
+        "used": 3,
+        "terminal_ordinal": 3,
+        "legally_completed": false
+      }
+    },
+    {
+      "id": "down_continue",
+      "input": {
+        "kind": "SYNTHETIC_DECLARED_LOWEST_CENTERS_NOT_MARKET",
+        "direction": "DOWN",
+        "as_of": "2007-03-09T09:10:00+00:00",
+        "events": [
+          {
+            "ordinal": 1,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "BASE",
+            "seen_at": "2007-03-09T09:00:00+00:00",
+            "confirmed_at": "2007-03-09T09:00:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          },
+          {
+            "ordinal": 2,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "LOWER",
+            "seen_at": "2007-03-09T09:01:00+00:00",
+            "confirmed_at": "2007-03-09T09:01:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          },
+          {
+            "ordinal": 3,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "LOWER",
+            "seen_at": "2007-03-09T09:02:00+00:00",
+            "confirmed_at": "2007-03-09T09:02:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          }
+        ]
+      },
+      "expected": {
+        "status": "CONTINUATION_ONLY_NO_TERMINATION_CONFIRMATION",
+        "used": 3,
+        "terminal_ordinal": null,
+        "legally_completed": false
+      }
+    },
+    {
+      "id": "down_equal_third",
+      "input": {
+        "kind": "SYNTHETIC_DECLARED_LOWEST_CENTERS_NOT_MARKET",
+        "direction": "DOWN",
+        "as_of": "2007-03-09T09:10:00+00:00",
+        "events": [
+          {
+            "ordinal": 1,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "BASE",
+            "seen_at": "2007-03-09T09:00:00+00:00",
+            "confirmed_at": "2007-03-09T09:00:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          },
+          {
+            "ordinal": 2,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "LOWER",
+            "seen_at": "2007-03-09T09:01:00+00:00",
+            "confirmed_at": "2007-03-09T09:01:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          },
+          {
+            "ordinal": 3,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "EQUAL",
+            "seen_at": "2007-03-09T09:02:00+00:00",
+            "confirmed_at": "2007-03-09T09:02:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          }
+        ]
+      },
+      "expected": {
+        "status": "AUTHOR_TERMINAL_COMPARISON_TRIGGER_ONLY",
+        "used": 3,
+        "terminal_ordinal": 3,
+        "legally_completed": false
+      }
+    },
+    {
+      "id": "down_higher_third",
+      "input": {
+        "kind": "SYNTHETIC_DECLARED_LOWEST_CENTERS_NOT_MARKET",
+        "direction": "DOWN",
+        "as_of": "2007-03-09T09:10:00+00:00",
+        "events": [
+          {
+            "ordinal": 1,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "BASE",
+            "seen_at": "2007-03-09T09:00:00+00:00",
+            "confirmed_at": "2007-03-09T09:00:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          },
+          {
+            "ordinal": 2,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "LOWER",
+            "seen_at": "2007-03-09T09:01:00+00:00",
+            "confirmed_at": "2007-03-09T09:01:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          },
+          {
+            "ordinal": 3,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "HIGHER",
+            "seen_at": "2007-03-09T09:02:00+00:00",
+            "confirmed_at": "2007-03-09T09:02:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          }
+        ]
+      },
+      "expected": {
+        "status": "AUTHOR_TERMINAL_COMPARISON_TRIGGER_ONLY",
+        "used": 3,
+        "terminal_ordinal": 3,
+        "legally_completed": false
+      }
+    },
+    {
+      "id": "third_unverified_relative_height",
+      "input": {
+        "kind": "SYNTHETIC_DECLARED_LOWEST_CENTERS_NOT_MARKET",
+        "direction": "UP",
+        "as_of": "2007-03-09T09:10:00+00:00",
+        "events": [
+          {
+            "ordinal": 1,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "BASE",
+            "seen_at": "2007-03-09T09:00:00+00:00",
+            "confirmed_at": "2007-03-09T09:00:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          },
+          {
+            "ordinal": 2,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "HIGHER",
+            "seen_at": "2007-03-09T09:01:00+00:00",
+            "confirmed_at": "2007-03-09T09:01:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          },
+          {
+            "ordinal": 3,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "UNKNOWN",
+            "seen_at": "2007-03-09T09:02:00+00:00",
+            "confirmed_at": "2007-03-09T09:02:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          }
+        ]
+      },
+      "expected": {
+        "status": "CENTER_RELATIVE_HEIGHT_UNRESOLVED",
+        "used": 3,
+        "terminal_ordinal": null,
+        "legally_completed": false
+      }
+    },
+    {
+      "id": "two_centers_not_trend",
+      "input": {
+        "kind": "SYNTHETIC_DECLARED_LOWEST_CENTERS_NOT_MARKET",
+        "direction": "UP",
+        "as_of": "2007-03-09T09:10:00+00:00",
+        "events": [
+          {
+            "ordinal": 1,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "BASE",
+            "seen_at": "2007-03-09T09:00:00+00:00",
+            "confirmed_at": "2007-03-09T09:00:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          },
+          {
+            "ordinal": 2,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "EQUAL",
+            "seen_at": "2007-03-09T09:01:00+00:00",
+            "confirmed_at": "2007-03-09T09:01:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          }
+        ]
+      },
+      "expected": {
+        "status": "TWO_CENTER_TREND_NOT_QUALIFIED",
+        "used": 2,
+        "terminal_ordinal": null,
+        "legally_completed": false
+      }
+    },
+    {
+      "id": "third_not_confirmed",
+      "input": {
+        "kind": "SYNTHETIC_DECLARED_LOWEST_CENTERS_NOT_MARKET",
+        "direction": "UP",
+        "as_of": "2007-03-09T09:10:00+00:00",
+        "events": [
+          {
+            "ordinal": 1,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "BASE",
+            "seen_at": "2007-03-09T09:00:00+00:00",
+            "confirmed_at": "2007-03-09T09:00:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          },
+          {
+            "ordinal": 2,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "HIGHER",
+            "seen_at": "2007-03-09T09:01:00+00:00",
+            "confirmed_at": "2007-03-09T09:01:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          },
+          {
+            "ordinal": 3,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "LOWER",
+            "seen_at": "2007-03-09T09:02:00+00:00",
+            "confirmed_at": "2007-03-09T09:25:00+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          }
+        ]
+      },
+      "expected": {
+        "status": "PENDING_CENTER_CONFIRMATION",
+        "used": 2,
+        "terminal_ordinal": null,
+        "legally_completed": false
+      }
+    },
+    {
+      "id": "future_fourth_cannot_leak",
+      "input": {
+        "kind": "SYNTHETIC_DECLARED_LOWEST_CENTERS_NOT_MARKET",
+        "direction": "UP",
+        "as_of": "2007-03-09T09:02:40+00:00",
+        "events": [
+          {
+            "ordinal": 1,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "BASE",
+            "seen_at": "2007-03-09T09:00:00+00:00",
+            "confirmed_at": "2007-03-09T09:00:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          },
+          {
+            "ordinal": 2,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "HIGHER",
+            "seen_at": "2007-03-09T09:01:00+00:00",
+            "confirmed_at": "2007-03-09T09:01:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          },
+          {
+            "ordinal": 3,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "HIGHER",
+            "seen_at": "2007-03-09T09:02:00+00:00",
+            "confirmed_at": "2007-03-09T09:02:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          },
+          {
+            "ordinal": 4,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "LOWER",
+            "seen_at": "2007-03-09T09:03:00+00:00",
+            "confirmed_at": "2007-03-09T09:03:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          }
+        ]
+      },
+      "expected": {
+        "status": "CONTINUATION_ONLY_NO_TERMINATION_CONFIRMATION",
+        "used": 3,
+        "terminal_ordinal": null,
+        "legally_completed": false
+      }
+    },
+    {
+      "id": "insufficient_observation",
+      "input": {
+        "kind": "SYNTHETIC_DECLARED_LOWEST_CENTERS_NOT_MARKET",
+        "direction": "UP",
+        "as_of": "2007-03-09T09:00:40+00:00",
+        "events": [
+          {
+            "ordinal": 1,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "BASE",
+            "seen_at": "2007-03-09T09:00:00+00:00",
+            "confirmed_at": "2007-03-09T09:00:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          },
+          {
+            "ordinal": 2,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "HIGHER",
+            "seen_at": "2007-03-09T09:01:00+00:00",
+            "confirmed_at": "2007-03-09T09:01:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          }
+        ]
+      },
+      "expected": {
+        "status": "INSUFFICIENT_VISIBLE_CENTERS",
+        "used": 1,
+        "terminal_ordinal": null,
+        "legally_completed": false
+      }
+    },
+    {
+      "id": "earliest_third_terminal_not_rewritten",
+      "input": {
+        "kind": "SYNTHETIC_DECLARED_LOWEST_CENTERS_NOT_MARKET",
+        "direction": "UP",
+        "as_of": "2007-03-09T09:10:00+00:00",
+        "events": [
+          {
+            "ordinal": 1,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "BASE",
+            "seen_at": "2007-03-09T09:00:00+00:00",
+            "confirmed_at": "2007-03-09T09:00:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          },
+          {
+            "ordinal": 2,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "HIGHER",
+            "seen_at": "2007-03-09T09:01:00+00:00",
+            "confirmed_at": "2007-03-09T09:01:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          },
+          {
+            "ordinal": 3,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "EQUAL",
+            "seen_at": "2007-03-09T09:02:00+00:00",
+            "confirmed_at": "2007-03-09T09:02:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          },
+          {
+            "ordinal": 4,
+            "center_kind": "SYMBOLIC_CENTER_NOT_SOURCE_CERTIFIED",
+            "relation_to_previous": "HIGHER",
+            "seen_at": "2007-03-09T09:03:00+00:00",
+            "confirmed_at": "2007-03-09T09:03:30+00:00",
+            "rule_version": "FIXED_SYNTHETIC_VERSION"
+          }
+        ]
+      },
+      "expected": {
+        "status": "AUTHOR_TERMINAL_COMPARISON_TRIGGER_ONLY",
+        "used": 4,
+        "terminal_ordinal": 3,
+        "legally_completed": false
+      }
+    }
+  ]
+}

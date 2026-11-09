@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "graph_id": "CHANLUN-LESSONS-071-075-SEMANTIC-EXTENSION-20261107",
+  "description": "Separate graph for lessons 71–75; references 1–65 base and 66–70 extension without modifying immutable older CI contracts.",
+  "sources": {
+    "volume4_sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d"
+  },
+  "references": [
+    "knowledge/claims/chanlun_early_core_dependencies.json",
+    "knowledge/claims/chanlun_lessons066_070_crossvolume_dependencies.json"
+  ],
+  "nodes": [
+    {
+      "id": "L71-TYPED-FEATURE",
+      "claim": "Only strict elements of the same feature sequence may be containment-merged; tentative transition-side features may be auxiliary or unknown",
+      "source": {
+        "volume": 4,
+        "pdf_pages": [
+          71,
+          72
+        ]
+      },
+      "status": "author_original_and_ai_type_gate"
+    },
+    {
+      "id": "L72-DEFINITION-VERSION",
+      "claim": "Morphology vs dynamics and chapter 64 informal segment claims were later tightened by chapter 67 feature-sequence definitions",
+      "source": {
+        "volume": 4,
+        "pdf_pages": [
+          84,
+          85,
+          87
+        ]
+      },
+      "status": "author_original_with_editorial_scope_caveat"
+    },
+    {
+      "id": "L73-OPPORTUNITY-TAXONOMY",
+      "claim": "Center up-movement and center oscillation are author's structural opportunity types; they do not ensure actual after-cost positive profits",
+      "source": {
+        "volume": 4,
+        "pdf_pages": [
+          98,
+          99,
+          100
+        ]
+      },
+      "status": "author_structural_classification_ai_economic_qualification"
+    },
+    {
+      "id": "L74-POLICY-DISPUTE",
+      "claim": "Author calls policy risk nonsystematic while later editorial note challenges this as broad systematic risk",
+      "source": {
+        "volume": 4,
+        "pdf_pages": [
+          111,
+          112,
+          113
+        ]
+      },
+      "status": "original_editorial_direct_disagreement"
+    },
+    {
+      "id": "L75-UNVERIFIED-ANECDOTES",
+      "claim": "Self-described dream-like market opponent stories are unattributed narrative claims rather than independently verified trading events",
+      "source": {
+        "volume": 4,
+        "pdf_pages": [
+          121,
+          122,
+          123
+        ]
+      },
+      "status": "original_first_person_narrative_evidence_unverified"
+    }
+  ],
+  "edges": [
+    {
+      "from": "L71-TYPED-FEATURE",
+      "to": "L67-FEATURE-SEQUENCE",
+      "type": "refines_admissible_containment_domain",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L71-TYPED-FEATURE",
+      "to": "L67-OPPOSITE-CONFIRM",
+      "type": "treat_transition_elements_as_auxiliary_until_correctly_confirmed",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L71-TYPED-FEATURE",
+      "to": "L65-ORDERED-CONTAINMENT",
+      "type": "typed_feature_sequence_gate_does_not_remove_ordered_low_level_containment",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L72-DEFINITION-VERSION",
+      "to": "L62-REVISED-PEN",
+      "type": "course_revision_requires_explicit_version_metadata",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L72-DEFINITION-VERSION",
+      "to": "L67-FEATURE-SEQUENCE",
+      "type": "author_identifies_later_feature_definition_as_stricter_than_earlier_lessons",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L73-OPPORTUNITY-TAXONOMY",
+      "to": "L70-CENTER-BRANCH",
+      "type": "new_center_rise_requires_confirmed_branch_and_market_executability",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L73-OPPORTUNITY-TAXONOMY",
+      "to": "L48-COST-RISK",
+      "type": "zero_accounting_cost_not_zero_remaining_market_value_at_risk",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L74-POLICY-DISPUTE",
+      "to": "L56-GAP-ASOF",
+      "type": "policy_shock_may_make_theoretical_sell_unexecutable",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L75-UNVERIFIED-ANECDOTES",
+      "to": "L66-MULTIAGENT",
+      "type": "multiagent_claim_does_not_prove_specific_actor_behavior",
+      "certainty": "ai_analysis"
+    }
+  ]
+}

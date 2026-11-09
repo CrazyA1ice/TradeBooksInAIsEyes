@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "lesson": 100,
+  "source": {
+    "volume": 5,
+    "path": "ChineseBooks/缠论/缠论_卷5.pdf",
+    "sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+    "original_date": "2008-02-25 16:32:23",
+    "pdf_pages": [
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232
+    ]
+  },
+  "quality": {
+    "physical_pages": 9,
+    "native_chars": 8865,
+    "image_pages": [],
+    "rendered_previews": [
+      225,
+      230
+    ],
+    "actually_inspected_pages": [
+      225
+    ],
+    "precise_chart_numbers_verified": false
+  },
+  "claims": [
+    {
+      "id": "CL100-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        224
+      ],
+      "summary": "作者提出不同级别的多层完整分类和资金能力匹配。"
+    },
+    {
+      "id": "CL100-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        224,
+        225
+      ],
+      "summary": "作者按5分钟第三卖点成立与否划分后续分支。"
+    },
+    {
+      "id": "CL100-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        225
+      ],
+      "summary": "作者主张无法应对全部可能路径则应放弃或缩小参与。"
+    },
+    {
+      "id": "CL100-EDITORIAL-4",
+      "kind": "EDITORIAL",
+      "volume": 5,
+      "pdf_pages": [
+        224
+      ],
+      "summary": "娇注对5分钟中枢与30分钟扩展的关系作后期解释。"
+    },
+    {
+      "id": "CL100-EDITORIAL-5",
+      "kind": "EDITORIAL",
+      "volume": 5,
+      "pdf_pages": [
+        225
+      ],
+      "summary": "娇注称后续实际走势未落入作者的原始二分描述。"
+    },
+    {
+      "id": "CL100-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 5,
+      "pdf_pages": [
+        224,
+        225
+      ],
+      "summary": "作者原文分支与后期评论不能无独立核验合并为确定事实。"
+    },
+    {
+      "id": "CL100-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 5,
+      "pdf_pages": [
+        224,
+        225
+      ],
+      "summary": "实际行情是否构成真实原始分支反例尚未验证。",
+      "test_status": "not_tested"
+    }
+  ],
+  "real_market_backtest": "not_run",
+  "limitations": [
+    "Original author and later editorial/date-separated materials are not interchangeable",
+    "Exact figure and price data not independently checked",
+    "Synthetic logic not actual Chanlun parser or market validation"
+  ]
+}

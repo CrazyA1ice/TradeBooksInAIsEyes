@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "lesson": 92,
+  "source": {
+    "volume": 5,
+    "path": "ChineseBooks/缠论/缠论_卷5.pdf",
+    "sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+    "original_date": "2007-12-27 20:31:33",
+    "pdf_pages": [
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123
+    ],
+    "first_starred_divider_candidate": null
+  },
+  "quality": {
+    "physical_pages": 31,
+    "native_chars": 13404,
+    "image_pages": [
+      93,
+      94,
+      96,
+      97,
+      98,
+      100,
+      102,
+      104,
+      106,
+      107,
+      108,
+      109,
+      110,
+      112,
+      113,
+      114,
+      116,
+      120,
+      122
+    ],
+    "rendered_pages": [
+      94,
+      103,
+      114
+    ],
+    "visually_inspected_pages": [
+      94
+    ],
+    "precise_chart_prices_verified": false
+  },
+  "claims": [
+    {
+      "id": "CL92-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        93
+      ],
+      "summary": "作者定义中枢中轴Z及每个次级震荡的中点Zn作为强弱监视器。"
+    },
+    {
+      "id": "CL92-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        94
+      ],
+      "summary": "作者明确承认Zn越出A/B不充分构成第三类买卖点。"
+    },
+    {
+      "id": "CL92-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        95
+      ],
+      "summary": "作者讨论Zn缓慢抬高和楔形变盘风险。"
+    },
+    {
+      "id": "CL92-SOURCE-4",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        96
+      ],
+      "summary": "作者提出用Zn相对平滑性辅助估计后续震荡范围。"
+    },
+    {
+      "id": "CL92-EDITORIAL-5",
+      "kind": "EDITORIAL",
+      "volume": 5,
+      "pdf_pages": [
+        95
+      ],
+      "summary": "娇注与其他形态理论类比不等于作者首发正文。"
+    },
+    {
+      "id": "CL92-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 5,
+      "pdf_pages": [
+        93,
+        96
+      ],
+      "summary": "中点相对中心位置不足以推导完成结构或方向盈利保证。"
+    },
+    {
+      "id": "CL92-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 5,
+      "pdf_pages": [
+        93,
+        96
+      ],
+      "summary": "Zn预警的误报、增量预测与市场净收益尚待验证。",
+      "test_status": "not_tested"
+    }
+  ],
+  "market_backtest": "not_run",
+  "provenance_limitation": "Physical lesson page range includes later separate posts/editorial insertions."
+}
