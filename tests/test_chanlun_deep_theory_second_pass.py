@@ -54,9 +54,8 @@ class WholeBookDeepTheoryTests(unittest.TestCase):
 
     def test_recursion_associativity_is_not_uniqueness_proof(self):
         for x in ("结合律","[ab]","[a][b]","OB38-UNIQUE","OB38-ASOF",
-                  "不存在任何第二种合法","固定同级别"):
-            self.assertTrue(x in self.essay or
-                (x=="不存在任何第二种合法" and "没有其他合法解析" in self.essay))
+                  "最多只有一个有效解析","固定同级别"):
+            self.assertIn(x,self.essay)
 
     def test_versioned_pen_segment_and_theory_self_isomorphism_separated(self):
         for x in ("f1(a0)=a1","f2(an)=an+1","双射",
@@ -90,7 +89,7 @@ class WholeBookDeepTheoryTests(unittest.TestCase):
         self.assertGreaterEqual(len(refs),45)
 
     def test_no_presumption_that_first_pass_source_label_is_independently_authenticated(self):
-        self.assertIn("不自动给它归原发作者",self.essay)
+        self.assertIn("不能自动给它归原发作者",self.essay)
         self.assertIn("不是冒充作者当年的原文定理",self.essay)
         self.assertIn("部分页面",self.essay)
 
