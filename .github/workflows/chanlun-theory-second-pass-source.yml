@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - "tools/inspect_chanlun_theory_second_pass_native.py"
+      - "reports/source_inventory/chanlun_theory_second_pass_native_text_sha256.json"
       - ".github/workflows/chanlun-theory-second-pass-source.yml"
       - "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_DEEP_THEORY_SECOND_PASS.md"
       - "catalog/chanlun_theory_argument_links_v1.json"
