@@ -5,6 +5,9 @@ on:
     paths:
       - "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_*"
       - "tools/audit_chanlun_whole_book_integrated.py"
+      - "tools/audit_chanlun_fullbook_logical_spine.py"
+      - "tests/test_chanlun_fullbook_logical_spine.py"
+      - "catalog/chanlun_108_fullbook_logical_spine_v1.json"
       - "tools/audit_chanlun_theory_second_pass.py"
       - "tests/test_chanlun_deep_theory_second_pass.py"
       - "catalog/chanlun_theory_argument_links_v1.json"
@@ -35,5 +38,9 @@ jobs:
         run: python -B tools/audit_chanlun_crosslesson_consistency.py
       - name: Test typed source/versions and 13 abstract countermodels
         run: python -B -m unittest discover -s tests -p "test_chanlun_crosslesson_consistency.py" -v
+      - name: Check 108 distinct reading roles and eight unproven theory frontiers
+        run: python -B tools/audit_chanlun_fullbook_logical_spine.py
+      - name: Preserve all source and conceptual graph constraints
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_fullbook_logical_spine.py' -v
       - name: Verify all 108 original-source record links and integrated manuscript
         run: python -B -m unittest discover -s tests -p "test_chanlun_whole_book_integrated.py" -v
