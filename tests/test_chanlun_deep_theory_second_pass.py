@@ -93,6 +93,16 @@ class WholeBookDeepTheoryTests(unittest.TestCase):
         self.assertIn("不是冒充作者当年的原文定理",self.essay)
         self.assertIn("部分页面",self.essay)
 
+    def test_18_native_original_pages_are_exactly_pinned_across_five_pdf_volumes(self):
+        pins=m.load(ROOT/"reports/source_inventory/chanlun_theory_second_pass_native_text_sha256.json")
+        self.assertEqual(pins["method"],"pymupdf_1.26.7_get_text_sort_true")
+        self.assertEqual(pins["original_pages_count"],18)
+        self.assertEqual(len(pins["original_pages_native_text_sha256"]),18)
+        self.assertEqual(set(pins["original_pdf_sha256"]),{"1","2","3","4","5"})
+        self.assertTrue(all(len(v)==64 for v in pins["original_pages_native_text_sha256"].values()))
+        self.assertFalse(pins["original_pdf_images_inspected"])
+        self.assertFalse(pins["real_market_data_read"])
+
     def test_full_book_main_index_links_second_pass(self):
         index=(ROOT/"deliverables/chanlun_108_acceptance/README.md").read_text(encoding="utf-8")
         self.assertIn(m.ESSAY.name,index)
