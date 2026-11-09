@@ -9,6 +9,9 @@ on:
       - "tools/audit_chanlun_f01_f02_third_point_boundary.py"
       - "tools/audit_chanlun_f01_typed_completion_obligations.py"
       - "tools/audit_chanlun_f01_segment_termination_reconciliation.py"
+      - "tools/audit_chanlun_f01_original_figure_provenance.py"
+      - "tests/test_chanlun_f01_original_figure_provenance.py"
+      - "catalog/chanlun_f01_source_figure_review_v1.json"
       - "tests/test_chanlun_f01_segment_termination_reconciliation.py"
       - "tests/fixtures/chanlun_f01_segment_termination_cases_v1.json"
       - "catalog/chanlun_f01_segment_termination_reconciliation_v1.json"
@@ -65,5 +68,9 @@ jobs:
         run: python -B tools/audit_chanlun_f01_segment_termination_reconciliation.py
       - name: Check typed membership, as-of opposite fractal, legal reverse and author-source scope
         run: python -B -m unittest discover -s tests -p 'test_chanlun_f01_segment_termination_reconciliation.py' -v
+      - name: Verify 18 actually viewed original PDF figure page records and correction chains
+        run: python -B tools/audit_chanlun_f01_original_figure_provenance.py
+      - name: Assert correction/date/confirmed-B source claims preserve all open theoretical gaps
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_f01_original_figure_provenance.py' -v
       - name: Verify all 108 original-source record links and integrated manuscript
         run: python -B -m unittest discover -s tests -p "test_chanlun_whole_book_integrated.py" -v
