@@ -35,6 +35,8 @@ on:
       - "tests/test_chanlun35_author_base_center_axiom.py"
       - "tests/test_chanlun35_event_derived_center_price_order.py"
       - "tests/test_chanlun20_center_extension_membership_gate.py"
+      - "tests/test_chanlun_whole_book_integrated.py"
+      - "tools/audit_chanlun_whole_book_integrated.py"
       - "tests/fixtures/chanlun20_center_extension_membership_cases_v1.json"
       - "tools/audit_chanlun20_center_extension_membership_gate.py"
       - "catalog/chanlun20_center_extension_membership_gate_v1.json"
@@ -152,6 +154,10 @@ jobs:
         run: python -B tools/audit_chanlun20_center_extension_membership_gate.py
       - name: Deny forged author membership, completed trends and point-touch proof
         run: python -B -m unittest discover -s tests -p 'test_chanlun20_center_extension_membership_gate.py' -v
+      - name: Reconcile 108 SOURCE cards and exact generated whole-book atlas
+        run: python -B tools/audit_chanlun_whole_book_integrated.py --check-atlas
+      - name: Check 108 lesson source links, provenance boundaries and unified study
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_whole_book_integrated.py' -v
       - name: Verify as-of-only visualization and matched-future branches (offline Node)
         run: node tests/test_chanlun_asof_player.mjs
       - name: Assemble offline materials from canonical originals in runner temp

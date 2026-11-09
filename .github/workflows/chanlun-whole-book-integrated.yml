@@ -1,0 +1,27 @@
+name: Chanlun 108-lesson unified continuous reading source coverage
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_*"
+      - "tools/audit_chanlun_whole_book_integrated.py"
+      - "tests/test_chanlun_whole_book_integrated.py"
+      - ".github/workflows/chanlun-whole-book-integrated.yml"
+      - "catalog/chanlun_lesson_index.json"
+      - "knowledge/evidence/chanlun_lesson*.json"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  all-108-source-provenance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Recompute 108 original SOURCE cards and verify exact committed atlas bytes
+        run: python -B tools/audit_chanlun_whole_book_integrated.py --check-atlas
+      - name: Verify all 108 original-source record links and integrated manuscript
+        run: python -B -m unittest discover -s tests -p "test_chanlun_whole_book_integrated.py" -v
