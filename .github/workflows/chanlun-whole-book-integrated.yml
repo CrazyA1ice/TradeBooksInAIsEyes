@@ -38,8 +38,8 @@ jobs:
         run: python -B tools/audit_chanlun_crosslesson_consistency.py
       - name: Test typed source/versions and 13 abstract countermodels
         run: python -B -m unittest discover -s tests -p "test_chanlun_crosslesson_consistency.py" -v
-      - name: Check 108 distinct reading roles and eight unproven theory frontiers
-        run: python -B tools/audit_chanlun_fullbook_logical_spine.py
+      - name: Check exact 108-lesson logical atlas and eight unproven theory frontiers
+        run: python -B tools/audit_chanlun_fullbook_logical_spine.py --check-atlas
       - name: Preserve all source and conceptual graph constraints
         run: python -B -m unittest discover -s tests -p 'test_chanlun_fullbook_logical_spine.py' -v
       - name: Verify all 108 original-source record links and integrated manuscript
