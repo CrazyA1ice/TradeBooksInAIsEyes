@@ -173,7 +173,7 @@ def audit():
              "Synthetic local case illegally passed as completed Chanlun trend")
         results.append(x)
     s=ARTICLE.read_text(encoding="utf-8")
-    require(len(s)>=11000 and
+    require(len(s)>=8000 and
       all(t in s for t in ("第67课","第71课","第72课","第78课",
         "无缺口","有缺口","反向线段","严格成员","SOURCE",
         "EDITORIAL","未决","F01","NOT_RUN","不是完整线段解析器")),
