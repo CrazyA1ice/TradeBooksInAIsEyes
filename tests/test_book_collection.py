@@ -22,7 +22,7 @@ class BookCollectionTests(unittest.TestCase):
 
     def test_registers_chanlun_and_has_per_book_folder(self):
         self.assertEqual(self.book["folder"],"ChanlunCollection")
-        self.assertRegex(self.book["workflow_version"],r"^4\\.[0-9]+\\.[0-9]+$")
+        self.assertRegex(self.book["workflow_version"],r"^4\.[0-9]+\.[0-9]+$")
         book_flow=(ROOT/"ChanlunCollection/WORKFLOW.md").read_text(encoding="utf-8")
         self.assertIn("v"+self.book["workflow_version"],book_flow)
         self.assertTrue(self.book["canonical_unchanged"])
