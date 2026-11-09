@@ -21,7 +21,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Recompute original source chapters and show 108-role logical atlas
-        run: python -B tools/audit_chanlun_fullbook_logical_spine.py --render
+      - name: Recompute source-grounded 108-role logical atlas and check exact bytes
+        run: python -B tools/audit_chanlun_fullbook_logical_spine.py --check-atlas
       - name: Reject falsely promoting conceptual links into global proof
         run: python -B -m unittest discover -s tests -p "test_chanlun_fullbook_logical_spine.py" -v
