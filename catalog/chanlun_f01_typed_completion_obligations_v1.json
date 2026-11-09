@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-F01-TYPED-COMPLETION-OBLIGATION-CHAIN-V1",
+  "scope": "SOURCE_PINNED_TYPE_TRANSITION_CONSTRAINTS_AND_PREFIX_NONIDENTIFIABILITY_NOT_A_COMPLETE_CHANLUN_PARSER",
+  "source_claims": [
+    {
+      "lesson": 17,
+      "claim_id": "CL017-S02",
+      "physical_pdf_page": 197,
+      "interpretive_role": "HIGHER_CENTER_REQUIRES_THREE_CONSECUTIVE_CHILD_TYPES",
+      "role": "SOURCE_IN_COMPILATION_NOT_INDEPENDENT_FIRST_PUBLICATION"
+    },
+    {
+      "lesson": 18,
+      "claim_id": "CL018-S01",
+      "physical_pdf_page": 234,
+      "interpretive_role": "CENTER_CONSTRUCTION_REQUIRES_FINISHED_LOWER_TYPES",
+      "role": "SOURCE_IN_COMPILATION_NOT_INDEPENDENT_FIRST_PUBLICATION"
+    },
+    {
+      "lesson": 18,
+      "claim_id": "CL018-S07",
+      "physical_pdf_page": 235,
+      "interpretive_role": "CAN_FINISH_IS_NOT_NOW_FINISHED",
+      "role": "SOURCE_IN_COMPILATION_NOT_INDEPENDENT_FIRST_PUBLICATION"
+    },
+    {
+      "lesson": 35,
+      "claim_id": "CL35-SO-2",
+      "physical_pdf_page": 291,
+      "interpretive_role": "THREE_SAME_PRICE_TRADES_BASE_CENTER_AXIOM",
+      "role": "SOURCE_IN_COMPILATION_NOT_INDEPENDENT_FIRST_PUBLICATION"
+    },
+    {
+      "lesson": 35,
+      "claim_id": "CL35-SO-3",
+      "physical_pdf_page": 291,
+      "interpretive_role": "THREE_FINISHED_LOWER_TYPES_RECURSIVE_CENTER",
+      "role": "SOURCE_IN_COMPILATION_NOT_INDEPENDENT_FIRST_PUBLICATION"
+    },
+    {
+      "lesson": 38,
+      "claim_id": "CL38-SOURCE-1",
+      "physical_pdf_page": 338,
+      "interpretive_role": "FIXED_LEVEL_PARSE_UNIQUENESS_ASSERTION_NOT_COMPLETE_RULE",
+      "role": "SOURCE_IN_COMPILATION_NOT_INDEPENDENT_FIRST_PUBLICATION"
+    },
+    {
+      "lesson": 62,
+      "claim_id": "CL62-SOURCE-3",
+      "physical_pdf_page": 293,
+      "interpretive_role": "PEN_CONSTRUCTION_AND_THREE_PEN_SEGMENT_THRESHOLD",
+      "role": "SOURCE_IN_COMPILATION_NOT_INDEPENDENT_FIRST_PUBLICATION"
+    },
+    {
+      "lesson": 67,
+      "claim_id": "CL67-SOURCE-3",
+      "physical_pdf_page": 388,
+      "interpretive_role": "SEGMENT_FEATURE_SEQUENCE_TWO_CONFIRMATION_CASES",
+      "role": "SOURCE_IN_COMPILATION_NOT_INDEPENDENT_FIRST_PUBLICATION"
+    },
+    {
+      "lesson": 71,
+      "claim_id": "CL71-SOURCE-1",
+      "physical_pdf_page": 71,
+      "interpretive_role": "STRICT_FEATURE_MEMBERSHIP_ONLY_WITHIN_SAME_SEQUENCE",
+      "role": "SOURCE_IN_COMPILATION_NOT_INDEPENDENT_FIRST_PUBLICATION"
+    },
+    {
+      "lesson": 71,
+      "claim_id": "CL71-SOURCE-4",
+      "physical_pdf_page": 72,
+      "interpretive_role": "AUXILIARY_FEATURE_ELEMENT_NOT_SEGMENT_MEMBER",
+      "role": "SOURCE_IN_COMPILATION_NOT_INDEPENDENT_FIRST_PUBLICATION"
+    },
+    {
+      "lesson": 78,
+      "claim_id": "CL78-SOURCE-1",
+      "physical_pdf_page": 174,
+      "interpretive_role": "SEGMENT_BREAK_REQUIRES_LEGAL_OPPOSITE_SEGMENT",
+      "role": "SOURCE_IN_COMPILATION_NOT_INDEPENDENT_FIRST_PUBLICATION"
+    },
+    {
+      "lesson": 78,
+      "claim_id": "CL78-SOURCE-2",
+      "physical_pdf_page": 175,
+      "interpretive_role": "PEN_BREAK_DOES_NOT_IMPLY_SEGMENT_BREAK",
+      "role": "SOURCE_IN_COMPILATION_NOT_INDEPENDENT_FIRST_PUBLICATION"
+    },
+    {
+      "lesson": 81,
+      "claim_id": "CL81-SOURCE-4",
+      "physical_pdf_page": 241,
+      "interpretive_role": "LATER_DATE_PEN_RULE_REVISION_NOT_RETROACTIVE",
+      "role": "SOURCE_IN_COMPILATION_NOT_INDEPENDENT_FIRST_PUBLICATION"
+    }
+  ],
+  "types": [
+    {
+      "id": "PRIMITIVE_TRADES",
+      "may_create": [
+        "BASE_CENTER_INSTANCE"
+      ],
+      "not_enough_for": [
+        "FINISHED_LOWER_TREND",
+        "SEGMENT_TERMINATION",
+        "HIGHER_CENTER"
+      ]
+    },
+    {
+      "id": "BASE_CENTER_INSTANCE",
+      "may_create": [
+        "CENTER_EXISTS_IN_ASSUMED_PRIMITIVE_STREAM"
+      ],
+      "not_enough_for": [
+        "FINISHED_LOWER_TREND",
+        "PARENT_COMPLETED"
+      ]
+    },
+    {
+      "id": "PEN_CONSTRUCTED",
+      "may_create": [
+        "PEN_GEOMETRY_CANDIDATE"
+      ],
+      "not_enough_for": [
+        "SEGMENT_COMPLETED",
+        "FINISHED_LOWER_TREND"
+      ]
+    },
+    {
+      "id": "FEATURE_FRACTAL_OBSERVED",
+      "may_create": [
+        "SEGMENT_BREAK_CANDIDATE"
+      ],
+      "not_enough_for": [
+        "SEGMENT_COMPLETED",
+        "FINISHED_LOWER_TREND"
+      ]
+    },
+    {
+      "id": "REVERSE_PEN_ONLY",
+      "may_create": [
+        "PEN_BREAK_OBSERVED"
+      ],
+      "not_enough_for": [
+        "LEGAL_OPPOSITE_SEGMENT",
+        "SEGMENT_COMPLETED"
+      ]
+    },
+    {
+      "id": "LEGAL_OPPOSITE_SEGMENT_ASSUMED",
+      "may_create": [
+        "SEGMENT_BREAK_CONDITIONAL_ON_ASSUMPTIONS"
+      ],
+      "not_enough_for": [
+        "FINISHED_LOWER_TREND",
+        "ACTUAL_AUTHOR_TRAJECTORY_COMPLETE"
+      ]
+    },
+    {
+      "id": "FINISHED_LOWER_TREND_ASSUMED",
+      "may_create": [
+        "CONDITIONAL_PARENT_CENTER_PRICE_OVERLAP"
+      ],
+      "not_enough_for": [
+        "AUTHOR_AUTHENTICATED_FINISHED_CHILD",
+        "REAL_MARKET_TREND_COMPLETE"
+      ]
+    },
+    {
+      "id": "AUTHOR_AUTHENTICATED_FINISHED_CHILD",
+      "may_create": [
+        "ELIGIBLE_CENTER_INPUT_IF_CONSECUTIVE_THREE_AND_OVERLAP"
+      ],
+      "not_enough_for": [
+        "CURRENT_PARENT_TREND_TERMINATED"
+      ]
+    },
+    {
+      "id": "THREE_CONSECUTIVE_FINISHED_CHILDREN",
+      "may_create": [
+        "PARENT_CENTER_DEFINITION_APPLIES_IF_INTERVALS_OVERLAP"
+      ],
+      "not_enough_for": [
+        "PARENT_TREND_TERMINATED",
+        "OB38_UNIQUE",
+        "OB99_UNIVERSAL"
+      ]
+    }
+  ],
+  "version_register": "catalog/chanlun_rule_history_v1.json",
+  "formal_readiness": "reports/source_inventory/chanlun_formal_proof_readiness_v1.json",
+  "upstream_third_point_contract": "catalog/chanlun_f01_f02_third_point_boundary_v1.json",
+  "canonical_pdf_index": "catalog/chanlun_lesson_index.json",
+  "proof_scenario_prerequisites": {
+    "base_center": [
+      "author_primitive_trade_assumption",
+      "three_consecutive_same_price_trades"
+    ],
+    "valid_pen": [
+      "frozen_pen_rule_version",
+      "valid_top_bottom_fractals",
+      "required_independent_k_lines"
+    ],
+    "segment_broken": [
+      "valid_segment_before_event",
+      "strict_feature_sequence_membership",
+      "two_case_gap_confirmation",
+      "legal_opposite_segment_as_applicable"
+    ],
+    "finished_lower_trend": [
+      "fixed_g_and_Rg",
+      "valid_source_trend_member_sequence",
+      "actual_completion_event",
+      "known_confirmation_asof",
+      "historically_attributable_rule_version"
+    ],
+    "parent_center": [
+      "three_consecutive_finished_lower_trends",
+      "same_lower_level",
+      "nonempty_interval_intersection",
+      "no_unauthorized_overlapping_members",
+      "sourced_actual_completion_certificates"
+    ]
+  },
+  "nonimplications": [
+    {
+      "from": "THREE_TRADES_BASE_CENTER",
+      "to": "FINISHED_LOWER_TREND",
+      "support": [
+        "CL35-SO-2",
+        "CL018-S07"
+      ]
+    },
+    {
+      "from": "THREE_PENS_LEGAL_SEGMENT_MINIMUM",
+      "to": "FINISHED_LOWER_TREND",
+      "support": [
+        "CL62-SOURCE-3",
+        "CL78-SOURCE-1"
+      ]
+    },
+    {
+      "from": "PEN_BREAK_OBSERVED",
+      "to": "SEGMENT_BROKEN",
+      "support": [
+        "CL78-SOURCE-2",
+        "CL78-SOURCE-1"
+      ]
+    },
+    {
+      "from": "FEATURE_FRACTAL_AUXILIARY",
+      "to": "STRICT_MEMBER",
+      "support": [
+        "CL71-SOURCE-1",
+        "CL71-SOURCE-4"
+      ]
+    },
+    {
+      "from": "LEGAL_SEGMENT_BROKEN",
+      "to": "FINISHED_LOWER_TREND",
+      "support": [
+        "CL78-SOURCE-1",
+        "CL018-S01"
+      ]
+    },
+    {
+      "from": "THREE_HYPOTHETIC_COMPLETED_CHILDREN",
+      "to": "ACTUAL_AUTHOR_PARENT_CENTER",
+      "support": [
+        "CL018-S01",
+        "CL35-SO-3"
+      ]
+    },
+    {
+      "from": "PARENT_CENTER_EXISTS",
+      "to": "PARENT_TREND_FINISHED_NOW",
+      "support": [
+        "CL018-S07"
+      ]
+    },
+    {
+      "from": "FINAL_PARSE_UNIQUE_HYPOTHESIS",
+      "to": "ONLINE_FIRST_CONFIRMATION_KNOWN",
+      "support": [
+        "CL38-SOURCE-1"
+      ]
+    }
+  ],
+  "prefix_argument": {
+    "name": "PREFIX_UNDETERMINATION_UNDER_AUTHOR_ALLOWED_EXTENSION",
+    "author_source": "CL018-S07",
+    "antecedent": "THE_SAME_OBSERVED_3_CHILD_CENTER_PREFIX_CAN_BE_EXTENDED_OR_ENDED_ACCORDING_TO_AUTHOR_TEXT",
+    "formal_consequence": "CURRENT_PREFIX_MEETING_MINIMAL_CENTER_THRESHOLD_ALONE_DOES_NOT_DETERMINE_UNIVERSAL_ACTUAL_END_TIMESTAMP",
+    "not_a_market_counterexample": true,
+    "not_proof_of_author_theory_inconsistency": true
+  },
+  "candidate_completion_certification_allowed": false,
+  "source_roles_independently_authenticated": false,
+  "all_canonical_pdf_images_reviewed": false,
+  "historical_asof_knowability_proven": false,
+  "full_Rg_frozen": false,
+  "OB38_unique_proven": false,
+  "OB99_future_proven": false,
+  "actual_market_data_accessed": false,
+  "backtests": "NOT_RUN"
+}

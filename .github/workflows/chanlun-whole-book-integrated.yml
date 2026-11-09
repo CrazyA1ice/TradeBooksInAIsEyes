@@ -7,6 +7,9 @@ on:
       - "tools/audit_chanlun_whole_book_integrated.py"
       - "tools/audit_chanlun_fullbook_logical_spine.py"
       - "tools/audit_chanlun_f01_f02_third_point_boundary.py"
+      - "tools/audit_chanlun_f01_typed_completion_obligations.py"
+      - "tests/test_chanlun_f01_typed_completion_obligations.py"
+      - "catalog/chanlun_f01_typed_completion_obligations_v1.json"
       - "tests/test_chanlun_f01_f02_third_point_boundary.py"
       - "catalog/chanlun_f01_f02_third_point_boundary_v1.json"
       - "tests/fixtures/chanlun_f01_f02_boundary_cases_v1.json"
@@ -50,5 +53,9 @@ jobs:
         run: python -B tools/audit_chanlun_f01_f02_third_point_boundary.py
       - name: Preserve inclusive boundary, source pins and no unearned center certification
         run: python -B -m unittest discover -s tests -p 'test_chanlun_f01_f02_third_point_boundary.py' -v
+      - name: Validate 13 source anchors, typed pen-segment-trend completion obligations and proof blocks
+        run: python -B tools/audit_chanlun_f01_typed_completion_obligations.py
+      - name: Check no falsely certified child trajectories or future-only source data
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_f01_typed_completion_obligations.py' -v
       - name: Verify all 108 original-source record links and integrated manuscript
         run: python -B -m unittest discover -s tests -p "test_chanlun_whole_book_integrated.py" -v
