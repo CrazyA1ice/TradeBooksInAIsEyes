@@ -85,8 +85,10 @@ def verify_and_collect():
             require(source and len({x["id"] for x in card["claims"]})==len(card["claims"]),
                     "Chapter missing original SOURCE anchors / duplicate claim IDs")
             first=source[0]
-            require(all(isinstance(p,int) and 1<=p<=vol["pdf_page_count"]
-                        for p in first["pdf_pages"]) and first["pdf_pages"],
+            first_pages=first.get("pdf_pages") or first.get("pages") or []
+            require(type(first_pages) is list and first_pages and
+                    all(type(p) is int and 1<=p<=vol["pdf_page_count"]
+                        for p in first_pages),
                     "Original claim lacks legal physical page")
             require(len(chapter.read_text(encoding="utf-8"))>300,
                     "Chapter has no first-pass research")
@@ -95,7 +97,7 @@ def verify_and_collect():
                 "page":item["start_pdf_page"],"pdf_path":vol["path"],
                 "pdf_sha256":vol["sha256"],"first_claim":first["id"],
                 "first_summary":inline(first.get("summary") or first.get("statement") or first.get("claim")),
-                "first_claim_pages":first["pdf_pages"],
+                "first_claim_pages":first_pages,
                 "source_claim_count":len(source),
                 "card_sha256":hashlib.sha256(card_bytes).hexdigest(),
             }
