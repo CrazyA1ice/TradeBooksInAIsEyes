@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "book": "chanlun",
+  "status": "first_batch_source_cued_not_independently_proof_verified",
+  "scope": "text_only",
+  "cards": [
+    {
+      "id": "CL-LAW-001",
+      "title": "克制主观偏好",
+      "category": "认识论",
+      "source_role": "AI_SYNTHESIS_BASED_ON_EXISTING_SOURCE_CARDS",
+      "source_lessons": [
+        1,
+        5,
+        32
+      ],
+      "source_cards": [
+        "knowledge/evidence/chanlun_lesson001.json",
+        "knowledge/evidence/chanlun_lesson005.json",
+        "knowledge/evidence/chanlun_lesson032.json"
+      ],
+      "thesis": "以可观察条件替代个人喜好。",
+      "method": "写明当下依据与失效条件。",
+      "limit": "行为主张不等于已验证普遍定律。",
+      "links_to": [
+        "CL-LAW-002",
+        "CL-LAW-012"
+      ],
+      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED"
+    },
+    {
+      "id": "CL-LAW-002",
+      "title": "先确定级别再划分走势",
+      "category": "结构方法",
+      "source_role": "AI_SYNTHESIS_BASED_ON_EXISTING_SOURCE_CARDS",
+      "source_lessons": [
+        15,
+        17,
+        18,
+        33
+      ],
+      "source_cards": [
+        "knowledge/evidence/chanlun_lesson015.json",
+        "knowledge/evidence/chanlun_lesson017.json",
+        "knowledge/evidence/chanlun_lesson018.json",
+        "knowledge/evidence/chanlun_lesson033.json"
+      ],
+      "thesis": "走势类型有级别和构件身份。",
+      "method": "固定级别、完成条件再分类。",
+      "limit": "多义性和唯一性仍需区分。",
+      "links_to": [
+        "CL-LAW-003",
+        "CL-LAW-011"
+      ],
+      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED"
+    },
+    {
+      "id": "CL-LAW-003",
+      "title": "中枢以合格次级走势重叠构成",
+      "category": "定义",
+      "source_role": "AI_SYNTHESIS_BASED_ON_EXISTING_SOURCE_CARDS",
+      "source_lessons": [
+        17,
+        18,
+        35
+      ],
+      "source_cards": [
+        "knowledge/evidence/chanlun_lesson017.json",
+        "knowledge/evidence/chanlun_lesson018.json",
+        "knowledge/evidence/chanlun_lesson035.json"
+      ],
+      "thesis": "已完成、连续同级子走势交集是定义前提；第35课有最低级别基例。",
+      "method": "先验证构件身份，后算交集。",
+      "limit": "交集不能反证构件完成；F01开放。",
+      "links_to": [
+        "CL-LAW-004",
+        "CL-LAW-005"
+      ],
+      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED"
+    },
+    {
+      "id": "CL-LAW-004",
+      "title": "中枢延伸、新生与扩展分开讨论",
+      "category": "结构方法",
+      "source_role": "AI_SYNTHESIS_BASED_ON_EXISTING_SOURCE_CARDS",
+      "source_lessons": [
+        18,
+        20,
+        35
+      ],
+      "source_cards": [
+        "knowledge/evidence/chanlun_lesson018.json",
+        "knowledge/evidence/chanlun_lesson020.json",
+        "knowledge/evidence/chanlun_lesson035.json"
+      ],
+      "thesis": "后续运行可维持旧结构、形成新结构或改变级别解释。",
+      "method": "分别核对旧关系、独立构件及级别条件。",
+      "limit": "价格回到区间不自动构成扩展。",
+      "links_to": [
+        "CL-LAW-005",
+        "CL-LAW-007"
+      ],
+      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED"
+    },
+    {
+      "id": "CL-LAW-005",
+      "title": "力度比较须有可比结构",
+      "category": "比较方法",
+      "source_role": "AI_SYNTHESIS_BASED_ON_EXISTING_SOURCE_CARDS",
+      "source_lessons": [
+        15,
+        24,
+        25,
+        27,
+        37
+      ],
+      "source_cards": [
+        "knowledge/evidence/chanlun_lesson015.json",
+        "knowledge/evidence/chanlun_lesson024.json",
+        "knowledge/evidence/chanlun_lesson025.json",
+        "knowledge/evidence/chanlun_lesson027.json",
+        "knowledge/evidence/chanlun_lesson037.json"
+      ],
+      "thesis": "背驰分析依赖同级可比走势；MACD只是辅助。",
+      "method": "先确定可比段和完成状态，再比较力度。",
+      "limit": "任意MACD背离不自动等于作者背驰。",
+      "links_to": [
+        "CL-LAW-006",
+        "CL-LAW-007"
+      ],
+      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED"
+    },
+    {
+      "id": "CL-LAW-006",
+      "title": "盘整背驰与趋势背驰语境不同",
+      "category": "分类方法",
+      "source_role": "AI_SYNTHESIS_BASED_ON_EXISTING_SOURCE_CARDS",
+      "source_lessons": [
+        15,
+        24,
+        27,
+        37
+      ],
+      "source_cards": [
+        "knowledge/evidence/chanlun_lesson015.json",
+        "knowledge/evidence/chanlun_lesson024.json",
+        "knowledge/evidence/chanlun_lesson027.json",
+        "knowledge/evidence/chanlun_lesson037.json"
+      ],
+      "thesis": "力度减弱要在盘整或趋势的不同结构背景下理解。",
+      "method": "先归类背景再讨论相应力度。",
+      "limit": "不可将两种背驰无证视作等价。",
+      "links_to": [
+        "CL-LAW-007"
+      ],
+      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED"
+    },
+    {
+      "id": "CL-LAW-007",
+      "title": "三类买卖点回答不同结构问题",
+      "category": "分类方法",
+      "source_role": "AI_SYNTHESIS_BASED_ON_EXISTING_SOURCE_CARDS",
+      "source_lessons": [
+        19,
+        20,
+        21,
+        108
+      ],
+      "source_cards": [
+        "knowledge/evidence/chanlun_lesson019.json",
+        "knowledge/evidence/chanlun_lesson020.json",
+        "knowledge/evidence/chanlun_lesson021.json",
+        "knowledge/evidence/chanlun_lesson108.json"
+      ],
+      "thesis": "转折、转折后回试、离开中枢后首次合格回试各有前提。",
+      "method": "分别审级别、结构和确认时点。",
+      "limit": "不必依次出现；买点非利润保证。",
+      "links_to": [
+        "CL-LAW-008",
+        "CL-LAW-010"
+      ],
+      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED"
+    },
+    {
+      "id": "CL-LAW-008",
+      "title": "区间套用于跨级别细化观察",
+      "category": "多级别方法",
+      "source_role": "AI_SYNTHESIS_BASED_ON_EXISTING_SOURCE_CARDS",
+      "source_lessons": [
+        27,
+        40,
+        44,
+        61
+      ],
+      "source_cards": [
+        "knowledge/evidence/chanlun_lesson027.json",
+        "knowledge/evidence/chanlun_lesson040.json",
+        "knowledge/evidence/chanlun_lesson044.json",
+        "knowledge/evidence/chanlun_lesson061.json"
+      ],
+      "thesis": "通过更小级别理解大级别候选变化。",
+      "method": "从大级别问题逐级下钻并返回验证。",
+      "limit": "小级别完成不替代大级别完成。",
+      "links_to": [
+        "CL-LAW-009",
+        "CL-LAW-011"
+      ],
+      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED"
+    },
+    {
+      "id": "CL-LAW-009",
+      "title": "当下可知与事后完整分解不同",
+      "category": "认识论",
+      "source_role": "AI_SYNTHESIS_BASED_ON_EXISTING_SOURCE_CARDS",
+      "source_lessons": [
+        18,
+        32,
+        33,
+        38,
+        61
+      ],
+      "source_cards": [
+        "knowledge/evidence/chanlun_lesson018.json",
+        "knowledge/evidence/chanlun_lesson032.json",
+        "knowledge/evidence/chanlun_lesson033.json",
+        "knowledge/evidence/chanlun_lesson038.json",
+        "knowledge/evidence/chanlun_lesson061.json"
+      ],
+      "thesis": "完整图中的最终分类不等于当时已知道端点。",
+      "method": "保留事件、首次确认和后来修订时钟。",
+      "limit": "时钟是AI研究工具；OB38尚未证。",
+      "links_to": [
+        "CL-LAW-010",
+        "CL-LAW-012"
+      ],
+      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED"
+    },
+    {
+      "id": "CL-LAW-010",
+      "title": "结构判断不替代仓位与风险决策",
+      "category": "决策方法",
+      "source_role": "AI_SYNTHESIS_BASED_ON_EXISTING_SOURCE_CARDS",
+      "source_lessons": [
+        9,
+        12,
+        13,
+        21,
+        31,
+        40
+      ],
+      "source_cards": [
+        "knowledge/evidence/chanlun_lesson009.json",
+        "knowledge/evidence/chanlun_lesson012.json",
+        "knowledge/evidence/chanlun_lesson013.json",
+        "knowledge/evidence/chanlun_lesson021.json",
+        "knowledge/evidence/chanlun_lesson031.json",
+        "knowledge/evidence/chanlun_lesson040.json"
+      ],
+      "thesis": "分析条件与持仓、资源和执行限制分属不同层。",
+      "method": "审现金、仓位、退出和执行条件。",
+      "limit": "任何三类点都不保证盈利。",
+      "links_to": [
+        "CL-LAW-012"
+      ],
+      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED"
+    },
+    {
+      "id": "CL-LAW-011",
+      "title": "多义性并非随意变更划分规则",
+      "category": "解释方法",
+      "source_role": "AI_SYNTHESIS_BASED_ON_EXISTING_SOURCE_CARDS",
+      "source_lessons": [
+        33,
+        36,
+        38,
+        102
+      ],
+      "source_cards": [
+        "knowledge/evidence/chanlun_lesson033.json",
+        "knowledge/evidence/chanlun_lesson036.json",
+        "knowledge/evidence/chanlun_lesson038.json",
+        "knowledge/evidence/chanlun_lesson102.json"
+      ],
+      "thesis": "不同观察级别与同规则唯一性不是同一命题。",
+      "method": "固定级别、历史版本、连接政策。",
+      "limit": "AI调和解释不等于作者证明。",
+      "links_to": [
+        "CL-LAW-009"
+      ],
+      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED"
+    },
+    {
+      "id": "CL-LAW-012",
+      "title": "操作纪律依赖条件变化而修正",
+      "category": "纪律",
+      "source_role": "AI_SYNTHESIS_BASED_ON_EXISTING_SOURCE_CARDS",
+      "source_lessons": [
+        7,
+        9,
+        12,
+        13,
+        31,
+        32,
+        93,
+        96,
+        98,
+        104
+      ],
+      "source_cards": [
+        "knowledge/evidence/chanlun_lesson007.json",
+        "knowledge/evidence/chanlun_lesson009.json",
+        "knowledge/evidence/chanlun_lesson012.json",
+        "knowledge/evidence/chanlun_lesson013.json",
+        "knowledge/evidence/chanlun_lesson031.json",
+        "knowledge/evidence/chanlun_lesson032.json",
+        "knowledge/evidence/chanlun_lesson093.json",
+        "knowledge/evidence/chanlun_lesson096.json",
+        "knowledge/evidence/chanlun_lesson098.json",
+        "knowledge/evidence/chanlun_lesson104.json"
+      ],
+      "thesis": "当下新证据应修正既有判断，而非维护偏好。",
+      "method": "容许待定、事先列出失效和风险敞口。",
+      "limit": "经验性原则未经市场证实。",
+      "links_to": [
+        "CL-LAW-001"
+      ],
+      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED"
+    }
+  ]
+}
