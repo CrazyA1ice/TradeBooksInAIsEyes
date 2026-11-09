@@ -175,8 +175,8 @@ jobs:
         run: python -B tools/audit_chanlun_crosslesson_consistency.py
       - name: Reject false author contradiction, retroactive pen and toy proof upgrades
         run: python -B -m unittest discover -s tests -p 'test_chanlun_crosslesson_consistency.py' -v
-      - name: Audit source-pinned all-108 chapter theory roles and unresolved frontiers
-        run: python -B tools/audit_chanlun_fullbook_logical_spine.py
+      - name: Audit exact source-pinned 108 chapter logic atlas and open frontiers
+        run: python -B tools/audit_chanlun_fullbook_logical_spine.py --check-atlas
       - name: Reject missing 108 logic chapters or false author proof dependencies
         run: python -B -m unittest discover -s tests -p 'test_chanlun_fullbook_logical_spine.py' -v
       - name: Verify as-of-only visualization and matched-future branches (offline Node)
