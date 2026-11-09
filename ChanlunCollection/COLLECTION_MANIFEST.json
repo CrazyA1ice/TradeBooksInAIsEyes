@@ -4257,7 +4257,7 @@
       "source_path": "tools/book_collection.py",
       "mirror_path": "ChanlunCollection/tools/book_collection.py",
       "git_blob_sha": "da6d042d9735d7586c16ab615de69cf320bacff2",
-      "size_bytes": 8967
+      "size_bytes": 8971
     },
     {
       "source_path": "tools/build_book_acceptance_zip.py",
