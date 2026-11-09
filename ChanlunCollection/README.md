@@ -10,6 +10,7 @@
 | **全书前后逻辑究竟如何贯通？** | **[108课逻辑主脊](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_LOGICAL_CONTINUITY.md)** |
 | **只想找到具体某一课及它的前因后果？** | **[108课逐课逻辑地图](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md)** |
 | **研究原作者如何证明各个定理？** | [第二轮理论深读](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_DEEP_THEORY_SECOND_PASS.md) |
+| **最新研究：第67、71、78课的线段终结条件能否真正贯通？** | **[F01：特征序列双分支、严格成员与反向线段证据对照](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_SEGMENT_TERMINATION_67_71_78.md)** |
 | **本轮最新研究：什么证据才允许说次级走势已经完成？** | **[F01：最低构造、笔线段破坏与走势完成的证明资格](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_COMPLETION_PROOF_OBLIGATIONS.md)** |
 | **最近一次研究：第18/20/35课“回试不破界”和中枢破坏到底有何不同？** | **[F01/F02：中枢、第三类点与边界的非等价性](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_F02_BOUNDARY_BRIDGE.md)** |
 | **有哪些前后矛盾、版本修正？** | [16组理论一致性审查](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_THEORY_CONSISTENCY.md) |

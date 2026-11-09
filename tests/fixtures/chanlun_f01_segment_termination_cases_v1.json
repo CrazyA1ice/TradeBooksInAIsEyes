@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "description": "Illustrative pre-standardized synthetic feature intervals, not author-validated legal segment, opposite fractal, or completed lower-level trend.",
+  "cases": [
+    {
+      "input": {
+        "id": "up_no_gap_local_only",
+        "direction": "UP",
+        "sequence_id": "epoch-1",
+        "as_of": 10,
+        "features": [
+          {
+            "index": 1,
+            "low": 0,
+            "high": 2,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 1
+          },
+          {
+            "index": 2,
+            "low": 1,
+            "high": 3,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 2
+          },
+          {
+            "index": 3,
+            "low": 0.5,
+            "high": 2,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 3
+          }
+        ],
+        "opposite_fractal": {
+          "externally_declared": false,
+          "confirmed_at": null
+        },
+        "reverse_segment": {
+          "externally_declared": false,
+          "confirmed_at": null
+        },
+        "source_version": "AUTHOR_2007_LOCAL_67_71_78_INTERPRETIVE_NOT_FULL_RULE"
+      },
+      "expected_status": "LOCAL_67_CONDITION_ONLY_REVERSE_SEGMENT_NOT_YET_EVIDENCED",
+      "expected_branch": "NO_GAP_LOCAL_FRACTAL",
+      "expected_local_at": 3
+    },
+    {
+      "input": {
+        "id": "up_no_gap_reverse_assumed",
+        "direction": "UP",
+        "sequence_id": "epoch-1",
+        "as_of": 10,
+        "features": [
+          {
+            "index": 1,
+            "low": 0,
+            "high": 2,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 1
+          },
+          {
+            "index": 2,
+            "low": 1,
+            "high": 3,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 2
+          },
+          {
+            "index": 3,
+            "low": 0.5,
+            "high": 2,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 3
+          }
+        ],
+        "opposite_fractal": {
+          "externally_declared": false,
+          "confirmed_at": null
+        },
+        "reverse_segment": {
+          "externally_declared": true,
+          "confirmed_at": 8
+        },
+        "source_version": "AUTHOR_2007_LOCAL_67_71_78_INTERPRETIVE_NOT_FULL_RULE"
+      },
+      "expected_status": "CONDITIONAL_78_REVERSE_SEGMENT_IF_EXTERNAL_LEGALITY_ACCEPTED_NOT_AUTHOR_CERTIFIED",
+      "expected_branch": "NO_GAP_LOCAL_FRACTAL",
+      "expected_local_at": 3
+    },
+    {
+      "input": {
+        "id": "up_gap_pending_opposite",
+        "direction": "UP",
+        "sequence_id": "epoch-1",
+        "as_of": 5,
+        "features": [
+          {
+            "index": 1,
+            "low": 0,
+            "high": 1,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 1
+          },
+          {
+            "index": 2,
+            "low": 2,
+            "high": 3,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 2
+          },
+          {
+            "index": 3,
+            "low": 1,
+            "high": 2,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 3
+          }
+        ],
+        "opposite_fractal": {
+          "externally_declared": false,
+          "confirmed_at": null
+        },
+        "reverse_segment": {
+          "externally_declared": false,
+          "confirmed_at": null
+        },
+        "source_version": "AUTHOR_2007_LOCAL_67_71_78_INTERPRETIVE_NOT_FULL_RULE"
+      },
+      "expected_status": "PENDING_OPPOSITE_FRACTAL_ASOF",
+      "expected_branch": "GAP_NEEDS_OPPOSITE_FRACTAL",
+      "expected_local_at": null
+    },
+    {
+      "input": {
+        "id": "up_gap_opposite_arrived_but_not_reverse",
+        "direction": "UP",
+        "sequence_id": "epoch-1",
+        "as_of": 7,
+        "features": [
+          {
+            "index": 1,
+            "low": 0,
+            "high": 1,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 1
+          },
+          {
+            "index": 2,
+            "low": 2,
+            "high": 3,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 2
+          },
+          {
+            "index": 3,
+            "low": 1,
+            "high": 2,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 3
+          }
+        ],
+        "opposite_fractal": {
+          "externally_declared": true,
+          "confirmed_at": 6
+        },
+        "reverse_segment": {
+          "externally_declared": false,
+          "confirmed_at": null
+        },
+        "source_version": "AUTHOR_2007_LOCAL_67_71_78_INTERPRETIVE_NOT_FULL_RULE"
+      },
+      "expected_status": "LOCAL_67_CONDITION_ONLY_REVERSE_SEGMENT_NOT_YET_EVIDENCED",
+      "expected_branch": "GAP_NEEDS_OPPOSITE_FRACTAL",
+      "expected_local_at": 6
+    },
+    {
+      "input": {
+        "id": "up_gap_opposite_and_reverse_declared",
+        "direction": "UP",
+        "sequence_id": "epoch-1",
+        "as_of": 9,
+        "features": [
+          {
+            "index": 1,
+            "low": 0,
+            "high": 1,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 1
+          },
+          {
+            "index": 2,
+            "low": 2,
+            "high": 3,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 2
+          },
+          {
+            "index": 3,
+            "low": 1,
+            "high": 2,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 3
+          }
+        ],
+        "opposite_fractal": {
+          "externally_declared": true,
+          "confirmed_at": 6
+        },
+        "reverse_segment": {
+          "externally_declared": true,
+          "confirmed_at": 8
+        },
+        "source_version": "AUTHOR_2007_LOCAL_67_71_78_INTERPRETIVE_NOT_FULL_RULE"
+      },
+      "expected_status": "CONDITIONAL_78_REVERSE_SEGMENT_IF_EXTERNAL_LEGALITY_ACCEPTED_NOT_AUTHOR_CERTIFIED",
+      "expected_branch": "GAP_NEEDS_OPPOSITE_FRACTAL",
+      "expected_local_at": 6
+    },
+    {
+      "input": {
+        "id": "up_gap_opposite_known_only_in_future",
+        "direction": "UP",
+        "sequence_id": "epoch-1",
+        "as_of": 4,
+        "features": [
+          {
+            "index": 1,
+            "low": 0,
+            "high": 1,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 1
+          },
+          {
+            "index": 2,
+            "low": 2,
+            "high": 3,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 2
+          },
+          {
+            "index": 3,
+            "low": 1,
+            "high": 2,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 3
+          }
+        ],
+        "opposite_fractal": {
+          "externally_declared": true,
+          "confirmed_at": 6
+        },
+        "reverse_segment": {
+          "externally_declared": true,
+          "confirmed_at": 8
+        },
+        "source_version": "AUTHOR_2007_LOCAL_67_71_78_INTERPRETIVE_NOT_FULL_RULE"
+      },
+      "expected_status": "PENDING_OPPOSITE_FRACTAL_ASOF",
+      "expected_branch": "GAP_NEEDS_OPPOSITE_FRACTAL",
+      "expected_local_at": null
+    },
+    {
+      "input": {
+        "id": "down_no_gap_local_only",
+        "direction": "DOWN",
+        "sequence_id": "epoch-1",
+        "as_of": 10,
+        "features": [
+          {
+            "index": 1,
+            "low": 1,
+            "high": 3,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 1
+          },
+          {
+            "index": 2,
+            "low": 0,
+            "high": 2,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 2
+          },
+          {
+            "index": 3,
+            "low": 0.5,
+            "high": 2.5,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 3
+          }
+        ],
+        "opposite_fractal": {
+          "externally_declared": false,
+          "confirmed_at": null
+        },
+        "reverse_segment": {
+          "externally_declared": false,
+          "confirmed_at": null
+        },
+        "source_version": "AUTHOR_2007_LOCAL_67_71_78_INTERPRETIVE_NOT_FULL_RULE"
+      },
+      "expected_status": "LOCAL_67_CONDITION_ONLY_REVERSE_SEGMENT_NOT_YET_EVIDENCED",
+      "expected_branch": "NO_GAP_LOCAL_FRACTAL",
+      "expected_local_at": 3
+    },
+    {
+      "input": {
+        "id": "up_no_gap_aux_feature_blocked",
+        "direction": "UP",
+        "sequence_id": "epoch-1",
+        "as_of": 10,
+        "features": [
+          {
+            "index": 1,
+            "low": 0,
+            "high": 2,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 1
+          },
+          {
+            "index": 2,
+            "low": 1,
+            "high": 3,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 2
+          },
+          {
+            "index": 3,
+            "low": 0.5,
+            "high": 2,
+            "sequence_id": "epoch-1",
+            "role": "AUXILIARY",
+            "confirmed_at": 3
+          }
+        ],
+        "opposite_fractal": {
+          "externally_declared": false,
+          "confirmed_at": null
+        },
+        "reverse_segment": {
+          "externally_declared": false,
+          "confirmed_at": null
+        },
+        "source_version": "AUTHOR_2007_LOCAL_67_71_78_INTERPRETIVE_NOT_FULL_RULE"
+      },
+      "expected_status": "PENDING_STRICT_FEATURE_MEMBERSHIP",
+      "expected_branch": null,
+      "expected_local_at": null
+    },
+    {
+      "input": {
+        "id": "up_no_gap_cross_sequence_blocked",
+        "direction": "UP",
+        "sequence_id": "epoch-1",
+        "as_of": 10,
+        "features": [
+          {
+            "index": 1,
+            "low": 0,
+            "high": 2,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 1
+          },
+          {
+            "index": 2,
+            "low": 1,
+            "high": 3,
+            "sequence_id": "other-epoch",
+            "role": "STRICT",
+            "confirmed_at": 2
+          },
+          {
+            "index": 3,
+            "low": 0.5,
+            "high": 2,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 3
+          }
+        ],
+        "opposite_fractal": {
+          "externally_declared": false,
+          "confirmed_at": null
+        },
+        "reverse_segment": {
+          "externally_declared": false,
+          "confirmed_at": null
+        },
+        "source_version": "AUTHOR_2007_LOCAL_67_71_78_INTERPRETIVE_NOT_FULL_RULE"
+      },
+      "expected_status": "PENDING_STRICT_FEATURE_MEMBERSHIP",
+      "expected_branch": null,
+      "expected_local_at": null
+    },
+    {
+      "input": {
+        "id": "down_gap_third_feature_in_future",
+        "direction": "DOWN",
+        "sequence_id": "epoch-1",
+        "as_of": 4,
+        "features": [
+          {
+            "index": 1,
+            "low": 2,
+            "high": 3,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 1
+          },
+          {
+            "index": 2,
+            "low": 0,
+            "high": 1,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 2
+          },
+          {
+            "index": 3,
+            "low": 1,
+            "high": 2,
+            "sequence_id": "epoch-1",
+            "role": "STRICT",
+            "confirmed_at": 6
+          }
+        ],
+        "opposite_fractal": {
+          "externally_declared": false,
+          "confirmed_at": null
+        },
+        "reverse_segment": {
+          "externally_declared": false,
+          "confirmed_at": null
+        },
+        "source_version": "AUTHOR_2007_LOCAL_67_71_78_INTERPRETIVE_NOT_FULL_RULE"
+      },
+      "expected_status": "PENDING_COMPLETED_FEATURES",
+      "expected_branch": null,
+      "expected_local_at": null
+    }
+  ]
+}
