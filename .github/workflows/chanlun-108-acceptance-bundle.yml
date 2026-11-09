@@ -36,6 +36,9 @@ on:
       - "tests/test_chanlun35_event_derived_center_price_order.py"
       - "tests/test_chanlun20_center_extension_membership_gate.py"
       - "tests/test_chanlun_whole_book_integrated.py"
+      - "tests/test_chanlun_deep_theory_second_pass.py"
+      - "tools/audit_chanlun_theory_second_pass.py"
+      - "catalog/chanlun_theory_argument_links_v1.json"
       - "tools/audit_chanlun_whole_book_integrated.py"
       - "tests/fixtures/chanlun20_center_extension_membership_cases_v1.json"
       - "tools/audit_chanlun20_center_extension_membership_gate.py"
@@ -158,6 +161,10 @@ jobs:
         run: python -B tools/audit_chanlun_whole_book_integrated.py --check-atlas
       - name: Check 108 lesson source links, provenance boundaries and unified study
         run: python -B -m unittest discover -s tests -p 'test_chanlun_whole_book_integrated.py' -v
+      - name: Audit 16 original source-linked cross-lesson theory deductions
+        run: python -B tools/audit_chanlun_theory_second_pass.py
+      - name: Protect second-pass theory proof limits from unsupported promotions
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_deep_theory_second_pass.py' -v
       - name: Verify as-of-only visualization and matched-future branches (offline Node)
         run: node tests/test_chanlun_asof_player.mjs
       - name: Assemble offline materials from canonical originals in runner temp
