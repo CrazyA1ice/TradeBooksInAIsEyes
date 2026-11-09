@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.5.0",
-  "source_count": 792,
+  "workflow_version": "4.6.0",
+  "source_count": 793,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -1542,6 +1542,12 @@
       "size_bytes": 10138
     },
     {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/F01_TEXTUAL_RECURSION_PROOF_CHAIN.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/F01_TEXTUAL_RECURSION_PROOF_CHAIN.md",
+      "git_blob_sha": "9ec856f9ba20fb756aff8e8e22c714fd013ef4fe",
+      "size_bytes": 7026
+    },
+    {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/FILE_MANIFEST.json",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/FILE_MANIFEST.json",
       "git_blob_sha": "c277e4f43d69fefd4597a86a9e6e588ae5ad484b",
@@ -1874,8 +1880,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "d0e619ca8d3c046656c329ba414827aeaede4678",
-      "size_bytes": 46017
+      "git_blob_sha": "13d9692a1b977534f16b14877321e793cac8dd59",
+      "size_bytes": 46728
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
