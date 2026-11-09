@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "CL18-20-35-THIRD-POINT-BOUNDARY-NONIDENTITY-V1",
+  "scope": "AUTHOR_TEXT_BOUNDARY_DIFFERENT_PREDICATES_CONDITIONAL_TO_SYNTHETIC_DECLARED_FINISHED_TYPES",
+  "claims": [
+    {
+      "lesson": 18,
+      "id": "CL018-S01",
+      "original_page": 234,
+      "meaning": "UPPER_CENTER_REQUIRES_THREE_CONSECUTIVE_COMPLETED_LOWER_TYPES",
+      "native_sha256": "69121d9a964de1298165d08291f802d4263be12adaabdd8f5e5353b396aca86f"
+    },
+    {
+      "lesson": 18,
+      "id": "CL018-S07",
+      "original_page": 235,
+      "meaning": "POSSIBLE_TREND_COMPLETION_NOT_ACTUAL_COMPLETION",
+      "native_sha256": "d4f06d4d8395748f7b38307ccdc83436fdf9480a729fad413c45f772ae7023d4"
+    },
+    {
+      "lesson": 18,
+      "id": "CL018-S03",
+      "original_page": 236,
+      "meaning": "CENTER_MAINTENANCE_AND_NON_RETURN_STRUCTURAL_WORDING",
+      "native_sha256": "434c7daf3ccae1460d9f1aa2078ec57a05454e73c3f6cbd3705b66187dca9794"
+    },
+    {
+      "lesson": 20,
+      "id": "CL020-S02",
+      "original_page": 246,
+      "meaning": "EXISTING_CENTER_CORE_FROZEN_ZG_ZD",
+      "native_sha256": "441f33589318f29d539f01124a9be0ecf8fd98e372b2340cb2367a785a5397f9"
+    },
+    {
+      "lesson": 20,
+      "id": "CL020-S03",
+      "original_page": 247,
+      "meaning": "THIRD_BUY_LOW_NOT_BELOW_ZG_AND_SELL_HIGH_NOT_ABOVE_ZD",
+      "native_sha256": "413cbc347ea62f60139f49920b667084aeb5d8453645d5f99d9387aaa8ea8039"
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-2",
+      "original_page": 291,
+      "meaning": "THREE_IDENTICAL_EXECUTIONS_CONSTITUTE_AUTHOR_BASE_CENTER",
+      "native_sha256": "1a2c291cff189ea4de5bef2ecf152e9888773d1194b0ed4e7218f4cd0f3b846b"
+    }
+  ],
+  "original_pdf_sha256": {
+    "1": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+    "2": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66"
+  },
+  "existing_native_text_pins": "reports/source_inventory/chanlun_center_order_completion_native_text_sha256.json",
+  "lowest_level_native_sha_file": "catalog/chanlun35_author_base_center_axiom_v1.json",
+  "numeric_truths": {
+    "third_buy_no_break": "retest_low >= center_ZG",
+    "strict_above": "retest_low > center_ZG",
+    "third_sell_no_break": "retest_high <= center_ZD",
+    "strict_below": "retest_high < center_ZD",
+    "closed_interval_touch": "retest_low == center_ZG OR retest_high == center_ZD"
+  },
+  "interpretive_separations": [
+    "AUTHOR_THIRD_BUY_NO_BREAK_THRESHOLD_NOT_IDENTICAL_TO_STRICT_NONRETURN",
+    "AUTHOR_THIRD_SELL_NO_BREAK_THRESHOLD_NOT_IDENTICAL_TO_STRICT_NONRETURN",
+    "TOUCH_PASS_WEAK_CONDITION_NOT_CERTIFIED_COMPLETED_CENTER_BREAK",
+    "DECLARED_FIRST_RETEST_NOT_INDEPENDENT_FIRST_RETEST_PROOF",
+    "DECLARED_COMPLETED_CHILD_NOT_AUTHOR_FINISHED_LOWER_TYPE_CERTIFICATION",
+    "ONE_SYNTHETIC_PRICE_CONDITION_NOT_DISTINCT_CENTER_NEWBORN",
+    "BASE_LEVEL_CENTER_DEF_NOT_CENTER_END_OR_COMPLETED_CONSOLIDATION"
+  ],
+  "blocked_proof_slots": [
+    "F01_finished_child_type_original_source_and_clock",
+    "F02_center_identity_plus_departure_and_first_retest",
+    "F02_structural_not_return_semantics_including_boundary_touch",
+    "OB38_UNIQUE_frozen_legal_Rg",
+    "OB99_UNIVERSAL_higher_center"
+  ],
+  "assumed_input": "SYNTHETIC_DECLARED_FIRST_RETEST_AND_COMPLETION_NOT_AUTHOR_AUTHENTICATED",
+  "author_third_point_certified": false,
+  "author_center_destroyed_certified": false,
+  "author_center_distinct_certified": false,
+  "author_completed_trend_certified": false,
+  "full_author_rule_version_frozen": false,
+  "historical_original_first_publication_verified": false,
+  "real_market_accessed": false,
+  "original_images_read": false,
+  "backtesting": "NOT_RUN"
+}

@@ -6,6 +6,10 @@ on:
       - "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_*"
       - "tools/audit_chanlun_whole_book_integrated.py"
       - "tools/audit_chanlun_fullbook_logical_spine.py"
+      - "tools/audit_chanlun_f01_f02_third_point_boundary.py"
+      - "tests/test_chanlun_f01_f02_third_point_boundary.py"
+      - "catalog/chanlun_f01_f02_third_point_boundary_v1.json"
+      - "tests/fixtures/chanlun_f01_f02_boundary_cases_v1.json"
       - "tests/test_chanlun_fullbook_logical_spine.py"
       - "catalog/chanlun_108_fullbook_logical_spine_v1.json"
       - "tools/audit_chanlun_theory_second_pass.py"
@@ -42,5 +46,9 @@ jobs:
         run: python -B tools/audit_chanlun_fullbook_logical_spine.py --check-atlas
       - name: Preserve all source and conceptual graph constraints
         run: python -B -m unittest discover -s tests -p 'test_chanlun_fullbook_logical_spine.py' -v
+      - name: Audit lesson18/20/35 author source boundary vs strict nonreturn and as-of
+        run: python -B tools/audit_chanlun_f01_f02_third_point_boundary.py
+      - name: Preserve inclusive boundary, source pins and no unearned center certification
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_f01_f02_third_point_boundary.py' -v
       - name: Verify all 108 original-source record links and integrated manuscript
         run: python -B -m unittest discover -s tests -p "test_chanlun_whole_book_integrated.py" -v

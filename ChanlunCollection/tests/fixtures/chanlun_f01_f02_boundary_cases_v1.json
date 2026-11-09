@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "notes": "Synthetic declared intervals only; no actual source-qualified center, departure, first retest, completion or real trades.",
+  "cases": [
+    {
+      "input": {
+        "id": "buy_touch_meets_nonbreak_but_not_strict",
+        "direction": "BUY",
+        "center": {
+          "ZD": "2",
+          "ZG": "5"
+        },
+        "retest": {
+          "low": "5",
+          "high": "8"
+        },
+        "observed_at": "2026-01-07T09:30:00+08:00",
+        "confirmed_at": "2026-01-07T09:32:00+08:00",
+        "as_of": "2026-01-07T09:40:00+08:00",
+        "first_retest_declared": true,
+        "member_provenance": "SYNTHETIC_DECLARED_NOT_AUTHOR_CERTIFIED"
+      },
+      "expected_status": "WEAK_THIRD_POINT_THRESHOLD_ONLY_POINT_TOUCH_STRUCTURAL_NONRETURN_UNRESOLVED",
+      "expected_weak": true,
+      "expected_strict": false,
+      "expected_touch": true
+    },
+    {
+      "input": {
+        "id": "buy_strict_above_numeric_only",
+        "direction": "BUY",
+        "center": {
+          "ZD": "2",
+          "ZG": "5"
+        },
+        "retest": {
+          "low": "6",
+          "high": "8"
+        },
+        "observed_at": "2026-01-07T09:30:00+08:00",
+        "confirmed_at": "2026-01-07T09:32:00+08:00",
+        "as_of": "2026-01-07T09:40:00+08:00",
+        "first_retest_declared": true,
+        "member_provenance": "SYNTHETIC_DECLARED_NOT_AUTHOR_CERTIFIED"
+      },
+      "expected_status": "WEAK_THIRD_POINT_THRESHOLD_ONLY_STRICT_NONRETURN_NUMERIC",
+      "expected_weak": true,
+      "expected_strict": true,
+      "expected_touch": false
+    },
+    {
+      "input": {
+        "id": "buy_falls_below_ZG",
+        "direction": "BUY",
+        "center": {
+          "ZD": "2",
+          "ZG": "5"
+        },
+        "retest": {
+          "low": "4",
+          "high": "8"
+        },
+        "observed_at": "2026-01-07T09:30:00+08:00",
+        "confirmed_at": "2026-01-07T09:32:00+08:00",
+        "as_of": "2026-01-07T09:40:00+08:00",
+        "first_retest_declared": true,
+        "member_provenance": "SYNTHETIC_DECLARED_NOT_AUTHOR_CERTIFIED"
+      },
+      "expected_status": "THIRD_POINT_PRICE_THRESHOLD_FAILS",
+      "expected_weak": false,
+      "expected_strict": false,
+      "expected_touch": false
+    },
+    {
+      "input": {
+        "id": "sell_touch_meets_nonbreak_but_not_strict",
+        "direction": "SELL",
+        "center": {
+          "ZD": "2",
+          "ZG": "5"
+        },
+        "retest": {
+          "low": "0",
+          "high": "2"
+        },
+        "observed_at": "2026-01-07T09:30:00+08:00",
+        "confirmed_at": "2026-01-07T09:32:00+08:00",
+        "as_of": "2026-01-07T09:40:00+08:00",
+        "first_retest_declared": true,
+        "member_provenance": "SYNTHETIC_DECLARED_NOT_AUTHOR_CERTIFIED"
+      },
+      "expected_status": "WEAK_THIRD_POINT_THRESHOLD_ONLY_POINT_TOUCH_STRUCTURAL_NONRETURN_UNRESOLVED",
+      "expected_weak": true,
+      "expected_strict": false,
+      "expected_touch": true
+    },
+    {
+      "input": {
+        "id": "sell_strict_below_numeric_only",
+        "direction": "SELL",
+        "center": {
+          "ZD": "2",
+          "ZG": "5"
+        },
+        "retest": {
+          "low": "0",
+          "high": "1"
+        },
+        "observed_at": "2026-01-07T09:30:00+08:00",
+        "confirmed_at": "2026-01-07T09:32:00+08:00",
+        "as_of": "2026-01-07T09:40:00+08:00",
+        "first_retest_declared": true,
+        "member_provenance": "SYNTHETIC_DECLARED_NOT_AUTHOR_CERTIFIED"
+      },
+      "expected_status": "WEAK_THIRD_POINT_THRESHOLD_ONLY_STRICT_NONRETURN_NUMERIC",
+      "expected_weak": true,
+      "expected_strict": true,
+      "expected_touch": false
+    },
+    {
+      "input": {
+        "id": "sell_rises_above_ZD",
+        "direction": "SELL",
+        "center": {
+          "ZD": "2",
+          "ZG": "5"
+        },
+        "retest": {
+          "low": "0",
+          "high": "3"
+        },
+        "observed_at": "2026-01-07T09:30:00+08:00",
+        "confirmed_at": "2026-01-07T09:32:00+08:00",
+        "as_of": "2026-01-07T09:40:00+08:00",
+        "first_retest_declared": true,
+        "member_provenance": "SYNTHETIC_DECLARED_NOT_AUTHOR_CERTIFIED"
+      },
+      "expected_status": "THIRD_POINT_PRICE_THRESHOLD_FAILS",
+      "expected_weak": false,
+      "expected_strict": false,
+      "expected_touch": false
+    },
+    {
+      "input": {
+        "id": "future_completed_low_must_not_leak",
+        "direction": "BUY",
+        "center": {
+          "ZD": "2",
+          "ZG": "5"
+        },
+        "retest": {
+          "low": "5",
+          "high": "8"
+        },
+        "observed_at": "2026-01-07T09:30:00+08:00",
+        "confirmed_at": "2026-01-07T09:45:00+08:00",
+        "as_of": "2026-01-07T09:31:00+08:00",
+        "first_retest_declared": true,
+        "member_provenance": "SYNTHETIC_DECLARED_NOT_AUTHOR_CERTIFIED"
+      },
+      "expected_status": "PENDING_CHILD_COMPLETION_ASOF",
+      "expected_weak": null,
+      "expected_strict": null,
+      "expected_touch": null
+    },
+    {
+      "input": {
+        "id": "declared_second_retest_does_not_get_first_status",
+        "direction": "BUY",
+        "center": {
+          "ZD": "2",
+          "ZG": "5"
+        },
+        "retest": {
+          "low": "5",
+          "high": "8"
+        },
+        "observed_at": "2026-01-07T09:30:00+08:00",
+        "confirmed_at": "2026-01-07T09:32:00+08:00",
+        "as_of": "2026-01-07T09:40:00+08:00",
+        "first_retest_declared": false,
+        "member_provenance": "SYNTHETIC_DECLARED_NOT_AUTHOR_CERTIFIED"
+      },
+      "expected_status": "NOT_FIRST_RETEST_DECLARED",
+      "expected_weak": null,
+      "expected_strict": null,
+      "expected_touch": null
+    }
+  ]
+}
