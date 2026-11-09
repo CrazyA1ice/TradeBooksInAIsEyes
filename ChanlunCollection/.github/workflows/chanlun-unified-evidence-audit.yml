@@ -1,0 +1,29 @@
+name: Chanlun 108 unified evidence graph and provenance/version history
+on:
+  push:
+    branches: [feat/chanlun-108-unified-evidence-rule-history-20261108]
+    paths:
+      - ".github/workflows/chanlun-unified-evidence-audit.yml"
+      - "tools/audit_chanlun_unified_knowledge.py"
+      - "tests/test_chanlun_unified_knowledge.py"
+      - "knowledge/claims/**"
+      - "knowledge/evidence/**"
+      - "catalog/chanlun_rule_history_v1.json"
+      - "catalog/chanlun_lesson_index.json"
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  unified-evidence-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: python -B tools/audit_chanlun_unified_knowledge.py --verify
+      - run: python -B tools/audit_chanlun_unified_knowledge.py --verify --family pen
+      - run: python -B tools/audit_chanlun_unified_knowledge.py --verify --lesson 108
+      - run: python -B tools/audit_chanlun_unified_knowledge.py --verify --node L100-AUTHOR-EDITOR-BRANCH-DISPUTE
+      - run: python -B -m unittest discover -s tests -p "test_chanlun_unified_knowledge.py" -v

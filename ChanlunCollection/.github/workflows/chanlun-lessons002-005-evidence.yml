@@ -1,0 +1,29 @@
+name: Phase 1 lessons 2-5 evidence audit
+on:
+  push:
+    branches: [feat/chanlun-lessons-002-005-deep-reading-20261107]
+    paths:
+      - ".github/workflows/chanlun-lessons002-005-evidence.yml"
+      - "tools/verify_chanlun_lessons002_005.py"
+      - "tests/test_chanlun_lessons002_005.py"
+      - "knowledge/evidence/chanlun_lesson*.json"
+      - "knowledge/relations/chanlun_lessons001_005.json"
+      - "analyses/books/chanlun/chapters/lesson_*.md"
+      - "analyses/books/chanlun/volumes/LESSONS_001_005_SYNTHESIS.md"
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Verify document SHA, boundaries, sources, seven layers and claim statuses
+        run: python -B tools/verify_chanlun_lessons002_005.py
+      - name: Run positive and negative quality gates
+        run: python -B -m unittest discover -s tests -p "test_chanlun_lessons002_005.py" -v

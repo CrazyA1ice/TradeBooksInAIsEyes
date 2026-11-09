@@ -1,0 +1,27 @@
+name: Chanlun authored recursive eligibility and conditional geometry
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "catalog/chanlun_recursive_eligibility_bridge_v1.json"
+      - "tests/fixtures/chanlun_recursive_eligibility_cases_v1.json"
+      - "tools/audit_chanlun_recursive_source_eligibility.py"
+      - "tests/test_chanlun_recursive_eligibility.py"
+      - "deliverables/chanlun_108_acceptance/04_AI_GUIDE/22_*"
+      - ".github/workflows/chanlun-recursive-eligibility.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-conditional-recursion:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate author source links, six missing premises and exact symbolic geometry
+        run: python -B tools/audit_chanlun_recursive_source_eligibility.py
+      - name: Test source role, point equality, pending, consecutive, version and anti-claim behavior
+        run: python -B -m unittest discover -s tests -p "test_chanlun_recursive_eligibility.py" -v

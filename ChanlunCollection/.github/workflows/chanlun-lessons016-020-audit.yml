@@ -1,0 +1,35 @@
+name: Chanlun lessons 16-20 evidence and center-boundary audit
+on:
+  push:
+    branches: [feat/chanlun-lessons016-020-research-20261107]
+    paths:
+      - ".github/workflows/chanlun-lessons016-020-audit.yml"
+      - "tools/verify_chanlun_lessons016_020.py"
+      - "tools/audit_chanlun_lesson020_center_intervals.py"
+      - "tests/test_chanlun_lessons016_020.py"
+      - "tests/test_chanlun_lesson020_center_intervals.py"
+      - "catalog/chanlun_lessons016_020_source_layers.json"
+      - "knowledge/evidence/chanlun_lesson*.json"
+      - "analyses/books/chanlun/chapters/lesson_*.md"
+      - "analyses/books/chanlun/volumes/LESSONS_016_020_SYNTHESIS.md"
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate original PDF version and chapter evidence
+        run: python -B tools/verify_chanlun_lessons016_020.py
+      - name: Verify synthetic center-overlap and third-buy counterexample
+        run: python -B tools/audit_chanlun_lesson020_center_intervals.py
+      - name: Run evidence mutation tests
+        run: python -B -m unittest discover -s tests -p "test_chanlun_lessons016_020.py" -v
+      - name: Run mathematical boundary tests
+        run: python -B -m unittest discover -s tests -p "test_chanlun_lesson020_center_intervals.py" -v

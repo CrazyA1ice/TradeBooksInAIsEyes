@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "lesson": 81,
+  "study_status": "source_sha_locked_original_page_and_bounded_excerpt_figure_numeric_unverified",
+  "source": {
+    "volume": 4,
+    "path": "ChineseBooks/缠论/缠论_卷4.pdf",
+    "sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+    "original_date": "2007-09-17 22:57:16",
+    "pdf_pages": [
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265
+    ],
+    "first_star_divider_candidate": 243
+  },
+  "quality": {
+    "page_count": 34,
+    "native_chars": 21131,
+    "image_pages": [
+      232,
+      233,
+      235,
+      239,
+      240,
+      246,
+      250,
+      256,
+      258,
+      261,
+      262,
+      263,
+      264,
+      265
+    ],
+    "rendered_preview_pages": [
+      234,
+      237,
+      246,
+      257
+    ],
+    "visually_inspected_pages": [
+      234,
+      237,
+      246,
+      257
+    ],
+    "fine_price_annotations_verified": false
+  },
+  "claims": [
+    {
+      "id": "CL81-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 4,
+      "pdf_pages": [
+        232
+      ],
+      "summary": "作者更正先前点5/7高低位置及第71课末例的误画。"
+    },
+    {
+      "id": "CL81-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 4,
+      "pdf_pages": [
+        232,
+        234
+      ],
+      "summary": "作者指出分钟极值的细小差异及行情软件精度影响分型划分。"
+    },
+    {
+      "id": "CL81-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 4,
+      "pdf_pages": [
+        236
+      ],
+      "summary": "作者把分型与走势类型归因于所谓人的心理及自相似性和层级自组织。"
+    },
+    {
+      "id": "CL81-SOURCE-4",
+      "kind": "SOURCE",
+      "volume": 4,
+      "pdf_pages": [
+        241
+      ],
+      "summary": "另一篇9月18日独立文章提出不共用K线及两极值K线间原始至少三根bar的笔修订建议。"
+    },
+    {
+      "id": "CL81-INTERPRETATION-5",
+      "kind": "INTERPRETATION",
+      "volume": 4,
+      "pdf_pages": [
+        241
+      ],
+      "summary": "后发修订建议应存独立规则版本，不能静默改写第77课旧论证。"
+    },
+    {
+      "id": "CL81-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 4,
+      "pdf_pages": [
+        232,
+        234
+      ],
+      "summary": "未经独立历史分钟行情与软件版本核对，不能确认原书价位精确无误。"
+    },
+    {
+      "id": "CL81-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 4,
+      "pdf_pages": [
+        232,
+        241
+      ],
+      "summary": "不同笔版本与价格精度对唯一划分的影响有待样本外回放。",
+      "test_status": "not_tested"
+    }
+  ],
+  "real_market_test": "not_run",
+  "warnings": [
+    "Different dated documents and later editorial notes kept separate.",
+    "Claims about trading profit, legality and 100% universal laws not independently verified.",
+    "Exact market data and historical fills not inspected."
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "contract_id": "CL38-FIXED-G-PARTIAL-TEXT-SEMANTICS-V1",
+  "synthetic_only": true,
+  "cases": [
+    {
+      "id": "same_g_two_declared_cuts",
+      "left": {
+        "kind": "SYNTHETIC_SYMBOLS_NOT_MARKET",
+        "n": 6,
+        "source": "ABSTRACT_WORD_A",
+        "rule": "CL38-FIXED-G-PARTIAL-TEXT-SEMANTICS-V1",
+        "level": "g",
+        "cuts": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "links": [
+          "PAN_PLUS_PAN",
+          "OTHER"
+        ],
+        "extension": false,
+        "complete": true
+      },
+      "right": {
+        "kind": "SYNTHETIC_SYMBOLS_NOT_MARKET",
+        "n": 6,
+        "source": "ABSTRACT_WORD_A",
+        "rule": "CL38-FIXED-G-PARTIAL-TEXT-SEMANTICS-V1",
+        "level": "g",
+        "cuts": [
+          0,
+          3,
+          5,
+          6
+        ],
+        "links": [
+          "OTHER",
+          "PAN_PLUS_PAN"
+        ],
+        "extension": false,
+        "complete": true
+      },
+      "expected": "COMPETING_CUTS_UNRESOLVED_NOT_CHANLUN_COUNTEREXAMPLE"
+    },
+    {
+      "id": "lower_level_prohibits_pan_pair",
+      "left": {
+        "kind": "SYNTHETIC_SYMBOLS_NOT_MARKET",
+        "n": 6,
+        "source": "ABSTRACT_WORD_A",
+        "rule": "CL38-FIXED-G-PARTIAL-TEXT-SEMANTICS-V1",
+        "level": "lower_g",
+        "cuts": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "links": [
+          "PAN_PLUS_PAN",
+          "OTHER"
+        ],
+        "extension": false,
+        "complete": true
+      },
+      "right": {
+        "kind": "SYNTHETIC_SYMBOLS_NOT_MARKET",
+        "n": 6,
+        "source": "ABSTRACT_WORD_A",
+        "rule": "CL38-FIXED-G-PARTIAL-TEXT-SEMANTICS-V1",
+        "level": "lower_g",
+        "cuts": [
+          0,
+          3,
+          5,
+          6
+        ],
+        "links": [
+          "OTHER",
+          "OTHER"
+        ],
+        "extension": false,
+        "complete": true
+      },
+      "expected": "DECLARED_POLICY_CONFLICT_NOT_FULL_PARSE_VERDICT"
+    },
+    {
+      "id": "different_levels",
+      "left": {
+        "kind": "SYNTHETIC_SYMBOLS_NOT_MARKET",
+        "n": 6,
+        "source": "ABSTRACT_WORD_A",
+        "rule": "CL38-FIXED-G-PARTIAL-TEXT-SEMANTICS-V1",
+        "level": "g",
+        "cuts": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "links": [
+          "OTHER",
+          "OTHER"
+        ],
+        "extension": false,
+        "complete": true
+      },
+      "right": {
+        "kind": "SYNTHETIC_SYMBOLS_NOT_MARKET",
+        "n": 6,
+        "source": "ABSTRACT_WORD_A",
+        "rule": "CL38-FIXED-G-PARTIAL-TEXT-SEMANTICS-V1",
+        "level": "lower_g",
+        "cuts": [
+          0,
+          3,
+          5,
+          6
+        ],
+        "links": [
+          "OTHER",
+          "OTHER"
+        ],
+        "extension": false,
+        "complete": true
+      },
+      "expected": "NOT_SAME_FROZEN_RULE_DOMAIN"
+    },
+    {
+      "id": "same_cuts",
+      "left": {
+        "kind": "SYNTHETIC_SYMBOLS_NOT_MARKET",
+        "n": 6,
+        "source": "ABSTRACT_WORD_A",
+        "rule": "CL38-FIXED-G-PARTIAL-TEXT-SEMANTICS-V1",
+        "level": "g",
+        "cuts": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "links": [
+          "OTHER",
+          "OTHER"
+        ],
+        "extension": false,
+        "complete": true
+      },
+      "right": {
+        "kind": "SYNTHETIC_SYMBOLS_NOT_MARKET",
+        "n": 6,
+        "source": "ABSTRACT_WORD_A",
+        "rule": "CL38-FIXED-G-PARTIAL-TEXT-SEMANTICS-V1",
+        "level": "g",
+        "cuts": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "links": [
+          "OTHER",
+          "OTHER"
+        ],
+        "extension": false,
+        "complete": true
+      },
+      "expected": "SAME_CUTS_LOCAL_ONLY"
+    },
+    {
+      "id": "extension_selected_undefined",
+      "left": {
+        "kind": "SYNTHETIC_SYMBOLS_NOT_MARKET",
+        "n": 6,
+        "source": "ABSTRACT_WORD_A",
+        "rule": "CL38-FIXED-G-PARTIAL-TEXT-SEMANTICS-V1",
+        "level": "g",
+        "cuts": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "links": [
+          "OTHER",
+          "OTHER"
+        ],
+        "extension": true,
+        "complete": true
+      },
+      "right": {
+        "kind": "SYNTHETIC_SYMBOLS_NOT_MARKET",
+        "n": 6,
+        "source": "ABSTRACT_WORD_A",
+        "rule": "CL38-FIXED-G-PARTIAL-TEXT-SEMANTICS-V1",
+        "level": "g",
+        "cuts": [
+          0,
+          3,
+          5,
+          6
+        ],
+        "links": [
+          "OTHER",
+          "OTHER"
+        ],
+        "extension": false,
+        "complete": true
+      },
+      "expected": "UNDEFINED_POLICY_DOES_NOT_PROVE_IMPOSSIBILITY"
+    },
+    {
+      "id": "tail_not_finished",
+      "left": {
+        "kind": "SYNTHETIC_SYMBOLS_NOT_MARKET",
+        "n": 6,
+        "source": "ABSTRACT_WORD_A",
+        "rule": "CL38-FIXED-G-PARTIAL-TEXT-SEMANTICS-V1",
+        "level": "g",
+        "cuts": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "links": [
+          "OTHER",
+          "OTHER"
+        ],
+        "extension": false,
+        "complete": false
+      },
+      "right": {
+        "kind": "SYNTHETIC_SYMBOLS_NOT_MARKET",
+        "n": 6,
+        "source": "ABSTRACT_WORD_A",
+        "rule": "CL38-FIXED-G-PARTIAL-TEXT-SEMANTICS-V1",
+        "level": "g",
+        "cuts": [
+          0,
+          3,
+          5,
+          6
+        ],
+        "links": [
+          "OTHER",
+          "OTHER"
+        ],
+        "extension": false,
+        "complete": true
+      },
+      "expected": "UNFINISHED_ASOF_PENDING"
+    },
+    {
+      "id": "changed_rule_version",
+      "left": {
+        "kind": "SYNTHETIC_SYMBOLS_NOT_MARKET",
+        "n": 6,
+        "source": "ABSTRACT_WORD_A",
+        "rule": "CL38-FIXED-G-PARTIAL-TEXT-SEMANTICS-V1",
+        "level": "g",
+        "cuts": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "links": [
+          "OTHER",
+          "OTHER"
+        ],
+        "extension": false,
+        "complete": true
+      },
+      "right": {
+        "kind": "SYNTHETIC_SYMBOLS_NOT_MARKET",
+        "n": 6,
+        "source": "ABSTRACT_WORD_A",
+        "rule": "DIFFERENT_AUTHOR_RULE_UNREVIEWED",
+        "level": "g",
+        "cuts": [
+          0,
+          3,
+          5,
+          6
+        ],
+        "links": [
+          "OTHER",
+          "OTHER"
+        ],
+        "extension": false,
+        "complete": true
+      },
+      "expected": "NOT_SAME_FROZEN_RULE_DOMAIN"
+    }
+  ]
+}

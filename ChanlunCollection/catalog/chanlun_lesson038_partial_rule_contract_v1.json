@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "CL38-FIXED-G-PARTIAL-TEXT-SEMANTICS-V1",
+  "scope": "ORIGINAL_PDF_NATIVE_TEXT_FRAGMENT_NOT_COMPLETE_CHANLUN_GRAMMAR",
+  "pdf_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+  "original_first_publication_independently_verified": false,
+  "page_text_sha256": {
+    "338": "369d79117897f949976704c21e81818f9e75899b0e925f637c581c32e1b21da7",
+    "339": "1f48433d41259c6f82e4f5233dccd3728c823e9ab3723fe3ac77a06697689ce8"
+  },
+  "clauses": [
+    {
+      "id": "fixed_level",
+      "policy": "FIXED_G",
+      "volume": 2,
+      "page": 338,
+      "claim_id": "CL38-SOURCE-1",
+      "native_text_sha256": "369d79117897f949976704c21e81818f9e75899b0e925f637c581c32e1b21da7",
+      "role": "AUTHOR_IN_COMPILATION"
+    },
+    {
+      "id": "selected_extension",
+      "policy": "UNDEFINED_NOT_IMPOSSIBLE",
+      "volume": 2,
+      "page": 339,
+      "claim_id": "CL38-SOURCE-2",
+      "native_text_sha256": "1f48433d41259c6f82e4f5233dccd3728c823e9ab3723fe3ac77a06697689ce8",
+      "role": "AUTHOR_IN_COMPILATION"
+    },
+    {
+      "id": "selected_pan_pair",
+      "policy": "PERMITTED",
+      "volume": 2,
+      "page": 339,
+      "claim_id": "CL38-SOURCE-2",
+      "native_text_sha256": "1f48433d41259c6f82e4f5233dccd3728c823e9ab3723fe3ac77a06697689ce8",
+      "role": "AUTHOR_IN_COMPILATION"
+    },
+    {
+      "id": "lower_extension",
+      "policy": "PERMITTED",
+      "volume": 2,
+      "page": 339,
+      "claim_id": "CL38-SOURCE-2",
+      "native_text_sha256": "1f48433d41259c6f82e4f5233dccd3728c823e9ab3723fe3ac77a06697689ce8",
+      "role": "AUTHOR_IN_COMPILATION"
+    },
+    {
+      "id": "lower_pan_pair",
+      "policy": "PROHIBITED",
+      "volume": 2,
+      "page": 339,
+      "claim_id": "CL38-SOURCE-2",
+      "native_text_sha256": "1f48433d41259c6f82e4f5233dccd3728c823e9ab3723fe3ac77a06697689ce8",
+      "role": "AUTHOR_IN_COMPILATION"
+    },
+    {
+      "id": "higher_level",
+      "policy": "NOT_CONSIDERED",
+      "volume": 2,
+      "page": 339,
+      "claim_id": "CL38-SOURCE-2",
+      "native_text_sha256": "1f48433d41259c6f82e4f5233dccd3728c823e9ab3723fe3ac77a06697689ce8",
+      "role": "AUTHOR_IN_COMPILATION"
+    },
+    {
+      "id": "uniqueness",
+      "policy": "AUTHOR_ASSERTS_NOT_INDEPENDENTLY_PROVED",
+      "volume": 2,
+      "page": 338,
+      "claim_id": "CL38-SOURCE-1",
+      "native_text_sha256": "369d79117897f949976704c21e81818f9e75899b0e925f637c581c32e1b21da7",
+      "role": "AUTHOR_IN_COMPILATION"
+    }
+  ],
+  "open_fields": [
+    "canonical_segment_type_rules",
+    "competition_boundary_priority",
+    "equal_price_tiebreak",
+    "unfinished_tail_confirmation",
+    "version_and_asof_clock"
+  ],
+  "completed_R_g": false,
+  "theorem_certified": false,
+  "market_data_used": false
+}

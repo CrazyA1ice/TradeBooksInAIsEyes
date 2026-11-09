@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-V1-LESSON-015-FIRSTPASS-20261107",
+  "status": "source_text_reviewed_image_semantics_not_yet_verified",
+  "source": {
+    "path": "ChineseBooks/缠论/缠论_卷1.pdf",
+    "sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+    "lesson_number": 15,
+    "title": "没有趋势，没有背驰",
+    "original_author_date": "2006-12-08 11:55:57",
+    "pdf_pages": [
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168
+    ],
+    "appendix_divider_candidate_pdf_page": 146
+  },
+  "quality": {
+    "native_text_chars": 14036,
+    "pages_with_images": [
+      144,
+      147,
+      154,
+      156,
+      159,
+      163,
+      164,
+      167,
+      168
+    ],
+    "low_native_text_pages": [
+      144,
+      147,
+      154,
+      156,
+      159,
+      163,
+      164,
+      167,
+      168
+    ],
+    "read_only_run": 42369477879
+  },
+  "claims": [
+    {
+      "id": "CL015-S-1",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        143
+      ],
+      "summary": "作者以高低点关系区分上涨、下跌和盘整。"
+    },
+    {
+      "id": "CL015-S-2",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        143
+      ],
+      "summary": "编者注指出此处定义在后期课程中发生变化。"
+    },
+    {
+      "id": "CL015-S-3",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        145
+      ],
+      "summary": "作者要求趋势条件下讨论背驰，并以均线面积描述力度。"
+    },
+    {
+      "id": "CL015-I-4",
+      "kind": "INTERPRETATION",
+      "pdf_pages": [
+        143,
+        145
+      ],
+      "summary": "这组早期定义开始以形式化市场结构取代纯粹的交易修辞。"
+    },
+    {
+      "id": "CL015-I-5",
+      "kind": "INFERENCE",
+      "pdf_pages": [
+        143
+      ],
+      "summary": "字面严格比较无法覆盖高点或低点相等时的情形。"
+    },
+    {
+      "id": "CL015-I-6",
+      "kind": "INFERENCE",
+      "pdf_pages": [
+        145
+      ],
+      "summary": "均线接吻与局部极值需要独立的时间确认规则以防前视。"
+    },
+    {
+      "id": "CL015-H-7",
+      "kind": "HYPOTHESIS",
+      "pdf_pages": [
+        143,
+        145
+      ],
+      "summary": "早期结构与力度信号能否稳定预测未来走势需验证。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "caveats": [
+    "Images have not been visually validated",
+    "Appended Q&A may have a distinct publication date from original article",
+    "First-pass report is not a verified trading strategy"
+  ]
+}

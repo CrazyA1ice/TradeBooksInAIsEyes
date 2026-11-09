@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "derived_from": "github_actions_job_logs",
+  "source_run_id": 42365031290,
+  "source_commit": "ec53c61dd271aa3eafb7a6d9a1a05b608f9cdec2",
+  "source_workflow_status": "success",
+  "method": "pymupdf_readonly_native_text_survey_no_ocr",
+  "caveats": [
+    "100+ extracted characters is a coverage indicator, not proof of extraction correctness",
+    "embedded image pages are not chart counts",
+    "PDF has no embedded bookmarks; printed TOC requires separate parsing"
+  ],
+  "volumes": [
+    {
+      "path": "ChineseBooks/缠论/缠论_卷1.pdf",
+      "bytes": 6549393,
+      "sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+      "page_count": 337,
+      "embedded_toc_count": 0,
+      "native_text_pages_100plus_chars": 281,
+      "empty_text_pages": 0,
+      "pages_with_embedded_images": 65,
+      "text_character_count": 242937,
+      "page_errors": []
+    },
+    {
+      "path": "ChineseBooks/缠论/缠论_卷2.pdf",
+      "bytes": 10431800,
+      "sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+      "page_count": 406,
+      "embedded_toc_count": 0,
+      "native_text_pages_100plus_chars": 268,
+      "empty_text_pages": 0,
+      "pages_with_embedded_images": 164,
+      "text_character_count": 217498,
+      "page_errors": []
+    },
+    {
+      "path": "ChineseBooks/缠论/缠论_卷3.pdf",
+      "bytes": 8864461,
+      "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+      "page_count": 405,
+      "embedded_toc_count": 0,
+      "native_text_pages_100plus_chars": 308,
+      "empty_text_pages": 0,
+      "pages_with_embedded_images": 137,
+      "text_character_count": 270540,
+      "page_errors": []
+    },
+    {
+      "path": "ChineseBooks/缠论/缠论_卷4.pdf",
+      "bytes": 11296114,
+      "sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+      "page_count": 407,
+      "embedded_toc_count": 0,
+      "native_text_pages_100plus_chars": 315,
+      "empty_text_pages": 0,
+      "pages_with_embedded_images": 179,
+      "text_character_count": 234534,
+      "page_errors": []
+    },
+    {
+      "path": "ChineseBooks/缠论/缠论_卷5.pdf",
+      "bytes": 10427135,
+      "sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "page_count": 441,
+      "embedded_toc_count": 0,
+      "native_text_pages_100plus_chars": 354,
+      "empty_text_pages": 0,
+      "pages_with_embedded_images": 193,
+      "text_character_count": 245556,
+      "page_errors": []
+    }
+  ]
+}

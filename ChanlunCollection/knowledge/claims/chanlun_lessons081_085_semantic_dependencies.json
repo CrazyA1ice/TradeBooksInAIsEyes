@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "graph_id": "CHANLUN-LESSONS-081-085-SOURCE-TERMINOLOGY-20261108",
+  "description": "Independent graph extension referencing source-versioned chapters 1–80 without changing old graph contracts.",
+  "source_pdf_sha256_by_volume": {
+    "4": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d"
+  },
+  "references": [
+    "knowledge/claims/chanlun_early_core_dependencies.json",
+    "knowledge/claims/chanlun_lessons066_070_crossvolume_dependencies.json",
+    "knowledge/claims/chanlun_lessons071_075_semantic_dependencies.json",
+    "knowledge/claims/chanlun_lessons076_080_semantic_dependencies.json"
+  ],
+  "nodes": [
+    {
+      "id": "L81-PEN-VERSION",
+      "claim": "Different dated original source corrects previous figures and proposes revised pen conditions, requiring independent version and dataset provenance",
+      "source": {
+        "volume": 4,
+        "pdf_pages": [
+          232,
+          234,
+          241
+        ]
+      },
+      "status": "original_author_date_separated_source_rule_revision"
+    },
+    {
+      "id": "L82-FRACTAL-OUTCOME",
+      "claim": "Confirmed 3-bar fractal still needs later evidence to decide continuation versus extension to a pen; trading psych interpretation is not observed actor intent",
+      "source": {
+        "volume": 4,
+        "pdf_pages": [
+          266,
+          270,
+          271
+        ]
+      },
+      "status": "author_market_interpretation_ai_online_pending_outcome"
+    },
+    {
+      "id": "L83-SEGMENT-ROBUSTNESS",
+      "claim": "Original author prefers segments as minimum center building blocks for claimed noise robustness, an independent testable hypothesis",
+      "source": {
+        "volume": 4,
+        "pdf_pages": [
+          288,
+          289
+        ]
+      },
+      "status": "author_robustness_argument_unproven_empirically"
+    },
+    {
+      "id": "L84-SELF-STRUCTURE-RECURSION",
+      "claim": "Author replaces term self-similarity with self-isomorphic structure and separates f1 base extraction from f2 higher-level recursion",
+      "source": {
+        "volume": 4,
+        "pdf_pages": [
+          299,
+          301,
+          302
+        ]
+      },
+      "status": "author_terminology_and_recursion_rule_not_universal_proof"
+    },
+    {
+      "id": "L85-LEGALITY-NOT-EVIDENCE",
+      "claim": "Author's unverified past-market story and self-assessed legal status cannot prove actual behavior or regulatory judgment",
+      "source": {
+        "volume": 4,
+        "pdf_pages": [
+          338,
+          339,
+          340
+        ]
+      },
+      "status": "original_first_person_assertions_unverified"
+    }
+  ],
+  "edges": [
+    {
+      "from": "L81-PEN-VERSION",
+      "to": "L77-PEN-UNIQUENESS-PREMISES",
+      "type": "dated_later_pen_rule_alters_necessary_conditions",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L81-PEN-VERSION",
+      "to": "L62-REVISED-PEN",
+      "type": "provenance_version_history_of_simplified_and_revised_pen_rules",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L81-PEN-VERSION",
+      "to": "L64-TOLERANCE",
+      "type": "minute_price_precision_and_source_version_can_change_borderline_label",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L82-FRACTAL-OUTCOME",
+      "to": "L79-INTRADAY-DUAL-CLOCK",
+      "type": "confirmed_fractal_and_future_pen_outcome_are_separate_online_events",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L82-FRACTAL-OUTCOME",
+      "to": "L77-PEN-UNIQUENESS-PREMISES",
+      "type": "later_completed_pen_depends_on_valid_fractal_and_pen_version",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L83-SEGMENT-ROBUSTNESS",
+      "to": "L78-IMMUTABLE-PROJECTION",
+      "type": "segment_as_basic_center_input_distinct_from_original_noisy_pen_sequence",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L83-SEGMENT-ROBUSTNESS",
+      "to": "L67-FEATURE-SEQUENCE",
+      "type": "feature_sequence_confirmation_plausible_noise_filter_requires_validation",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L84-SELF-STRUCTURE-RECURSION",
+      "to": "L81-PEN-VERSION",
+      "type": "base_definition_changes_may_affect_recursive_higher_structure",
+      "certainty": "ai_analysis"
+    },
+    {
+      "from": "L84-SELF-STRUCTURE-RECURSION",
+      "to": "L63-OBSERVATION-SCALE",
+      "type": "structure_level_not_identical_to_displayed_Kline_timeframe",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L85-LEGALITY-NOT-EVIDENCE",
+      "to": "L75-UNVERIFIED-ANECDOTES",
+      "type": "continuation_of_unverified_historical_and_self_legal_claim",
+      "certainty": "documented_conceptual_relation"
+    },
+    {
+      "from": "L85-LEGALITY-NOT-EVIDENCE",
+      "to": "L76-ANECDOTE-EVIDENCE",
+      "type": "retains_same_source_evidence_boundary_for_marketing_and_causal_claims",
+      "certainty": "ai_analysis"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+name: Chanlun lessons 31–35 source, capital and recursion audits
+on:
+  push:
+    branches: [feat/chanlun-lessons031-035-source-20261107]
+    paths:
+      - ".github/workflows/chanlun-lessons031-035-audit.yml"
+      - "catalog/chanlun_lessons031_035_source_layers.json"
+      - "knowledge/evidence/chanlun_lesson*.json"
+      - "knowledge/claims/chanlun_early_core_dependencies.json"
+      - "tools/verify_chanlun_lessons031_035.py"
+      - "tools/audit_chanlun_lesson031_zero_cost.py"
+      - "tools/audit_chanlun_lesson035_recursion_and_associativity.py"
+      - "tests/test_chanlun_lessons031_035.py"
+      - "tests/test_chanlun_lesson031_zero_cost.py"
+      - "tests/test_chanlun_lesson035_recursion_and_associativity.py"
+      - "analyses/books/chanlun/chapters/lesson_*.md"
+      - "analyses/books/chanlun/volumes/LESSONS_031_035_SYNTHESIS.md"
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - name: Source provenance and concept dependency graph
+        run: python -B tools/verify_chanlun_lessons031_035.py
+      - name: Synthetic remaining-stock exposure
+        run: python -B tools/audit_chanlun_lesson031_zero_cost.py
+      - name: Synthetic recursion and concatenation
+        run: python -B tools/audit_chanlun_lesson035_recursion_and_associativity.py
+      - name: Nine source-claim mutation tests
+        run: python -B -m unittest discover -s tests -p "test_chanlun_lessons031_035.py" -v
+      - name: Five cash-ledger tests
+        run: python -B -m unittest discover -s tests -p "test_chanlun_lesson031_zero_cost.py" -v
+      - name: Six recursion-boundary tests
+        run: python -B -m unittest discover -s tests -p "test_chanlun_lesson035_recursion_and_associativity.py" -v

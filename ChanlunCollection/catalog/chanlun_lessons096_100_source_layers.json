@@ -1,0 +1,1901 @@
+{
+  "schema_version": 1,
+  "source_run_id": 42434862466,
+  "volume": 5,
+  "original_pdf": "ChineseBooks/缠论/缠论_卷5.pdf",
+  "original_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+  "source_pages_total": 78,
+  "lessons": [
+    {
+      "lesson": 96,
+      "title": "无处不在的赌徒心理",
+      "source_path": "ChineseBooks/缠论/缠论_卷5.pdf",
+      "source_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "volume": 5,
+      "start": 155,
+      "end": 171,
+      "original_date": "2008-01-23 16:18:38",
+      "first_star_divider": null,
+      "page_info": [
+        {
+          "page": 155,
+          "chars": 895,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 156,
+          "chars": 1024,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 157,
+          "chars": 458,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 158,
+          "chars": 26,
+          "image_count": 1,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 159,
+          "chars": 1034,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 160,
+          "chars": 533,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 161,
+          "chars": 219,
+          "image_count": 1,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 162,
+          "chars": 1217,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 163,
+          "chars": 150,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 164,
+          "chars": 26,
+          "image_count": 1,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 165,
+          "chars": 370,
+          "image_count": 1,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 166,
+          "chars": 993,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 167,
+          "chars": 828,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 168,
+          "chars": 533,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 169,
+          "chars": 346,
+          "image_count": 1,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 170,
+          "chars": 395,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 171,
+          "chars": 26,
+          "image_count": 1,
+          "editor_cue": false,
+          "divider": false
+        }
+      ],
+      "topics": [
+        {
+          "page": 155,
+          "terms": [
+            "赌徒",
+            "心理",
+            "操作",
+            "可能"
+          ]
+        },
+        {
+          "page": 156,
+          "terms": [
+            "赌徒",
+            "心理",
+            "决定",
+            "利润"
+          ]
+        },
+        {
+          "page": 157,
+          "terms": [
+            "赌徒",
+            "心理",
+            "走势",
+            "笔",
+            "分型",
+            "线段",
+            "级别",
+            "中枢"
+          ]
+        },
+        {
+          "page": 158,
+          "terms": [
+            "赌徒",
+            "心理"
+          ]
+        },
+        {
+          "page": 159,
+          "terms": [
+            "赌徒",
+            "心理",
+            "风险",
+            "走势",
+            "笔",
+            "可能"
+          ]
+        },
+        {
+          "page": 160,
+          "terms": [
+            "赌徒",
+            "心理",
+            "操作",
+            "走势",
+            "笔",
+            "分型",
+            "当下",
+            "中枢"
+          ]
+        },
+        {
+          "page": 161,
+          "terms": [
+            "赌徒",
+            "心理"
+          ]
+        },
+        {
+          "page": 162,
+          "terms": [
+            "赌徒",
+            "心理",
+            "风险",
+            "走势",
+            "分型",
+            "线段",
+            "中枢",
+            "可能"
+          ]
+        },
+        {
+          "page": 163,
+          "terms": [
+            "赌徒",
+            "心理",
+            "走势"
+          ]
+        },
+        {
+          "page": 164,
+          "terms": [
+            "赌徒",
+            "心理"
+          ]
+        },
+        {
+          "page": 165,
+          "terms": [
+            "赌徒",
+            "心理",
+            "走势",
+            "中枢",
+            "背驰"
+          ]
+        },
+        {
+          "page": 166,
+          "terms": [
+            "赌徒",
+            "心理",
+            "风险",
+            "操作",
+            "可能"
+          ]
+        },
+        {
+          "page": 167,
+          "terms": [
+            "赌徒",
+            "心理",
+            "操作",
+            "级别",
+            "背驰",
+            "决定",
+            "可能",
+            "必然"
+          ]
+        },
+        {
+          "page": 168,
+          "terms": [
+            "赌徒",
+            "心理",
+            "操作",
+            "走势",
+            "结构",
+            "中枢"
+          ]
+        },
+        {
+          "page": 169,
+          "terms": [
+            "赌徒",
+            "心理",
+            "走势",
+            "必然"
+          ]
+        },
+        {
+          "page": 170,
+          "terms": [
+            "赌徒",
+            "心理",
+            "走势",
+            "中枢",
+            "可能"
+          ]
+        },
+        {
+          "page": 171,
+          "terms": [
+            "赌徒",
+            "心理"
+          ]
+        }
+      ],
+      "dated_followups": [
+        {
+          "page": 156,
+          "dates": [
+            "2008-01-24 15:17:30"
+          ]
+        },
+        {
+          "page": 159,
+          "dates": [
+            "2008-01-25 15:17:34"
+          ]
+        },
+        {
+          "page": 162,
+          "dates": [
+            "2008-01-28 15:20:28"
+          ]
+        },
+        {
+          "page": 166,
+          "dates": [
+            "2008-01-28 18:54:02"
+          ]
+        },
+        {
+          "page": 168,
+          "dates": [
+            "2008-01-29 15:19:24"
+          ]
+        }
+      ],
+      "rendered": [
+        156,
+        162,
+        169
+      ],
+      "page_count": 17,
+      "native_chars": 9073,
+      "image_pages": [
+        158,
+        161,
+        164,
+        165,
+        169,
+        171
+      ],
+      "sparse_pages": [
+        158,
+        164,
+        171
+      ]
+    },
+    {
+      "lesson": 97,
+      "title": "中医、兵法、诗歌、操作1",
+      "source_path": "ChineseBooks/缠论/缠论_卷5.pdf",
+      "source_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "volume": 5,
+      "start": 172,
+      "end": 191,
+      "original_date": "2008-01-29 15:49:06",
+      "first_star_divider": null,
+      "page_info": [
+        {
+          "page": 172,
+          "chars": 923,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 173,
+          "chars": 1125,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 174,
+          "chars": 558,
+          "image_count": 0,
+          "editor_cue": true,
+          "divider": false
+        },
+        {
+          "page": 175,
+          "chars": 29,
+          "image_count": 1,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 176,
+          "chars": 218,
+          "image_count": 1,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 177,
+          "chars": 29,
+          "image_count": 1,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 178,
+          "chars": 544,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 179,
+          "chars": 149,
+          "image_count": 1,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 180,
+          "chars": 997,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 181,
+          "chars": 833,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 182,
+          "chars": 162,
+          "image_count": 1,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 183,
+          "chars": 1064,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 184,
+          "chars": 1133,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 185,
+          "chars": 1062,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 186,
+          "chars": 860,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 187,
+          "chars": 1018,
+          "image_count": 0,
+          "editor_cue": true,
+          "divider": false
+        },
+        {
+          "page": 188,
+          "chars": 29,
+          "image_count": 1,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 189,
+          "chars": 29,
+          "image_count": 1,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 190,
+          "chars": 29,
+          "image_count": 1,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 191,
+          "chars": 876,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        }
+      ],
+      "topics": [
+        {
+          "page": 172,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "当下",
+            "决定"
+          ]
+        },
+        {
+          "page": 173,
+          "terms": [
+            "买卖点",
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "走势",
+            "可能",
+            "必然"
+          ]
+        },
+        {
+          "page": 174,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "可能"
+          ]
+        },
+        {
+          "page": 175,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作"
+          ]
+        },
+        {
+          "page": 176,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "可能"
+          ]
+        },
+        {
+          "page": 177,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作"
+          ]
+        },
+        {
+          "page": 178,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "可能"
+          ]
+        },
+        {
+          "page": 179,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "走势",
+            "中枢"
+          ]
+        },
+        {
+          "page": 180,
+          "terms": [
+            "资金",
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "走势",
+            "中枢",
+            "可能"
+          ]
+        },
+        {
+          "page": 181,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "走势",
+            "级别",
+            "中枢",
+            "必然"
+          ]
+        },
+        {
+          "page": 182,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "中枢"
+          ]
+        },
+        {
+          "page": 183,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "走势",
+            "结构",
+            "级别",
+            "中枢"
+          ]
+        },
+        {
+          "page": 184,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "走势",
+            "笔",
+            "结构",
+            "可能"
+          ]
+        },
+        {
+          "page": 185,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "表里",
+            "分型",
+            "力度",
+            "结构",
+            "可能"
+          ]
+        },
+        {
+          "page": 186,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "走势",
+            "可能"
+          ]
+        },
+        {
+          "page": 187,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "线段",
+            "力度",
+            "背驰",
+            "可能"
+          ]
+        },
+        {
+          "page": 188,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作"
+          ]
+        },
+        {
+          "page": 189,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作"
+          ]
+        },
+        {
+          "page": 190,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作"
+          ]
+        },
+        {
+          "page": 191,
+          "terms": [
+            "资金",
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "分型",
+            "级别",
+            "中枢",
+            "决定"
+          ]
+        }
+      ],
+      "dated_followups": [
+        {
+          "page": 174,
+          "dates": [
+            "2008-01-30 15:23:08"
+          ]
+        },
+        {
+          "page": 180,
+          "dates": [
+            "2008-01-31 15:13:08"
+          ]
+        },
+        {
+          "page": 181,
+          "dates": [
+            "2008-01-26 10:23:21",
+            "2008-01-31 18:44:04"
+          ]
+        },
+        {
+          "page": 184,
+          "dates": [
+            "2008-02-01 15:17:48",
+            "2007-12-20 15:59:05"
+          ]
+        },
+        {
+          "page": 185,
+          "dates": [
+            "2008-01-15 18:08:05"
+          ]
+        },
+        {
+          "page": 186,
+          "dates": [
+            "2008-02-01 19:17:37"
+          ]
+        },
+        {
+          "page": 187,
+          "dates": [
+            "2008-02-04 15:20:02"
+          ]
+        }
+      ],
+      "rendered": [
+        173,
+        180,
+        190
+      ],
+      "page_count": 20,
+      "native_chars": 11667,
+      "image_pages": [
+        175,
+        176,
+        177,
+        179,
+        182,
+        188,
+        189,
+        190
+      ],
+      "sparse_pages": [
+        175,
+        177,
+        188,
+        189,
+        190
+      ]
+    },
+    {
+      "lesson": 98,
+      "title": "中医、兵法、诗歌、操作2",
+      "source_path": "ChineseBooks/缠论/缠论_卷5.pdf",
+      "source_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "volume": 5,
+      "start": 192,
+      "end": 201,
+      "original_date": "2008-02-04 19:51:49",
+      "first_star_divider": null,
+      "page_info": [
+        {
+          "page": 192,
+          "chars": 558,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 193,
+          "chars": 227,
+          "image_count": 1,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 194,
+          "chars": 1083,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 195,
+          "chars": 1035,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 196,
+          "chars": 1022,
+          "image_count": 0,
+          "editor_cue": true,
+          "divider": false
+        },
+        {
+          "page": 197,
+          "chars": 1047,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 198,
+          "chars": 886,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 199,
+          "chars": 1167,
+          "image_count": 0,
+          "editor_cue": true,
+          "divider": false
+        },
+        {
+          "page": 200,
+          "chars": 1064,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 201,
+          "chars": 1089,
+          "image_count": 0,
+          "editor_cue": true,
+          "divider": false
+        }
+      ],
+      "topics": [
+        {
+          "page": 192,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "走势",
+            "线段",
+            "当下",
+            "中枢",
+            "背驰",
+            "决定"
+          ]
+        },
+        {
+          "page": 193,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "走势",
+            "线段",
+            "可能"
+          ]
+        },
+        {
+          "page": 194,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "走势",
+            "线段",
+            "级别",
+            "当下",
+            "中枢",
+            "背驰",
+            "可能"
+          ]
+        },
+        {
+          "page": 195,
+          "terms": [
+            "风险",
+            "资金",
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "走势",
+            "线段",
+            "级别",
+            "中枢",
+            "背驰",
+            "可能",
+            "必然"
+          ]
+        },
+        {
+          "page": 196,
+          "terms": [
+            "买卖点",
+            "资金",
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "走势",
+            "中枢",
+            "可能"
+          ]
+        },
+        {
+          "page": 197,
+          "terms": [
+            "风险",
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "走势",
+            "级别",
+            "中枢",
+            "决定",
+            "可能",
+            "利润"
+          ]
+        },
+        {
+          "page": 198,
+          "terms": [
+            "买卖点",
+            "资金",
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "走势",
+            "中枢"
+          ]
+        },
+        {
+          "page": 199,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "走势",
+            "级别",
+            "中枢",
+            "可能"
+          ]
+        },
+        {
+          "page": 200,
+          "terms": [
+            "风险",
+            "资金",
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "走势",
+            "决定"
+          ]
+        },
+        {
+          "page": 201,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "走势",
+            "线段",
+            "中枢",
+            "动力",
+            "决定",
+            "可能"
+          ]
+        }
+      ],
+      "dated_followups": [
+        {
+          "page": 195,
+          "dates": [
+            "2008-02-05 15:09:59"
+          ]
+        },
+        {
+          "page": 197,
+          "dates": [
+            "2008-02-13 15:15:42"
+          ]
+        },
+        {
+          "page": 198,
+          "dates": [
+            "2008-02-14 15:25:29"
+          ]
+        },
+        {
+          "page": 200,
+          "dates": [
+            "2008-02-15 15:39:01"
+          ]
+        },
+        {
+          "page": 201,
+          "dates": [
+            "2008-02-18 15:18:26"
+          ]
+        }
+      ],
+      "rendered": [
+        193,
+        199
+      ],
+      "page_count": 10,
+      "native_chars": 9178,
+      "image_pages": [
+        193
+      ],
+      "sparse_pages": []
+    },
+    {
+      "lesson": 99,
+      "title": "走势结构的两重表里关系3",
+      "source_path": "ChineseBooks/缠论/缠论_卷5.pdf",
+      "source_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "volume": 5,
+      "start": 202,
+      "end": 223,
+      "original_date": "2008-02-18 16:19:16",
+      "first_star_divider": null,
+      "page_info": [
+        {
+          "page": 202,
+          "chars": 1195,
+          "image_count": 0,
+          "editor_cue": true,
+          "divider": false
+        },
+        {
+          "page": 203,
+          "chars": 1116,
+          "image_count": 0,
+          "editor_cue": true,
+          "divider": false
+        },
+        {
+          "page": 204,
+          "chars": 241,
+          "image_count": 1,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 205,
+          "chars": 221,
+          "image_count": 1,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 206,
+          "chars": 562,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 207,
+          "chars": 225,
+          "image_count": 1,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 208,
+          "chars": 1104,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 209,
+          "chars": 448,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 210,
+          "chars": 29,
+          "image_count": 1,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 211,
+          "chars": 550,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 212,
+          "chars": 153,
+          "image_count": 1,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 213,
+          "chars": 405,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 214,
+          "chars": 251,
+          "image_count": 1,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 215,
+          "chars": 413,
+          "image_count": 1,
+          "editor_cue": true,
+          "divider": false
+        },
+        {
+          "page": 216,
+          "chars": 393,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 217,
+          "chars": 300,
+          "image_count": 1,
+          "editor_cue": true,
+          "divider": false
+        },
+        {
+          "page": 218,
+          "chars": 230,
+          "image_count": 1,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 219,
+          "chars": 29,
+          "image_count": 1,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 220,
+          "chars": 1034,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 221,
+          "chars": 821,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 222,
+          "chars": 212,
+          "image_count": 1,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 223,
+          "chars": 499,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        }
+      ],
+      "topics": [
+        {
+          "page": 202,
+          "terms": [
+            "操作",
+            "走势",
+            "表里",
+            "线段",
+            "结构",
+            "级别",
+            "中枢",
+            "背驰",
+            "可能",
+            "必然"
+          ]
+        },
+        {
+          "page": 203,
+          "terms": [
+            "走势",
+            "表里",
+            "笔",
+            "分型",
+            "力度",
+            "结构",
+            "级别",
+            "中枢",
+            "决定",
+            "必然"
+          ]
+        },
+        {
+          "page": 204,
+          "terms": [
+            "走势",
+            "表里",
+            "笔",
+            "分型",
+            "结构",
+            "可能"
+          ]
+        },
+        {
+          "page": 205,
+          "terms": [
+            "走势",
+            "表里",
+            "笔",
+            "力度",
+            "结构"
+          ]
+        },
+        {
+          "page": 206,
+          "terms": [
+            "走势",
+            "表里",
+            "结构",
+            "中枢"
+          ]
+        },
+        {
+          "page": 207,
+          "terms": [
+            "走势",
+            "表里",
+            "结构"
+          ]
+        },
+        {
+          "page": 208,
+          "terms": [
+            "风险",
+            "走势",
+            "表里",
+            "结构",
+            "中枢",
+            "可能"
+          ]
+        },
+        {
+          "page": 209,
+          "terms": [
+            "买卖点",
+            "走势",
+            "表里",
+            "结构",
+            "中枢"
+          ]
+        },
+        {
+          "page": 210,
+          "terms": [
+            "走势",
+            "表里",
+            "结构"
+          ]
+        },
+        {
+          "page": 211,
+          "terms": [
+            "资金",
+            "走势",
+            "表里",
+            "结构"
+          ]
+        },
+        {
+          "page": 212,
+          "terms": [
+            "走势",
+            "表里",
+            "结构",
+            "中枢"
+          ]
+        },
+        {
+          "page": 213,
+          "terms": [
+            "走势",
+            "表里",
+            "线段",
+            "结构",
+            "中枢",
+            "背驰",
+            "决定"
+          ]
+        },
+        {
+          "page": 214,
+          "terms": [
+            "走势",
+            "表里",
+            "结构",
+            "决定"
+          ]
+        },
+        {
+          "page": 215,
+          "terms": [
+            "走势",
+            "表里",
+            "结构",
+            "级别",
+            "背驰",
+            "可能"
+          ]
+        },
+        {
+          "page": 216,
+          "terms": [
+            "走势",
+            "表里",
+            "分型",
+            "结构",
+            "级别",
+            "背驰",
+            "决定",
+            "可能"
+          ]
+        },
+        {
+          "page": 217,
+          "terms": [
+            "走势",
+            "表里",
+            "结构",
+            "级别",
+            "中枢",
+            "背驰"
+          ]
+        },
+        {
+          "page": 218,
+          "terms": [
+            "走势",
+            "表里",
+            "结构",
+            "中枢",
+            "可能"
+          ]
+        },
+        {
+          "page": 219,
+          "terms": [
+            "走势",
+            "表里",
+            "结构"
+          ]
+        },
+        {
+          "page": 220,
+          "terms": [
+            "操作",
+            "走势",
+            "表里",
+            "结构",
+            "级别",
+            "中枢",
+            "背驰",
+            "决定",
+            "可能",
+            "利润"
+          ]
+        },
+        {
+          "page": 221,
+          "terms": [
+            "走势",
+            "表里",
+            "结构",
+            "级别",
+            "中枢",
+            "背驰",
+            "决定",
+            "可能"
+          ]
+        },
+        {
+          "page": 222,
+          "terms": [
+            "走势",
+            "表里",
+            "力度",
+            "结构",
+            "中枢",
+            "背驰"
+          ]
+        },
+        {
+          "page": 223,
+          "terms": [
+            "操作",
+            "走势",
+            "表里",
+            "结构",
+            "决定",
+            "必然"
+          ]
+        }
+      ],
+      "dated_followups": [
+        {
+          "page": 203,
+          "dates": [
+            "2008-02-19 15:16:27"
+          ]
+        },
+        {
+          "page": 206,
+          "dates": [
+            "2008-02-20 15:27:33"
+          ]
+        },
+        {
+          "page": 208,
+          "dates": [
+            "2008-02-20 16:27:15"
+          ]
+        },
+        {
+          "page": 209,
+          "dates": [
+            "2008-02-21 15:18:25"
+          ]
+        },
+        {
+          "page": 213,
+          "dates": [
+            "2008-02-22 15:18:40"
+          ]
+        },
+        {
+          "page": 221,
+          "dates": [
+            "2008-02-25 15:23:55"
+          ]
+        }
+      ],
+      "rendered": [
+        203,
+        210,
+        222
+      ],
+      "page_count": 22,
+      "native_chars": 10431,
+      "image_pages": [
+        204,
+        205,
+        207,
+        210,
+        212,
+        214,
+        215,
+        217,
+        218,
+        219,
+        222
+      ],
+      "sparse_pages": [
+        210,
+        219
+      ]
+    },
+    {
+      "lesson": 100,
+      "title": "中医、兵法、诗歌、操作3",
+      "source_path": "ChineseBooks/缠论/缠论_卷5.pdf",
+      "source_sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+      "volume": 5,
+      "start": 224,
+      "end": 232,
+      "original_date": "2008-02-25 16:32:23",
+      "first_star_divider": null,
+      "page_info": [
+        {
+          "page": 224,
+          "chars": 1184,
+          "image_count": 0,
+          "editor_cue": true,
+          "divider": false
+        },
+        {
+          "page": 225,
+          "chars": 1022,
+          "image_count": 0,
+          "editor_cue": true,
+          "divider": false
+        },
+        {
+          "page": 226,
+          "chars": 1042,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 227,
+          "chars": 957,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 228,
+          "chars": 973,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 229,
+          "chars": 1089,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 230,
+          "chars": 923,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 231,
+          "chars": 1016,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        },
+        {
+          "page": 232,
+          "chars": 659,
+          "image_count": 0,
+          "editor_cue": false,
+          "divider": false
+        }
+      ],
+      "topics": [
+        {
+          "page": 224,
+          "terms": [
+            "资金",
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "级别",
+            "当下",
+            "中枢",
+            "背驰",
+            "可能",
+            "必然"
+          ]
+        },
+        {
+          "page": 225,
+          "terms": [
+            "资金",
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "走势",
+            "当下",
+            "中枢",
+            "背驰",
+            "可能"
+          ]
+        },
+        {
+          "page": 226,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "走势",
+            "笔",
+            "分型",
+            "背驰",
+            "可能",
+            "必然"
+          ]
+        },
+        {
+          "page": 227,
+          "terms": [
+            "心理",
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "走势",
+            "笔",
+            "分型",
+            "线段",
+            "中枢",
+            "背驰",
+            "动力",
+            "决定",
+            "必然"
+          ]
+        },
+        {
+          "page": 228,
+          "terms": [
+            "心理",
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "走势",
+            "结构",
+            "决定",
+            "可能"
+          ]
+        },
+        {
+          "page": 229,
+          "terms": [
+            "概率",
+            "买卖点",
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "走势",
+            "结构",
+            "级别",
+            "中枢",
+            "可能"
+          ]
+        },
+        {
+          "page": 230,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "走势",
+            "笔",
+            "分型",
+            "线段",
+            "中枢",
+            "可能"
+          ]
+        },
+        {
+          "page": 231,
+          "terms": [
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作",
+            "中枢",
+            "可能"
+          ]
+        },
+        {
+          "page": 232,
+          "terms": [
+            "资金",
+            "中医",
+            "兵法",
+            "诗歌",
+            "操作"
+          ]
+        }
+      ],
+      "dated_followups": [
+        {
+          "page": 225,
+          "dates": [
+            "2008-02-26 15:14:39"
+          ]
+        },
+        {
+          "page": 227,
+          "dates": [
+            "2008-02-28 15:12:30"
+          ]
+        },
+        {
+          "page": 228,
+          "dates": [
+            "2008-02-28 15:53:15"
+          ]
+        },
+        {
+          "page": 229,
+          "dates": [
+            "2008-02-29 15:18:56"
+          ]
+        },
+        {
+          "page": 230,
+          "dates": [
+            "2008-03-03 15:22:53"
+          ]
+        },
+        {
+          "page": 231,
+          "dates": [
+            "2008-03-04 15:18:09"
+          ]
+        }
+      ],
+      "rendered": [
+        225,
+        230
+      ],
+      "page_count": 9,
+      "native_chars": 8865,
+      "image_pages": [],
+      "sparse_pages": []
+    }
+  ],
+  "visual": {
+    "rendered": [
+      156,
+      162,
+      169,
+      173,
+      180,
+      190,
+      193,
+      199,
+      203,
+      210,
+      222,
+      225,
+      230
+    ],
+    "actually_inspected": [
+      156,
+      193,
+      203,
+      225
+    ],
+    "all_fine_numeric_labels_verified": false
+  },
+  "role_flags": [
+    {
+      "lesson": 96,
+      "pdf_page": 156,
+      "kind": "DIFFERENT_DATED_POST",
+      "description": "Jan24 15:17 market essay follows Jan23 original gambling psychology chapter on same physical page."
+    },
+    {
+      "lesson": 97,
+      "pdf_page": 174,
+      "kind": "DIFFERENT_DATED_POST",
+      "description": "Jan30 market note follows Jan29 theoretical essay."
+    },
+    {
+      "lesson": 97,
+      "pdf_page": 173,
+      "kind": "POTENTIALLY_UNSAFE_AUTHOR_MARKET_ACTION",
+      "description": "Author discusses moving prices from reference trading point and other market participants; quote as historical idea only, not instructions."
+    },
+    {
+      "lesson": 98,
+      "pdf_page": 195,
+      "kind": "DIFFERENT_DATED_POST",
+      "description": "Feb05 later market analysis follows Feb04 original."
+    },
+    {
+      "lesson": 99,
+      "pdf_page": 202,
+      "kind": "EDITORIAL_INTRUSION",
+      "description": "In-line 娇 annotation identifies 中阴 as state after a trend completes; not author original sentence."
+    },
+    {
+      "lesson": 99,
+      "pdf_page": 203,
+      "kind": "EDITORIAL_INTRUSION",
+      "description": "Later 娇 note interprets fractal bars; should not be attributed to initial Feb18 author essay."
+    },
+    {
+      "lesson": 99,
+      "pdf_page": 203,
+      "kind": "DIFFERENT_DATED_POST",
+      "description": "Feb19 market post begins after original Feb18 essay within same PDF physical page."
+    },
+    {
+      "lesson": 100,
+      "pdf_page": 224,
+      "kind": "EDITORIAL_NOTE",
+      "description": "Later 娇 explanation of 5m center borrowed from 30m extension."
+    },
+    {
+      "lesson": 100,
+      "pdf_page": 225,
+      "kind": "EDITORIAL_COUNTEREXAMPLE",
+      "description": "Later 娇注 says subsequent real course did not conform to either of the author's two branches, an explicitly conflicting interpretation not independently adjudicated here."
+    },
+    {
+      "lesson": 100,
+      "pdf_page": 225,
+      "kind": "DIFFERENT_DATED_POST",
+      "description": "Feb26 separate market review follows Feb25 original lesson."
+    }
+  ],
+  "limitations": [
+    "Original essay and appended market commentaries share physical chapter ranges; publication times are not equivalent.",
+    "Low-resolution preview images cannot independently verify chart price labels, drawn segment numbers, or full economic profit.",
+    "Synthetic logical tests are not complete Chanlun parser or historical trade backtests.",
+    "Original author's strong universal claims and later editorial objection coexist until independent reproducible evidence is available."
+  ]
+}

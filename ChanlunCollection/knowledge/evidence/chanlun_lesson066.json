@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "lesson": 66,
+  "state": "bounded_verified_original_excerpts_and_page_level_inventory_figure_numeric_unverified",
+  "source": {
+    "volume": 3,
+    "path": "ChineseBooks/缠论/缠论_卷3.pdf",
+    "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+    "original_date": "2007-07-30 22:42:05",
+    "pdf_pages": [
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387
+    ],
+    "first_appendix_separator": 375
+  },
+  "quality": {
+    "page_count": 14,
+    "native_chars": 7471,
+    "image_pages": [
+      376,
+      378,
+      379,
+      383,
+      386,
+      387
+    ],
+    "visual_preview_pages": [
+      376
+    ],
+    "numeric_chart_values_verified": false
+  },
+  "claims": [
+    {
+      "id": "CL66-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        374
+      ],
+      "summary": "作者反对将市场价格变化完全归因于单一全能主力。"
+    },
+    {
+      "id": "CL66-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        374
+      ],
+      "summary": "作者认为市场合力由不同规模和利益主体构成。"
+    },
+    {
+      "id": "CL66-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        374,
+        375
+      ],
+      "summary": "作者用资金层级食物链描述市场竞争与相互影响。"
+    },
+    {
+      "id": "CL66-INTERPRETATION-4",
+      "kind": "INTERPRETATION",
+      "volume": 3,
+      "pdf_pages": [
+        374
+      ],
+      "summary": "技术图形与具体资金身份认定是不同证据问题。"
+    },
+    {
+      "id": "CL66-INFERENCE-5",
+      "kind": "INFERENCE",
+      "volume": 3,
+      "pdf_pages": [
+        374,
+        375
+      ],
+      "summary": "无交易主体证据不能据价格图确定违法操纵或特定人动机。"
+    },
+    {
+      "id": "CL66-HYPOTHESIS-6",
+      "kind": "HYPOTHESIS",
+      "volume": 3,
+      "pdf_pages": [
+        374,
+        375
+      ],
+      "summary": "公开聚合资金集中程度与市场冲击是否相关有待检验。",
+      "test_status": "not_tested"
+    }
+  ],
+  "real_market_tests": "not_run",
+  "limitations": [
+    "Original and later-editorial layers are distinct.",
+    "No detailed numeric verification of charts.",
+    "No real-market predictive validation."
+  ]
+}

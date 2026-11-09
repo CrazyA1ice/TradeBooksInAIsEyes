@@ -1,0 +1,28 @@
+name: Chanlun lesson38 asymmetric policy and symbolic-boundary safety
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "catalog/chanlun_lesson038_partial_rule_contract_v1.json"
+      - "knowledge/evidence/chanlun_lesson038.json"
+      - "tests/fixtures/chanlun38_symbolic_policy_cases_v1.json"
+      - "tests/test_chanlun_lesson038_policy_scope.py"
+      - "tools/audit_chanlun_lesson038_policy_scope.py"
+      - "deliverables/chanlun_108_acceptance/04_AI_GUIDE/21_*"
+      - ".github/workflows/chanlun-lesson38-partial-policy.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect-partial-author-rules:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Audit source role, exact original page fingerprint and scope-specific source rules
+        run: python -B tools/audit_chanlun_lesson038_policy_scope.py
+      - name: Test that candidates never become full-parser counterexamples or proof
+        run: python -B -m unittest discover -s tests -p "test_chanlun_lesson038_policy_scope.py" -v

@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "lesson": 82,
+  "study_status": "source_sha_locked_original_page_and_bounded_excerpt_figure_numeric_unverified",
+  "source": {
+    "volume": 4,
+    "path": "ChineseBooks/缠论/缠论_卷4.pdf",
+    "sha256": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+    "original_date": "2007-09-24 21:31:06",
+    "pdf_pages": [
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287
+    ],
+    "first_star_divider_candidate": 283
+  },
+  "quality": {
+    "page_count": 22,
+    "native_chars": 7936,
+    "image_pages": [
+      267,
+      268,
+      269,
+      270,
+      272,
+      273,
+      274,
+      276,
+      277,
+      279,
+      280,
+      282,
+      285
+    ],
+    "rendered_preview_pages": [
+      269,
+      277
+    ],
+    "visually_inspected_pages": [
+      269,
+      277
+    ],
+    "fine_price_annotations_verified": false
+  },
+  "claims": [
+    {
+      "id": "CL82-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 4,
+      "pdf_pages": [
+        266
+      ],
+      "summary": "作者把顶底分型解释为买卖力量的多次交锋。"
+    },
+    {
+      "id": "CL82-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 4,
+      "pdf_pages": [
+        266,
+        268
+      ],
+      "summary": "作者以影线、实体大小和第三根bar走势讨论顶分型力度。"
+    },
+    {
+      "id": "CL82-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 4,
+      "pdf_pages": [
+        270
+      ],
+      "summary": "作者提出中继型与延续为笔的两类后续结构。"
+    },
+    {
+      "id": "CL82-SOURCE-4",
+      "kind": "SOURCE",
+      "volume": 4,
+      "pdf_pages": [
+        271
+      ],
+      "summary": "作者结合小级别中枢第三类买卖点来分析分型是否延伸成笔。"
+    },
+    {
+      "id": "CL82-EDITORIAL-5",
+      "kind": "EDITORIAL",
+      "volume": 4,
+      "pdf_pages": [
+        268,
+        271
+      ],
+      "summary": "源页存在后期娇注，不能无区分归给原作者。"
+    },
+    {
+      "id": "CL82-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 4,
+      "pdf_pages": [
+        266,
+        274
+      ],
+      "summary": "K线几何不唯一决定交易主体的真实心理或未来市场结局。"
+    },
+    {
+      "id": "CL82-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 4,
+      "pdf_pages": [
+        270,
+        274
+      ],
+      "summary": "形态特征与未来成笔概率及真实收益的关系尚待检验。",
+      "test_status": "not_tested"
+    }
+  ],
+  "real_market_test": "not_run",
+  "warnings": [
+    "Different dated documents and later editorial notes kept separate.",
+    "Claims about trading profit, legality and 100% universal laws not independently verified.",
+    "Exact market data and historical fills not inspected."
+  ]
+}

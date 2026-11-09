@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-L022-FIRSTPASS-20261107",
+  "status": "source_text_and_bounded_excerpt_reviewed_images_unverified",
+  "source": {
+    "volume": 1,
+    "path": "ChineseBooks/缠论/缠论_卷1.pdf",
+    "sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+    "lesson_number": 22,
+    "author_date": "2007-01-11 15:10:32",
+    "pdf_pages": [
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298
+    ],
+    "first_dialogue_candidate": 281
+  },
+  "page_audit": {
+    "pages": 27,
+    "native_characters": 20617,
+    "image_pages": [
+      273,
+      274,
+      276,
+      278,
+      279,
+      280
+    ],
+    "low_text_pages": [
+      273,
+      274,
+      276
+    ],
+    "source_actions_run": 42371836598
+  },
+  "claims": [
+    {
+      "id": "CL022-S01",
+      "kind": "SOURCE",
+      "volume": 1,
+      "pdf_pages": [
+        272
+      ],
+      "summary": "作者以寓言和自述讨论多标的资金配置及机动仓位。"
+    },
+    {
+      "id": "CL022-S02",
+      "kind": "SOURCE",
+      "volume": 1,
+      "pdf_pages": [
+        272,
+        275,
+        277
+      ],
+      "summary": "文中将第三类买点和部分标的交易故事联系起来。"
+    },
+    {
+      "id": "CL022-S03",
+      "kind": "SOURCE",
+      "volume": 1,
+      "pdf_pages": [
+        280
+      ],
+      "summary": "作者强调资金整体安全和变现能力。"
+    },
+    {
+      "id": "CL022-I04",
+      "kind": "INTERPRETATION",
+      "volume": 1,
+      "pdf_pages": [
+        272,
+        280
+      ],
+      "summary": "故事包含风险管理思路，但缺少可核对的账户凭证。"
+    },
+    {
+      "id": "CL022-I05",
+      "kind": "INFERENCE",
+      "volume": 1,
+      "pdf_pages": [
+        272,
+        280
+      ],
+      "summary": "账户规模与流动性状态不足以支持确定性执行保证。"
+    },
+    {
+      "id": "CL022-H06",
+      "kind": "HYPOTHESIS",
+      "volume": 1,
+      "pdf_pages": [
+        272,
+        280
+      ],
+      "summary": "流动性缓冲在压力市场是否改善风险表现需样本外研究。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "Author's original article and later appended text are mixed in the compiled PDF.",
+    "All figure readings remain pending reliable visual review.",
+    "Synthetic logical audit is not empirical support for real trading advantages."
+  ]
+}

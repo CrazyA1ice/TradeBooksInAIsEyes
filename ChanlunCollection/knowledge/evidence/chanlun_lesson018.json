@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "analysis_id": "CHANLUN-V1-L018-FIRSTPASS-20261107",
+  "status": "source_text_reviewed_and_reasoned_image_semantics_not_verified",
+  "source": {
+    "path": "ChineseBooks/缠论/缠论_卷1.pdf",
+    "sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+    "lesson_number": 18,
+    "author_date": "2006-12-26 15:05:58",
+    "pdf_pages": [
+      234,
+      235,
+      236,
+      237
+    ],
+    "first_dialogue_boundary_candidate": 237
+  },
+  "audit": {
+    "page_count": 4,
+    "native_text_characters": 4070,
+    "image_pages": [],
+    "source_read_run": 42370612377
+  },
+  "claims": [
+    {
+      "id": "CL018-S01",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        234
+      ],
+      "summary": "作者重述三段次级别走势重叠的中枢区间定义。"
+    },
+    {
+      "id": "CL018-S07",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        235
+      ],
+      "summary": "作者明确将三段连续次级别走势重叠视为盘整随时可完成的条件，同时说明盘整可继续延伸；有两个依次同向中枢的趋势也可继续延伸，不能把满足结构门槛当作实时完成。",
+      "source_anchor": {
+        "canonical_pdf_sha256": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+        "native_text_sha256_by_physical_page": {
+          "235": "d4f06d4d8395748f7b38307ccdc83436fdf9480a729fad413c45f772ae7023d4"
+        },
+        "role": "AUTHOR_MAIN_TEXT_IN_COMPILATION_WITH_INLINE_LATER_EDITORIAL_NOTES",
+        "independent_first_publication_verified": false,
+        "inline_editorial_markers_present": true,
+        "full_image_review": false,
+        "not_a_complete_legal_center_certification": true
+      }
+    },
+    {
+      "id": "CL018-S02",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        236
+      ],
+      "summary": "作者描述趋势相邻中枢间连接的级别限制。"
+    },
+    {
+      "id": "CL018-S03",
+      "kind": "SOURCE",
+      "pdf_pages": [
+        236,
+        237
+      ],
+      "summary": "作者将离开后回抽不返回作为中枢破坏的条件。"
+    },
+    {
+      "id": "CL018-I04",
+      "kind": "INTERPRETATION",
+      "pdf_pages": [
+        237
+      ],
+      "summary": "回试段必须先定义完成与实时可确认时刻。"
+    },
+    {
+      "id": "CL018-I05",
+      "kind": "INFERENCE",
+      "pdf_pages": [
+        237
+      ],
+      "summary": "区间不重叠只给出几何关系，不决定后续价格上涨。"
+    },
+    {
+      "id": "CL018-H06",
+      "kind": "HYPOTHESIS",
+      "pdf_pages": [
+        236,
+        237
+      ],
+      "summary": "确认延迟与边界触及对信号有效性的影响尚未实证。",
+      "status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "Compiled material mixes authored article, editor notes and later Q&A.",
+    "Source images and numerical annotations require independent visual review.",
+    "No empirical trading outcome was estimated."
+  ]
+}

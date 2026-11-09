@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "method": "pymupdf_1.26.7_get_text_sort_true",
+  "source_role": "COMPILATION_TEXT_NOT_ALL_FIRST_PUBLICATION_AUTHOR_VERIFIED",
+  "original_pdf_sha256": {
+    "1": "0a402e19bbcabc24a5d031b047aeebcf96cdb7f777d2462cc7e5b28ed121b865",
+    "2": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+    "3": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+    "4": "ceca9ac8b7fb13106d2085253679acf1474373fb61ca38b487d8ca01cf0ad66d",
+    "5": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65"
+  },
+  "original_pages_native_text_sha256": {
+    "1:247": "413cbc347ea62f60139f49920b667084aeb5d8453645d5f99d9387aaa8ea8039",
+    "1:253": "180720776f41e633e46b99ae59d88ef539bb93491e673c6ab789daa722fd9556",
+    "1:254": "75d3ed649020c183c5b1a8fe0d3f4dca8736ceaf19a381dd450bbc19df0095f6",
+    "2:3": "a4ecd0828a18d1d53cca87178ce8618095fedc6fe1328acaa1194fa0a01d649a",
+    "2:4": "f709ed654defbff856951ccc8d17a2131398b7a805946c7ac831d0e3b11829e7",
+    "2:91": "dcf24be338e742cc89fff900ec390c1ffb73e06b72b19ea0319a655c65761b22",
+    "2:93": "34e58f260c077c8c12818f484cd89713158d029a4cbaad70d74ad2470ef5c319",
+    "3:17": "1812c5ce9fded57546b6ed5ac4f923eaf94fcb04330912491d47cc72e02a2899",
+    "3:18": "744a10d4f3bdbd852917e51c0c26a569f100507ae11921c75ea59f0dd5f36095",
+    "3:161": "5b2698fedcf03656fd783e2d217d385506085e5bd723b6fc27153ccf15ff809e",
+    "3:162": "647dd2b7675e71f4841bee4c249aba1f59840f945265b30f59b9c20be390cacc",
+    "4:299": "698ef19a660e5e66613bca174b28dbd40f78e625f44ba1863aea7580740c953c",
+    "4:300": "61f6b60056bbc28127aca3c58d316fc3eba7667e309f1ec6551a5d41e5ccdc4c",
+    "4:301": "de607353df1f7c41aab41fc11bb656a8117dcfff4fa0c5e8ddf1381f2de2f1ec",
+    "5:64": "1b3b9474bccd8d691378ab9c8c16efe2c985653abe9de9370ffcb264ef0efb69",
+    "5:65": "ec3d4ae7da26b403750676c06503c10d92c5602e246ce6be74ea9d6404dc0f7b",
+    "5:93": "8939229259e5f3d9764db15a24620b4230134857ebcdde90bc60fbec533f4a07",
+    "5:94": "b17019ec43ac4a4b48ae71f1ed4358d1da8fea1c4655cd52d85369fd5086b57a"
+  },
+  "original_pages_count": 18,
+  "original_pdf_images_inspected": false,
+  "original_figure_values_verified": false,
+  "real_market_data_read": false,
+  "transcript_committed": false
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "lesson": 96,
+  "source": {
+    "volume": 5,
+    "path": "ChineseBooks/缠论/缠论_卷5.pdf",
+    "sha256": "6ea9d7fb45864494d37cc7152a335d656516802f8bdf95c93509d7b742e2ec65",
+    "original_date": "2008-01-23 16:18:38",
+    "pdf_pages": [
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171
+    ]
+  },
+  "quality": {
+    "physical_pages": 17,
+    "native_chars": 9073,
+    "image_pages": [
+      158,
+      161,
+      164,
+      165,
+      169,
+      171
+    ],
+    "rendered_previews": [
+      156,
+      162,
+      169
+    ],
+    "actually_inspected_pages": [
+      156
+    ],
+    "precise_chart_numbers_verified": false
+  },
+  "claims": [
+    {
+      "id": "CL96-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        155
+      ],
+      "summary": "作者把亏损后等待个人目标价再退出视为赌徒式价格锚。"
+    },
+    {
+      "id": "CL96-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        155
+      ],
+      "summary": "作者批评因害怕错过而追涨杀跌及听消息行为。"
+    },
+    {
+      "id": "CL96-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 5,
+      "pdf_pages": [
+        155,
+        156
+      ],
+      "summary": "作者主张控制追加投入并用不影响生活的资金练习。"
+    },
+    {
+      "id": "CL96-EVIDENCE-4",
+      "kind": "EVIDENCE",
+      "volume": 5,
+      "pdf_pages": [
+        156
+      ],
+      "summary": "不同日期的1月24日市场文章接续在同一物理页。"
+    },
+    {
+      "id": "CL96-INTERPRETATION-5",
+      "kind": "INTERPRETATION",
+      "volume": 5,
+      "pdf_pages": [
+        155
+      ],
+      "summary": "预设目标价的合理性取决于可复核风险规则与时间，而非仅凭收益成败。"
+    },
+    {
+      "id": "CL96-INFERENCE-6",
+      "kind": "INFERENCE",
+      "volume": 5,
+      "pdf_pages": [
+        155,
+        156
+      ],
+      "summary": "执行纪律和避免赌徒行为不能逻辑保证交易盈利。"
+    },
+    {
+      "id": "CL96-HYPOTHESIS-7",
+      "kind": "HYPOTHESIS",
+      "volume": 5,
+      "pdf_pages": [
+        155,
+        156
+      ],
+      "summary": "行为锚定对真实交易表现的增量影响尚未检验。",
+      "test_status": "not_tested"
+    }
+  ],
+  "real_market_backtest": "not_run",
+  "limitations": [
+    "Original author and later editorial/date-separated materials are not interchangeable",
+    "Exact figure and price data not independently checked",
+    "Synthetic logic not actual Chanlun parser or market validation"
+  ]
+}

@@ -1,0 +1,43 @@
+name: Chanlun priority original PDF figure render (temporary evidence only)
+# Text-first research phase: original PDF figure jobs are opt-in only.
+# Keep old reproducible evidence tools available; never auto-render on guide edits.
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-figure-render:
+    name: Verify five-volume inventory and render selected source pages
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install fixed PyMuPDF PDF rendering dependency
+        run: python -m pip install "PyMuPDF==1.26.7"
+      - name: Verify immutable PDF SHA and render original priority physical pages
+        shell: bash
+        run: python -B tools/render_chanlun_priority_original_pages.py --out "$RUNNER_TEMP/chanlun-priority-source-figure-review" --full-dpi 185 --crop-dpi 300
+      - name: Upload only temporary original-source visual evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: chanlun-priority-source-figure-evidence
+          path: ${{ runner.temp }}/chanlun-priority-source-figure-review/
+          if-no-files-found: error
+          retention-days: 7
+          compression-level: 2
+      - name: Render source figure lineage around 7-8-9 and pen revision (20 pages)
+        shell: bash
+        run: python -B tools/render_chanlun_priority_original_pages.py --target-set lineage --out "$RUNNER_TEMP/chanlun-original-figure-lineage" --full-dpi 210 --crop-dpi 340
+      - name: Audit original raster resolution before any pixel-price claim
+        run: python -B tools/audit_chanlun_native_figure_resolution.py --manifest "$RUNNER_TEMP/chanlun-original-figure-lineage/page_evidence_manifest.json"
+      - name: Upload seven-day source figure lineage evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: chanlun-source-figure-lineage-evidence
+          path: ${{ runner.temp }}/chanlun-original-figure-lineage/
+          if-no-files-found: error
+          retention-days: 7
+          compression-level: 2

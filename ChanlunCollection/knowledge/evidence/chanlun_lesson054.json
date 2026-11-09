@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "lesson": 54,
+  "state": "bounded_original_text_and_page_metadata_reviewed_figures_unverified",
+  "source": {
+    "volume": 3,
+    "path": "ChineseBooks/缠论/缠论_卷3.pdf",
+    "sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+    "original_date": "2007-05-24 01:37:31",
+    "pdf_pages": [
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188
+    ],
+    "asterisk_appendix_candidate": 176,
+    "provenance_override": {
+      "lesson": 54,
+      "pdf_page": 170,
+      "heading": "（娇注：这课级别AO为笔，与分段后AO为段不同）",
+      "reason": "Editorial note appears before original lesson analysis; treat as a later annotation and version distinction."
+    }
+  },
+  "quality": {
+    "source_run": 42379841818,
+    "page_count": 19,
+    "characters": 13195,
+    "image_pages": [
+      171,
+      173,
+      174,
+      177,
+      178,
+      179,
+      180,
+      182
+    ],
+    "sparse_pages": []
+  },
+  "claims": [
+    {
+      "id": "CL54-SOURCE-1",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        170,
+        171
+      ],
+      "summary": "作者按g/d标记的走势给出重新组合的示例并使用连接结合律。"
+    },
+    {
+      "id": "CL54-SOURCE-2",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        172
+      ],
+      "summary": "作者要求两个同级别中枢之间有次级别走势连接。"
+    },
+    {
+      "id": "CL54-SOURCE-3",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        173
+      ],
+      "summary": "作者认为合法的多种分解可以择更易指导当下操作的一种。"
+    },
+    {
+      "id": "CL54-SOURCE-4",
+      "kind": "SOURCE",
+      "volume": 3,
+      "pdf_pages": [
+        174,
+        175
+      ],
+      "summary": "作者比较不同分组产生的高一级别中枢和三卖结果。"
+    },
+    {
+      "id": "CL54-EDITORIAL-5",
+      "kind": "EDITORIAL",
+      "volume": 3,
+      "pdf_pages": [
+        170
+      ],
+      "summary": "编者提示该例使用的笔/段级别与后续精确分段定义不同。"
+    },
+    {
+      "id": "CL54-INTERPRETATION-6",
+      "kind": "INTERPRETATION",
+      "volume": 3,
+      "pdf_pages": [
+        172,
+        174
+      ],
+      "summary": "底层拼接结合律不代表任意括号分解在中枢语义上都合法。"
+    },
+    {
+      "id": "CL54-INFERENCE-7",
+      "kind": "INFERENCE",
+      "volume": 3,
+      "pdf_pages": [
+        173
+      ],
+      "summary": "事后选择最有利分解可能造成历史信号偏差。"
+    },
+    {
+      "id": "CL54-HYPOTHESIS-8",
+      "kind": "HYPOTHESIS",
+      "volume": 3,
+      "pdf_pages": [
+        170,
+        175
+      ],
+      "summary": "图示多重合法解析的在线一致性尚待图像及行情校验。",
+      "test_status": "not_tested"
+    }
+  ],
+  "empirical_status": "not_run",
+  "limitations": [
+    "Later editor/third-party passages require explicit attribution.",
+    "Image-based chart values and author trade examples not independently verified.",
+    "AI reasoning may question the text and is not author text."
+  ]
+}

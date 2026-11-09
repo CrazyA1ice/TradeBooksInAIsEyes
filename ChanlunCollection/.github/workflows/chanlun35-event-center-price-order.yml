@@ -1,0 +1,27 @@
+name: Chanlun lesson35 event-derived lowest-center price order and N>2 bound
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "catalog/chanlun35_event_derived_center_price_order_v1.json"
+      - "tools/audit_chanlun35_event_center_price_order.py"
+      - "tests/fixtures/chanlun35_event_derived_center_price_order_cases_v1.json"
+      - "tests/test_chanlun35_event_derived_center_price_order.py"
+      - "deliverables/chanlun_108_acceptance/04_AI_GUIDE/28_*"
+      - ".github/workflows/chanlun35-event-center-price-order.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  original-center-price-order:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Derive lowest-level center prices from source-locked raw triples
+        run: python -B tools/audit_chanlun35_event_center_price_order.py
+      - name: Prove no manual rank inputs, no false independent-center identity or trend completion
+        run: python -B -m unittest discover -s tests -p "test_chanlun35_event_derived_center_price_order.py" -v

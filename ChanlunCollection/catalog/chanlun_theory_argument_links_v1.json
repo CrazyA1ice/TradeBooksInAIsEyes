@@ -1,0 +1,470 @@
+{
+  "schema_version": 1,
+  "title": "Chanlun 108-lesson deep theory second-pass source-linked argument map",
+  "source_status": "SOURCE_CARD_ANCHORS_WITH_PARTIAL_ORIGINAL_PDF_NATIVE_VERIFICATION_NOT_FULL_AUTHOR_PROOF",
+  "applies_to": "WHOLE_BOOK_DEEP_THEORY_SECOND_PASS.md",
+  "rule_versions_frozen": false,
+  "real_market_accessed": false,
+  "original_figures_all_reviewed": false,
+  "original_authorship_all_verified": false,
+  "completion_state": "DEEP_THEORY_SECOND_PASS_PARTIAL_NOT_THEOREM_OR_FULL_FIGURE_CERTIFICATION",
+  "arguments": [
+    {
+      "id": "D01",
+      "title": "中枢存在与走势完成是不同谓词",
+      "reasoning_role": "CONDITIONAL_DEDUCTION",
+      "source_claims": [
+        {
+          "lesson": 17,
+          "claim_id": "CL017-S02"
+        },
+        {
+          "lesson": 18,
+          "claim_id": "CL018-S07"
+        },
+        {
+          "lesson": 35,
+          "claim_id": "CL35-SO-2"
+        }
+      ],
+      "research_conclusion": "相交定义使候选中心存在，不能只凭该事实推断盘整或趋势在观察时点结束",
+      "open_premises": [
+        "completed_child_types",
+        "finite_end_criterion",
+        "asof_observable_confirmation"
+      ],
+      "formal_proof_completed": false,
+      "market_empirical_test": "NOT_RUN"
+    },
+    {
+      "id": "D02",
+      "title": "中枢延伸、离开、破坏、新生与高级别扩张的五种状态分叉",
+      "reasoning_role": "UNRESOLVED",
+      "source_claims": [
+        {
+          "lesson": 18,
+          "claim_id": "CL018-S03"
+        },
+        {
+          "lesson": 20,
+          "claim_id": "CL020-S01"
+        },
+        {
+          "lesson": 20,
+          "claim_id": "CL020-S02"
+        },
+        {
+          "lesson": 20,
+          "claim_id": "CL020-S08"
+        }
+      ],
+      "research_conclusion": "数值重叠只能验证合格Zn的延伸条件；价格离开或一次回抽不自行验证独立中枢",
+      "open_premises": [
+        "valid_zn_membership",
+        "separate_center_partition",
+        "first_completed_retest",
+        "expansion_precedence"
+      ],
+      "formal_proof_completed": false,
+      "market_empirical_test": "NOT_RUN"
+    },
+    {
+      "id": "D03",
+      "title": "第三类买卖点严格依赖首次合格离开和回试",
+      "reasoning_role": "CONDITIONAL_DEDUCTION",
+      "source_claims": [
+        {
+          "lesson": 20,
+          "claim_id": "CL020-S03"
+        },
+        {
+          "lesson": 21,
+          "claim_id": "CL021-S02"
+        },
+        {
+          "lesson": 53,
+          "claim_id": "CL53-SOURCE-3"
+        }
+      ],
+      "research_conclusion": "以已完成次级走势、第一次回试及原中心边界作前提才可分类第三买卖点",
+      "open_premises": [
+        "first_retest_identity",
+        "legitimate_lifted_level",
+        "retest_completion_time"
+      ],
+      "formal_proof_completed": false,
+      "market_empirical_test": "NOT_RUN"
+    },
+    {
+      "id": "D04",
+      "title": "三类买卖点完备性与绝对安全性不能共用证明",
+      "reasoning_role": "NON_IMPLICATION",
+      "source_claims": [
+        {
+          "lesson": 21,
+          "claim_id": "CL021-S01"
+        },
+        {
+          "lesson": 21,
+          "claim_id": "CL021-S03"
+        },
+        {
+          "lesson": 53,
+          "claim_id": "CL53-SOURCE-2"
+        }
+      ],
+      "research_conclusion": "可重叠的结构分类覆盖命题不推出含费用、可成交的净盈利全称命题",
+      "open_premises": [
+        "universe_of_buy_points",
+        "overlap_policy",
+        "execution_price_and_cost"
+      ],
+      "formal_proof_completed": false,
+      "market_empirical_test": "NOT_RUN"
+    },
+    {
+      "id": "D05",
+      "title": "第二三类买点的可能重合不是三个互斥子类",
+      "reasoning_role": "CONDITIONAL_DEDUCTION",
+      "source_claims": [
+        {
+          "lesson": 21,
+          "claim_id": "CL021-S03"
+        },
+        {
+          "lesson": 20,
+          "claim_id": "CL020-S03"
+        },
+        {
+          "lesson": 53,
+          "claim_id": "CL53-SOURCE-3"
+        }
+      ],
+      "research_conclusion": "若同一时点满足二类和三类条件，分类须容许交叠或登记优先级",
+      "open_premises": [
+        "same_level_time_and_membership",
+        "second_point_definition_version"
+      ],
+      "formal_proof_completed": false,
+      "market_empirical_test": "NOT_RUN"
+    },
+    {
+      "id": "D06",
+      "title": "背驰首先是合格走势力度比较而非MACD反向定义走势",
+      "reasoning_role": "NON_IMPLICATION",
+      "source_claims": [
+        {
+          "lesson": 15,
+          "claim_id": "CL015-S-3"
+        },
+        {
+          "lesson": 24,
+          "claim_id": "CL024-S01"
+        },
+        {
+          "lesson": 24,
+          "claim_id": "CL024-S02"
+        },
+        {
+          "lesson": 50,
+          "claim_id": "CL50-SOURCE-1"
+        }
+      ],
+      "research_conclusion": "MACD较弱只提供选定合法段的辅助力度线索；不可由柱面积反推合法走势分段",
+      "open_premises": [
+        "legal_ABC_decomposition",
+        "frozen_indicator_parameters",
+        "moment_at_which_C_confirms"
+      ],
+      "formal_proof_completed": false,
+      "market_empirical_test": "NOT_RUN"
+    },
+    {
+      "id": "D07",
+      "title": "未完成C段的面积乘二是估计而非同时间的真实完整面积",
+      "reasoning_role": "NON_IMPLICATION",
+      "source_claims": [
+        {
+          "lesson": 24,
+          "claim_id": "CL024-S03"
+        },
+        {
+          "lesson": 27,
+          "claim_id": "CL027-S03"
+        },
+        {
+          "lesson": 25,
+          "claim_id": "CL025-S02"
+        }
+      ],
+      "research_conclusion": "未来柱体和最终C长度尚未知，简单乘二无严格误差上界与普遍最优性保证",
+      "open_premises": [
+        "heuristic_error_bound",
+        "truncated_bars_sampling",
+        "future_available_time"
+      ],
+      "formal_proof_completed": false,
+      "market_empirical_test": "NOT_RUN"
+    },
+    {
+      "id": "D08",
+      "title": "小级别背驰升级为大级别转折的必要非充分判据",
+      "reasoning_role": "NON_IMPLICATION",
+      "source_claims": [
+        {
+          "lesson": 44,
+          "claim_id": "CL44-SOURCE-1"
+        },
+        {
+          "lesson": 44,
+          "claim_id": "CL44-SOURCE-2"
+        },
+        {
+          "lesson": 44,
+          "claim_id": "CL44-SOURCE-3"
+        }
+      ],
+      "research_conclusion": "作者明确指出相关第三类点是必要而非充分条件；逆推为必定大转折是无效论证",
+      "open_premises": [
+        "qualifying_center_point",
+        "causal_trigger_timing",
+        "higher_level_outcome_domain"
+      ],
+      "formal_proof_completed": false,
+      "market_empirical_test": "NOT_RUN"
+    },
+    {
+      "id": "D09",
+      "title": "区间套需要嵌套性、非空性与缩小尺度，不能把极限当可成交点",
+      "reasoning_role": "UNRESOLVED",
+      "source_claims": [
+        {
+          "lesson": 27,
+          "claim_id": "CL027-S02"
+        },
+        {
+          "lesson": 27,
+          "claim_id": "CL027-S03"
+        },
+        {
+          "lesson": 102,
+          "claim_id": "CL102-SOURCE-2"
+        }
+      ],
+      "research_conclusion": "不同级别标记的背驰区间若不满足嵌套或有限可见，不能直接套用区间套定理",
+      "open_premises": [
+        "nestedness_witness",
+        "closure_and_width_bounds",
+        "minimum_market_tick_and_cost"
+      ],
+      "formal_proof_completed": false,
+      "market_empirical_test": "NOT_RUN"
+    },
+    {
+      "id": "D10",
+      "title": "结合律、存在性、唯一性、在线可知性是四种不同性质",
+      "reasoning_role": "NON_IMPLICATION",
+      "source_claims": [
+        {
+          "lesson": 33,
+          "claim_id": "CL33-SO-3"
+        },
+        {
+          "lesson": 35,
+          "claim_id": "CL35-SO-4"
+        },
+        {
+          "lesson": 38,
+          "claim_id": "CL38-SOURCE-1"
+        },
+        {
+          "lesson": 102,
+          "claim_id": "CL102-SOURCE-1"
+        }
+      ],
+      "research_conclusion": "序列连接可结合不能推出固定级别合法解析存在或唯一，更不能推出实时无重绘",
+      "open_premises": [
+        "complete_R_g",
+        "tie_and_cut_precedence",
+        "online_finalization_rule"
+      ],
+      "formal_proof_completed": false,
+      "market_empirical_test": "NOT_RUN"
+    },
+    {
+      "id": "D11",
+      "title": "递归最低基例与后续f2存在并不证明数学自同构",
+      "reasoning_role": "UNRESOLVED",
+      "source_claims": [
+        {
+          "lesson": 35,
+          "claim_id": "CL35-SO-2"
+        },
+        {
+          "lesson": 84,
+          "claim_id": "CL84-SOURCE-1"
+        },
+        {
+          "lesson": 84,
+          "claim_id": "CL84-SOURCE-3"
+        }
+      ],
+      "research_conclusion": "f1构造基例和f2构造层级是一种有待精确定义的递归建模；尚无双射和保结构映射证明",
+      "open_premises": [
+        "structure_signature",
+        "domain_codomain",
+        "invariant_relations",
+        "bijection_if_strict_math_used"
+      ],
+      "formal_proof_completed": false,
+      "market_empirical_test": "NOT_RUN"
+    },
+    {
+      "id": "D12",
+      "title": "包含序列/笔/线段需要冻结完整版本和成员归属",
+      "reasoning_role": "UNRESOLVED",
+      "source_claims": [
+        {
+          "lesson": 62,
+          "claim_id": "CL62-SOURCE-2"
+        },
+        {
+          "lesson": 65,
+          "claim_id": "CL65-SOURCE-4"
+        },
+        {
+          "lesson": 67,
+          "claim_id": "CL67-SOURCE-3"
+        },
+        {
+          "lesson": 71,
+          "claim_id": "CL71-SOURCE-1"
+        },
+        {
+          "lesson": 77,
+          "claim_id": "CL77-SOURCE-3"
+        },
+        {
+          "lesson": 81,
+          "claim_id": "CL81-SOURCE-4"
+        }
+      ],
+      "research_conclusion": "不同时间笔版本与特征序列成员身份不自动等价；按文法分层保留冲突",
+      "open_premises": [
+        "historically_available_pen_rule",
+        "gap_case_segment_end",
+        "unique_tie_break",
+        "confirmed_K_line_clock"
+      ],
+      "formal_proof_completed": false,
+      "market_empirical_test": "NOT_RUN"
+    },
+    {
+      "id": "D13",
+      "title": "笔线段内的辅助元素与严格成员不可混用",
+      "reasoning_role": "NON_IMPLICATION",
+      "source_claims": [
+        {
+          "lesson": 67,
+          "claim_id": "CL67-SOURCE-1"
+        },
+        {
+          "lesson": 71,
+          "claim_id": "CL71-SOURCE-4"
+        },
+        {
+          "lesson": 77,
+          "claim_id": "CL77-SOURCE-5"
+        }
+      ],
+      "research_conclusion": "辅助特征分型元素不意味着可以参与旧段或新段严格特征序列的包含合并",
+      "open_premises": [
+        "same_segment_membership",
+        "reverse_sequence_confirmation"
+      ],
+      "formal_proof_completed": false,
+      "market_empirical_test": "NOT_RUN"
+    },
+    {
+      "id": "D14",
+      "title": "四态笔与BOLL/Zn预警不是完成信号",
+      "reasoning_role": "NON_IMPLICATION",
+      "source_claims": [
+        {
+          "lesson": 90,
+          "claim_id": "CL90-SOURCE-3"
+        },
+        {
+          "lesson": 91,
+          "claim_id": "CL91-SOURCE-2"
+        },
+        {
+          "lesson": 92,
+          "claim_id": "CL92-SOURCE-2"
+        }
+      ],
+      "research_conclusion": "有限状态或中轴越界可供预警，不能从辅助监控直接推出合格第三类点和高层中枢结束",
+      "open_premises": [
+        "input_pen_completion",
+        "asof_bar_finalization",
+        "independent_third_point_certificate"
+      ],
+      "formal_proof_completed": false,
+      "market_empirical_test": "NOT_RUN"
+    },
+    {
+      "id": "D15",
+      "title": "第99课未来高一级中枢与当下可知性是不同量词",
+      "reasoning_role": "UNRESOLVED",
+      "source_claims": [
+        {
+          "lesson": 17,
+          "claim_id": "CL017-S01"
+        },
+        {
+          "lesson": 99,
+          "claim_id": "CL99-SOURCE-3"
+        },
+        {
+          "lesson": 99,
+          "claim_id": "CL99-SOURCE-4"
+        }
+      ],
+      "research_conclusion": "存在某个未来延续的构造论证不自动证明全部合法无限未来序列在有限时间完成且落在特定位置",
+      "open_premises": [
+        "universal_future_path_domain",
+        "finite_time_quantifier",
+        "higher_center_location_proof"
+      ],
+      "formal_proof_completed": false,
+      "market_empirical_test": "NOT_RUN"
+    },
+    {
+      "id": "D16",
+      "title": "第108课分型底部和走势底部为不同状态机",
+      "reasoning_role": "CONDITIONAL_DEDUCTION",
+      "source_claims": [
+        {
+          "lesson": 108,
+          "claim_id": "CL108-SOURCE-1"
+        },
+        {
+          "lesson": 108,
+          "claim_id": "CL108-SOURCE-2"
+        },
+        {
+          "lesson": 20,
+          "claim_id": "CL020-S03"
+        }
+      ],
+      "research_conclusion": "有效确认分型上边界不等于第一买—新中枢—首次第三买路径已闭合；失败条件也不一样",
+      "open_premises": [
+        "valid_fractal_and_pen",
+        "valid_first_buy",
+        "first_third_event_asof"
+      ],
+      "formal_proof_completed": false,
+      "market_empirical_test": "NOT_RUN"
+    }
+  ]
+}

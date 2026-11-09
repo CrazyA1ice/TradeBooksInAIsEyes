@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "CL35-EVENT-DERIVED-LOWEST-CENTER-PRICE-ORDER-V1",
+  "scope": "AUTHOR_LOWEST_CENTER_PRICE_ORDER_CONDITIONAL_ON_DISTINCT_SYNTHETIC_RUNS_NOT_COMPLETED_TRENDS",
+  "base_axiom_contract": "CL35-AUTHOR-LOWEST-CENTER-DEFINITIONAL-INSTANCE-V1",
+  "source_sha256": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66",
+  "original_physical_page": 291,
+  "native_text_sha256": "1a2c291cff189ea4de5bef2ecf152e9888773d1194b0ed4e7218f4cd0f3b846b",
+  "author_claims": [
+    "CL35-SO-2",
+    "CL35-SO-9",
+    "CL018-S07"
+  ],
+  "rule_clause": {
+    "initial_pair": {
+      "up": "CENTER_2_PRICE_GT_CENTER_1_PRICE",
+      "down": "CENTER_2_PRICE_LT_CENTER_1_PRICE",
+      "equal": "DO_NOT_CLASSIFY_TREND_WITHOUT_ADDITIONAL_AUTHOR_EQUALITY_ADJUDICATION"
+    },
+    "from_third": {
+      "up_continue": "LATER_PRICE_GT_PRIOR_PRICE",
+      "down_continue": "LATER_PRICE_LT_PRIOR_PRICE",
+      "up_terminal": "LATER_PRICE_LE_PRIOR_PRICE",
+      "down_terminal": "LATER_PRICE_GE_PRIOR_PRICE"
+    },
+    "single_center": "ONE_CENTER_IS_ONLY_POTENTIAL_CONSOLIDATION_NOT_FINISHED_CONSOLIDATION"
+  },
+  "raw_run_distinctness_status": "DIFFERENT_PRICE_RUNS_ARE_NOT_AUTHOR_VERIFIED_DISTINCT_CENTERS",
+  "source_height_comparison": "POINT_PRICE_COMPARISON_ONLY_UNDER_AUTHOR_STRICT_TRADE_LOWEST_LEVEL_AXIOM",
+  "event_clock": "CAUSAL_SYNTHETIC_PREFIX_ASOF_NOT_REAL_TRADE_AUTHENTICATION",
+  "open_proof_slots": [
+    "author_validated_independent_center_grouping",
+    "actual_market_trade_origin",
+    "author_primitive_level_applicability",
+    "actual_center_and_trajectory_completion_clock",
+    "equal_price_initial_pair_ambiguity",
+    "higher_level_eligible_finished_child_membership"
+  ],
+  "valid_completed_trajectories": 0,
+  "actual_trade_provenance_authenticated": false,
+  "lowest_level_trend_termination_proven": false,
+  "can_feed_higher_level_recursive_constructor": false,
+  "proof38_unique": false,
+  "proof99_universal": false,
+  "market_backtests": "NOT_RUN"
+}
