@@ -93,7 +93,7 @@ class WholeBookTheoryConsistencyTests(unittest.TestCase):
     def test_existential_future_does_not_prove_universal_termination(self):
         self.assertEqual(m.witness("EXISTS_NOT_FORALL"),(True,False))
         self.assertIn("∀ future, ∃ finite t",self.manuscript)
-        self.assertIn("不是对第99课原文的真实反例",self.manuscript)
+        self.assertIn("不能将这个玩具集合当作对第99课原文的真实反例",self.manuscript)
 
     def test_recursion_f1_f2_not_automorphism(self):
         self.assertEqual(m.witness("RECURSIVE_GRAMMAR_NOT_BIJECTION"),(True,False))
