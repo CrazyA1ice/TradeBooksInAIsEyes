@@ -19,7 +19,9 @@
 | **OB99-EXIST/LOCATION** | **BLOCKED**：全部合法未来路径有限时间高层中枢与首次位置待证 | 同上 |
 | **F08 三类点到实际收益** | **NOT_RUN**：真实行情、成交、交易成本/样本外检验均未运行 | `experiments/`（仅研究计划和合成例） |
 
-**当前v4.7.0作者方法论主线**：已新增 [规律性认识与方法论贯通主线](deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_MARKET_LAWS_AND_METHOD_MAINLINE.md)，从市场认知、走势结构、演化、力度背驰、三类点、多级别直到风险纪律连成阅读路线。此为AI对原书的解释性串联，不等于作者发布的形式证明；原有F01/OB38/OB99仍开放。
+**当前v4.8.0中间方法链深化**：新增 [中枢—背驰—三类点—区间套的连续方法](deliverables/chanlun_108_acceptance/00_REVIEW/CENTER_DIVERGENCE_BUYPOINT_METHOD_CHAIN.md)，明确结构演化提供背景、力度比较与离开回试分别处理不同问题、买卖点是条件分类、区间套用于下钻观察而非保证收益。研究仅用文字，F01/OB38/OB99未证。
+
+**此前v4.7.0作者方法论主线**：已新增 [规律性认识与方法论贯通主线](deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_MARKET_LAWS_AND_METHOD_MAINLINE.md)，从市场认知、走势结构、演化、力度背驰、三类点、多级别直到风险纪律连成阅读路线。此为AI对原书的解释性串联，不等于作者发布的形式证明；原有F01/OB38/OB99仍开放。
 
 **此前v4.6.0文字递归证明链**：新增 [原文递归证明链研究](deliverables/chanlun_108_acceptance/00_REVIEW/F01_TEXTUAL_RECURSION_PROOF_CHAIN.md)，明确第17/18课的“连续、同级、完整三子走势且交集”是带前提的构成条件；第78课线段合法破坏与某个次级走势完成之间仍缺同域原文桥梁，不能循环担保。F01 OPEN，OB38/99 BLOCKED，NOT_RUN。\n\n**此前Issue #69文字逻辑研究（v4.5.0）**：已在草稿PR中建立跨第17/18/62/67/71/78/81课的文本推理底稿和M/F/B/C/E证据层级；根据用户要求取消本节点高清识图与行情回测。第67课分型、第71课成员资格、第78课真正破坏及第18课可递归走势的链条尚不能以原文证明其充分必要等价，F01继续OPEN。完整镜像和CI未验收前不宣布全部完成。
 
