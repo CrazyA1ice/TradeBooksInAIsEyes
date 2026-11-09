@@ -1,0 +1,22 @@
+name: Chanlun author-law cards provenance and graph
+on:
+  pull_request:
+    paths:
+      - 'catalog/chanlun_author_law_cards_v1.json'
+      - 'tools/audit_chanlun_author_law_cards.py'
+      - 'tests/test_chanlun_author_law_cards.py'
+      - '.github/workflows/chanlun-author-law-cards.yml'
+      - 'ChanlunCollection/**'
+  workflow_dispatch:
+jobs:
+  author-law-card-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate linked cards against the real source files
+        run: python -B tools/audit_chanlun_author_law_cards.py
+      - name: Fail-closed unit tests
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_author_law_cards.py' -v
