@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.11.0",
-  "source_count": 798,
+  "workflow_version": "4.12.0",
+  "source_count": 800,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -1308,6 +1308,12 @@
       "size_bytes": 26446
     },
     {
+      "source_path": "catalog/chanlun_author_law_cards_v1.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun_author_law_cards_v1.json",
+      "git_blob_sha": "30d6169bec8a7170ae9ce07a696bc067bb27a0a5",
+      "size_bytes": 10809
+    },
+    {
       "source_path": "catalog/chanlun_center_order_completion_partial_v1.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_center_order_completion_partial_v1.json",
       "git_blob_sha": "35ccc59e09a16f7f21a1a3166ba153137ef97dca",
@@ -1540,6 +1546,12 @@
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/ASOF_NONPREDICTION_AND_MULTIPLE_DECOMPOSITIONS.md",
       "git_blob_sha": "36d0f89ba6b783192ced41b69eff9428c6cfa2f8",
       "size_bytes": 7301
+    },
+    {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAW_CARDS_INDEX.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAW_CARDS_INDEX.md",
+      "git_blob_sha": "66cfdcf13b50632064a8f3cdef3f542f2e87838e",
+      "size_bytes": 2267
     },
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_MARKET_LAWS_AND_METHOD_MAINLINE.md",
@@ -1910,8 +1922,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "63750cf448fe25afb353127352e93e83fac9b1ff",
-      "size_bytes": 50041
+      "git_blob_sha": "7d21b4ed8ceb61240b29656270f225544e9fee3f",
+      "size_bytes": 50650
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
