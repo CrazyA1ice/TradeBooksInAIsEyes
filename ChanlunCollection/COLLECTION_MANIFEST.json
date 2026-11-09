@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.10.0",
-  "source_count": 797,
+  "workflow_version": "4.11.0",
+  "source_count": 798,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -1596,6 +1596,12 @@
       "size_bytes": 32982
     },
     {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/STRUCTURE_CAPITAL_DISCIPLINE_METHOD.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/STRUCTURE_CAPITAL_DISCIPLINE_METHOD.md",
+      "git_blob_sha": "87057175351b4ab778d564a457475f65affa3355",
+      "size_bytes": 4157
+    },
+    {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md",
       "git_blob_sha": "6e5f38b294fe025b0f09684559ada0aca33e2882",
@@ -1904,8 +1910,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "2243ef234e09ab25898ab5587c41eb3902361e13",
-      "size_bytes": 49431
+      "git_blob_sha": "63750cf448fe25afb353127352e93e83fac9b1ff",
+      "size_bytes": 50041
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
