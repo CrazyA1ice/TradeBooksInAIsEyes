@@ -21,7 +21,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Enumerate source-pinned first-pass claims for all 108 lessons
-        run: python -B tools/audit_chanlun_whole_book_integrated.py --render
+      - name: Recompute 108 original SOURCE cards and verify exact committed atlas bytes
+        run: python -B tools/audit_chanlun_whole_book_integrated.py --check-atlas
       - name: Verify all 108 original-source record links and integrated manuscript
         run: python -B -m unittest discover -s tests -p "test_chanlun_whole_book_integrated.py" -v
