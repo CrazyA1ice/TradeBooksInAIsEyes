@@ -1,6 +1,25 @@
-# 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v3.7，2026-11-08）
+# 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.0.0，2026-11-09）
 
 > **核心目标**：读者先用约 **5 分钟**知道“一本书说了什么、值不值得细读”，再用约 **20 分钟**看懂全书思想结构及精彩细节，感兴趣时才深入原文。AI必须全书扫描，不只挑热门章；保留冷门细节、作者转折、反例、细小技巧、图例与脚注，避免“浓缩到只剩常识”。**这是读者阅读时长的建议，不是分析书籍所需的运行时间。** 默认只交付**未来待验证的形式化例子**，不开发或运行回测实验室。
+
+## G7（v4.0.0 新增、适用所有后续书籍）：每本书一个独立 Collection，**每做一步同步升级工作流**
+
+**本工作流已根据2026-11-09用户要求修订**。每本研究完的书都必须有一个仓库根目录的`<BookName>Collection/`（本书：[ChanlunCollection](../ChanlunCollection/README.md)）。以前G6“所有资料只在根目录唯一规范路径、不创建第二份”的约束，**对于用户需要的按书独立查询不再适用**：规范源仍留在原路径作为唯一编辑源，同时每书文件夹保留**逐字节镜像和严格Git blob SHA清单**，以避免破坏已有G0—G6验收以及镜像内部的相对引用。**不允许修改集合镜像来代替更改规范源。**
+
+**六项必须同时交付的新门槛**：
+
+1. **一本书一文件夹**：在`BOOK_COLLECTIONS.json`登记`book_id`、`<BookName>Collection`、规范来源路径选择、预期章节数、原PDF和证据卡、公开研究状态。切不可将另一部书的成果放入当前Collection。路径结构保持原样：如`ChanlunCollection/analyses/books/chanlun/chapters/`与`ChanlunCollection/ChineseBooks/缠论/`，内部原有`../../../`相对引用继续成立。
+2. **可直接回答问题**：每个Collection必须包含`README.md`、`QUESTION_GUIDE.md`、`RESEARCH_STATUS.md`，明确先看5分钟读本、全书论证、章节/来源对应、争议与开放证明，不要让用户自己从几百个文件猜入口。对重要主张必须给卷次物理页与原文身份，不能用摘要或AI推测冒充原著。
+3. **每做一步，修订工作流**：每次改变书籍研究成果的PR，**必须**一起修改`docs/BOOK_RESEARCH_WORKFLOW.md`（更新工作流变更记录、验证门槛或本次已确认适用的例外），以及对应`<BookName>Collection/WORK_LOG.md`记录本步问题、实际研究增量、研究证据状态、流程修订、验收依据；如引入新门槛还需提升`BOOK_COLLECTIONS.json`和`WORKFLOW.md`的`workflow_version`。**不能只更新书籍研究报告而忘记工作流**。
+4. **规范源→集合镜像同步**：先改规范源，再运行`python -B tools/book_collection.py --book <book_id> --sync`。该工具从注册的目录选择全书PDF、章节、证据卡、全部理论研究成果、历史研究构想、报告、工具、测试及CI工作流快照，在集合内**按同一相对路径镜像**，生成`COLLECTION_MANIFEST.json`（每件文件的原路径、镜像路径、size和Git blob SHA）。不会自动删除未知/孤立文档，发生错误必须人工确认。
+5. **变更与完整性强制验收**：运行`python -B tools/book_collection.py --book <book_id> --check`，确保所有规范源文件与镜像**逐字节一致**、没有漏项、超范围或私自更改。GitHub Actions`book-collection-integrity.yml`还必须检查每个研究PR是否**同时修订通用工作流和本书工作日志**，并保证所需统计（《缠论》5卷、108篇章、108证据卡）不丢失。GitHub CI的自动化只认证来源镜像一致，**不能认证定理证明完成、原发署名、真实盈利**。
+6. **发布闭环**：更新`RESEARCH_STATUS.md`，说明本次已完成/仍有缺口及下一步；提交PR后原本分卷/跨课/证明边界CI与新每书文件夹门禁都必须通过才可合并。若不能得到足够的源文本、图像或合法规则，标`OPEN/UNKNOWN`，不得为了让研究“全书闭环”发明作者没给的定理。用户未要求时不重启真实行情回测，保持`NOT_RUN`。
+
+**未来新书通用动作**：新书登记→G0—G6原文精读与读者成果→G7建立`NewBookCollection/`及其问答入口、状态、工作流与工作记录→同步全文件清单→CI/PR验收；后续**每次**精读或修改均重复G7的同步与流程修订。`ChanlunCollection/`是完整范例，不要使用原先“禁止重复”规范阻碍用户按书统一问答。镜像并非具有独立出版授权；对版权、公开分发和源身份仍遵照G0来源权限限制。
+
+### G7 变更日志
+
+- **v4.0.0｜2026-11-09**：首次新增每本书独立`<BookName>Collection`、全成果按相对路径镜像、每步工作流修订、问答入口、清单严格源SHA一致性、逐书状态、CI防漏门槛；以《缠论》全部现有研究作为第一个集合。
 
 ## 当前《缠论》研究优先级：文字论证优先，原图复核暂停
 
@@ -44,7 +63,7 @@
 
 重要：**首轮目录/抽样生成的“快览草稿”必须标`PROVISIONAL_NOT_FULLY_SCANNED`**，不能把仅看完序言和目录的内容伪装成“全书总结”。全书最终快览只有在全部范围标记完、缺口公开后才可称`COVERAGE_REVIEWED`；此标签不代表字字经核准。
 
-**唯一源位置**：章节`analyses/books/<slug>/chapters/`，证据`knowledge/evidence/`，目录`catalog/`，图谱`knowledge/claims/`；最后的读者成果仅在`deliverables/<slug>_acceptance/`，**不镜像复制原书或中间件**。
+**规范编辑源位置（按G7同步至每书Collection）**：章节`analyses/books/<slug>/chapters/`，证据`knowledge/evidence/`，目录`catalog/`，图谱`knowledge/claims/`；最后的读者成果仅在`deliverables/<slug>_acceptance/`，**G6规范编辑源保持唯一，但G7要求为每本书生成经过完整性验收的独立镜像集合**。
 
 ## 2. G1：第一轮“鸟瞰扫描”，先交付可读的速览
 
