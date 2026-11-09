@@ -19,7 +19,9 @@
 | **OB99-EXIST/LOCATION** | **BLOCKED**：全部合法未来路径有限时间高层中枢与首次位置待证 | 同上 |
 | **F08 三类点到实际收益** | **NOT_RUN**：真实行情、成交、交易成本/样本外检验均未运行 | `experiments/`（仅研究计划和合成例） |
 
-**当前v4.8.0中间方法链深化**：新增 [中枢—背驰—三类点—区间套的连续方法](deliverables/chanlun_108_acceptance/00_REVIEW/CENTER_DIVERGENCE_BUYPOINT_METHOD_CHAIN.md)，明确结构演化提供背景、力度比较与离开回试分别处理不同问题、买卖点是条件分类、区间套用于下钻观察而非保证收益。研究仅用文字，F01/OB38/OB99未证。
+**当前v4.9.0中枢演化分支研究**：新增 [中枢延伸/新生/扩展与盘整/趋势背驰方法](deliverables/chanlun_108_acceptance/00_REVIEW/CENTER_EVOLUTION_AND_DIVERGENCE_METHOD.md)。以作者文字及现有SOURCE资料重建结构状态分叉、力度比较与三类点适用条件；这是方法论串联而非利润或数学证明。F01 OPEN、OB38/99 BLOCKED、NOT_RUN。
+
+**此前v4.8.0中间方法链深化**：新增 [中枢—背驰—三类点—区间套的连续方法](deliverables/chanlun_108_acceptance/00_REVIEW/CENTER_DIVERGENCE_BUYPOINT_METHOD_CHAIN.md)，明确结构演化提供背景、力度比较与离开回试分别处理不同问题、买卖点是条件分类、区间套用于下钻观察而非保证收益。研究仅用文字，F01/OB38/OB99未证。
 
 **此前v4.7.0作者方法论主线**：已新增 [规律性认识与方法论贯通主线](deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_MARKET_LAWS_AND_METHOD_MAINLINE.md)，从市场认知、走势结构、演化、力度背驰、三类点、多级别直到风险纪律连成阅读路线。此为AI对原书的解释性串联，不等于作者发布的形式证明；原有F01/OB38/OB99仍开放。
 
