@@ -13,6 +13,7 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 INV=ROOT/"reports/source_inventory/chanlun_20261107_verified.json"
+PINS=ROOT/"reports/source_inventory/chanlun_theory_second_pass_native_text_sha256.json"
 TARGETS={
   1:{247:("第三类买点","回试","中枢"),253:("三类买卖点","完备","安全"),254:("第三类","第二类","中枢")},
   2:{3:("MACD","背驰","中枢"),4:("面积","MACD","背驰"),91:("区间套","背驰","级别"),93:("区间套","走势","背驰")},
@@ -34,17 +35,28 @@ def digest(p):
 def main():
     import pymupdf
     manifest=json.loads(INV.read_text(encoding="utf-8"))["volumes"]
+    pins=json.loads(PINS.read_text(encoding="utf-8"))
+    if pins["method"]!="pymupdf_1.26.7_get_text_sort_true" or pins["original_pages_count"]!=18 or pins["original_pdf_images_inspected"] is not False or pins["real_market_data_read"] is not False:
+        raise ValueError("Original native text method/scope changed")
+    declared={f"{vol}:{page}" for vol,ps in TARGETS.items() for page in ps}
+    if set(pins["original_pages_native_text_sha256"])!=declared:
+        raise ValueError("Original text page pin membership changed")
     volumes={int(Path(v["path"]).stem.split("卷")[-1]):v for v in manifest}
     n=0
     for vol,page_terms in TARGETS.items():
         v=volumes[vol]
         path=ROOT/v["path"]
+        if pins["original_pdf_sha256"][str(vol)]!=v["sha256"]:
+            raise ValueError("Source-pinned volume PDF SHA drift")
         if digest(path)!=v["sha256"] or path.stat().st_size!=v["bytes"]:
             raise ValueError("Original canonical PDF binary SHA drift")
         with pymupdf.open(path) as pdf:
             if pdf.page_count!=v["page_count"]: raise ValueError("Original PDF page count drift")
             for page,needles in page_terms.items():
                 raw=pdf.load_page(page-1).get_text("text",sort=True)
+                native_sha=hashlib.sha256(raw.encode("utf-8")).hexdigest()
+                if pins["original_pages_native_text_sha256"][f"{vol}:{page}"]!=native_sha:
+                    raise ValueError(f"Pinned original native text changed v{vol} p{page}")
                 simplified=" ".join(raw.split())
                 excerpts=[]
                 for term in needles:
