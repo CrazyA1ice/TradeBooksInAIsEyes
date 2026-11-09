@@ -312,6 +312,36 @@
       "size_bytes": 1100
     },
     {
+      "source_path": "ChineseBooks/缠论/缠论_卷1.pdf",
+      "mirror_path": "ChanlunCollection/ChineseBooks/缠论/缠论_卷1.pdf",
+      "git_blob_sha": "25a4ec5d0263953fc7361aac4d8bb53e276596aa",
+      "size_bytes": 6549393
+    },
+    {
+      "source_path": "ChineseBooks/缠论/缠论_卷2.pdf",
+      "mirror_path": "ChanlunCollection/ChineseBooks/缠论/缠论_卷2.pdf",
+      "git_blob_sha": "199cc68df1fc5750fa32fcac0204f7971e68f5ff",
+      "size_bytes": 10431800
+    },
+    {
+      "source_path": "ChineseBooks/缠论/缠论_卷3.pdf",
+      "mirror_path": "ChanlunCollection/ChineseBooks/缠论/缠论_卷3.pdf",
+      "git_blob_sha": "3e2dee762e59ceabf46118bdb6397098f6399017",
+      "size_bytes": 8864461
+    },
+    {
+      "source_path": "ChineseBooks/缠论/缠论_卷4.pdf",
+      "mirror_path": "ChanlunCollection/ChineseBooks/缠论/缠论_卷4.pdf",
+      "git_blob_sha": "2ab607eb3708ce08d777114f7bd6c855fe0de749",
+      "size_bytes": 11296114
+    },
+    {
+      "source_path": "ChineseBooks/缠论/缠论_卷5.pdf",
+      "mirror_path": "ChanlunCollection/ChineseBooks/缠论/缠论_卷5.pdf",
+      "git_blob_sha": "2ff8dae19b7f69322e28dc4a82947add01047632",
+      "size_bytes": 10427135
+    },
+    {
       "source_path": "ai_thoughts/ideas/chanlun_ambiguous_rules_shared_inventory.md",
       "mirror_path": "ChanlunCollection/ai_thoughts/ideas/chanlun_ambiguous_rules_shared_inventory.md",
       "git_blob_sha": "b1a1defc8558c54228dde7e97fea2078e54fa290",
@@ -448,6 +478,12 @@
       "mirror_path": "ChanlunCollection/ai_thoughts/ideas/chanlun_trading_theory_applicability_domain.md",
       "git_blob_sha": "4f01311547eb663a2e39165a95c0f578b8821b5b",
       "size_bytes": 1161
+    },
+    {
+      "source_path": "analyses/books/chanlun/README.md",
+      "mirror_path": "ChanlunCollection/analyses/books/chanlun/README.md",
+      "git_blob_sha": "2cf90fcae4be46a26a10aa9363872cb535ae7ac9",
+      "size_bytes": 19538
     },
     {
       "source_path": "analyses/books/chanlun/chapters/lesson_001.md",
@@ -1098,18 +1134,6 @@
       "size_bytes": 4589
     },
     {
-      "source_path": "analyses/books/chanlun/README.md",
-      "mirror_path": "ChanlunCollection/analyses/books/chanlun/README.md",
-      "git_blob_sha": "2cf90fcae4be46a26a10aa9363872cb535ae7ac9",
-      "size_bytes": 19538
-    },
-    {
-      "source_path": "analyses/books/chanlun/volumes/LESSON_INDEX.md",
-      "mirror_path": "ChanlunCollection/analyses/books/chanlun/volumes/LESSON_INDEX.md",
-      "git_blob_sha": "47032db59223805cf725827b37132da3571e983d",
-      "size_bytes": 6343
-    },
-    {
       "source_path": "analyses/books/chanlun/volumes/LESSONS_001_005_SYNTHESIS.md",
       "mirror_path": "ChanlunCollection/analyses/books/chanlun/volumes/LESSONS_001_005_SYNTHESIS.md",
       "git_blob_sha": "f65f5f015d62753030ec76718111008c3b7089ad",
@@ -1242,10 +1266,40 @@
       "size_bytes": 3342
     },
     {
+      "source_path": "analyses/books/chanlun/volumes/LESSON_INDEX.md",
+      "mirror_path": "ChanlunCollection/analyses/books/chanlun/volumes/LESSON_INDEX.md",
+      "git_blob_sha": "47032db59223805cf725827b37132da3571e983d",
+      "size_bytes": 6343
+    },
+    {
+      "source_path": "catalog/README.md",
+      "mirror_path": "ChanlunCollection/catalog/README.md",
+      "git_blob_sha": "14514b1746b203a4fb57aeec994e91163abd4c83",
+      "size_bytes": 361
+    },
+    {
       "source_path": "catalog/books.yaml",
       "mirror_path": "ChanlunCollection/catalog/books.yaml",
       "git_blob_sha": "7e9e9144db841249fbb7e38ed23487135c8b001f",
       "size_bytes": 2117
+    },
+    {
+      "source_path": "catalog/chanlun20_center_extension_membership_gate_v1.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun20_center_extension_membership_gate_v1.json",
+      "git_blob_sha": "444ecbba3558f4ab16e0d7360d087234bc579a29",
+      "size_bytes": 2404
+    },
+    {
+      "source_path": "catalog/chanlun35_author_base_center_axiom_v1.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun35_author_base_center_axiom_v1.json",
+      "git_blob_sha": "6817b858d3f058c37ece80d8b2396f094c016328",
+      "size_bytes": 2208
+    },
+    {
+      "source_path": "catalog/chanlun35_event_derived_center_price_order_v1.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun35_event_derived_center_price_order_v1.json",
+      "git_blob_sha": "832c5e8d2a922ac6f3c3c0ea5a05fc75565d0f7c",
+      "size_bytes": 1998
     },
     {
       "source_path": "catalog/chanlun_108_fullbook_logical_spine_v1.json",
@@ -1290,12 +1344,6 @@
       "size_bytes": 8907
     },
     {
-      "source_path": "catalog/chanlun_lesson_index.json",
-      "mirror_path": "ChanlunCollection/catalog/chanlun_lesson_index.json",
-      "git_blob_sha": "f9b2a5f552211e9609107e144a1bd297e1d30fc0",
-      "size_bytes": 15838
-    },
-    {
       "source_path": "catalog/chanlun_lesson035_terminal_comparison_v1.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_lesson035_terminal_comparison_v1.json",
       "git_blob_sha": "a6ffe3b4699250b9a83e51ab9b070f2d481822f2",
@@ -1306,6 +1354,12 @@
       "mirror_path": "ChanlunCollection/catalog/chanlun_lesson038_partial_rule_contract_v1.json",
       "git_blob_sha": "e4fab1778b4161728aece7add0287d2c1591e25a",
       "size_bytes": 2780
+    },
+    {
+      "source_path": "catalog/chanlun_lesson_index.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun_lesson_index.json",
+      "git_blob_sha": "f9b2a5f552211e9609107e144a1bd297e1d30fc0",
+      "size_bytes": 15838
     },
     {
       "source_path": "catalog/chanlun_lessons006_010_layers.json",
@@ -1464,30 +1518,6 @@
       "size_bytes": 13637
     },
     {
-      "source_path": "catalog/chanlun20_center_extension_membership_gate_v1.json",
-      "mirror_path": "ChanlunCollection/catalog/chanlun20_center_extension_membership_gate_v1.json",
-      "git_blob_sha": "444ecbba3558f4ab16e0d7360d087234bc579a29",
-      "size_bytes": 2404
-    },
-    {
-      "source_path": "catalog/chanlun35_author_base_center_axiom_v1.json",
-      "mirror_path": "ChanlunCollection/catalog/chanlun35_author_base_center_axiom_v1.json",
-      "git_blob_sha": "6817b858d3f058c37ece80d8b2396f094c016328",
-      "size_bytes": 2208
-    },
-    {
-      "source_path": "catalog/chanlun35_event_derived_center_price_order_v1.json",
-      "mirror_path": "ChanlunCollection/catalog/chanlun35_event_derived_center_price_order_v1.json",
-      "git_blob_sha": "832c5e8d2a922ac6f3c3c0ea5a05fc75565d0f7c",
-      "size_bytes": 1998
-    },
-    {
-      "source_path": "catalog/README.md",
-      "mirror_path": "ChanlunCollection/catalog/README.md",
-      "git_blob_sha": "14514b1746b203a4fb57aeec994e91163abd4c83",
-      "size_bytes": 361
-    },
-    {
       "source_path": "catalog/reports.yaml",
       "mirror_path": "ChanlunCollection/catalog/reports.yaml",
       "git_blob_sha": "91b2f5d232a2be3e9a937e3c418f4f83b5c26486",
@@ -1500,46 +1530,10 @@
       "size_bytes": 114
     },
     {
-      "source_path": "ChineseBooks/缠论/缠论_卷1.pdf",
-      "mirror_path": "ChanlunCollection/ChineseBooks/缠论/缠论_卷1.pdf",
-      "git_blob_sha": "25a4ec5d0263953fc7361aac4d8bb53e276596aa",
-      "size_bytes": 6549393
-    },
-    {
-      "source_path": "ChineseBooks/缠论/缠论_卷2.pdf",
-      "mirror_path": "ChanlunCollection/ChineseBooks/缠论/缠论_卷2.pdf",
-      "git_blob_sha": "199cc68df1fc5750fa32fcac0204f7971e68f5ff",
-      "size_bytes": 10431800
-    },
-    {
-      "source_path": "ChineseBooks/缠论/缠论_卷3.pdf",
-      "mirror_path": "ChanlunCollection/ChineseBooks/缠论/缠论_卷3.pdf",
-      "git_blob_sha": "3e2dee762e59ceabf46118bdb6397098f6399017",
-      "size_bytes": 8864461
-    },
-    {
-      "source_path": "ChineseBooks/缠论/缠论_卷4.pdf",
-      "mirror_path": "ChanlunCollection/ChineseBooks/缠论/缠论_卷4.pdf",
-      "git_blob_sha": "2ab607eb3708ce08d777114f7bd6c855fe0de749",
-      "size_bytes": 11296114
-    },
-    {
-      "source_path": "ChineseBooks/缠论/缠论_卷5.pdf",
-      "mirror_path": "ChanlunCollection/ChineseBooks/缠论/缠论_卷5.pdf",
-      "git_blob_sha": "2ff8dae19b7f69322e28dc4a82947add01047632",
-      "size_bytes": 10427135
-    },
-    {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/ACCEPTANCE_REPORT.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/ACCEPTANCE_REPORT.md",
       "git_blob_sha": "38e4ee700e0b8b5b40f493415d0cd66ca1a9211e",
       "size_bytes": 5826
-    },
-    {
-      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/audit_acceptance.py",
-      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/audit_acceptance.py",
-      "git_blob_sha": "3b7265628a7de2f527346f850f93722bada8f873",
-      "size_bytes": 11361
     },
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_MARKET_LAWS_AND_METHOD_MAINLINE.md",
@@ -1648,6 +1642,12 @@
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_THEORY_CONSISTENCY.md",
       "git_blob_sha": "8799fcd1834bd93bf69a4c8c4701b162c6e119d1",
       "size_bytes": 30121
+    },
+    {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/audit_acceptance.py",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/audit_acceptance.py",
+      "git_blob_sha": "3b7265628a7de2f527346f850f93722bada8f873",
+      "size_bytes": 11361
     },
     {
       "source_path": "deliverables/chanlun_108_acceptance/01_FAST_READ.md",
@@ -3186,16 +3186,52 @@
       "size_bytes": 2244
     },
     {
+      "source_path": "schemas/README.md",
+      "mirror_path": "ChanlunCollection/schemas/README.md",
+      "git_blob_sha": "3f590ac79bc440e3bb5181528f9c049caf50781a",
+      "size_bytes": 211
+    },
+    {
       "source_path": "schemas/chanlun_synthetic_market_event_v1.schema.json",
       "mirror_path": "ChanlunCollection/schemas/chanlun_synthetic_market_event_v1.schema.json",
       "git_blob_sha": "56a7df10e088b1707ca1f3fc5c7a138fe781556b",
       "size_bytes": 2354
     },
     {
-      "source_path": "schemas/README.md",
-      "mirror_path": "ChanlunCollection/schemas/README.md",
-      "git_blob_sha": "3f590ac79bc440e3bb5181528f9c049caf50781a",
-      "size_bytes": 211
+      "source_path": "tests/README.md",
+      "mirror_path": "ChanlunCollection/tests/README.md",
+      "git_blob_sha": "7499a9ffcc199eaf163e22207162531c519e4a3e",
+      "size_bytes": 200
+    },
+    {
+      "source_path": "tests/fixtures/chanlun20_center_extension_membership_cases_v1.json",
+      "mirror_path": "ChanlunCollection/tests/fixtures/chanlun20_center_extension_membership_cases_v1.json",
+      "git_blob_sha": "7a73968261cc3659edb7d2ca9095d1875efab27a",
+      "size_bytes": 21351
+    },
+    {
+      "source_path": "tests/fixtures/chanlun35_author_base_center_axiom_cases_v1.json",
+      "mirror_path": "ChanlunCollection/tests/fixtures/chanlun35_author_base_center_axiom_cases_v1.json",
+      "git_blob_sha": "33b77dbad9f7cf240dfcdcfcda7c6b0aca87fdc2",
+      "size_bytes": 11896
+    },
+    {
+      "source_path": "tests/fixtures/chanlun35_event_derived_center_price_order_cases_v1.json",
+      "mirror_path": "ChanlunCollection/tests/fixtures/chanlun35_event_derived_center_price_order_cases_v1.json",
+      "git_blob_sha": "d4aff05cd46ca59ecde961abc6e23dfb4e69a182",
+      "size_bytes": 31873
+    },
+    {
+      "source_path": "tests/fixtures/chanlun35_terminal_asof_cases_v1.json",
+      "mirror_path": "ChanlunCollection/tests/fixtures/chanlun35_terminal_asof_cases_v1.json",
+      "git_blob_sha": "1d53ae406337349a2e00fa7f8a6d931720cac42a",
+      "size_bytes": 16865
+    },
+    {
+      "source_path": "tests/fixtures/chanlun38_symbolic_policy_cases_v1.json",
+      "mirror_path": "ChanlunCollection/tests/fixtures/chanlun38_symbolic_policy_cases_v1.json",
+      "git_blob_sha": "0175f84d6a4bf2f7cfd5c9aeaf41985eca0d0ed3",
+      "size_bytes": 6587
     },
     {
       "source_path": "tests/fixtures/chanlun_center_order_completion_cases_v1.json",
@@ -3234,46 +3270,28 @@
       "size_bytes": 6092
     },
     {
-      "source_path": "tests/fixtures/chanlun20_center_extension_membership_cases_v1.json",
-      "mirror_path": "ChanlunCollection/tests/fixtures/chanlun20_center_extension_membership_cases_v1.json",
-      "git_blob_sha": "7a73968261cc3659edb7d2ca9095d1875efab27a",
-      "size_bytes": 21351
-    },
-    {
-      "source_path": "tests/fixtures/chanlun35_author_base_center_axiom_cases_v1.json",
-      "mirror_path": "ChanlunCollection/tests/fixtures/chanlun35_author_base_center_axiom_cases_v1.json",
-      "git_blob_sha": "33b77dbad9f7cf240dfcdcfcda7c6b0aca87fdc2",
-      "size_bytes": 11896
-    },
-    {
-      "source_path": "tests/fixtures/chanlun35_event_derived_center_price_order_cases_v1.json",
-      "mirror_path": "ChanlunCollection/tests/fixtures/chanlun35_event_derived_center_price_order_cases_v1.json",
-      "git_blob_sha": "d4aff05cd46ca59ecde961abc6e23dfb4e69a182",
-      "size_bytes": 31873
-    },
-    {
-      "source_path": "tests/fixtures/chanlun35_terminal_asof_cases_v1.json",
-      "mirror_path": "ChanlunCollection/tests/fixtures/chanlun35_terminal_asof_cases_v1.json",
-      "git_blob_sha": "1d53ae406337349a2e00fa7f8a6d931720cac42a",
-      "size_bytes": 16865
-    },
-    {
-      "source_path": "tests/fixtures/chanlun38_symbolic_policy_cases_v1.json",
-      "mirror_path": "ChanlunCollection/tests/fixtures/chanlun38_symbolic_policy_cases_v1.json",
-      "git_blob_sha": "0175f84d6a4bf2f7cfd5c9aeaf41985eca0d0ed3",
-      "size_bytes": 6587
-    },
-    {
-      "source_path": "tests/README.md",
-      "mirror_path": "ChanlunCollection/tests/README.md",
-      "git_blob_sha": "7499a9ffcc199eaf163e22207162531c519e4a3e",
-      "size_bytes": 200
-    },
-    {
       "source_path": "tests/test_book_collection.py",
       "mirror_path": "ChanlunCollection/tests/test_book_collection.py",
       "git_blob_sha": "0deccf8a732c9ed456db1869c82e1b555218b76e",
       "size_bytes": 5028
+    },
+    {
+      "source_path": "tests/test_chanlun20_center_extension_membership_gate.py",
+      "mirror_path": "ChanlunCollection/tests/test_chanlun20_center_extension_membership_gate.py",
+      "git_blob_sha": "9c966940b56d4bf3a6b03e50af50f3d184fbd3c0",
+      "size_bytes": 9707
+    },
+    {
+      "source_path": "tests/test_chanlun35_author_base_center_axiom.py",
+      "mirror_path": "ChanlunCollection/tests/test_chanlun35_author_base_center_axiom.py",
+      "git_blob_sha": "764e69751731a77e0fca6b5ef085b4179801d82d",
+      "size_bytes": 9084
+    },
+    {
+      "source_path": "tests/test_chanlun35_event_derived_center_price_order.py",
+      "mirror_path": "ChanlunCollection/tests/test_chanlun35_event_derived_center_price_order.py",
+      "git_blob_sha": "3a923a124487d22286dbb4222005fd4d1902fa31",
+      "size_bytes": 8906
     },
     {
       "source_path": "tests/test_chanlun_056_058_timing.py",
@@ -3612,12 +3630,6 @@
       "size_bytes": 1503
     },
     {
-      "source_path": "tests/test_chanlun_lesson1_audit.py",
-      "mirror_path": "ChanlunCollection/tests/test_chanlun_lesson1_audit.py",
-      "git_blob_sha": "4f981e151c746a93a4da2a4983ab46d7a9e72377",
-      "size_bytes": 1783
-    },
-    {
       "source_path": "tests/test_chanlun_lesson100_branch_dispute.py",
       "mirror_path": "ChanlunCollection/tests/test_chanlun_lesson100_branch_dispute.py",
       "git_blob_sha": "b9adf206f60533ce76e7e1dd042442718b1f0533",
@@ -3640,6 +3652,12 @@
       "mirror_path": "ChanlunCollection/tests/test_chanlun_lesson103_macd_zero_asof.py",
       "git_blob_sha": "3bb86afa3e75d8eafd32d5e25971737ac94692ed",
       "size_bytes": 1023
+    },
+    {
+      "source_path": "tests/test_chanlun_lesson1_audit.py",
+      "mirror_path": "ChanlunCollection/tests/test_chanlun_lesson1_audit.py",
+      "git_blob_sha": "4f981e151c746a93a4da2a4983ab46d7a9e72377",
+      "size_bytes": 1783
     },
     {
       "source_path": "tests/test_chanlun_lessons002_005.py",
@@ -3828,16 +3846,16 @@
       "size_bytes": 1444
     },
     {
-      "source_path": "tests/test_chanlun_lessons106_108_audits.py",
-      "mirror_path": "ChanlunCollection/tests/test_chanlun_lessons106_108_audits.py",
-      "git_blob_sha": "e183712aa69222b42081d5d4498c0f76d5c65640",
-      "size_bytes": 5329
-    },
-    {
       "source_path": "tests/test_chanlun_lessons106_108.py",
       "mirror_path": "ChanlunCollection/tests/test_chanlun_lessons106_108.py",
       "git_blob_sha": "8e9c9f41d2def5efa5ff41e5864ba9c42a829058",
       "size_bytes": 1960
+    },
+    {
+      "source_path": "tests/test_chanlun_lessons106_108_audits.py",
+      "mirror_path": "ChanlunCollection/tests/test_chanlun_lessons106_108_audits.py",
+      "git_blob_sha": "e183712aa69222b42081d5d4498c0f76d5c65640",
+      "size_bytes": 5329
     },
     {
       "source_path": "tests/test_chanlun_native_raster_ceiling.py",
@@ -3918,28 +3936,16 @@
       "size_bytes": 4273
     },
     {
-      "source_path": "tests/test_chanlun20_center_extension_membership_gate.py",
-      "mirror_path": "ChanlunCollection/tests/test_chanlun20_center_extension_membership_gate.py",
-      "git_blob_sha": "9c966940b56d4bf3a6b03e50af50f3d184fbd3c0",
-      "size_bytes": 9707
-    },
-    {
-      "source_path": "tests/test_chanlun35_author_base_center_axiom.py",
-      "mirror_path": "ChanlunCollection/tests/test_chanlun35_author_base_center_axiom.py",
-      "git_blob_sha": "764e69751731a77e0fca6b5ef085b4179801d82d",
-      "size_bytes": 9084
-    },
-    {
-      "source_path": "tests/test_chanlun35_event_derived_center_price_order.py",
-      "mirror_path": "ChanlunCollection/tests/test_chanlun35_event_derived_center_price_order.py",
-      "git_blob_sha": "3a923a124487d22286dbb4222005fd4d1902fa31",
-      "size_bytes": 8906
-    },
-    {
       "source_path": "tests/test_verify_chanlun_lesson_index.py",
       "mirror_path": "ChanlunCollection/tests/test_verify_chanlun_lesson_index.py",
       "git_blob_sha": "b7de9dd331264f08b4190c31788b81d4921c8333",
       "size_bytes": 1573
+    },
+    {
+      "source_path": "tools/README.md",
+      "mirror_path": "ChanlunCollection/tools/README.md",
+      "git_blob_sha": "8073591e4ec34f50b2a4be424a44b92a772cd5ff",
+      "size_bytes": 14965
     },
     {
       "source_path": "tools/audit_book_ai_guide.py",
@@ -3952,6 +3958,24 @@
       "mirror_path": "ChanlunCollection/tools/audit_book_collection_change.py",
       "git_blob_sha": "cbbb92062735050b8608faa17d0bb0f5e45120c5",
       "size_bytes": 2343
+    },
+    {
+      "source_path": "tools/audit_chanlun20_center_extension_membership_gate.py",
+      "mirror_path": "ChanlunCollection/tools/audit_chanlun20_center_extension_membership_gate.py",
+      "git_blob_sha": "a9ea63e43e400cbe8b654fe616864d0a12a727c6",
+      "size_bytes": 13213
+    },
+    {
+      "source_path": "tools/audit_chanlun35_author_base_center_axiom.py",
+      "mirror_path": "ChanlunCollection/tools/audit_chanlun35_author_base_center_axiom.py",
+      "git_blob_sha": "3cf61c2c9c7c86515bb7c7044f110abf2f571081",
+      "size_bytes": 10953
+    },
+    {
+      "source_path": "tools/audit_chanlun35_event_center_price_order.py",
+      "mirror_path": "ChanlunCollection/tools/audit_chanlun35_event_center_price_order.py",
+      "git_blob_sha": "e1fe01648a39cfa5c090105c16d44727e43e2505",
+      "size_bytes": 10638
     },
     {
       "source_path": "tools/audit_chanlun_056_058_timing.py",
@@ -4368,24 +4392,6 @@
       "size_bytes": 9712
     },
     {
-      "source_path": "tools/audit_chanlun20_center_extension_membership_gate.py",
-      "mirror_path": "ChanlunCollection/tools/audit_chanlun20_center_extension_membership_gate.py",
-      "git_blob_sha": "a9ea63e43e400cbe8b654fe616864d0a12a727c6",
-      "size_bytes": 13213
-    },
-    {
-      "source_path": "tools/audit_chanlun35_author_base_center_axiom.py",
-      "mirror_path": "ChanlunCollection/tools/audit_chanlun35_author_base_center_axiom.py",
-      "git_blob_sha": "3cf61c2c9c7c86515bb7c7044f110abf2f571081",
-      "size_bytes": 10953
-    },
-    {
-      "source_path": "tools/audit_chanlun35_event_center_price_order.py",
-      "mirror_path": "ChanlunCollection/tools/audit_chanlun35_event_center_price_order.py",
-      "git_blob_sha": "e1fe01648a39cfa5c090105c16d44727e43e2505",
-      "size_bytes": 10638
-    },
-    {
       "source_path": "tools/book_collection.py",
       "mirror_path": "ChanlunCollection/tools/book_collection.py",
       "git_blob_sha": "da6d042d9735d7586c16ab615de69cf320bacff2",
@@ -4486,12 +4492,6 @@
       "mirror_path": "ChanlunCollection/tools/read_chanlun_lesson_readonly.py",
       "git_blob_sha": "0bde3fec267e84cb187caa7cf1e18f9d28060194",
       "size_bytes": 2219
-    },
-    {
-      "source_path": "tools/README.md",
-      "mirror_path": "ChanlunCollection/tools/README.md",
-      "git_blob_sha": "8073591e4ec34f50b2a4be424a44b92a772cd5ff",
-      "size_bytes": 14965
     },
     {
       "source_path": "tools/render_chanlun_priority_original_pages.py",
@@ -4638,16 +4638,16 @@
       "size_bytes": 8124
     },
     {
-      "source_path": "tools/verify_chanlun_lesson_index.py",
-      "mirror_path": "ChanlunCollection/tools/verify_chanlun_lesson_index.py",
-      "git_blob_sha": "51346439ecbc54597c12760a7aef90f9676fcdb8",
-      "size_bytes": 1710
-    },
-    {
       "source_path": "tools/verify_chanlun_lesson1_analysis.py",
       "mirror_path": "ChanlunCollection/tools/verify_chanlun_lesson1_analysis.py",
       "git_blob_sha": "a4c98e644fbd8b75ae8ae8c33bc520cb7f70439e",
       "size_bytes": 2291
+    },
+    {
+      "source_path": "tools/verify_chanlun_lesson_index.py",
+      "mirror_path": "ChanlunCollection/tools/verify_chanlun_lesson_index.py",
+      "git_blob_sha": "51346439ecbc54597c12760a7aef90f9676fcdb8",
+      "size_bytes": 1710
     },
     {
       "source_path": "tools/verify_chanlun_lessons002_005.py",
