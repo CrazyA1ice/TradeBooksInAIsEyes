@@ -1,0 +1,27 @@
+name: Chanlun all-108 source-anchored logical continuity and unproven frontiers
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "catalog/chanlun_108_fullbook_logical_spine_v1.json"
+      - "tools/audit_chanlun_fullbook_logical_spine.py"
+      - "tests/test_chanlun_fullbook_logical_spine.py"
+      - "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md"
+      - "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_LOGICAL_CONTINUITY.md"
+      - ".github/workflows/chanlun-all108-logical-spine.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-grounded-logical-spine:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Recompute source-grounded 108-role logical atlas and check exact bytes
+        run: python -B tools/audit_chanlun_fullbook_logical_spine.py --check-atlas
+      - name: Reject falsely promoting conceptual links into global proof
+        run: python -B -m unittest discover -s tests -p "test_chanlun_fullbook_logical_spine.py" -v
