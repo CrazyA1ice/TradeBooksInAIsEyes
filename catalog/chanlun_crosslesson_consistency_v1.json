@@ -474,7 +474,7 @@
       "abstract_model": "REGISTRY_NO_GLOBAL_SUPERSESSION",
       "thesis": "不同底层笔构造版本不自动共享同一个Rg的唯一性结论，不能把后发版本回填旧数据。",
       "needed_assumptions": [
-        "先确定合法底层笔版本",
+        "明确合法底层笔规则版本、来源角色及其在历史观察时点的可用性",
         "新旧版本之间同构与固定Rg的独立唯一性证明"
       ],
       "counterexample_proves_original_author_wrong": false,
