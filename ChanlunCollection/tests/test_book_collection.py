@@ -22,7 +22,9 @@ class BookCollectionTests(unittest.TestCase):
 
     def test_registers_chanlun_and_has_per_book_folder(self):
         self.assertEqual(self.book["folder"],"ChanlunCollection")
-        self.assertEqual(self.book["workflow_version"],"4.0.0")
+        self.assertRegex(self.book["workflow_version"],r"^4\.[0-9]+\.[0-9]+$")
+        book_flow=(ROOT/"ChanlunCollection/WORKFLOW.md").read_text(encoding="utf-8")
+        self.assertIn("v"+self.book["workflow_version"],book_flow)
         self.assertTrue(self.book["canonical_unchanged"])
 
     def test_all_five_original_pdf_volumes_present_in_manifest(self):
@@ -88,7 +90,7 @@ class BookCollectionTests(unittest.TestCase):
 
     def test_workflow_doc_version_is_updated(self):
         text=(ROOT/"docs/BOOK_RESEARCH_WORKFLOW.md").read_text(encoding="utf-8")
-        self.assertIn("v4.0.0",text)
+        self.assertIn("v"+self.book["workflow_version"],text)
         self.assertIn("每做一步",text)
         self.assertIn("G7",text)
         self.assertIn("ChanlunCollection",text)
