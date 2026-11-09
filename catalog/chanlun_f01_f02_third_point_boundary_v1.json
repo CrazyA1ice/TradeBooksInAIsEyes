@@ -51,7 +51,7 @@
     "2": "af49aecbd363286baacbea02d3778b436df4dad797523ce0eb83846118827a66"
   },
   "existing_native_text_pins": "reports/source_inventory/chanlun_center_order_completion_native_text_sha256.json",
-  "lowest_level_native_sha_file": "reports/source_inventory/chanlun_35_38_99_native_text_sha256.json",
+  "lowest_level_native_sha_file": "catalog/chanlun35_author_base_center_axiom_v1.json",
   "numeric_truths": {
     "third_buy_no_break": "retest_low >= center_ZG",
     "strict_above": "retest_low > center_ZG",
