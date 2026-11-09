@@ -77,8 +77,8 @@ def canonical_paths(c):
         for path in rootpath.rglob("*"):
             if not path.is_file():continue
             rel=path.relative_to(ROOT).as_posix()
-            if rel.startswith(folder) or path.name in c["source_exclusions"] or
-               "__pycache__" in path.parts or path.suffix==".pyc":
+            if (rel.startswith(folder) or path.name in c["source_exclusions"] or
+                    "__pycache__" in path.parts or path.suffix==".pyc"):
                 continue
             fail(rel not in found,"Overlapping book collection root: "+rel)
             found[rel]=path
