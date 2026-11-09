@@ -21,7 +21,7 @@ class FigureProvenanceTests(unittest.TestCase):
         _,pages=mod.verify_header(self.doc)
         self.assertEqual(pages[(4,73)]["source_tag"],"CORRECTED_LAST_DIAGRAM_WARNING")
         self.assertEqual(pages[(4,232)]["source_tag"],"AUTHOR_L81_RETROSPECTIVE_CORRECTION")
-        self.assertIn("lesson81",pages[(4,73)]["visible_finding"])
+        self.assertIn("课程81",pages[(4,73)]["visible_finding"])
 
     def test_lesson67_september19_learning_screenshot_not_backdated_to_august1(self):
         _,pages=mod.verify_header(self.doc)
