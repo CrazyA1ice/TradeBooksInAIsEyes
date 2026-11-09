@@ -168,8 +168,8 @@ def sync(c):
         target.parent.mkdir(parents=True,exist_ok=True)
         expected.add(target.resolve())
         original=ROOT/e["source_path"]
-        if not target.is_file() or target.stat().st_size!=original.stat().st_size or
-           blob_sha(target)!=e["git_blob_sha"]:
+        if (not target.is_file() or target.stat().st_size!=original.stat().st_size or
+                blob_sha(target)!=e["git_blob_sha"]):
             shutil.copyfile(original,target)
     for p in folder.rglob("*"):
         if p.is_file() and p.resolve() not in expected and
