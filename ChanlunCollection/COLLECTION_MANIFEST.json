@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.1.0",
-  "source_count": 776,
+  "workflow_version": "4.2.0",
+  "source_count": 780,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -272,8 +272,8 @@
     {
       "source_path": ".github/workflows/chanlun-whole-book-integrated.yml",
       "mirror_path": "ChanlunCollection/.github/workflows/chanlun-whole-book-integrated.yml",
-      "git_blob_sha": "64f5e88f3d07a4181f204032df17a1d67780b19d",
-      "size_bytes": 3059
+      "git_blob_sha": "501ee3d3aa73f71e80801a8e0a97ec722f00f640",
+      "size_bytes": 3639
     },
     {
       "source_path": ".github/workflows/chanlun20-center-extension-membership.yml",
@@ -1320,6 +1320,12 @@
       "size_bytes": 3682
     },
     {
+      "source_path": "catalog/chanlun_f01_typed_completion_obligations_v1.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun_f01_typed_completion_obligations_v1.json",
+      "git_blob_sha": "f6949d23d83b584ba3a2a20b18e6106dc08edbb3",
+      "size_bytes": 8907
+    },
+    {
       "source_path": "catalog/chanlun_lesson035_terminal_comparison_v1.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_lesson035_terminal_comparison_v1.json",
       "git_blob_sha": "a6ffe3b4699250b9a83e51ab9b070f2d481822f2",
@@ -1554,6 +1560,12 @@
       "size_bytes": 38559
     },
     {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_COMPLETION_PROOF_OBLIGATIONS.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_COMPLETION_PROOF_OBLIGATIONS.md",
+      "git_blob_sha": "7221681fe2a9df45ba6843175cc28d6ba22baf35",
+      "size_bytes": 21777
+    },
+    {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_F02_BOUNDARY_BRIDGE.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_F02_BOUNDARY_BRIDGE.md",
       "git_blob_sha": "76b461a39de15cc69dd8684a95fa55813b378a25",
@@ -1568,8 +1580,8 @@
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_LOGICAL_CONTINUITY.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_LOGICAL_CONTINUITY.md",
-      "git_blob_sha": "56edd33e9ea78a9b320499ec0bf0b775dbbd6c4e",
-      "size_bytes": 34976
+      "git_blob_sha": "057a924e10adebc7a102c0407ed50839d80a96ae",
+      "size_bytes": 35972
     },
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_THEORY_CONSISTENCY.md",
@@ -1814,8 +1826,8 @@
     {
       "source_path": "deliverables/chanlun_108_acceptance/README.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/README.md",
-      "git_blob_sha": "b1cf6e94ea0991f4539f310917fb1b19176dc2a5",
-      "size_bytes": 21549
+      "git_blob_sha": "fb43459ddf60a679a8252f5af7c46af2f9aeea8d",
+      "size_bytes": 22138
     },
     {
       "source_path": "docs/ANALYSIS_STANDARD.md",
@@ -1826,8 +1838,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "d98e4bcfa6cac0887de3df4c435ba30ebbd5eebd",
-      "size_bytes": 38310
+      "git_blob_sha": "a84e7766a6864607095fcfac38a205ad994681e7",
+      "size_bytes": 40950
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -3294,6 +3306,12 @@
       "size_bytes": 3193
     },
     {
+      "source_path": "tests/test_chanlun_f01_typed_completion_obligations.py",
+      "mirror_path": "ChanlunCollection/tests/test_chanlun_f01_typed_completion_obligations.py",
+      "git_blob_sha": "b18d49359a856a6acce988c96c9f32a96bf0ec92",
+      "size_bytes": 3147
+    },
+    {
       "source_path": "tests/test_chanlun_figure_lineage.py",
       "mirror_path": "ChanlunCollection/tests/test_chanlun_figure_lineage.py",
       "git_blob_sha": "c44a0f50362544344265bc867d599fb719780f31",
@@ -3910,6 +3928,12 @@
       "mirror_path": "ChanlunCollection/tools/audit_chanlun_f01_f02_third_point_boundary.py",
       "git_blob_sha": "4657247802d0d987870fce4337b1ca00b9850556",
       "size_bytes": 9283
+    },
+    {
+      "source_path": "tools/audit_chanlun_f01_typed_completion_obligations.py",
+      "mirror_path": "ChanlunCollection/tools/audit_chanlun_f01_typed_completion_obligations.py",
+      "git_blob_sha": "69cc719d2bd870a8a873fbbdbefc88b77b6b0783",
+      "size_bytes": 10240
     },
     {
       "source_path": "tools/audit_chanlun_fullbook_logical_spine.py",
