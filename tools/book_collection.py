@@ -172,8 +172,8 @@ def sync(c):
                 blob_sha(target)!=e["git_blob_sha"]):
             shutil.copyfile(original,target)
     for p in folder.rglob("*"):
-        if p.is_file() and p.resolve() not in expected and
-           p.relative_to(folder).as_posix() not in MANAGED:
+        if (p.is_file() and p.resolve() not in expected and
+                p.relative_to(folder).as_posix() not in MANAGED):
             raise ValueError("Unexpected extra book file; investigate, never delete automatically: "+str(p))
     (folder/"COLLECTION_MANIFEST.json").write_text(manifest_text(data),encoding="utf-8")
     return check(c)
