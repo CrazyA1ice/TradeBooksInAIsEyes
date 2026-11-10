@@ -2,6 +2,8 @@
 
 后续在对话中直接说“根据`ChanlunCollection/`回答《缠论》第XX课……”“比较第38课和第99课……”或“重新检验这项理论的作者原文、前后逻辑和反例”。**推荐从本书[README](README.md)进入**，不要要求用户自己逐一下载五卷原书或手工校验数百个文件。
 
+**询问“是否必然成立／什么条件才充分／能否据此操作”时**：先核对[作者论断逻辑资格索引](deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_CLAIM_MODALITY_AND_CONDITIONS.md)及`catalog/chanlun_claim_modality_v1.json`；必要条件、经验辅助与已证明充分条件不可混同，第21/38课强断言不得默认已证。
+
 **询问作者观点的跨课变动及编者注记时**：参照[四组核心跨课对照](deliverables/chanlun_108_acceptance/00_REVIEW/FOUR_CORE_CROSS_VERSION_METHOD_CONTRAST.md)与`catalog/chanlun_four_core_contrasts_v1.json`，区分原作者、编者及AI解释的角色。
 
 **询问规律之间的联系时**：先读[作者规律的贯通论证主线](deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAWS_ARGUMENT_MAINLINE_V1.md)及`catalog/chanlun_author_law_argument_bridges_v1.json`，核对关系性质、SOURCE证据与非蕴含限制，不将AI桥接误认为作者证明。

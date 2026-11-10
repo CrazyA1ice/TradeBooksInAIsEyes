@@ -25,6 +25,10 @@
 
 **全部12张卡均已新增SOURCE主张编号和PDF物理页锚点，并配套论证线索、方法和误用反例。** 每个锚点包含`claim_id`、`lesson`、`physical_pages`和`reading`，可用专项审计检查证据卡中的角色、ID与页码是否相符。本轮所有卡片还新增`argument_trace`，是AI组织的论证路径而非原作者逐字原文。这是已有原文证据的深化，不是全部原始PDF逐页复核，尤其不等于作者规律得到数学或市场实证。
 
+## 命题性质核对
+
+对“必然”“充分”“绝对安全”等词，应先查[16条逻辑资格分类](AUTHOR_CLAIM_MODALITY_AND_CONDITIONS.md)和`catalog/chanlun_claim_modality_v1.json`，避免将定义成立、必要条件、经验猜测和交易保证混为一谈。
+
 ## 从卡片进入跨课论证
 
 建议阅读[14条带SOURCE证据的解释性论证桥接](AUTHOR_LAWS_ARGUMENT_MAINLINE_V1.md)，再用`catalog/chanlun_author_law_argument_bridges_v1.json`核查每条关系的原始主张编号、页码和不能推出的结论。
