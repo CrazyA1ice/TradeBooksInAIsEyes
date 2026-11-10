@@ -26,7 +26,8 @@ def audit(root=ROOT):
     for t in ts:
         assert set(t)==FIELDS
         assert t["status"] in VALID
-        for key in ("name","domain","quantifier","candidate_formula","author_reasoning","cannot_derive"):
+        assert isinstance(t["name"],str) and len(t["name"].strip())>=4,(t["id"],"name")
+        for key in ("domain","quantifier","candidate_formula","author_reasoning","cannot_derive"):
             assert isinstance(t[key],str) and len(t[key].strip())>=15,(t["id"],key)
         assert len(t["required_inputs"])>=3 and len(t["open_obligations"])>=3
         assert all(isinstance(x,str) and len(x)>=15 for x in t["open_obligations"])

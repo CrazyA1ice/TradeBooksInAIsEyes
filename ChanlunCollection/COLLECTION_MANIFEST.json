@@ -4514,8 +4514,8 @@
     {
       "source_path": "tools/audit_chanlun_strong_theses.py",
       "mirror_path": "ChanlunCollection/tools/audit_chanlun_strong_theses.py",
-      "git_blob_sha": "b536de5f3704e945b0b78ff63e942d95b09042f7",
-      "size_bytes": 3188
+      "git_blob_sha": "8b8a6905bb853fc8eaf64953af0280357e696247",
+      "size_bytes": 3269
     },
     {
       "source_path": "tools/audit_chanlun_theory_second_pass.py",
