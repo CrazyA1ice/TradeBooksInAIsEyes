@@ -1,5 +1,7 @@
 # 如何用ChanlunCollection向AI询问《缠论》 
 
+**询问是否能实际生成G01局部候选或枚举G05切分时**：先读[局部生成器与11例有限穷举](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_LOCAL_CANDIDATE_GENERATORS.md)，注意输入预标准化及G05准入片段均非作者完整规则证明。
+
 **询问G01局部构件是否有合法身份、G05候选切分是否足以推唯一性时**：先查[证据资格与十一组边界情境](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_EVIDENCE_ELIGIBILITY.md)，不要把外部假设和AI规范化政策冒充作者规则。
 
 **询问G01类型状态转换、G05平局政策或是否已证明唯一性时**：优先查看[有类型规则契约与规范化边界](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_TYPED_RULE_CONTRACT_AND_NORMALIZATION.md)以及`catalog/chanlun_g01_g05_typed_rule_contract_v1.json`，严格区分作者SOURCE约束和AI编写的政策。

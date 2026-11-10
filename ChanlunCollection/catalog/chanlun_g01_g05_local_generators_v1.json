@@ -1,0 +1,454 @@
+{
+  "schema_version": 1,
+  "book": "chanlun",
+  "role": "AI_COMPOSITION_AND_DECLARED_SPAN_ENUMERATOR_NOT_AUTHOR_PARSER",
+  "source_scope": "EXISTING_SOURCE_CARDS_ONLY",
+  "prior_contract": "catalog/chanlun_g01_g05_evidence_eligibility_v1.json",
+  "source_evidence": [
+    {
+      "lesson": 67,
+      "claim_id": "CL67-SOURCE-3",
+      "pages": [
+        388,
+        389
+      ]
+    },
+    {
+      "lesson": 67,
+      "claim_id": "CL67-SOURCE-4",
+      "pages": [
+        389
+      ]
+    },
+    {
+      "lesson": 71,
+      "claim_id": "CL71-SOURCE-1",
+      "pages": [
+        71
+      ]
+    },
+    {
+      "lesson": 78,
+      "claim_id": "CL78-SOURCE-2",
+      "pages": [
+        175
+      ]
+    },
+    {
+      "lesson": 35,
+      "claim_id": "CL35-SO-4",
+      "pages": [
+        292
+      ]
+    },
+    {
+      "lesson": 38,
+      "claim_id": "CL38-SOURCE-1",
+      "pages": [
+        338
+      ]
+    },
+    {
+      "lesson": 102,
+      "claim_id": "CL102-SOURCE-1",
+      "pages": [
+        241
+      ]
+    }
+  ],
+  "g01_input_identity": "THREE_PRE_STANDARDIZED_SYNTHETIC_FEATURES_NOT_RAW_AUTHOR_SEGMENT",
+  "g05_input_identity": "EXTERNALLY_DECLARED_ADMISSIBLE_SPANS_NOT_AUTHOR_PARSER",
+  "cases": [
+    {
+      "id": "G01-R01",
+      "gate": "G01",
+      "input": {
+        "as_of": 5,
+        "expected": "TOP",
+        "sequence_id": "S1",
+        "features": [
+          {
+            "index": 1,
+            "low": 0,
+            "high": 2,
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 1
+          },
+          {
+            "index": 2,
+            "low": 1,
+            "high": 3,
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 2
+          },
+          {
+            "index": 3,
+            "low": 0.5,
+            "high": 2,
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 3
+          }
+        ],
+        "opposite_index": null
+      },
+      "expected": {
+        "status": "LOCAL_NO_GAP_NOT_SEGMENT_CERTIFIED",
+        "candidate_at": 3
+      },
+      "research_note": "67局部分型无缺口可以生成候选，但不是已认证线段。"
+    },
+    {
+      "id": "G01-R02",
+      "gate": "G01",
+      "input": {
+        "as_of": 5,
+        "expected": "TOP",
+        "sequence_id": "S1",
+        "features": [
+          {
+            "index": 1,
+            "low": 0,
+            "high": 1,
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 1
+          },
+          {
+            "index": 2,
+            "low": 2,
+            "high": 3,
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 2
+          },
+          {
+            "index": 3,
+            "low": 1,
+            "high": 2,
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 3
+          }
+        ],
+        "opposite_index": null
+      },
+      "expected": {
+        "status": "PENDING_OPPOSITE",
+        "candidate_at": null
+      },
+      "research_note": "有缺口局部候选必须继续等待反向确认。"
+    },
+    {
+      "id": "G01-R03",
+      "gate": "G01",
+      "input": {
+        "as_of": 7,
+        "expected": "TOP",
+        "sequence_id": "S1",
+        "features": [
+          {
+            "index": 1,
+            "low": 0,
+            "high": 1,
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 1
+          },
+          {
+            "index": 2,
+            "low": 2,
+            "high": 3,
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 2
+          },
+          {
+            "index": 3,
+            "low": 1,
+            "high": 2,
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 3
+          }
+        ],
+        "opposite_index": 6
+      },
+      "expected": {
+        "status": "LOCAL_GAP_NOT_SEGMENT_CERTIFIED",
+        "candidate_at": 6
+      },
+      "research_note": "有缺口且反向证据到达，才生成局部候选。"
+    },
+    {
+      "id": "G01-R04",
+      "gate": "G01",
+      "input": {
+        "as_of": 5,
+        "expected": "TOP",
+        "sequence_id": "S1",
+        "features": [
+          {
+            "index": 1,
+            "low": 0,
+            "high": 2,
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 1
+          },
+          {
+            "index": 2,
+            "low": 1,
+            "high": 3,
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 2
+          },
+          {
+            "index": 3,
+            "low": 0.5,
+            "high": 2,
+            "sequence_id": "S1",
+            "role": "AUXILIARY",
+            "confirmed_at": 3
+          }
+        ],
+        "opposite_index": null
+      },
+      "expected": {
+        "status": "INVALID_STRICT_MEMBER",
+        "candidate_at": null
+      },
+      "research_note": "辅助成员不允许冒充严格特征序列成员。"
+    },
+    {
+      "id": "G01-R05",
+      "gate": "G01",
+      "input": {
+        "as_of": 5,
+        "expected": "TOP",
+        "sequence_id": "S1",
+        "features": [
+          {
+            "index": 1,
+            "low": 0,
+            "high": 2,
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 1
+          },
+          {
+            "index": 2,
+            "low": 1,
+            "high": 3,
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 2
+          },
+          {
+            "index": 3,
+            "low": 0.5,
+            "high": 2,
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 9
+          }
+        ],
+        "opposite_index": null
+      },
+      "expected": {
+        "status": "FEATURE_NOT_YET_ASOF",
+        "candidate_at": null
+      },
+      "research_note": "候选第三成员尚未在as-of时刻得到确认。"
+    },
+    {
+      "id": "G01-R06",
+      "gate": "G01",
+      "input": {
+        "as_of": 5,
+        "expected": "TOP",
+        "sequence_id": "S1",
+        "features": [
+          {
+            "index": 1,
+            "low": 0,
+            "high": 2,
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 1
+          },
+          {
+            "index": 2,
+            "low": 1,
+            "high": 3,
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 2
+          },
+          {
+            "index": 3,
+            "low": 2.5,
+            "high": 4,
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 3
+          }
+        ],
+        "opposite_index": null
+      },
+      "expected": {
+        "status": "NOT_EXPECTED_FRACTAL",
+        "candidate_at": null
+      },
+      "research_note": "不满足67课的三成员顶部关系，应拒绝候选。"
+    },
+    {
+      "id": "G05-R01",
+      "gate": "G05",
+      "input": {
+        "n": 4,
+        "input_complete": true,
+        "allowed_spans": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "expected": {
+        "status": "MULTIPLE_PARSES_UNDER_EXTERNAL_SPANS",
+        "cutpoints": [
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      },
+      "research_note": "同一外部准入表产生两个切分候选，不能宣称作者反例。"
+    },
+    {
+      "id": "G05-R02",
+      "gate": "G05",
+      "input": {
+        "n": 4,
+        "input_complete": true,
+        "allowed_spans": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": {
+        "status": "ONE_PARSE_UNDER_EXTERNAL_SPANS",
+        "cutpoints": [
+          [
+            2
+          ]
+        ]
+      },
+      "research_note": "限定准入表只有一份切分，并非对所有输入唯一。"
+    },
+    {
+      "id": "G05-R03",
+      "gate": "G05",
+      "input": {
+        "n": 4,
+        "input_complete": true,
+        "allowed_spans": [
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "expected": {
+        "status": "NO_PARSE_UNDER_EXTERNAL_SPANS",
+        "cutpoints": []
+      },
+      "research_note": "外部准入表无法覆盖全长，存在性没有建立。"
+    },
+    {
+      "id": "G05-R04",
+      "gate": "G05",
+      "input": {
+        "n": 4,
+        "input_complete": false,
+        "allowed_spans": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": {
+        "status": "WAIT_COMPLETE_INPUT",
+        "cutpoints": []
+      },
+      "research_note": "未完成历史不应提前枚举最终规范型。"
+    },
+    {
+      "id": "G05-R05",
+      "gate": "G05",
+      "input": {
+        "n": 4,
+        "input_complete": true,
+        "allowed_spans": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": {
+        "status": "ONE_PARSE_UNDER_EXTERNAL_SPANS",
+        "cutpoints": [
+          [
+            2
+          ]
+        ]
+      },
+      "research_note": "重复声明同一候选片段不能伪造两份不同分解。"
+    }
+  ],
+  "proof_status": "OPEN",
+  "image_review": "NOT_RUN",
+  "market_backtest": "NOT_RUN"
+}

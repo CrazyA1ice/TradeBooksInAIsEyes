@@ -10,6 +10,7 @@ on:
       - 'catalog/chanlun_g01_g05_conditional_witnesses_v1.json'
       - 'catalog/chanlun_g01_g05_typed_rule_contract_v1.json'
       - 'catalog/chanlun_g01_g05_evidence_eligibility_v1.json'
+      - 'catalog/chanlun_g01_g05_local_generators_v1.json'
       - 'catalog/chanlun_author_law_argument_bridges_v1.json'
       - 'tools/audit_chanlun_author_law_cards.py'
       - 'tools/audit_chanlun_four_core_contrasts.py'
@@ -19,6 +20,7 @@ on:
       - 'tools/audit_chanlun_g01_g05_witnesses.py'
       - 'tools/audit_chanlun_g01_g05_typed_rule_contract.py'
       - 'tools/audit_chanlun_g01_g05_evidence_eligibility.py'
+      - 'tools/audit_chanlun_g01_g05_local_generators.py'
       - 'tools/audit_chanlun_law_argument_bridges.py'
       - 'tests/test_chanlun_author_law_cards.py'
       - 'tests/test_chanlun_four_core_contrasts.py'
@@ -28,6 +30,7 @@ on:
       - 'tests/test_chanlun_g01_g05_witnesses.py'
       - 'tests/test_chanlun_g01_g05_typed_rule_contract.py'
       - 'tests/test_chanlun_g01_g05_evidence_eligibility.py'
+      - 'tests/test_chanlun_g01_g05_local_generators.py'
       - 'tests/test_chanlun_law_argument_bridges.py'
       - '.github/workflows/chanlun-author-law-cards.yml'
       - 'ChanlunCollection/**'
@@ -76,4 +79,8 @@ jobs:
         run: python -B tools/audit_chanlun_g01_g05_evidence_eligibility.py
       - name: Evidence eligibility negative tests
         run: python -B -m unittest discover -s tests -p 'test_chanlun_g01_g05_evidence_eligibility.py' -v
+      - name: Audit composed G01/G05 local generators
+        run: python -B tools/audit_chanlun_g01_g05_local_generators.py
+      - name: Local generator exhaustive and as-of regression tests
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_g01_g05_local_generators.py' -v
 
