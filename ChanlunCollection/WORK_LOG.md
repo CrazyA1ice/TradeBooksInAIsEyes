@@ -2,6 +2,12 @@
 
 > **必须随每一次后续研究步骤一并更新；不能只交成果、不修工作流。** 记录问题、来源、研究实际增量、通用流程改动、集合同步和验收状态。GitHub PR应拒绝未同步工作流和镜像的改动。
 
+## 2026-11-10｜四项作者强命题的量词与证明缺口（v4.19.0）
+
+- 第17课走势终完美、第21课买卖点完备/安全、第38课固定同级分解唯一，以及第99课未来高层中枢强必然主张，整理为4个命题的定义域、量词、作者SOURCE证据、AI候选公式、未决证明及六组不能直接推出的关系。
+- 新增`catalog/chanlun_strong_theses_proof_map_v1.json`与`STRONG_THESES_QUANTIFIERS_AND_PROOF_GAPS.md`，绑定21次SOURCE原文编号；新增严格校验和负例测试。
+- 工作流v4.19.0，F01/OB38/OB99仍OPEN，图像和行情NOT_RUN。
+
 ## 2026-11-10｜作者原文命题逻辑资格分类（v4.18.0）
 
 - 依据既有原文证据卡新增16张命题性质分类卡，包含7类逻辑资格、35次SOURCE编号引用、对应规律卡、必要前提与非蕴含限制，相关机器数据`catalog/chanlun_claim_modality_v1.json`、正文`AUTHOR_CLAIM_MODALITY_AND_CONDITIONS.md`。
