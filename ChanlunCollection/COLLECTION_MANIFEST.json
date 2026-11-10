@@ -1544,8 +1544,8 @@
     {
       "source_path": "catalog/chanlun_strong_theses_proof_map_v1.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_strong_theses_proof_map_v1.json",
-      "git_blob_sha": "82c51fa848632d00a244d351061d9d285584a67a",
-      "size_bytes": 11473
+      "git_blob_sha": "9b9003be9eff177d26021df3d07c0af273493abd",
+      "size_bytes": 11608
     },
     {
       "source_path": "catalog/chanlun_theory_argument_links_v1.json",
