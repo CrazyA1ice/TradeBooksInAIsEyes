@@ -40,9 +40,9 @@ def audit(root: Path, *, expected_count: int | None = 12) -> dict:
             source = json.loads(f.read_text(encoding="utf-8"))
             number = source.get("source", {}).get("lesson_number", source.get("lesson"))
             assert number == lesson, f"{cid} mismatched source lesson: {p}"
-        # Optional deep anchors: verify the exact claim ID, SOURCE role and physical page.
-        assertions = card.get("source_assertions", [])
-        assert isinstance(assertions, list), cid
+        # Require exact claim anchors for every law card; no course-level-only cards.
+        assertions = card.get("source_assertions")
+        assert isinstance(assertions, list) and assertions, f"{cid}: source assertions required"
         seen_claims: set[str] = set()
         for assertion in assertions:
             assert set(assertion) == {"claim_id", "lesson", "physical_pages", "role", "reading", "verification"}, cid
@@ -60,15 +60,23 @@ def audit(root: Path, *, expected_count: int | None = 12) -> dict:
             matches = [x for x in evidence.get("claims", []) if x.get("id") == claim_id]
             assert len(matches) == 1 and matches[0].get("kind") == "SOURCE", (cid, claim_id)
             assert pages == matches[0].get("pdf_pages"), (cid, claim_id, "physical pages differ")
+        trace = card.get("argument_trace")
+        assert isinstance(trace, dict), f"{cid}: missing bounded argument trace"
+        assert set(trace) == {"status", "author_argument_synthesis", "reading_method", "misuse_case", "source_scope_note"}, cid
+        assert trace["status"] == "AI_RECONSTRUCTION_OF_EXISTING_SOURCE_CUES", cid
+        assert trace["source_scope_note"] == "Not a verbatim quotation or newly independently inspected PDF page", cid
+        for field in ("author_argument_synthesis", "reading_method", "misuse_case"):
+            assert isinstance(trace[field], str) and len(trace[field].strip()) >= 12, (cid, field)
         assert isinstance(card["links_to"], list) and len(set(card["links_to"])) == len(card["links_to"])
         assert cid not in card["links_to"], cid
     edges = 0
+    anchors = sum(len(card["source_assertions"]) for card in cards)
     for card in cards:
         for link in card["links_to"]:
             assert link in seen, f"Broken law link {card['id']} -> {link}"
             edges += 1
     assert edges > 0
-    return {"status": "TEXT_ONLY_LAW_CARD_GRAPH_AND_PROVENANCE_PASSED", "cards": len(cards), "links": edges, "scope": "text_only", "empirical": "NOT_RUN"}
+    return {"status": "TEXT_ONLY_LAW_CARD_GRAPH_AND_PROVENANCE_PASSED", "cards": len(cards), "anchors": anchors, "links": edges, "scope": "text_only", "empirical": "NOT_RUN"}
 
 
 if __name__ == "__main__":

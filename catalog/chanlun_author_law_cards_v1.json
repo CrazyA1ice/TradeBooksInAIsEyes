@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "book": "chanlun",
-  "status": "eight_cards_with_claim_ids_and_physical_page_cues_remaining_source_cued",
+  "status": "all_twelve_cards_with_source_claim_ids_and_pages_and_bounded_method_traces",
   "scope": "text_only",
   "cards": [
     {
@@ -26,7 +26,37 @@
         "CL-LAW-002",
         "CL-LAW-012"
       ],
-      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED"
+      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED",
+      "source_assertions": [
+        {
+          "claim_id": "CL32-SO-1",
+          "lesson": 32,
+          "physical_pages": [
+            231,
+            233
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者批评把持续看多/看空偏好强加给当下走势。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL32-SO-2",
+          "lesson": 32,
+          "physical_pages": [
+            233
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者指出前提事件发生后也不能断言下一事件必然发生。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        }
+      ],
+      "argument_trace": {
+        "status": "AI_RECONSTRUCTION_OF_EXISTING_SOURCE_CUES",
+        "author_argument_synthesis": "作者依据第32课批评固定看多或看空，并通过A发生未必B发生，强调当前条件不能被先验意愿替代。",
+        "reading_method": "先观察结构及未决条件→记录可能分支→出现新证据后重新判定。",
+        "misuse_case": "若因为持仓而坚持“既然A已出现，B必然到来”，就是把偏好混入结构判断。",
+        "source_scope_note": "Not a verbatim quotation or newly independently inspected PDF page"
+      }
     },
     {
       "id": "CL-LAW-002",
@@ -52,7 +82,47 @@
         "CL-LAW-003",
         "CL-LAW-011"
       ],
-      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED"
+      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED",
+      "source_assertions": [
+        {
+          "claim_id": "CL015-S-1",
+          "lesson": 15,
+          "physical_pages": [
+            143
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "早期通过高低点关系区分不同走势；注意后续规则发展。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL017-S03",
+          "lesson": 17,
+          "physical_pages": [
+            197,
+            198
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者讨论最低级别约定及盘整/趋势的中枢数目。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL33-SO-2",
+          "lesson": 33,
+          "physical_pages": [
+            256
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者将固定时间级别图视作有不同观察精度的模型。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        }
+      ],
+      "argument_trace": {
+        "status": "AI_RECONSTRUCTION_OF_EXISTING_SOURCE_CUES",
+        "author_argument_synthesis": "第15课使用早期高低点分类；第17课建立级别/中枢关系，第33课承认观察精度差异；这些并非同一时期不变的严格算法。",
+        "reading_method": "选操作级别→声明采用的规则版本→核对走势构件→再讨论走势类型。",
+        "misuse_case": "跨越规则版本或级别拿局部下跌直接证明高一级趋势完成。",
+        "source_scope_note": "Not a verbatim quotation or newly independently inspected PDF page"
+      }
     },
     {
       "id": "CL-LAW-003",
@@ -108,7 +178,14 @@
           "reading": "最低结构可满足但盘整或趋势可继续延伸；成立不等于立即结束。",
           "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
         }
-      ]
+      ],
+      "argument_trace": {
+        "status": "AI_RECONSTRUCTION_OF_EXISTING_SOURCE_CUES",
+        "author_argument_synthesis": "第17/18课用连续次级走势的共同重叠界定中枢；第18课还明确结构已可完成但实际可以延伸。",
+        "reading_method": "先识别合法、已完成、连续的次级走势→计算其价格交集→保留持续延伸的分支。",
+        "misuse_case": "只凭三个数字区间交集就倒推出子走势合法完成，或宣称趋势已结束。",
+        "source_scope_note": "Not a verbatim quotation or newly independently inspected PDF page"
+      }
     },
     {
       "id": "CL-LAW-004",
@@ -166,7 +243,14 @@
           "reading": "作者提供区间符号与同级中枢和扩张条件，原书并存后编注。",
           "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
         }
-      ]
+      ],
+      "argument_trace": {
+        "status": "AI_RECONSTRUCTION_OF_EXISTING_SOURCE_CUES",
+        "author_argument_synthesis": "第20课把延续、新生和级别扩张分别描述，并以中枢边界公式区分结构关系。",
+        "reading_method": "先固定现有中枢→检查后续合格构件是否维持旧重叠→再审新中枢和扩张条件。",
+        "misuse_case": "一次接触ZG/ZD便直接宣布原中枢被破坏或新高一级中枢成立。",
+        "source_scope_note": "Not a verbatim quotation or newly independently inspected PDF page"
+      }
     },
     {
       "id": "CL-LAW-005",
@@ -237,7 +321,14 @@
           "reading": "作者要求用于趋势讨论的A、B是同级中枢。",
           "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
         }
-      ]
+      ],
+      "argument_trace": {
+        "status": "AI_RECONSTRUCTION_OF_EXISTING_SOURCE_CUES",
+        "author_argument_synthesis": "第24课明确MACD辅助身份及A/B/C面积方法，第37课强调可比较的同级结构前提。",
+        "reading_method": "先确定级别及相应走势段→检查已完成的力度和未完成的估计→讨论背驰候选。",
+        "misuse_case": "把尚未完成C段面积预测值当成最终真实力度。",
+        "source_scope_note": "Not a verbatim quotation or newly independently inspected PDF page"
+      }
     },
     {
       "id": "CL-LAW-006",
@@ -295,7 +386,14 @@
           "reading": "作者将趋势背驰与未构成趋势的中枢震荡分开。",
           "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
         }
-      ]
+      ],
+      "argument_trace": {
+        "status": "AI_RECONSTRUCTION_OF_EXISTING_SOURCE_CUES",
+        "author_argument_synthesis": "第27课将盘整背驰与趋势背驰的不同级别意义分开，第37课要求趋势内部对象可比。",
+        "reading_method": "先区分盘整/趋势结构→选择同口径对象→推导其可能后继而不是套用同一结论。",
+        "misuse_case": "看到任何局部MACD背离就宣称趋势背驰已经完成。",
+        "source_scope_note": "Not a verbatim quotation or newly independently inspected PDF page"
+      }
     },
     {
       "id": "CL-LAW-007",
@@ -364,7 +462,14 @@
           "reading": "作者讨论第二类和第三类买点有条件重合。",
           "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
         }
-      ]
+      ],
+      "argument_trace": {
+        "status": "AI_RECONSTRUCTION_OF_EXISTING_SOURCE_CUES",
+        "author_argument_synthesis": "第20课第三类点是中枢离开及第一次次级回试的特定条件，第21课另讨论三类点关系及二三买重合。",
+        "reading_method": "分别判断原方向衰竭、转折后回试、离开中枢后首次回试所需身份→核对首次可知。",
+        "misuse_case": "把任何中枢向上突破都视为第三买，或认为三类点必须连续出现。",
+        "source_scope_note": "Not a verbatim quotation or newly independently inspected PDF page"
+      }
     },
     {
       "id": "CL-LAW-008",
@@ -390,7 +495,58 @@
         "CL-LAW-009",
         "CL-LAW-011"
       ],
-      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED"
+      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED",
+      "source_assertions": [
+        {
+          "claim_id": "CL027-S02",
+          "lesson": 27,
+          "physical_pages": [
+            91,
+            93
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者从多层背驰段的区间逐级收缩讨论历史底部。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL027-S03",
+          "lesson": 27,
+          "physical_pages": [
+            93
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者明确实际级别并非无限可细分到数学点。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL44-SOURCE-2",
+          "lesson": 44,
+          "physical_pages": [
+            17
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者强调小背驰引发大转折时的特定条件仅属必要条件。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL61-SOURCE-4",
+          "lesson": 61,
+          "physical_pages": [
+            279,
+            284
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者联系较小级别线段、背驰和候选买卖点，涉及未完成状态。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        }
+      ],
+      "argument_trace": {
+        "status": "AI_RECONSTRUCTION_OF_EXISTING_SOURCE_CUES",
+        "author_argument_synthesis": "第27课讨论逐级缩小观察区间但否认无限精确，第44课把小背驰引起大转折所需条件明确标为非充分。",
+        "reading_method": "先定位高一级观察问题→逐级检查小级别背驰和条件→返回大级别核实是否满足。",
+        "misuse_case": "小级别背驰出现就宣布大级别必然逆转，或宣称能成交数学最低点。",
+        "source_scope_note": "Not a verbatim quotation or newly independently inspected PDF page"
+      }
     },
     {
       "id": "CL-LAW-009",
@@ -450,7 +606,14 @@
           "reading": "作者提出固定同级规则下唯一性主张，但并未在本卡中核验完备证明。",
           "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
         }
-      ]
+      ],
+      "argument_trace": {
+        "status": "AI_RECONSTRUCTION_OF_EXISTING_SOURCE_CUES",
+        "author_argument_synthesis": "第18课允许已具基本结构的走势继续延伸，第32课明确A发生不必导致B，第38课提出特定规则下唯一性。",
+        "reading_method": "区分发生位置、首次可确认时间与事后归类，并保留规则版本。",
+        "misuse_case": "用事后完整走势中的端点作为事前已经知道的交易机会。",
+        "source_scope_note": "Not a verbatim quotation or newly independently inspected PDF page"
+      }
     },
     {
       "id": "CL-LAW-010",
@@ -522,7 +685,14 @@
           "reading": "作者将资金和筹码分配至不同时间级别。",
           "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
         }
-      ]
+      ],
+      "argument_trace": {
+        "status": "AI_RECONSTRUCTION_OF_EXISTING_SOURCE_CUES",
+        "author_argument_synthesis": "第31课讨论预定仓位、机动资金和回收成本，第40课讨论跨级别资金安排。",
+        "reading_method": "区分结构判断、共同资金账本与实际退出约束，再作条件性的资源分配。",
+        "misuse_case": "宣称账面零成本意味着剩余持仓不会亏损。",
+        "source_scope_note": "Not a verbatim quotation or newly independently inspected PDF page"
+      }
     },
     {
       "id": "CL-LAW-011",
@@ -570,7 +740,14 @@
           "reading": "作者对同级盘整连接和更低级别采用不同规则。",
           "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
         }
-      ]
+      ],
+      "argument_trace": {
+        "status": "AI_RECONSTRUCTION_OF_EXISTING_SOURCE_CUES",
+        "author_argument_synthesis": "第33课承认多义重组；第38课对固定同级操作规则提出唯一性要求；二者所指论域不能预设相同。",
+        "reading_method": "对每种划分明确级别、版本、连接规则、构件与输入完成状态，然后比较。",
+        "misuse_case": "将不同级别的两种划分直接当成同一规则的唯一性反例。",
+        "source_scope_note": "Not a verbatim quotation or newly independently inspected PDF page"
+      }
     },
     {
       "id": "CL-LAW-012",
@@ -607,7 +784,66 @@
       "links_to": [
         "CL-LAW-001"
       ],
-      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED"
+      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED",
+      "source_assertions": [
+        {
+          "claim_id": "CL009-S01",
+          "lesson": 9,
+          "physical_pages": [
+            28
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者把介入失败和资金管理、退出问题联系起来。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL013-S-1",
+          "lesson": 13,
+          "physical_pages": [
+            107
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者区分主动防护与入场模式失效后的退出。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL32-SO-3",
+          "lesson": 32,
+          "physical_pages": [
+            234
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者借不同背驰和中枢变化路径说明动态应对。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL96-SOURCE-1",
+          "lesson": 96,
+          "physical_pages": [
+            155
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者批评亏损后执着个人目标价的锚定行为。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL98-SOURCE-3",
+          "lesson": 98,
+          "physical_pages": [
+            194
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者要求随观察到的新结构调整条件计划。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        }
+      ],
+      "argument_trace": {
+        "status": "AI_RECONSTRUCTION_OF_EXISTING_SOURCE_CUES",
+        "author_argument_synthesis": "第9和13课谈退出与失败应对，第32课反对预设唯一未来，第96课批评亏损锚定，第98课强调动态方案。",
+        "reading_method": "事先列出失效条件和资金约束→观察新结构→退出、调整或等待→复核仓位风险。",
+        "misuse_case": "以原成本价或个人期望价替代失效条件；有新信息仍固执旧判断。",
+        "source_scope_note": "Not a verbatim quotation or newly independently inspected PDF page"
+      }
     }
   ]
 }
