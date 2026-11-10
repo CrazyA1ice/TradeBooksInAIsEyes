@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.18.0",
-  "source_count": 815,
+  "workflow_version": "4.19.0",
+  "source_count": 819,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -38,8 +38,8 @@
     {
       "source_path": ".github/workflows/chanlun-author-law-cards.yml",
       "mirror_path": "ChanlunCollection/.github/workflows/chanlun-author-law-cards.yml",
-      "git_blob_sha": "52b2c28b456b35c77b8329f8bf5a8963d638f0df",
-      "size_bytes": 2090
+      "git_blob_sha": "64b93b99b2e2ead78dbd1fdb0204b653ad60753a",
+      "size_bytes": 2518
     },
     {
       "source_path": ".github/workflows/chanlun-bridge-native-text.yml",
@@ -1542,6 +1542,12 @@
       "size_bytes": 10854
     },
     {
+      "source_path": "catalog/chanlun_strong_theses_proof_map_v1.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun_strong_theses_proof_map_v1.json",
+      "git_blob_sha": "9b9003be9eff177d26021df3d07c0af273493abd",
+      "size_bytes": 11608
+    },
+    {
       "source_path": "catalog/chanlun_theory_argument_links_v1.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_theory_argument_links_v1.json",
       "git_blob_sha": "14306b584984817cd4174ed99b447a6b8917722f",
@@ -1586,8 +1592,8 @@
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAW_CARDS_INDEX.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAW_CARDS_INDEX.md",
-      "git_blob_sha": "627c6a8f525a04ba3796bcdf75b0e24f527eaaf6",
-      "size_bytes": 3344
+      "git_blob_sha": "17465909935be248c3f3e28d99f77750ad3d409a",
+      "size_bytes": 3581
     },
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_MARKET_LAWS_AND_METHOD_MAINLINE.md",
@@ -1648,6 +1654,12 @@
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/LESSON_ACCEPTANCE_MATRIX.md",
       "git_blob_sha": "595ec85ca3aa4d3575af88b5d05eed044c21fc9f",
       "size_bytes": 32982
+    },
+    {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/STRONG_THESES_QUANTIFIERS_AND_PROOF_GAPS.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/STRONG_THESES_QUANTIFIERS_AND_PROOF_GAPS.md",
+      "git_blob_sha": "d0682b9fe82f6f4d5f4ccdab88b0031de57af138",
+      "size_bytes": 12832
     },
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/STRUCTURE_CAPITAL_DISCIPLINE_METHOD.md",
@@ -1964,8 +1976,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "1b698d9cb86f42f2a3df8c0ef4db32c662d1ec1a",
-      "size_bytes": 54977
+      "git_blob_sha": "ee07a8eb26a8dc68ae65fead5f7ec914c3f0d044",
+      "size_bytes": 55737
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -4014,6 +4026,12 @@
       "size_bytes": 3570
     },
     {
+      "source_path": "tests/test_chanlun_strong_theses.py",
+      "mirror_path": "ChanlunCollection/tests/test_chanlun_strong_theses.py",
+      "git_blob_sha": "0e16fcfcd7021a73201818d822044499f7079ab5",
+      "size_bytes": 2670
+    },
+    {
       "source_path": "tests/test_chanlun_text_logic_audit.py",
       "mirror_path": "ChanlunCollection/tests/test_chanlun_text_logic_audit.py",
       "git_blob_sha": "17d7a3b640973ee116faed04a0bc431fc25ccbf9",
@@ -4492,6 +4510,12 @@
       "mirror_path": "ChanlunCollection/tools/audit_chanlun_revision_causal_witness_v4.py",
       "git_blob_sha": "723adadce6cfd73e6043a8d2f5a99d888fb38ba5",
       "size_bytes": 3359
+    },
+    {
+      "source_path": "tools/audit_chanlun_strong_theses.py",
+      "mirror_path": "ChanlunCollection/tools/audit_chanlun_strong_theses.py",
+      "git_blob_sha": "8b8a6905bb853fc8eaf64953af0280357e696247",
+      "size_bytes": 3269
     },
     {
       "source_path": "tools/audit_chanlun_theory_second_pass.py",

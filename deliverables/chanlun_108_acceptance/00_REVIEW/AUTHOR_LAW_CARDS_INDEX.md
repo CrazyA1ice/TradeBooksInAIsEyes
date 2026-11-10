@@ -1,5 +1,8 @@
 # 《缠论》规律与方法论知识卡｜第一批12张
 
+**本轮理论证明入口**：[强命题量词和证明责任](STRONG_THESES_QUANTIFIERS_AND_PROOF_GAPS.md)，明示4项作者强断言与6项未建立的推论桥梁；相关数据`catalog/chanlun_strong_theses_proof_map_v1.json`。
+
+
 > 这是对作者文字研究的AI提炼和跨课连接，并不是12条已经统计验证的市场定律。源文件：[`catalog/chanlun_author_law_cards_v1.json`](../../../catalog/chanlun_author_law_cards_v1.json)。不识图、不回测。
 
 ## 主线
