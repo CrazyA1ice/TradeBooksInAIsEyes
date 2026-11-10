@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.28.0
+# ChanlunCollection｜本书实施工作流 v4.29.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.29.0 重点补充：历史作者/编辑版本的文字校勘闸门。** 第54课`g0g3=(...)+g2d3`在老版PDF、线上存档中保留，2020整理版直接标`g0g3(d3?)`，2022整理版使用`g0d3`。验证器逐步证明右侧线段连续到d3；修复甲改左端`g0d3`与“当下到d3”兼容，修复乙加`d3g3`虽使端点相等却会使用后来的走势。两者都不冒充作者公开正式订正；全文源流和回帖：[研究报告](deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_EQUATION_VARIANTS_AND_ONE_PRICE_CENTER_AUTHORITY.md)、`catalog/chanlun_l54_equation_variant_witnesses_v1.json`。另把作者2007年5月24日16:04:41回帖存档“1个价位重叠也算”的价格边界与合法走势完成证书分开。运行`python -B tools/verify_chanlun_l54_formula_variants.py`与对应15项单测。原始新浪HTML仍未取得，行情NOT_RUN。
 
 **v4.28.0 重点补充：作者文本叙述节点的可执行无前视回放。** 读取第54课13条`catalog/chanlun_l54_prefix_stage_evidence_v1.json`并执行`python -B tools/replay_chanlun_l54_author_prefix.py --show all`。只允许甲方案到g5才声明对应高级别中枢、乙方案到g6才声明对应中心，g7以后截图的`18.03`只能在`AFTER_G7`出现。区分作者叙述阶段`AUTHOR_TEXT_STAGE_ONLY`与真实市场时钟`market_first_knowable_timestamp=null`，保留d3上下文`g0g3/g2d3`字面端点异常的未核订正状态。运行`python -B -m unittest discover -s tests -p "test_chanlun_l54_author_prefix.py" -v`，缺原始行情不得宣称完整笔/段和第38课的唯一性已证。专题：[具体研究](deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_AUTHOR_PREFIX_REPLAY_AND_END_POINT_AUDIT.md)。
 

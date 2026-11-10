@@ -1,0 +1,19 @@
+name: chanlun-l54-equation-variants-audit
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  audit-formula-witnesses:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Audit seven source variants, R1 and R2 path endings, single-price reply
+        run: python -B tools/verify_chanlun_l54_formula_variants.py
+      - name: Negative checks for fake author erratum, original or backtest status
+        run: python -B -m unittest discover -s tests -p "test_chanlun_l54_formula_variants.py" -v
