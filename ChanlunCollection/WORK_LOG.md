@@ -5,7 +5,7 @@
 ## 2026-11-10｜G01/G05十个有限条件性逻辑见证（v4.21.0）
 
 - 对前阶段最优先的两个证明接口分别建立5个合成案例：G01测试最低基例、重叠但子走势未完成、在已声明完成假设下的条件性父中枢、无重叠及最早可知时点；G05测试同规则竞争切分、不同规则比较、单一样例、无合法候选和相同分界点。
-- 结果写入`catalog/chanlun_g01_g05_conditional_witnesses_v1.json`和`G01_G05_CONDITIONAL_WITNESS_STUDY.md`，11条既有SOURCE编号引用受检，添加可执行纯合成分类器、负例测试与CI。
+- 结果写入`catalog/chanlun_g01_g05_conditional_witnesses_v1.json`和`G01_G05_CONDITIONAL_WITNESS_STUDY.md`，12条既有SOURCE编号引用受检，添加可执行纯合成分类器、负例测试与CI。
 - 不把外部声明的合法性当原作者认证，不把合成条件反模型称为完整作者规则反例。F01/OB38仍OPEN；图像、市场NOT_RUN。
 
 ## 2026-11-10｜最低基例到同级唯一性的构造论证链（v4.20.0）
