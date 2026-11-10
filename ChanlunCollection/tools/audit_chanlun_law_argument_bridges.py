@@ -20,7 +20,7 @@ ALLOWED = {
 }
 
 
-def audit(root: Path, expected_count: int = 13) -> dict:
+def audit(root: Path, expected_count: int = 14) -> dict:
     b = json.loads((root / BRIDGES).read_text(encoding="utf-8"))
     c = json.loads((root / CARDS).read_text(encoding="utf-8"))
     assert b.get("schema_version") == 1 and b.get("book") == "chanlun"

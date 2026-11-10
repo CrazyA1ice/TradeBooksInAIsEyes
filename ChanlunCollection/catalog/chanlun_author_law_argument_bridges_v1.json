@@ -69,6 +69,33 @@
       "validation": "EXISTING_SOURCE_CARD_CLAIM_AND_PAGE_ONLY"
     },
     {
+      "id": "CL-BRIDGE-014",
+      "from": "CL-LAW-002",
+      "to": "CL-LAW-011",
+      "relation": "rule_version_gate",
+      "identity": "AI_CROSS_LESSON_INTERPRETIVE_BRIDGE_NOT_AUTHOR_THEOREM",
+      "why": "选择观察级别以后，必须进一步声明分解规则及历史版本；否则无法判断不同分解究竟是多义解释还是同规则冲突。",
+      "how": "将第33课的观察精度区别与第38课固定规范唯一性放在同一条件表中，分别标明级别、版本和输入完成状态。",
+      "not_implied": "不同级别下存在多种可读解释，不证明固定同级规则必然唯一或必然不唯一。",
+      "evidence": [
+        {
+          "claim_id": "CL33-SO-2",
+          "lesson": 33,
+          "physical_pages": [
+            256
+          ]
+        },
+        {
+          "claim_id": "CL38-SOURCE-1",
+          "lesson": 38,
+          "physical_pages": [
+            338
+          ]
+        }
+      ],
+      "validation": "EXISTING_SOURCE_CARD_CLAIM_AND_PAGE_ONLY"
+    },
+    {
       "id": "CL-BRIDGE-003",
       "from": "CL-LAW-003",
       "to": "CL-LAW-004",

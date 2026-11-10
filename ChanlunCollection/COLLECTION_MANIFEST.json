@@ -1316,8 +1316,8 @@
     {
       "source_path": "catalog/chanlun_author_law_argument_bridges_v1.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_author_law_argument_bridges_v1.json",
-      "git_blob_sha": "24ea09e49f266978f86c69b1cd28e6ea38494655",
-      "size_bytes": 11721
+      "git_blob_sha": "a011b1ee00adae8fdb0c4ea4638fe10b6e79a741",
+      "size_bytes": 12759
     },
     {
       "source_path": "catalog/chanlun_author_law_cards_v1.json",
@@ -1562,13 +1562,13 @@
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAWS_ARGUMENT_MAINLINE_V1.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAWS_ARGUMENT_MAINLINE_V1.md",
-      "git_blob_sha": "b5c22b3fa14700599e700d80e0683d6dd1331887",
-      "size_bytes": 10062
+      "git_blob_sha": "781e21346596b1e8a0b45ede08f295d772902a1a",
+      "size_bytes": 10600
     },
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAW_CARDS_INDEX.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAW_CARDS_INDEX.md",
-      "git_blob_sha": "ea82feb19737a4bd21314bc31244bd60861120bd",
+      "git_blob_sha": "309d45c12fe54f3f2720befb4d8e9f54848e650e",
       "size_bytes": 3063
     },
     {
@@ -1940,7 +1940,7 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "ce25c760136df0cdebbbe38d1afd3888a4b52e4e",
+      "git_blob_sha": "f9be29e8b79de89affa333f7cb2d071514732476",
       "size_bytes": 53262
     },
     {
@@ -3470,7 +3470,7 @@
     {
       "source_path": "tests/test_chanlun_law_argument_bridges.py",
       "mirror_path": "ChanlunCollection/tests/test_chanlun_law_argument_bridges.py",
-      "git_blob_sha": "1ea9ee63ed0f1334cfec2d7b7d68d1ba388d94fc",
+      "git_blob_sha": "abcb394ef9333045952cc5946b19095ae246e5fb",
       "size_bytes": 2913
     },
     {
@@ -4100,7 +4100,7 @@
     {
       "source_path": "tools/audit_chanlun_law_argument_bridges.py",
       "mirror_path": "ChanlunCollection/tools/audit_chanlun_law_argument_bridges.py",
-      "git_blob_sha": "138dd8648d57113f65b9c8a9185e01339b775d6d",
+      "git_blob_sha": "d4ad1c40df574c2188705a26007bd6ea555f804f",
       "size_bytes": 4196
     },
     {
