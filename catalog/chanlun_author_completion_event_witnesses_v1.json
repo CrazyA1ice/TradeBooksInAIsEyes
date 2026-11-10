@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-COMPLETION-EXIT-WITNESSES-V431",
+  "date": "2026-11-10",
+  "scope": "AUTHOR_SOURCE_TEXT_PLUS_ARCHIVED_AUTHOR_REPLIES__NOT_FULL_RULE_VALIDATION",
+  "findings": [
+    {
+      "id": "AUTH-2007-05-09-C2",
+      "author_reply_date": "2007-05-09",
+      "archive_timestamp": "16:56:39",
+      "another_archive_timestamp": "16:54:18",
+      "source_url": "https://blog.sina.com.cn/s/blog_53d16d760100z88x.html",
+      "archive_kind": "REPOSTED_AUTHOR_REPLY",
+      "original_sina_comment_directly_authenticated": false,
+      "lesson_prose_not_reply": false,
+      "claim": "B未出现第三类买点则仍绕B震荡；C2下级走势未完成不能预言它永不返回旧中枢",
+      "use": "INCOMPLETE_RETRACE_BLOCKS_THIRD_POINT_CERTIFICATE",
+      "confidence": "TEXT_ATTESTED_SECONDARY_TIMESTAMP_VARIANCE",
+      "historical_effective_date": "2007-05-09"
+    },
+    {
+      "id": "AUTH-2007-08-21-162001",
+      "author_reply_date": "2007-08-21",
+      "archive_timestamp": "16:20:01",
+      "source_url": "https://blog.sina.com.cn/s/blog_15e1934cd0102w990.html",
+      "original_article_url": "https://blog.sina.com.cn/s/blog_486e105c01000cb9.html",
+      "archive_kind": "REPOSTED_COMMENT_FROM_SAME_DAY_MARKET_ARTICLE",
+      "original_sina_comment_directly_authenticated": false,
+      "lesson_prose_not_reply": false,
+      "claim": "盘整结束标志为第三类买卖点；趋势结束标志为本级别背驰后对最后一个中枢回拉；作者声称回拉导致更高级中枢",
+      "use": "CONDITIONAL_MOVEMENT_EXIT_EVENT",
+      "confidence": "SECONDARY_ARCHIVE_EXPLICIT_DATE_AND_SPEAKER",
+      "historical_effective_date": "2007-08-21"
+    },
+    {
+      "id": "AUTH-2007-08-21-162728",
+      "author_reply_date": "2007-08-21",
+      "archive_timestamp": "16:27:28",
+      "source_url": "https://blog.sina.com.cn/s/blog_15e1934cd0102w990.html",
+      "original_article_url": "https://blog.sina.com.cn/s/blog_486e105c01000cb9.html",
+      "archive_kind": "REPOSTED_COMMENT_FROM_SAME_DAY_MARKET_ARTICLE",
+      "original_sina_comment_directly_authenticated": false,
+      "lesson_prose_not_reply": false,
+      "claim": "笔破坏线段不等于线段破坏；后者按两种特征序列情况",
+      "use": "SEGMENT_BREAK_PROOF_NOT_PEN_BREAK",
+      "confidence": "SECONDARY_ARCHIVE_EXPLICIT_DATE_AND_SPEAKER",
+      "historical_effective_date": "2007-08-21"
+    },
+    {
+      "id": "AUTH-2007-08-21-170226",
+      "author_reply_date": "2007-08-21",
+      "archive_timestamp": "17:02:26",
+      "source_url": "https://blog.sina.com.cn/s/blog_15e1934cd0102w990.html",
+      "original_article_url": "https://blog.sina.com.cn/s/blog_486e105c01000cb9.html",
+      "archive_kind": "REPOSTED_COMMENT_FROM_SAME_DAY_MARKET_ARTICLE",
+      "original_sina_comment_directly_authenticated": false,
+      "lesson_prose_not_reply": false,
+      "claim": "笔破坏与线段破坏是两种互不包含关系；无笔破坏之线段破坏属于第二种情况",
+      "use": "BREAK_CATEGORIES_NOT_MUTUAL_IMPLICATION",
+      "confidence": "SECONDARY_ARCHIVE_EXPLICIT_DATE_AND_SPEAKER",
+      "historical_effective_date": "2007-08-21"
+    }
+  ],
+  "original_lesson_prose": [
+    {
+      "lesson": 18,
+      "claim_ids": [
+        "CL018-S01",
+        "CL018-S07"
+      ],
+      "url": "https://eczsc.com/originals/18",
+      "substance": "三段已完成次级走势类型构中枢；满足最低结构后盘整或趋势仍可能延伸"
+    },
+    {
+      "lesson": 20,
+      "claim_ids": [
+        "CL020-S03"
+      ],
+      "url": "https://eczsc.com/originals/20",
+      "substance": "第三类点依赖下级别离开、随后完整下级走势首次回试且满足不破ZG/不升破ZD"
+    },
+    {
+      "lesson": 53,
+      "claim_ids": [
+        "CL53-SOURCE-3"
+      ],
+      "url": "https://eczsc.com/originals/53",
+      "substance": "第三类点对中枢结束和震荡作结构区分"
+    },
+    {
+      "lesson": 67,
+      "claim_ids": [
+        "CL67-SOURCE-3",
+        "CL67-SOURCE-4"
+      ],
+      "url": "https://eczsc.com/originals/67",
+      "substance": "线段结束需特征序列分型且依据前两元素是否有缺口分支"
+    },
+    {
+      "lesson": 71,
+      "claim_ids": [
+        "CL71-SOURCE-2"
+      ],
+      "url": "https://eczsc.com/originals/71",
+      "substance": "待定新段第一笔的严格成员资格不能先行假设"
+    },
+    {
+      "lesson": 72,
+      "claim_ids": [
+        "CL72-SOURCE-3",
+        "CL72-SOURCE-4"
+      ],
+      "url": "https://eczsc.com/originals/72",
+      "substance": "22:37:20正文给形态学次序与67后发严格定义，但没有16:20:01的盘整/趋势结束原话"
+    },
+    {
+      "lesson": 78,
+      "claim_ids": [
+        "CL78-SOURCE-1",
+        "CL78-SOURCE-2"
+      ],
+      "url": "https://eczsc.com/originals/78",
+      "substance": "笔破坏不等于完整反向线段合法破坏"
+    },
+    {
+      "lesson": 81,
+      "claim_ids": [
+        "CL81-SOURCE-1",
+        "CL81-SOURCE-2"
+      ],
+      "url": "https://eczsc.com/originals/81",
+      "substance": "原作者纠图及数据微小差异改变分笔及分段"
+    },
+    {
+      "lesson": 54,
+      "claim_ids": [
+        "CL54-SOURCE-4"
+      ],
+      "url": "https://eczsc.com/originals/54",
+      "substance": "g5/g6两种分组下g7的第三卖点类型不同"
+    }
+  ],
+  "attribution_correction": {
+    "mistaken": "2007-08-21 16:20:01 completion quote is literal body prose of Lesson72",
+    "correct": "Archived author comment to separate 2007-08-21 15:59:25 market article 热点蔓延渐成潮流, before Lesson72 main body posted at 22:37:20; quoted by some later lesson72 summaries",
+    "same_day_lesson72_published": "2007-08-21 22:37:20",
+    "comment_162001_prior_to_lesson72_post": true,
+    "comment_part_of_canonical_lesson72_body": false,
+    "comment_original_sina_authenticated": false
+  },
+  "typed_events": [
+    {
+      "id": "EV-SEGMENT-END",
+      "object": "STRICT_SEGMENT",
+      "required_conditions": [
+        "LEGAL_FEATURE_SEQUENCE",
+        "GAP_CASE_RULE",
+        "FORMAL_REVERSE_SEGMENT_OR_AUTHOR_TERMINATION"
+      ],
+      "author_lesson": 67,
+      "finished_child_movement_implied": false,
+      "confirmation_time_from_market_bars_known": false
+    },
+    {
+      "id": "EV-CENTER-MINIMUM",
+      "object": "PARENT_CENTER",
+      "required_conditions": [
+        "THREE_CONSECUTIVE_COMPLETED_LOWER_MOVEMENT_TYPES",
+        "PRICE_RANGE_INTERSECTION"
+      ],
+      "author_lesson": 18,
+      "finished_parent_movement_implied": false,
+      "confirmation_time_from_market_bars_known": false
+    },
+    {
+      "id": "EV-PAN-EXIT-THIRD",
+      "object": "PANZHENG_EXIT_AS_AUTHOR_REPORTED",
+      "required_conditions": [
+        "VALID_PARENT_CENTER",
+        "FULL_LOWER_TYPE_DEPARTURE",
+        "FIRST_FULL_LOWER_TYPE_RETRACE",
+        "THIRD_POINT_NON_RETURN_BOUNDARY"
+      ],
+      "source": "AUTHOR_2007-08-21_162001_PLUS_LESSON20",
+      "finishes_type_only_conditionally": true,
+      "third_point_cannot_certify_its_own_retrace_without_independent_child_completion": true,
+      "confirmation_time_from_market_bars_known": false,
+      "position_of_historical_turn_vs_first_confirmation_unproven": true
+    },
+    {
+      "id": "EV-TREND-EXIT-BACK",
+      "object": "TREND_EXIT_AS_AUTHOR_REPORTED",
+      "required_conditions": [
+        "VALID_TREND_AT_LEVEL",
+        "LAST_CENTER_ID",
+        "AUTHORED_TREND_DIVERGENCE_AT_LEVEL",
+        "ACTUAL_PULLBACK_TO_LAST_CENTER_WITH_DEFINED_BOUNDARY"
+      ],
+      "source": "AUTHOR_2007-08-21_162001_PLUS_LESSON18",
+      "finishes_type_only_conditionally": true,
+      "confirmation_time_from_market_bars_known": false,
+      "claimed_higher_center_effect_author_assertion_not_independent_proof": true,
+      "position_of_historical_turn_vs_first_confirmation_unproven": true
+    }
+  ],
+  "known_missing_proofs": [
+    {
+      "gap": "CE01",
+      "description": "Generate completed lower-level departure and first retrace rather than price touch alone",
+      "state": "OPEN",
+      "source": "L20"
+    },
+    {
+      "gap": "CE02",
+      "description": "Generate trend level-specific divergence with appropriate momentum or structural evidence, not simply a reverse pen",
+      "state": "OPEN",
+      "source": "AUTHOR_REPLY_AUG21_PLUS_L72_MORPHOLOGY_DYNAMICS"
+    },
+    {
+      "gap": "CE03",
+      "description": "Operationalize to-last-center pullback boundary and higher-level center consequence with frozen rules",
+      "state": "OPEN",
+      "source": "AUTHOR_REPLY_AUG21"
+    },
+    {
+      "gap": "CE04",
+      "description": "Map author hypothetical L54 sub-minute legs onto frozen after-67 segment grammar and parent completed movements",
+      "state": "OPEN",
+      "source": "L54_L67_L84"
+    },
+    {
+      "gap": "CE05",
+      "description": "Preserve author historical terminal turning point separately from first independently knowable recognition time",
+      "state": "OPEN",
+      "source": "F01_ASOF"
+    },
+    {
+      "gap": "CE06",
+      "description": "Prove general no-lookahead termination certificate under fixed policy Rg and initializer f1",
+      "state": "OPEN",
+      "source": "OB38"
+    }
+  ],
+  "one_sided_logic": [
+    "FIRST_COMPLETED_CHILD_TYPES_REQUIRED_FOR_CENTER",
+    "PAN_EXIT_THIRD_POINT_REQUIRES_COMPLETED_DEPARTURE_AND_RETRACE",
+    "TREND_EXIT_BACK_AFTER_DIVERGENCE_REQUIRES_TWO_EVENTS_AND_REALIZED_PULLBACK",
+    "REVERSE_PEN_NOT_EQ_STRICT_SEGMENT_END",
+    "STRICT_SEGMENT_END_NOT_EQ_FINISHED_MOVEMENT",
+    "THIRD_POINT_CANNOT_PREVALIDATE_UNFINISHED_RETRACE"
+  ],
+  "boundary_notes": "第20课不跌破ZG/不升破ZD含接触等号，不等于研究者额外采用的严格不接触规则；具体中枢/回拉边界版本要单独冻结",
+  "proof_status": "F01_OB38_OB99_OPEN",
+  "market_asof": "NOT_ESTABLISHED",
+  "raw_ohlc_and_subminute_available": false,
+  "empirical_status": "NOT_RUN"
+}

@@ -341,18 +341,20 @@
       "from": "L67_FORMAL_SEGMENT",
       "to": "L18_FINISHED_CHILD_TYPE",
       "required_witness": "FULL_LOWER_LEVEL_MOVEMENT_DECOMPOSITION_LEGALITY_AND_END_CERTIFICATE",
-      "missing": "SEGMENT_END_RULE_DOES_NOT_CERTIFY_FULL_MOVEMENT_TYPE_END",
+      "missing": "POST67_SEGMENT_END_DOES_NOT_CERTIFY_COMPLETED_LOWER_MOVEMENT_OR_FIRST_COMPLETE_RETRACE_OR_TREND_DIVERGENCE_PULLBACK",
       "state": "OPEN",
-      "is_author_quoted_theorem": false
+      "is_author_quoted_theorem": false,
+      "followup_author_reply_evidence": "2007-08-21 16:20:01 comment gives pan/third-point and trend/divergence-plus-pullback exit; segment-end alone does not produce either"
     },
     {
       "id": "G03",
       "from": "L83_BASE_CENTER",
       "to": "L18_FINISHED_CHILD_TYPE",
       "required_witness": "MOVEMENT_TYPE_END_AFTER_BASE_CENTER_AND_COMPLETED_EXTENSION_POLICY",
-      "missing": "CENTER_FORMATION_AND_FINISHED_MOVEMENT_ARE_DISTINCT_IN_LESSON18",
+      "missing": "THIRD_POINT_OR_OTHER_VALID_EXIT_REQUIRES_INDEPENDENT_COMPLETED_LOWER_TYPES_AND_CENTER_ID",
       "state": "OPEN",
-      "is_author_quoted_theorem": false
+      "is_author_quoted_theorem": false,
+      "followup_author_reply_evidence": "Third point after two complete lower movement types vs merely existing minimum center"
     },
     {
       "id": "G04",
@@ -410,8 +412,9 @@
     "author_claims_not_independent_mathematical_proofs": true,
     "no_raw_OHLC_no_market_asof_certificate": true
   },
-  "critical_new_finding": "R_g chosen per-level (lesson38) and f1 vs f2 difference (lesson84) are distinct axes: a single historical case cannot prove equivalence across either without frozen version and completion evidence.",
+  "critical_new_finding": "R_g chosen per-level (lesson38) and f1 vs f2 difference (lesson84) are distinct axes: a single historical case cannot prove equivalence across either without frozen version and completion evidence. Followup v4.31 locates conditional author exit events from separately dated 2007-08-21 replies, not Lesson72 main body; completion certification remains unestablished without full child movement witnesses.",
   "old_frontiers": "F01_OB38_OPEN",
   "asof_market_data": "NOT_RUN",
-  "empirical_backtest": "NOT_RUN"
+  "empirical_backtest": "NOT_RUN",
+  "followup_completion_exit_study": "catalog/chanlun_author_completion_event_witnesses_v1.json"
 }
