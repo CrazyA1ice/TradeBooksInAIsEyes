@@ -19,6 +19,8 @@
 | **OB99-EXIST/LOCATION** | **BLOCKED**：全部合法未来路径有限时间高层中枢与首次位置待证 | 同上 |
 | **F08 三类点到实际收益** | **NOT_RUN**：真实行情、成交、交易成本/样本外检验均未运行 | `experiments/`（仅研究计划和合成例） |
 
+**当前v4.29.0第54课文字版本分歧与退化中枢原作者回复**：新增[七份存档的`g0g3/g0d3/g0g3(d3?)`对照及路径端点验证](deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_EQUATION_VARIANTS_AND_ONE_PRICE_CENTER_AUTHORITY.md)。明确在d3当下`g0d3`是条件性规范化最强候选，而保存`g0g3`并补`d3g3`虽端点一致却偷看后续；没有作者亲自发表勘误的原发证据。另核对2007-05-24 16:04:41作者回答“一个价位重叠也要算”在多份归档存在，不能随意把退化中枢排除。新增来源数据、15项专项反向测试与CI；源码镜像与工作流v4.29。新浪原始发布文件、历史分钟/子分钟OHLC、F01/OB38/OB99仍OPEN，市场`NOT_RUN`。
+
 **当前v4.28.0逐前缀双分解与文字记号审计**：新增[第54课g1—g7有类型前缀回放与原作者公式末点审查](deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_AUTHOR_PREFIX_REPLAY_AND_END_POINT_AUDIT.md)。13条作者/图像来源事件、甲乙两套可执行“作者叙述节点”快照、14项正反验证和新CI；确认乙方案g6中枢不能在g5阶段提前使用、g7不能预知图中g7之后的18.03。另一条新发现是d3上下文公式左`g0g3`与右`g2d3`字面端点不一致，暂标疑似原始记号/编纂问题，不能默改或当成严密反证。**非真实分钟行情回放**，规范PDF细节、实际首次可知时刻、F01/OB38/OB99仍OPEN，市场`NOT_RUN`。
 
 **当前v4.27.0图证与操作结论层次核查**：已在外部公开编纂PDF（印刷p.125、PDF截图页索引128）独立目视第54课航天机电1分钟原图，并核对第54课末段作者确实同时提出“g7甲三卖／乙中枢震荡”的**标签分歧**与“两种分析对g7的结论一样”的**定性风险结论一致**。新增[研究正文](deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_SOURCE_FIGURE_AND_STRUCTURAL_VS_DECISION_AGREEMENT.md)、机器审计、7项回归和CI，区分跨档案视觉核查与仓库规范PDF像素核查；`d1=g2,d2=g4`的原图精确OHLC、子分钟结构、完整跨版本重跑仍OPEN。F01—F08/OB38/OB99未证；`NOT_RUN`。
