@@ -4,9 +4,11 @@
 
 ## 先从哪里读？
 
+**更新：已核对第54课真实K线配图与g7两种不同性质的“相同”。** [外部编纂PDF实图目视、结构分解多义性、作者定性风险结论一致及未证的成交相同性](deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_SOURCE_FIGURE_AND_STRUCTURAL_VS_DECISION_AGREEMENT.md)；原图带航天机电1分钟K线、成交量和MACD。附机器可核证据及专项CI，**不等于取得原始分钟行情或者完成第72/84课实算**。
+
 **最新专题：真正同一张图验证“级别”和“走势类型”的多义性。** [第54课作者同图双分解：甲乙5分钟中枢形成位置与g7三卖判断为何不同](deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_SAME_CHART_TWO_PARSINGS_AND_CROSS_ERA_LEVELS.md)。同时对照第15、17、35、72、84课，逐项给出SOURCE、RETROSPECTIVE或OPEN的边界；无市场回测。
 
-**优先读整本书（v4.26）**：[108课发表顺序与理论依赖双地图、七环核心主线和八步条件演练](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_READER_CONCEPTUAL_CLOSURE.md)。可以连续理解全书，但F01—F08、OB38/99仍OPEN且未进行市场实证。
+**优先读整本书（v4.27）**：[108课发表顺序与理论依赖双地图、七环核心主线和八步条件演练](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_READER_CONCEPTUAL_CLOSURE.md)。可以连续理解全书，但F01—F08、OB38/99仍OPEN且未进行市场实证。
 
 
 **最新研究：从有限合成特征实际生成候选**：[第67/71课G01候选与G05所有允许切分枚举](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_LOCAL_CANDIDATE_GENERATORS.md)。
