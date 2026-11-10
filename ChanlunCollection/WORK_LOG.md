@@ -2,6 +2,12 @@
 
 > **必须随每一次后续研究步骤一并更新；不能只交成果、不修工作流。** 记录问题、来源、研究实际增量、通用流程改动、集合同步和验收状态。GitHub PR应拒绝未同步工作流和镜像的改动。
 
+## 2026-11-10｜四组核心方法论跨课与版本对照（v4.17.0）
+
+- 新增四组中枢/力度、盘整/趋势背驰、第三类点、多级别资金纪律的跨课对照，机器数据`catalog/chanlun_four_core_contrasts_v1.json`及专题正文`FOUR_CORE_CROSS_VERSION_METHOD_CONTRAST.md`。
+- 复用36次SOURCE编号，明确早期措辞、后期课程、编者注与原作者发言不能混同；增加专项验收脚本、CI及负例测试。
+- 通用与单书工作流v4.17.0，F01/OB38/OB99仍OPEN；只分析文字，不识图不回测。
+
 ## 2026-11-10｜14条跨规律解释桥接（v4.16.0）
 
 - 新增`AUTHOR_LAWS_ARGUMENT_MAINLINE_V1.md`与`catalog/chanlun_author_law_argument_bridges_v1.json`，将12张规律卡编成14条有来源、有功能、有非蕴含限制的解释关系，共35次原SOURCE锚点引用。

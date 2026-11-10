@@ -19,7 +19,9 @@
 | **OB99-EXIST/LOCATION** | **BLOCKED**：全部合法未来路径有限时间高层中枢与首次位置待证 | 同上 |
 | **F08 三类点到实际收益** | **NOT_RUN**：真实行情、成交、交易成本/样本外检验均未运行 | `experiments/`（仅研究计划和合成例） |
 
-**当前v4.16.0规律主线论证桥接**：新增 [14条有SOURCE证据和非蕴含限制的跨卡解释桥接](deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAWS_ARGUMENT_MAINLINE_V1.md) 与 `catalog/chanlun_author_law_argument_bridges_v1.json`，连接12卡与35次现有原文主张引用；为AI研究关系而非作者定理。图像和行情NOT_RUN。
+**当前v4.17.0四组跨课版本对照**：新增[中枢演化、背驰、第三类点、多级别资金四组专题研究](deliverables/chanlun_108_acceptance/00_REVIEW/FOUR_CORE_CROSS_VERSION_METHOD_CONTRAST.md)，对照36次已有SOURCE论断，并标识编者后注与作者原课的角色区别；仅文字研究，未重读所有原PDF，NOT_RUN。
+
+**此前v4.16.0规律主线论证桥接**：新增 [14条有SOURCE证据和非蕴含限制的跨卡解释桥接](deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAWS_ARGUMENT_MAINLINE_V1.md) 与 `catalog/chanlun_author_law_argument_bridges_v1.json`，连接12卡与35次现有原文主张引用；为AI研究关系而非作者定理。图像和行情NOT_RUN。
 
 **此前v4.15.0全卡论证链深化**：全部12张核心规律卡均已登记作者SOURCE论断编号和PDF物理页，并为每卡补充研究者重建的作者论证线索、条件性阅读步骤和误用示例。校验器拒绝空来源及无论证链。未重新独立核读所有原PDF，不等于实证验证。
 
