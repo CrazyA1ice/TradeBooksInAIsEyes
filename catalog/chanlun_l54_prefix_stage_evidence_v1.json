@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "study_id": "CHANLUN-L54-AUTHOR-STAGE-CAUSAL-WITNESS-V428",
+  "source_reuse": "catalog/chanlun_l54_cross_archive_figure_and_decision_v1.json",
+  "source_author": "https://eczsc.com/originals/54",
+  "source_print_pdf": "https://xqdoc.imedao.com/15621999f6b25803feb29d4c.pdf#page=129",
+  "canonical_repository_pdf": "ChineseBooks/缠论/缠论_卷3.pdf",
+  "canonical_pdf_this_step_visual_verification": false,
+  "stage_order": [
+    "g0",
+    "g1",
+    "d2",
+    "d3",
+    "g3",
+    "d4",
+    "g5",
+    "g6",
+    "g7",
+    "AFTER_G7"
+  ],
+  "stage_order_is_author_narrative_not_raw_tick_timestamps": true,
+  "parsing_policies": [
+    "ALPHA",
+    "BETA"
+  ],
+  "source_claim_ids": [
+    "CL54-SOURCE-1",
+    "CL54-SOURCE-2",
+    "CL54-SOURCE-3",
+    "CL54-SOURCE-4"
+  ],
+  "events": [
+    {
+      "id": "L54-E01",
+      "stage": "g0",
+      "policy": "BOTH",
+      "kind": "AUTHOR_PROSE",
+      "predicate": "AUTHOR_START_PRICE",
+      "value": "18.50",
+      "text_locator": "这图有个条件……就从18.5元（设为g0）开始分析"
+    },
+    {
+      "id": "L54-E02",
+      "stage": "g1",
+      "policy": "BOTH",
+      "kind": "AUTHOR_PROSE",
+      "predicate": "NO_CENTER_YET",
+      "value": true,
+      "text_locator": "当下走到g1……由于只有两段，所以不形成任何中枢"
+    },
+    {
+      "id": "L54-E03",
+      "stage": "d2",
+      "policy": "BOTH",
+      "kind": "AUTHOR_PROSE",
+      "predicate": "ONE_MINUTE_CENTER_FORMED",
+      "value": "[d1,g1]",
+      "text_locator": "走势发展到d2……一个1分钟级别的中枢就形成"
+    },
+    {
+      "id": "L54-E04",
+      "stage": "d3",
+      "policy": "BOTH",
+      "kind": "AUTHOR_PROSE",
+      "predicate": "REGROUPING_CAN_BE_CONSIDERED",
+      "value": true,
+      "text_locator": "行情发展到d3……结合律对走势进行多样性分析"
+    },
+    {
+      "id": "L54-E05",
+      "stage": "g3",
+      "policy": "BOTH",
+      "kind": "AUTHOR_PROSE",
+      "predicate": "G3_THIRD_SELL",
+      "value": true,
+      "text_locator": "到d3g3这段……所以g3就是第三类卖点"
+    },
+    {
+      "id": "L54-E06",
+      "stage": "d4",
+      "policy": "BOTH",
+      "kind": "AUTHOR_PROSE",
+      "predicate": "TWO_LICENSED_PARSINGS_DISCUSSABLE",
+      "value": true,
+      "text_locator": "当行情当下走到d4点……两种可能的分解"
+    },
+    {
+      "id": "L54-E07",
+      "stage": "g5",
+      "policy": "ALPHA",
+      "kind": "AUTHOR_PROSE",
+      "predicate": "FIVE_MIN_CENTER_FIRST_FORMED",
+      "value": {
+        "interval": "[d2,g5]",
+        "at": "g5"
+      },
+      "text_locator": "第一种分解……d5g5……一个更大级别的中枢……[d2,g5]"
+    },
+    {
+      "id": "L54-E08",
+      "stage": "g6",
+      "policy": "BETA",
+      "kind": "AUTHOR_PROSE",
+      "predicate": "FIVE_MIN_CENTER_FIRST_FORMED",
+      "value": {
+        "interval": "[d3,g5]",
+        "at": "g6"
+      },
+      "text_locator": "按照第二种分解……要到g6点才完成……[d3,g5]"
+    },
+    {
+      "id": "L54-E09",
+      "stage": "g7",
+      "policy": "ALPHA",
+      "kind": "AUTHOR_PROSE",
+      "predicate": "G7_STRUCTURAL_CLASS",
+      "value": "THIRD_SELL",
+      "text_locator": "这样一来……例如g7就是一个第三类卖点"
+    },
+    {
+      "id": "L54-E10",
+      "stage": "g7",
+      "policy": "BETA",
+      "kind": "AUTHOR_PROSE",
+      "predicate": "G7_STRUCTURAL_CLASS",
+      "value": "CENTER_OSCILLATION_NOT_THIRD_SELL",
+      "text_locator": "在这种情况下……d7g7也是一个中枢震荡，但不构成第三类卖点"
+    },
+    {
+      "id": "L54-E11",
+      "stage": "g7",
+      "policy": "BOTH",
+      "kind": "AUTHOR_PROSE",
+      "predicate": "AUTHOR_QUALITATIVE_CONCLUSION",
+      "value": "AUTHOR_ASSERTS_SAME_BEARISH_RISK",
+      "text_locator": "这两种分解对于g7点来说，结论是一样的……MACD辅助"
+    },
+    {
+      "id": "L54-E12",
+      "stage": "AFTER_G7",
+      "policy": "BOTH",
+      "kind": "VISUAL_SECONDARY_ARCHIVE",
+      "predicate": "CHART_RIGHTMOST_PRICE_LABEL",
+      "value": "18.03",
+      "text_locator": "印刷PDF p125 图像右端；位于图中g7之后"
+    },
+    {
+      "id": "L54-E13",
+      "stage": "AFTER_G7",
+      "policy": "BOTH",
+      "kind": "VISUAL_SECONDARY_ARCHIVE",
+      "predicate": "FUTURE_DECLINE_AFTER_G7_VISIBLE",
+      "value": true,
+      "text_locator": "印刷PDF p125图示g7右边至18.03的额外K线"
+    }
+  ],
+  "source_notation_anomalies": [
+    {
+      "id": "L54-N01",
+      "source_locator": "第54课 d3时讨论的结合律等式；整理本PDF印刷p126",
+      "printed_left": "g0g3",
+      "printed_last_right_component": "g2d3",
+      "left_endpoint": "g3",
+      "right_endpoint": "d3",
+      "status": "APPARENT_ENDPOINT_MISMATCH_UNRESOLVED_CANONICAL_FIGURE_NOT_VERIFIED",
+      "allowed_correction_claim": null,
+      "meaning": "作者在说发展到d3时使用的等式，左侧末点写g3，右侧分段实际止于d3；两种存档形态可回查。不得擅自改写原文，也不得因此直接宣告理论矛盾。"
+    }
+  ],
+  "immutable_constraints": {
+    "no_event_visible_before_own_stage": true,
+    "never_treat_author_stage_as_verified_market_asof": true,
+    "no_lookahead_at_g7_from_after_g7": true,
+    "no_beta_five_minute_center_by_g5": true,
+    "no_unique_structural_label_at_g7_without_policy": true,
+    "no_orders_or_positions_inferred_from_author_qualitative_agreement": true,
+    "no_proof_of_same_frozen_parser_uniqueness": true,
+    "no_raw_ohlc_or_subminute_data_available": true
+  },
+  "visual_review_status": "SECONDARY_ARCHIVE_REVIEWED_WITH_SCREENSHOT",
+  "archival_notation_verification": "SECONDARY_PRINTED_ARCHIVE_AND_ONLINE_TEXT_MATCH_BUT_CANONICAL_PDF_NOT_RECHECKED",
+  "market_asof_certification": "NOT_ESTABLISHED",
+  "empirical_trading_tests": "NOT_RUN",
+  "proof_f01_ob38_ob99": "OPEN"
+}
