@@ -3356,8 +3356,8 @@
     {
       "source_path": "tests/test_chanlun_author_law_cards.py",
       "mirror_path": "ChanlunCollection/tests/test_chanlun_author_law_cards.py",
-      "git_blob_sha": "e9072c71e0dfbb2e1387987765651f77185efd31",
-      "size_bytes": 4648
+      "git_blob_sha": "a990e8ed4f9b6a3316562ea2f99cb37e2a5b528e",
+      "size_bytes": 4872
     },
     {
       "source_path": "tests/test_chanlun_bridge_text_audit.py",

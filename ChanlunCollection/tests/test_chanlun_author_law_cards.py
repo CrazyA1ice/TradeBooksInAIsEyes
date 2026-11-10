@@ -64,6 +64,10 @@ class LawCardsTests(unittest.TestCase):
             f = root / CATALOG
             f.parent.mkdir(parents=True, exist_ok=True)
             original = json.loads(json.dumps(cards, ensure_ascii=False))
+            for path in cards["cards"][0]["source_cards"]:
+                target = root / path
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_bytes((ROOT / path).read_bytes())
             cards["cards"][0]["source_assertions"] = []
             f.write_text(json.dumps(cards, ensure_ascii=False), encoding="utf-8")
             with self.assertRaisesRegex(AssertionError, "source assertions required"):
