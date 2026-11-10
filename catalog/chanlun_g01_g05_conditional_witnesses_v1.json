@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "book": "chanlun",
+  "scope": "FINITE_SYNTHETIC_CONDITIONAL_WITNESSES_NOT_FULL_AUTHOR_RULE",
+  "role": "AI_TESTS_LOGICAL_NON_ENTAILMENT_NOT_AUTHOR_MARKET_VALIDATION",
+  "linked_gates": [
+    "G01",
+    "G05"
+  ],
+  "source_evidence": {
+    "G01": [
+      {
+        "lesson": 35,
+        "claim_id": "CL35-SO-2",
+        "pages": [
+          291
+        ]
+      },
+      {
+        "lesson": 17,
+        "claim_id": "CL017-S02",
+        "pages": [
+          197
+        ]
+      },
+      {
+        "lesson": 18,
+        "claim_id": "CL018-S07",
+        "pages": [
+          235
+        ]
+      },
+      {
+        "lesson": 67,
+        "claim_id": "CL67-SOURCE-3",
+        "pages": [
+          388,
+          389
+        ]
+      },
+      {
+        "lesson": 71,
+        "claim_id": "CL71-SOURCE-2",
+        "pages": [
+          71
+        ]
+      },
+      {
+        "lesson": 78,
+        "claim_id": "CL78-SOURCE-1",
+        "pages": [
+          174
+        ]
+      },
+      {
+        "lesson": 78,
+        "claim_id": "CL78-SOURCE-2",
+        "pages": [
+          175
+        ]
+      }
+    ],
+    "G05": [
+      {
+        "lesson": 35,
+        "claim_id": "CL35-SO-4",
+        "pages": [
+          292
+        ]
+      },
+      {
+        "lesson": 38,
+        "claim_id": "CL38-SOURCE-1",
+        "pages": [
+          338
+        ]
+      },
+      {
+        "lesson": 38,
+        "claim_id": "CL38-SOURCE-2",
+        "pages": [
+          338,
+          339
+        ]
+      },
+      {
+        "lesson": 33,
+        "claim_id": "CL33-SO-1",
+        "pages": [
+          256
+        ]
+      },
+      {
+        "lesson": 102,
+        "claim_id": "CL102-SOURCE-1",
+        "pages": [
+          241
+        ]
+      }
+    ]
+  },
+  "cases": [
+    {
+      "id": "G01-W01",
+      "gate": "G01",
+      "scenario": "最低层基例已经被外部假设成立，但尚未产生完整次级走势。",
+      "assumptions": {
+        "base_center": true,
+        "children": [],
+        "as_of": 3,
+        "member_completion_author_verified": false
+      },
+      "expected": "BASE_ONLY_NOT_PARENT_CENTER",
+      "reason": "最低层中心存在不自动包含三段完整次级走势。"
+    },
+    {
+      "id": "G01-W02",
+      "gate": "G01",
+      "scenario": "三个区间有数值交集，后两段仅观察到而未认证完成。",
+      "assumptions": {
+        "base_center": true,
+        "children": [
+          {
+            "low": 1,
+            "high": 8,
+            "complete": true,
+            "confirmed_at": 2
+          },
+          {
+            "low": 2,
+            "high": 7,
+            "complete": false,
+            "confirmed_at": null
+          },
+          {
+            "low": 3,
+            "high": 6,
+            "complete": false,
+            "confirmed_at": null
+          }
+        ],
+        "as_of": 5,
+        "member_completion_author_verified": false
+      },
+      "expected": "OVERLAP_WITH_UNCERTIFIED_CHILDREN",
+      "reason": "区间交集无法倒推出作者规则下的完整子走势。"
+    },
+    {
+      "id": "G01-W03",
+      "gate": "G01",
+      "scenario": "三段连续并在当前时点完成，且非空重叠；仅得到条件性父中枢资格。",
+      "assumptions": {
+        "base_center": true,
+        "children": [
+          {
+            "low": 1,
+            "high": 5,
+            "complete": true,
+            "confirmed_at": 3
+          },
+          {
+            "low": 2,
+            "high": 6,
+            "complete": true,
+            "confirmed_at": 5
+          },
+          {
+            "low": 3,
+            "high": 7,
+            "complete": true,
+            "confirmed_at": 7
+          }
+        ],
+        "as_of": 7,
+        "member_completion_author_verified": false
+      },
+      "expected": "CONDITIONAL_PARENT_OVERLAP_NOT_AUTHOR_CERTIFIED",
+      "reason": "合法完成身份在此样例中只是外部声明，程序不为其生成原作者证书。"
+    },
+    {
+      "id": "G01-W04",
+      "gate": "G01",
+      "scenario": "三段完整但共同交集为空，结构条件不满足。",
+      "assumptions": {
+        "base_center": true,
+        "children": [
+          {
+            "low": 1,
+            "high": 2,
+            "complete": true,
+            "confirmed_at": 2
+          },
+          {
+            "low": 4,
+            "high": 5,
+            "complete": true,
+            "confirmed_at": 4
+          },
+          {
+            "low": 7,
+            "high": 8,
+            "complete": true,
+            "confirmed_at": 6
+          }
+        ],
+        "as_of": 6,
+        "member_completion_author_verified": false
+      },
+      "expected": "NO_COMMON_OVERLAP",
+      "reason": "有三个成员不够，重叠条件本身必须成立。"
+    },
+    {
+      "id": "G01-W05",
+      "gate": "G01",
+      "scenario": "第三段尚未到首次确认时点，不能以事后完成身份提前标注。",
+      "assumptions": {
+        "base_center": true,
+        "children": [
+          {
+            "low": 1,
+            "high": 5,
+            "complete": true,
+            "confirmed_at": 3
+          },
+          {
+            "low": 2,
+            "high": 6,
+            "complete": true,
+            "confirmed_at": 5
+          },
+          {
+            "low": 3,
+            "high": 7,
+            "complete": true,
+            "confirmed_at": 9
+          }
+        ],
+        "as_of": 7,
+        "member_completion_author_verified": false
+      },
+      "expected": "ASOF_CHILD_PENDING",
+      "reason": "事件最终确定和当前可知是不同的时钟。"
+    },
+    {
+      "id": "G05-W01",
+      "gate": "G05",
+      "scenario": "固定相同规则并假设有两种互不等价的合格切法，仅用结合律不足以裁决。",
+      "assumptions": {
+        "rule_id": "R_A",
+        "candidate_parses": [
+          {
+            "rule_id": "R_A",
+            "cutpoints": [
+              2,
+              4
+            ],
+            "assumed_legal": true
+          },
+          {
+            "rule_id": "R_A",
+            "cutpoints": [
+              1,
+              4
+            ],
+            "assumed_legal": true
+          }
+        ],
+        "associativity_asserted": true,
+        "complete_input_assumed": true
+      },
+      "expected": "CONDITIONAL_NONUNIQUENESS_IF_BOTH_LEGAL",
+      "reason": "同规则下两种不等价合法分解是条件性反模型；但其作者规则合法性未获认证。"
+    },
+    {
+      "id": "G05-W02",
+      "gate": "G05",
+      "scenario": "两种分法分别由不同规则产生，不能当作固定规则唯一性反例。",
+      "assumptions": {
+        "rule_id": "R_A",
+        "candidate_parses": [
+          {
+            "rule_id": "R_A",
+            "cutpoints": [
+              2,
+              4
+            ],
+            "assumed_legal": true
+          },
+          {
+            "rule_id": "R_B",
+            "cutpoints": [
+              1,
+              4
+            ],
+            "assumed_legal": true
+          }
+        ],
+        "associativity_asserted": true,
+        "complete_input_assumed": true
+      },
+      "expected": "CROSS_RULE_COMPARISON_NOT_COUNTEREXAMPLE",
+      "reason": "第33课多义性与第38课同规则唯一性讨论的规则域不一致。"
+    },
+    {
+      "id": "G05-W03",
+      "gate": "G05",
+      "scenario": "只得到一份候选切法，不证明所有输入都唯一。",
+      "assumptions": {
+        "rule_id": "R_A",
+        "candidate_parses": [
+          {
+            "rule_id": "R_A",
+            "cutpoints": [
+              2,
+              4
+            ],
+            "assumed_legal": true
+          }
+        ],
+        "associativity_asserted": true,
+        "complete_input_assumed": true
+      },
+      "expected": "ONE_ASSUMED_PARSE_NOT_UNIVERSAL_PROOF",
+      "reason": "单样本唯一候选不等于全域存在性或唯一性。"
+    },
+    {
+      "id": "G05-W04",
+      "gate": "G05",
+      "scenario": "没有合格切法声明，存在性义务仍未满足。",
+      "assumptions": {
+        "rule_id": "R_A",
+        "candidate_parses": [],
+        "associativity_asserted": true,
+        "complete_input_assumed": true
+      },
+      "expected": "EXISTENCE_NOT_SHOWN",
+      "reason": "结合律不自动构造任何一个满足冻结规则的规范分解。"
+    },
+    {
+      "id": "G05-W05",
+      "gate": "G05",
+      "scenario": "两个括号表达式使用相同分界点，不构成不同切法的证据。",
+      "assumptions": {
+        "rule_id": "R_A",
+        "candidate_parses": [
+          {
+            "rule_id": "R_A",
+            "cutpoints": [
+              2,
+              4
+            ],
+            "assumed_legal": true
+          },
+          {
+            "rule_id": "R_A",
+            "cutpoints": [
+              2,
+              4
+            ],
+            "assumed_legal": true
+          }
+        ],
+        "associativity_asserted": true,
+        "complete_input_assumed": true
+      },
+      "expected": "SAME_CUTPOINTS_NO_COUNTEREXAMPLE",
+      "reason": "相同分界点的重括号不能冒充互异分解。"
+    }
+  ],
+  "proof_status": "OPEN",
+  "market_backtest": "NOT_RUN",
+  "image_review": "NOT_RUN"
+}

@@ -19,7 +19,9 @@
 | **OB99-EXIST/LOCATION** | **BLOCKED**：全部合法未来路径有限时间高层中枢与首次位置待证 | 同上 |
 | **F08 三类点到实际收益** | **NOT_RUN**：真实行情、成交、交易成本/样本外检验均未运行 | `experiments/`（仅研究计划和合成例） |
 
-**当前v4.20.0递归构造与唯一性论证链**：新增[最低基例、中枢递归与固定分解唯一性的九步论证及六个OPEN接口](deliverables/chanlun_108_acceptance/00_REVIEW/RECURSIVE_CONSTRUCTION_TO_UNIQUENESS_PROOF_CHAIN.md)，共21次已有SOURCE锚点；F01/OB38未证，不识图不回测。
+**当前v4.21.0双接口有限条件见证**：新增[G01/G05十个合成条件样例与研究解释](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_CONDITIONAL_WITNESS_STUDY.md)，精确区分来源构件身份/当时确认、相同规则竞争切分/跨规则比较，程序性验收不代表作者全规则证明或反证。F01/OB38继续OPEN，NOT_RUN。
+
+**此前v4.20.0递归构造与唯一性论证链**：新增[最低基例、中枢递归与固定分解唯一性的九步论证及六个OPEN接口](deliverables/chanlun_108_acceptance/00_REVIEW/RECURSIVE_CONSTRUCTION_TO_UNIQUENESS_PROOF_CHAIN.md)，共21次已有SOURCE锚点；F01/OB38未证，不识图不回测。
 
 **此前v4.19.0强命题量词和证明责任**：新增[第17、21、38、99课四项强命题的定义域、量词和六项非蕴含审查](deliverables/chanlun_108_acceptance/00_REVIEW/STRONG_THESES_QUANTIFIERS_AND_PROOF_GAPS.md)，机器数据`catalog/chanlun_strong_theses_proof_map_v1.json`。强断言≠已证，F01/OB38/OB99继续OPEN，NOT_RUN。
 
