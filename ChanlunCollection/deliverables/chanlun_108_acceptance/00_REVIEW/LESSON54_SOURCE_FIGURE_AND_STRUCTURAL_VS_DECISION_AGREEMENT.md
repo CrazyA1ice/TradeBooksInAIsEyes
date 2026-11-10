@@ -2,6 +2,8 @@
 
 > **研究节点 v4.27.0（2026-11-10）**：继[同图双分解的跨时代对照](LESSON54_SAME_CHART_TWO_PARSINGS_AND_CROSS_ERA_LEVELS.md)之后，本轮实际查看**另一份编纂存档PDF的第54课原图所在页**，并将其与作者正文、现有仓库证据卡交叉比对。**已完成：外部存档的可视原图首轮目视核查及“g7结构标签差异／作者所说最终结论一致”并列核对。未完成：GitHub仓库原PDF逐像素核对、逐根行情数据采集、后期笔/段规则全量重跑、收益检验。**证据等级和页码在[机器可读登记](../../../catalog/chanlun_l54_cross_archive_figure_and_decision_v1.json)中公开。原作者形式证明F01/OB38/OB99继续OPEN；真实市场实验`NOT_RUN`。
 
+**v4.28增量**：[逐节点前缀回放与原文端点疑点复核](LESSON54_AUTHOR_PREFIX_REPLAY_AND_END_POINT_AUDIT.md)已将外部存档图g7右侧可见的18.03严格标为`AFTER_G7`；并为两种作者政策分别检查g5与g6阶段，拒绝把作者叙述阶段当成真实市场首次可知时间。对`g0g3`左端与`g2d3`末端的字面不一致只记录`APPARENT_ENDPOINT_MISMATCH`，不擅自修正文稿。
+
 ## 一、这次终于看到了怎样的原图？
 
 外部PDF存档：[《教你炒股票》老糊涂整理本](https://xqdoc.imedao.com/15621999f6b25803feb29d4c.pdf#page=129)，**其印刷页码125，PDF页索引128（从零开始）**。这与仓库规范版[卷三PDF](../../../ChineseBooks/缠论/缠论_卷3.pdf)的**物理第170—175页**属于**不同编纂来源的页码体系**；不能把二者页码/文件SHA当作相同。外部档案的[文字正文](https://eczsc.com/originals/54)亦可逐段复核。本轮**没有直接渲染仓库原PDF**，因此不宣称两份图片逐像素一致。
