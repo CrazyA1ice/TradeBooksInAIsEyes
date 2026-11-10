@@ -27,7 +27,7 @@ def fixture():
 class BridgeAuditTests(unittest.TestCase):
     def test_repo(self):
         report = audit(ROOT)
-        self.assertEqual(report["bridges"], 13)
+        self.assertEqual(report["bridges"], 14)
         self.assertEqual(report["reachable_cards"], 12)
 
     def test_reject_unsupported_implication_label(self):
