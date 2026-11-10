@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "book": "chanlun",
+  "source_scope": "EXISTING_TEXT_EVIDENCE_CARDS_ONLY",
+  "classification_rule": "DEFINITION_IS_NOT_MARKET_SUFFICIENCY; NECESSARY_ONLY_IS_NOT_SUFFICIENT; HEURISTIC_IS_NOT_PROVEN; OPERATING_GUIDANCE_IS_NOT_PROFIT_GUARANTEE",
+  "editorial_exceptions": [
+    {
+      "lesson": 27,
+      "claim_id": "CL027-S04",
+      "role": "EDITORIAL_NOTICE_IN_SOURCE_SUMMARY",
+      "warning": "Source card labels this as SOURCE but description concerns later editorial correction; never attribute the correction to the contemporaneous author."
+    }
+  ],
+  "classes": [
+    {
+      "id": "CL-MODAL-01",
+      "title": "中枢构成的三段次级走势重叠",
+      "modality": "DEFINITION",
+      "interpretation_role": "AI_CLASSIFICATION_OF_EXISTING_SOURCE_CLAIMS_NOT_AUTHOR_FORMAL_PROOF",
+      "claim": "在作者选择的级别/最低级别规则下，连续合格次级走势的共同重叠是中枢定义的一部分。",
+      "preconditions": "必要输入是连续、合法且完成的次级走势；该定义层的条件不能省略。",
+      "not_sufficient": "不能从三段任意价格区间交集逆推合法走势完成，也不能推导交易收益。",
+      "source_claims": [
+        {
+          "lesson": 17,
+          "id": "CL017-S02"
+        },
+        {
+          "lesson": 18,
+          "id": "CL018-S01"
+        }
+      ],
+      "law_card": "CL-LAW-003",
+      "empirical_status": "NOT_RUN"
+    },
+    {
+      "id": "CL-MODAL-02",
+      "title": "最低完成门槛并非实时终点",
+      "modality": "NECESSARY_ONLY",
+      "interpretation_role": "AI_CLASSIFICATION_OF_EXISTING_SOURCE_CLAIMS_NOT_AUTHOR_FORMAL_PROOF",
+      "claim": "三段重叠对可形成盘整结构提供条件，但盘整可以继续延伸。",
+      "preconditions": "已有基本构造条件与当下完成状态须独立判断。",
+      "not_sufficient": "满足最低门槛不充分推出此刻走势必定终结。",
+      "source_claims": [
+        {
+          "lesson": 18,
+          "id": "CL018-S07"
+        }
+      ],
+      "law_card": "CL-LAW-003",
+      "empirical_status": "NOT_RUN"
+    },
+    {
+      "id": "CL-MODAL-03",
+      "title": "趋势同级中枢结构的级别限制",
+      "modality": "DEFINITION",
+      "interpretation_role": "AI_CLASSIFICATION_OF_EXISTING_SOURCE_CLAIMS_NOT_AUTHOR_FORMAL_PROOF",
+      "claim": "作者以相应中枢数目、同级关系区分盘整与趋势，并对相邻中枢连接提出级别限制。",
+      "preconditions": "先冻结定义版本、同级合法中枢，再讨论趋势。",
+      "not_sufficient": "单看中枢数量、忽略构件级别和连接合法性不能称完整证明。",
+      "source_claims": [
+        {
+          "lesson": 17,
+          "id": "CL017-S03"
+        },
+        {
+          "lesson": 18,
+          "id": "CL018-S02"
+        }
+      ],
+      "law_card": "CL-LAW-002",
+      "empirical_status": "NOT_RUN"
+    },
+    {
+      "id": "CL-MODAL-04",
+      "title": "中枢延伸/新生/扩展的分类",
+      "modality": "CONDITIONAL_CLASSIFICATION",
+      "interpretation_role": "AI_CLASSIFICATION_OF_EXISTING_SOURCE_CLAIMS_NOT_AUTHOR_FORMAL_PROOF",
+      "claim": "既有中枢是后续结构演化分类的参照对象，判别依作者的价格区间和合格构件关系。",
+      "preconditions": "先验证旧中枢，按相应区间公式及次级合法身份审后继结构。",
+      "not_sufficient": "触边不直接充分证明扩展或高级别结构完成。",
+      "source_claims": [
+        {
+          "lesson": 20,
+          "id": "CL020-S01"
+        },
+        {
+          "lesson": 20,
+          "id": "CL020-S08"
+        }
+      ],
+      "law_card": "CL-LAW-004",
+      "empirical_status": "NOT_RUN"
+    },
+    {
+      "id": "CL-MODAL-05",
+      "title": "背驰比较的结构前提",
+      "modality": "NECESSARY_ONLY",
+      "interpretation_role": "AI_CLASSIFICATION_OF_EXISTING_SOURCE_CLAIMS_NOT_AUTHOR_FORMAL_PROOF",
+      "claim": "背驰力度的有效解释依走势背景和可比段；趋势背景对同级中枢有要求。",
+      "preconditions": "比较对象级别、方向、结构应先核实；MACD不能代替结构。",
+      "not_sufficient": "可比段与力度衰减本身不保证完整背驰身份，更不保证转折。",
+      "source_claims": [
+        {
+          "lesson": 24,
+          "id": "CL024-S01"
+        },
+        {
+          "lesson": 37,
+          "id": "CL37-SOURCE-2"
+        },
+        {
+          "lesson": 50,
+          "id": "CL50-SOURCE-1"
+        }
+      ],
+      "law_card": "CL-LAW-005",
+      "empirical_status": "NOT_RUN"
+    },
+    {
+      "id": "CL-MODAL-06",
+      "title": "未完成C段MACD面积估计",
+      "modality": "HEURISTIC",
+      "interpretation_role": "AI_CLASSIFICATION_OF_EXISTING_SOURCE_CLAIMS_NOT_AUTHOR_FORMAL_PROOF",
+      "claim": "作者用已形成的部分C段柱面积乘二估算后续力度，属于经验性辅助。",
+      "preconditions": "须标记估计时点、未完成状态与参数敏感性。",
+      "not_sufficient": "估算不能当成实值，也不是已证明的充分买卖条件。",
+      "source_claims": [
+        {
+          "lesson": 24,
+          "id": "CL024-S03"
+        },
+        {
+          "lesson": 25,
+          "id": "CL025-S02"
+        }
+      ],
+      "law_card": "CL-LAW-005",
+      "empirical_status": "NOT_RUN"
+    },
+    {
+      "id": "CL-MODAL-07",
+      "title": "盘整背驰与趋势背驰分别识别",
+      "modality": "CONDITIONAL_CLASSIFICATION",
+      "interpretation_role": "AI_CLASSIFICATION_OF_EXISTING_SOURCE_CLAIMS_NOT_AUTHOR_FORMAL_PROOF",
+      "claim": "作者区分两种背驰的背景与级别意义，且第27课收录编纂修正提醒。",
+      "preconditions": "先分类盘整/趋势，再选同级可比段并注明编辑角色。",
+      "not_sufficient": "二者不能无证等同；背驰后未来路径不能被限定为唯一结果。",
+      "source_claims": [
+        {
+          "lesson": 24,
+          "id": "CL024-S04"
+        },
+        {
+          "lesson": 27,
+          "id": "CL027-S01"
+        },
+        {
+          "lesson": 27,
+          "id": "CL027-S04"
+        }
+      ],
+      "law_card": "CL-LAW-006",
+      "empirical_status": "NOT_RUN"
+    },
+    {
+      "id": "CL-MODAL-08",
+      "title": "背驰后的多种结构演化",
+      "modality": "CONDITIONAL_BRANCH",
+      "interpretation_role": "AI_CLASSIFICATION_OF_EXISTING_SOURCE_CLAIMS_NOT_AUTHOR_FORMAL_PROOF",
+      "claim": "作者讨论背驰后不止一种级别与结构演化结果，并表示精确证明未展开。",
+      "preconditions": "将分支列为可观察的后继条件，而非事先保证的路径。",
+      "not_sufficient": "某背驰发生不能充分推出固定幅度反弹或某特定买点。",
+      "source_claims": [
+        {
+          "lesson": 29,
+          "id": "CL029-S01"
+        },
+        {
+          "lesson": 29,
+          "id": "CL029-S03"
+        },
+        {
+          "lesson": 32,
+          "id": "CL32-SO-2"
+        }
+      ],
+      "law_card": "CL-LAW-006",
+      "empirical_status": "NOT_RUN"
+    },
+    {
+      "id": "CL-MODAL-09",
+      "title": "第三类点的首次合格回试",
+      "modality": "DEFINITION",
+      "interpretation_role": "AI_CLASSIFICATION_OF_EXISTING_SOURCE_CLAIMS_NOT_AUTHOR_FORMAL_PROOF",
+      "claim": "第三类买卖点定义依赖离开原中枢与随后第一次合格次级别回试的边界关系。",
+      "preconditions": "应审级别、离开、回试首次性与次级完成以及ZG/ZD。",
+      "not_sufficient": "简单价格突破不充分推出第三买，回试未经完成不得事后倒填。",
+      "source_claims": [
+        {
+          "lesson": 20,
+          "id": "CL020-S03"
+        },
+        {
+          "lesson": 20,
+          "id": "CL020-S08"
+        }
+      ],
+      "law_card": "CL-LAW-007",
+      "empirical_status": "NOT_RUN"
+    },
+    {
+      "id": "CL-MODAL-10",
+      "title": "第三买后的高级别盘整可能",
+      "modality": "CONDITIONAL_BRANCH",
+      "interpretation_role": "AI_CLASSIFICATION_OF_EXISTING_SOURCE_CLAIMS_NOT_AUTHOR_FORMAL_PROOF",
+      "claim": "作者承认第三类买点后可能转入更高级别盘整，同时存在其强利润性陈述。",
+      "preconditions": "保留后续不同结构分支，并把安全/利润强断言独立登记。",
+      "not_sufficient": "第三买不充分推出直线上涨或现实无成本可盈利。",
+      "source_claims": [
+        {
+          "lesson": 20,
+          "id": "CL020-S04"
+        }
+      ],
+      "law_card": "CL-LAW-007",
+      "empirical_status": "NOT_RUN"
+    },
+    {
+      "id": "CL-MODAL-11",
+      "title": "小背驰引发大转折的特定条件",
+      "modality": "NECESSARY_ONLY",
+      "interpretation_role": "AI_CLASSIFICATION_OF_EXISTING_SOURCE_CLAIMS_NOT_AUTHOR_FORMAL_PROOF",
+      "claim": "第44课对小背驰导致大转折给出某第三类点相关必要条件，并明确非充分条件。",
+      "preconditions": "必须区分必要条件的方向：大转折可能要求该条件，不是满足条件便必有大转折。",
+      "not_sufficient": "严禁将必要条件倒置成充分条件或自动做多依据。",
+      "source_claims": [
+        {
+          "lesson": 44,
+          "id": "CL44-SOURCE-1"
+        },
+        {
+          "lesson": 44,
+          "id": "CL44-SOURCE-2"
+        },
+        {
+          "lesson": 44,
+          "id": "CL44-SOURCE-3"
+        }
+      ],
+      "law_card": "CL-LAW-008",
+      "empirical_status": "NOT_RUN"
+    },
+    {
+      "id": "CL-MODAL-12",
+      "title": "三类买卖点绝对安全/完备",
+      "modality": "AUTHOR_STRONG_CLAIM_UNPROVEN",
+      "interpretation_role": "AI_CLASSIFICATION_OF_EXISTING_SOURCE_CLAIMS_NOT_AUTHOR_FORMAL_PROOF",
+      "claim": "第21课作者直接提出三类买卖点的完备与绝对安全主张。",
+      "preconditions": "必须展示为作者强断言并追踪适用定义、可知时钟和证明缺口。",
+      "not_sufficient": "现有文字卡并未形式化证明全域完备，也没有市场收益验证。",
+      "source_claims": [
+        {
+          "lesson": 21,
+          "id": "CL021-S01"
+        }
+      ],
+      "law_card": "CL-LAW-007",
+      "empirical_status": "NOT_RUN"
+    },
+    {
+      "id": "CL-MODAL-13",
+      "title": "固定同级分解唯一性",
+      "modality": "AUTHOR_STRONG_CLAIM_UNPROVEN",
+      "interpretation_role": "AI_CLASSIFICATION_OF_EXISTING_SOURCE_CLAIMS_NOT_AUTHOR_FORMAL_PROOF",
+      "claim": "第38课作者提出在固定同级规则下可获得唯一分解的主张。",
+      "preconditions": "需指定规则版本、输入域、级别、完成/当下时点和等价关系。",
+      "not_sufficient": "不能用作者声称代替存在唯一性完整证明；多义性应另审。",
+      "source_claims": [
+        {
+          "lesson": 38,
+          "id": "CL38-SOURCE-1"
+        },
+        {
+          "lesson": 38,
+          "id": "CL38-SOURCE-2"
+        }
+      ],
+      "law_card": "CL-LAW-011",
+      "empirical_status": "NOT_RUN"
+    },
+    {
+      "id": "CL-MODAL-14",
+      "title": "仓位与资金管理",
+      "modality": "OPERATING_GUIDANCE",
+      "interpretation_role": "AI_CLASSIFICATION_OF_EXISTING_SOURCE_CLAIMS_NOT_AUTHOR_FORMAL_PROOF",
+      "claim": "第31课讨论预定仓位、机动资金和回收本金；第44课对不同仓位规模提出操作安排。",
+      "preconditions": "在统一账户下评估仓位、资金期限、成本和损益风险。",
+      "not_sufficient": "账面零成本不代表剩余股票的市值风险为零。",
+      "source_claims": [
+        {
+          "lesson": 31,
+          "id": "CL31-SO-1"
+        },
+        {
+          "lesson": 31,
+          "id": "CL31-SO-2"
+        },
+        {
+          "lesson": 31,
+          "id": "CL31-SO-3"
+        },
+        {
+          "lesson": 44,
+          "id": "CL44-SOURCE-4"
+        }
+      ],
+      "law_card": "CL-LAW-010",
+      "empirical_status": "NOT_RUN"
+    },
+    {
+      "id": "CL-MODAL-15",
+      "title": "当下按条件分支而非固定预测",
+      "modality": "OPERATING_GUIDANCE",
+      "interpretation_role": "AI_CLASSIFICATION_OF_EXISTING_SOURCE_CLAIMS_NOT_AUTHOR_FORMAL_PROOF",
+      "claim": "第32课强调A出现不保证B；第98课要求随走势结构变化修正条件方案。",
+      "preconditions": "记录当前可知、待定、后继分支和退出条件。",
+      "not_sufficient": "任何一次结构分类不能替代未来确认或预言唯一结果。",
+      "source_claims": [
+        {
+          "lesson": 32,
+          "id": "CL32-SO-2"
+        },
+        {
+          "lesson": 98,
+          "id": "CL98-SOURCE-1"
+        },
+        {
+          "lesson": 98,
+          "id": "CL98-SOURCE-3"
+        }
+      ],
+      "law_card": "CL-LAW-009",
+      "empirical_status": "NOT_RUN"
+    },
+    {
+      "id": "CL-MODAL-16",
+      "title": "真实执行的制度约束",
+      "modality": "OPERATING_GUIDANCE",
+      "interpretation_role": "AI_CLASSIFICATION_OF_EXISTING_SOURCE_CLAIMS_NOT_AUTHOR_FORMAL_PROOF",
+      "claim": "第98课文字中提到A股T+1可能限制当日卖出，提醒结构与成交是两层。",
+      "preconditions": "需另外核实研究时点对应的交易制度与持仓可卖状态。",
+      "not_sufficient": "不能将书中历史制度描述直接冒充2026年制度核验或利润结果。",
+      "source_claims": [
+        {
+          "lesson": 98,
+          "id": "CL98-SOURCE-4"
+        }
+      ],
+      "law_card": "CL-LAW-010",
+      "empirical_status": "NOT_RUN"
+    }
+  ]
+}
