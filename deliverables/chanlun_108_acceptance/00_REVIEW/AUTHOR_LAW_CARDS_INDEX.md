@@ -25,6 +25,10 @@
 
 **全部12张卡均已新增SOURCE主张编号和PDF物理页锚点，并配套论证线索、方法和误用反例。** 每个锚点包含`claim_id`、`lesson`、`physical_pages`和`reading`，可用专项审计检查证据卡中的角色、ID与页码是否相符。本轮所有卡片还新增`argument_trace`，是AI组织的论证路径而非原作者逐字原文。这是已有原文证据的深化，不是全部原始PDF逐页复核，尤其不等于作者规律得到数学或市场实证。
 
+## 从卡片进入跨课论证
+
+建议阅读[14条带SOURCE证据的解释性论证桥接](AUTHOR_LAWS_ARGUMENT_MAINLINE_V1.md)，再用`catalog/chanlun_author_law_argument_bridges_v1.json`核查每条关系的原始主张编号、页码和不能推出的结论。
+
 ## 使用方式
 
 每张卡存放`thesis`（规律性理解）、`method`（方法）、`limit`（边界）、`source_lessons`和`source_cards`（证据入口）、`links_to`（上下游）。阅读时先核对来源证据，再沿关联卡阅读。**原作者观点、AI重建和已证明结论不能混同**。F01/OB38/OB99尚未解决；未做实际行情或图像分析。

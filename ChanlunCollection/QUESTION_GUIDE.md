@@ -2,6 +2,8 @@
 
 后续在对话中直接说“根据`ChanlunCollection/`回答《缠论》第XX课……”“比较第38课和第99课……”或“重新检验这项理论的作者原文、前后逻辑和反例”。**推荐从本书[README](README.md)进入**，不要要求用户自己逐一下载五卷原书或手工校验数百个文件。
 
+**询问规律之间的联系时**：先读[作者规律的贯通论证主线](deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAWS_ARGUMENT_MAINLINE_V1.md)及`catalog/chanlun_author_law_argument_bridges_v1.json`，核对关系性质、SOURCE证据与非蕴含限制，不将AI桥接误认为作者证明。
+
 **询问规律与方法论时**：优先查[规律卡索引](deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAW_CARDS_INDEX.md)及`catalog/chanlun_author_law_cards_v1.json`；沿`links_to`查询其他卡，随后回到来源证据卡核验。
 
 **回答优先顺序**：先查`deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md`定位课号/前后关系，再用`knowledge/evidence/chanlun_lessonNNN.json`核对来源卡、`analyses/books/chanlun/chapters/lesson_NNN.md`读详细研究，必要时定位`ChineseBooks/缠论/缠论_卷N.pdf#page=物理页`。争议、细价和证明命题应交叉查看`reports/source_inventory`及`catalog/`的规则版本。
