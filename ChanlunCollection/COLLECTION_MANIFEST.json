@@ -4520,8 +4520,8 @@
     {
       "source_path": "tools/audit_chanlun_recursive_proof_chain.py",
       "mirror_path": "ChanlunCollection/tools/audit_chanlun_recursive_proof_chain.py",
-      "git_blob_sha": "bb838f7af2095432b6165d0fd41962f28e8298f4",
-      "size_bytes": 2750
+      "git_blob_sha": "c6757a5cc62e15809e94f8e6499bc4be3a459a29",
+      "size_bytes": 2842
     },
     {
       "source_path": "tools/audit_chanlun_recursive_source_eligibility.py",
