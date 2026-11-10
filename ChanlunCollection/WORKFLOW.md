@@ -1,4 +1,4 @@
-# ChanlunCollection｜本书实施工作流 v4.19.0
+# ChanlunCollection｜本书实施工作流 v4.20.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
 
@@ -45,6 +45,8 @@
 **步骤2.22（v4.18.0）**：对主要作者断言建立逻辑资格：定义、必要条件、条件分类、经验辅助、条件分支、操作建议和原作者未证强命题；每条登记来源编号、前提、不能推出的结论与未实证状态。特别检查必要条件倒成充分条件，以及编者后注误当原作者原课。见`catalog/chanlun_claim_modality_v1.json`和`AUTHOR_CLAIM_MODALITY_AND_CONDITIONS.md`，配套严格审计与反向测试；不识图、不回测。
 
 **步骤2.23（v4.19.0）**：研究第17/21/38课强命题及第99课未来中枢必然主张；分别限定定义域、量词、级别/规则、完成时钟及缺失的独立证明。成果`catalog/chanlun_strong_theses_proof_map_v1.json`和`STRONG_THESES_QUANTIFIERS_AND_PROOF_GAPS.md`，新CI核验SOURCE编号、页码、未证状态和非蕴含关系。AI候选公式不是作者原文定理。
+
+**步骤2.24（v4.20.0）**：从第35课的递归定义循环问题/最低交易基例出发，逐环接第17/18课中枢和走势类型、第67/71/78课合法线段完成，以及第38课固定规范唯一性强主张。九个步骤、六条证明缺口均绑定已有SOURCE编号、物理页、AI解释和不可推结论；G01与G05优先继续。成果见`catalog/chanlun_recursive_construction_proof_chain_v1.json`、`RECURSIVE_CONSTRUCTION_TO_UNIQUENESS_PROOF_CHAIN.md`，新增专用CI审计。不得把结合律/最低门槛冒充唯一性或实时完成证明。
 
 **步骤3：更新规范成果。** 先修改根目录规范来源：`analyses/`、`knowledge/`、`catalog/`、`deliverables/`、`reports/`、`tools/`及`tests/`。相应更新全文研究报告、来源卡或[108课逻辑地图](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md)的源合同；不允许独改镜像并与规范源分叉。
 
