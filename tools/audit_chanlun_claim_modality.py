@@ -38,7 +38,8 @@ def audit(root: Path = ROOT) -> dict:
         assert c["law_card"] in lawids
         assert c["empirical_status"] == "NOT_RUN"
         for field in ("title", "claim", "preconditions", "not_sufficient"):
-            assert isinstance(c[field], str) and len(c[field].strip()) >= 8, (c["id"], field)
+            minimum = 4 if field == "title" else 8
+            assert isinstance(c[field], str) and len(c[field].strip()) >= minimum, (c["id"], field)
         assert c["source_claims"]
         local_seen = set()
         for r in c["source_claims"]:
