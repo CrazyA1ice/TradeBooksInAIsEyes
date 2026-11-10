@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.26.0
+# ChanlunCollection｜本书实施工作流 v4.27.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.27.0 重点补充：图像与结论的四层区分。** 对作者同图多解，必须把（1）原图可见的价格、日期、标注（2）不同分解政策的中枢区间、形成时点、买卖点**结构标签**（3）作者给出的共同风险/操作方向（4）真正执行的时间、价格、仓位及利润分层记录。第54课原图已在**外部编纂PDF**印刷125页实际目视核验为航天机电1分钟K线，带成交量/MACD；不能冒称仓库原PDF像素同一，更不能拿其图像当子1分钟全部OHLC。g7在两种分解中三卖/震荡标签不同，但作者说最终结论一致，仅是本例**定性结论**。专项证据卡：[图证与双层结论](deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_SOURCE_FIGURE_AND_STRUCTURAL_VS_DECISION_AGREEMENT.md)、`catalog/chanlun_l54_cross_archive_figure_and_decision_v1.json`；独立审核及7个回归测试。证明F01/OB38/OB99仍OPEN，市场NOT_RUN。
 
 **v4.26.0 重点补充：原作者同图多解析／跨时代不同定义的证据审计。** 先核作者第54课同一张图在甲乙方案下不同中枢形成时钟与g7第三卖点结论，再分别对照15课高低点、17课中枢分类、35课最低递归、72课笔段及84课f1/f2。每个结果注明`AUTHOR_TEXT_ASSERTED`、`OPEN`、`RETROSPECTIVE_ONLY`或`INDEPENDENT_VERIFIED`。**不把第54课两种规则解读成第38课同一固定规则下的不唯一证明**，不把作者原图事后分析冒称逐笔实盘回测。见[具体同图研究](deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_SAME_CHART_TWO_PARSINGS_AND_CROSS_ERA_LEVELS.md)。
 

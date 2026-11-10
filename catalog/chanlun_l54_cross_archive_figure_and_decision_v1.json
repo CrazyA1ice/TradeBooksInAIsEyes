@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "study_id": "CHANLUN-L54-CROSS-ARCHIVE-VISUAL-AND-DECISION-V427",
+  "date": "2026-11-10",
+  "lesson": 54,
+  "study_status": "SECONDARY_ARCHIVE_FIGURE_VISUALLY_INSPECTED_AUTHOR_TEXT_CROSSCHECKED_NO_RAW_MINUTE_DATA",
+  "source_author": {
+    "title": "教你炒股票54：一个具体走势的分析",
+    "publication_timestamp": "2007-05-24 01:37:31",
+    "canonical_repository_pdf": "ChineseBooks/缠论/缠论_卷3.pdf",
+    "canonical_repository_pdf_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+    "canonical_repository_pdf_physical_pages": [
+      170,
+      171,
+      172,
+      173,
+      174,
+      175
+    ],
+    "canonical_evidence_card": "knowledge/evidence/chanlun_lesson054.json",
+    "source_claim_ids": [
+      "CL54-SOURCE-1",
+      "CL54-SOURCE-2",
+      "CL54-SOURCE-3",
+      "CL54-SOURCE-4"
+    ],
+    "later_editorial_claim_id": "CL54-EDITORIAL-5",
+    "canonical_pdf_independently_opened_this_step": false
+  },
+  "external_crosscheck": {
+    "archived_compilation_url": "https://xqdoc.imedao.com/15621999f6b25803feb29d4c.pdf",
+    "archived_compilation_printed_page_for_chart": 125,
+    "archived_compilation_screenshot_zero_index": 128,
+    "archived_compilation_printed_pages_for_argument": [
+      125,
+      126,
+      127
+    ],
+    "archived_author_text_url": "https://eczsc.com/originals/54",
+    "archive_bytes_or_sha256_not_measured": true,
+    "pixel_identity_to_repository_pdf_not_verified": true,
+    "visual_observation_role": "VISUAL_SECONDARY_ARCHIVE",
+    "text_observation_role": "AUTHOR_TEXT_IN_ARCHIVE_REPRINT"
+  },
+  "figure_visual_observations": {
+    "printed_chart_title": "航天机电(1分钟)",
+    "chart_frame": "1分钟",
+    "printed_calendar_fragment": "05月18日",
+    "calendar_year_visible_in_chart": false,
+    "printed_horizontal_time_range": "下午约13:21—15:00；以图中文字为准，不作为逐根K线准确时间记录",
+    "high_annotation_in_chart": "18.59",
+    "rightmost_price_annotation_in_chart": "18.03",
+    "starts_analysis_at_price_from_author_prose": "18.50",
+    "price_equivalence_d1_equals_g2_from_author_prose": true,
+    "price_equivalence_d2_equals_g4_from_author_prose": true,
+    "those_equalities_independently_pixel_verified": false,
+    "readable_peak_labels": [
+      "g1",
+      "g2",
+      "g3",
+      "g4",
+      "g5",
+      "g6",
+      "g7"
+    ],
+    "readable_trough_labels": [
+      "d1",
+      "d2",
+      "d3",
+      "d4",
+      "d5",
+      "d6",
+      "d7"
+    ],
+    "indicator_panels": [
+      "VOLUME",
+      "MACD"
+    ],
+    "individual_ohlc_bar_values_recovered": false,
+    "sub_minute_substructure_accessible": false,
+    "exact_1min_to_sub1min_segment_completion_independently_certified": false,
+    "image_source_not_promoted_to_raw_market_data": true
+  },
+  "author_same_chart_two_parses": {
+    "fixed_observed_price_path": true,
+    "alpha": {
+      "policy_id": "L54-ALPHA-AUTHOR",
+      "high_level_center_first_formed_at_author_marker": "g5",
+      "high_level_center_interval_author_symbolic": "[d2,g5]",
+      "g7_structure_label": "THIRD_SELL",
+      "author_assertion": true
+    },
+    "beta": {
+      "policy_id": "L54-BETA-AUTHOR",
+      "high_level_center_first_formed_at_author_marker": "g6",
+      "high_level_center_interval_author_symbolic": "[d3,g5]",
+      "g7_structure_label": "CENTER_OSCILLATION_NOT_THIRD_SELL",
+      "author_assertion": true
+    },
+    "structure_label_agreement": false,
+    "center_boundary_agreement": false,
+    "center_formation_marker_agreement": false,
+    "author_says_g7_overall_conclusion_agrees": true,
+    "author_offers_MACD_weakness_as_auxiliary": true,
+    "same_exact_order_time_or_size_implied": false,
+    "empirical_return_validation": "NOT_RUN",
+    "distinction": "Different structural parses may agree on qualitative warning for this one figure; does not prove that all parses yield the same executable trades."
+  },
+  "cross_version_replay": {
+    "lesson15": "UNKNOWN_EFFECTIVE_HIGH_LOW_IDENTITIES",
+    "lesson17": "CONDITIONAL_ON_COMPLETE_TYPE_CERTIFICATION",
+    "lesson35": "BLOCKED_NO_TICK_BASE_RECURSION",
+    "lesson54": "AUTHOR_TEXT_ASSUMPTION_BASED",
+    "lesson72": "RETROSPECTIVE_ONLY_MISSING_NORMALIZED_OHLC",
+    "lesson84": "OPEN_F1_F2_AND_FIXED_R_G",
+    "complete_replay_performed": false,
+    "author_theorem_universality_established": false,
+    "first_actionable_timestamp_independently_established": false
+  },
+  "inference_limits": [
+    "A shared bearish contextual conclusion does not imply the same sell-point type.",
+    "Same bearish contextual conclusion does not entail same execution timestamp, position size or P&L.",
+    "Same figure under different policies does not falsify uniqueness under a single complete fixed R_g.",
+    "The chart is one-minute OHLC and does not expose the author-assumed sub-minute segments.",
+    "Visual comparison of a secondary compilation does not establish bitwise identity with canonical repo PDF.",
+    "The later editorial clarification about pens and segments is not original 2007 author prose."
+  ],
+  "proof_status": "OPEN_F01_OB38_OB99",
+  "real_market_experiments": "NOT_RUN"
+}

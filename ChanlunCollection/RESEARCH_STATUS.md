@@ -19,6 +19,8 @@
 | **OB99-EXIST/LOCATION** | **BLOCKED**：全部合法未来路径有限时间高层中枢与首次位置待证 | 同上 |
 | **F08 三类点到实际收益** | **NOT_RUN**：真实行情、成交、交易成本/样本外检验均未运行 | `experiments/`（仅研究计划和合成例） |
 
+**当前v4.27.0图证与操作结论层次核查**：已在外部公开编纂PDF（印刷p.125、PDF截图页索引128）独立目视第54课航天机电1分钟原图，并核对第54课末段作者确实同时提出“g7甲三卖／乙中枢震荡”的**标签分歧**与“两种分析对g7的结论一样”的**定性风险结论一致**。新增[研究正文](deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_SOURCE_FIGURE_AND_STRUCTURAL_VS_DECISION_AGREEMENT.md)、机器审计、7项回归和CI，区分跨档案视觉核查与仓库规范PDF像素核查；`d1=g2,d2=g4`的原图精确OHLC、子分钟结构、完整跨版本重跑仍OPEN。F01—F08/OB38/OB99未证；`NOT_RUN`。
+
 **当前v4.26.0第54课同图双解实质推进**：新增[作者同图两套解析与第15/17/35/72/84课历史规则对照](deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_SAME_CHART_TWO_PARSINGS_AND_CROSS_ERA_LEVELS.md)。作者正文在同一图上明确说甲乙方案的高级中枢分别到g5/g6形成，区间为[d2,g5]/[d3,g5]，g7在甲为第三卖点、乙为中枢震荡非三卖。此为**有源可核的分解政策差异**，不反证同一冻结政策R_g下唯一性；五个跨版完整算法未实际执行，原图精细价格未单独核实。F01—F08/OB38/OB99仍OPEN；市场`NOT_RUN`。
 
 **当前v4.25.0整书读者闭环**：新增[108课作者时序/构件依赖双地图、七环逻辑及八步带WAIT/OPEN门槛演练](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_READER_CONCEPTUAL_CLOSURE.md)。**读者级内容脉络已可完整追踪**，但原作者严格理论证明、全部插图编注终审和真实行情实证未完成，F01—F08/OB38/OB99继续OPEN、NOT_RUN。
