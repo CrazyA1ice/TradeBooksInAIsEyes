@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.25.0",
-  "source_count": 840,
+  "workflow_version": "4.26.0",
+  "source_count": 841,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -1704,6 +1704,12 @@
       "size_bytes": 10411
     },
     {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_SAME_CHART_TWO_PARSINGS_AND_CROSS_ERA_LEVELS.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_SAME_CHART_TWO_PARSINGS_AND_CROSS_ERA_LEVELS.md",
+      "git_blob_sha": "c04693b026ffe9df44ebfbd0ef03d78b9e98bd89",
+      "size_bytes": 10171
+    },
+    {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/LESSON_ACCEPTANCE_MATRIX.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/LESSON_ACCEPTANCE_MATRIX.md",
       "git_blob_sha": "595ec85ca3aa4d3575af88b5d05eed044c21fc9f",
@@ -1784,8 +1790,8 @@
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_READER_CONCEPTUAL_CLOSURE.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_READER_CONCEPTUAL_CLOSURE.md",
-      "git_blob_sha": "7708da7b5b506e69f8ee29a589413c9708139156",
-      "size_bytes": 11936
+      "git_blob_sha": "c0a0d23d6eb354ba22ed6fad86636e703fbbb998",
+      "size_bytes": 12312
     },
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_THEORY_CONSISTENCY.md",
@@ -2030,8 +2036,8 @@
     {
       "source_path": "deliverables/chanlun_108_acceptance/README.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/README.md",
-      "git_blob_sha": "3eb09417f994b793d9c2a37665b9e7f80f613e80",
-      "size_bytes": 23833
+      "git_blob_sha": "ffba556a336e8eea09f0b6bba16ad6787ac1e859",
+      "size_bytes": 24454
     },
     {
       "source_path": "docs/ANALYSIS_STANDARD.md",
@@ -2042,8 +2048,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "8f6d862a2415336dc00af1e5fc06e1de931f26e9",
-      "size_bytes": 60927
+      "git_blob_sha": "4731f1f0850f2af27fb30014314774f0e7cc1328",
+      "size_bytes": 62214
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",

@@ -4,7 +4,9 @@
 
 ## 先从哪里读？
 
-**优先读整本书（v4.25）**：[108课发表顺序与理论依赖双地图、七环核心主线和八步条件演练](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_READER_CONCEPTUAL_CLOSURE.md)。可以连续理解全书，但F01—F08、OB38/99仍OPEN且未进行市场实证。
+**最新专题：真正同一张图验证“级别”和“走势类型”的多义性。** [第54课作者同图双分解：甲乙5分钟中枢形成位置与g7三卖判断为何不同](deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_SAME_CHART_TWO_PARSINGS_AND_CROSS_ERA_LEVELS.md)。同时对照第15、17、35、72、84课，逐项给出SOURCE、RETROSPECTIVE或OPEN的边界；无市场回测。
+
+**优先读整本书（v4.26）**：[108课发表顺序与理论依赖双地图、七环核心主线和八步条件演练](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_READER_CONCEPTUAL_CLOSURE.md)。可以连续理解全书，但F01—F08、OB38/99仍OPEN且未进行市场实证。
 
 
 **最新研究：从有限合成特征实际生成候选**：[第67/71课G01候选与G05所有允许切分枚举](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_LOCAL_CANDIDATE_GENERATORS.md)。

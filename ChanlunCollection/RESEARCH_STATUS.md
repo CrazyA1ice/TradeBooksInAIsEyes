@@ -19,6 +19,8 @@
 | **OB99-EXIST/LOCATION** | **BLOCKED**：全部合法未来路径有限时间高层中枢与首次位置待证 | 同上 |
 | **F08 三类点到实际收益** | **NOT_RUN**：真实行情、成交、交易成本/样本外检验均未运行 | `experiments/`（仅研究计划和合成例） |
 
+**当前v4.26.0第54课同图双解实质推进**：新增[作者同图两套解析与第15/17/35/72/84课历史规则对照](deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_SAME_CHART_TWO_PARSINGS_AND_CROSS_ERA_LEVELS.md)。作者正文在同一图上明确说甲乙方案的高级中枢分别到g5/g6形成，区间为[d2,g5]/[d3,g5]，g7在甲为第三卖点、乙为中枢震荡非三卖。此为**有源可核的分解政策差异**，不反证同一冻结政策R_g下唯一性；五个跨版完整算法未实际执行，原图精细价格未单独核实。F01—F08/OB38/OB99仍OPEN；市场`NOT_RUN`。
+
 **当前v4.25.0整书读者闭环**：新增[108课作者时序/构件依赖双地图、七环逻辑及八步带WAIT/OPEN门槛演练](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_READER_CONCEPTUAL_CLOSURE.md)。**读者级内容脉络已可完整追踪**，但原作者严格理论证明、全部插图编注终审和真实行情实证未完成，F01—F08/OB38/OB99继续OPEN、NOT_RUN。
 
 **此前v4.24.0局部候选生成研究**：新增[第67/71课局部候选生成和G05外部准入表穷举](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_LOCAL_CANDIDATE_GENERATORS.md)，共11个可复现案例，作者完整分解语法与F01/OB38仍OPEN，图像行情NOT_RUN。
