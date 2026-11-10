@@ -1,4 +1,4 @@
-# ChanlunCollection｜本书实施工作流 v4.15.0
+# ChanlunCollection｜本书实施工作流 v4.16.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
 
@@ -37,6 +37,8 @@
 **步骤2.18（v4.14.0）**：对重点规律卡建立`source_assertions`：逐条绑定作者SOURCE编号、原PDF物理页、研究者解释与未重新核PDF的验证边界。审计工具拒绝错ID、错页及非SOURCE角色。此轮8卡27锚点，未完成的4卡保留课级证据，不能伪称全覆盖。详见`catalog/chanlun_author_law_cards_v1.json`。
 
 **步骤2.19（v4.15.0）**：12张规律卡全部必须有具体SOURCE编号、物理页和解释性`argument_trace`，即“作者文本线索→AI方法归纳→容易误用的案例”，禁止凭课程列表凑证明或把AI重建冒充原文直接引述。运行`tools/audit_chanlun_author_law_cards.py`和关联专项测试。见`catalog/chanlun_author_law_cards_v1.json`。
+
+**步骤2.20（v4.16.0）**：以13条跨卡解释桥接编成完整方法论主线，明确关系的性质、SOURCE依据、操作含义、非蕴含边界。特别区分力度背驰与中枢离开后首次回试两条分析路径。成果见`catalog/chanlun_author_law_argument_bridges_v1.json`、`AUTHOR_LAWS_ARGUMENT_MAINLINE_V1.md`；新增桥接审计与CI，不识图不回测。
 
 **步骤3：更新规范成果。** 先修改根目录规范来源：`analyses/`、`knowledge/`、`catalog/`、`deliverables/`、`reports/`、`tools/`及`tests/`。相应更新全文研究报告、来源卡或[108课逻辑地图](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md)的源合同；不允许独改镜像并与规范源分叉。
 
