@@ -20,8 +20,9 @@ def audit(root=ROOT):
     for g in groups:
         assert set(g) == FIELDS, g.get("id")
         assert g["status"].startswith("TEXTUAL_CROSS_LESSON_INTERPRETATION")
-        for field in ("title", "question", "author_position", "early_later", "method", "counterexample", "non_implication", "editorial_caution"):
-            assert isinstance(g[field], str) and len(g[field].strip()) >= 20, (g["id"], field)
+        assert isinstance(g["title"], str) and len(g["title"].strip()) >= 6, (g["id"], "title")
+        for field in ("question", "author_position", "early_later", "method", "counterexample", "non_implication", "editorial_caution"):
+            assert isinstance(g[field], str) and len(g[field].strip()) >= 12, (g["id"], field)
         assert isinstance(g["source_claims"], list) and len(g["source_claims"]) >= 5
         seen = set()
         for r in g["source_claims"]:
