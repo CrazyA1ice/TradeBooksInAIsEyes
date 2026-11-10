@@ -4,6 +4,9 @@
 
 ## 先从哪里读？
 
+**本轮最新深读**：[最低级别基例、合法次级走势、中枢递归与同级分解唯一性的构造证明链](deliverables/chanlun_108_acceptance/00_REVIEW/RECURSIVE_CONSTRUCTION_TO_UNIQUENESS_PROOF_CHAIN.md)。
+
+
 **强命题研究**：[走势终完美、买卖点完备与安全、同级唯一性及未来中枢必然的证明缺口](deliverables/chanlun_108_acceptance/00_REVIEW/STRONG_THESES_QUANTIFIERS_AND_PROOF_GAPS.md)。
 
 
