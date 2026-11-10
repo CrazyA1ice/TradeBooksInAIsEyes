@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "book": "chanlun",
+  "status": "interpretive_bridges_not_verified_entailments",
+  "scope": "text_only",
+  "edges": [
+    {
+      "id": "CL-BRIDGE-001",
+      "from": "CL-LAW-001",
+      "to": "CL-LAW-002",
+      "relation": "methodological_prerequisite",
+      "identity": "AI_CROSS_LESSON_INTERPRETIVE_BRIDGE_NOT_AUTHOR_THEOREM",
+      "why": "克制主观偏好之后需要先固定观察级别及规则。",
+      "how": "声明结构对象和分析口径。",
+      "not_implied": "理性态度不能证明任意走势划分正确。",
+      "evidence": [
+        {
+          "claim_id": "CL32-SO-1",
+          "lesson": 32,
+          "physical_pages": [
+            231,
+            233
+          ]
+        },
+        {
+          "claim_id": "CL017-S03",
+          "lesson": 17,
+          "physical_pages": [
+            197,
+            198
+          ]
+        }
+      ],
+      "validation": "EXISTING_SOURCE_CARD_CLAIM_AND_PAGE_ONLY"
+    },
+    {
+      "id": "CL-BRIDGE-002",
+      "from": "CL-LAW-002",
+      "to": "CL-LAW-003",
+      "relation": "definition_prerequisite",
+      "identity": "AI_CROSS_LESSON_INTERPRETIVE_BRIDGE_NOT_AUTHOR_THEOREM",
+      "why": "中枢须以选定级别的合格次级走势为输入。",
+      "how": "检查连续、已完成和同级，再算区间交集。",
+      "not_implied": "几何重叠不能倒推构件完成。",
+      "evidence": [
+        {
+          "claim_id": "CL017-S03",
+          "lesson": 17,
+          "physical_pages": [
+            197,
+            198
+          ]
+        },
+        {
+          "claim_id": "CL017-S02",
+          "lesson": 17,
+          "physical_pages": [
+            197
+          ]
+        },
+        {
+          "claim_id": "CL018-S01",
+          "lesson": 18,
+          "physical_pages": [
+            234
+          ]
+        }
+      ],
+      "validation": "EXISTING_SOURCE_CARD_CLAIM_AND_PAGE_ONLY"
+    },
+    {
+      "id": "CL-BRIDGE-003",
+      "from": "CL-LAW-003",
+      "to": "CL-LAW-004",
+      "relation": "structural_state_transition",
+      "identity": "AI_CROSS_LESSON_INTERPRETIVE_BRIDGE_NOT_AUTHOR_THEOREM",
+      "why": "已有中枢是讨论延伸、新生及扩展的前提。",
+      "how": "固定旧中枢再核对后继结构关系。",
+      "not_implied": "达到构造门槛不意味着走势已经结束。",
+      "evidence": [
+        {
+          "claim_id": "CL018-S07",
+          "lesson": 18,
+          "physical_pages": [
+            235
+          ]
+        },
+        {
+          "claim_id": "CL020-S01",
+          "lesson": 20,
+          "physical_pages": [
+            245,
+            246
+          ]
+        }
+      ],
+      "validation": "EXISTING_SOURCE_CARD_CLAIM_AND_PAGE_ONLY"
+    },
+    {
+      "id": "CL-BRIDGE-004",
+      "from": "CL-LAW-004",
+      "to": "CL-LAW-005",
+      "relation": "contextual_not_implication",
+      "identity": "AI_CROSS_LESSON_INTERPRETIVE_BRIDGE_NOT_AUTHOR_THEOREM",
+      "why": "中枢演化提供力度比较的结构背景。",
+      "how": "只对同级可比走势段评估力度。",
+      "not_implied": "中枢变化并不必然产生背驰。",
+      "evidence": [
+        {
+          "claim_id": "CL020-S01",
+          "lesson": 20,
+          "physical_pages": [
+            245,
+            246
+          ]
+        },
+        {
+          "claim_id": "CL024-S01",
+          "lesson": 24,
+          "physical_pages": [
+            3
+          ]
+        },
+        {
+          "claim_id": "CL37-SOURCE-2",
+          "lesson": 37,
+          "physical_pages": [
+            320
+          ]
+        }
+      ],
+      "validation": "EXISTING_SOURCE_CARD_CLAIM_AND_PAGE_ONLY"
+    },
+    {
+      "id": "CL-BRIDGE-005",
+      "from": "CL-LAW-005",
+      "to": "CL-LAW-006",
+      "relation": "context_classification",
+      "identity": "AI_CROSS_LESSON_INTERPRETIVE_BRIDGE_NOT_AUTHOR_THEOREM",
+      "why": "力度分析需区分盘整和趋势两种语境。",
+      "how": "先判走势类型，再选相应可比段。",
+      "not_implied": "MACD面积减少不自动等于趋势背驰。",
+      "evidence": [
+        {
+          "claim_id": "CL024-S02",
+          "lesson": 24,
+          "physical_pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "claim_id": "CL027-S01",
+          "lesson": 27,
+          "physical_pages": [
+            91
+          ]
+        },
+        {
+          "claim_id": "CL37-SOURCE-1",
+          "lesson": 37,
+          "physical_pages": [
+            320
+          ]
+        }
+      ],
+      "validation": "EXISTING_SOURCE_CARD_CLAIM_AND_PAGE_ONLY"
+    },
+    {
+      "id": "CL-BRIDGE-006",
+      "from": "CL-LAW-006",
+      "to": "CL-LAW-007",
+      "relation": "conditional_interpretation",
+      "identity": "AI_CROSS_LESSON_INTERPRETIVE_BRIDGE_NOT_AUTHOR_THEOREM",
+      "why": "背驰候选与三类点的不同结构条件要分开。",
+      "how": "按原方向转折、回试或中枢离开阶段分别审查。",
+      "not_implied": "背驰不保证依次形成三类买卖点。",
+      "evidence": [
+        {
+          "claim_id": "CL027-S01",
+          "lesson": 27,
+          "physical_pages": [
+            91
+          ]
+        },
+        {
+          "claim_id": "CL021-S02",
+          "lesson": 21,
+          "physical_pages": [
+            253,
+            254
+          ]
+        },
+        {
+          "claim_id": "CL021-S03",
+          "lesson": 21,
+          "physical_pages": [
+            254
+          ]
+        }
+      ],
+      "validation": "EXISTING_SOURCE_CARD_CLAIM_AND_PAGE_ONLY"
+    },
+    {
+      "id": "CL-BRIDGE-007",
+      "from": "CL-LAW-004",
+      "to": "CL-LAW-007",
+      "relation": "retest_branch",
+      "identity": "AI_CROSS_LESSON_INTERPRETIVE_BRIDGE_NOT_AUTHOR_THEOREM",
+      "why": "第三类点独立要求合法离开与第一次合格次级回试。",
+      "how": "核对离开/首次回试身份及ZG/ZD边界。",
+      "not_implied": "突破不等于三买；三买不保证后续单边。",
+      "evidence": [
+        {
+          "claim_id": "CL020-S03",
+          "lesson": 20,
+          "physical_pages": [
+            247
+          ]
+        },
+        {
+          "claim_id": "CL020-S04",
+          "lesson": 20,
+          "physical_pages": [
+            247
+          ]
+        }
+      ],
+      "validation": "EXISTING_SOURCE_CARD_CLAIM_AND_PAGE_ONLY"
+    },
+    {
+      "id": "CL-BRIDGE-008",
+      "from": "CL-LAW-007",
+      "to": "CL-LAW-008",
+      "relation": "multilevel_refinement",
+      "identity": "AI_CROSS_LESSON_INTERPRETIVE_BRIDGE_NOT_AUTHOR_THEOREM",
+      "why": "大级别候选买卖点可借区间套逐层细化。",
+      "how": "大级别背景先行，下钻，再返回复核。",
+      "not_implied": "小级别背驰不是大级别转折的充分条件。",
+      "evidence": [
+        {
+          "claim_id": "CL027-S02",
+          "lesson": 27,
+          "physical_pages": [
+            91,
+            93
+          ]
+        },
+        {
+          "claim_id": "CL44-SOURCE-2",
+          "lesson": 44,
+          "physical_pages": [
+            17
+          ]
+        }
+      ],
+      "validation": "EXISTING_SOURCE_CARD_CLAIM_AND_PAGE_ONLY"
+    },
+    {
+      "id": "CL-BRIDGE-009",
+      "from": "CL-LAW-008",
+      "to": "CL-LAW-009",
+      "relation": "asof_information_gate",
+      "identity": "AI_CROSS_LESSON_INTERPRETIVE_BRIDGE_NOT_AUTHOR_THEOREM",
+      "why": "区间套缩小候选范围不等于当时已能确认终点。",
+      "how": "区分事件位置、当时首次可知及后验重分解。",
+      "not_implied": "可理论收缩不等于可成交数学最低点。",
+      "evidence": [
+        {
+          "claim_id": "CL027-S03",
+          "lesson": 27,
+          "physical_pages": [
+            93
+          ]
+        },
+        {
+          "claim_id": "CL018-S07",
+          "lesson": 18,
+          "physical_pages": [
+            235
+          ]
+        },
+        {
+          "claim_id": "CL32-SO-2",
+          "lesson": 32,
+          "physical_pages": [
+            233
+          ]
+        }
+      ],
+      "validation": "EXISTING_SOURCE_CARD_CLAIM_AND_PAGE_ONLY"
+    },
+    {
+      "id": "CL-BRIDGE-010",
+      "from": "CL-LAW-011",
+      "to": "CL-LAW-009",
+      "relation": "rule_version_gate",
+      "identity": "AI_CROSS_LESSON_INTERPRETIVE_BRIDGE_NOT_AUTHOR_THEOREM",
+      "why": "多义性和固定同级规则唯一性讨论要先对齐定义域。",
+      "how": "冻结级别、连接口径、版本及完成时点。",
+      "not_implied": "异级别不同分解不能直接反证固定规则唯一性。",
+      "evidence": [
+        {
+          "claim_id": "CL38-SOURCE-2",
+          "lesson": 38,
+          "physical_pages": [
+            338,
+            339
+          ]
+        },
+        {
+          "claim_id": "CL38-SOURCE-1",
+          "lesson": 38,
+          "physical_pages": [
+            338
+          ]
+        }
+      ],
+      "validation": "EXISTING_SOURCE_CARD_CLAIM_AND_PAGE_ONLY"
+    },
+    {
+      "id": "CL-BRIDGE-011",
+      "from": "CL-LAW-009",
+      "to": "CL-LAW-010",
+      "relation": "decision_separation",
+      "identity": "AI_CROSS_LESSON_INTERPRETIVE_BRIDGE_NOT_AUTHOR_THEOREM",
+      "why": "当时可确认的结构判断仍不足以指定仓位和成交。",
+      "how": "分开记录结构条件、资源约束、风险及动作。",
+      "not_implied": "事后确认的低点不能冒充当时可成交价。",
+      "evidence": [
+        {
+          "claim_id": "CL32-SO-2",
+          "lesson": 32,
+          "physical_pages": [
+            233
+          ]
+        },
+        {
+          "claim_id": "CL31-SO-2",
+          "lesson": 31,
+          "physical_pages": [
+            194
+          ]
+        }
+      ],
+      "validation": "EXISTING_SOURCE_CARD_CLAIM_AND_PAGE_ONLY"
+    },
+    {
+      "id": "CL-BRIDGE-012",
+      "from": "CL-LAW-010",
+      "to": "CL-LAW-012",
+      "relation": "risk_execution_gate",
+      "identity": "AI_CROSS_LESSON_INTERPRETIVE_BRIDGE_NOT_AUTHOR_THEOREM",
+      "why": "仓位管理与退出纪律控制结构判断之外的风险。",
+      "how": "共用资金账本并记录失效条件。",
+      "not_implied": "已回本不等于剩余仓位风险为零。",
+      "evidence": [
+        {
+          "claim_id": "CL31-SO-1",
+          "lesson": 31,
+          "physical_pages": [
+            192
+          ]
+        },
+        {
+          "claim_id": "CL31-SO-3",
+          "lesson": 31,
+          "physical_pages": [
+            194,
+            195
+          ]
+        },
+        {
+          "claim_id": "CL013-S-1",
+          "lesson": 13,
+          "physical_pages": [
+            107
+          ]
+        }
+      ],
+      "validation": "EXISTING_SOURCE_CARD_CLAIM_AND_PAGE_ONLY"
+    },
+    {
+      "id": "CL-BRIDGE-013",
+      "from": "CL-LAW-012",
+      "to": "CL-LAW-001",
+      "relation": "feedback_cycle",
+      "identity": "AI_CROSS_LESSON_INTERPRETIVE_BRIDGE_NOT_AUTHOR_THEOREM",
+      "why": "结构与执行反馈要求更新判断，避免锚定旧观点。",
+      "how": "新条件出现后重新进入观察与分类。",
+      "not_implied": "坚持原买入价不等于风险管理。",
+      "evidence": [
+        {
+          "claim_id": "CL96-SOURCE-1",
+          "lesson": 96,
+          "physical_pages": [
+            155
+          ]
+        },
+        {
+          "claim_id": "CL98-SOURCE-3",
+          "lesson": 98,
+          "physical_pages": [
+            194
+          ]
+        },
+        {
+          "claim_id": "CL32-SO-1",
+          "lesson": 32,
+          "physical_pages": [
+            231,
+            233
+          ]
+        }
+      ],
+      "validation": "EXISTING_SOURCE_CARD_CLAIM_AND_PAGE_ONLY"
+    }
+  ]
+}
