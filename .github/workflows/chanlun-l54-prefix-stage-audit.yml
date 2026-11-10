@@ -1,0 +1,19 @@
+name: chanlun-l54-prefix-stage-audit
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  replay-author-stage-not-market:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Verify author-stage evidence contract and expose prefix snapshots
+        run: python -B tools/replay_chanlun_l54_author_prefix.py --show all
+      - name: Verify no g5-g6 preknowledge, no g7 future-chart leak or invented corrected formula
+        run: python -B -m unittest discover -s tests -p "test_chanlun_l54_author_prefix.py" -v
