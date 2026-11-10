@@ -1,0 +1,19 @@
+name: chanlun-completion-exit-source-gate
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  review-author-reply-provenance-and-exit-conditions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Verify lesson body vs 2007 comment, conditional child-movement exit requirements
+        run: python -B tools/audit_chanlun_completion_exit_sources.py
+      - name: Test protection against lookahead, circular proof and source misattribution
+        run: python -B -m unittest discover -s tests -p "test_chanlun_completion_exit_sources.py" -v
