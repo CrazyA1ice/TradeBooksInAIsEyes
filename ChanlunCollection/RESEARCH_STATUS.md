@@ -19,7 +19,9 @@
 | **OB99-EXIST/LOCATION** | **BLOCKED**：全部合法未来路径有限时间高层中枢与首次位置待证 | 同上 |
 | **F08 三类点到实际收益** | **NOT_RUN**：真实行情、成交、交易成本/样本外检验均未运行 | `experiments/`（仅研究计划和合成例） |
 
-**当前v4.22.0带类型规则契约研究**：新增[G01/G05状态转换与限定规范化前提研究](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_TYPED_RULE_CONTRACT_AND_NORMALIZATION.md)，12个可执行合成情境和SOURCE编号，严格区分AI平局政策、外部合法性假设与作者规则。F01/OB38继续OPEN，NOT_RUN。
+**当前v4.23.0输入证据资格研究**：新增[严格特征身份、时点和分解候选来源的11个边界情境](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_EVIDENCE_ELIGIBILITY.md)，来源数据`catalog/chanlun_g01_g05_evidence_eligibility_v1.json`；依然只是局部资格检查，不证明完整作者规则，F01/OB38继续OPEN。
+
+**此前v4.22.0带类型规则契约研究**：新增[G01/G05状态转换与限定规范化前提研究](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_TYPED_RULE_CONTRACT_AND_NORMALIZATION.md)，12个可执行合成情境和SOURCE编号，严格区分AI平局政策、外部合法性假设与作者规则。F01/OB38继续OPEN，NOT_RUN。
 
 **此前v4.21.0双接口有限条件见证**：新增[G01/G05十个合成条件样例与研究解释](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_CONDITIONAL_WITNESS_STUDY.md)，精确区分来源构件身份/当时确认、相同规则竞争切分/跨规则比较，程序性验收不代表作者全规则证明或反证。F01/OB38继续OPEN，NOT_RUN。
 

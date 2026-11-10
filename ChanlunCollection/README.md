@@ -4,6 +4,9 @@
 
 ## 先从哪里读？
 
+**最新研究：G01/G05证据资格**：[严格特征序列身份、可知时点和候选切分角色](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_EVIDENCE_ELIGIBILITY.md)。
+
+
 **本轮新研究**：[G01完整次级走势的状态门控及G05规范切分的严格前提](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_TYPED_RULE_CONTRACT_AND_NORMALIZATION.md)。
 
 
