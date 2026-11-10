@@ -27,7 +27,7 @@
 
 ## 从卡片进入跨课论证
 
-建议阅读[13条带SOURCE证据的解释性论证桥接](AUTHOR_LAWS_ARGUMENT_MAINLINE_V1.md)，再用`catalog/chanlun_author_law_argument_bridges_v1.json`核查每条关系的原始主张编号、页码和不能推出的结论。
+建议阅读[14条带SOURCE证据的解释性论证桥接](AUTHOR_LAWS_ARGUMENT_MAINLINE_V1.md)，再用`catalog/chanlun_author_law_argument_bridges_v1.json`核查每条关系的原始主张编号、页码和不能推出的结论。
 
 ## 使用方式
 
