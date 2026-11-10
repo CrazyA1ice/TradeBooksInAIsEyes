@@ -2,7 +2,7 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.13.0",
+  "workflow_version": "4.14.0",
   "source_count": 803,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
@@ -1316,8 +1316,8 @@
     {
       "source_path": "catalog/chanlun_author_law_cards_v1.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_author_law_cards_v1.json",
-      "git_blob_sha": "30d6169bec8a7170ae9ce07a696bc067bb27a0a5",
-      "size_bytes": 10809
+      "git_blob_sha": "fda08c85cbff9c9846150436e28d0e47530afb36",
+      "size_bytes": 20456
     },
     {
       "source_path": "catalog/chanlun_center_order_completion_partial_v1.json",
@@ -1556,8 +1556,8 @@
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAW_CARDS_INDEX.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAW_CARDS_INDEX.md",
-      "git_blob_sha": "66cfdcf13b50632064a8f3cdef3f542f2e87838e",
-      "size_bytes": 2267
+      "git_blob_sha": "de79d80941ded8172cce5609fba7bc1fb088e082",
+      "size_bytes": 2673
     },
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_MARKET_LAWS_AND_METHOD_MAINLINE.md",
@@ -1928,8 +1928,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "2d578d3573b010c8c136a9daabf920fe992fecf8",
-      "size_bytes": 51241
+      "git_blob_sha": "e6a602aabc8e001033a4e5092887bf36dfe0705a",
+      "size_bytes": 51978
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -3356,8 +3356,8 @@
     {
       "source_path": "tests/test_chanlun_author_law_cards.py",
       "mirror_path": "ChanlunCollection/tests/test_chanlun_author_law_cards.py",
-      "git_blob_sha": "3f03a49ba2d6a54729059d3d1a802fffd1b1fd13",
-      "size_bytes": 2032
+      "git_blob_sha": "0b5832c962c73ba43e12eef0ca063223e234f50c",
+      "size_bytes": 3363
     },
     {
       "source_path": "tests/test_chanlun_bridge_text_audit.py",
@@ -4028,8 +4028,8 @@
     {
       "source_path": "tools/audit_chanlun_author_law_cards.py",
       "mirror_path": "ChanlunCollection/tools/audit_chanlun_author_law_cards.py",
-      "git_blob_sha": "16ac548b97fe9e72168d86a4bf71efa78abc3d72",
-      "size_bytes": 2917
+      "git_blob_sha": "e0dbf5951ff39b53b51cccfa82f0478dc9e6916c",
+      "size_bytes": 4391
     },
     {
       "source_path": "tools/audit_chanlun_center_order_completion.py",

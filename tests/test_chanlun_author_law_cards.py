@@ -21,7 +21,7 @@ class LawCardsTests(unittest.TestCase):
                     target = root / path
                     target.parent.mkdir(parents=True, exist_ok=True)
                     n = int(path.rsplit("lesson", 1)[1][:3])
-                    target.write_text(json.dumps({"source": {"lesson_number": n}}), encoding="utf-8")
+                    target.write_bytes((ROOT / path).read_bytes())
             f = root / CATALOG
             f.parent.mkdir(parents=True, exist_ok=True)
             f.write_text(json.dumps(cards, ensure_ascii=False), encoding="utf-8")
@@ -29,6 +29,32 @@ class LawCardsTests(unittest.TestCase):
             cards["cards"][0]["links_to"].append("CL-LAW-999")
             f.write_text(json.dumps(cards, ensure_ascii=False), encoding="utf-8")
             with self.assertRaisesRegex(AssertionError, "Broken law link"):
+                audit(root)
+
+    def test_reject_invented_author_claim_and_wrong_page(self):
+        with tempfile.TemporaryDirectory() as t:
+            root = Path(t)
+            cards = json.loads((ROOT / CATALOG).read_text(encoding="utf-8"))
+            for c in cards["cards"]:
+                for path in c["source_cards"]:
+                    target = root / path
+                    target.parent.mkdir(parents=True, exist_ok=True)
+                    target.write_bytes((ROOT / path).read_bytes())
+            f = root / CATALOG
+            f.parent.mkdir(parents=True, exist_ok=True)
+            f.write_text(json.dumps(cards, ensure_ascii=False), encoding="utf-8")
+            self.assertEqual(audit(root)["cards"], 12)
+            anchored = next(c for c in cards["cards"] if c.get("source_assertions"))
+            assertion = anchored["source_assertions"][0]
+            original = assertion["claim_id"]
+            assertion["claim_id"] = "INVENTED-SOURCE-ID"
+            f.write_text(json.dumps(cards, ensure_ascii=False), encoding="utf-8")
+            with self.assertRaises(AssertionError):
+                audit(root)
+            assertion["claim_id"] = original
+            assertion["physical_pages"] = [99999]
+            f.write_text(json.dumps(cards, ensure_ascii=False), encoding="utf-8")
+            with self.assertRaises(AssertionError):
                 audit(root)
 
     def test_reject_empirical_upgrade(self):
