@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "book": "chanlun",
+  "scope": "EXISTING_TEXT_SOURCE_CARDS_ONLY",
+  "identity": "AI_RECONSTRUCTED_PROOF_CHAIN_NOT_AUTHOR_COMPLETE_PROOF",
+  "image_review": "NOT_RUN",
+  "market_backtest": "NOT_RUN",
+  "steps": [
+    {
+      "id": "P01",
+      "title": "级别依赖为什么需要递归基例",
+      "role": "AI_SYNTHESIS_OF_AUTHOR_EXPLICIT_PROBLEM",
+      "evidence": [
+        {
+          "lesson": 35,
+          "claim_id": "CL35-SO-1",
+          "physical_pages": [
+            291
+          ]
+        }
+      ],
+      "author_cue": "定义中枢依赖次级走势，定义走势类型又依赖中枢；若无最小层会成为循环。",
+      "proof_requirement": "首先声明使用哪个作者级别版本及最低层对象，不可直接从无穷递归取值。",
+      "non_entailment": "这一点识别了定义闭环问题，尚不是解决所有高层合法性的证明。",
+      "validation": "EXISTING_SOURCE_CARD_ONLY_NOT_FRESH_PDF_RECHECK"
+    },
+    {
+      "id": "P02",
+      "title": "最低级别同价交易基例",
+      "role": "AI_SYNTHESIS_OF_AUTHOR_CONSTRUCTIVE_BASE",
+      "evidence": [
+        {
+          "lesson": 35,
+          "claim_id": "CL35-SO-2",
+          "physical_pages": [
+            291
+          ]
+        }
+      ],
+      "author_cue": "作者用最低级别交易序列及三笔同价给出中枢递归基例。",
+      "proof_requirement": "明确交易笔的身份、价格同一标准、时间次序和最底层适用规则。",
+      "non_entailment": "只证最低中枢基例的构造语言，不自动证明所有高级走势均终止。",
+      "validation": "EXISTING_SOURCE_CARD_ONLY_NOT_FRESH_PDF_RECHECK"
+    },
+    {
+      "id": "P03",
+      "title": "由合法次级走势构造高级中枢",
+      "role": "AI_SYNTHESIS_OF_AUTHOR_RECURSIVE_RULE",
+      "evidence": [
+        {
+          "lesson": 17,
+          "claim_id": "CL017-S02",
+          "physical_pages": [
+            197
+          ]
+        },
+        {
+          "lesson": 18,
+          "claim_id": "CL018-S01",
+          "physical_pages": [
+            234
+          ]
+        },
+        {
+          "lesson": 35,
+          "claim_id": "CL35-SO-3",
+          "physical_pages": [
+            291,
+            292
+          ]
+        }
+      ],
+      "author_cue": "作者通过至少三个连续次级走势类型的重叠定义中枢并向上递归。",
+      "proof_requirement": "需证明每个成员已合法完成、连续、同级、重叠及边界政策一致。",
+      "non_entailment": "几何重叠是已合格成员上的运算，不能倒推出成员完成资格。",
+      "validation": "EXISTING_SOURCE_CARD_ONLY_NOT_FRESH_PDF_RECHECK"
+    },
+    {
+      "id": "P04",
+      "title": "中枢归属到盘整或趋势的类型语言",
+      "role": "AI_SYNTHESIS_OF_AUTHOR_CLASSIFICATION_RULE",
+      "evidence": [
+        {
+          "lesson": 17,
+          "claim_id": "CL017-S03",
+          "physical_pages": [
+            197,
+            198
+          ]
+        },
+        {
+          "lesson": 18,
+          "claim_id": "CL018-S02",
+          "physical_pages": [
+            236
+          ]
+        }
+      ],
+      "author_cue": "第17课使用中枢数量区分盘整和趋势，第18课限制趋势连接成员级别。",
+      "proof_requirement": "必须给出同向中枢关系、连接级别和完整输入域，才谈类型归类。",
+      "non_entailment": "原文结构定义不自动证明所有有限输入均能合法唯一分段。",
+      "validation": "EXISTING_SOURCE_CARD_ONLY_NOT_FRESH_PDF_RECHECK"
+    },
+    {
+      "id": "P05",
+      "title": "最低完成门槛与实际停止",
+      "role": "AI_SYNTHESIS_OF_AUTHOR_LIMITATION",
+      "evidence": [
+        {
+          "lesson": 18,
+          "claim_id": "CL018-S07",
+          "physical_pages": [
+            235
+          ]
+        }
+      ],
+      "author_cue": "作者允许已达最低盘整/趋势结构门槛的走势继续延伸。",
+      "proof_requirement": "将构件资格、已发生完成事件、首次可知时钟分成三栏。",
+      "non_entailment": "具备可以完成的结构资格不充分得出当下已终结。",
+      "validation": "EXISTING_SOURCE_CARD_ONLY_NOT_FRESH_PDF_RECHECK"
+    },
+    {
+      "id": "P06",
+      "title": "笔—线段合法破坏的跨课补充",
+      "role": "AI_SYNTHESIS_OF_LATER_AUTHOR_REFINEMENT",
+      "evidence": [
+        {
+          "lesson": 67,
+          "claim_id": "CL67-SOURCE-3",
+          "physical_pages": [
+            388,
+            389
+          ]
+        },
+        {
+          "lesson": 71,
+          "claim_id": "CL71-SOURCE-2",
+          "physical_pages": [
+            71
+          ]
+        },
+        {
+          "lesson": 78,
+          "claim_id": "CL78-SOURCE-1",
+          "physical_pages": [
+            174
+          ]
+        },
+        {
+          "lesson": 78,
+          "claim_id": "CL78-SOURCE-2",
+          "physical_pages": [
+            175
+          ]
+        }
+      ],
+      "author_cue": "第67/71/78课具体讨论特征序列、边界待定与合法反向线段破坏。",
+      "proof_requirement": "不同版本下证明线段完整与可作次级成员，需分别核对特征序列及反向成员资格。",
+      "non_entailment": "单笔破坏和待定界面不能直接成为完整反向线段，F01仍OPEN。",
+      "validation": "EXISTING_SOURCE_CARD_ONLY_NOT_FRESH_PDF_RECHECK"
+    },
+    {
+      "id": "P07",
+      "title": "同级合法走势切分与连接",
+      "role": "AI_SYNTHESIS_OF_AUTHOR_DECOMPOSITION_CLAIM",
+      "evidence": [
+        {
+          "lesson": 35,
+          "claim_id": "CL35-SO-3",
+          "physical_pages": [
+            291,
+            292
+          ]
+        },
+        {
+          "lesson": 35,
+          "claim_id": "CL35-SO-4",
+          "physical_pages": [
+            292
+          ]
+        },
+        {
+          "lesson": 38,
+          "claim_id": "CL38-SOURCE-2",
+          "physical_pages": [
+            338,
+            339
+          ]
+        }
+      ],
+      "author_cue": "第35课提分解定理及结合律；第38课讨论固定同级连接规则。",
+      "proof_requirement": "应冻结连接符、允许盘整与盘整相连的规则、同级输入及剩余待定状态。",
+      "non_entailment": "结合律仅允许重分组，不能推出存在或唯一的规范切分。",
+      "validation": "EXISTING_SOURCE_CARD_ONLY_NOT_FRESH_PDF_RECHECK"
+    },
+    {
+      "id": "P08",
+      "title": "固定规则唯一性目标",
+      "role": "AI_SYNTHESIS_OF_AUTHOR_STRONG_UNPROVEN",
+      "evidence": [
+        {
+          "lesson": 38,
+          "claim_id": "CL38-SOURCE-1",
+          "physical_pages": [
+            338
+          ]
+        },
+        {
+          "lesson": 33,
+          "claim_id": "CL33-SO-1",
+          "physical_pages": [
+            256
+          ]
+        },
+        {
+          "lesson": 102,
+          "claim_id": "CL102-SOURCE-1",
+          "physical_pages": [
+            241
+          ]
+        }
+      ],
+      "author_cue": "作者提出同级规则下唯一分解，又承认其他精度与重组存在多义性，以进位制类比递归分解。",
+      "proof_requirement": "分开证明合法分解至少存在、任意两合法分解等价，并处理端点相等/待定/版本。",
+      "non_entailment": "算术进位制类比及不同级别多义不构成唯一性证明或反证，OB38 OPEN。",
+      "validation": "EXISTING_SOURCE_CARD_ONLY_NOT_FRESH_PDF_RECHECK"
+    },
+    {
+      "id": "P09",
+      "title": "最终走势类型与当下信息",
+      "role": "AI_SYNTHESIS_OF_AUTHOR_STRONG_UNPROVEN",
+      "evidence": [
+        {
+          "lesson": 17,
+          "claim_id": "CL017-S01",
+          "physical_pages": [
+            196,
+            197
+          ]
+        },
+        {
+          "lesson": 18,
+          "claim_id": "CL018-S07",
+          "physical_pages": [
+            235
+          ]
+        },
+        {
+          "lesson": 71,
+          "claim_id": "CL71-SOURCE-2",
+          "physical_pages": [
+            71
+          ]
+        }
+      ],
+      "author_cue": "“走势终完美”作为作者基本原理，同时原文允许继续延伸和线段待定。",
+      "proof_requirement": "把完成走势X上的归类与任意时刻前缀Ht的判定区分，标明终止和最早可知。",
+      "non_entailment": "最终可分类不推出每个未完成前缀已结束，也不推出未来价格或交易安全。",
+      "validation": "EXISTING_SOURCE_CARD_ONLY_NOT_FRESH_PDF_RECHECK"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G01",
+      "from": "P02",
+      "to": "P03",
+      "relation": "BASE_TO_RECURSIVE_MEMBERS",
+      "missing": "从最低中枢基例到完整任意次级走势成员，尚缺非循环完整性构造、终止和边界验证。",
+      "frontier": "F01",
+      "status": "OPEN_NOT_DISPROVEN_AND_NOT_PROVEN"
+    },
+    {
+      "id": "G02",
+      "from": "P03",
+      "to": "P04",
+      "relation": "CENTER_TO_COMPLETE_TYPE",
+      "missing": "中枢形成规则不能自动完成合格盘整/趋势的最终结构归类；需处理连接与结束。",
+      "frontier": "F01",
+      "status": "OPEN_NOT_DISPROVEN_AND_NOT_PROVEN"
+    },
+    {
+      "id": "G03",
+      "from": "P05",
+      "to": "P09",
+      "relation": "MINIMUM_TO_TERMINATION",
+      "missing": "达到最低结构门槛不充分证明走势在当前时刻终结，更不保证当下最早可知。",
+      "frontier": "F01",
+      "status": "OPEN_NOT_DISPROVEN_AND_NOT_PROVEN"
+    },
+    {
+      "id": "G04",
+      "from": "P06",
+      "to": "P07",
+      "relation": "SEGMENT_TO_VALID_DECOMPOSITION",
+      "missing": "笔/线段破坏的完成与跨级成员认证未形成覆盖全部合法输入的证明。",
+      "frontier": "F01",
+      "status": "OPEN_NOT_DISPROVEN_AND_NOT_PROVEN"
+    },
+    {
+      "id": "G05",
+      "from": "P07",
+      "to": "P08",
+      "relation": "ASSOCIATIVITY_TO_UNIQUENESS",
+      "missing": "连接结合律不能推出规范切分唯一，仍需存在性、规范化、合流或等价证明。",
+      "frontier": "OB38",
+      "status": "OPEN_NOT_DISPROVEN_AND_NOT_PROVEN"
+    },
+    {
+      "id": "G06",
+      "from": "P08",
+      "to": "P09",
+      "relation": "UNIQUENESS_TO_ONLINE_COMPLETION",
+      "missing": "即便完成输入的规范切分唯一，也不意味着实时前缀已知完成边界。",
+      "frontier": "OB38_F01",
+      "status": "OPEN_NOT_DISPROVEN_AND_NOT_PROVEN"
+    }
+  ]
+}
