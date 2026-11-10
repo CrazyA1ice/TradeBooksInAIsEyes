@@ -52,11 +52,12 @@ def validate(record: dict, previous: dict, lesson: dict, report: str) -> None:
     require("OPEN" in record["proof_status"], "formal obligations unresolved")
 
     w = record["witnesses"]
-    require(len(w) == 6 and len(set(x["id"] for x in w)) == 6, "six witness records")
+    require(len(w) == 7 and len(set(x["id"] for x in w)) == 7, "seven witness records")
     by_id = {x["id"]: x for x in w}
-    for name in ("W01-PDF-PRINT", "W02-ECZSC", "W03-CHANLUN108", "W04-CHANSHI"):
+    for name in ("W01-PDF-PRINT", "W02-ECZSC", "W03-CHANLUN108", "W04-CHANSHI", "W07-CHZHSHCH-ARCHIVE"):
         require(by_id[name]["readable_left_endpoint"] == "g0g3", "preserved variant " + name)
         require(by_id[name]["readable_right_final_segment"] == "g2d3", "preserved RHS " + name)
+    require(by_id["W07-CHZHSHCH-ARCHIVE"]["role"] == "PRESERVED_FORM_WITH_ARCHIVED_AUTHOR_REPLY_NOT_SINA_ORIGINAL", "archived author reply remains secondary")
     require(by_id["W05-FENGMR"]["readable_left_endpoint"] == "g0d3", "conditional normalized witness")
     require(by_id["W05-FENGMR"]["role"] == "SILENT_EDITORIAL_NORMALIZATION_NOT_PROVEN_AUTHOR_REVISION", "silent editorial normalization is not author")
     require(by_id["W06-TTYFP"]["readable_left_endpoint"] == "g0g3(d3?)", "annotated witness")
@@ -108,7 +109,7 @@ def main() -> None:
     validate(record, previous, lesson, report)
     print(json.dumps({
         "audit": "PASS",
-        "witnesses": 6,
+        "witnesses": 7,
         "path_span": list(endpoint_span(record["path_semantics"]["right_hand_segments"])),
         "editorial_candidate": "g0d3",
         "author_erratum": "UNVERIFIED",
