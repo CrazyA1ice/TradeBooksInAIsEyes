@@ -4,6 +4,9 @@
 
 ## 先从哪里读？
 
+**本轮重点研究**：[作者断言的逻辑资格——定义、必要条件、经验与未证强主张](deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_CLAIM_MODALITY_AND_CONDITIONS.md)，对应16条分类数据`catalog/chanlun_claim_modality_v1.json`。
+
+
 **专题深读**：[四组核心概念的跨课版本与方法论对照](deliverables/chanlun_108_acceptance/00_REVIEW/FOUR_CORE_CROSS_VERSION_METHOD_CONTRAST.md)。
 
 
