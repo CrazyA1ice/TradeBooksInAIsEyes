@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "book": "chanlun",
-  "status": "first_batch_source_cued_not_independently_proof_verified",
+  "status": "eight_cards_with_claim_ids_and_physical_page_cues_remaining_source_cued",
   "scope": "text_only",
   "cards": [
     {
@@ -76,7 +76,39 @@
         "CL-LAW-004",
         "CL-LAW-005"
       ],
-      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED"
+      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED",
+      "source_assertions": [
+        {
+          "claim_id": "CL017-S02",
+          "lesson": 17,
+          "physical_pages": [
+            197
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者以连续次级别走势的价格重叠定义中枢。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL018-S01",
+          "lesson": 18,
+          "physical_pages": [
+            234
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者重述三段次级别走势的中枢区间。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL018-S07",
+          "lesson": 18,
+          "physical_pages": [
+            235
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "最低结构可满足但盘整或趋势可继续延伸；成立不等于立即结束。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        }
+      ]
     },
     {
       "id": "CL-LAW-004",
@@ -100,7 +132,41 @@
         "CL-LAW-005",
         "CL-LAW-007"
       ],
-      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED"
+      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED",
+      "source_assertions": [
+        {
+          "claim_id": "CL020-S01",
+          "lesson": 20,
+          "physical_pages": [
+            245,
+            246
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者区分中枢延续、新生和级别扩张。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL020-S02",
+          "lesson": 20,
+          "physical_pages": [
+            246
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者为中枢延伸给出区间条件。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL020-S08",
+          "lesson": 20,
+          "physical_pages": [
+            246,
+            247
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者提供区间符号与同级中枢和扩张条件，原书并存后编注。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        }
+      ]
     },
     {
       "id": "CL-LAW-005",
@@ -128,7 +194,50 @@
         "CL-LAW-006",
         "CL-LAW-007"
       ],
-      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED"
+      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED",
+      "source_assertions": [
+        {
+          "claim_id": "CL024-S01",
+          "lesson": 24,
+          "physical_pages": [
+            3
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "MACD用于辅助观察背驰，需考虑级别。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL024-S02",
+          "lesson": 24,
+          "physical_pages": [
+            3,
+            4
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者讨论A/B/C段与柱面积的比较。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL024-S03",
+          "lesson": 24,
+          "physical_pages": [
+            4
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "尚未走完的C段使用部分面积作经验估计，不是完成实值。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL37-SOURCE-2",
+          "lesson": 37,
+          "physical_pages": [
+            320
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者要求用于趋势讨论的A、B是同级中枢。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        }
+      ]
     },
     {
       "id": "CL-LAW-006",
@@ -153,7 +262,40 @@
       "links_to": [
         "CL-LAW-007"
       ],
-      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED"
+      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED",
+      "source_assertions": [
+        {
+          "claim_id": "CL027-S01",
+          "lesson": 27,
+          "physical_pages": [
+            91
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者区分趋势背驰与盘整背驰，提醒级别不同意义不同。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL024-S04",
+          "lesson": 24,
+          "physical_pages": [
+            6,
+            9
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者区分两类背驰及不同后继走势。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL37-SOURCE-1",
+          "lesson": 37,
+          "physical_pages": [
+            320
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者将趋势背驰与未构成趋势的中枢震荡分开。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        }
+      ]
     },
     {
       "id": "CL-LAW-007",
@@ -179,7 +321,50 @@
         "CL-LAW-008",
         "CL-LAW-010"
       ],
-      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED"
+      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED",
+      "source_assertions": [
+        {
+          "claim_id": "CL021-S02",
+          "lesson": 21,
+          "physical_pages": [
+            253,
+            254
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者在中枢及走势的转折和延续背景下讨论三类点。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL020-S03",
+          "lesson": 20,
+          "physical_pages": [
+            247
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "第三类点关联离开原中枢与第一次次级别回试。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL020-S04",
+          "lesson": 20,
+          "physical_pages": [
+            247
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者同时承认第三类买点后可能进入更高级别盘整。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL021-S03",
+          "lesson": 21,
+          "physical_pages": [
+            254
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者讨论第二类和第三类买点有条件重合。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        }
+      ]
     },
     {
       "id": "CL-LAW-008",
@@ -233,7 +418,39 @@
         "CL-LAW-010",
         "CL-LAW-012"
       ],
-      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED"
+      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED",
+      "source_assertions": [
+        {
+          "claim_id": "CL018-S07",
+          "lesson": 18,
+          "physical_pages": [
+            235
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "结构最低门槛和实际最终结束不是同一时点。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL32-SO-2",
+          "lesson": 32,
+          "physical_pages": [
+            233
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者明确说A出现后不能断言B必定出现。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL38-SOURCE-1",
+          "lesson": 38,
+          "physical_pages": [
+            338
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者提出固定同级规则下唯一性主张，但并未在本卡中核验完备证明。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        }
+      ]
     },
     {
       "id": "CL-LAW-010",
@@ -262,7 +479,50 @@
       "links_to": [
         "CL-LAW-012"
       ],
-      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED"
+      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED",
+      "source_assertions": [
+        {
+          "claim_id": "CL31-SO-1",
+          "lesson": 31,
+          "physical_pages": [
+            192
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "资金规模增加使资金管理更重要，并反对借贷透支造成的期限压力。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL31-SO-2",
+          "lesson": 31,
+          "physical_pages": [
+            194
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者主张预设持股仓位并留机动资金。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL31-SO-3",
+          "lesson": 31,
+          "physical_pages": [
+            194,
+            195
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者谈收回本金后的成本归零；不能推出剩余市值无风险。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL40-SOURCE-2",
+          "lesson": 40,
+          "physical_pages": [
+            363
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者将资金和筹码分配至不同时间级别。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        }
+      ]
     },
     {
       "id": "CL-LAW-011",
@@ -287,7 +547,40 @@
       "links_to": [
         "CL-LAW-009"
       ],
-      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED"
+      "research_status": "TEXTUAL_NOT_EMPIRICALLY_TESTED",
+      "source_assertions": [
+        {
+          "claim_id": "CL38-SOURCE-1",
+          "lesson": 38,
+          "physical_pages": [
+            338
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者讨论固定同级别分解规则下的唯一性。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL38-SOURCE-2",
+          "lesson": 38,
+          "physical_pages": [
+            338,
+            339
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者对同级盘整连接和更低级别采用不同规则。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        },
+        {
+          "claim_id": "CL40-SOURCE-3",
+          "lesson": 40,
+          "physical_pages": [
+            363
+          ],
+          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
+          "reading": "作者认为换挡条件与资金、时间、风格有关。",
+          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
+        }
+      ]
     },
     {
       "id": "CL-LAW-012",
