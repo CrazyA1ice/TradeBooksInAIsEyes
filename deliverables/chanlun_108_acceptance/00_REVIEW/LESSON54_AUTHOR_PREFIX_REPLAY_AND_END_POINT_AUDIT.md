@@ -2,6 +2,8 @@
 
 > **研究节点 v4.28.0｜2026-11-10**：继[原图来源与结构/操作差异](LESSON54_SOURCE_FIGURE_AND_STRUCTURAL_VS_DECISION_AGREEMENT.md)后，这次不是新造价格数据、不是单纯更新阅读综述，而是建立**可执行、可回放、拒绝偷看未来的作者文字节点记录**。本研究使用[第54课作者正文存档](https://eczsc.com/originals/54)、[PDF编纂存档印刷p.125—127](https://xqdoc.imedao.com/15621999f6b25803feb29d4c.pdf#page=129)及规范[卷三PDF原有证据卡](../../../knowledge/evidence/chanlun_lesson054.json)。**“按作者标注节点逐步重放”不等于真实市场逐分钟的as-of回放**：没有全部1分钟及更低级别OHLC、没有作者完整后期分型笔线段算法，也未核对仓库规范PDF与外部图逐像素一致。`F01/OB38/OB99=OPEN`, 实盘实验`NOT_RUN`。
 
+**v4.29新原文对照结果**：[七份整理文本对照、R1/R2端点修复及单价中枢作者回帖研究](LESSON54_EQUATION_VARIANTS_AND_ONE_PRICE_CENTER_AUTHORITY.md)表明，`g0g3`保存版之外确有2022年整理版直接写`g0d3`，2020年整理版写`g0g3(d3?)`；新找到的[完整文章与作者回帖归档](https://chzhshch.blog/stocks/054/)仍写`g0g3`。因此本篇先前的`APPARENT_ENDPOINT_MISMATCH`并未被“作者已经正式勘误”替代；在d3当下语境中`g0d3`是更合逻辑的**编辑规范化候选**，而非已认证的作者原笔字样。旧机器日志的`allowed_correction_claim=null`不变。
+
 ## 1. 这次研究对象的精确类型
 
 我们有三种完全不同的“时间”：
