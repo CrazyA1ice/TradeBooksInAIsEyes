@@ -23,7 +23,8 @@ def audit(root=ROOT):
         assert set(step)=={"id","title","role","evidence","author_cue","proof_requirement","non_entailment","validation"}
         assert step["role"].startswith("AI_SYNTHESIS_OF_")
         assert step["validation"]==CUES
-        for k in ("title","author_cue","proof_requirement","non_entailment"):
+        assert isinstance(step["title"],str) and len(step["title"].strip())>=4,(step["id"],"title")
+        for k in ("author_cue","proof_requirement","non_entailment"):
             assert isinstance(step[k],str) and len(step[k].strip())>=10,(step["id"],k)
         assert step["evidence"] and len({(a["lesson"],a["claim_id"]) for a in step["evidence"]})==len(step["evidence"])
         for a in step["evidence"]:
