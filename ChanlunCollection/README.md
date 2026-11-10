@@ -4,6 +4,9 @@
 
 ## 先从哪里读？
 
+**最新研究：从有限合成特征实际生成候选**：[第67/71课G01候选与G05所有允许切分枚举](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_LOCAL_CANDIDATE_GENERATORS.md)。
+
+
 **最新研究：G01/G05证据资格**：[严格特征序列身份、可知时点和候选切分角色](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_EVIDENCE_ELIGIBILITY.md)。
 
 
