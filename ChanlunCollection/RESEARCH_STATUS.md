@@ -1,6 +1,6 @@
 # 《缠论》五卷108课｜当前研究状态与未完成关口
 
-**查询时点：** 2026-11-09。研究稿已覆盖五卷第1—108课；当前收据以GitHub主分支及[本书逐课逻辑地图](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md)、[来源索引](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_SOURCE_ATLAS.md)为准。**研究覆盖完成不等于全部数学证明完成。**
+**查询时点：** 2026-11-10。研究稿已覆盖五卷第1—108课；当前收据以GitHub主分支及[本书逐课逻辑地图](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md)、[来源索引](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_SOURCE_ATLAS.md)为准。**研究覆盖完成不等于全部数学证明完成。**
 
 | 范围 | 状态 | 回查资料 |
 |---|---|---|
@@ -19,7 +19,9 @@
 | **OB99-EXIST/LOCATION** | **BLOCKED**：全部合法未来路径有限时间高层中枢与首次位置待证 | 同上 |
 | **F08 三类点到实际收益** | **NOT_RUN**：真实行情、成交、交易成本/样本外检验均未运行 | `experiments/`（仅研究计划和合成例） |
 
-**当前v4.24.0局部候选生成研究**：新增[第67/71课局部候选生成和G05外部准入表穷举](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_LOCAL_CANDIDATE_GENERATORS.md)，共11个可复现案例，作者完整分解语法与F01/OB38仍OPEN，图像行情NOT_RUN。
+**当前v4.25.0整书读者闭环**：新增[108课作者时序/构件依赖双地图、七环逻辑及八步带WAIT/OPEN门槛演练](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_READER_CONCEPTUAL_CLOSURE.md)。**读者级内容脉络已可完整追踪**，但原作者严格理论证明、全部插图编注终审和真实行情实证未完成，F01—F08/OB38/OB99继续OPEN、NOT_RUN。
+
+**此前v4.24.0局部候选生成研究**：新增[第67/71课局部候选生成和G05外部准入表穷举](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_LOCAL_CANDIDATE_GENERATORS.md)，共11个可复现案例，作者完整分解语法与F01/OB38仍OPEN，图像行情NOT_RUN。
 
 **此前v4.23.0输入证据资格研究**：新增[严格特征身份、时点和分解候选来源的11个边界情境](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_EVIDENCE_ELIGIBILITY.md)，来源数据`catalog/chanlun_g01_g05_evidence_eligibility_v1.json`；依然只是局部资格检查，不证明完整作者规则，F01/OB38继续OPEN。
 
