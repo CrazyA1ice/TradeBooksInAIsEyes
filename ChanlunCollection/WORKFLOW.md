@@ -1,4 +1,4 @@
-# ChanlunCollection｜本书实施工作流 v4.13.0
+# ChanlunCollection｜本书实施工作流 v4.14.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
 
@@ -33,6 +33,8 @@
 **步骤2.16（v4.12.0）**：先提炼跨课规律和方法论卡；记录SOURCE课号/证据卡、AI规律归纳、具体方法、限制与关联节点。首批见`catalog/chanlun_author_law_cards_v1.json`及`deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAW_CARDS_INDEX.md`，不冒称已证规律。不识图、不回测。
 
 **步骤2.17（v4.13.0）**：运行`python -B tools/audit_chanlun_author_law_cards.py`与`python -B -m unittest discover -s tests -p test_chanlun_author_law_cards.py -v`，按来源课号、证据文件、关联卡ID、来源身份及未实证边界逐条拒绝错误；GitHub Actions自动审核，不进行图像或行情检验。
+
+**步骤2.18（v4.14.0）**：对重点规律卡建立`source_assertions`：逐条绑定作者SOURCE编号、原PDF物理页、研究者解释与未重新核PDF的验证边界。审计工具拒绝错ID、错页及非SOURCE角色。此轮8卡27锚点，未完成的4卡保留课级证据，不能伪称全覆盖。详见`catalog/chanlun_author_law_cards_v1.json`。
 
 **步骤3：更新规范成果。** 先修改根目录规范来源：`analyses/`、`knowledge/`、`catalog/`、`deliverables/`、`reports/`、`tools/`及`tests/`。相应更新全文研究报告、来源卡或[108课逻辑地图](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md)的源合同；不允许独改镜像并与规范源分叉。
 
