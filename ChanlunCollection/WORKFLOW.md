@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.25.0
+# ChanlunCollection｜本书实施工作流 v4.26.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.26.0 重点补充：原作者同图多解析／跨时代不同定义的证据审计。** 先核作者第54课同一张图在甲乙方案下不同中枢形成时钟与g7第三卖点结论，再分别对照15课高低点、17课中枢分类、35课最低递归、72课笔段及84课f1/f2。每个结果注明`AUTHOR_TEXT_ASSERTED`、`OPEN`、`RETROSPECTIVE_ONLY`或`INDEPENDENT_VERIFIED`。**不把第54课两种规则解读成第38课同一固定规则下的不唯一证明**，不把作者原图事后分析冒称逐笔实盘回测。见[具体同图研究](deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_SAME_CHART_TWO_PARSINGS_AND_CROSS_ERA_LEVELS.md)。
 
 **步骤0：确定问题和理论层级。** 先查[本书研究状态](RESEARCH_STATUS.md)，确保不将`SOURCE`/编者`EDITORIAL`/AI`INFERENCE`/待证`HYPOTHESIS`混成一类。明确这次是原文核对、逻辑推演、版本比较、内容提炼还是图证复核；不能未经用户同意重启回测。
 
