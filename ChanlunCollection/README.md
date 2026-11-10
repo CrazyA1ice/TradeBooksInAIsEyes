@@ -4,7 +4,7 @@
 
 ## 先从哪里读？
 
-**方法论主线新入口**：[12张规律如何连成13条解释性论证桥接](deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAWS_ARGUMENT_MAINLINE_V1.md)（含原SOURCE来源和不能推出的结论）。
+**方法论主线新入口**：[12张规律如何连成14条解释性论证桥接](deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAWS_ARGUMENT_MAINLINE_V1.md)（含原SOURCE来源和不能推出的结论）。
 
 
 **规律与方法论专用入口**：[第一批12张跨课规律卡](deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAW_CARDS_INDEX.md)，以课号和关联路径检索，不必从108课逐篇翻找。
