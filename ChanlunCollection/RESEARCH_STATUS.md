@@ -19,7 +19,9 @@
 | **OB99-EXIST/LOCATION** | **BLOCKED**：全部合法未来路径有限时间高层中枢与首次位置待证 | 同上 |
 | **F08 三类点到实际收益** | **NOT_RUN**：真实行情、成交、交易成本/样本外检验均未运行 | `experiments/`（仅研究计划和合成例） |
 
-**当前v4.18.0原文逻辑资格研究**：新增[16条作者断言逻辑资格分类](deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_CLAIM_MODALITY_AND_CONDITIONS.md)及`catalog/chanlun_claim_modality_v1.json`，分清定义、必要条件、经验、条件分支、操作建议和未证强断言，保留编辑身份与反向检验。来源文字研究不等于证明或回测。
+**当前v4.19.0强命题量词和证明责任**：新增[第17、21、38、99课四项强命题的定义域、量词和六项非蕴含审查](deliverables/chanlun_108_acceptance/00_REVIEW/STRONG_THESES_QUANTIFIERS_AND_PROOF_GAPS.md)，机器数据`catalog/chanlun_strong_theses_proof_map_v1.json`。强断言≠已证，F01/OB38/OB99继续OPEN，NOT_RUN。
+
+**此前v4.18.0原文逻辑资格研究**：新增[16条作者断言逻辑资格分类](deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_CLAIM_MODALITY_AND_CONDITIONS.md)及`catalog/chanlun_claim_modality_v1.json`，分清定义、必要条件、经验、条件分支、操作建议和未证强断言，保留编辑身份与反向检验。来源文字研究不等于证明或回测。
 
 **此前v4.17.0四组跨课版本对照**：新增[中枢演化、背驰、第三类点、多级别资金四组专题研究](deliverables/chanlun_108_acceptance/00_REVIEW/FOUR_CORE_CROSS_VERSION_METHOD_CONTRAST.md)，对照36次已有SOURCE论断，并标识编者后注与作者原课的角色区别；仅文字研究，未重读所有原PDF，NOT_RUN。
 
