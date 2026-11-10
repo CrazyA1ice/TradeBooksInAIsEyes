@@ -4,6 +4,9 @@
 
 ## 先从哪里读？
 
+**本轮G01/G05具体情境研究**：[最低级别构件认证和分解唯一性的十个条件性边界案例](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_CONDITIONAL_WITNESS_STUDY.md)。
+
+
 **本轮最新深读**：[最低级别基例、合法次级走势、中枢递归与同级分解唯一性的构造证明链](deliverables/chanlun_108_acceptance/00_REVIEW/RECURSIVE_CONSTRUCTION_TO_UNIQUENESS_PROOF_CHAIN.md)。
 
 
