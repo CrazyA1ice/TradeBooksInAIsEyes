@@ -3,8 +3,11 @@ on:
   pull_request:
     paths:
       - 'catalog/chanlun_author_law_cards_v1.json'
+      - 'catalog/chanlun_author_law_argument_bridges_v1.json'
       - 'tools/audit_chanlun_author_law_cards.py'
+      - 'tools/audit_chanlun_law_argument_bridges.py'
       - 'tests/test_chanlun_author_law_cards.py'
+      - 'tests/test_chanlun_law_argument_bridges.py'
       - '.github/workflows/chanlun-author-law-cards.yml'
       - 'ChanlunCollection/**'
   workflow_dispatch:
@@ -18,5 +21,9 @@ jobs:
           python-version: '3.11'
       - name: Validate linked cards against the real source files
         run: python -B tools/audit_chanlun_author_law_cards.py
-      - name: Fail-closed unit tests
+      - name: Validate cross-card bridges and evidence identities
+        run: python -B tools/audit_chanlun_law_argument_bridges.py
+      - name: Fail-closed card unit tests
         run: python -B -m unittest discover -s tests -p 'test_chanlun_author_law_cards.py' -v
+      - name: Fail-closed argument-bridge tests
+        run: python -B -m unittest discover -s tests -p 'test_chanlun_law_argument_bridges.py' -v
