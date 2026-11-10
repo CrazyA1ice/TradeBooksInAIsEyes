@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.20.0",
-  "source_count": 823,
+  "workflow_version": "4.21.0",
+  "source_count": 827,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -38,8 +38,8 @@
     {
       "source_path": ".github/workflows/chanlun-author-law-cards.yml",
       "mirror_path": "ChanlunCollection/.github/workflows/chanlun-author-law-cards.yml",
-      "git_blob_sha": "d7119df15d1ad45811b2a7435970ab71af7fbe1c",
-      "size_bytes": 2988
+      "git_blob_sha": "2f804d647c6af7e4fe2815be809620f093b4f7c9",
+      "size_bytes": 3450
     },
     {
       "source_path": ".github/workflows/chanlun-bridge-native-text.yml",
@@ -1374,6 +1374,12 @@
       "size_bytes": 9761
     },
     {
+      "source_path": "catalog/chanlun_g01_g05_conditional_witnesses_v1.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun_g01_g05_conditional_witnesses_v1.json",
+      "git_blob_sha": "2724371799797923194096029955b8556ede03a8",
+      "size_bytes": 9228
+    },
+    {
       "source_path": "catalog/chanlun_lesson035_terminal_comparison_v1.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_lesson035_terminal_comparison_v1.json",
       "git_blob_sha": "a6ffe3b4699250b9a83e51ab9b070f2d481822f2",
@@ -1598,8 +1604,8 @@
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAW_CARDS_INDEX.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAW_CARDS_INDEX.md",
-      "git_blob_sha": "17465909935be248c3f3e28d99f77750ad3d409a",
-      "size_bytes": 3581
+      "git_blob_sha": "e28cdac52d964b2e0d3b949ef03bb42863f5dc4a",
+      "size_bytes": 3744
     },
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_MARKET_LAWS_AND_METHOD_MAINLINE.md",
@@ -1648,6 +1654,12 @@
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/FOUR_CORE_CROSS_VERSION_METHOD_CONTRAST.md",
       "git_blob_sha": "8a7cabc1a6f80cf7ec826f2e46ab6ba3eee9c87d",
       "size_bytes": 11289
+    },
+    {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_CONDITIONAL_WITNESS_STUDY.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_CONDITIONAL_WITNESS_STUDY.md",
+      "git_blob_sha": "a68b7c6cb4484671557263dd6c1aff8aa5387263",
+      "size_bytes": 7594
     },
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/ISSUE69_F01_SOURCE_BOUNDARY_WORKING_NOTE.md",
@@ -1988,8 +2000,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "919b2a78cb7f207d9fb6ab980a93703c45935628",
-      "size_bytes": 56551
+      "git_blob_sha": "298ee9f14c609ab476d0d34f8d0cd8a28828b0ba",
+      "size_bytes": 57370
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -3516,6 +3528,12 @@
       "size_bytes": 6520
     },
     {
+      "source_path": "tests/test_chanlun_g01_g05_witnesses.py",
+      "mirror_path": "ChanlunCollection/tests/test_chanlun_g01_g05_witnesses.py",
+      "git_blob_sha": "527cfdfbf9676179ea411cf140385ae76adefad1",
+      "size_bytes": 2656
+    },
+    {
       "source_path": "tests/test_chanlun_incremental_events_v2.py",
       "mirror_path": "ChanlunCollection/tests/test_chanlun_incremental_events_v2.py",
       "git_blob_sha": "30b4471d24e41512cedc1a8c769a491c58a9e815",
@@ -4174,6 +4192,12 @@
       "mirror_path": "ChanlunCollection/tools/audit_chanlun_fullbook_logical_spine.py",
       "git_blob_sha": "a7d8e08bbe806dd7789325a362037c8f08d29697",
       "size_bytes": 16537
+    },
+    {
+      "source_path": "tools/audit_chanlun_g01_g05_witnesses.py",
+      "mirror_path": "ChanlunCollection/tools/audit_chanlun_g01_g05_witnesses.py",
+      "git_blob_sha": "75d72090540f69af15847861ae32f4a9d176f46e",
+      "size_bytes": 4139
     },
     {
       "source_path": "tools/audit_chanlun_incremental_witnesses_v2.py",
