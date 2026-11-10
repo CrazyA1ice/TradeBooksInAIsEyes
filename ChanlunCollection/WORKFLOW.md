@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.30.0
+# ChanlunCollection｜本书实施工作流 v4.31.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.31.0 重点补充：2007年作者答疑的走势退出条件与逐级无循环完成证书。** 已核对2007-08-21 16:20:01作者关于盘整第三类点与趋势本级背驰后回拉的**另文评论转载**，并校正某些教学材料误标“第72课正文”的归属（第72课正文同日22:37:20才发表）。同期16:27:28及17:02:26作者补答“笔破坏与线段破坏不是等价事件”；2007-05-09作者答疑还强调C2回试没结束时不能提前宣称三买。审核原则：盘整完成的三类点必须先有合法中枢和**完整的下级离开、首次回试走势**及第20课边界；趋势结束则须该级别背驰和其后实际回拉。分开历史拐点与首次可认证时刻，禁止把退出事件倒过来证明它自己依赖的下级回试已经完成。相关[新研究](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_AUTHOR_REPLY_COMPLETION_EXIT_EVENTS_AND_NONCIRCULAR_PROOFS.md)、`catalog/chanlun_author_completion_event_witnesses_v1.json`和源码闸门；未取得新浪原回帖字节、原始行情或完整解析器，`F01/OB38/OB99=OPEN`，`NOT_RUN`。
 
 **v4.30.0 重点补充：同名线段的跨课有类型准入。** 第53课完成低层走势从上层视角可视为无内部结构的线、第54课则把子一分钟g/d段**预设为此种抽象线**，不能直接声称它们是第67/71/78课以后经过笔/特征序列/缺口/合法破坏认证的严格线段。第83课使用严格线段构成最小中枢也不自动证明第18课要求的**完成次级走势类型**。新增[原作者来源锚定的桥梁矩阵](deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_F1_F2_COMPONENT_ADMISSION_AND_UNPROVEN_BRIDGES.md)、`catalog/chanlun_l54_f1_f2_typed_bridge_v1.json`和防误升级审核脚本、13项回归测试。特别注意第38课允许各级别不同连接政策、84课f1与f2可不同：不冻结双轴，不宣称分解等价。历史原图后发重构只作RETROSPECTIVE。F01/OB38 OPEN、行情NOT_RUN。
 
