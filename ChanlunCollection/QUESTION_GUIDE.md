@@ -1,5 +1,7 @@
 # 如何用ChanlunCollection向AI询问《缠论》 
 
+**询问G01类型状态转换、G05平局政策或是否已证明唯一性时**：优先查看[有类型规则契约与规范化边界](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_TYPED_RULE_CONTRACT_AND_NORMALIZATION.md)以及`catalog/chanlun_g01_g05_typed_rule_contract_v1.json`，严格区分作者SOURCE约束和AI编写的政策。
+
 **询问G01/G05边界情况与能否从有限假设推出作者证明时**：先看[十个可复现的合成条件情境](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_CONDITIONAL_WITNESS_STUDY.md)，以及`catalog/chanlun_g01_g05_conditional_witnesses_v1.json`，特别区别原作者规则认证和AI外部假设。
 
 **研究递归如何构造及唯一性是否真的证明时**：先读[九步构造性证明路线和六处OPEN接口](deliverables/chanlun_108_acceptance/00_REVIEW/RECURSIVE_CONSTRUCTION_TO_UNIQUENESS_PROOF_CHAIN.md)，结合`catalog/chanlun_recursive_construction_proof_chain_v1.json`核对作者SOURCE证据、时间完成条件和逻辑缺口。

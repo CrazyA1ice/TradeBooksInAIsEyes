@@ -1,0 +1,363 @@
+{
+  "schema_version": 1,
+  "book": "chanlun",
+  "scope": "FINITE_ASSUMPTION_TYPED_TRANSITION_AND_NORMALIZATION_PRECONDITIONS_NOT_FULL_CHANLUN",
+  "role": "AI_RESEARCH_CONTRACT_NOT_AUTHOR_CERTIFICATION",
+  "prior_contracts": [
+    "catalog/chanlun_f01_typed_completion_obligations_v1.json",
+    "catalog/chanlun_f01_segment_termination_reconciliation_v1.json",
+    "catalog/chanlun_g01_g05_conditional_witnesses_v1.json",
+    "catalog/chanlun_rule_history_v1.json"
+  ],
+  "evidence": {
+    "G01": [
+      {
+        "lesson": 67,
+        "claim_id": "CL67-SOURCE-3",
+        "pages": [
+          388,
+          389
+        ]
+      },
+      {
+        "lesson": 67,
+        "claim_id": "CL67-SOURCE-4",
+        "pages": [
+          389
+        ]
+      },
+      {
+        "lesson": 71,
+        "claim_id": "CL71-SOURCE-1",
+        "pages": [
+          71
+        ]
+      },
+      {
+        "lesson": 71,
+        "claim_id": "CL71-SOURCE-2",
+        "pages": [
+          71
+        ]
+      },
+      {
+        "lesson": 78,
+        "claim_id": "CL78-SOURCE-1",
+        "pages": [
+          174
+        ]
+      },
+      {
+        "lesson": 78,
+        "claim_id": "CL78-SOURCE-2",
+        "pages": [
+          175
+        ]
+      },
+      {
+        "lesson": 18,
+        "claim_id": "CL018-S07",
+        "pages": [
+          235
+        ]
+      }
+    ],
+    "G05": [
+      {
+        "lesson": 35,
+        "claim_id": "CL35-SO-4",
+        "pages": [
+          292
+        ]
+      },
+      {
+        "lesson": 38,
+        "claim_id": "CL38-SOURCE-1",
+        "pages": [
+          338
+        ]
+      },
+      {
+        "lesson": 38,
+        "claim_id": "CL38-SOURCE-2",
+        "pages": [
+          338,
+          339
+        ]
+      },
+      {
+        "lesson": 33,
+        "claim_id": "CL33-SO-1",
+        "pages": [
+          256
+        ]
+      },
+      {
+        "lesson": 102,
+        "claim_id": "CL102-SOURCE-1",
+        "pages": [
+          241
+        ]
+      }
+    ]
+  },
+  "g01_contract": {
+    "external_inputs": [
+      "strict_feature_membership",
+      "local_l67_pattern",
+      "gap_branch",
+      "opposite_fractal_confirmed_at",
+      "opposite_segment_legality_assumed_at",
+      "as_of",
+      "rule_version"
+    ],
+    "states": [
+      "INVALID_FEATURE_SCOPE",
+      "PENDING_LOCAL_PATTERN",
+      "PENDING_GAP_OPPOSITE_FRACTAL",
+      "LOCAL_PATTERN_ONLY",
+      "PENDING_LEGAL_REVERSE_SEGMENT",
+      "EXTERNAL_REVERSE_SEGMENT_ASSUMED_NOT_FINISHED_LOWER_TYPE"
+    ],
+    "prohibited_outputs": [
+      "AUTHOR_AUTHENTICATED_FINISHED_CHILD",
+      "FINISHED_LOWER_TREND",
+      "PARENT_COMPLETE",
+      "F01_PROVEN"
+    ],
+    "identity_note": "External opposite-segment assumptions can support a conditional gate only; neither local fractals nor an asserted reverse segment authenticate an entire completed child type. They do not certify a completed lower-level trend or an authenticated author segment."
+  },
+  "g05_contract": {
+    "external_inputs": [
+      "rule_version",
+      "input_complete",
+      "candidate_cutpoints",
+      "tie_policy"
+    ],
+    "tie_policy": [
+      "UNSPECIFIED",
+      "LEXICOGRAPHIC_AI_ONLY"
+    ],
+    "states": [
+      "WAIT_COMPLETE_INPUT",
+      "NO_CANDIDATE_EXISTENCE_OPEN",
+      "ONE_ASSUMED_PARSE_NO_UNIVERSAL_PROOF",
+      "MULTIPLE_ASSUMED_PARSES_UNRESOLVED",
+      "AI_ONLY_DETERMINISTIC_SELECTION_NOT_AUTHOR_UNIQUENESS"
+    ],
+    "prohibited_outputs": [
+      "OB38_PROVEN",
+      "AUTHOR_UNIQUE_NORMAL_FORM",
+      "UNIVERSAL_CONFLUENCE"
+    ],
+    "identity_note": "Tie-selection is explicitly an AI-only deterministic convention, not a rule found in the author's text or a proof of confluence."
+  },
+  "cases": [
+    {
+      "id": "G01-T01",
+      "gate": "G01",
+      "scenario": "严格特征序列身份不成立，局部分型不能作为合法构件证据。",
+      "input": {
+        "rule_version": "TEXTUAL_67_71_78",
+        "strict_feature_membership": false,
+        "local_l67_pattern": true,
+        "gap_branch": false,
+        "opposite_fractal_confirmed_at": null,
+        "opposite_segment_legality_assumed_at": null,
+        "as_of": 10
+      },
+      "expected": "INVALID_FEATURE_SCOPE"
+    },
+    {
+      "id": "G01-T02",
+      "gate": "G01",
+      "scenario": "无缺口情景仍没有局部作者条件，状态保持未定。",
+      "input": {
+        "rule_version": "TEXTUAL_67_71_78",
+        "strict_feature_membership": true,
+        "local_l67_pattern": false,
+        "gap_branch": false,
+        "opposite_fractal_confirmed_at": null,
+        "opposite_segment_legality_assumed_at": null,
+        "as_of": 10
+      },
+      "expected": "PENDING_LOCAL_PATTERN"
+    },
+    {
+      "id": "G01-T03",
+      "gate": "G01",
+      "scenario": "有缺口但反向分型尚未在当前时点确认，不能提前使用未来材料。",
+      "input": {
+        "rule_version": "TEXTUAL_67_71_78",
+        "strict_feature_membership": true,
+        "local_l67_pattern": true,
+        "gap_branch": true,
+        "opposite_fractal_confirmed_at": 12,
+        "opposite_segment_legality_assumed_at": null,
+        "as_of": 10
+      },
+      "expected": "PENDING_GAP_OPPOSITE_FRACTAL"
+    },
+    {
+      "id": "G01-T04",
+      "gate": "G01",
+      "scenario": "无缺口局部条件已经呈现，但缺独立合法反向线段证明。",
+      "input": {
+        "rule_version": "TEXTUAL_67_71_78",
+        "strict_feature_membership": true,
+        "local_l67_pattern": true,
+        "gap_branch": false,
+        "opposite_fractal_confirmed_at": null,
+        "opposite_segment_legality_assumed_at": null,
+        "as_of": 10
+      },
+      "expected": "LOCAL_PATTERN_ONLY"
+    },
+    {
+      "id": "G01-T05",
+      "gate": "G01",
+      "scenario": "有缺口且反向分型已被外部声明，仍须等待合法反向线段。",
+      "input": {
+        "rule_version": "TEXTUAL_67_71_78",
+        "strict_feature_membership": true,
+        "local_l67_pattern": true,
+        "gap_branch": true,
+        "opposite_fractal_confirmed_at": 8,
+        "opposite_segment_legality_assumed_at": null,
+        "as_of": 10
+      },
+      "expected": "PENDING_LEGAL_REVERSE_SEGMENT"
+    },
+    {
+      "id": "G01-T06",
+      "gate": "G01",
+      "scenario": "合法反向线段仅以外部假设提供，不产生完整次级走势证明。",
+      "input": {
+        "rule_version": "TEXTUAL_67_71_78",
+        "strict_feature_membership": true,
+        "local_l67_pattern": true,
+        "gap_branch": true,
+        "opposite_fractal_confirmed_at": 8,
+        "opposite_segment_legality_assumed_at": 9,
+        "as_of": 10
+      },
+      "expected": "EXTERNAL_REVERSE_SEGMENT_ASSUMED_NOT_FINISHED_LOWER_TYPE"
+    },
+    {
+      "id": "G05-T01",
+      "gate": "G05",
+      "scenario": "输入历史尚未完成，最终切分规范型不得提前锁定。",
+      "input": {
+        "rule_version": "R_STUDY_A",
+        "input_complete": false,
+        "candidate_cutpoints": [
+          [
+            2,
+            4
+          ]
+        ],
+        "tie_policy": "UNSPECIFIED"
+      },
+      "expected": "WAIT_COMPLETE_INPUT"
+    },
+    {
+      "id": "G05-T02",
+      "gate": "G05",
+      "scenario": "即使假设连接结合律成立，没有候选分解仍缺存在性证明。",
+      "input": {
+        "rule_version": "R_STUDY_A",
+        "input_complete": true,
+        "candidate_cutpoints": [],
+        "tie_policy": "UNSPECIFIED"
+      },
+      "expected": "NO_CANDIDATE_EXISTENCE_OPEN"
+    },
+    {
+      "id": "G05-T03",
+      "gate": "G05",
+      "scenario": "单一假定合法分解不能推出所有输入唯一。",
+      "input": {
+        "rule_version": "R_STUDY_A",
+        "input_complete": true,
+        "candidate_cutpoints": [
+          [
+            2,
+            4
+          ]
+        ],
+        "tie_policy": "UNSPECIFIED"
+      },
+      "expected": "ONE_ASSUMED_PARSE_NO_UNIVERSAL_PROOF"
+    },
+    {
+      "id": "G05-T04",
+      "gate": "G05",
+      "scenario": "同规则存在两个外部假定的不同切分，在没有裁决政策时保持冲突。",
+      "input": {
+        "rule_version": "R_STUDY_A",
+        "input_complete": true,
+        "candidate_cutpoints": [
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "tie_policy": "UNSPECIFIED"
+      },
+      "expected": "MULTIPLE_ASSUMED_PARSES_UNRESOLVED"
+    },
+    {
+      "id": "G05-T05",
+      "gate": "G05",
+      "scenario": "AI明确采用词典序平局裁决后只得到确定性程序选择，不代表作者唯一性。",
+      "input": {
+        "rule_version": "R_STUDY_A",
+        "input_complete": true,
+        "candidate_cutpoints": [
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "tie_policy": "LEXICOGRAPHIC_AI_ONLY"
+      },
+      "expected": "AI_ONLY_DETERMINISTIC_SELECTION_NOT_AUTHOR_UNIQUENESS",
+      "ai_selected": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": "G05-T06",
+      "gate": "G05",
+      "scenario": "两个候选的分界点实际相同，不因重复表示产生非唯一。",
+      "input": {
+        "rule_version": "R_STUDY_A",
+        "input_complete": true,
+        "candidate_cutpoints": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "tie_policy": "UNSPECIFIED"
+      },
+      "expected": "ONE_ASSUMED_PARSE_NO_UNIVERSAL_PROOF"
+    }
+  ],
+  "proof_status": "OPEN",
+  "market_backtest": "NOT_RUN",
+  "image_review": "NOT_RUN"
+}

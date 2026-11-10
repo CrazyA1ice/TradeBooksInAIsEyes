@@ -1,4 +1,4 @@
-# ChanlunCollection｜本书实施工作流 v4.21.0
+# ChanlunCollection｜本书实施工作流 v4.22.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
 
@@ -49,6 +49,8 @@
 **步骤2.24（v4.20.0）**：从第35课的递归定义循环问题/最低交易基例出发，逐环接第17/18课中枢和走势类型、第67/71/78课合法线段完成，以及第38课固定规范唯一性强主张。九个步骤、六条证明缺口均绑定已有SOURCE编号、物理页、AI解释和不可推结论；G01与G05优先继续。成果见`catalog/chanlun_recursive_construction_proof_chain_v1.json`、`RECURSIVE_CONSTRUCTION_TO_UNIQUENESS_PROOF_CHAIN.md`，新增专用CI审计。不得把结合律/最低门槛冒充唯一性或实时完成证明。
 
 **步骤2.25（v4.21.0）**：对G01最低中枢到完整次级构件与G05结合律到唯一规范分解设置10个合成前提情境及状态判别。每例必须明确原书合法性未认证、规则和时刻，以及哪些结论不能推出；审计来源真实SOURCE编号/物理页并拒绝伪造证明状态。成果见`catalog/chanlun_g01_g05_conditional_witnesses_v1.json`、`G01_G05_CONDITIONAL_WITNESS_STUDY.md`和专项CI；无需用户手动核验。此步仅有限解释模型，F01/OB38保持OPEN。
+
+**步骤2.26（v4.22.0）**：对G01特征/缺口/反向线段状态和G05完整输入/切分冲突/AI限定平局规则分别建立可执行有类型契约，12个合成情境，12次已有SOURCE锚点，所有输出必须保持条件性和未证。AI字典序政策与作者原文严格分离，不能以确定性程序输出冒称OB38数学唯一性。详见`catalog/chanlun_g01_g05_typed_rule_contract_v1.json`及`G01_G05_TYPED_RULE_CONTRACT_AND_NORMALIZATION.md`，配套CI。F01/OB38继续OPEN。
 
 **步骤3：更新规范成果。** 先修改根目录规范来源：`analyses/`、`knowledge/`、`catalog/`、`deliverables/`、`reports/`、`tools/`及`tests/`。相应更新全文研究报告、来源卡或[108课逻辑地图](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md)的源合同；不允许独改镜像并与规范源分叉。
 
