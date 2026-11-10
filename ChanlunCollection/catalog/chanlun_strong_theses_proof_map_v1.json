@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "book": "chanlun",
+  "scope": "EXISTING_TEXT_SOURCE_CARDS_NOT_FRESH_PDF_RECHECK",
+  "research_role": "AI_PROOF_OBLIGATION_MAP_NOT_FORMAL_THEOREM",
+  "market_backtest": "NOT_RUN",
+  "image_review": "NOT_RUN",
+  "theses": [
+    {
+      "id": "CL-THESIS-17",
+      "name": "走势终完美：最终结构性归类",
+      "source": [
+        {
+          "lesson": 17,
+          "claim_id": "CL017-S01",
+          "pages": [
+            196,
+            197
+          ]
+        },
+        {
+          "lesson": 17,
+          "claim_id": "CL017-S03",
+          "pages": [
+            197,
+            198
+          ]
+        },
+        {
+          "lesson": 18,
+          "claim_id": "CL018-S07",
+          "pages": [
+            235
+          ]
+        },
+        {
+          "lesson": 35,
+          "claim_id": "CL35-SO-2",
+          "pages": [
+            291
+          ]
+        }
+      ],
+      "domain": "指定作者规则版本下有合法最低级别基例、可递归构件及级别身份的走势；整体对象或已完成对象需与任一当下历史前缀分开。",
+      "quantifier": "作者以普遍原理方式描述走势最终可被结构类型解释；全域量化形式是AI研究重建，作者文字不是已提供机器可验证的全域语法。",
+      "candidate_formula": "FOR_ALL admissible completed走势 X: structural_type_Rg(X) in {盘整,趋势} (AI proposed schema, not author-exact theorem)",
+      "required_inputs": [
+        "固定级别g与分解规则版本Rg",
+        "最低级别基例与递归合法成员",
+        "走势何时完整及当时能否确认的独立判据"
+      ],
+      "author_reasoning": "第17课提出走势终完美及走势类型；第35课处理自指的最低级别基例；第18课强调满足最低门槛并不意味着实时终结。",
+      "open_obligations": [
+        "完整合法走势的归纳域和终止条件尚未封闭",
+        "F01从笔/线段到可递归使用的完整次级走势仍OPEN",
+        "是否要求无穷长未来或只涉及已完成有限走势，需要限定"
+      ],
+      "cannot_derive": "无法从最终可归类直接推出每一未完成前缀可唯一归类、下一刻涨跌或任何真实市场盈利。",
+      "status": "AUTHOR_STRONG_CLAIM_WITH_OPEN_FORMAL_PROOF"
+    },
+    {
+      "id": "CL-THESIS-21",
+      "name": "三类买卖点完备性与绝对安全",
+      "source": [
+        {
+          "lesson": 17,
+          "claim_id": "CL017-S04",
+          "pages": [
+            198
+          ]
+        },
+        {
+          "lesson": 20,
+          "claim_id": "CL020-S03",
+          "pages": [
+            247
+          ]
+        },
+        {
+          "lesson": 20,
+          "claim_id": "CL020-S04",
+          "pages": [
+            247
+          ]
+        },
+        {
+          "lesson": 21,
+          "claim_id": "CL021-S01",
+          "pages": [
+            253
+          ]
+        },
+        {
+          "lesson": 21,
+          "claim_id": "CL021-S03",
+          "pages": [
+            254
+          ]
+        },
+        {
+          "lesson": 44,
+          "claim_id": "CL44-SOURCE-2",
+          "pages": [
+            17
+          ]
+        },
+        {
+          "lesson": 92,
+          "claim_id": "CL92-SOURCE-2",
+          "pages": [
+            94
+          ]
+        }
+      ],
+      "domain": "必须限定级别、走势完成证据、买卖点定义、允许的路径及是否讨论理论结构位置或现实可执行交易。",
+      "quantifier": "作者将三类点作为完备和安全的强陈述；形式化完备应检查每个合格结构机会是否至少能归入三类之一，安全应另外定义风险/收益谓词。",
+      "candidate_formula": "COMPLETENESS: FOR_ALL qualified structure opportunity p: EXISTS class c in {1,2,3} such that defined_Rg(c,p); SAFETY requires an independent payoff predicate, not derived from class membership",
+      "required_inputs": [
+        "三类点无循环的定义和互斥/重叠政策",
+        "首次回试与完成时钟、区间边界包含等号策略",
+        "交易成本、涨跌停、T+1和实际成交约束必须与结构命题分开"
+      ],
+      "author_reasoning": "第21课直接提出完备与安全的主张；第20课规定第三类点依赖次级离开和首次回试并承认后续高级别盘整；第92课提醒中枢监视指标越界不充分产生第三类点。",
+      "open_obligations": [
+        "买卖点三类穷尽所有合格机会的量词域不明确",
+        "候选结构首次可知、可成交及真实成本没有对应证明",
+        "绝对安全的收益函数、市场路径和执行约束未给出可核证明"
+      ],
+      "cannot_derive": "三类点有作者定义不推出绝对安全；必要条件或候选回试不能推成充分确认；第44课条件明确非充分。",
+      "status": "AUTHOR_STRONG_CLAIM_WITH_OPEN_FORMAL_AND_EMPIRICAL_PROOF"
+    },
+    {
+      "id": "CL-THESIS-38",
+      "name": "固定同级别规则下规范分解唯一性",
+      "source": [
+        {
+          "lesson": 33,
+          "claim_id": "CL33-SO-1",
+          "pages": [
+            256
+          ]
+        },
+        {
+          "lesson": 33,
+          "claim_id": "CL33-SO-3",
+          "pages": [
+            257
+          ]
+        },
+        {
+          "lesson": 35,
+          "claim_id": "CL35-SO-4",
+          "pages": [
+            292
+          ]
+        },
+        {
+          "lesson": 38,
+          "claim_id": "CL38-SOURCE-1",
+          "pages": [
+            338
+          ]
+        },
+        {
+          "lesson": 38,
+          "claim_id": "CL38-SOURCE-2",
+          "pages": [
+            338,
+            339
+          ]
+        },
+        {
+          "lesson": 102,
+          "claim_id": "CL102-SOURCE-1",
+          "pages": [
+            241
+          ]
+        }
+      ],
+      "domain": "相同级别g、相同明确规则Rg、相同合法输入历史与完整性状态，比较可接受切分的等价关系；不能跨规则版本或观察级别。",
+      "quantifier": "针对每一合法输入应该存在且仅存在一个规范切分（若该唯一性为作者强陈述的形式化目标）；存在证明与唯一性证明是两项独立义务。",
+      "candidate_formula": "FOR_ALL admissible H in D(g,Rg): EXISTS segmentation S such that valid_Rg(H,S) AND FOR_ALL S2 valid_Rg(H,S2): S2 equivalent_Rg S",
+      "required_inputs": [
+        "完整冻结的同级分解文法Rg及连接政策",
+        "终止/待定/局部新段的承认状态",
+        "等价关系、同级重组、最低级别基例与tie-breaking"
+      ],
+      "author_reasoning": "第33课承认不同观察或重组产生多义性；第35课讨论连接结合律不交换；第38课提出同级规则分解唯一；第102课用递归进位法类比。",
+      "open_obligations": [
+        "OB38存在性证明未完成",
+        "OB38唯一性证明与临界相等情形未完成",
+        "前缀H_t上的实时唯一性不由已完成历史唯一性自动推出"
+      ],
+      "cannot_derive": "级别不同的两种划分不是同固定规则唯一性反例；有结合律不推出唯一规范型；类比进位记数法不构成证明。",
+      "status": "AUTHOR_STRONG_CLAIM_WITH_OPEN_FORMAL_PROOF"
+    },
+    {
+      "id": "CL-THESIS-99",
+      "name": "完成后出现更高一级中枢的强必然主张",
+      "source": [
+        {
+          "lesson": 99,
+          "claim_id": "CL99-SOURCE-1",
+          "pages": [
+            202
+          ]
+        },
+        {
+          "lesson": 99,
+          "claim_id": "CL99-SOURCE-2",
+          "pages": [
+            202
+          ]
+        },
+        {
+          "lesson": 99,
+          "claim_id": "CL99-SOURCE-3",
+          "pages": [
+            202,
+            203
+          ]
+        },
+        {
+          "lesson": 99,
+          "claim_id": "CL99-SOURCE-4",
+          "pages": [
+            203
+          ]
+        }
+      ],
+      "domain": "第99课中阴/连接重组所采用的指定走势完成语境，前后走势的合法延伸集合，以及更高级别中枢的首次出现条件。",
+      "quantifier": "作者使用完成后更高一级中枢必然出现的强表述；需明确是所有无限合法未来、某些完整延伸还是特定复合走势。",
+      "candidate_formula": "FOR_ALL completed segment X AND FOR_ALL admissible future Y: eventually higher_level_center_Rg(X concatenated Y) (strongest reading, not established)",
+      "required_inputs": [
+        "无限/有限未来的合法域和延伸规则",
+        "新高级别中枢构件资格与首次成立时间",
+        "与第17课完成谓词、第38课固定规则切分能否并用的桥梁"
+      ],
+      "author_reasoning": "第99课引入中阴和重组路径，借连接结合律及中枢优先阐述更高一级中枢的后续可能性并提出强必然主张。",
+      "open_obligations": [
+        "OB99最强的所有合法未来量词未经证明",
+        "未来只是沿旧趋势延伸时能否满足高级别中枢形成条件尚未排除或定义",
+        "不能以走势终完美或结合律单独填补此证明"
+      ],
+      "cannot_derive": "走势终完美和重组结合律不自动推出任意未来必有高级别中枢；第99课是独立的更强命题。",
+      "status": "AUTHOR_STRONG_CLAIM_WITH_OPEN_FORMAL_PROOF"
+    }
+  ],
+  "relations": [
+    {
+      "id": "CL-PROOFREL-01",
+      "from": "CL-THESIS-17",
+      "to": "CL-THESIS-21",
+      "relation": "DOES_NOT_ENTAIL",
+      "reason": "最终结构可被类型化不能证明所有操作点均落入三类，更不能证明每次买卖安全。",
+      "missing": "还缺三类点穷尽证明、首次可知及收益风险语义。"
+    },
+    {
+      "id": "CL-PROOFREL-02",
+      "from": "CL-THESIS-17",
+      "to": "CL-THESIS-38",
+      "relation": "DOES_NOT_ENTAIL",
+      "reason": "走势能够归入盘整/趋势，不代表固定同级规范下仅存在一种合法切法。",
+      "missing": "还缺完整Rg、存在性及唯一性证明。"
+    },
+    {
+      "id": "CL-PROOFREL-03",
+      "from": "CL-THESIS-38",
+      "to": "CL-THESIS-21",
+      "relation": "DOES_NOT_ENTAIL",
+      "reason": "即使切分唯一，也不证明三类点的完备和安全或在当时可知。",
+      "missing": "还缺从分段到买卖点穷尽及执行的独立论证。"
+    },
+    {
+      "id": "CL-PROOFREL-04",
+      "from": "CL-THESIS-17",
+      "to": "CL-THESIS-99",
+      "relation": "DOES_NOT_ENTAIL",
+      "reason": "最终可归类的命题不强制每条合法未来延伸都形成更高一级中枢。",
+      "missing": "还缺完整未来延伸的域与必然高级中枢构造证明。"
+    },
+    {
+      "id": "CL-PROOFREL-05",
+      "from": "CL-THESIS-38",
+      "to": "CL-THESIS-99",
+      "relation": "DOES_NOT_ENTAIL",
+      "reason": "同级切分的存在唯一性与未来所有延伸的高级别事件不同。",
+      "missing": "未来量词域与高级别构件完成需要单独证明。"
+    },
+    {
+      "id": "CL-PROOFREL-06",
+      "from": "CL-THESIS-21",
+      "to": "CL-THESIS-99",
+      "relation": "NO_AUTHORED_PROOF_BRIDGE",
+      "reason": "三类点的识别与收益安全既不保证高级中枢形成，也不提供所有未来走势的覆盖证明。",
+      "missing": "二者是不同对象与不同量词的作者强断言。"
+    }
+  ]
+}
