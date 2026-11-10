@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "study_id": "CHANLUN-L54-EQUATION-EDITORIAL-STEMMA-V429",
+  "date": "2026-11-10",
+  "lesson": 54,
+  "source_root_sha256": "fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a",
+  "source_root_path": "ChineseBooks/缠论/缠论_卷3.pdf",
+  "author_article_date": "2007-05-24 01:37:31",
+  "research_status": "SECONDARY_TEXT_WITNESSES_RECONCILED_ORIGINAL_BLOG_POST_UNVERIFIED",
+  "original_sina_page_for_this_article_retrieved": false,
+  "source_family_independence_established": false,
+  "witnesses": [
+    {
+      "id": "W01-PDF-PRINT",
+      "category": "EARLY_REPRINT_PDF",
+      "url": "https://xqdoc.imedao.com/15621999f6b25803feb29d4c.pdf#page=130",
+      "pdf_printed_page": 126,
+      "pdf_zero_based_page_index": 129,
+      "readable_left_endpoint": "g0g3",
+      "readable_right_final_segment": "g2d3",
+      "annotated_as_correction": false,
+      "role": "PRESERVED_FORM_NOT_AUTHOR_ORIGINAL_AUTHENTICATED",
+      "evidence": "screen of PDF page index 129 verified the visible equation"
+    },
+    {
+      "id": "W02-ECZSC",
+      "category": "ONLINE_TEXT_REPRINT",
+      "url": "https://eczsc.com/originals/54",
+      "readable_left_endpoint": "g0g3",
+      "readable_right_final_segment": "g2d3",
+      "annotated_as_correction": false,
+      "role": "PRESERVED_FORM",
+      "evidence": "author-prose reprint, paragraph beginning 当行情发展到d3"
+    },
+    {
+      "id": "W03-CHANLUN108",
+      "category": "ONLINE_TEXT_REPRINT",
+      "url": "https://chanlun108.cn/chanzhongshuochan108ke/54",
+      "readable_left_endpoint": "g0g3",
+      "readable_right_final_segment": "g2d3",
+      "annotated_as_correction": false,
+      "role": "PRESERVED_FORM",
+      "evidence": "reprint shows g0g3"
+    },
+    {
+      "id": "W04-CHANSHI",
+      "category": "ONLINE_FORUM_REPRINT",
+      "url": "https://chanshi.vip/forum.php?mod=viewthread&tid=739",
+      "readable_left_endpoint": "g0g3",
+      "readable_right_final_segment": "g2d3",
+      "annotated_as_correction": false,
+      "role": "PRESERVED_FORM",
+      "evidence": "reprint of dated author article"
+    },
+    {
+      "id": "W05-FENGMR",
+      "category": "EDITED_ONLINE_REPRINT",
+      "url": "https://www.fengmr.com/cld54ka.html",
+      "page_published": "2022-05-03",
+      "readable_left_endpoint": "g0d3",
+      "readable_right_final_segment": "g2d3",
+      "annotated_as_correction": false,
+      "role": "SILENT_EDITORIAL_NORMALIZATION_NOT_PROVEN_AUTHOR_REVISION",
+      "evidence": "page directly prints g0d3; article also contains additional editor note about AO and pen/segment"
+    },
+    {
+      "id": "W06-TTYFP",
+      "category": "ANNOTATED_ONLINE_REPRINT",
+      "url": "https://www.ttyfp.com/chzhshch/16373.html",
+      "page_published": "2020-01-01",
+      "readable_left_endpoint": "g0g3(d3?)",
+      "readable_right_final_segment": "g2d3",
+      "annotated_as_correction": true,
+      "role": "EDITOR_QUESTION_NOT_AUTHOR_CORRECTION",
+      "evidence": "page prints g0g3(d3?) explicitly indicating d3 as possible alternative"
+    },
+    {
+      "id": "W07-CHZHSHCH-ARCHIVE",
+      "category": "BLOG_POST_AND_COMMENT_ARCHIVE",
+      "url": "https://chzhshch.blog/stocks/054/",
+      "readable_left_endpoint": "g0g3",
+      "readable_right_final_segment": "g2d3",
+      "annotated_as_correction": false,
+      "role": "PRESERVED_FORM_WITH_ARCHIVED_AUTHOR_REPLY_NOT_SINA_ORIGINAL",
+      "evidence": "Archived article shows preserved g0g3, and dated 2007-05-24 16:04:41 reply on the same archive page; original Sina bytes still unverified."
+    }
+  ],
+  "path_semantics": {
+    "starting_endpoint": "g0",
+    "right_hand_segments": [
+      "g0d1",
+      "d1g1",
+      "g1d2",
+      "d2g2",
+      "g2d3"
+    ],
+    "right_hand_last_endpoint": "d3",
+    "right_hand_chain_contiguous": true,
+    "original_displayed_left_end": "g3",
+    "normalized_candidate_left": "g0d3",
+    "possible_repairs": [
+      {
+        "id": "R1-LEFT-TO-D3",
+        "change": "replace displayed LHS g0g3 with g0d3",
+        "endpoints_aligned": true,
+        "stage_d3_compatible": true,
+        "editorial_inference": true,
+        "attested_in_witness": "W05-FENGMR",
+        "author_issued_erratum_verified": false
+      },
+      {
+        "id": "R2-APPEND-D3G3",
+        "change": "retain g0g3 but append +d3g3 to the RHS",
+        "endpoints_aligned": true,
+        "stage_d3_compatible": false,
+        "editorial_inference": true,
+        "attested_in_witness": null,
+        "author_issued_erratum_verified": false
+      }
+    ],
+    "cannot_claim_unique_author_intended_repair": true,
+    "cannot_claim_original_author_proved_endpoint_identity_as_printed": true,
+    "displayed_original_endpoints_match": false,
+    "independent_theorem_disproof_not_established": true
+  },
+  "edge_touching_center": {
+    "original_claim_location": "Lesson 54 online author-prose paragraph after first regrouping",
+    "author_prose_degenerate_center_symbolic": "[d1,g2]",
+    "premise": "d1=g2",
+    "center_overlap_price_count_under_author_text": "ONE_PRICE_POINT",
+    "author_reply_date": "2007-05-24 16:04:41",
+    "original_sina_comment_directly_verified": false,
+    "comment_archives": [
+      "https://chzhshch.blog/stocks/054/",
+      "https://yutao.org/philosophy/缠中说禅-教你炒股票-54/",
+      "https://blog.sina.com.cn/s/blog_4aeb5d150100kq9p.html"
+    ],
+    "author_reply_paraphrase": "Strictly a one-price overlap is counted as a center; excluding one point creates an arbitrary cutoff.",
+    "source_role": "ARCHIVED_AUTHOR_REPLY_UNVERIFIED_ORIGINAL_SINA",
+    "not_a_claim_of_market_profits": true
+  },
+  "figure_identification": {
+    "title_visible": "航天机电(1分钟)",
+    "date_fragment_visible": "05月18日",
+    "year_visible_on_chart": false,
+    "article_publication_after_chart_date": true,
+    "assumed_stock_code": "600151",
+    "stock_code_directly_verified_from_image": false,
+    "raw_minute_ohlc_found_and_authenticated": false,
+    "earliest_actionable_timestamp_established": false,
+    "external_pdf_figure_screenshot_zero_based_page_index": 128,
+    "code_or_year_inferences_not_author_verified": true
+  },
+  "proof_status": "OPEN_F01_OB38_OB99",
+  "market_experiments": "NOT_RUN"
+}
