@@ -4,6 +4,9 @@
 
 ## 先从哪里读？
 
+**专题深读**：[四组核心概念的跨课版本与方法论对照](deliverables/chanlun_108_acceptance/00_REVIEW/FOUR_CORE_CROSS_VERSION_METHOD_CONTRAST.md)。
+
+
 **方法论主线新入口**：[12张规律如何连成14条解释性论证桥接](deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAWS_ARGUMENT_MAINLINE_V1.md)（含原SOURCE来源和不能推出的结论）。
 
 
