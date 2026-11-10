@@ -40,6 +40,26 @@ def audit(root: Path, *, expected_count: int | None = 12) -> dict:
             source = json.loads(f.read_text(encoding="utf-8"))
             number = source.get("source", {}).get("lesson_number", source.get("lesson"))
             assert number == lesson, f"{cid} mismatched source lesson: {p}"
+        # Optional deep anchors: verify the exact claim ID, SOURCE role and physical page.
+        assertions = card.get("source_assertions", [])
+        assert isinstance(assertions, list), cid
+        seen_claims: set[str] = set()
+        for assertion in assertions:
+            assert set(assertion) == {"claim_id", "lesson", "physical_pages", "role", "reading", "verification"}, cid
+            lesson = assertion["lesson"]
+            claim_id = assertion["claim_id"]
+            assert lesson in lessons and isinstance(claim_id, str) and claim_id not in seen_claims, cid
+            seen_claims.add(claim_id)
+            assert assertion["role"] == "SOURCE_IN_EXISTING_LESSON_CARD", cid
+            assert assertion["verification"] == "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK", cid
+            assert isinstance(assertion["reading"], str) and assertion["reading"].strip(), cid
+            pages = assertion["physical_pages"]
+            assert isinstance(pages, list) and pages and all(type(p) is int and p > 0 for p in pages), cid
+            path = root / f"knowledge/evidence/chanlun_lesson{lesson:03d}.json"
+            evidence = json.loads(path.read_text(encoding="utf-8"))
+            matches = [x for x in evidence.get("claims", []) if x.get("id") == claim_id]
+            assert len(matches) == 1 and matches[0].get("kind") == "SOURCE", (cid, claim_id)
+            assert pages == matches[0].get("pdf_pages"), (cid, claim_id, "physical pages differ")
         assert isinstance(card["links_to"], list) and len(set(card["links_to"])) == len(card["links_to"])
         assert cid not in card["links_to"], cid
     edges = 0
