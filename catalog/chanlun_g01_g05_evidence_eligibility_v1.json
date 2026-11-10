@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "book": "chanlun",
+  "scope": "PARTIAL_TYPED_EVIDENCE_ELIGIBILITY_NOT_COMPLETE_AUTHOR_RULE",
+  "role": "AI_CONSERVATIVE_INTERPRETATION_NOT_AUTHOR_CERTIFICATION",
+  "prior_contract": "catalog/chanlun_g01_g05_typed_rule_contract_v1.json",
+  "source_evidence": {
+    "G01": [
+      {
+        "lesson": 67,
+        "claim_id": "CL67-SOURCE-3",
+        "pages": [
+          388,
+          389
+        ]
+      },
+      {
+        "lesson": 71,
+        "claim_id": "CL71-SOURCE-1",
+        "pages": [
+          71
+        ]
+      },
+      {
+        "lesson": 71,
+        "claim_id": "CL71-SOURCE-4",
+        "pages": [
+          72
+        ]
+      },
+      {
+        "lesson": 78,
+        "claim_id": "CL78-SOURCE-1",
+        "pages": [
+          174
+        ]
+      },
+      {
+        "lesson": 78,
+        "claim_id": "CL78-SOURCE-2",
+        "pages": [
+          175
+        ]
+      }
+    ],
+    "G05": [
+      {
+        "lesson": 35,
+        "claim_id": "CL35-SO-4",
+        "pages": [
+          292
+        ]
+      },
+      {
+        "lesson": 38,
+        "claim_id": "CL38-SOURCE-1",
+        "pages": [
+          338
+        ]
+      },
+      {
+        "lesson": 38,
+        "claim_id": "CL38-SOURCE-2",
+        "pages": [
+          338,
+          339
+        ]
+      },
+      {
+        "lesson": 102,
+        "claim_id": "CL102-SOURCE-1",
+        "pages": [
+          241
+        ]
+      }
+    ]
+  },
+  "cases": [
+    {
+      "id": "G01-E01",
+      "gate": "G01",
+      "summary": "三个同序严格成员，但未提供反向线段结构证据。",
+      "input": {
+        "rule_version": "AUTHOR_67_71_78_TEXT_SCOPE",
+        "as_of": 5,
+        "sequence_id": "S1",
+        "features": [
+          {
+            "id": "a",
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 1
+          },
+          {
+            "id": "b",
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 2
+          },
+          {
+            "id": "c",
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 3
+          }
+        ],
+        "opposite_segment": null
+      },
+      "expected": "PENDING_REVERSE_SEGMENT_EVIDENCE"
+    },
+    {
+      "id": "G01-E02",
+      "gate": "G01",
+      "summary": "辅助元素不可假冒同一严格序列第三成员。",
+      "input": {
+        "rule_version": "AUTHOR_67_71_78_TEXT_SCOPE",
+        "as_of": 5,
+        "sequence_id": "S1",
+        "features": [
+          {
+            "id": "a",
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 1
+          },
+          {
+            "id": "b",
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 2
+          },
+          {
+            "id": "c",
+            "sequence_id": "S1",
+            "role": "AUXILIARY",
+            "confirmed_at": 3
+          }
+        ],
+        "opposite_segment": null
+      },
+      "expected": "INVALID_STRICT_SEQUENCE"
+    },
+    {
+      "id": "G01-E03",
+      "gate": "G01",
+      "summary": "未来才确认的严格成员在当下不可使用。",
+      "input": {
+        "rule_version": "AUTHOR_67_71_78_TEXT_SCOPE",
+        "as_of": 5,
+        "sequence_id": "S1",
+        "features": [
+          {
+            "id": "a",
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 1
+          },
+          {
+            "id": "b",
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 2
+          },
+          {
+            "id": "c",
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 8
+          }
+        ],
+        "opposite_segment": null
+      },
+      "expected": "FEATURE_NOT_YET_ASOF"
+    },
+    {
+      "id": "G01-E04",
+      "gate": "G01",
+      "summary": "混用不同特征序列的成员不能组成完整同序证据。",
+      "input": {
+        "rule_version": "AUTHOR_67_71_78_TEXT_SCOPE",
+        "as_of": 5,
+        "sequence_id": "S1",
+        "features": [
+          {
+            "id": "a",
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 1
+          },
+          {
+            "id": "b",
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 2
+          },
+          {
+            "id": "c",
+            "sequence_id": "S2",
+            "role": "STRICT",
+            "confirmed_at": 3
+          }
+        ],
+        "opposite_segment": null
+      },
+      "expected": "INVALID_STRICT_SEQUENCE"
+    },
+    {
+      "id": "G01-E05",
+      "gate": "G01",
+      "summary": "外部声明的反向线段若没有分层构件仍不能认证合法。",
+      "input": {
+        "rule_version": "AUTHOR_67_71_78_TEXT_SCOPE",
+        "as_of": 8,
+        "sequence_id": "S1",
+        "features": [
+          {
+            "id": "a",
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 1
+          },
+          {
+            "id": "b",
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 2
+          },
+          {
+            "id": "c",
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 3
+          }
+        ],
+        "opposite_segment": {
+          "externally_declared": true,
+          "confirmed_at": 7,
+          "construction_evidence": []
+        }
+      },
+      "expected": "EXTERNAL_REVERSE_UNVERIFIED"
+    },
+    {
+      "id": "G01-E06",
+      "gate": "G01",
+      "summary": "反向构件有局部来源但缺完整语法认证，仍保持局部条件。",
+      "input": {
+        "rule_version": "AUTHOR_67_71_78_TEXT_SCOPE",
+        "as_of": 8,
+        "sequence_id": "S1",
+        "features": [
+          {
+            "id": "a",
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 1
+          },
+          {
+            "id": "b",
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 2
+          },
+          {
+            "id": "c",
+            "sequence_id": "S1",
+            "role": "STRICT",
+            "confirmed_at": 3
+          }
+        ],
+        "opposite_segment": {
+          "externally_declared": true,
+          "confirmed_at": 7,
+          "construction_evidence": [
+            "reverse_pen",
+            "reverse_fractal"
+          ]
+        }
+      },
+      "expected": "LOCAL_REVERSE_EVIDENCE_NOT_AUTHOR_CERTIFIED"
+    },
+    {
+      "id": "G05-E01",
+      "gate": "G05",
+      "summary": "同一冻结规则下两个完整但相异的候选切分，需要作者规则冲突裁决。",
+      "input": {
+        "rule_version": "R38_RESEARCH_FROZEN_PARTIAL",
+        "input_complete": true,
+        "segments": [
+          {
+            "id": "p",
+            "cutpoints": [
+              2,
+              4
+            ],
+            "rule_version": "R38_RESEARCH_FROZEN_PARTIAL",
+            "source_role": "EXTERNAL_ASSUMPTION",
+            "complete": true
+          },
+          {
+            "id": "q",
+            "cutpoints": [
+              1,
+              4
+            ],
+            "rule_version": "R38_RESEARCH_FROZEN_PARTIAL",
+            "source_role": "EXTERNAL_ASSUMPTION",
+            "complete": true
+          }
+        ],
+        "tie_status": "UNRESOLVED"
+      },
+      "expected": "COMPETING_CUTPOINTS_RULE_UNPROVEN"
+    },
+    {
+      "id": "G05-E02",
+      "gate": "G05",
+      "summary": "切分仅来自AI规则，不能作为第38课合法分解的证据。",
+      "input": {
+        "rule_version": "R38_RESEARCH_FROZEN_PARTIAL",
+        "input_complete": true,
+        "segments": [
+          {
+            "id": "p",
+            "cutpoints": [
+              2,
+              4
+            ],
+            "rule_version": "R38_RESEARCH_FROZEN_PARTIAL",
+            "source_role": "AI_CONVENTION",
+            "complete": true
+          }
+        ],
+        "tie_status": "UNRESOLVED"
+      },
+      "expected": "AI_ONLY_PARSE_NOT_AUTHOR_ELIGIBLE"
+    },
+    {
+      "id": "G05-E03",
+      "gate": "G05",
+      "summary": "一个候选未完结，不能用已完成切分替代其完整性认定。",
+      "input": {
+        "rule_version": "R38_RESEARCH_FROZEN_PARTIAL",
+        "input_complete": true,
+        "segments": [
+          {
+            "id": "p",
+            "cutpoints": [
+              2,
+              4
+            ],
+            "rule_version": "R38_RESEARCH_FROZEN_PARTIAL",
+            "source_role": "EXTERNAL_ASSUMPTION",
+            "complete": true
+          },
+          {
+            "id": "q",
+            "cutpoints": [
+              1,
+              4
+            ],
+            "rule_version": "R38_RESEARCH_FROZEN_PARTIAL",
+            "source_role": "EXTERNAL_ASSUMPTION",
+            "complete": false
+          }
+        ],
+        "tie_status": "UNRESOLVED"
+      },
+      "expected": "INCOMPLETE_CANDIDATE_PENDING"
+    },
+    {
+      "id": "G05-E04",
+      "gate": "G05",
+      "summary": "相同切点的两个外部候选属于同一几何切分，不证明全域唯一。",
+      "input": {
+        "rule_version": "R38_RESEARCH_FROZEN_PARTIAL",
+        "input_complete": true,
+        "segments": [
+          {
+            "id": "p",
+            "cutpoints": [
+              2,
+              4
+            ],
+            "rule_version": "R38_RESEARCH_FROZEN_PARTIAL",
+            "source_role": "EXTERNAL_ASSUMPTION",
+            "complete": true
+          },
+          {
+            "id": "q",
+            "cutpoints": [
+              2,
+              4
+            ],
+            "rule_version": "R38_RESEARCH_FROZEN_PARTIAL",
+            "source_role": "EXTERNAL_ASSUMPTION",
+            "complete": true
+          }
+        ],
+        "tie_status": "UNRESOLVED"
+      },
+      "expected": "SAME_CUTPOINTS_NOT_UNIVERSAL_UNIQUENESS"
+    },
+    {
+      "id": "G05-E05",
+      "gate": "G05",
+      "summary": "人为优先次序选定候选，只能标为AI规范化政策。",
+      "input": {
+        "rule_version": "R38_RESEARCH_FROZEN_PARTIAL",
+        "input_complete": true,
+        "segments": [
+          {
+            "id": "p",
+            "cutpoints": [
+              2,
+              4
+            ],
+            "rule_version": "R38_RESEARCH_FROZEN_PARTIAL",
+            "source_role": "EXTERNAL_ASSUMPTION",
+            "complete": true
+          },
+          {
+            "id": "q",
+            "cutpoints": [
+              1,
+              4
+            ],
+            "rule_version": "R38_RESEARCH_FROZEN_PARTIAL",
+            "source_role": "EXTERNAL_ASSUMPTION",
+            "complete": true
+          }
+        ],
+        "tie_status": "AI_LEXICOGRAPHIC"
+      },
+      "expected": "AI_SELECTION_NOT_AUTHOR_CONFLUENCE"
+    }
+  ],
+  "proof_status": "OPEN",
+  "market_backtest": "NOT_RUN",
+  "image_review": "NOT_RUN",
+  "limitations": [
+    "No author-validated opposite segment construction grammar is implemented",
+    "No full fixed-rule legal parser or cutpoint rewrite system is established",
+    "AI tie-breaking is not a proof of author uniqueness"
+  ]
+}
