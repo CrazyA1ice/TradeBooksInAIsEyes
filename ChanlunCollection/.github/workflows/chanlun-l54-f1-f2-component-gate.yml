@@ -1,0 +1,19 @@
+name: chanlun-l54-f1-f2-component-gate
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  audit-component-type-bridges:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Audit lesson-source pages, typed conversions and open F01/OB38
+        run: python -B tools/audit_chanlun_l54_f1_f2_typed_bridge.py
+      - name: Reject overclaims of segment completion, f1/f2 equivalence and real-market replay
+        run: python -B -m unittest discover -s tests -p "test_chanlun_l54_f1_f2_typed_bridge.py" -v

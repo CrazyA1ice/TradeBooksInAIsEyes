@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.29.0
+# ChanlunCollection｜本书实施工作流 v4.30.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.30.0 重点补充：同名线段的跨课有类型准入。** 第53课完成低层走势从上层视角可视为无内部结构的线、第54课则把子一分钟g/d段**预设为此种抽象线**，不能直接声称它们是第67/71/78课以后经过笔/特征序列/缺口/合法破坏认证的严格线段。第83课使用严格线段构成最小中枢也不自动证明第18课要求的**完成次级走势类型**。新增[原作者来源锚定的桥梁矩阵](deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_F1_F2_COMPONENT_ADMISSION_AND_UNPROVEN_BRIDGES.md)、`catalog/chanlun_l54_f1_f2_typed_bridge_v1.json`和防误升级审核脚本、13项回归测试。特别注意第38课允许各级别不同连接政策、84课f1与f2可不同：不冻结双轴，不宣称分解等价。历史原图后发重构只作RETROSPECTIVE。F01/OB38 OPEN、行情NOT_RUN。
 
 **v4.29.0 重点补充：历史作者/编辑版本的文字校勘闸门。** 第54课`g0g3=(...)+g2d3`在老版PDF、线上存档中保留，2020整理版直接标`g0g3(d3?)`，2022整理版使用`g0d3`。验证器逐步证明右侧线段连续到d3；修复甲改左端`g0d3`与“当下到d3”兼容，修复乙加`d3g3`虽使端点相等却会使用后来的走势。两者都不冒充作者公开正式订正；全文源流和回帖：[研究报告](deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_EQUATION_VARIANTS_AND_ONE_PRICE_CENTER_AUTHORITY.md)、`catalog/chanlun_l54_equation_variant_witnesses_v1.json`。另把作者2007年5月24日16:04:41回帖存档“1个价位重叠也算”的价格边界与合法走势完成证书分开。运行`python -B tools/verify_chanlun_l54_formula_variants.py`与对应15项单测。原始新浪HTML仍未取得，行情NOT_RUN。
 

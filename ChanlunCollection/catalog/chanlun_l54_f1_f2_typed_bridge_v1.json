@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "study_id": "CHANLUN-L54-F1-F2-COMPONENT-TYPE-BRIDGE-V430",
+  "date": "2026-11-10",
+  "subject": "Lesson54 as assumed abstraction of lower-level movements vs lessons62–84 strict pen/segment initialization and lesson18 completed child types",
+  "scope": "AUTHOR_TEXT_AND_SOURCE_CARD_INTERFACES_NO_RAW_MARKET_REPLAY",
+  "canonical_source_cards": [
+    {
+      "lesson": 18,
+      "id": "CL018-S01",
+      "pdf": "卷1",
+      "physical_pages": [
+        234
+      ],
+      "role": "SOURCE"
+    },
+    {
+      "lesson": 18,
+      "id": "CL018-S07",
+      "pdf": "卷1",
+      "physical_pages": [
+        235
+      ],
+      "role": "SOURCE"
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-2",
+      "pdf": "卷2",
+      "physical_pages": [
+        291
+      ],
+      "role": "SOURCE"
+    },
+    {
+      "lesson": 38,
+      "id": "CL38-SOURCE-1",
+      "pdf": "卷2",
+      "physical_pages": [
+        338
+      ],
+      "role": "SOURCE"
+    },
+    {
+      "lesson": 38,
+      "id": "CL38-SOURCE-2",
+      "pdf": "卷2",
+      "physical_pages": [
+        338,
+        339
+      ],
+      "role": "SOURCE"
+    },
+    {
+      "lesson": 53,
+      "id": "CL53-SOURCE-1",
+      "pdf": "卷3",
+      "physical_pages": [
+        161
+      ],
+      "role": "SOURCE"
+    },
+    {
+      "lesson": 54,
+      "id": "CL54-SOURCE-1",
+      "pdf": "卷3",
+      "physical_pages": [
+        170,
+        171
+      ],
+      "role": "SOURCE"
+    },
+    {
+      "lesson": 54,
+      "id": "CL54-SOURCE-4",
+      "pdf": "卷3",
+      "physical_pages": [
+        174,
+        175
+      ],
+      "role": "SOURCE"
+    },
+    {
+      "lesson": 62,
+      "id": "CL62-SOURCE-3",
+      "pdf": "卷3",
+      "physical_pages": [
+        293
+      ],
+      "role": "SOURCE"
+    },
+    {
+      "lesson": 67,
+      "id": "CL67-SOURCE-3",
+      "pdf": "卷3",
+      "physical_pages": [
+        388,
+        389
+      ],
+      "role": "SOURCE"
+    },
+    {
+      "lesson": 71,
+      "id": "CL71-SOURCE-2",
+      "pdf": "卷4",
+      "physical_pages": [
+        71
+      ],
+      "role": "SOURCE"
+    },
+    {
+      "lesson": 72,
+      "id": "CL72-SOURCE-3",
+      "pdf": "卷4",
+      "physical_pages": [
+        86,
+        87
+      ],
+      "role": "SOURCE"
+    },
+    {
+      "lesson": 72,
+      "id": "CL72-SOURCE-4",
+      "pdf": "卷4",
+      "physical_pages": [
+        87
+      ],
+      "role": "SOURCE"
+    },
+    {
+      "lesson": 78,
+      "id": "CL78-SOURCE-1",
+      "pdf": "卷4",
+      "physical_pages": [
+        174
+      ],
+      "role": "SOURCE"
+    },
+    {
+      "lesson": 83,
+      "id": "CL83-SOURCE-1",
+      "pdf": "卷4",
+      "physical_pages": [
+        288
+      ],
+      "role": "SOURCE"
+    },
+    {
+      "lesson": 83,
+      "id": "CL83-SOURCE-2",
+      "pdf": "卷4",
+      "physical_pages": [
+        288
+      ],
+      "role": "SOURCE"
+    },
+    {
+      "lesson": 84,
+      "id": "CL84-SOURCE-3",
+      "pdf": "卷4",
+      "physical_pages": [
+        301
+      ],
+      "role": "SOURCE"
+    },
+    {
+      "lesson": 84,
+      "id": "CL84-SOURCE-4",
+      "pdf": "卷4",
+      "physical_pages": [
+        301,
+        302
+      ],
+      "role": "SOURCE"
+    }
+  ],
+  "objects": [
+    {
+      "id": "L53_COMPLETE_LOWER_MOVEMENT",
+      "kind": "COMPLETE_MOVEMENT_TYPE_ASSUMED",
+      "description": "lower-level complete movement type, seen from an upper operating level"
+    },
+    {
+      "id": "L54_VIEW_LINE",
+      "kind": "ABSTRACT_VIEW_SEGMENT",
+      "description": "54 treats subminute g/d legs as internal-structure-free lines by explicit analytical assumption"
+    },
+    {
+      "id": "L67_FORMAL_SEGMENT",
+      "kind": "POSTERIOR_TYPED_PEN_SEGMENT",
+      "description": "62/67/71/78 pen-feature series definition and termination conditions"
+    },
+    {
+      "id": "L83_INIT_SEGMENT",
+      "kind": "F1_BASE_CENTER_PART",
+      "description": "67-style line segment used in later minimal-center initialization"
+    },
+    {
+      "id": "L83_BASE_CENTER",
+      "kind": "F1_INITIALIZED_CENTER",
+      "description": "later method uses segment rather than pen units as parts"
+    },
+    {
+      "id": "L35_BASE_TICK_CENTER",
+      "kind": "ALTERNATIVE_F1_TICK_BASE",
+      "description": "35 three equal consecutive trades as strict minimal base in earlier recursive presentation"
+    },
+    {
+      "id": "L18_FINISHED_CHILD_TYPE",
+      "kind": "FINISHED_CHILD_MOVEMENT_TYPE",
+      "description": "18 requires three *completed* consecutive lower-level movement types"
+    },
+    {
+      "id": "L18_PARENT_CENTER",
+      "kind": "F2_PARENT_CENTER",
+      "description": "intersection of three legal completed child movement type price ranges"
+    },
+    {
+      "id": "L38_FIXED_POLICY_RESULT",
+      "kind": "FIXED_LEVEL_CANONICAL_PARSE_CLAIM",
+      "description": "38 uniqueness is asserted under a fixed chosen same-level segmentation policy"
+    },
+    {
+      "id": "L84_INITIALIZER",
+      "kind": "F1_INITIALIZER_FAMILY",
+      "description": "84 f1 initialization may differ from subsequent recursion f2"
+    },
+    {
+      "id": "L84_RECURSION",
+      "kind": "F2_RECURSIVE_FAMILY",
+      "description": "84 upper recursive rule remains of different type from initialization"
+    }
+  ],
+  "licensed_links": [
+    {
+      "id": "A01",
+      "from": "L53_COMPLETE_LOWER_MOVEMENT",
+      "to": "L54_VIEW_LINE",
+      "meaning": "AUTHOR_ABSTRACTION_RULE",
+      "source_ids": [
+        "CL53-SOURCE-1",
+        "CL54-SOURCE-1"
+      ],
+      "status": "AUTHOR_CONDITIONAL_VIEW",
+      "guarantees_identity_with_post67_segment": false
+    },
+    {
+      "id": "A02",
+      "from": "L67_FORMAL_SEGMENT",
+      "to": "L83_INIT_SEGMENT",
+      "meaning": "POSTERIOR_SEGMENT_AS_F1_PART",
+      "source_ids": [
+        "CL67-SOURCE-3",
+        "CL83-SOURCE-2"
+      ],
+      "status": "AUTHOR_WITH_LEGAL_SEGMENT_PREMISE",
+      "guarantees_finished_movement": false
+    },
+    {
+      "id": "A03",
+      "from": "L83_INIT_SEGMENT",
+      "to": "L83_BASE_CENTER",
+      "meaning": "THREE_LEGAL_SEGMENTS_FOR_MINIMAL_CENTER",
+      "source_ids": [
+        "CL72-SOURCE-3",
+        "CL83-SOURCE-1"
+      ],
+      "status": "AUTHOR_SCHEME_WITH_CONSTRUCTION_PREMISES",
+      "guarantees_movement_complete": false
+    },
+    {
+      "id": "A04",
+      "from": "L18_FINISHED_CHILD_TYPE",
+      "to": "L18_PARENT_CENTER",
+      "meaning": "THREE_CONSECUTIVE_COMPLETE_LOWER_TYPES_WITH_OVERLAP",
+      "source_ids": [
+        "CL018-S01"
+      ],
+      "status": "DEFINITIONAL_CONDITIONAL",
+      "requires_three_members": true
+    },
+    {
+      "id": "A05",
+      "from": "L35_BASE_TICK_CENTER",
+      "to": "L84_INITIALIZER",
+      "meaning": "ALTERNATIVE_INITIAL_BASE_FAMILY",
+      "source_ids": [
+        "CL35-SO-2",
+        "CL84-SOURCE-3"
+      ],
+      "status": "RESEARCH_COMPARISON_ONLY",
+      "guarantees_cross_initializer_identity": false
+    },
+    {
+      "id": "A06",
+      "from": "L84_INITIALIZER",
+      "to": "L84_RECURSION",
+      "meaning": "INITIALIZE_THEN_RECURSE_WITH_POSSIBLY_DIFFERENT_FUNCTION",
+      "source_ids": [
+        "CL84-SOURCE-3"
+      ],
+      "status": "AUTHOR_RECURSION_DESIGN",
+      "guarantees_same_historical_outputs": false
+    }
+  ],
+  "policy_facts": [
+    {
+      "id": "P01",
+      "lesson": 38,
+      "source_id": "CL38-SOURCE-2",
+      "claim": "Fixed same-level policy may allow consolidation rules at one level and a different decomposition rule below it.",
+      "role": "AUTHOR_SOURCE"
+    },
+    {
+      "id": "P02",
+      "lesson": 54,
+      "source_id": "CL54-SOURCE-4",
+      "claim": "Two permitted historical parses produce g5/g6 center timing and g7 type differences.",
+      "role": "AUTHOR_SOURCE"
+    },
+    {
+      "id": "P03",
+      "lesson": 84,
+      "source_id": "CL84-SOURCE-3",
+      "claim": "f1 need not equal f2; author maintains recursion but does not prove historical output equivalence of initializers.",
+      "role": "AUTHOR_SOURCE_WITH_RESEARCH_INFERENCE"
+    }
+  ],
+  "unlicensed_bridges": [
+    {
+      "id": "G01",
+      "from": "L54_VIEW_LINE",
+      "to": "L67_FORMAL_SEGMENT",
+      "required_witness": "FOR_EACH_54_GD_LEG_POST67_PEN_FEATURE_SEQUENCE_LEGAL_SEGMENT_END_AND_HISTORICAL_VERSION",
+      "missing": "NO_54_SUBMINUTE_RAW_SERIES_OR_LATER_RULE_IDENTIFICATION",
+      "state": "OPEN",
+      "is_author_quoted_theorem": false
+    },
+    {
+      "id": "G02",
+      "from": "L67_FORMAL_SEGMENT",
+      "to": "L18_FINISHED_CHILD_TYPE",
+      "required_witness": "FULL_LOWER_LEVEL_MOVEMENT_DECOMPOSITION_LEGALITY_AND_END_CERTIFICATE",
+      "missing": "SEGMENT_END_RULE_DOES_NOT_CERTIFY_FULL_MOVEMENT_TYPE_END",
+      "state": "OPEN",
+      "is_author_quoted_theorem": false
+    },
+    {
+      "id": "G03",
+      "from": "L83_BASE_CENTER",
+      "to": "L18_FINISHED_CHILD_TYPE",
+      "required_witness": "MOVEMENT_TYPE_END_AFTER_BASE_CENTER_AND_COMPLETED_EXTENSION_POLICY",
+      "missing": "CENTER_FORMATION_AND_FINISHED_MOVEMENT_ARE_DISTINCT_IN_LESSON18",
+      "state": "OPEN",
+      "is_author_quoted_theorem": false
+    },
+    {
+      "id": "G04",
+      "from": "L54_VIEW_LINE",
+      "to": "L18_FINISHED_CHILD_TYPE",
+      "required_witness": "ASSUMED_GD_LEG_IDENTITY_AS_COMPLETE_SUBLEVEL_MOVEMENT_AND_FIRST_KNOWABLE_TIME",
+      "missing": "AUTHOR_54_ASSUMPTION_NOT_INDEPENDENT_PROOF",
+      "state": "OPEN",
+      "is_author_quoted_theorem": false
+    },
+    {
+      "id": "G05",
+      "from": "L83_BASE_CENTER",
+      "to": "L18_PARENT_CENTER",
+      "required_witness": "THREE_COMPLETED_LOWER_TYPES_AND_SAME_LEVEL_NONOVERLAPPING_COMBINATION_POLICY",
+      "missing": "THREE_SEGMENTS_OF_F1_ARE_NOT_AUTOMATICALLY_THREE_FINISHED_CHILD_TYPES_OF_F2",
+      "state": "OPEN",
+      "is_author_quoted_theorem": false
+    },
+    {
+      "id": "G06",
+      "from": "L38_FIXED_POLICY_RESULT",
+      "to": "L54_VIEW_LINE",
+      "required_witness": "SINGLE_FROZEN_R_G_WITH_ALL_INPUT_MEMBERS_AND_CONFIRMATION_POLICY",
+      "missing": "L54_ALPHA_BETA_ARE_DIFFERENT_LICENSED_DECOMPOSITIONS_NOT_ONE_FIXED_RULE",
+      "state": "OPEN",
+      "is_author_quoted_theorem": false
+    },
+    {
+      "id": "G07",
+      "from": "L84_INITIALIZER",
+      "to": "L38_FIXED_POLICY_RESULT",
+      "required_witness": "DEMONSTRATED_OUTPUT_EQUIVALENCE_ACROSS_F1_VARIANTS_WITH_SAME_F2_AND_R_G",
+      "missing": "RECURSIVITY_NOT_CROSS_INITIALIZER_OUTPUT_INVARIANCE",
+      "state": "OPEN",
+      "is_author_quoted_theorem": false
+    },
+    {
+      "id": "G08",
+      "from": "L18_PARENT_CENTER",
+      "to": "L38_FIXED_POLICY_RESULT",
+      "required_witness": "AUTHOR_COMPLETE_GRAMMAR_EXISTENCE_UNIQUENESS_AND_ASOF_CONFIRMATION",
+      "missing": "LOCAL_CONDITIONAL_CENTER_CREATION_NOT_GLOBAL_CANONICAL_PARSE_CERTIFICATE",
+      "state": "OPEN",
+      "is_author_quoted_theorem": false
+    }
+  ],
+  "methodological_guardrails": {
+    "three_segment_minimal_center_is_not_three_finished_child_movement_types": true,
+    "abstracted_lower_level_line_is_not_automatically_post67_strict_segment": true,
+    "segment_end_does_not_imply_trend_type_end": true,
+    "f1_f2_different_is_allowed_by_author": true,
+    "level_chart_minutes_not_identity": true,
+    "unique_under_fixed_policy_not_across_all_policies": true,
+    "author_claims_not_independent_mathematical_proofs": true,
+    "no_raw_OHLC_no_market_asof_certificate": true
+  },
+  "critical_new_finding": "R_g chosen per-level (lesson38) and f1 vs f2 difference (lesson84) are distinct axes: a single historical case cannot prove equivalence across either without frozen version and completion evidence.",
+  "old_frontiers": "F01_OB38_OPEN",
+  "asof_market_data": "NOT_RUN",
+  "empirical_backtest": "NOT_RUN"
+}
