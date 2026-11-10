@@ -73,6 +73,16 @@
       "annotated_as_correction": true,
       "role": "EDITOR_QUESTION_NOT_AUTHOR_CORRECTION",
       "evidence": "page prints g0g3(d3?) explicitly indicating d3 as possible alternative"
+    },
+    {
+      "id": "W07-CHZHSHCH-ARCHIVE",
+      "category": "BLOG_POST_AND_COMMENT_ARCHIVE",
+      "url": "https://chzhshch.blog/stocks/054/",
+      "readable_left_endpoint": "g0g3",
+      "readable_right_final_segment": "g2d3",
+      "annotated_as_correction": false,
+      "role": "PRESERVED_FORM_WITH_ARCHIVED_AUTHOR_REPLY_NOT_SINA_ORIGINAL",
+      "evidence": "Archived article shows preserved g0g3, and dated 2007-05-24 16:04:41 reply on the same archive page; original Sina bytes still unverified."
     }
   ],
   "path_semantics": {
@@ -121,6 +131,7 @@
     "author_reply_date": "2007-05-24 16:04:41",
     "original_sina_comment_directly_verified": false,
     "comment_archives": [
+      "https://chzhshch.blog/stocks/054/",
       "https://yutao.org/philosophy/缠中说禅-教你炒股票-54/",
       "https://blog.sina.com.cn/s/blog_4aeb5d150100kq9p.html"
     ],
