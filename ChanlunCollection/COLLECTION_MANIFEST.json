@@ -1382,8 +1382,8 @@
     {
       "source_path": "catalog/chanlun_g01_g05_typed_rule_contract_v1.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_g01_g05_typed_rule_contract_v1.json",
-      "git_blob_sha": "1dab30e2a2f9bbc1e8d97e517dc6fc5f3751f0c3",
-      "size_bytes": 9508
+      "git_blob_sha": "7bdeedbd32dd3bdc5688cbeec571a9f103bbd2af",
+      "size_bytes": 9594
     },
     {
       "source_path": "catalog/chanlun_lesson035_terminal_comparison_v1.json",
