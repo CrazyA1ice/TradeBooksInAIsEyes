@@ -4,6 +4,9 @@
 
 ## 先从哪里读？
 
+**本轮新研究**：[G01完整次级走势的状态门控及G05规范切分的严格前提](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_TYPED_RULE_CONTRACT_AND_NORMALIZATION.md)。
+
+
 **本轮G01/G05具体情境研究**：[最低级别构件认证和分解唯一性的十个条件性边界案例](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_CONDITIONAL_WITNESS_STUDY.md)。
 
 
