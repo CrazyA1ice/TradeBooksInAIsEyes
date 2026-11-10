@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.27.0
+# ChanlunCollection｜本书实施工作流 v4.28.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.28.0 重点补充：作者文本叙述节点的可执行无前视回放。** 读取第54课13条`catalog/chanlun_l54_prefix_stage_evidence_v1.json`并执行`python -B tools/replay_chanlun_l54_author_prefix.py --show all`。只允许甲方案到g5才声明对应高级别中枢、乙方案到g6才声明对应中心，g7以后截图的`18.03`只能在`AFTER_G7`出现。区分作者叙述阶段`AUTHOR_TEXT_STAGE_ONLY`与真实市场时钟`market_first_knowable_timestamp=null`，保留d3上下文`g0g3/g2d3`字面端点异常的未核订正状态。运行`python -B -m unittest discover -s tests -p "test_chanlun_l54_author_prefix.py" -v`，缺原始行情不得宣称完整笔/段和第38课的唯一性已证。专题：[具体研究](deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_AUTHOR_PREFIX_REPLAY_AND_END_POINT_AUDIT.md)。
 
 **v4.27.0 重点补充：图像与结论的四层区分。** 对作者同图多解，必须把（1）原图可见的价格、日期、标注（2）不同分解政策的中枢区间、形成时点、买卖点**结构标签**（3）作者给出的共同风险/操作方向（4）真正执行的时间、价格、仓位及利润分层记录。第54课原图已在**外部编纂PDF**印刷125页实际目视核验为航天机电1分钟K线，带成交量/MACD；不能冒称仓库原PDF像素同一，更不能拿其图像当子1分钟全部OHLC。g7在两种分解中三卖/震荡标签不同，但作者说最终结论一致，仅是本例**定性结论**。专项证据卡：[图证与双层结论](deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_SOURCE_FIGURE_AND_STRUCTURAL_VS_DECISION_AGREEMENT.md)、`catalog/chanlun_l54_cross_archive_figure_and_decision_v1.json`；独立审核及7个回归测试。证明F01/OB38/OB99仍OPEN，市场NOT_RUN。
 
