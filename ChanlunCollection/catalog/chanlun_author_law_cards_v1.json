@@ -569,16 +569,6 @@
           "role": "SOURCE_IN_EXISTING_LESSON_CARD",
           "reading": "作者对同级盘整连接和更低级别采用不同规则。",
           "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
-        },
-        {
-          "claim_id": "CL40-SOURCE-3",
-          "lesson": 40,
-          "physical_pages": [
-            363
-          ],
-          "role": "SOURCE_IN_EXISTING_LESSON_CARD",
-          "reading": "作者认为换挡条件与资金、时间、风格有关。",
-          "verification": "EXISTING_EVIDENCE_CARD_CUE_NOT_NEW_PDF_RECHECK"
         }
       ]
     },

@@ -1316,8 +1316,8 @@
     {
       "source_path": "catalog/chanlun_author_law_cards_v1.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_author_law_cards_v1.json",
-      "git_blob_sha": "1f4d3d687f19c993c88e9fa0a3b792c07d2dadaf",
-      "size_bytes": 20811
+      "git_blob_sha": "fda08c85cbff9c9846150436e28d0e47530afb36",
+      "size_bytes": 20456
     },
     {
       "source_path": "catalog/chanlun_center_order_completion_partial_v1.json",
@@ -1556,7 +1556,7 @@
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAW_CARDS_INDEX.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/AUTHOR_LAW_CARDS_INDEX.md",
-      "git_blob_sha": "0fe16dd90af1be349ad3b8e79f88d23cb11238c8",
+      "git_blob_sha": "de79d80941ded8172cce5609fba7bc1fb088e082",
       "size_bytes": 2673
     },
     {
@@ -1928,7 +1928,7 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "d0016c94cde25d90fc2adc425cf33f2c8714802e",
+      "git_blob_sha": "e6a602aabc8e001033a4e5092887bf36dfe0705a",
       "size_bytes": 51978
     },
     {
