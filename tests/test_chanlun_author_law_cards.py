@@ -57,6 +57,29 @@ class LawCardsTests(unittest.TestCase):
             with self.assertRaises(AssertionError):
                 audit(root)
 
+    def test_reject_missing_claim_anchors_and_argument_trace(self):
+        with tempfile.TemporaryDirectory() as t:
+            root = Path(t)
+            cards = json.loads((ROOT / CATALOG).read_text(encoding="utf-8"))
+            f = root / CATALOG
+            f.parent.mkdir(parents=True, exist_ok=True)
+            original = json.loads(json.dumps(cards, ensure_ascii=False))
+            cards["cards"][0]["source_assertions"] = []
+            f.write_text(json.dumps(cards, ensure_ascii=False), encoding="utf-8")
+            with self.assertRaisesRegex(AssertionError, "source assertions required"):
+                audit(root)
+            cards = original
+            del cards["cards"][0]["argument_trace"]
+            f.write_text(json.dumps(cards, ensure_ascii=False), encoding="utf-8")
+            # Does not need to materialize evidence; validation of the first card
+            # must fail at the trace once actual evidence is present.
+            for path in cards["cards"][0]["source_cards"]:
+                target = root / path
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_bytes((ROOT / path).read_bytes())
+            with self.assertRaisesRegex(AssertionError, "bounded argument trace"):
+                audit(root)
+
     def test_reject_empirical_upgrade(self):
         with tempfile.TemporaryDirectory() as t:
             root = Path(t)
