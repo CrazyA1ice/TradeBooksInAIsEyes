@@ -1,5 +1,7 @@
 # 如何用ChanlunCollection向AI询问《缠论》 
 
+**询问G01/G05边界情况与能否从有限假设推出作者证明时**：先看[十个可复现的合成条件情境](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_CONDITIONAL_WITNESS_STUDY.md)，以及`catalog/chanlun_g01_g05_conditional_witnesses_v1.json`，特别区别原作者规则认证和AI外部假设。
+
 **研究递归如何构造及唯一性是否真的证明时**：先读[九步构造性证明路线和六处OPEN接口](deliverables/chanlun_108_acceptance/00_REVIEW/RECURSIVE_CONSTRUCTION_TO_UNIQUENESS_PROOF_CHAIN.md)，结合`catalog/chanlun_recursive_construction_proof_chain_v1.json`核对作者SOURCE证据、时间完成条件和逻辑缺口。
 
 **强命题问答入口**：请先读[走势终完美、买卖点安全、唯一分解和第99课未来必然的量词/证明缺口](deliverables/chanlun_108_acceptance/00_REVIEW/STRONG_THESES_QUANTIFIERS_AND_PROOF_GAPS.md)，不要把作者主张误写成数学已证。
