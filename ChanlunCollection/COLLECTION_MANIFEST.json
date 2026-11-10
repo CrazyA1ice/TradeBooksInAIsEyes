@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.23.0",
-  "source_count": 835,
+  "workflow_version": "4.24.0",
+  "source_count": 839,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -38,8 +38,8 @@
     {
       "source_path": ".github/workflows/chanlun-author-law-cards.yml",
       "mirror_path": "ChanlunCollection/.github/workflows/chanlun-author-law-cards.yml",
-      "git_blob_sha": "94877780e5444b90a0d1e3bce90d7916d482b5a3",
-      "size_bytes": 4414
+      "git_blob_sha": "24eb0afd6401685e26fae29bf498931869621dcf",
+      "size_bytes": 4883
     },
     {
       "source_path": ".github/workflows/chanlun-bridge-native-text.yml",
@@ -1386,6 +1386,12 @@
       "size_bytes": 11227
     },
     {
+      "source_path": "catalog/chanlun_g01_g05_local_generators_v1.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun_g01_g05_local_generators_v1.json",
+      "git_blob_sha": "60a8e82f46bbc881073a1085de4587f6ab6c10b2",
+      "size_bytes": 9804
+    },
+    {
       "source_path": "catalog/chanlun_g01_g05_typed_rule_contract_v1.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_g01_g05_typed_rule_contract_v1.json",
       "git_blob_sha": "7bdeedbd32dd3bdc5688cbeec571a9f103bbd2af",
@@ -1678,6 +1684,12 @@
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_EVIDENCE_ELIGIBILITY.md",
       "git_blob_sha": "29e1d1950c4b33bffa1d3c63480ebccb36d6eee2",
       "size_bytes": 5481
+    },
+    {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_LOCAL_CANDIDATE_GENERATORS.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_LOCAL_CANDIDATE_GENERATORS.md",
+      "git_blob_sha": "281bb48625d843290156ef361e4d03f9dc4eca68",
+      "size_bytes": 4973
     },
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_TYPED_RULE_CONTRACT_AND_NORMALIZATION.md",
@@ -2024,8 +2036,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "8186b36ce37f66087cb0071d0a2e2471227c194b",
-      "size_bytes": 59102
+      "git_blob_sha": "97c2912e90ccf23f4753c86a6671f9cc442c440d",
+      "size_bytes": 59901
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -3558,6 +3570,12 @@
       "size_bytes": 2463
     },
     {
+      "source_path": "tests/test_chanlun_g01_g05_local_generators.py",
+      "mirror_path": "ChanlunCollection/tests/test_chanlun_g01_g05_local_generators.py",
+      "git_blob_sha": "d798b8060f3e4a759ca7831e2adba2f484070a87",
+      "size_bytes": 3675
+    },
+    {
       "source_path": "tests/test_chanlun_g01_g05_typed_rule_contract.py",
       "mirror_path": "ChanlunCollection/tests/test_chanlun_g01_g05_typed_rule_contract.py",
       "git_blob_sha": "d96bbd0502e682a09ca371c9ce5d7bb56ae1a780",
@@ -4234,6 +4252,12 @@
       "mirror_path": "ChanlunCollection/tools/audit_chanlun_g01_g05_evidence_eligibility.py",
       "git_blob_sha": "96b7e126318eb172aa48f95440278695bad5ccfc",
       "size_bytes": 3665
+    },
+    {
+      "source_path": "tools/audit_chanlun_g01_g05_local_generators.py",
+      "mirror_path": "ChanlunCollection/tools/audit_chanlun_g01_g05_local_generators.py",
+      "git_blob_sha": "038218c203e35874ffdd74f29b34055fd5bbc5d9",
+      "size_bytes": 6864
     },
     {
       "source_path": "tools/audit_chanlun_g01_g05_typed_rule_contract.py",
