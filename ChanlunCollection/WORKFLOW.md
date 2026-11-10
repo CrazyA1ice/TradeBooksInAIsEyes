@@ -1,4 +1,4 @@
-# ChanlunCollection｜本书实施工作流 v4.24.0
+# ChanlunCollection｜本书实施工作流 v4.25.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
 
@@ -55,6 +55,8 @@
 **步骤2.27（v4.23.0）**：将G01特征序列合法性布尔假设替换为逐成员的严格/辅助身份、序列来源和确认时点检查；将G05候选分解外部假设细分为切点来源、完成状态与竞争关系，拒绝AI字典序假冒作者唯一规范型。十一组有限合成测试由`catalog/chanlun_g01_g05_evidence_eligibility_v1.json`、`G01_G05_EVIDENCE_ELIGIBILITY.md`记录，专用CI核对SOURCE和未证状态。F01/OB38仍OPEN。
 
 **步骤2.28（v4.24.0）**：不再仅依外部布尔声明G01候选，实际复用第67/71课局部分类函数对预标准化特征序列生成有限候选，并按照缺口/确认时点明确保留待定。G05穷举外部准入片段表所有完整覆盖切分，拒绝贪心单一输出冒充唯一性；准入表本身仍非原作者完整规则。成果见`catalog/chanlun_g01_g05_local_generators_v1.json`及`G01_G05_LOCAL_CANDIDATE_GENERATORS.md`，11案例、审计和CI，F01/OB38 OPEN。
+
+**步骤2.25（v4.25.0，全书脉络收束）**：按作者发表时间与理论构件依赖两种顺序分别梳理108课，用[全书双地图、七环与八道门槛](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_READER_CONCEPTUAL_CLOSURE.md)将上层理论及后发低层笔线段规则、时点和决策约束串起。逐步声明SOURCE/AI、已完成/待定、历史版本与哪些结论不能越级推出；完成的是读者级CONTENT_CONNECTED，而不是F01—F08形式证明或行情验证。
 
 **步骤3：更新规范成果。** 先修改根目录规范来源：`analyses/`、`knowledge/`、`catalog/`、`deliverables/`、`reports/`、`tools/`及`tests/`。相应更新全文研究报告、来源卡或[108课逻辑地图](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md)的源合同；不允许独改镜像并与规范源分叉。
 
