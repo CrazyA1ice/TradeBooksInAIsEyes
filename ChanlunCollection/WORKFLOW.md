@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.38.0
+# ChanlunCollection｜本书实施工作流 v4.39.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.39.0 本步：**将“第二种中枢定义”拆成6个不同对象类型，尤其核对第54课当d4对两种合法分解作者明确以实操清晰度偏选第二种、但g7两套结构标签不同。第20课回调/回升只是同一区间公式的两种方向；第18/20课固定前三段中枢核心不可被“后续全部成员再交”偷换；第38课两纯视角/跨级混合和第83课两种底层构件保持独立。完整逐句反证[六候选裁定](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_SECOND_CENTER_METHOD_DISAMBIGUATION_V439.md)，包含四个原作者图解节点和人工区间的三个函数区别。未找回原高手首帖、老虎版/新浪源字节、全理论完成证书；F01/OB38/OB99 OPEN、NOT_RUN。
 
 **v4.38.0 本步：**以2007-03-08作者16:10/16:38完整问答为起点，区分a+B+b纯走势组合、纯中枢前三段震荡及第38课提出的**跨级混合更有效**第三条处理策略；记录作者2958更正为2858与9段五分钟的特定历史条件。老虎整理版只核实PDF/DOCX文件名，尚无SHA、全文及完整率。二手作者归档不当原新浪文件；F01/OB38/OB99 OPEN、NOT_RUN。[阅读报告](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_AUTHOR_REPLY_TWO_METHODS_AND_LAOHU_V438.md)。
 

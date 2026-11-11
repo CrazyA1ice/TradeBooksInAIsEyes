@@ -6,7 +6,9 @@
 
 **《缠论》全部研究成果已整理到 [ChanlunCollection/](ChanlunCollection/README.md)**：五卷原PDF、108篇逐课分析、108张原文证据卡、108课统一理论主脊、深度导读、来源与版本登记、报告、测试和审计工具均在一个文件夹内可查；保留原仓库规范路径作为编辑源，由`COLLECTION_MANIFEST.json`逐文件验证精确一致。后续每本书都建立独立`<BookName>Collection/`；**每一步研究都必须同步修订[通用工作流](docs/BOOK_RESEARCH_WORKFLOW.md)、该书[工作日志](ChanlunCollection/WORK_LOG.md)和集合完整性清单**。
 
-**最新v4.38：**[作者两种纯看盘方法与跨级混合更有效、老虎整理版文件名核验](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_AUTHOR_REPLY_TWO_METHODS_AND_LAOHU_V438.md)。另有2007-03-08作者2958→2858校勘；不宣称二手评论已得到新浪原发鉴定或第二种纯方法普遍更好。F01/OB38/OB99 OPEN、NOT_RUN。
+**最新v4.39：**[高手“第二种定义”六候选排除；第54课同图两种分解、第二种局部更明确与g7标签分歧](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_SECOND_CENTER_METHOD_DISAMBIGUATION_V439.md)。区分固定前三段核心与滚动重叠、真正定义和操作政策；原高手具体指代尚未认证，F01/OB38/OB99 OPEN、NOT_RUN。
+
+**此前v4.38：**[作者两种纯看盘方法与跨级混合更有效、老虎整理版文件名核验](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_AUTHOR_REPLY_TWO_METHODS_AND_LAOHU_V438.md)。另有2007-03-08作者2958→2858校勘；不宣称二手评论已得到新浪原发鉴定或第二种纯方法普遍更好。F01/OB38/OB99 OPEN、NOT_RUN。
 
 **此前v4.37：**[高手补充发言：从周期到中枢、两种方法和作者教学历程](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_HISTORICAL_LEVEL_SHIFT_AND_TWO_METHODS_V437.md)。22个SOURCE课页、3条二手作者评论归档；第17/33课证明35课不是硬切换。老虎版未取得，未逐字重读108课，F01/OB38/OB99 OPEN、NOT_RUN。
 

@@ -1,0 +1,17 @@
+name: chanlun-second-method-source-disambiguation-gate
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  author-source-and-decomposition-checkpoints:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Source, temporal cut and domain guard
+        run: python -B tools/audit_chanlun_second_method_disambiguation.py
+      - name: Negative cases and pure interval-function separation
+        run: python -B -m unittest discover -s tests -p "test_chanlun_second_method_disambiguation.py" -v

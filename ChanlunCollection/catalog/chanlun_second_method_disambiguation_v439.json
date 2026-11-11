@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "version": "4.39.0",
+  "id": "CHANLUN-EXPERT-SECOND-METHOD-SOURCE-DISAMBIGUATION-V439",
+  "date": "2026-11-11",
+  "question": "What is the unnamed expert's second center method: alternate mathematical center definition, processing viewpoint, rule policy, or example-specific decomposition?",
+  "provenance": {
+    "expert_passage_received_in_chat": true,
+    "expert_author_public_post_verified": false,
+    "second_method_unique_identity_confirmed": false,
+    "original_sina_comment_bytes_verified": false,
+    "laohu_edition_bytes_reviewed": false,
+    "full_108_verbatim_reread_this_round": false,
+    "market_data_or_backtest_run": false
+  },
+  "original_author_evidence": [
+    {
+      "lesson": 17,
+      "id": "CL017-S02",
+      "pages": [
+        197
+      ],
+      "contribution": "first center membership definition, three consecutive subordinate movements"
+    },
+    {
+      "lesson": 18,
+      "id": "CL018-S01",
+      "pages": [
+        234
+      ],
+      "contribution": "formal three completed lower movement interval intersection"
+    },
+    {
+      "lesson": 20,
+      "id": "CL020-S01",
+      "pages": [
+        245,
+        246
+      ],
+      "contribution": "core fixed by first-three, formation directions and center growth"
+    },
+    {
+      "lesson": 20,
+      "id": "CL020-S02",
+      "pages": [
+        246
+      ],
+      "contribution": "center extension tests reference existing core"
+    },
+    {
+      "lesson": 20,
+      "id": "CL020-S08",
+      "pages": [
+        246,
+        247
+      ],
+      "contribution": "core ZD/ZG distinct from GG/DD envelope"
+    },
+    {
+      "lesson": 33,
+      "id": "CL33-SO-2",
+      "pages": [
+        256
+      ],
+      "contribution": "strict trading-event recursion is not chart clock"
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-2",
+      "pages": [
+        291
+      ],
+      "contribution": "three equal price trade basal f1"
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-3",
+      "pages": [
+        291,
+        292
+      ],
+      "contribution": "completed lower movements recurse"
+    },
+    {
+      "lesson": 38,
+      "id": "CL38-SOURCE-1",
+      "pages": [
+        338
+      ],
+      "contribution": "same-level decomposition uniqueness under chosen policy"
+    },
+    {
+      "lesson": 38,
+      "id": "CL38-SOURCE-2",
+      "pages": [
+        338,
+        339
+      ],
+      "contribution": "pure center and pure movement-type viewpoints plus hybrid"
+    },
+    {
+      "lesson": 54,
+      "id": "CL54-SOURCE-1",
+      "pages": [
+        170,
+        171
+      ],
+      "contribution": "different cuts of same chart"
+    },
+    {
+      "lesson": 54,
+      "id": "CL54-SOURCE-3",
+      "pages": [
+        173
+      ],
+      "contribution": "second decomposition more operationally explicit at d4"
+    },
+    {
+      "lesson": 54,
+      "id": "CL54-SOURCE-4",
+      "pages": [
+        174,
+        175
+      ],
+      "contribution": "g7 third sell in one cut but center oscillation in another"
+    },
+    {
+      "lesson": 83,
+      "id": "CL83-SOURCE-1",
+      "pages": [
+        288
+      ],
+      "contribution": "lowest-center pen option unstable"
+    },
+    {
+      "lesson": 83,
+      "id": "CL83-SOURCE-2",
+      "pages": [
+        288
+      ],
+      "contribution": "lowest-center segment option more stable"
+    },
+    {
+      "lesson": 84,
+      "id": "CL84-SOURCE-3",
+      "pages": [
+        301
+      ],
+      "contribution": "f1/f2 can differ"
+    }
+  ],
+  "candidate_referents": [
+    {
+      "id": "S1",
+      "label": "LESSON54_SECOND_LEGAL_DECOMPOSITION",
+      "role": "ALTERNATIVE_PARTITION",
+      "evidence_lessons": [
+        54
+      ],
+      "exact_practical_comparison_in_author_body": true,
+      "author_declares_second_pure_center_definition_universally_superior": false,
+      "matching_clues": [
+        "second selected as operationally clearer",
+        "same actual g/d chart"
+      ],
+      "requires_expert_context": [
+        "d4",
+        "d5",
+        "g7",
+        "same chart alternative partition"
+      ],
+      "state": "TEXTUALLY_DIRECT_SECOND_IS_PRACTICAL_IN_ONE_CASE_NOT_A_SECOND_AXIOM"
+    },
+    {
+      "id": "S2",
+      "label": "TWO_PURE_ANALYTICAL_VIEWS",
+      "role": "OBSERVATIONAL_VIEWPOINT",
+      "evidence_lessons": [
+        38
+      ],
+      "exact_practical_comparison_in_author_body": false,
+      "author_declares_second_pure_center_definition_universally_superior": false,
+      "matching_clues": [
+        "a+B+b",
+        "pure center first three plus oscillation",
+        "2007-03-08 archived replies"
+      ],
+      "requires_expert_context": [
+        "走势类型",
+        "纯中枢",
+        "a+B+b"
+      ],
+      "state": "BOTH_VIEWS_AND_AUTHOR_PREFERRED_HYBRID_NOT_PURE_SECOND"
+    },
+    {
+      "id": "S3",
+      "label": "STRICT_EVENT_LEVEL_VS_CLOCK_APPROXIMATION",
+      "role": "INPUT_POLICY",
+      "evidence_lessons": [
+        33,
+        35
+      ],
+      "exact_practical_comparison_in_author_body": false,
+      "author_declares_second_pure_center_definition_universally_superior": false,
+      "matching_clues": [
+        "theoretical strict event recursion",
+        "practical time-frame naming"
+      ],
+      "requires_expert_context": [
+        "逐笔",
+        "周期",
+        "三笔同价"
+      ],
+      "state": "PRACTICAL_CONVENIENCE_BUT_NOT_SECOND_CENTER_FORMULA"
+    },
+    {
+      "id": "S4",
+      "label": "PEN_VS_SEGMENT_BASE_INITIALIZER",
+      "role": "RECURSIVE_BASE_CHOICE",
+      "evidence_lessons": [
+        83,
+        84
+      ],
+      "exact_practical_comparison_in_author_body": false,
+      "author_declares_second_pure_center_definition_universally_superior": false,
+      "matching_clues": [
+        "pen noisy",
+        "segment less affected by erroneous order"
+      ],
+      "requires_expert_context": [
+        "笔",
+        "线段",
+        "稳定性"
+      ],
+      "state": "DIRECT_RELATIVE_STABILITY_CLAIM_NOT_UNIVERSAL_PROOF"
+    },
+    {
+      "id": "S5",
+      "label": "FIRST_THREE_CORE_VS_ALL_COMPONENT_INTERSECTION",
+      "role": "COMPETING_INTERVAL_FORMULA",
+      "evidence_lessons": [
+        18,
+        20
+      ],
+      "exact_practical_comparison_in_author_body": false,
+      "author_declares_second_pure_center_definition_universally_superior": false,
+      "matching_clues": [
+        "first-three core stays fixed",
+        "later movements extension not narrowing",
+        "third-party competing formula"
+      ],
+      "requires_expert_context": [
+        "前三段",
+        "所有段",
+        "中枢上下沿"
+      ],
+      "state": "ALL_COMPONENT_FORMULA_NOT_AUTHENTICATED_AS_SECOND_AUTHOR_DEFINITION"
+    },
+    {
+      "id": "S6",
+      "label": "REBOUND_VS_PULLBACK_CENTER_FORMATION",
+      "role": "MIRROR_DIRECTION_CASES",
+      "evidence_lessons": [
+        20
+      ],
+      "exact_practical_comparison_in_author_body": false,
+      "author_declares_second_pure_center_definition_universally_superior": false,
+      "matching_clues": [
+        "up-down-up",
+        "down-up-down"
+      ],
+      "requires_expert_context": [
+        "回升形成",
+        "回调形成"
+      ],
+      "state": "TWO_SHAPES_SAME_FORMULA_NOT_TWO_AXIOMS"
+    }
+  ],
+  "lesson54_author_chart_checkpoints": [
+    {
+      "id": "D4",
+      "observed_prefix": "g0..d4",
+      "first_cut_center": "d1g1+g1d2+d2g2",
+      "second_cut_center": "d2g2+g2d3+d3g3",
+      "conclusion": "BOTH_PERMITTED_FIRST_INTERMEDIATE_SECOND_MORE_CLEAR_FOR_CENTER_OSCILLATION",
+      "future_confirmation_used": false
+    },
+    {
+      "id": "G5",
+      "observed_prefix": "g0..g5",
+      "first_cut_higher_center": "[d2,g5]",
+      "second_cut_higher_center": "NOT_YET_COMPLETED",
+      "conclusion": "G5_FIRST_HIGHER_CENTER_ONLY_AT_THIS_PREFIX",
+      "future_confirmation_used": false
+    },
+    {
+      "id": "G6",
+      "observed_prefix": "g0..g6",
+      "first_cut_higher_center": "[d2,g5]",
+      "second_cut_higher_center": "[d3,g5]",
+      "conclusion": "SECOND_HIGHER_CENTER_COMPLETES_LATER",
+      "future_confirmation_used": false
+    },
+    {
+      "id": "G7",
+      "observed_prefix": "g0..g7",
+      "first_cut_g7_tag": "THIRD_SELL",
+      "second_cut_g7_tag": "CENTER_OSCILLATION_NOT_THIRD_SELL",
+      "conclusion": "DIFFERENT_STRUCTURAL_TAGS_BUT_AUTHOR_SIMILAR_QUALITATIVE_RISK",
+      "future_confirmation_used": false
+    }
+  ],
+  "interval_semantic_example": {
+    "type": "INDEPENDENT_ARTIFICIAL_INTERVALS_NOT_A_LEGAL_CHANLUN_MOVEMENT_SEQUENCE",
+    "intervals": [
+      [
+        5,
+        12
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        8,
+        10
+      ]
+    ],
+    "first_three_core": [
+      6,
+      11
+    ],
+    "rolling_all_intersection": [
+      8,
+      10
+    ],
+    "all_member_envelope": [
+      4,
+      13
+    ],
+    "purpose": "Shows different functions; does not establish second published author definition or legal trend parsing"
+  },
+  "original_lessons_urls": [
+    "https://eczsc.com/originals/17",
+    "https://eczsc.com/originals/18",
+    "https://eczsc.com/originals/20",
+    "https://eczsc.com/originals/38",
+    "https://eczsc.com/originals/54",
+    "https://eczsc.com/originals/83"
+  ],
+  "special_limits": [
+    "EXPERT_INTENDED_REFERENT_OPEN",
+    "EXPERT_PUBLIC_ORIGINAL_POST_UNAVAILABLE",
+    "ORIGINAL_SINA_REPLIES_UNAUTHENTICATED",
+    "LAOHU_FULL_EDITION_NOT_REVIEWED",
+    "NO_SECOND_GLOBAL_CENTER_AXIOM_PROVED",
+    "F01_OPEN",
+    "OB38_OPEN",
+    "OB99_OPEN",
+    "MARKET_NOT_RUN"
+  ],
+  "status": "MULTI_CANDIDATE_ADJUDICATION_NO_UNIQUE_EXPERT_REFERENT_OR_AUTHOR_SECOND_FORMULA"
+}
