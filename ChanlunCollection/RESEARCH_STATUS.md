@@ -19,6 +19,8 @@
 | **OB99-EXIST/LOCATION** | **BLOCKED**：全部合法未来路径有限时间高层中枢与首次位置待证 | 同上 |
 | **F08 三类点到实际收益** | **NOT_RUN**：真实行情、成交、交易成本/样本外检验均未运行 | `experiments/`（仅研究计划和合成例） |
 
+**当前v4.34.0 最低级别两种f1初始化不等价已通过构造反例**：[第17课三根单位K线区间重叠与第35课三笔连续同价交易之双向不同条件](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F1_INITIALIZERS_NON_EQUIVALENCE_AND_BASE_PAN_CLOCK.md)。在同一虚构逐笔流及明确固定K线分桶下，已分别构造`K线中枢存在/逐笔三同价不存在`与`三同价存在/K线三根交集为空`，另验证单价`[11,11]`的退化交集。**局部不同并非第38课固定政策下唯一性反例，也不反证第84课f1可异构**；每种初始化必须单独补齐`CENTER_EXISTS→PAN_COMPLETED`的证据接口。新增来源核对、22项专项测试和单书镜像。F01/OB38/OB99仍OPEN，行情回测`NOT_RUN`。
+
 **当前v4.33.0最低中枢部分比较器与单中心盘整根证书缺口**：已核第20课`CL020-S08`两中枢的`GG/DD`整体Z段极值与`ZG/ZD`核心区间不可互换，并用[7套明确虚构的四元组及完整研究报告](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_CENTER_ENVELOPE_ORDER_AND_BASE_PAN_DOMAIN_GAP.md)演示相同核心区间可分别符合“严格上涨分离”与“上行扩展”。第35课最低趋势N-th中心全域“更高”比较及边界仍OPEN；第20课第三类点需完整下一次级走势，如果机械套到第35课逐笔成交最低f1，无法获得负一级完成成员，因此**最低单中心盘整终止仍欠独立基例**。新增机器记录、审计和22项测试、单书镜像同步。F01/OB38/OB99未结案，历史行情NOT_RUN。
 
 **当前v4.32.0最低级别趋势停止条件与无循环完成证书**：新增[第35课`CL35-SO-9`最低上涨第N中枢(N>2)不再更高与最低下跌反向条件、完成收据证明研究](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_PROOF_CARRYING_COMPLETION_RECEIPTS_AND_BOTTOM_CASE.md)。可执行审核有22项正反条件，验证三笔连续同价、三完整次级类型的交集、三买`>=ZG`与三卖`<=ZD`、证据有向无环、跨节点同一`f1/f2/R_g`、不早于依赖的可知序列。**这些仅在明确虚构收据上进行结构审核，所有市场叶子未认证**；最低盘整退出与最低中心高低比较器仍未获得全定义方案，F01/OB38/OB99保持OPEN，`NOT_RUN`。
