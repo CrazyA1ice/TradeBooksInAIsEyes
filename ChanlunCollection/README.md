@@ -1,5 +1,7 @@
 # ChanlunCollection｜《缠论》五卷108课完整研究档案
 
+**v4.42新的完成证据：**[旧中枢回试首次资格与时钟，16:19/16:29原作者答疑、等号语义边界](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_FIRST_ELIGIBLE_THIRD_RETRACE_ASOF_V442.md)。只审未认证合成成员，不能推得真实行情完成。
+
 **v4.41重大原文发现：**[直接访问2007-07-20新浪原作者文章，严格交易a0和实用分型笔线段a0，共用递归而不保证同一市场输出](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_PRIMARY_SINA_DUAL_A0_THEORY_V441.md)。与第35/65/83/84课联系，仍不将段自动升级为已完成次级走势。
 
 **v4.40新作者答疑证据：**[2007-07-11、07-31九段递归组合与2007-05-21前三段中枢核心区别](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_NINEFOLD_CENTER_333_AUTHOR_REPLIES_V440.md)。较早编纂PDF已实际查阅两页，仍非新浪原始字节。

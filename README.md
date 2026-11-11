@@ -6,7 +6,9 @@
 
 **《缠论》全部研究成果已整理到 [ChanlunCollection/](ChanlunCollection/README.md)**：五卷原PDF、108篇逐课分析、108张原文证据卡、108课统一理论主脊、深度导读、来源与版本登记、报告、测试和审计工具均在一个文件夹内可查；保留原仓库规范路径作为编辑源，由`COLLECTION_MANIFEST.json`逐文件验证精确一致。后续每本书都建立独立`<BookName>Collection/`；**每一步研究都必须同步修订[通用工作流](docs/BOOK_RESEARCH_WORKFLOW.md)、该书[工作日志](ChanlunCollection/WORK_LOG.md)和集合完整性清单**。
 
-**最新v4.41：**[终于找到原新浪2007-07-20作者正文：理论逐笔成交a0与实操分型笔线段a0的两种递归起点](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_PRIMARY_SINA_DUAL_A0_THEORY_V441.md)。这是迄今最符合高手“第一理论第二实用”的直接作者原文，而非第54课的操作分组；同f不保证输出同值，线段不等于已完成次级走势；F01/OB38/OB99 OPEN、NOT_RUN。
+**最新v4.42：**[第三类买点“第一次回抽”是否已被旧震荡用掉？原作者2007-03-21追问与首次资格、事件时钟的局部审计](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_FIRST_ELIGIBLE_THIRD_RETRACE_ASOF_V442.md)。内返不中断中心、首次合格外返条件标记、同中心后续不重复三买。F01/OB38/OB99 OPEN、NOT_RUN。
+
+**此前v4.41：**[终于找到原新浪2007-07-20作者正文：理论逐笔成交a0与实操分型笔线段a0的两种递归起点](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_PRIMARY_SINA_DUAL_A0_THEORY_V441.md)。这是迄今最符合高手“第一理论第二实用”的直接作者原文，而非第54课的操作分组；同f不保证输出同值，线段不等于已完成次级走势；F01/OB38/OB99 OPEN、NOT_RUN。
 
 **此前v4.40：**[作者2007-07-31明确指出九段直接重叠与递归3+3+3并不保证中枢区间相等；两道构造次序的真正区别](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_NINEFOLD_CENTER_333_AUTHOR_REPLIES_V440.md)。结合5月21、7月11正式署时问答及较早PDF编纂页锚互校，不将2025年第三方两定义写成作者原话。F01/OB38/OB99 OPEN、NOT_RUN。
 
