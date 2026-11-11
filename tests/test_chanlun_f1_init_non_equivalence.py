@@ -102,7 +102,6 @@ class TestF1InitializerNonEquivalence(unittest.TestCase):
         self.mutate_rejected(lambda s: s["frontier_status"].update(market="DONE"))
 
     def test_f1_same_outputs_under_all_policies_cannot_be_assumed(self):
-        self.mutate_rejected(lambda s: s["formal_answer"].__class__ == "EQUIVALENT")
         self.mutate_rejected(lambda s: s.update(formal_answer="EQUIVALENT"))
 
     def test_witness_source_prices_modified_but_expected_overlap_unchanged_rejected(self):
