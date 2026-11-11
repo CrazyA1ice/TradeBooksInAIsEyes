@@ -1,5 +1,7 @@
 # ChanlunCollection｜《缠论》五卷108课完整研究档案
 
+**v4.37新报告：**[高手发言的级别/周期历史、两种处理方法与第72课教学路线](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_HISTORICAL_LEVEL_SHIFT_AND_TWO_METHODS_V437.md)。回查第17、33课避免断代过强，老虎版与第二种方法仍待核验。
+
 **v4.36新增专题：**[高手六点背后的完成量词、无界延伸及固定规则唯一性](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_COMPLETION_QUANTIFIERS_V436.md)，本书原作者定理仍OPEN，行情NOT_RUN。
 
 > **此目录是今后提问《缠论》时的首选知识入口。** 它按原仓库相对目录完整保存已有书籍研究材料的**字节级镜像**，包括五卷PDF、108篇逐课分析、108张证据卡、全书深度研究、知识与版本登记、假说、例子、审计工具、测试与验收工作流快照。镜像不挪动规范原件，以免破坏原本已通过的108课测试和链接；`COLLECTION_MANIFEST.json`保存逐文件Git blob身份，CI禁止漏同步或无证添加。因为镜像保留原相对路径，研究稿中原有的相对链接在本目录内仍可使用。

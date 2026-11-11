@@ -1,0 +1,318 @@
+{
+  "id": "CHANLUN-EXPERT-HISTORY-TWO-METHODS-V437",
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "version": "4.37.0",
+  "provenance": {
+    "user_supplied_new_expert_attributed_passage": true,
+    "expert_original_public_post_verified": false,
+    "prior_six_claims_remain_paraphrases": true,
+    "original_sina_comment_bytes_verified": false,
+    "laohu_version_verified": false,
+    "market_backtest_run": false,
+    "full_new_108_lesson_verbatim_reread": false
+  },
+  "expert_assertions": [
+    {
+      "id": "H01",
+      "reading": "pre35 level only chart clock",
+      "finding": "FALSE_AS_ABSOLUTE_BECAUSE_L17_AND_L33"
+    },
+    {
+      "id": "H02",
+      "reading": "pre18 all noncenter traditional trend",
+      "finding": "VALID_L15_L16_FALSE_FOR_L17"
+    },
+    {
+      "id": "H03",
+      "reading": "5 wave is early formal criterion",
+      "finding": "ONLY_TEACHING_ANALOGY_NOT_AUTHOR_FORMAL_DEFINITION"
+    },
+    {
+      "id": "H04",
+      "reading": "35 introduces strict recursive transaction base",
+      "finding": "TRUE_AS_CLARIFICATION_NOT_FIRST_RECURSION"
+    },
+    {
+      "id": "H05",
+      "reading": "5 minute chart can reveal 30 minute or daily center",
+      "finding": "TRUE_FOR_CHART_WINDOW_NOT_INSIDE_SINGLE_STRICT_5MIN_TYPE"
+    },
+    {
+      "id": "H06",
+      "reading": "author has two center methods",
+      "finding": "UNRESOLVED_WHICH_OF_MULTIPLE_DISTINCT_PAIRS"
+    },
+    {
+      "id": "H07",
+      "reading": "second method far more practical",
+      "finding": "NOT_VERIFIED_AS_AUTHOR_UNIVERSAL_RANKING"
+    },
+    {
+      "id": "H08",
+      "reading": "Laohu edition fuller and cleaner",
+      "finding": "UNVERIFIED_EDITION_NOT_IDENTIFIED"
+    },
+    {
+      "id": "H09",
+      "reading": "read author mental journey",
+      "finding": "PEDAGOGICAL_ORDER_SUPPORTED_NOT_PERSONAL_INVENTION_HISTORY"
+    }
+  ],
+  "source_anchors": [
+    {
+      "lesson": 15,
+      "id": "CL015-S-1",
+      "pages": [
+        143
+      ]
+    },
+    {
+      "lesson": 16,
+      "id": "CL016-S01",
+      "pages": [
+        169,
+        171,
+        172
+      ]
+    },
+    {
+      "lesson": 17,
+      "id": "CL017-S02",
+      "pages": [
+        197
+      ]
+    },
+    {
+      "lesson": 17,
+      "id": "CL017-S03",
+      "pages": [
+        197,
+        198
+      ]
+    },
+    {
+      "lesson": 18,
+      "id": "CL018-S01",
+      "pages": [
+        234
+      ]
+    },
+    {
+      "lesson": 20,
+      "id": "CL020-S01",
+      "pages": [
+        245,
+        246
+      ]
+    },
+    {
+      "lesson": 33,
+      "id": "CL33-SO-1",
+      "pages": [
+        256
+      ]
+    },
+    {
+      "lesson": 33,
+      "id": "CL33-SO-2",
+      "pages": [
+        256
+      ]
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-1",
+      "pages": [
+        291
+      ]
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-2",
+      "pages": [
+        291
+      ]
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-3",
+      "pages": [
+        291,
+        292
+      ]
+    },
+    {
+      "lesson": 38,
+      "id": "CL38-SOURCE-1",
+      "pages": [
+        338
+      ]
+    },
+    {
+      "lesson": 38,
+      "id": "CL38-SOURCE-2",
+      "pages": [
+        338,
+        339
+      ]
+    },
+    {
+      "lesson": 53,
+      "id": "CL53-SOURCE-1",
+      "pages": [
+        161
+      ]
+    },
+    {
+      "lesson": 62,
+      "id": "CL62-SOURCE-1",
+      "pages": [
+        292
+      ]
+    },
+    {
+      "lesson": 72,
+      "id": "CL72-SOURCE-2",
+      "pages": [
+        84,
+        85
+      ]
+    },
+    {
+      "lesson": 72,
+      "id": "CL72-SOURCE-3",
+      "pages": [
+        86,
+        87
+      ]
+    },
+    {
+      "lesson": 83,
+      "id": "CL83-SOURCE-1",
+      "pages": [
+        288
+      ]
+    },
+    {
+      "lesson": 83,
+      "id": "CL83-SOURCE-2",
+      "pages": [
+        288
+      ]
+    },
+    {
+      "lesson": 84,
+      "id": "CL84-SOURCE-3",
+      "pages": [
+        301
+      ]
+    },
+    {
+      "lesson": 84,
+      "id": "CL84-SOURCE-4",
+      "pages": [
+        301,
+        302
+      ]
+    },
+    {
+      "lesson": 102,
+      "id": "CL102-SOURCE-1",
+      "pages": [
+        241
+      ]
+    }
+  ],
+  "author_comments_archive": [
+    {
+      "date": "2007-03-08 16:10:43",
+      "url": "https://chzhshch.blog/stocks/confucius55/",
+      "kind": "ARCHIVED_ATTRIBUTED_AUTHOR_COMMENT_NOT_SINA_ORIGINAL",
+      "point": "a+B+b and pure center differ in judging the same market"
+    },
+    {
+      "date": "2007-03-08 16:38:56",
+      "url": "https://chzhshch.blog/stocks/confucius55/",
+      "kind": "ARCHIVED_ATTRIBUTED_AUTHOR_COMMENT_NOT_SINA_ORIGINAL",
+      "point": "a+B+b perspective versus center-first-three plus oscillations"
+    },
+    {
+      "date": "2007-02-26 22:11:34",
+      "url": "https://www.fengmr.com/cld31ka.html",
+      "kind": "SECONDARY_ATTRIBUTED_AUTHOR_COMMENT_NOT_SINA_ORIGINAL",
+      "point": "center based movement types already taught before lesson35"
+    }
+  ],
+  "two_way_distinctions": [
+    {
+      "id": "A",
+      "identity": "TWO_ANALYTICAL_VIEWPOINTS",
+      "variants": [
+        "a+B+b",
+        "first-three center plus oscillations"
+      ],
+      "is_two_independent_center_axioms": false
+    },
+    {
+      "id": "B",
+      "identity": "STRICT_RECURSION_VS_CLOCK_PRACTICAL_APPROXIMATION",
+      "variants": [
+        "trade-by-trade base",
+        "1/5/30min chart labels"
+      ],
+      "is_two_independent_center_axioms": false
+    },
+    {
+      "id": "C",
+      "identity": "HISTORICAL_BASE_INITIALIZER_CHANGES",
+      "variants": [
+        "three unit bars",
+        "three equal-price trades",
+        "segment based lower center"
+      ],
+      "is_two_independent_center_axioms": false
+    },
+    {
+      "id": "D",
+      "identity": "TWO_DIRECTIONAL_CENTER_SHAPES",
+      "variants": [
+        "up-down-up",
+        "down-up-down"
+      ],
+      "is_two_independent_center_axioms": false
+    }
+  ],
+  "read_scope": {
+    "existing_chapter_research": 108,
+    "existing_spine_phases": 11,
+    "focused_original_lessons": [
+      15,
+      16,
+      17,
+      18,
+      20,
+      33,
+      35,
+      38,
+      53,
+      62,
+      72,
+      83,
+      84,
+      102
+    ],
+    "new_full_verbatim_108_recheck": false
+  },
+  "open": [
+    "EXPERT_PUBLIC_POST_UNVERIFIED",
+    "LAOHU_VERSION_NOT_IDENTIFIED",
+    "SECOND_METHOD_IDENTIFICATION_OPEN",
+    "SECOND_METHOD_AUTHOR_RANKING_UNVERIFIED",
+    "F01_OPEN",
+    "OB38_OPEN",
+    "OB99_OPEN",
+    "MARKET_NOT_RUN"
+  ],
+  "status": "SOURCE_SCOPED_INTERPRETIVE_PROGRESS_NOT_COMPLETE_AUTHOR_PROOF"
+}
