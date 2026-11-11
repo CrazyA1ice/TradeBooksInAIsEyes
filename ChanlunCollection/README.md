@@ -1,5 +1,7 @@
 # ChanlunCollection｜《缠论》五卷108课完整研究档案
 
+**v4.39 第二种方法判别：**[第54课第二分解确实更便于该案例操作，但不能升级为另一套中枢公理；六个歧义对象对照](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_SECOND_CENTER_METHOD_DISAMBIGUATION_V439.md)。保留原作者图源的时序与证明缺口。
+
 **v4.38新研究：**[作者2007-03-08两方法原问题、第三条跨级混合及老虎版文件名](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_AUTHOR_REPLY_TWO_METHODS_AND_LAOHU_V438.md)。未验证原新浪字节、老虎版全文或方法普遍收益。
 
 **v4.37新报告：**[高手发言的级别/周期历史、两种处理方法与第72课教学路线](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_HISTORICAL_LEVEL_SHIFT_AND_TWO_METHODS_V437.md)。回查第17、33课避免断代过强，老虎版与第二种方法仍待核验。

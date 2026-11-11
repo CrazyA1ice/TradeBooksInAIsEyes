@@ -1,5 +1,7 @@
 # 《缠论》五卷108课：最终成果验收入口（无重复副本）
 
+**v4.39 高手第二种中枢方法的证据判别：**[第54课原文第二个合法分组“更便操作”的上下文与六候选排除](00_REVIEW/EXPERT_SECOND_CENTER_METHOD_DISAMBIGUATION_V439.md)。不把合法分组当全局第二定义，不把后续所有段交集当前三段固定核心；F01/OB38/OB99 OPEN、NOT_RUN。
+
 **v4.38问答来源审计：**[纯中枢与纯走势、跨级混合、3月8日作者更正和老虎版文件名来源](00_REVIEW/EXPERT_AUTHOR_REPLY_TWO_METHODS_AND_LAOHU_V438.md)。原新浪评论与老虎版实体未获；F01/OB38/OB99 OPEN、NOT_RUN。
 
 **v4.37 新高手发言专题：**[历史级别、周期及两种方法的原文分层核对](00_REVIEW/EXPERT_HISTORICAL_LEVEL_SHIFT_AND_TWO_METHODS_V437.md)，第17/33课纠正35课硬断代，评论存档和老虎版限制明确，F01/OB38/OB99 OPEN、NOT_RUN。
