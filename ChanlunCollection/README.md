@@ -1,5 +1,7 @@
 # ChanlunCollection｜《缠论》五卷108课完整研究档案
 
+**v4.48 已获得真实高手语料：**[凯翔100条知乎回答、六个“坑”的A089/A090逐字原文、两种中枢定义与第三层未明说的全局证据报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAI_XIANG_100_ANSWERS_FIRSTHAND_AND_THIRD_LAYER_V448.md)。[OtherVoices唯一人物档案](OtherVoices/speaker-unknown-001/README.md)已保存100答完整原文、逐条链接/时间、AI分析及缺失评论边界；该用户整体是认可缠论的研究者，不可仅凭六条否定性提问将其定义为全盘反对者。
+
 **v4.47 原文域纠偏：**[“任何级别中枢”不能直接扩大成所有原始价格流×所有级别、以及第99/102课当下划分的强度](deliverables/chanlun_108_acceptance/00_REVIEW/LEVEL_TYPE_DOMAIN_2007_REPLY_AND_OB99_OB102_V447.md)。第20课仍是低层不自动生成高层的关键证据，原作者已准入类型的完成根证据和同规则可知性仍OPEN；该研究并非高手本人原话。
 
 **新增：其他人的观点专区**：[OtherVoices/人物索引](OtherVoices/README.md)。每名交易者/研究者独立文件夹，同目录存原话、来源、我的分析和修订；先前高手暂存 [speaker-unknown-001](OtherVoices/speaker-unknown-001/README.md)，原话未找回，不把分析转述冒充引文。

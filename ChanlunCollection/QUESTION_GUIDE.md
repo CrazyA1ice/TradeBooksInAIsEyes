@@ -1,5 +1,7 @@
 # 如何用ChanlunCollection向AI询问《缠论》 
 
+**询问凯翔本人六点“坑”、第二种中枢定义、走势终完美第三层**：先读[凯翔原始100答及A001—A100索引](OtherVoices/speaker-unknown-001/README.md)并直接核对A089/A090（六点）、A087（两种方法）、A016（第三层未说出），再读同目录`analysis.md`和[跨课总报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAI_XIANG_100_ANSWERS_FIRSTHAND_AND_THIRD_LAYER_V448.md)。原始文件包含100答没有独立评论区回复，不能据此假造评论；A007引用其他人的五句口诀，不得混淆发言身份。知乎在线网页无法访问，注明“用户导出原文，可核Hash，平台未二次认证”。
+
 **询问其他人的观点／高手语录**：优先进入[OtherVoices/](OtherVoices/README.md)，选对应说话者文件夹；先读`quotes.md`核是否有真实原文和来源资格，再读同目录`analysis.md`，不能把研究转述伪称为原话。未来多个研究者分别建文件夹，同一人新增语录按Q编号追加。
 
 **询问整本书脉络**：先读[108课发表顺序/理论依赖双地图与七环闭环导读](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_READER_CONCEPTUAL_CLOSURE.md)，再追逐课SOURCE与后发版本。概念完整不等于证明/市场验证完成；无需用户手动逐页核查OCR。

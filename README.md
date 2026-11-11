@@ -6,7 +6,9 @@
 
 **《缠论》全部研究成果已整理到 [ChanlunCollection/](ChanlunCollection/README.md)**：五卷原PDF、108篇逐课分析、108张原文证据卡、108课统一理论主脊、深度导读、来源与版本登记、报告、测试和审计工具均在一个文件夹内可查；保留原仓库规范路径作为编辑源，由`COLLECTION_MANIFEST.json`逐文件验证精确一致。后续每本书都建立独立`<BookName>Collection/`；**每一步研究都必须同步修订[通用工作流](docs/BOOK_RESEARCH_WORKFLOW.md)、该书[工作日志](ChanlunCollection/WORK_LOG.md)和集合完整性清单**。
 
-**最新v4.47：**[第20课与2007-02-26答疑的“任何级别”主语、类型准入，以及第99/102课当下分类的适用范围](deliverables/chanlun_108_acceptance/00_REVIEW/LEVEL_TYPE_DOMAIN_2007_REPLY_AND_OB99_OB102_V447.md)。纠正此前把作者说法直接扩成“所有原始行情都在所有级别形成中枢”的过强形式重述，保留真实未证命题与不同级别完成事件。仍未找回高手逐字原帖，F01/OB38/OB99 OPEN，NOT_RUN。
+**最新v4.48：**[知乎凯翔100条真实回答及完整来源校验](ChanlunCollection/OtherVoices/speaker-unknown-001/README.md)已按原始SHA-256、100条回答URL/时间、31条明确缠论论述归档在原有唯一人物目录；[跨108课的真实原话与第三层再审报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAI_XIANG_100_ANSWERS_FIRSTHAND_AND_THIRD_LAYER_V448.md)更正此前六条仅被转述的记录，并明确A087第二种定义和A016第三层**仍缺具体定义**；独立评论区并未包含在此次上传中。F01/OB38/OB99 OPEN，行情NOT_RUN。
+
+**此前v4.47：**[第20课与2007-02-26答疑的“任何级别”主语、类型准入，以及第99/102课当下分类的适用范围](deliverables/chanlun_108_acceptance/00_REVIEW/LEVEL_TYPE_DOMAIN_2007_REPLY_AND_OB99_OB102_V447.md)。纠正此前把作者说法直接扩成“所有原始行情都在所有级别形成中枢”的过强形式重述，保留真实未证命题与不同级别完成事件。仍未找回高手逐字原帖，F01/OB38/OB99 OPEN，NOT_RUN。
 
 **此前v4.46：**已建立[《缠论》其他人观点档案](ChanlunCollection/OtherVoices/README.md)：**每个人一套子文件夹**，同目录保存原话、来源、AI分析和更新；首个高手`speaker-unknown-001`因原帖未取回而标`MISSING_VERBATIM`，不伪造原文。通用镜像机制扩展为读者友好的`OtherVoices`入口，已有理论证明状态不变。
 
