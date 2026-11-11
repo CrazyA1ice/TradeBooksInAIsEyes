@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.40.0",
-  "source_count": 911,
+  "workflow_version": "4.41.0",
+  "source_count": 916,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -292,6 +292,12 @@
       "mirror_path": "ChanlunCollection/.github/workflows/chanlun-lessons106-108-audit.yml",
       "git_blob_sha": "54ef15d5c08caaf75b6af3cf0fee1ded930ba49c",
       "size_bytes": 1394
+    },
+    {
+      "source_path": ".github/workflows/chanlun-original-sina-dual-a0-source-gate.yml",
+      "mirror_path": "ChanlunCollection/.github/workflows/chanlun-original-sina-dual-a0-source-gate.yml",
+      "git_blob_sha": "4767b79503fec3cbdceff3803efa2a48c6fdb767",
+      "size_bytes": 462
     },
     {
       "source_path": ".github/workflows/chanlun-original-theorem-text-check.yml",
@@ -1398,6 +1404,12 @@
       "size_bytes": 26446
     },
     {
+      "source_path": "catalog/chanlun_20070720_dual_a0_original_post_v441.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun_20070720_dual_a0_original_post_v441.json",
+      "git_blob_sha": "52e6a5797064a8cb5522a92a5d9b161e9463db40",
+      "size_bytes": 5865
+    },
+    {
       "source_path": "catalog/chanlun_author_completion_event_witnesses_v1.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_author_completion_event_witnesses_v1.json",
       "git_blob_sha": "d59598dfddc628b9d3316e89be3ba32962738847",
@@ -1840,6 +1852,12 @@
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_NINEFOLD_CENTER_333_AUTHOR_REPLIES_V440.md",
       "git_blob_sha": "9bdc5aae5b3fc94659fd8e5a7dc3562889285ba6",
       "size_bytes": 8290
+    },
+    {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_PRIMARY_SINA_DUAL_A0_THEORY_V441.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_PRIMARY_SINA_DUAL_A0_THEORY_V441.md",
+      "git_blob_sha": "39d510f9198829f953691e1b5ffca0ca6cddb844",
+      "size_bytes": 8190
     },
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_SECOND_CENTER_METHOD_DISAMBIGUATION_V439.md",
@@ -2288,8 +2306,8 @@
     {
       "source_path": "deliverables/chanlun_108_acceptance/README.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/README.md",
-      "git_blob_sha": "acb09a381c240f773995c0daed139313dac5596a",
-      "size_bytes": 33342
+      "git_blob_sha": "22f3cd4d06a041c7a7714f5cb11dac8db2d837b4",
+      "size_bytes": 33642
     },
     {
       "source_path": "docs/ANALYSIS_STANDARD.md",
@@ -2300,8 +2318,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "e92702f7bc1cb90fa87a28c75f9dbefb4a70d434",
-      "size_bytes": 82260
+      "git_blob_sha": "f14413dae31813a26f3642eca96d75e313244d32",
+      "size_bytes": 83682
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -4398,6 +4416,12 @@
       "size_bytes": 5084
     },
     {
+      "source_path": "tests/test_chanlun_original_sina_dual_a0.py",
+      "mirror_path": "ChanlunCollection/tests/test_chanlun_original_sina_dual_a0.py",
+      "git_blob_sha": "249385d265c1b6860f607727c97b567a998a84ac",
+      "size_bytes": 3104
+    },
+    {
       "source_path": "tests/test_chanlun_pen_frontier_v3.py",
       "mirror_path": "ChanlunCollection/tests/test_chanlun_pen_frontier_v3.py",
       "git_blob_sha": "6613607ea22ce8b45c38abf7eddc39477eb52480",
@@ -4984,6 +5008,12 @@
       "mirror_path": "ChanlunCollection/tools/audit_chanlun_native_figure_resolution.py",
       "git_blob_sha": "03e374cdfc5376c47b97073484fc4b20af104612",
       "size_bytes": 3275
+    },
+    {
+      "source_path": "tools/audit_chanlun_original_sina_dual_a0.py",
+      "mirror_path": "ChanlunCollection/tools/audit_chanlun_original_sina_dual_a0.py",
+      "git_blob_sha": "adc621aed1b00d55f288e447a372ae26b1795eed",
+      "size_bytes": 4592
     },
     {
       "source_path": "tools/audit_chanlun_pen_frontier_witnesses_v3.py",

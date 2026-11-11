@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-AUTHOR-20070720-DUAL-A0-INITIALIZATION-V441",
+  "version": "4.41.0",
+  "asof": "2026-11-11",
+  "source_role": "PRIMARY_SINA_DOMAIN_AUTHOR_MAIN_POST_VISIBLE_NOT_AUTHENTICATED_2007_BYTES",
+  "primary_posts": [
+    {
+      "id": "JUL19",
+      "date": "2007-07-19 15:29:28",
+      "title": "在等待利空落地的日子里",
+      "url": "https://blog.sina.com.cn/s/blog_486e105c01000brc.html",
+      "role": "AUTHOR_MAIN_POST",
+      "scope": "Two diagrams of pens; question asks whether same when analyzed as segments. Original Sina image pixels not independently inspected."
+    },
+    {
+      "id": "JUL20",
+      "date": "2007-07-20 08:26:20",
+      "title": "刚起来，下午解不了盘。",
+      "url": "https://blog.sina.com.cn/s/blog_486e105c01000bs4.html",
+      "role": "AUTHOR_MAIN_POST",
+      "scope": "Direct author explanation of strict per-transaction recursion versus operable fractal pen segment initialized recursion a0."
+    }
+  ],
+  "propositions": [
+    {
+      "id": "D1",
+      "source": "JUL20",
+      "statement": "Actual transaction executions define strict theoretical bottom-level a0."
+    },
+    {
+      "id": "D2",
+      "source": "JUL20",
+      "statement": "Fractal, pen and segment structures confirm an operable practical lowest-level a0."
+    },
+    {
+      "id": "D3",
+      "source": "JUL20",
+      "statement": "The two share formal recursive structure a_n=f(a_(n-1)) but begin from different a0."
+    },
+    {
+      "id": "D4",
+      "source": "JUL20",
+      "statement": "Pen and segment are not themselves true movement types or centers; segment cannot strictly be called a lowest-level movement's subordinate movement type."
+    },
+    {
+      "id": "D5",
+      "source": "JUL20",
+      "statement": "Source explicitly distinguishes a0 theoretical existence and a0 practical convenience and emphasizes not predicting future."
+    },
+    {
+      "id": "D6",
+      "source": "JUL19",
+      "statement": "The previous day posed two graphs whose individual slashes are pens; the next day distinguishes pen-level segment parsing from movement-type viewpoint."
+    }
+  ],
+  "course_anchors": [
+    {
+      "lesson": 17,
+      "id": "CL017-S02",
+      "pages": [
+        197
+      ]
+    },
+    {
+      "lesson": 17,
+      "id": "CL017-S03",
+      "pages": [
+        197,
+        198
+      ]
+    },
+    {
+      "lesson": 18,
+      "id": "CL018-S01",
+      "pages": [
+        234
+      ]
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-2",
+      "pages": [
+        291
+      ]
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-3",
+      "pages": [
+        291,
+        292
+      ]
+    },
+    {
+      "lesson": 62,
+      "id": "CL62-SOURCE-3",
+      "pages": [
+        293
+      ]
+    },
+    {
+      "lesson": 65,
+      "id": "CL65-SOURCE-4",
+      "pages": [
+        348
+      ]
+    },
+    {
+      "lesson": 67,
+      "id": "CL67-SOURCE-3",
+      "pages": [
+        388,
+        389
+      ]
+    },
+    {
+      "lesson": 71,
+      "id": "CL71-SOURCE-4",
+      "pages": [
+        72
+      ]
+    },
+    {
+      "lesson": 72,
+      "id": "CL72-SOURCE-3",
+      "pages": [
+        86,
+        87
+      ]
+    },
+    {
+      "lesson": 78,
+      "id": "CL78-SOURCE-1",
+      "pages": [
+        174
+      ]
+    },
+    {
+      "lesson": 83,
+      "id": "CL83-SOURCE-1",
+      "pages": [
+        288
+      ]
+    },
+    {
+      "lesson": 83,
+      "id": "CL83-SOURCE-2",
+      "pages": [
+        288
+      ]
+    },
+    {
+      "lesson": 84,
+      "id": "CL84-SOURCE-3",
+      "pages": [
+        301
+      ]
+    }
+  ],
+  "type_contract": {
+    "strict_a0_source": "INDIVIDUAL_TRANSACTION_EXECUTIONS",
+    "practical_a0_source": "FRACTAL_PEN_SEGMENT_CONSTRUCTION",
+    "shared_recurrence_form": "a_n=f(a_(n-1))",
+    "universal_equal_center_outputs_from_same_recurrence": false,
+    "strict_segment_is_subordinate_finished_movement": false,
+    "actual_trade_is_subordinate_finished_movement": false,
+    "practical_segments_may_build_lowest_center": true,
+    "a_segment_finish_proves_movement_finish": false,
+    "requires_legal_member_and_completed_movement_before_next_recursive_center": true,
+    "strict_initial_trade_axiom_lesson35": "THREE_CONSECUTIVE_SAME_PRICE_TRADES",
+    "source_author_proved_a_complete_asof_market_parser": false
+  },
+  "toy_logic": {
+    "scope": "ARTIFICIAL_INTEGER_FUNCTION_NOT_A_CHANLUN_MARKET_OR_CENTER",
+    "f": "f(x)=x+1",
+    "strict_a0": 0,
+    "practical_a0": 2,
+    "strict_a1": 1,
+    "practical_a1": 3,
+    "interpretation": "One shared recursive formula cannot imply universal identical outputs when base differs."
+  },
+  "prior_relations": {
+    "v440_333": "HIERARCHICAL_GROUPING_AFTER_BASE_CONSTRUCTION",
+    "v439_l54": "MULTIPLE_LEGAL_PARTITIONS_FOR_ONE_CHART",
+    "v438_l38": "TWO_OBSERVATION_VIEWPOINTS_AND_HYBRID",
+    "new_v441": "AUTHOR_MAIN_POST_THEORY_VS_PRACTICE_DIFFERENT_A0",
+    "expert_identity_of_second_method": "STRONGLY_MATCHES_BUT_EXPERT_ORIGINAL_PUBLIC_QUOTE_NOT_VERIFIED"
+  },
+  "scope_limits": {
+    "original_2007_sina_post_bytes_authenticated": false,
+    "original_jul19_chart_pixels_verified": false,
+    "old_sina_comment_database_authenticated": false,
+    "original_expert_public_post_verified": false,
+    "laohu_edition_full_bytes_verified": false,
+    "entire_108_course_verbatim_reaudit_this_round": false,
+    "historical_market_ticks_replayed": false,
+    "any_real_strategy_profitability_backtested": false
+  },
+  "open": [
+    "F01_OPEN",
+    "OB38_OPEN",
+    "OB99_OPEN",
+    "COMPLETE_PRACTICAL_A0_TO_FINISHED_MOVEMENT_BRIDGE_OPEN",
+    "CROSS_A0_OUTPUT_EQUIVALENCE_NOT_PROVEN",
+    "EXPERT_ORIGINAL_PUBLIC_CITATION_NOT_FOUND",
+    "LAOHU_EDITION_FULL_TEXT_NOT_READ",
+    "NOT_RUN_REAL_MARKET"
+  ],
+  "status": "ORIGINAL_SINA_MAIN_POST_DUAL_A0_AUTHOR_EXPLICIT_EXPERT_MATCH_HIGH_BUT_NOT_IDENTIFIED"
+}
