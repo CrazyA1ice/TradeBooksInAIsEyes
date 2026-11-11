@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-MINIMUM-PAN-EXIT-NESTED-RETRACE-20070320-21-V443",
+  "version": "4.43.0",
+  "asof": "2026-11-11",
+  "research_question": "Does the author supply a noncircular, online bottom-level pan ending rule, or only conditional exit events above the base and an observation-granularity explanation?",
+  "reply_evidence": [
+    {
+      "id": "MAR20-173928",
+      "page": "https://chzhshch.blog/confucius/58/",
+      "reply_at": "2007-03-20 17:39:28",
+      "question_at": "2007-03-20 16:02:35",
+      "role": "SECONDARY_ARCHIVED_AUTHOR_ATTRIBUTED_REPLY_NOT_ORIGINAL_SINA_BYTES",
+      "meaning": "Three equal-price trades do not imply immediate reversal; a0 base definition can vary while preserving recursion form."
+    },
+    {
+      "id": "MAR20-181644",
+      "page": "https://chzhshch.blog/confucius/58/",
+      "reply_at": "2007-03-20 18:16:44",
+      "question_at": "2007-03-20 17:35:58",
+      "role": "SECONDARY_ARCHIVED_AUTHOR_ATTRIBUTED_REPLY_NOT_ORIGINAL_SINA_BYTES",
+      "meaning": "User explicitly asks how to determine end of indefinitely extending lower-level pan on proposed parent third point. Author says do not predict, wait for legal third point; timing cannot be predicted."
+    },
+    {
+      "id": "MAR20-185511",
+      "page": "https://chzhshch.blog/confucius/58/",
+      "reply_at": "2007-03-20 18:55:11",
+      "question_at": "2007-03-20 18:49:09",
+      "role": "SECONDARY_ARCHIVED_AUTHOR_ATTRIBUTED_REPLY_NOT_ORIGINAL_SINA_BYTES",
+      "meaning": "Center existence makes movement eligible to finish any time; actual extension is a distinct question."
+    },
+    {
+      "id": "MAR21-165634",
+      "page": "https://chzhshch.blog/stocks/038/",
+      "reply_at": "2007-03-21 16:56:34",
+      "question_at": "2007-03-21 16:49:31",
+      "role": "SECONDARY_ARCHIVED_AUTHOR_ATTRIBUTED_REPLY_NOT_ORIGINAL_SINA_BYTES",
+      "meaning": "Two sub-sublevel retraces in historical picture together occur inside one lower-level movement; when internal structure completed is different from count of parent retraces."
+    }
+  ],
+  "other_primary_source": {
+    "url": "https://blog.sina.com.cn/s/blog_486e105c010009be.html",
+    "kind": "DIRECT_AUTHOR_SINA_LESSON38_MAIN_BODY_ONLY",
+    "comments_from_2007_original_sina_bytes_verified": false
+  },
+  "original_author_lessons": [
+    {
+      "lesson": 18,
+      "id": "CL018-S01",
+      "pages": [
+        234
+      ]
+    },
+    {
+      "lesson": 18,
+      "id": "CL018-S07",
+      "pages": [
+        235
+      ]
+    },
+    {
+      "lesson": 20,
+      "id": "CL020-S03",
+      "pages": [
+        247
+      ]
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-2",
+      "pages": [
+        291
+      ]
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-9",
+      "pages": [
+        291
+      ]
+    },
+    {
+      "lesson": 38,
+      "id": "CL38-SOURCE-1",
+      "pages": [
+        338
+      ]
+    },
+    {
+      "lesson": 53,
+      "id": "CL53-SOURCE-3",
+      "pages": [
+        162
+      ]
+    },
+    {
+      "lesson": 65,
+      "id": "CL65-SOURCE-4",
+      "pages": [
+        348
+      ]
+    },
+    {
+      "lesson": 67,
+      "id": "CL67-SOURCE-3",
+      "pages": [
+        388,
+        389
+      ]
+    },
+    {
+      "lesson": 71,
+      "id": "CL71-SOURCE-4",
+      "pages": [
+        72
+      ]
+    },
+    {
+      "lesson": 78,
+      "id": "CL78-SOURCE-1",
+      "pages": [
+        174
+      ]
+    },
+    {
+      "lesson": 84,
+      "id": "CL84-SOURCE-3",
+      "pages": [
+        301
+      ]
+    },
+    {
+      "lesson": 99,
+      "id": "CL99-SOURCE-1",
+      "pages": [
+        202
+      ]
+    }
+  ],
+  "typed_distinctions": [
+    {
+      "code": "B0",
+      "source": "CL35-SO-2",
+      "input": "THREE_CONSECUTIVE_IDENTICAL_TRADE_TICKS",
+      "output": "LOWEST_CENTER_PRESENT",
+      "does_not_imply": "LOWEST_PAN_FINAL_END"
+    },
+    {
+      "code": "C1",
+      "source": "CL018-S07",
+      "input": "ONE_ELIGIBLE_CENTER",
+      "output": "PAN_MAY_FINISH",
+      "does_not_imply": "PAN_FINISHED_NOW"
+    },
+    {
+      "code": "C2",
+      "source": "MAR20-181644",
+      "input": "VALID_THIRD_POINT",
+      "output": "PAN_EXIT_CONDITIONAL",
+      "does_not_imply": "PREDICT_THIRD_POINT_TIMESTAMP"
+    },
+    {
+      "code": "C3",
+      "source": "CL020-S03",
+      "input": "COMPLETE_DEPARTURE_AND_FIRST_COMPLETE_RETRACE_AT_CHILD_LEVEL",
+      "output": "THIRD_POINT_IF_BOUNDARY_VALID",
+      "does_not_imply": "FINISHED_CHILD_FROM_RAW_PEN_OR_MICRO_RETRACES"
+    },
+    {
+      "code": "C4",
+      "source": "MAR21-165634",
+      "input": "TWO_MICRO_RETRACES_IN_ONE_PARENT_MOVEMENT",
+      "output": "MULTIPLE_MICRO_NOT_MULTIPLE_PARENT",
+      "does_not_imply": "AUTOMATIC_PARENT_FINISH_CLOCK"
+    },
+    {
+      "code": "C5",
+      "source": "CL84-SOURCE-3",
+      "input": "F1_LOWEST_INITIALIZER_CAN_DIFFER_FROM_F2",
+      "output": "BASE_POLICY_MUST_BE_STATED",
+      "does_not_imply": "NEGATIVE_LEVEL_FINISHED_CHILD_EXISTS"
+    }
+  ],
+  "bounded_research_model": {
+    "source_class": "ONLY_SYNTHETIC_EXTERNAL_DECLARATIONS_NOT_MARKET_AUTHENTICATION",
+    "one_parent_id": "PARENT_RETRACE_001",
+    "one_parent_level": 1,
+    "child_level": 0,
+    "frozen_policy": "SYNTHETIC_RANK_POLICY_V443",
+    "minimum_three_lower_components_for_eligibility": true,
+    "two_micro_observations_not_two_parent_complete_retraces": true,
+    "external_parent_finish_receipt_is_unverified": true,
+    "first_confirm_time_cannot_precede_children_or_declared_exit": true,
+    "automatic_movement_completion_from_center_present": false,
+    "strict_bottom_third_point_with_child_level_negative_is_undefined": true,
+    "no_complete_f01_oracle_available": true
+  },
+  "synthetic_events": [
+    {
+      "id": "m1",
+      "parent_id": "PARENT_RETRACE_001",
+      "level": 0,
+      "first_known": 2,
+      "history_end": 1,
+      "role": "MICRO_COMPONENT",
+      "declared_complete": true,
+      "source": "SYNTHETIC_UNVERIFIED_MICRO"
+    },
+    {
+      "id": "m2",
+      "parent_id": "PARENT_RETRACE_001",
+      "level": 0,
+      "first_known": 4,
+      "history_end": 3,
+      "role": "MICRO_RETRACE",
+      "declared_complete": true,
+      "source": "SYNTHETIC_UNVERIFIED_MICRO"
+    },
+    {
+      "id": "m3",
+      "parent_id": "PARENT_RETRACE_001",
+      "level": 0,
+      "first_known": 6,
+      "history_end": 5,
+      "role": "MICRO_COMPONENT",
+      "declared_complete": true,
+      "source": "SYNTHETIC_UNVERIFIED_MICRO"
+    },
+    {
+      "id": "m4",
+      "parent_id": "PARENT_RETRACE_001",
+      "level": 0,
+      "first_known": 8,
+      "history_end": 7,
+      "role": "MICRO_RETRACE",
+      "declared_complete": true,
+      "source": "SYNTHETIC_UNVERIFIED_MICRO"
+    },
+    {
+      "id": "m5",
+      "parent_id": "PARENT_RETRACE_001",
+      "level": 0,
+      "first_known": 10,
+      "history_end": 9,
+      "role": "MICRO_COMPONENT",
+      "declared_complete": true,
+      "source": "SYNTHETIC_UNVERIFIED_MICRO"
+    }
+  ],
+  "example_receipts": [
+    {
+      "id": "S1_FIRST_MICRO_ONLY",
+      "asof": 4,
+      "include_count": 2,
+      "finish_receipt": null,
+      "expected": "WAITING_MINIMUM_THREE_COMPONENTS"
+    },
+    {
+      "id": "S2_COMPLETE_3_MICRO_NO_EXIT",
+      "asof": 6,
+      "include_count": 3,
+      "finish_receipt": null,
+      "expected": "CAN_FINISH_NOT_ACTUALLY_CERTIFIED"
+    },
+    {
+      "id": "S3_TWO_MICRO_PULLBACKS_BUT_NO_EXIT",
+      "asof": 10,
+      "include_count": 5,
+      "finish_receipt": null,
+      "expected": "CAN_FINISH_NOT_ACTUALLY_CERTIFIED"
+    },
+    {
+      "id": "S4_DECLARED_EXIT_IN_FUTURE",
+      "asof": 10,
+      "include_count": 5,
+      "finish_receipt": {
+        "parent_id": "PARENT_RETRACE_001",
+        "first_known": 12,
+        "role": "UNVERIFIED_EXTERNAL_PARENT_EXIT"
+      },
+      "expected": "AWAITING_EXTERNAL_PARENT_FINISH"
+    },
+    {
+      "id": "S5_DECLARED_EXIT_NOW",
+      "asof": 12,
+      "include_count": 5,
+      "finish_receipt": {
+        "parent_id": "PARENT_RETRACE_001",
+        "first_known": 12,
+        "role": "UNVERIFIED_EXTERNAL_PARENT_EXIT"
+      },
+      "expected": "ONE_PARENT_FINISH_CONDITIONAL_NOT_AUTHENTICATED"
+    },
+    {
+      "id": "S6_ONE_MICRO_COMPONENT_NOT_COMPLETE",
+      "asof": 10,
+      "include_count": 5,
+      "amend": {
+        "index": 4,
+        "declared_complete": false
+      },
+      "finish_receipt": null,
+      "expected": "LOWER_COMPONENT_UNFINISHED"
+    },
+    {
+      "id": "S7_THREE_LOWER_IN_FUTURE",
+      "asof": 4,
+      "include_count": 5,
+      "finish_receipt": null,
+      "expected": "WAITING_MINIMUM_THREE_COMPONENTS"
+    },
+    {
+      "id": "S8_EXIT_EARLIER_THAN_LAST_CHILD",
+      "asof": 12,
+      "include_count": 5,
+      "finish_receipt": {
+        "parent_id": "PARENT_RETRACE_001",
+        "first_known": 9,
+        "role": "UNVERIFIED_EXTERNAL_PARENT_EXIT"
+      },
+      "expected": "REJECT_TEMPORAL_CERTIFICATE"
+    }
+  ],
+  "root_panzheng": {
+    "parent_level": 0,
+    "only_general_exit_rule": "PAN_FINISH_DEPENDS_ON_THIRD_POINT_WITH_COMPLETE_CHILD_AT_LEVEL_MINUS_ONE",
+    "would_require_child_level": -1,
+    "negative_level_author_initializer_supplied": false,
+    "center_exists_after_third_identical_trade": true,
+    "center_does_not_force_reversal": true,
+    "result": "BLOCKED_GENERIC_THIRD_POINT_AT_ABSOLUTE_F1_BASE_NO_FINISHED_NEGATIVE_LEVEL_CHILD",
+    "possible_missing_special_rule": "AUTHORED_BASE_PAN_TERMINATION_AXIOM_OR_NONCIRCULAR_DIFFERENT_EXIT_AND_SOURCE_PROOF",
+    "no_claim_of_theory_inconsistency": true
+  },
+  "provenance_flags": {
+    "archived_author_reply_original_2007_sina_bytes_verified": false,
+    "full_2007_comment_stream_authenticated": false,
+    "expert_original_public_post_verified": false,
+    "laohu_edition_full_text_read": false,
+    "full_original_108_chapters_fresh_reread": false,
+    "real_market_data_or_trading_backtest": false,
+    "mathematical_completeness_of_chanlun_proven": false
+  },
+  "proof_status": {
+    "F01": "OPEN",
+    "OB38": "OPEN",
+    "OB99": "OPEN",
+    "market": "NOT_RUN"
+  },
+  "status": "NESTED_MICRO_RETRACE_DISTINGUISHED_FROM_PARENT_FINISH_AND_BASE_PAN_GAP_LOCALIZED"
+}

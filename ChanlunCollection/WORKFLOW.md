@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.42.0
+# ChanlunCollection｜本书实施工作流 v4.43.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.43.0 本步：**找到2007-03-20 18:16:44作者正面答复“低层回试盘整可无限延伸如何完结”，连同18:55:11“可结束不等于已结束”、17:39:28“最低三笔同价不必翻转”及3月21日16:56:34“次次级两次回抽属次级一次结构内部”，从原文限定最低完成/跨级计数。源码建立1级父回抽、0级微走势的独立完成声明审查，标记t10已见微构件与t12才声明父级出口的区别。**绝对最低层第三点需要不存在的负一级已完成走势**只表示现有规则子集缺一个基础终结特则，不证明原文全局不可实现；F01/OB38/OB99 OPEN、NOT_RUN。详情[最低盘整专题](deliverables/chanlun_108_acceptance/00_REVIEW/MINIMUM_PAN_END_NESTED_RETRACE_AND_BASE_GAP_V443.md)。
 
 **v4.42.0 本步：**按作者2007-03-21 16:19/16:29二手归档评论确认：旧中心此前向下回到中心内部属于未结束的中枢震荡，不消耗“首次合格回试”资格；首次未返之后同一中心再外返不另发三买。独立固定政策有限前缀模拟区分t10价格极值与t12完成资格首次可知。第20课low>=ZG与三月“不回”在边界等于ZG处保留分叉，不擅创唯一解析规则。完整报告[原问答与事件审核](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_FIRST_ELIGIBLE_THIRD_RETRACE_ASOF_V442.md)。实用双a0到已完成下级走势的桥仍未建成，F01/OB38/OB99 OPEN、NOT_RUN。
 

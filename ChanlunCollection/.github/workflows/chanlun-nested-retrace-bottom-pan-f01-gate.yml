@@ -1,0 +1,17 @@
+name: chanlun-nested-retrace-bottom-pan-f01-gate
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  lower-two-not-parent-two-and-pan-base:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Source, level and bottom-base proof obligations
+        run: python -B tools/audit_chanlun_nested_retrace_base_pan.py
+      - name: Synthetic prefixes, invalid proof roles and no negative-level shortcut
+        run: python -B -m unittest discover -s tests -p "test_chanlun_nested_retrace_base_pan.py" -v

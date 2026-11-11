@@ -1,5 +1,7 @@
 # 《缠论》五卷108课：最终成果验收入口（无重复副本）
 
+**v4.43最低盘整完结与层级计数：**[作者03-20/21原问答、t4/t6/t10/t12的可结束/已结束区分与最低负一级入口缺证](00_REVIEW/MINIMUM_PAN_END_NESTED_RETRACE_AND_BASE_GAP_V443.md)。未认证市场或F01普遍退出证明。
+
 **v4.42第三买首次资格研究：**[2007-03-21完整追问，未返中枢首次与返回中心仍是震荡，独立完成时钟和等号边界](00_REVIEW/EXPERT_FIRST_ELIGIBLE_THIRD_RETRACE_ASOF_V442.md)。只做合成前缀条件性输出；F01/OB38/OB99 OPEN，NOT_RUN。
 
 **v4.41原新浪主文重大证据：**[2007-07-19提问与7月20日作者独立文章的理论/实操双a0解释](00_REVIEW/EXPERT_PRIMARY_SINA_DUAL_A0_THEORY_V441.md)。不同基例相同递归形式不代表两个解析政策的所有结果或完成时刻等价；F01/OB38/OB99 OPEN，NOT_RUN。
