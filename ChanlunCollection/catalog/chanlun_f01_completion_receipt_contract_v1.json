@@ -179,5 +179,8 @@
     "no_intraday_or_order_fills_verified": true,
     "no_false_automatic_base_pan_termination": true,
     "never_return_AUTHOR_THEOREM_PROVEN": true
-  }
+  },
+  "followup_center_relation_study": "catalog/chanlun_f01_l20_center_partial_order_and_base_pan_v1.json",
+  "followup_center_relation_finding": "L20 theorem 2 gives partial strict envelope separation and upward/downward expansion patterns; NOT a proved globally total L35 center-highness comparator",
+  "followup_base_pan_finding": "At absolute f1 atomic trade level, mechanically applying L20 third point to close a one-center pan demands an undefined finished child at level -1; needs a sourced special base termination rule"
 }
