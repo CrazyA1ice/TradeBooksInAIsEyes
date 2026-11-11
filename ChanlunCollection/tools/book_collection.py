@@ -73,7 +73,7 @@ def validate_mirror_overrides(c):
         fail(source_prefix in c["source_roots"] and
              isinstance(mirror_prefix,str) and mirror_prefix and
              not mirror_prefix.startswith("/") and
-             "\\\\" not in mirror_prefix and
+             chr(92) not in mirror_prefix and
              all(part not in {"",".",".."} for part in mirror_prefix.split("/")),
              "Unsafe or unregistered mirror override")
     return aliases

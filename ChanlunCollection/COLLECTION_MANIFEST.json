@@ -3512,8 +3512,8 @@
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/quotes.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/quotes.md",
-      "git_blob_sha": "d14a3986f1dad008cf6127bac7847d92d57bed8a",
-      "size_bytes": 857
+      "git_blob_sha": "35b51cff376b010a213b1970b108e9227ba0fd4e",
+      "size_bytes": 878
     },
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/sources.json",
@@ -5234,8 +5234,8 @@
     {
       "source_path": "tools/book_collection.py",
       "mirror_path": "ChanlunCollection/tools/book_collection.py",
-      "git_blob_sha": "cbbd6960cdffe722d7d1253ac48198f424572d3d",
-      "size_bytes": 10439
+      "git_blob_sha": "bff4d91e42dcc0c58b2b8aa6a6bf804b86a5128a",
+      "size_bytes": 10440
     },
     {
       "source_path": "tools/build_book_acceptance_zip.py",
