@@ -36,7 +36,34 @@ class BookCollectionTests(unittest.TestCase):
         for item in self.snapshot["entries"]:
             self.assertEqual(m.blob_sha(ROOT/item["source_path"]),item["git_blob_sha"])
             self.assertEqual((ROOT/item["source_path"]).stat().st_size,item["size_bytes"])
-            self.assertEqual(item["mirror_path"],"ChanlunCollection/"+item["source_path"])
+            self.assertEqual(item["mirror_path"],m.mirror_destination(self.book,item["source_path"]))
+            if item["source_path"].startswith("other_views/chanlun/"):
+                expected="ChanlunCollection/OtherVoices/"+item["source_path"].split("other_views/chanlun/",1)[1]
+                self.assertEqual(item["mirror_path"],expected)
+
+    def test_per_person_archive_contains_quotes_analysis_and_provenance(self):
+        source=ROOT/"other_views/chanlun/speaker-unknown-001"
+        mirror=ROOT/"ChanlunCollection/OtherVoices/speaker-unknown-001"
+        for part in ["README.md","quotes.md","analysis.md","sources.json","updates.md"]:
+            self.assertTrue((source/part).is_file())
+            self.assertEqual((source/part).read_bytes(),(mirror/part).read_bytes())
+        meta=json.loads((mirror/"sources.json").read_text(encoding="utf-8"))
+        self.assertFalse(meta["speaker_verified"])
+        self.assertEqual(meta["quote_status"],"MISSING_VERBATIM")
+        self.assertEqual(meta["verbatim_quotes"],[])
+        self.assertIn("不是本人发言",(mirror/"quotes.md").read_text(encoding="utf-8"))
+
+    def test_alias_paths_are_safe_and_no_registry_collision(self):
+        self.assertEqual(
+            m.mirror_destination(self.book,"other_views/chanlun/speaker-unknown-001/analysis.md"),
+            "ChanlunCollection/OtherVoices/speaker-unknown-001/analysis.md")
+        broken=dict(self.book)
+        broken["mirror_path_overrides"]={"other_views/chanlun":"../unsafe"}
+        with self.assertRaisesRegex(ValueError,"Unsafe or unregistered"):
+            m.validate_mirror_overrides(broken)
+        broken["mirror_path_overrides"]={"unregistered":"OtherVoices"}
+        with self.assertRaisesRegex(ValueError,"Unsafe or unregistered"):
+            m.validate_mirror_overrides(broken)
 
     def test_mirrored_paths_do_not_break_existing_relative_references(self):
         for rel in ["deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_LOGICAL_CONTINUITY.md",

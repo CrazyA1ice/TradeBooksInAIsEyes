@@ -62,7 +62,31 @@ def collection(id_):
          c["canonical_unchanged"] is True,"Mirroring must not change originals")
     fail(c["collection_work_log"]==folder+"/WORK_LOG.md" and
          c["workflow_version"]!="","Missing per-book workflow log/version")
+    validate_mirror_overrides(c)
     return c
+
+def validate_mirror_overrides(c):
+    """Require secure subtree aliases; source bytes stay in canonical roots."""
+    aliases=c.get("mirror_path_overrides",{})
+    fail(isinstance(aliases,dict),"Mirror overrides must be an object")
+    for source_prefix,mirror_prefix in aliases.items():
+        fail(source_prefix in c["source_roots"] and
+             isinstance(mirror_prefix,str) and mirror_prefix and
+             not mirror_prefix.startswith("/") and
+             chr(92) not in mirror_prefix and
+             all(part not in {"",".",".."} for part in mirror_prefix.split("/")),
+             "Unsafe or unregistered mirror override")
+    return aliases
+
+def mirror_destination(c,rel):
+    """Preserve default relpaths; allow validated per-book reader subfolders."""
+    aliases=validate_mirror_overrides(c)
+    matches=[(src,dst) for src,dst in aliases.items() if rel.startswith(src+"/")]
+    fail(len(matches)<=1,"Ambiguous mirror override for "+rel)
+    if matches:
+        src,dst=matches[0]
+        return c["folder"]+"/"+dst+"/"+rel[len(src)+1:]
+    return c["folder"]+"/"+rel
 
 def canonical_paths(c):
     found={}
@@ -89,8 +113,14 @@ def snapshot(c):
     files=canonical_paths(c)
     entries=[]
     for rel,path in files.items():
-        entries.append({"source_path":rel,"mirror_path":c["folder"]+"/"+rel,
+        entries.append({"source_path":rel,"mirror_path":mirror_destination(c,rel),
                         "git_blob_sha":blob_sha(path),"size_bytes":path.stat().st_size})
+    destinations=[e["mirror_path"] for e in entries]
+    fail(len(destinations)==len(set(destinations)),
+         "Canonical sources map to duplicate mirror destinations")
+    fail(not any(p.split("/")[-1] in MANAGED and p.count("/")==1
+                 for p in destinations),
+         "Canonical source would overwrite curated book entry")
     manuscript=[e for e in entries if e["source_path"].startswith(
         "analyses/books/chanlun/chapters/lesson_") and
         e["source_path"].endswith(".md")]

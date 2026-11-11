@@ -1,5 +1,7 @@
 # 如何用ChanlunCollection向AI询问《缠论》 
 
+**询问其他人的观点／高手语录**：优先进入[OtherVoices/](OtherVoices/README.md)，选对应说话者文件夹；先读`quotes.md`核是否有真实原文和来源资格，再读同目录`analysis.md`，不能把研究转述伪称为原话。未来多个研究者分别建文件夹，同一人新增语录按Q编号追加。
+
 **询问整本书脉络**：先读[108课发表顺序/理论依赖双地图与七环闭环导读](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_READER_CONCEPTUAL_CLOSURE.md)，再追逐课SOURCE与后发版本。概念完整不等于证明/市场验证完成；无需用户手动逐页核查OCR。
 
 
