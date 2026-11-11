@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.32.0",
-  "source_count": 871,
+  "workflow_version": "4.33.0",
+  "source_count": 876,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -82,6 +82,12 @@
       "mirror_path": "ChanlunCollection/.github/workflows/chanlun-f01-figure-readback.yml",
       "git_blob_sha": "0f94975f3b61a24aa8cf4cd371ec29b4c9baf294",
       "size_bytes": 1487
+    },
+    {
+      "source_path": ".github/workflows/chanlun-f01-l20-center-order-gate.yml",
+      "mirror_path": "ChanlunCollection/.github/workflows/chanlun-f01-l20-center-order-gate.yml",
+      "git_blob_sha": "19646548fdf3b161068f33157c15a10e755911f4",
+      "size_bytes": 653
     },
     {
       "source_path": ".github/workflows/chanlun-incremental-events-v2-audit.yml",
@@ -1388,14 +1394,20 @@
     {
       "source_path": "catalog/chanlun_f01_completion_receipt_contract_v1.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_f01_completion_receipt_contract_v1.json",
-      "git_blob_sha": "5303d3c2294615854f03b76d4338d148e0bda606",
-      "size_bytes": 6879
+      "git_blob_sha": "1b0ad6bcf351815c665ac805ea5a21500a59d6b8",
+      "size_bytes": 7407
     },
     {
       "source_path": "catalog/chanlun_f01_f02_third_point_boundary_v1.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_f01_f02_third_point_boundary_v1.json",
       "git_blob_sha": "1a021e684a3ec6ef1bc9e70150efa9cdf7f65a03",
       "size_bytes": 3682
+    },
+    {
+      "source_path": "catalog/chanlun_f01_l20_center_partial_order_and_base_pan_v1.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun_f01_l20_center_partial_order_and_base_pan_v1.json",
+      "git_blob_sha": "ef06e35808581bbbb31e84a4363af94562128c2a",
+      "size_bytes": 9236
     },
     {
       "source_path": "catalog/chanlun_f01_segment_termination_reconciliation_v1.json",
@@ -1854,10 +1866,16 @@
       "size_bytes": 38559
     },
     {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_CENTER_ENVELOPE_ORDER_AND_BASE_PAN_DOMAIN_GAP.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_CENTER_ENVELOPE_ORDER_AND_BASE_PAN_DOMAIN_GAP.md",
+      "git_blob_sha": "330345c4ea36e24cf75fba93fce5a45ff7180d99",
+      "size_bytes": 10325
+    },
+    {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_COMPLETION_PROOF_OBLIGATIONS.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_COMPLETION_PROOF_OBLIGATIONS.md",
-      "git_blob_sha": "8a7d795584c18fb37e61775ae1b8bebb24346abd",
-      "size_bytes": 23438
+      "git_blob_sha": "9f041eba4a5b1a0dcc2d75aa10948a912aed8131",
+      "size_bytes": 24260
     },
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_F02_BOUNDARY_BRIDGE.md",
@@ -1874,8 +1892,8 @@
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_PROOF_CARRYING_COMPLETION_RECEIPTS_AND_BOTTOM_CASE.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_PROOF_CARRYING_COMPLETION_RECEIPTS_AND_BOTTOM_CASE.md",
-      "git_blob_sha": "11cbf33d827ebee223b7bf5e59f7244976507dc0",
-      "size_bytes": 12651
+      "git_blob_sha": "a0b50b2c0af02c1de0f787f24e852e62ef952cd7",
+      "size_bytes": 13432
     },
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_SEGMENT_TERMINATION_67_71_78.md",
@@ -1898,8 +1916,8 @@
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_READER_CONCEPTUAL_CLOSURE.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_READER_CONCEPTUAL_CLOSURE.md",
-      "git_blob_sha": "bdbf5b07eec9532f5392158e9bfbdf023105a836",
-      "size_bytes": 15345
+      "git_blob_sha": "5337c059bc727cb266d76745fb5cb439a9b9bbc1",
+      "size_bytes": 15909
     },
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_THEORY_CONSISTENCY.md",
@@ -2144,8 +2162,8 @@
     {
       "source_path": "deliverables/chanlun_108_acceptance/README.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/README.md",
-      "git_blob_sha": "c9f6cb2419b49811eb9445f61f7a6be3c642e743",
-      "size_bytes": 29125
+      "git_blob_sha": "e96d96f5a2d0d4f65535b96f089b34730cd66e08",
+      "size_bytes": 30072
     },
     {
       "source_path": "docs/ANALYSIS_STANDARD.md",
@@ -2156,8 +2174,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "23939b904184698b18f544b734a5596e5b80f4ed",
-      "size_bytes": 70996
+      "git_blob_sha": "2f2c16b62f4eb99c552e4f726a4ccd41466d99a1",
+      "size_bytes": 72527
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -3654,6 +3672,12 @@
       "size_bytes": 3193
     },
     {
+      "source_path": "tests/test_chanlun_f01_l20_center_partial_order.py",
+      "mirror_path": "ChanlunCollection/tests/test_chanlun_f01_l20_center_partial_order.py",
+      "git_blob_sha": "5497efadcaf2379a10b9b407fffc0c33f2b9bee9",
+      "size_bytes": 5326
+    },
+    {
       "source_path": "tests/test_chanlun_f01_original_figure_provenance.py",
       "mirror_path": "ChanlunCollection/tests/test_chanlun_f01_original_figure_provenance.py",
       "git_blob_sha": "5f60e8595cce21485a03d9077580cc9fc6ddb87c",
@@ -4384,6 +4408,12 @@
       "mirror_path": "ChanlunCollection/tools/audit_chanlun_f01_f02_third_point_boundary.py",
       "git_blob_sha": "4657247802d0d987870fce4337b1ca00b9850556",
       "size_bytes": 9283
+    },
+    {
+      "source_path": "tools/audit_chanlun_f01_l20_center_partial_order.py",
+      "mirror_path": "ChanlunCollection/tools/audit_chanlun_f01_l20_center_partial_order.py",
+      "git_blob_sha": "3fe93372298dbcb1b8ac4153913ea773bcac5424",
+      "size_bytes": 8276
     },
     {
       "source_path": "tools/audit_chanlun_f01_original_figure_provenance.py",
