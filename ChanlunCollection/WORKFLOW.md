@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.46.0
+# ChanlunCollection｜本书实施工作流 v4.47.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.47.0 本步：**[校勘“任何级别”真正主语并审第99/102课的当下分类强度](deliverables/chanlun_108_acceptance/00_REVIEW/LEVEL_TYPE_DOMAIN_2007_REPLY_AND_OB99_OB102_V447.md)。新增有类型命题V=已独立准入g级走势最终形成中心，纠正v4.45的A=所有原始行情对所有级别的过强摘句读法。第20课低级别持续不保证高一级中心，但是否已存在可独立定义的高一级走势仍未证；第99课一般划分中阴待定与第102课当下可控不宜用“纯历史分类”直接遮盖。人物档案只更新AI分析、不触动缺失的原话。F01/OB38/OB99 OPEN，NOT_RUN。
 
 **v4.46.0 本步：**新建`OtherVoices/`独立人物索引和`speaker-unknown-001/`子档案，同目录保存发言原话、AI分析、来源、更新历史。规范源位于`other_views/chanlun/`，扩展`book_collection.py`安全镜像映射，新增测试核对目录与源身份，不破坏108课数据。现有高手的六项研究只是`PARAPHRASE_ONLY`，原话尚未恢复，禁止冒称逐字稿；进展和待办见[人物入口](OtherVoices/README.md)与[Issue #110](https://github.com/CrazyA1ice/TradeBooksInAIsEyes/issues/110)。本轮优先实现复用知识资产和新增说话者工作流，F01/OB38/OB99仍OPEN，市场NOT_RUN。
 
