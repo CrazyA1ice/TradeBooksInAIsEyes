@@ -1,0 +1,19 @@
+name: chanlun-f01-l20-center-order-gate
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  audit-author-l20-partial-inequalities-and-bottom-case:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Check author source anchors and exact L20 inequality signs
+        run: python -B tools/audit_chanlun_f01_l20_center_partial_order.py
+      - name: Test seven fictional price tuples, core vs envelope and unresolved f1 pan
+        run: python -B -m unittest discover -s tests -p "test_chanlun_f01_l20_center_partial_order.py" -v
