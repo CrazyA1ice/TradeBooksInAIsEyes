@@ -78,6 +78,29 @@ class BookCollectionTests(unittest.TestCase):
         self.assertEqual(j["answers"][88]["id"],"A089")
         self.assertIn("NOT_PRESENT_IN_UPLOAD",(d/"comments.md").read_text(encoding="utf-8"))
 
+    def test_kaixiang_asof_decision_audit_is_provenance_bound(self):
+        base=ROOT/"other_views/chanlun/speaker-unknown-001"
+        mirrored=ROOT/"ChanlunCollection/OtherVoices/speaker-unknown-001"
+        name="decision_audit_v451.json"
+        self.assertEqual((base/name).read_bytes(),(mirrored/name).read_bytes())
+        audit=json.loads((base/name).read_text(encoding="utf-8"))
+        index=json.loads((base/"answers-index.json").read_text(encoding="utf-8"))
+        self.assertEqual(audit["status"],"RESEARCHER_TEST_DESIGN_NOT_KAIXIANG_TRADING_ALGORITHM")
+        self.assertEqual(audit["market_data"],"NOT_RUN")
+        self.assertEqual(audit["source_sha256"],index["source_sha256"])
+        self.assertEqual(len(audit["cases"]),8)
+        self.assertEqual(len({x["id"] for x in audit["cases"]}),8)
+        known={answer["id"] for answer in index["answers"]}
+        for case in audit["cases"]:
+            self.assertTrue(set(case["source_answer_ids"]) <= known)
+            self.assertTrue(case["preconditions"])
+            self.assertTrue(case["when_can_exclude"])
+            self.assertTrue(case["must_not_claim"])
+            self.assertTrue(case["researcher_judgment"])
+        self.assertEqual(
+            audit["independent_comment_evidence"],
+            "MISSING_IN_UPLOADED_EXPORT_NOT_ZERO_ON_ZHIHU")
+
     def test_alias_paths_are_safe_and_no_registry_collision(self):
         self.assertEqual(
             m.mirror_destination(self.book,"other_views/chanlun/speaker-unknown-001/analysis.md"),

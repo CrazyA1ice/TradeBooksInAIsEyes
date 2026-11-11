@@ -19,6 +19,12 @@
 | A089/90-5 | [83课](https://eczsc.com/originals/83)明说细笔层受偶然成交影响，线段更稳；[84课](https://eczsc.com/originals/84)称结构自同构 | 自同构**结构语言**不自动等于所有级别统计信号同样稳健，凯翔这条具有合理的经验审查价值，强弱仍需市场样本 |
 | A089/90-6 | 54课等原正文/存档确有图，不能把“没图”解释为作者从未附图 | 可改问难例图、历史股价和实时首次确认是否有可再现证据；图证与数学证明不同 |
 
+## v4.51｜“分类排除≠最终完成”与结构止损风险的逐时点审查
+
+[新专题](https://github.com/CrazyA1ice/TradeBooksInAIsEyes/blob/main/deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_ASOF_ELIMINATION_VS_STRUCTURAL_STOPS_V451.md)与[8条机器可读逻辑审核例](decision_audit_v451.json)直接对照**本人原文**：A026按候选未来结构排除，A073承认趋势已走一截无法知是否末端，A061小级一买后30分钟中心扩张说明后续可重新归档，A084“涨多了→两形态”和A016“已完成走势→另两类型”有严格完成资格差异。不能把当下局部条件`CONDITION_CONFIRMED`偷换成最终标签`FINAL_ONLY_AFTER_CONFIRMATION`；这套状态标记是AI提出的验证方式，不是凯翔未公开的数学规则。
+
+[A074](https://www.zhihu.com/question/659943842/answer/3544513740)本人说如果下跌仅因买早、背驰未完且结构未失效，可以继续等待，但结构失效/看错应止损。[A095](https://www.zhihu.com/question/652036879/answer/3461638940)本人说止损应快、期货扛单危险；这两条并不构成一份对所有杠杆/跳空都能保证止损金额的完整系统。对`账户风险触限则退出，即使技术形态仍在`是**AI风险控制补充**，绝不冒称凯翔亲口公式。第99课H4要求先确认更小g走势完成，第102课当下完整分类仍有形式证明缺口。A094/A058公开评论未获取，独立C原话仍`MISSING`。
+
 ## v4.50｜100篇全局贯通：本人13字＋六项操作系统＋五因素与第99课第三层H4
 
 [本轮详细分析报告](https://github.com/CrazyA1ice/TradeBooksInAIsEyes/blob/main/deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_100_ANSWERS_SYSTEM_CROSSLEVEL_AND_COMMENT_GAPS_V450.md)。过去过分集中“缠论六坑、第二定义”，漏掉凯翔自己[A058](https://www.zhihu.com/question/425638863/answer/76172114585)公开的“**结构、方向、级别、势能、三级别联合**”13字纲领；他在[A085](https://www.zhihu.com/question/654388108/answer/3524620893)明确列出的“**持股周期选择、仓位、选股、买点、止损点、卖点**”六项交易系统和[A014](https://www.zhihu.com/question/600060146/answer/1950601282369851436)动态五因素市场评分必须**分别建层再联接**，不能把三个类别混叫中枢公式。特别注意：A087说结构级别不能简单等于K线周期，隔日A085又把“级别”写作计划持股时间；它们可能处于**理论递归级别/操作视野**不同语境，但**原文没有给两者映射函数**。
