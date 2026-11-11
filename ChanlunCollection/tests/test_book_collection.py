@@ -135,6 +135,19 @@ class BookCollectionTests(unittest.TestCase):
         self.assertFalse(proof["third_buy_detected"])
         self.assertEqual(proof["orders_sent"],0)
 
+    def test_kaixiang_f01_graph_bridge_has_structural_not_market_proof(self):
+        data=ROOT/"tests/fixtures/kaixiang_f01_graph_bridge_v454.json"
+        source=json.loads(data.read_text(encoding="utf-8"))
+        self.assertEqual(source["source_answer_ids"],["A026","A084","A016"])
+        bridge=imported("kaixiang_f01_graph","tools/audit_kaixiang_f01_graph_completion_bridge.py")
+        receipt=bridge.audit_fixture(data)
+        self.assertEqual(receipt["f01_receipts"],31)
+        self.assertEqual(receipt["visible_members"],[0,1,2,3])
+        self.assertFalse(receipt["lower_level_finished_movements_independently_proven"])
+        self.assertFalse(receipt["f01_authenticates_market"])
+        self.assertFalse(receipt["real_market_data"])
+        self.assertEqual(receipt["orders"],0)
+
     def test_alias_paths_are_safe_and_no_registry_collision(self):
         self.assertEqual(
             m.mirror_destination(self.book,"other_views/chanlun/speaker-unknown-001/analysis.md"),

@@ -1,6 +1,10 @@
-# 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.53.0，2026-11-11）
+# 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.54.0，2026-11-11）
 
 > **核心目标**：读者先用约 **5 分钟**知道“一本书说了什么、值不值得细读”，再用约 **20 分钟**看懂全书思想结构及精彩细节，感兴趣时才深入原文。AI必须全书扫描，不只挑热门章；保留冷门细节、作者转折、反例、细小技巧、图例与脚注，避免“浓缩到只剩常识”。**这是读者阅读时长的建议，不是分析书籍所需的运行时间。** 默认只交付**未来待验证的形式化例子**，不开发或运行回测实验室。
+
+## v4.54.0｜凯翔A026三次级走势完成从标签走向F01可检查依赖图
+
+本次不继续人工填“已完成”，而是复用仓库`audit_chanlun_f01_completion_receipts.check_graph`对**合成来源的31节点原始点→基础中心→低阶趋势退出声明→完成走势声明→上层中心**收据图进行结构检查，并额外核验“每个完成区间的高低界必须对应图中6个原始虚拟价格点”。再将3个有序`FINISHED_MOVEMENT`收据以固定级别/政策/片段及首个可知时间绑定到[旧v4.53结构桥](../deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_F01_DEPENDENCY_GRAPH_BRIDGE_AND_COMPLETION_LIMIT_V454.md)的凯翔A026候选表。源课第18课要求前三段**完成**；本轮虽补了依赖、时间、来源角色与交集门槛，但输入原始市场与退出比较仍是**无第三方认证的合成断言**。故`PASS_STRUCTURE_ONLY`不能改写为真实完成或第三买点认证。新增[完整报告](../deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_F01_DEPENDENCY_GRAPH_BRIDGE_AND_COMPLETION_LIMIT_V454.md)、[代码](../tools/audit_kaixiang_f01_graph_completion_bridge.py)、[31节点fixture](../tests/fixtures/kaixiang_f01_graph_bridge_v454.json)和[15项定向测试](../tests/test_kaixiang_f01_graph_completion_bridge.py)；F01/OB38/OB99 OPEN，市场NOT_RUN。
 
 ## v4.53.0｜将第17课已完成三次级段价格交叠作为A026排除法的独立时间证据层
 
