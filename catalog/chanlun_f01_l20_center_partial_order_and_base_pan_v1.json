@@ -1,0 +1,327 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-F01-L20-CENTER-SEPARATION-AND-BASE-PAN-GAP-V433",
+  "study_date": "2026-11-11",
+  "scope": "SOURCE_BOUNDED_LOCAL_ALGEBRA_AND_TYPE_GAP_NOT_FULL_TREND_PARSER",
+  "source_cards": [
+    {
+      "lesson": 17,
+      "id": "CL017-S02",
+      "physical_pages": [
+        197
+      ],
+      "role": "AUTHOR_MAIN_IN_COMPILATION"
+    },
+    {
+      "lesson": 18,
+      "id": "CL018-S01",
+      "physical_pages": [
+        234
+      ],
+      "role": "AUTHOR_MAIN_IN_COMPILATION"
+    },
+    {
+      "lesson": 18,
+      "id": "CL018-S07",
+      "physical_pages": [
+        235
+      ],
+      "role": "AUTHOR_MAIN_IN_COMPILATION"
+    },
+    {
+      "lesson": 20,
+      "id": "CL020-S02",
+      "physical_pages": [
+        246
+      ],
+      "role": "AUTHOR_MAIN_IN_COMPILATION"
+    },
+    {
+      "lesson": 20,
+      "id": "CL020-S08",
+      "physical_pages": [
+        246,
+        247
+      ],
+      "role": "AUTHOR_MAIN_IN_COMPILATION_WITH_LATER_EDITORIAL_NOTES_SEPARATED"
+    },
+    {
+      "lesson": 20,
+      "id": "CL020-S03",
+      "physical_pages": [
+        247
+      ],
+      "role": "AUTHOR_MAIN_IN_COMPILATION"
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-2",
+      "physical_pages": [
+        291
+      ],
+      "role": "AUTHOR_MAIN_IN_COMPILATION"
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-9",
+      "physical_pages": [
+        291
+      ],
+      "role": "AUTHOR_MAIN_IN_COMPILATION"
+    },
+    {
+      "lesson": 84,
+      "id": "CL84-SOURCE-3",
+      "physical_pages": [
+        301
+      ],
+      "role": "AUTHOR_MAIN_IN_COMPILATION"
+    }
+  ],
+  "historical_sources": {
+    "lesson20_url": "https://eczsc.com/originals/20",
+    "lesson35_url": "https://eczsc.com/originals/35",
+    "lesson18_url": "https://eczsc.com/originals/18",
+    "lesson84_url": "https://eczsc.com/originals/84",
+    "course20_date": "2007-01-05",
+    "course35_date": "2007-03-09",
+    "authentic_author_comment_raw_original_found": false,
+    "all_original_PDF_figures_reverified_this_step": false
+  },
+  "source_notation": {
+    "GG": "max(g_n) among author-defined Z move segments of same center",
+    "DD": "min(d_n) among author-defined Z move segments of same center",
+    "ZG": "min(g1,g2) center overlap upper boundary",
+    "ZD": "max(d1,d2) center overlap lower boundary",
+    "necessary_enclosure": "DD <= ZD <= ZG <= GG",
+    "zone_touching_allowed_under_explicit_closed_interval_arithmetic": true,
+    "zone_dimensions": "[ZD,ZG] is the center core; [DD,GG] is a broader range of author-defined Z segments",
+    "cannot_authenticate_actual_legal_center_from_four_numbers": true
+  },
+  "author_l20_conditional_formulas": [
+    {
+      "id": "L20-STRICT-UP",
+      "formula": "later.DD > earlier.GG",
+      "logical_output": "STRICT_UP_SEPARATED",
+      "claimed_role": "author theorem two upward strict separation"
+    },
+    {
+      "id": "L20-STRICT-DOWN",
+      "formula": "later.GG < earlier.DD",
+      "logical_output": "STRICT_DOWN_SEPARATED",
+      "claimed_role": "author theorem two downward strict separation"
+    },
+    {
+      "id": "L20-UP-EXPANSION",
+      "formula": "later.ZD > earlier.ZG AND later.DD <= earlier.GG",
+      "logical_output": "UPWARD_EXPANSION_PATTERN",
+      "claimed_role": "author theorem two upward expansion"
+    },
+    {
+      "id": "L20-DOWN-EXPANSION",
+      "formula": "later.ZG < earlier.ZD AND later.GG >= earlier.DD",
+      "logical_output": "DOWNWARD_EXPANSION_PATTERN",
+      "claimed_role": "author theorem two downward expansion"
+    }
+  ],
+  "interpretive_constraints": [
+    {
+      "from": "L20-STRICT-UP",
+      "to": "L35-UP-TREND-IS_HIGHER",
+      "status": "NOT_GLOBALLY_PROVEN_EQUIVALENT",
+      "reason": "L20 gives strict-separated sufficient pattern for same-level centers; L35 'higher' may not have fully frozen pairwise domain/edge cases in same paragraph"
+    },
+    {
+      "from": "L20-UP-EXPANSION",
+      "to": "L35-UP_TREND_END_AT_NTH_CENTER",
+      "status": "DO_NOT_TREAT_AS_ALREADY_CERTIFIED",
+      "reason": "expansion is a different structural case; exact base-level membership and highness comparator unresolved"
+    },
+    {
+      "from": "L20-STRICT-DOWN",
+      "to": "L35-DOWN-TREND-IS_LOWER",
+      "status": "NOT_GLOBALLY_PROVEN_EQUIVALENT",
+      "reason": "see strict/downward analogous limitations"
+    },
+    {
+      "from": "L20-CENTER-CORE-ONLY",
+      "to": "ANY_L20_STRICT_CLASSIFICATION",
+      "status": "INSUFFICIENT_STATISTIC",
+      "reason": "identical [ZD,ZG] pairs can have different DD/GG and therefore different theorem-two outcomes"
+    },
+    {
+      "from": "L20-THIRD-POINT",
+      "to": "F1-ONE-CENTER-PAN_FINISHED",
+      "status": "TYPE_LEVEL_GAP",
+      "reason": "L20 third point requires completed next-lower departure and first retrace, but L35's strict atomic trade initializer has no level below the absolute base"
+    },
+    {
+      "from": "L35-THREE-EQUAL-TRADES",
+      "to": "F1-ONE-CENTER-PAN_FINISHED",
+      "status": "NOT_AUTHORIZED",
+      "reason": "existence of first center is not an independent terminal event"
+    }
+  ],
+  "worked_abstract_pairs": [
+    {
+      "id": "EX-STRICT-UP",
+      "earlier": {
+        "DD": "8",
+        "ZD": "10",
+        "ZG": "12",
+        "GG": "14"
+      },
+      "later": {
+        "DD": "15",
+        "ZD": "16",
+        "ZG": "18",
+        "GG": "20"
+      },
+      "expect": "STRICT_UP_SEPARATED"
+    },
+    {
+      "id": "EX-UP-EXPANSION",
+      "earlier": {
+        "DD": "8",
+        "ZD": "10",
+        "ZG": "12",
+        "GG": "14"
+      },
+      "later": {
+        "DD": "13",
+        "ZD": "16",
+        "ZG": "18",
+        "GG": "20"
+      },
+      "expect": "UPWARD_EXPANSION_PATTERN"
+    },
+    {
+      "id": "EX-UP-BOUNDARY-EQUAL-GG",
+      "earlier": {
+        "DD": "8",
+        "ZD": "10",
+        "ZG": "12",
+        "GG": "14"
+      },
+      "later": {
+        "DD": "14",
+        "ZD": "16",
+        "ZG": "18",
+        "GG": "20"
+      },
+      "expect": "UPWARD_EXPANSION_PATTERN"
+    },
+    {
+      "id": "EX-STRICT-DOWN",
+      "earlier": {
+        "DD": "8",
+        "ZD": "10",
+        "ZG": "12",
+        "GG": "14"
+      },
+      "later": {
+        "DD": "2",
+        "ZD": "3",
+        "ZG": "5",
+        "GG": "7"
+      },
+      "expect": "STRICT_DOWN_SEPARATED"
+    },
+    {
+      "id": "EX-DOWN-EXPANSION",
+      "earlier": {
+        "DD": "8",
+        "ZD": "10",
+        "ZG": "12",
+        "GG": "14"
+      },
+      "later": {
+        "DD": "2",
+        "ZD": "3",
+        "ZG": "5",
+        "GG": "9"
+      },
+      "expect": "DOWNWARD_EXPANSION_PATTERN"
+    },
+    {
+      "id": "EX-CORE-TOUCH",
+      "earlier": {
+        "DD": "8",
+        "ZD": "10",
+        "ZG": "12",
+        "GG": "14"
+      },
+      "later": {
+        "DD": "11",
+        "ZD": "12",
+        "ZG": "16",
+        "GG": "19"
+      },
+      "expect": "UNDETERMINED_BY_THESE_FOUR_L20_FORMULAS"
+    },
+    {
+      "id": "EX-CORE-OVERLAP",
+      "earlier": {
+        "DD": "8",
+        "ZD": "10",
+        "ZG": "12",
+        "GG": "14"
+      },
+      "later": {
+        "DD": "11",
+        "ZD": "11",
+        "ZG": "13",
+        "GG": "19"
+      },
+      "expect": "UNDETERMINED_BY_THESE_FOUR_L20_FORMULAS"
+    }
+  ],
+  "proof_facts": [
+    {
+      "claim": "Different outer extrema yield different L20 class for identical core zone pair",
+      "role": "DERIVED_BY_COUNTEREXAMPLE_ON_ABSTRACT_NUMBERS",
+      "example_ids": [
+        "EX-STRICT-UP",
+        "EX-UP-EXPANSION"
+      ]
+    },
+    {
+      "claim": "Touching core intervals at ZG = later.ZD do not satisfy strict core-order expansion predicate",
+      "role": "DERIVED_FROM_STRICT_INEQUALITY",
+      "example_ids": [
+        "EX-CORE-TOUCH"
+      ]
+    },
+    {
+      "claim": "One lowest center exists after three equal trades but its completion time is not certified",
+      "role": "AUTHOR_LESSON35_PLUS_RESEARCH_NONIMPLICATION",
+      "example_ids": []
+    },
+    {
+      "claim": "Uniform use of third-point definition at absolute base requests an unprovided lower completed movement",
+      "role": "TYPED_RECURSION_DOMAIN_OBSTRUCTION_NOT_THEORY_DISPROOF",
+      "example_ids": []
+    }
+  ],
+  "bottom_case": {
+    "absolute_minimum_trade_layer": 0,
+    "author_l35_base_center_from_three_same_price_trades": true,
+    "completed_child_type_for_l20_third_point_requires_level_less_than_parent": true,
+    "l20_third_point_uniformly_defined_at_absolute_base": false,
+    "independent_single_center_pan_terminal_rule_found": false,
+    "possible_resolution": "Explicit base-specific pan completion/termination predicate, or separate proof that author assigns another admissible initialization f1; must be sourced and frozen",
+    "not_author_theorem_disproof": true
+  },
+  "result_status": {
+    "l20_strict_center_separation": "FORMULAS_VERIFIED_ON_ABSTRACT_VALUES",
+    "l20_core_only_insufficient": "CONSTRUCTIVE_COUNTEREXAMPLE_ON_ABSTRACT_VALUES",
+    "l35_higher_not_higher_global_comparator": "OPEN",
+    "l35_lowest_single_center_pan_terminal": "OPEN",
+    "l18_finished_child_membership": "OPEN",
+    "F01": "OPEN",
+    "OB38": "OPEN",
+    "OB99": "OPEN",
+    "historical_market_data": "NOT_ACCESSED",
+    "market_backtest": "NOT_RUN"
+  }
+}
