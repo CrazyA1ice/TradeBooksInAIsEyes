@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.33.0
+# ChanlunCollection｜本书实施工作流 v4.34.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.34.0 重点补充：先冻结底层f1再谈任何走势完成和高层中心一致性。** 第17课把选定不可再分的**完整单位K线三段价格区间重叠**作为实用最低中枢起点，第35课则明确“最严格”以原始**连续三笔同价成交**构底层中枢。两种谓词不自动互换：六笔价格`10,14|11,15|12,16`在各根固定K线中有共同区间`[12,14]`，却无三笔同价；七笔`10,10,10|20,22|30,32`有三笔同价，却无三根K线区间相交。两条仅为**共同逐笔流及其固定bar分桶的虚构反例**，不是历史原图或作者矛盾证明。第72/83课后期允许线段初始化，第84课正式强调`f1`与`f2`可不同；第38课选定操作级别六条**已完成**次级走势分成盘整+盘整，也不能倒过来解决绝对底层单中心盘整的完成时钟。详见[完整证明](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F1_INITIALIZERS_NON_EQUIVALENCE_AND_BASE_PAN_CLOCK.md)、`catalog/chanlun_f1_unitbar_trade_non_equivalence_v1.json`及其专项源页与双向数值审计。**一个最低中心存在不等于最低盘整当下完成**。F01/OB38/OB99继续OPEN，真实逐笔行情与回测NOT_RUN。
 
 **v4.33.0 重点补充：第20课中心整体极值比较的部分解与最低盘整无负一级基例。** 作者的`GG/DD`来自中枢内合格Z段的最大高/最低低，`ZG/ZD`是核心区间的上/下边；[第20课](https://eczsc.com/originals/20)中心定理二给四组有条件的比较：`后DD>前GG`严格上涨，`后GG<前DD`严格下跌；`后ZD>前ZG且后DD≤前GG`上行扩展，`后ZG<前ZD且后GG≥前DD`下行扩展。即使核心同样上移，整体外沿极值不同也可使严格分离/扩展分类不同；核心相接或重叠不满足这些严格式时不得默默变成`第35课N>2不再高于`。另外第35课以每一笔成交为绝对最底`f1`，此处**不能**机械套用第20课要求“完成的下一次级别离开及首次回抽”的统一三类点出口来结束最底层单中枢盘整——没有已定义的负一级走势类型。需要补出作者明确的最低单中枢盘整终止特例或获准的f1映射。新增[研究报告](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_CENTER_ENVELOPE_ORDER_AND_BASE_PAN_DOMAIN_GAP.md)、源锚四式与七套虚构四元组、数值审计及22个反向测试；只有局部`PASS_LOCAL_FORMULAS_ONLY`，F01/OB38/OB99继续OPEN，市场NOT_RUN。
 
