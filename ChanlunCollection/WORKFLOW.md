@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.57.0
+# ChanlunCollection｜本书实施工作流 v4.58.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.58.0 基础设施同步：**新增仓库级G0预检CI（Windows/Linux × Python 3.11/3.12）。旧G7镜像规则覆盖根工作流，故按原规则把G0 CI与通用工作流同步进入本书集合并刷新manifest；未修改《缠论》原PDF、100答、推理结果或F01/OB38/OB99状态，未运行真实行情。下书G0材料入库只有格式/SHA与待审权限收据，不是阅读结论。
 
 **v4.57.0 本步：**新增[源价与退出元数据来源守恒验证](tools/audit_kaixiang_exit_evidence_v457.py)、[三条人工+1 tick声明输入](tests/fixtures/kaixiang_exit_evidence_v457.json)、[18项测试](tests/test_kaixiang_exit_evidence_v457.py)与[报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_EXIT_EVIDENCE_CONSERVATION_AND_COUNTERFACTUAL_V457.md)。从v4.56的27笔合成价格回溯显示：t=9/18/27仅可确认**局部条件满足**，t=10/19的所谓退出时间对应**下一分组合成价格**，t=28没有新的成交；v4.55自动附上的三条退出收据都只是研究者元数据，不是独立真实完成证明。工具严格让`independently_completed_movement_count`为0，并拒绝伪造来源或交易认证；后续接入行情也必须先补合法原始逐笔完整性与退出证书，不能直接复用合成声明。F01/OB38/OB99 OPEN，市场NOT_RUN。
 

@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.57.0",
-  "source_count": 971,
+  "workflow_version": "4.58.0",
+  "source_count": 972,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -412,6 +412,12 @@
       "mirror_path": "ChanlunCollection/.github/workflows/chanlun35-event-center-price-order.yml",
       "git_blob_sha": "00539308d2a162b0e6cd221642a5269bb7bfb1e8",
       "size_bytes": 1169
+    },
+    {
+      "source_path": ".github/workflows/g0-source-intake.yml",
+      "mirror_path": "ChanlunCollection/.github/workflows/g0-source-intake.yml",
+      "git_blob_sha": "b25ce3f8c9957c1a87e46523e73665adb7de9b59",
+      "size_bytes": 1102
     },
     {
       "source_path": ".github/workflows/phase1-chanlun-inventory.yml",
@@ -2444,8 +2450,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "5963e726bd58e67b514c08faf4028463551d9309",
-      "size_bytes": 103278
+      "git_blob_sha": "ebca1533abd91acdccc3f4c4b32b0e7d4fc55065",
+      "size_bytes": 104239
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
