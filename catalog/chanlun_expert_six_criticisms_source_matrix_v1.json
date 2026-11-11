@@ -452,5 +452,13 @@
     "original_author_image_bytes_authenticated": "NO",
     "real_market_trades": "NOT_RUN",
     "market_backtest": "NOT_RUN"
+  },
+  "image_evidence": {
+    "lesson54_html": "https://eczsc.com/originals/54",
+    "lesson69_html": "https://eczsc.com/originals/69",
+    "lesson54_html_image_reference_observed": true,
+    "lesson69_html_image_reference_observed": true,
+    "original_sina_image_bytes_independently_authenticated": false,
+    "complete_underlying_historical_market_replay_available": false
   }
 }
