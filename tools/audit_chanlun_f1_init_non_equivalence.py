@@ -100,7 +100,10 @@ def audit(spec: dict, earlier: dict, report: str, root: Path = ROOT) -> dict:
     require("three CONSECUTIVE" in types["f1_35"] and "identical" in types["f1_35"], "L35 equal prints")
     require("completed" in types["f2"], "upper recurrence requires completed movements")
     rules = spec["comparison_contract"]
-    require(all(v is True for v in rules.values()), "source preservation and not-overclaim requirements")
+    require(rules["source_price_validation"] == "exact decimal string; floats, NaN and infinities invalid",
+            "price validation policy text")
+    require(all(v is True for k, v in rules.items() if k != "source_price_validation"),
+            "source preservation and not-overclaim requirements")
 
     w = {x["id"]: x for x in spec["witnesses"]}
     require(set(w) == {"W17_YES_35_NO", "W35_YES_17_NO", "W_DEGENERATE_17_ONLY"}, "two directions plus degenerate case")
