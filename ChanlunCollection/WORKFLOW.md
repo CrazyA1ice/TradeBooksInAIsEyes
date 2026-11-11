@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.31.0
+# ChanlunCollection｜本书实施工作流 v4.32.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.32.0 重点补充：以最低真实成交为证明叶子和无循环完成收据。** 现在有第35课`CL35-SO-2`“连续三笔同价形成最低中枢”和`CL35-SO-9`“最低趋势第N个(N>2)中枢不再更高/更低，方向性结束”的原文锚点。两种规则不能互换：最低中枢存在不等于其单中心盘整终结，而`N`中心的“更高/更低”尚无原文统一数值算子。将第18课的三连续**完成**次级走势交集、20课**完整**离开/首次回试与`>=ZG/<=ZD`、2007-08-21署时评论的盘整/趋势退出按依赖边构建。任何`FINISHED_MOVEMENT`须有自身退出证据，图无环、同`f1/f2/R_g`政策、首次可知不早于依赖；原始逐笔流、真实退出声明没有独立认证时，即使代码通过也**只能说`PASS_STRUCTURE_ONLY`**，禁止当成作者理论已证明。新增[专题研究](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_PROOF_CARRYING_COMPLETION_RECEIPTS_AND_BOTTOM_CASE.md)、`catalog/chanlun_f01_completion_receipt_contract_v1.json`和22项虚构结构用例。F01/OB38/OB99 OPEN，实际行情NOT_RUN。
 
 **v4.31.0 重点补充：2007年作者答疑的走势退出条件与逐级无循环完成证书。** 已核对2007-08-21 16:20:01作者关于盘整第三类点与趋势本级背驰后回拉的**另文评论转载**，并校正某些教学材料误标“第72课正文”的归属（第72课正文同日22:37:20才发表）。同期16:27:28及17:02:26作者补答“笔破坏与线段破坏不是等价事件”；2007-05-09作者答疑还强调C2回试没结束时不能提前宣称三买。审核原则：盘整完成的三类点必须先有合法中枢和**完整的下级离开、首次回试走势**及第20课边界；趋势结束则须该级别背驰和其后实际回拉。分开历史拐点与首次可认证时刻，禁止把退出事件倒过来证明它自己依赖的下级回试已经完成。相关[新研究](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_AUTHOR_REPLY_COMPLETION_EXIT_EVENTS_AND_NONCIRCULAR_PROOFS.md)、`catalog/chanlun_author_completion_event_witnesses_v1.json`和源码闸门；未取得新浪原回帖字节、原始行情或完整解析器，`F01/OB38/OB99=OPEN`，`NOT_RUN`。
 
