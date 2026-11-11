@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "study_id": "CHANLUN-F1-UNITBAR-TRADE-CONSTRUCTIVE-NON-EQUIVALENCE-V434",
+  "date": "2026-11-11",
+  "scope": "EXPLICIT_SYNTHETIC_TRADE_EVENT_STREAMS_AND_FIXED_BAR_PARTITIONS_NOT_REAL_MARKET",
+  "sources": [
+    {
+      "lesson": 17,
+      "id": "CL017-S03",
+      "pdf_pages": [
+        197,
+        198
+      ],
+      "original_date": "2006-12-18",
+      "author_rule": "for a chosen indivisible lowest K-line unit, >=3 same-level bar ranges overlap defines an initializing center"
+    },
+    {
+      "lesson": 18,
+      "id": "CL018-S07",
+      "pdf_pages": [
+        235
+      ],
+      "original_date": "2006-12-26",
+      "author_rule": "three completed lower movements/center eligibility does not establish ending immediately; continuation remains possible"
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-2",
+      "pdf_pages": [
+        291
+      ],
+      "original_date": "2007-03-09",
+      "author_rule": "at the maximally strict trade-print base, three consecutive trades at precisely equal price define the lowest center"
+    },
+    {
+      "lesson": 38,
+      "id": "CL38-SOURCE-2",
+      "pdf_pages": [
+        338,
+        339
+      ],
+      "original_date": "2007-03-21",
+      "author_rule": "selected operating level permits pan+pan when six qualified lower movements, lower levels may use extension policy"
+    },
+    {
+      "lesson": 72,
+      "id": "CL72-SOURCE-3",
+      "pdf_pages": [
+        86,
+        87
+      ],
+      "original_date": "2007-08-21",
+      "author_rule": "later morphological construction chain fractal->pen->segment->lowest center"
+    },
+    {
+      "lesson": 83,
+      "id": "CL83-SOURCE-1",
+      "pdf_pages": [
+        288
+      ],
+      "original_date": "2007-09-26",
+      "author_rule": "pen could initialize minimum center but author says less stable than segment"
+    },
+    {
+      "lesson": 84,
+      "id": "CL84-SOURCE-3",
+      "pdf_pages": [
+        301
+      ],
+      "original_date": "2007-10-07",
+      "author_rule": "f1 initialization may differ from recursive f2 and alternative initializations may be chosen"
+    }
+  ],
+  "original_text_url_by_lesson": {
+    "17": "https://eczsc.com/originals/17",
+    "18": "https://eczsc.com/originals/18",
+    "35": "https://eczsc.com/originals/35",
+    "38": "https://eczsc.com/originals/38",
+    "72": "https://eczsc.com/originals/72",
+    "83": "https://eczsc.com/originals/83",
+    "84": "https://eczsc.com/originals/84"
+  },
+  "formal_question": "For all finite trade streams and fixed partitions into consecutive completed unit bars, is the lesson17 three-overlapping-bar-range predicate equivalent to lesson35 three-consecutive-identical-trade predicate?",
+  "formal_answer": "NO_BOTH_DIRECTIONS_REFUTED_ON_SYNTHETIC_STREAMS",
+  "quantifier_scope": "COUNTEREXAMPLE_TO_EXTENTIONAL_EQUIVALENCE_OF_TWO_LITERALLY_DIFFERENT_INITIALIZATION_PREDICATES_ONLY",
+  "types": {
+    "raw_trade": "price represented by exact decimal and explicit ordinal, never assumed actual provenance",
+    "bar": "consecutive bar_id groups of underlying events with observable high=max(trades) and low=min(trades)",
+    "f1_17": "at least three consecutive complete lowest-unit K-bar ranges with common nonempty closed price interval",
+    "f1_35": "at least three CONSECUTIVE primitive trade prints with identical exact price",
+    "f1_72_83": "later option using valid fractal/pen/segment composition; deliberately not computed by this study",
+    "f2": "higher recursive center construction requiring three completed lower movements, not the same predicate as either bare initializer"
+  },
+  "witnesses": [
+    {
+      "id": "W17_YES_35_NO",
+      "description": "all 6 trade prices distinct, yet three two-trade bars overlap in [12,14]",
+      "prices": [
+        "10",
+        "14",
+        "11",
+        "15",
+        "12",
+        "16"
+      ],
+      "bar_ids": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2
+      ],
+      "f1_17": true,
+      "f1_35": false,
+      "bar_overlap": [
+        "12",
+        "14"
+      ],
+      "author_quote_synthetic": false,
+      "market_actual": false
+    },
+    {
+      "id": "W35_YES_17_NO",
+      "description": "three same-price prints inside one bar, followed by two disjoint bars",
+      "prices": [
+        "10",
+        "10",
+        "10",
+        "20",
+        "22",
+        "30",
+        "32"
+      ],
+      "bar_ids": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        2
+      ],
+      "f1_17": false,
+      "f1_35": true,
+      "bar_overlap": null,
+      "author_quote_synthetic": false,
+      "market_actual": false
+    },
+    {
+      "id": "W_DEGENERATE_17_ONLY",
+      "description": "one-price bar overlap [11,11], with repeated price never three prints in a row",
+      "prices": [
+        "9",
+        "11",
+        "11",
+        "13",
+        "10",
+        "11"
+      ],
+      "bar_ids": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2
+      ],
+      "f1_17": true,
+      "f1_35": false,
+      "bar_overlap": [
+        "11",
+        "11"
+      ],
+      "author_quote_synthetic": false,
+      "market_actual": false
+    }
+  ],
+  "comparison_contract": {
+    "raw_trade_sequence_is_shared_between_predicates": true,
+    "bar_partition_must_be_explicit_and_unchanged": true,
+    "source_price_validation": "exact decimal string; floats, NaN and infinities invalid",
+    "bar_interval_closed": true,
+    "min_three_contiguous_complete_bars": true,
+    "literal_three_consecutive_equal_trade_prices": true,
+    "does_not_authenticate_real_trading_data": true,
+    "does_not_claim_retroactive_application_of_later_pen_segment_rules": true,
+    "does_not_claim_any_f1_trend_or_pan_has_ended": true,
+    "does_not_prove_all_f1_schemes_give_different_f2_outputs": true,
+    "not_a_rebuttal_of_fixed_policy_uniqueness": true
+  },
+  "policy_axes": [
+    {
+      "id": "AX_F1",
+      "name": "initialization",
+      "possibilities": [
+        "L17_THREE_LOWEST_BAR_OVERLAP",
+        "L35_THREE_IDENTICAL_CONSECUTIVE_TRADES",
+        "L72_83_POSTERIOR_SEGMENT_INIT"
+      ],
+      "role": "choose the actual primitive data type and candidate center condition"
+    },
+    {
+      "id": "AX_RG",
+      "name": "decomposition_by_level",
+      "possibilities": [
+        "L38_FIXED_OPERATING_LEVEL_SAME_LEVEL_DECOMPOSITION",
+        "LOWER_LEVEL_EXTENSION_ALLOWED"
+      ],
+      "role": "a chosen grouping policy can split six already-completed lower moves into pan+pan; does not provide a primitive movement completion proof"
+    },
+    {
+      "id": "AX_F2",
+      "name": "recursive_upper_construction",
+      "possibilities": [
+        "THREE_CONSECUTIVE_FINISHED_CHILD_TYPES_AND_OVERLAP"
+      ],
+      "role": "independent from f1; author L84 permits f1 != f2"
+    }
+  ],
+  "bottom_pan_obligation": {
+    "l17_f1_outputs_center_exists_not_pan_fully_terminated": true,
+    "l35_f1_outputs_center_exists_not_pan_fully_terminated": true,
+    "l38_same_level_split_requires_already_completed_children": true,
+    "l18_extension_vs_terminal_requires_separate_witness": true,
+    "uniform_l20_third_point_at_absolute_primitive_base_has_undefined_lower_movement": true,
+    "base_complete_pan_certificate_found_in_sources": false,
+    "proof_status": "OPEN"
+  },
+  "research_conclusions": [
+    {
+      "claim": "F1_17_DOES_NOT_IMPLY_F1_35",
+      "witness": "W17_YES_35_NO",
+      "status": "CONSTRUCTIVE_SYNTHETIC_COUNTEREXAMPLE"
+    },
+    {
+      "claim": "F1_35_DOES_NOT_IMPLY_F1_17",
+      "witness": "W35_YES_17_NO",
+      "status": "CONSTRUCTIVE_SYNTHETIC_COUNTEREXAMPLE"
+    },
+    {
+      "claim": "DEGENERATE_SINGLE_PRICE_CORE_CAN_BE_BAR_OVERLAP",
+      "witness": "W_DEGENERATE_17_ONLY",
+      "status": "CLOSED_INTERVAL_ARITHMETIC_ONLY"
+    },
+    {
+      "claim": "L38_PAN_PLUS_PAN_IS_AN_OPTIONAL_UPPER_DECOMPOSITION_CONVENTION_NOT_A_BASE_PAN_TERMINATOR",
+      "witness": null,
+      "status": "TEXTUAL_SCOPE_INFERENCE"
+    },
+    {
+      "claim": "NO_UNIVERSAL_L35_SINGLE_CENTER_PAN_ASOF_END_CERTIFIED",
+      "witness": null,
+      "status": "OPEN_THEORETICAL_FRONTIER"
+    }
+  ],
+  "limits": {
+    "original_sina_first_publication_bytes_verified": false,
+    "all_pdf_scans_reverified": false,
+    "author_complete_parser_available": false,
+    "real_tick_data_accessed": false,
+    "real_bar_data_accessed": false,
+    "real_market_backtest_run": false,
+    "mathematical_author_theory_disproven": false
+  },
+  "frontier_status": {
+    "f01": "OPEN",
+    "ob38": "OPEN",
+    "ob99": "OPEN",
+    "base_pan": "OPEN",
+    "f1_equivalence": "REFUTED_FOR_THESE_TWO_PREDICATES",
+    "market": "NOT_RUN"
+  }
+}
