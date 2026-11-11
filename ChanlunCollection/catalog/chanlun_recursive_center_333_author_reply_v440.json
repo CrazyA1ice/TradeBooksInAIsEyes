@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-NINEFOLD-THREE-PLUS-THREE-PLUS-THREE-AUTHOR-REPLY-V440",
+  "version": "4.40.0",
+  "asof": "2026-11-11",
+  "provenance": {
+    "expert_text_provided_by_user": true,
+    "expert_original_post_authenticated": false,
+    "original_sina_comments_cryptographically_authenticated": false,
+    "archive_public_page_and_early_compilation_crosschecked": true,
+    "early_compilation_actual_pdf_pages_visually_inspected": true,
+    "early_compilation_copyright_text_or_pdf_redistributed": false,
+    "laohu_pdf_or_docx_examined": false,
+    "new_original_108_lesson_full_verbatim_reread": false,
+    "actual_market_data_backtested": false
+  },
+  "new_author_reply_chronology": [
+    {
+      "id": "R0521",
+      "posted_at": "2007-05-21 16:41:03",
+      "question_at": "2007-05-21 16:33:48",
+      "page_url": "https://chzhshch.blog/economics/interestraterises/",
+      "attributed_role": "AUTHOR_ATTRIBUTED_ARCHIVED_REPLY_NOT_ORIGINAL_SINA_BYTES",
+      "source_issue": "9 five-minute components compress into 30m groups while center expands to daily; endpoints and chart perspective",
+      "finding": "First three lower-level completed movement overlap is the original center core; later moves are oscillations; different 5m vs 30m chart partitions naturally give different center intervals but principle same."
+    },
+    {
+      "id": "R0711",
+      "posted_at": "2007-07-11 16:32:08",
+      "question_at": "2007-07-11 16:24:45",
+      "page_url": "https://chzhshch.blog/stocks/3850points/",
+      "attributed_role": "AUTHOR_ATTRIBUTED_ARCHIVED_REPLY_NOT_ORIGINAL_SINA_BYTES",
+      "source_issue": "Two 1min centers extend into 5min; ask how to calculate interval",
+      "finding": "Use associative grouping of nine component segments into three groups of three before assessing higher center."
+    },
+    {
+      "id": "R0731A",
+      "posted_at": "2007-07-31 16:43:17",
+      "question_at": "2007-07-31 16:40:59",
+      "page_url": "https://chzhshch.blog/stocks/20070731/",
+      "attributed_role": "AUTHOR_ATTRIBUTED_ARCHIVED_REPLY_NOT_ORIGINAL_SINA_BYTES",
+      "source_issue": "Nine overlapping 1min movements directly identified as 5min center compared with building recursively from 1min",
+      "finding": "Not necessarily equal; 5min center should be determined using 3+3+3 combination."
+    },
+    {
+      "id": "R0731B",
+      "posted_at": "2007-07-31 16:50:47",
+      "question_at": "2007-07-31 16:46:49",
+      "page_url": "https://chzhshch.blog/stocks/20070731/",
+      "attributed_role": "AUTHOR_ATTRIBUTED_ARCHIVED_REPLY_NOT_ORIGINAL_SINA_BYTES",
+      "source_issue": "Nine segments upgrading 1min to 5min center, request boundary calculation",
+      "finding": "Regroup three consecutive triples via associativity, then determine higher center."
+    },
+    {
+      "id": "R0731C",
+      "posted_at": "2007-07-31 16:55:59",
+      "question_at": "2007-07-31 16:50:53",
+      "page_url": "https://chzhshch.blog/stocks/20070731/",
+      "attributed_role": "AUTHOR_ATTRIBUTED_ARCHIVED_REPLY_NOT_ORIGINAL_SINA_BYTES",
+      "source_issue": "Apparent overlapping b/c/d lines while b fails to break prior a segment",
+      "finding": "If b does not break a, a segment not complete and b does not exist as separate qualifying segment; premature triple invalid."
+    }
+  ],
+  "additional_original_course_anchors": [
+    {
+      "lesson": 17,
+      "id": "CL017-S02",
+      "pages": [
+        197
+      ]
+    },
+    {
+      "lesson": 18,
+      "id": "CL018-S01",
+      "pages": [
+        234
+      ]
+    },
+    {
+      "lesson": 18,
+      "id": "CL018-S07",
+      "pages": [
+        235
+      ]
+    },
+    {
+      "lesson": 20,
+      "id": "CL020-S01",
+      "pages": [
+        245,
+        246
+      ]
+    },
+    {
+      "lesson": 20,
+      "id": "CL020-S02",
+      "pages": [
+        246
+      ]
+    },
+    {
+      "lesson": 20,
+      "id": "CL020-S08",
+      "pages": [
+        246,
+        247
+      ]
+    },
+    {
+      "lesson": 33,
+      "id": "CL33-SO-2",
+      "pages": [
+        256
+      ]
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-2",
+      "pages": [
+        291
+      ]
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-3",
+      "pages": [
+        291,
+        292
+      ]
+    },
+    {
+      "lesson": 36,
+      "id": "CL36-SOURCE-1",
+      "pages": [
+        305
+      ]
+    },
+    {
+      "lesson": 36,
+      "id": "CL36-SOURCE-2",
+      "pages": [
+        308,
+        310
+      ]
+    },
+    {
+      "lesson": 38,
+      "id": "CL38-SOURCE-2",
+      "pages": [
+        338,
+        339
+      ]
+    },
+    {
+      "lesson": 54,
+      "id": "CL54-SOURCE-3",
+      "pages": [
+        173
+      ]
+    }
+  ],
+  "corroborating_source_layers": [
+    {
+      "id": "W1",
+      "kind": "ARCHIVED_AUTHOR_ATTRIBUTED_WEB_COMMENTS",
+      "url": "https://chzhshch.blog/stocks/20070731/",
+      "evidence_ids": [
+        "R0731A",
+        "R0731B",
+        "R0731C"
+      ],
+      "limitation": "Archive authenticity/author impersonation concerns; not original Sina bytes."
+    },
+    {
+      "id": "W2",
+      "kind": "OLDER_EDITORIAL_PDF_COMPILATION_RESTRICTED_REDISSEMINATION",
+      "url": "https://resources.chzhshch.blog/docs/marketstudent/%E7%BC%A0%E4%B8%AD%E8%AF%B4%E7%A6%85%E6%96%87%E9%9B%86--%E8%82%A1%E5%B8%82%E6%9D%82%E8%B0%88%E4%B8%8E%E6%AF%8F%E6%97%A5%E8%A7%A3%E7%9B%98.pdf",
+      "physical_printed_pages": [
+        164,
+        165
+      ],
+      "viewed_zero_index_pages": [
+        162,
+        163
+      ],
+      "evidence_ids": [
+        "R0731A",
+        "R0731B",
+        "R0731C"
+      ],
+      "limitation": "Old secondary compilation not archived original server. Text/PDF must not be redistributed."
+    },
+    {
+      "id": "W3",
+      "kind": "ARCHIVED_AUTHOR_ATTRIBUTED_WEB_COMMENTS",
+      "url": "https://chzhshch.blog/stocks/3850points/",
+      "evidence_ids": [
+        "R0711"
+      ],
+      "limitation": "Not original Sina bytes."
+    },
+    {
+      "id": "W4",
+      "kind": "ARCHIVED_AUTHOR_ATTRIBUTED_WEB_COMMENTS",
+      "url": "https://chzhshch.blog/economics/interestraterises/",
+      "evidence_ids": [
+        "R0521"
+      ],
+      "limitation": "Not original Sina bytes."
+    },
+    {
+      "id": "W5",
+      "kind": "LATER_THIRD_PARTY_INTERPRETATION_NOT_AUTHOR",
+      "url": "https://xueqiu.com/3397420582/339710689",
+      "evidence_ids": [],
+      "limitation": "2025 commentator explicitly states first-three vs all-components interval method but this is NOT an authenticated second author rule."
+    }
+  ],
+  "operator_contract": {
+    "name": "NINE_FLAT_VS_GROUPED_HIERARCHICAL_CONSTRUCTION",
+    "flat_shortcut": "Compute direct overlapping price interval over nine raw lower-level components.",
+    "grouped_author_candidate": "Group legal consecutive 3+3+3 components into three eligible completed next-level movements; only then compute next-level three-movement center.",
+    "equal_output_guaranteed": false,
+    "author_claims_two_equally_valid_competing_center_axioms": false,
+    "completed_submovement_gate_required": true,
+    "fixed_grouping_policy_required": true,
+    "center_core_from_first_three_of_eligible_next_level_movements": true,
+    "unknown_full_algorithm_for_valid_three_group_completion": true,
+    "chart_bar_interval_never_replaces_structural_level": true
+  },
+  "illustrative_math": {
+    "kind": "ARTIFICIAL_INTERVAL_OPERATOR_COUNTEREXAMPLE_NOT_A_CHANLUN_MARKET_SEQUENCE",
+    "raw_lower_unit_ranges": [
+      [
+        0,
+        10
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        5,
+        13
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        4,
+        14
+      ],
+      [
+        2,
+        11
+      ]
+    ],
+    "flat_nine_interval_intersection": [
+      6,
+      8
+    ],
+    "three_consecutive_triple_range_envelopes": [
+      [
+        0,
+        12
+      ],
+      [
+        1,
+        13
+      ],
+      [
+        2,
+        14
+      ]
+    ],
+    "intersection_of_three_triple_envelopes": [
+      2,
+      12
+    ],
+    "limits": "Envelopes only demonstrate operator noncommutation. Triples NOT established completed movements, and no valid higher center or real signal is proved."
+  },
+  "interpretation_update": {
+    "new_ranked_clue": "Direct signed-attributed July31 replies about interval equivalence and 3+3+3 are stronger evidence of construction ambiguity than lesson54's two legal operation partitions.",
+    "expert_identity_of_second_method": "STILL_UNDETERMINED",
+    "author_discards_flat_shortcut_as_exact_general_higher_center_locator": true,
+    "second_formal_axiom_with_same_status_as_three_completed_lower_movements": "NOT_ESTABLISHED",
+    "lesson54_separate_role": "PARTITION_POLICY_AND_ACTIONABILITY_NOT_THE_SAME_AS_NINEFOLD_OPERATOR",
+    "lesson38_separate_role": "ANALYTICAL_VIEWPOINT_HYBRID_NOT_THE_SAME_AS_NINEFOLD_OPERATOR"
+  },
+  "open": [
+    "EXPERT_ORIGINAL_POST_NOT_FOUND",
+    "SINA_ORIGINAL_COMMENT_BYTES_NOT_PROVEN",
+    "LAOHU_EDITION_FULL_TEXT_NOT_ACQUIRED",
+    "COMPLETE_3PLUS3PLUS3_ENDING_POLICY_NOT_PROVED",
+    "NO_GLOBAL_SECOND_AUTHOR_CENTER_AXIOM",
+    "F01_OPEN",
+    "OB38_OPEN",
+    "OB99_OPEN",
+    "REAL_MARKET_NOT_RUN"
+  ],
+  "status": "AUTHOR_ARCHIVE_CLARIFIES_HIERARCHICAL_CONSTRUCTION_NON_EQUIVALENCE_NO_EXPERT_REFERENT_PROOF"
+}
