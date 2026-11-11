@@ -1,0 +1,19 @@
+name: chanlun-expert-six-criticisms-provenance-gate
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  source-pinned-six-issues-and-interpretive-boundaries:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Audit six expert criticisms versus author SOURCE pages and no-overclaim boundaries
+        run: python -B tools/audit_chanlun_expert_six_criticisms.py
+      - name: Negative tests for non-equivalence, necessary/sufficient, live prefix and image provenance
+        run: python -B -m unittest discover -s tests -p "test_chanlun_expert_six_criticisms.py" -v

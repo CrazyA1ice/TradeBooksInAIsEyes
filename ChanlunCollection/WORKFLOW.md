@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.34.0
+# ChanlunCollection｜本书实施工作流 v4.35.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.35.0 重点补充：对那位高手的六条批评进行全书语义审计，而非无限增加局部仿真测试。** 核对第15/17课“上涨/盘整”从高低点外观变成完成走势的中枢计数；一个中心虽外观方向上移，作者仍称结构盘整（但不自动已完成）。第35课严格逐笔`f1`与第17课单位K线`f1`、第72/83课后期严格线段`f1`不同；第84课允许`f1!=f2`。第35课自下而上构造与第27/102课自上而下区间套是**证明生成和候选定位不同操作**，第44课明说小背驰/大转折只有必要非充分。第83课作者本人已承认单笔导致底层分解不稳，不能把跨级自同构当成各级噪声、交易费或胜率相同。第54/69课存档有图，但历史原发图片和子分钟行情未充分认证。尤其第99课中阴暂时不可分与第102课已完成结构的“唯一分解”要按**历史完成/在线待定**分开；作者并没有把研究者称呼的“第三层”作为第17课正式原理编号。专家原始六条逐字引文/原始网址目前未恢复，严格标`EXPERT_PARAPHRASE_NOT_ORIGINAL_QUOTE`。[整书六条批评研究](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_SIX_CRITICISMS_WHOLE_THEORY_THIRD_LAYER_SYNTHESIS.md)、`catalog/chanlun_expert_six_criticisms_source_matrix_v1.json`和专用证据审计。F01/OB38/OB99仍OPEN；没有实际市场数据或回测，`NOT_RUN`。
 
 **v4.34.0 重点补充：先冻结底层f1再谈任何走势完成和高层中心一致性。** 第17课把选定不可再分的**完整单位K线三段价格区间重叠**作为实用最低中枢起点，第35课则明确“最严格”以原始**连续三笔同价成交**构底层中枢。两种谓词不自动互换：六笔价格`10,14|11,15|12,16`在各根固定K线中有共同区间`[12,14]`，却无三笔同价；七笔`10,10,10|20,22|30,32`有三笔同价，却无三根K线区间相交。两条仅为**共同逐笔流及其固定bar分桶的虚构反例**，不是历史原图或作者矛盾证明。第72/83课后期允许线段初始化，第84课正式强调`f1`与`f2`可不同；第38课选定操作级别六条**已完成**次级走势分成盘整+盘整，也不能倒过来解决绝对底层单中心盘整的完成时钟。详见[完整证明](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F1_INITIALIZERS_NON_EQUIVALENCE_AND_BASE_PAN_CLOCK.md)、`catalog/chanlun_f1_unitbar_trade_non_equivalence_v1.json`及其专项源页与双向数值审计。**一个最低中心存在不等于最低盘整当下完成**。F01/OB38/OB99继续OPEN，真实逐笔行情与回测NOT_RUN。
 

@@ -1,0 +1,464 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-EXPERT-SIX-CRITICISMS-AND-THIRD-LAYER-SYNTHESIS-V435",
+  "date": "2026-11-11",
+  "topic": "Reconstruct and evaluate six expert objections from prior discussion against original Chanlun 108 lesson sources",
+  "provenance": {
+    "critic_literal_original_quote_retrieved": false,
+    "critic_name_authenticated": false,
+    "critic_original_post_url_authenticated": false,
+    "six_topic_paraphrases_from_prior_discussion_not_word_for_word": true,
+    "original_author_lesson_compilation_available": true,
+    "later_editorial_notes_treated_separately": true,
+    "market_data_or_backtest_performed": false
+  },
+  "six_objections": [
+    {
+      "id": "EX01",
+      "paraphrase": "第17课前后上涨下跌盘整分类不同",
+      "interpretation": "Earlier high/low price-chart classification L15 vs completed center-count L17",
+      "author_claims": [
+        {
+          "lesson": 15,
+          "id": "CL015-S-1",
+          "pdf_pages": [
+            143
+          ]
+        },
+        {
+          "lesson": 17,
+          "id": "CL017-S03",
+          "pdf_pages": [
+            197,
+            198
+          ]
+        },
+        {
+          "lesson": 72,
+          "id": "CL72-SOURCE-4",
+          "pdf_pages": [
+            87
+          ]
+        }
+      ],
+      "assessment": "AUTHOR_TEXT_SUPPORTS_DEFINITION_SHIFT_NOT_SAME_DOMAIN_CONTRADICTION_PROVED",
+      "hard_limit": "CANNOT_ASSUME_L15_EQUALS_L17_ON_ALL_MARKETS"
+    },
+    {
+      "id": "EX02",
+      "paraphrase": "一个中枢的走势即使有上涨方向为何被称为盘整",
+      "interpretation": "Visible price direction is not completed movement type center-count",
+      "author_claims": [
+        {
+          "lesson": 17,
+          "id": "CL017-S03",
+          "pdf_pages": [
+            197,
+            198
+          ]
+        },
+        {
+          "lesson": 18,
+          "id": "CL018-S07",
+          "pdf_pages": [
+            235
+          ]
+        },
+        {
+          "lesson": 89,
+          "id": "CL89-SOURCE-4",
+          "pdf_pages": [
+            6
+          ]
+        }
+      ],
+      "assessment": "AUTHOR_TERMINOLOGY_DISTINGUISHES_VISUAL_DIRECTION_FROM_COMPLETED_CENTER_COUNT",
+      "hard_limit": "CENTER_EXISTS_DOES_NOT_IMPLY_COMPLETED_PAN"
+    },
+    {
+      "id": "EX03",
+      "paraphrase": "第35课前后走势级别定义不同",
+      "interpretation": "Strict per-trade f1 vs practical K-bar clock aggregation and later segment f1; freeze initializer and recursive policy",
+      "author_claims": [
+        {
+          "lesson": 17,
+          "id": "CL017-S03",
+          "pdf_pages": [
+            197,
+            198
+          ]
+        },
+        {
+          "lesson": 33,
+          "id": "CL33-SO-2",
+          "pdf_pages": [
+            256
+          ]
+        },
+        {
+          "lesson": 35,
+          "id": "CL35-SO-2",
+          "pdf_pages": [
+            291
+          ]
+        },
+        {
+          "lesson": 72,
+          "id": "CL72-SOURCE-3",
+          "pdf_pages": [
+            86,
+            87
+          ]
+        },
+        {
+          "lesson": 83,
+          "id": "CL83-SOURCE-1",
+          "pdf_pages": [
+            288
+          ]
+        },
+        {
+          "lesson": 84,
+          "id": "CL84-SOURCE-3",
+          "pdf_pages": [
+            301
+          ]
+        },
+        {
+          "lesson": 84,
+          "id": "CL84-SOURCE-4",
+          "pdf_pages": [
+            301,
+            302
+          ]
+        }
+      ],
+      "assessment": "STRICT_RECURSIVE_LEVEL_DIFFERS_FROM_CLOCK_BAR_LABEL_AND_F1_CHANGES_NOT_EQUIVALENT",
+      "hard_limit": "CHANGED_F1_NOT_A_COUNTEREXAMPLE_TO_FIXED_POLICY_UNIQUENESS"
+    },
+    {
+      "id": "EX04",
+      "paraphrase": "小到大递归构造与大到小区间套定位是否被混同",
+      "interpretation": "Structural generator and conditional nested search have opposite directions and different proof obligations",
+      "author_claims": [
+        {
+          "lesson": 27,
+          "id": "CL027-S02",
+          "pdf_pages": [
+            91,
+            93
+          ]
+        },
+        {
+          "lesson": 35,
+          "id": "CL35-SO-3",
+          "pdf_pages": [
+            291,
+            292
+          ]
+        },
+        {
+          "lesson": 38,
+          "id": "CL38-SOURCE-1",
+          "pdf_pages": [
+            338
+          ]
+        },
+        {
+          "lesson": 44,
+          "id": "CL44-SOURCE-1",
+          "pdf_pages": [
+            17
+          ]
+        },
+        {
+          "lesson": 44,
+          "id": "CL44-SOURCE-2",
+          "pdf_pages": [
+            17
+          ]
+        },
+        {
+          "lesson": 102,
+          "id": "CL102-SOURCE-2",
+          "pdf_pages": [
+            241,
+            242
+          ]
+        }
+      ],
+      "assessment": "CONSTRUCTION_AND_SEARCH_COMPATIBLE_BUT_CANNOT_REVERSE_CERTIFICATE_DEPENDENCIES",
+      "hard_limit": "L44_SMALL_TURN_NECESSARY_NOT_SUFFICIENT_FOR_LARGE_TURN"
+    },
+    {
+      "id": "EX05",
+      "paraphrase": "小级别稳定性较差却说各级别规则相同",
+      "interpretation": "Self-conjugate structural grammar vs noise robustness vs operation cost",
+      "author_claims": [
+        {
+          "lesson": 27,
+          "id": "CL027-S01",
+          "pdf_pages": [
+            91
+          ]
+        },
+        {
+          "lesson": 35,
+          "id": "CL35-SO-5",
+          "pdf_pages": [
+            292,
+            293
+          ]
+        },
+        {
+          "lesson": 53,
+          "id": "CL53-SOURCE-4",
+          "pdf_pages": [
+            162
+          ]
+        },
+        {
+          "lesson": 83,
+          "id": "CL83-SOURCE-1",
+          "pdf_pages": [
+            288
+          ]
+        },
+        {
+          "lesson": 83,
+          "id": "CL83-SOURCE-2",
+          "pdf_pages": [
+            288
+          ]
+        },
+        {
+          "lesson": 84,
+          "id": "CL84-SOURCE-1",
+          "pdf_pages": [
+            299
+          ]
+        }
+      ],
+      "assessment": "L83_AUTHOR_ACKNOWLEDGES_UNSTABLE_PEN_BASE_DESPITE_STRUCTURAL_ACROSS_LEVEL_ASSERTION",
+      "hard_limit": "SAME_GRAMMAR_DOES_NOT_IMPLY_EQUAL_EMPIRICAL_STABILITY_OR_RETURNS"
+    },
+    {
+      "id": "EX06",
+      "paraphrase": "原文为什么不贴图或缺乏充分图示",
+      "interpretation": "Extant lesson54 and lesson69 image references refute blanket no-charts; not enough to verify original image provenance and no-lookahead replay",
+      "author_claims": [
+        {
+          "lesson": 54,
+          "id": "CL54-SOURCE-1",
+          "pdf_pages": [
+            170,
+            171
+          ]
+        },
+        {
+          "lesson": 54,
+          "id": "CL54-SOURCE-4",
+          "pdf_pages": [
+            174,
+            175
+          ]
+        },
+        {
+          "lesson": 69,
+          "id": "CL69-SOURCE-1",
+          "pdf_pages": [
+            27
+          ]
+        },
+        {
+          "lesson": 69,
+          "id": "CL69-SOURCE-2",
+          "pdf_pages": [
+            27,
+            28
+          ]
+        }
+      ],
+      "assessment": "SOME_ORIGINAL_CHART_IMAGE_REFERENCES_EXIST_BUT_FULL_AUTHENTICATED_REALTIME_REPLAY_UNPROVEN",
+      "hard_limit": "SOURCE_IMAGE_EXISTS_NEITHER_IMPLIES_ALL_LESSONS_ILLUSTRATED_NOR_AUTHOR_ORIGINAL_BYTES_VERIFIED"
+    }
+  ],
+  "author_date_order": [
+    {
+      "lesson": 15,
+      "date": "2006-12-08",
+      "theme": "price high-low definitions"
+    },
+    {
+      "lesson": 17,
+      "date": "2006-12-18",
+      "theme": "center-count type and completion"
+    },
+    {
+      "lesson": 18,
+      "date": "2006-12-26",
+      "theme": "completed child center and unfinished continuation"
+    },
+    {
+      "lesson": 27,
+      "date": "2007-02-02",
+      "theme": "nested divergence and low-level significance"
+    },
+    {
+      "lesson": 33,
+      "date": "2007-03-02",
+      "theme": "multimodal decomposition and time aggregation as approximations"
+    },
+    {
+      "lesson": 35,
+      "date": "2007-03-09",
+      "theme": "strict per-trade f1 and unfinished movement challenge"
+    },
+    {
+      "lesson": 38,
+      "date": "2007-03-21",
+      "theme": "fixed-level policy uniqueness and pan+pan"
+    },
+    {
+      "lesson": 44,
+      "date": "2007-04-10",
+      "theme": "small-divergence big turn necessary not sufficient"
+    },
+    {
+      "lesson": 54,
+      "date": "2007-05-24",
+      "theme": "same chart two parses and original chart reference"
+    },
+    {
+      "lesson": 69,
+      "date": "2007-08-09",
+      "theme": "original annotated monthly chart reference"
+    },
+    {
+      "lesson": 72,
+      "date": "2007-08-21",
+      "theme": "later fractal-pen-segment grammar"
+    },
+    {
+      "lesson": 83,
+      "date": "2007-09-26",
+      "theme": "pen instability and segment stability"
+    },
+    {
+      "lesson": 84,
+      "date": "2007-10-07",
+      "theme": "f1 and f2 may differ; self-conjugacy thesis"
+    },
+    {
+      "lesson": 89,
+      "date": "2007-11-18",
+      "theme": "yin transition before higher center"
+    },
+    {
+      "lesson": 99,
+      "date": "2008-02-18",
+      "theme": "undecided current structures, reassociation"
+    },
+    {
+      "lesson": 102,
+      "date": "2008-03-06",
+      "theme": "unified recursive representation, unique class and interval nesting"
+    }
+  ],
+  "strength_layers": [
+    {
+      "id": "L1",
+      "name": "CLASSIFICATION_ON_CHOSEN_DOMAIN",
+      "author_source_lessons": [
+        15,
+        17,
+        18
+      ],
+      "interpretive_not_formal_named_third_layer": true
+    },
+    {
+      "id": "L2",
+      "name": "EVENTUAL_MOVEMENT_COMPLETION",
+      "author_source_lessons": [
+        17,
+        18
+      ],
+      "interpretive_not_formal_named_third_layer": true
+    },
+    {
+      "id": "L3",
+      "name": "RECURSIVE_FIXED_POLICY_UNIQUENESS_COMPLETE_CLASSIFICATION",
+      "author_source_lessons": [
+        33,
+        38,
+        84,
+        102
+      ],
+      "interpretive_not_formal_named_third_layer": true
+    },
+    {
+      "id": "L4",
+      "name": "ONLINE_IDENTIFIABILITY_AND_REAL_WORLD_EXECUTION",
+      "author_source_lessons": [
+        27,
+        35,
+        44,
+        53,
+        83,
+        89,
+        99,
+        102
+      ],
+      "interpretive_not_formal_named_third_layer": true
+    }
+  ],
+  "author_called_our_L3_third_layer_in_original_lesson17": false,
+  "strong_natural_language_claim_not_proof": "L102 natural number positional analogy is author rhetorical claim pending an algorithm with completed input grammar and no-lookahead proof",
+  "finite_prefix_lemma": {
+    "premise": "There exists a finite prefix P at which minimum eligible center exists and both later continuation and end are author-permitted under the same fixed policy",
+    "reasoning": "Two completions share identical P. Any non-oracular algorithm restricted to P produces identical output. Therefore it cannot correctly assert different final terminal histories for both continuations at P.",
+    "scope": "CONDITIONAL_PREFIX_INDISTINGUISHABILITY_NOT_GLOBAL_REFUTATION_OF_AUTHOR",
+    "do_not_conclude": "No future confirmation rule exists; or any operational response must be impossible",
+    "source_lessons": [
+      17,
+      18,
+      89,
+      99
+    ]
+  },
+  "important_separations": [
+    "VISUAL_DIRECTION_NOT_STRUCTURAL_TREND_CENTER_COUNT",
+    "CENTER_EXISTS_NOT_MOVEMENT_FINISHED",
+    "FINISHED_HISTORICAL_DECOMPOSITION_NOT_SAME_AS_ONLINE_PREFIX_LABEL",
+    "FIXED_POLICY_UNIQUENESS_NOT_CROSS_POLICY_INVARIANCE",
+    "STRICT_TRADE_LEVEL_NOT_CLOCK_BAR_TIMEFRAME",
+    "LOWER_LEVEL_DIVERGENCE_NECESSARY_NOT_SUFFICIENT_FOR_HIGHER_TURN",
+    "FORMAL_LEVEL_INVARIANCE_NOT_EQUAL_NOISE_STABILITY_OR_TRADABLE_PROFIT",
+    "AN_ARCHIVED_CHART_NOT_AUTHENTICATED_RAW_SUBMINUTE_REPLAY",
+    "EXPERT_PARAPHRASE_NOT_ORIGINAL_EXPERT_QUOTE"
+  ],
+  "related_v434": "catalog/chanlun_f1_unitbar_trade_non_equivalence_v1.json",
+  "related_v433": "catalog/chanlun_f01_l20_center_partial_order_and_base_pan_v1.json",
+  "related_v432": "catalog/chanlun_f01_completion_receipt_contract_v1.json",
+  "related_v431": "catalog/chanlun_author_completion_event_witnesses_v1.json",
+  "report_path": "deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_SIX_CRITICISMS_WHOLE_THEORY_THIRD_LAYER_SYNTHESIS.md",
+  "status": {
+    "six_argument_intent_explained": "CONCEPTUALLY_SYNTHESIZED_WITH_COURSE_SOURCE_ANCHORS",
+    "expert_exact_quote": "UNAVAILABLE",
+    "author_reconstructed_same_domain_uniqueness_theorem": "NOT_PROVEN",
+    "asof_complete_lower_movement": "OPEN_F01",
+    "fixed_policy_global_unique_parse": "OPEN_OB38",
+    "yin_transition_compatible_proof": "OPEN_OB99",
+    "original_author_image_bytes_authenticated": "NO",
+    "real_market_trades": "NOT_RUN",
+    "market_backtest": "NOT_RUN"
+  },
+  "image_evidence": {
+    "lesson54_html": "https://eczsc.com/originals/54",
+    "lesson69_html": "https://eczsc.com/originals/69",
+    "lesson54_html_image_reference_observed": true,
+    "lesson69_html_image_reference_observed": true,
+    "original_sina_image_bytes_independently_authenticated": false,
+    "complete_underlying_historical_market_replay_available": false
+  }
+}
