@@ -49,7 +49,7 @@ def price(value):
         d=Decimal(value)
     except (InvalidOperation,ValueError):
         raise ValueError("KX_TAPE: invalid decimal price") from None
-    need(d.is_finite() and d>0 and str(d)==value,
+    need(d.is_finite() and d>0 and format(d.normalize(),"f")==value,
          "nonpositive, nonfinite or noncanonical decimal price")
     return d
 
