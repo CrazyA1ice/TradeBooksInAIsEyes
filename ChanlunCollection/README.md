@@ -1,5 +1,7 @@
 # ChanlunCollection｜《缠论》五卷108课完整研究档案
 
+**v4.50 凯翔100篇全局思想研究：**[十三字观察纲领→六个执行要素→五维环境系统，兼论级别双义、第99课跨级后继H4与A094评论资料缺口](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_100_ANSWERS_SYSTEM_CROSSLEVEL_AND_COMMENT_GAPS_V450.md)。保留100篇原件，新增人物原话与研究并列；“第三层”仍是候选，不是凯翔已披露的公式。
+
 **v4.49 强动态原文发现：**[2007-02-05级别必达署时回复、01-11非严谨口诀、03-08两种观察视角和凯翔“第二种定义”的排他校勘](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_SECOND_CENTER_METHOD_TYPE_AND_FEB05_DYNAMIC_CLAIM_V449.md)。纠正v4.47的一项过度缩域，但严格完成/第二定义仍开放。
 
 **v4.48 已获得真实高手语料：**[凯翔100条知乎回答、六个“坑”的A089/A090逐字原文、两种中枢定义与第三层未明说的全局证据报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAI_XIANG_100_ANSWERS_FIRSTHAND_AND_THIRD_LAYER_V448.md)。[OtherVoices唯一人物档案](OtherVoices/speaker-unknown-001/README.md)已保存100答完整原文、逐条链接/时间、AI分析及缺失评论边界；该用户整体是认可缠论的研究者，不可仅凭六条否定性提问将其定义为全盘反对者。

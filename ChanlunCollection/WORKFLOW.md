@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.49.0
+# ChanlunCollection｜本书实施工作流 v4.50.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.50.0 本步：**从局部“第二中枢”追问升级为100篇全集跨主题研究。归并A058十三字、A085六要素、A014五维条件，强调凯翔A087结构级别和A085计划持仓级别用词不同，不能偷成同一递归函数。第99课“完成走势→至少高一级中枢震荡及最后中枢价格区间关联”列为A016未明言的**第三层H4候选**，逐项给原文依据、否定条件与研究者推断资格。A094/A058明确指向有实质信息的评论区但上传无单列评论，优先登记评论来源缺口。详见[第50轮专题](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_100_ANSWERS_SYSTEM_CROSSLEVEL_AND_COMMENT_GAPS_V450.md)，不修改原始100答。F01/OB38/OB99 OPEN、市场NOT_RUN。
 
 **v4.49.0 本步：**新对照原作者2006-12-28可不打开下级K线的熟练观察、2007-01-11“不够严谨”的上下上/下上下助记、2007-02-05 15:50:54中枢精确定义与16:59:23未来必达目标级别的动态强句、03-08两种看法和03-21第38课分析政策，系统排除不能当独立中心定义的候选。更正v4.47过强缩域，但不认证全量词或完成证明；凯翔第二套完整公式/第三层均缺其本人解释。详见[专题](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_SECOND_CENTER_METHOD_TYPE_AND_FEB05_DYNAMIC_CLAIM_V449.md)。F01/OB38/OB99 OPEN，实证NOT_RUN。
 
