@@ -1,5 +1,7 @@
 # ChanlunCollection｜《缠论》五卷108课完整研究档案
 
+**v4.47 原文域纠偏：**[“任何级别中枢”不能直接扩大成所有原始价格流×所有级别、以及第99/102课当下划分的强度](deliverables/chanlun_108_acceptance/00_REVIEW/LEVEL_TYPE_DOMAIN_2007_REPLY_AND_OB99_OB102_V447.md)。第20课仍是低层不自动生成高层的关键证据，原作者已准入类型的完成根证据和同规则可知性仍OPEN；该研究并非高手本人原话。
+
 **新增：其他人的观点专区**：[OtherVoices/人物索引](OtherVoices/README.md)。每名交易者/研究者独立文件夹，同目录存原话、来源、我的分析和修订；先前高手暂存 [speaker-unknown-001](OtherVoices/speaker-unknown-001/README.md)，原话未找回，不把分析转述冒充引文。
 
 **v4.45“某级别”与“任何级别”量词审查：**[第17/18/20/35/102课与2007-02-26作者答疑交叉校勘](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_ANY_LEVEL_CENTER_QUANTIFIER_AND_EXIT_DOMAIN_V445.md)。第20课极端低级别延伸与评论强全称用语有文本张力，需同域证明；F01/OB38/OB99 OPEN，高手原帖未获。

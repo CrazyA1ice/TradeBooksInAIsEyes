@@ -2,6 +2,8 @@
 
 **查询时点：** 2026-11-11。研究稿已覆盖五卷第1—108课；当前收据以GitHub主分支及[本书逐课逻辑地图](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md)、[来源索引](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_SOURCE_ATLAS.md)为准。**研究覆盖完成不等于全部数学证明完成。**
 
+**v4.47 句法与类型域纠偏（2026-11-11）：**[“任何级别都不可能永远不形成中枢”的原文主语、A过强解释与V类型准入](deliverables/chanlun_108_acceptance/00_REVIEW/LEVEL_TYPE_DOMAIN_2007_REPLY_AND_OB99_OB102_V447.md)。2007-02-26作者二手评论总结明确指向“该级别走势”，不应把它直接读作“每条原始价格流×所有级别均有中心”。第20课低层延伸不能自动证明存在已合法启动却永不完成的高级走势；第99课中阴一般性划分待定、第102课当下完全分类强言辞仍须另解。高手原帖仍缺，F01/OB38/OB99 OPEN，市场NOT_RUN。
+
 **v4.45 新研究关口（2026-11-11）：**第20课较低结构持续而不生成高一级中枢的作者极端例，与2007-02-26二手作者署时问答中“任何级别”文句存在量词定义域张力。独立[研究报告](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_ANY_LEVEL_CENTER_QUANTIFIER_AND_EXIT_DOMAIN_V445.md)严格区分“某级别中心存在(E)”“每一级别最终有中心(A)”“已完成类型必含相应中心(T)”，逻辑上E/T不蕴涵A，但**作者同域数学矛盾仍未证**；一般层第三点出口有更早作者线索，绝对最底成交完成基例仍未闭合。高手原帖NOT_AUTHENTICATED，F01/OB38/OB99 OPEN、市场NOT_RUN。
 
 **v4.46 人物观点档案（2026-11-11）：**已创建[OtherVoices独立入口](OtherVoices/README.md)，一人一文件夹同时保存原话、AI解读、来源和修订。先前高手暂用`speaker-unknown-001`，仅有六条议题的研究性概述，原话**MISSING_VERBATIM**、作者身份**UNVERIFIED**；禁止对外声明为逐字原文。该工程与研究材料归档不解决F01/OB38/OB99，市场NOT_RUN。
