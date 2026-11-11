@@ -14,8 +14,8 @@
     {
       "source_path": ".github/workflows/book-collection-integrity.yml",
       "mirror_path": "ChanlunCollection/.github/workflows/book-collection-integrity.yml",
-      "git_blob_sha": "f9e9a4211f76879ca7c5547c150f683d3a66f415",
-      "size_bytes": 1141
+      "git_blob_sha": "69c6e545088ec27e6e74071ebd6c5e2e8ec6ec36",
+      "size_bytes": 1637
     },
     {
       "source_path": ".github/workflows/chanlun-108-acceptance-bundle.yml",
