@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "KX-UNVERIFIED-EXIT-EVIDENCE-CONSERVATION-V457",
+  "origin": "SYNTHETIC_SYMBOLS_NOT_MARKET",
+  "source_authentication": "UNVERIFIED_REPOSITORY_SYNTHETIC",
+  "source_tape_id": "KX-RAW-TAPE-PREFIX-DERIVED-THREE-CENTER-V456",
+  "source_tape_sha256": "66c2a568a1ec4c0da664c5bbdeb5bd41e9ddcfccc5dbfbdaa961f916ae0f57eb",
+  "source_case_id": "KX-CASE-01",
+  "source_answer_ids": [
+    "A026",
+    "A084",
+    "A016"
+  ],
+  "policy_id": "policy_R_demo",
+  "exit_claims": [
+    {
+      "id": "synthetic-label-1",
+      "member_index": 1,
+      "raw_member_end_tick": 9,
+      "declared_first_known_tick": 10,
+      "claim_kind": "SYNTHETIC_F01_DECLARATION_NOT_OBSERVED_EXIT",
+      "market_event_id": null,
+      "independently_authenticated": false
+    },
+    {
+      "id": "synthetic-label-2",
+      "member_index": 2,
+      "raw_member_end_tick": 18,
+      "declared_first_known_tick": 19,
+      "claim_kind": "SYNTHETIC_F01_DECLARATION_NOT_OBSERVED_EXIT",
+      "market_event_id": null,
+      "independently_authenticated": false
+    },
+    {
+      "id": "synthetic-label-3",
+      "member_index": 3,
+      "raw_member_end_tick": 27,
+      "declared_first_known_tick": 28,
+      "claim_kind": "SYNTHETIC_F01_DECLARATION_NOT_OBSERVED_EXIT",
+      "market_event_id": null,
+      "independently_authenticated": false
+    }
+  ],
+  "checkpoints": [
+    8,
+    9,
+    10,
+    17,
+    18,
+    19,
+    27,
+    28
+  ],
+  "notes": "Local 3-center nonadvance evidence is not legally finished. Claimed +1 ticks are synthetic metadata only, not independently sourced market exit events. The tape has no price event at tick 28."
+}

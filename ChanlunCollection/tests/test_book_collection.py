@@ -173,6 +173,20 @@ class BookCollectionTests(unittest.TestCase):
         self.assertFalse(receipt["actual_movement_completion_certified"])
         self.assertFalse(receipt["real_market_verified"])
 
+    def test_kaixiang_exit_evidence_is_not_created_by_synthetic_next_tick(self):
+        path=ROOT/"tests/fixtures/kaixiang_exit_evidence_v457.json"
+        doc=json.loads(path.read_text(encoding="utf-8"))
+        self.assertEqual(doc["source_answer_ids"],["A026","A084","A016"])
+        m=imported("kx_exit_v457","tools/audit_kaixiang_exit_evidence_v457.py")
+        result=m.audit_fixture(path)
+        self.assertEqual(result["pinned_raw_prices"],27)
+        self.assertEqual(result["f01_graph_nodes"],43)
+        self.assertEqual(result["observed_prefixes"],8)
+        self.assertEqual(result["independently_authenticated_exit_count"],0)
+        self.assertEqual(result["unobserved_last_claim_tick"],28)
+        self.assertFalse(result["real_market_data"])
+        self.assertEqual(result["orders"],0)
+
     def test_alias_paths_are_safe_and_no_registry_collision(self):
         self.assertEqual(
             m.mirror_destination(self.book,"other_views/chanlun/speaker-unknown-001/analysis.md"),
