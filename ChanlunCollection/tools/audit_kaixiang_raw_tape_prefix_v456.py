@@ -119,6 +119,27 @@ def prefix_replay(values,asof_tick):
     }
 
 
+def verify_graph_tape(witness, values):
+    """Separate fail-closed source-to-graph root matching, with no market claim."""
+    need(isinstance(witness,dict) and isinstance(witness.get("graph"),dict),
+         "untrusted graph object required")
+    need(isinstance(values,list) and len(values)==EXPECTED_LENGTH,
+         "exactly 27 input prices required")
+    raw=sorted(
+        (x for x in witness["graph"]["nodes"] if x["kind"]=="RAW_TRADE"),
+        key=lambda x:x["ordinal"])
+    need(len(raw)==EXPECTED_LENGTH and
+         [x["ordinal"] for x in raw]==list(range(1,EXPECTED_LENGTH+1)),
+         "graph raw trade sequence has missing, repeated or extra ordinals")
+    for ix,(rec,v) in enumerate(zip(raw,values),1):
+        need(rec["price"]==v and rec["first_known_seq"]==ix
+             and rec["historical_endpoint_seq"]==ix
+             and rec["root_verified"] is False
+             and rec["stream_id"]=="SYNTHETIC_UNVERIFIED_STREAM",
+             "F01 graph leaf disagrees with full input tape and untrusted provenance")
+    return True
+
+
 def derive_graph(fixture):
     """Build *untrusted* F01 graph from tape-derived facts, not declared labels."""
     validate_full_tape(fixture)
@@ -141,20 +162,8 @@ def derive_graph(fixture):
     args["direction"]=labels
     args["price_bounds"]=inferred_bounds
     witness=previous.generate(args)
-    # Verify exact raw leaves from independent tape, including membership,
-    # original ordinal, source stream and F01 known-time conventions.
-    raw=sorted(
-        (x for x in witness["graph"]["nodes"] if x["kind"]=="RAW_TRADE"),
-        key=lambda x:x["ordinal"])
-    need(len(raw)==EXPECTED_LENGTH and
-         [x["ordinal"] for x in raw]==list(range(1,EXPECTED_LENGTH+1)),
-         "graph raw trade sequence has missing, repeated or extra ordinals")
-    for ix,(rec,v) in enumerate(zip(raw,values),1):
-        need(rec["price"]==v and rec["first_known_seq"]==ix
-             and rec["historical_endpoint_seq"]==ix
-             and rec["root_verified"] is False
-             and rec["stream_id"]=="SYNTHETIC_UNVERIFIED_STREAM",
-             "F01 graph leaf disagrees with full input tape and untrusted provenance")
+    # This checks the real audited graph-root-to-raw-array binding.
+    verify_graph_tape(witness,values)
     return witness
 
 
