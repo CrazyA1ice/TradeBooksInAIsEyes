@@ -1,5 +1,6 @@
 """BookCollection universal registry, mirroring, proof status and stepwise workflow gates."""
 import importlib.util
+import hashlib
 import json
 import tempfile
 import unittest
@@ -49,9 +50,33 @@ class BookCollectionTests(unittest.TestCase):
             self.assertEqual((source/part).read_bytes(),(mirror/part).read_bytes())
         meta=json.loads((mirror/"sources.json").read_text(encoding="utf-8"))
         self.assertFalse(meta["speaker_verified"])
-        self.assertEqual(meta["quote_status"],"MISSING_VERBATIM")
-        self.assertEqual(meta["verbatim_quotes"],[])
-        self.assertIn("不是本人发言",(mirror/"quotes.md").read_text(encoding="utf-8"))
+        self.assertEqual(meta["original_speaker_name"],"凯翔")
+        self.assertEqual(meta["quote_status"],"VERBATIM_FROM_USER_SUPPLIED_EXPORT")
+        self.assertEqual(len(meta["verbatim_quotes"]),100)
+        self.assertIn("A089",(mirror/"quotes.md").read_text(encoding="utf-8"))
+        self.assertIn("归属",(mirror/"quotes.md").read_text(encoding="utf-8"))
+
+    def test_kaixiang_100_answer_export_and_no_independent_comments(self):
+        d=ROOT/"ChanlunCollection/OtherVoices/speaker-unknown-001"
+        data=(d/"answers-2026-11-11.md").read_bytes()
+        self.assertEqual(len(data),130167)
+        self.assertEqual(hashlib.sha256(data).hexdigest(),
+                         "3fb9f3255cffe62a93f5473cfbf003f15d4c60ae8ee4d9f2e4e56083b935b7b9")
+        t=data.decode("utf-8")
+        self.assertEqual(t.count("\r\n## "),100)
+        self.assertEqual(t.count("- 原文链接: https://www.zhihu.com/question/"),100)
+        self.assertIn("中枢的定义方法是有两种的",t)
+        self.assertIn("第三层意思:在正文中有几次点到了",t)
+        j=json.loads((d/"answers-index.json").read_text(encoding="utf-8"))
+        self.assertEqual(j["answer_count"],100)
+        self.assertEqual(j["unique_answer_urls"],100)
+        self.assertEqual(j["explicit_chanlun_mentions"],31)
+        self.assertEqual(j["independent_comment_records"],0)
+        self.assertEqual(len(set(x["answer_id"] for x in j["answers"])),100)
+        self.assertEqual([x["id"] for x in j["answers"]],["A%03d"%i for i in range(1,101)])
+        self.assertTrue(j["answers"][6]["contains_third_party_quoted_trader"])
+        self.assertEqual(j["answers"][88]["id"],"A089")
+        self.assertIn("NOT_PRESENT_IN_UPLOAD",(d/"comments.md").read_text(encoding="utf-8"))
 
     def test_alias_paths_are_safe_and_no_registry_collision(self):
         self.assertEqual(

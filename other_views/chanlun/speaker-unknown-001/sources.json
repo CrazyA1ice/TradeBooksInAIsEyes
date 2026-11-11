@@ -2,11 +2,512 @@
   "schema_version": 1,
   "speaker_id": "speaker-unknown-001",
   "speaker_verified": false,
-  "quote_status": "MISSING_VERBATIM",
-  "verbatim_quotes": [],
-  "user_reference": "用户在当前对话确认此前提供过高手语录；可访问内容中未检索到逐字原文",
-  "publication_url": null,
-  "original_speaker_name": null,
+  "quote_status": "VERBATIM_FROM_USER_SUPPLIED_EXPORT",
+  "verbatim_quotes": [
+    {
+      "id": "A001",
+      "url": "https://www.zhihu.com/question/1887805487786987607/answer/2062338856758798016",
+      "answer_id": "2062338856758798016"
+    },
+    {
+      "id": "A002",
+      "url": "https://www.zhihu.com/question/12991610539/answer/2026806640024778084",
+      "answer_id": "2026806640024778084"
+    },
+    {
+      "id": "A003",
+      "url": "https://www.zhihu.com/question/466421913/answer/2014259178890347065",
+      "answer_id": "2014259178890347065"
+    },
+    {
+      "id": "A004",
+      "url": "https://www.zhihu.com/question/55823923/answer/1990796659232362496",
+      "answer_id": "1990796659232362496"
+    },
+    {
+      "id": "A005",
+      "url": "https://www.zhihu.com/question/659022679/answer/1989208785919684691",
+      "answer_id": "1989208785919684691"
+    },
+    {
+      "id": "A006",
+      "url": "https://www.zhihu.com/question/635335982/answer/1988977518120829390",
+      "answer_id": "1988977518120829390"
+    },
+    {
+      "id": "A007",
+      "url": "https://www.zhihu.com/question/584511060/answer/1985506193423225926",
+      "answer_id": "1985506193423225926"
+    },
+    {
+      "id": "A008",
+      "url": "https://www.zhihu.com/question/1983602162371141693/answer/1983658687097743218",
+      "answer_id": "1983658687097743218"
+    },
+    {
+      "id": "A009",
+      "url": "https://www.zhihu.com/question/1976019073918861331/answer/1979882927027401731",
+      "answer_id": "1979882927027401731"
+    },
+    {
+      "id": "A010",
+      "url": "https://www.zhihu.com/question/55627060/answer/1979874290846409087",
+      "answer_id": "1979874290846409087"
+    },
+    {
+      "id": "A011",
+      "url": "https://www.zhihu.com/question/435159789/answer/1979605689514079589",
+      "answer_id": "1979605689514079589"
+    },
+    {
+      "id": "A012",
+      "url": "https://www.zhihu.com/question/368062487/answer/1955944105688413424",
+      "answer_id": "1955944105688413424"
+    },
+    {
+      "id": "A013",
+      "url": "https://www.zhihu.com/question/659765150/answer/1950854810808082521",
+      "answer_id": "1950854810808082521"
+    },
+    {
+      "id": "A014",
+      "url": "https://www.zhihu.com/question/600060146/answer/1950601282369851436",
+      "answer_id": "1950601282369851436"
+    },
+    {
+      "id": "A015",
+      "url": "https://www.zhihu.com/question/386727740/answer/1943916084915860281",
+      "answer_id": "1943916084915860281"
+    },
+    {
+      "id": "A016",
+      "url": "https://www.zhihu.com/question/1939969122378188363/answer/1939986384359235980",
+      "answer_id": "1939986384359235980"
+    },
+    {
+      "id": "A017",
+      "url": "https://www.zhihu.com/question/4360777234/answer/1939090639397558158",
+      "answer_id": "1939090639397558158"
+    },
+    {
+      "id": "A018",
+      "url": "https://www.zhihu.com/question/1910477074298304019/answer/1939086554527142341",
+      "answer_id": "1939086554527142341"
+    },
+    {
+      "id": "A019",
+      "url": "https://www.zhihu.com/question/665063848/answer/1932217798945374819",
+      "answer_id": "1932217798945374819"
+    },
+    {
+      "id": "A020",
+      "url": "https://www.zhihu.com/question/1914461113510262417/answer/1931315110095360269",
+      "answer_id": "1931315110095360269"
+    },
+    {
+      "id": "A021",
+      "url": "https://www.zhihu.com/question/451984238/answer/1930773511472936577",
+      "answer_id": "1930773511472936577"
+    },
+    {
+      "id": "A022",
+      "url": "https://www.zhihu.com/question/1889062352055412413/answer/1925084875104429203",
+      "answer_id": "1925084875104429203"
+    },
+    {
+      "id": "A023",
+      "url": "https://www.zhihu.com/question/457311590/answer/1923149267473797198",
+      "answer_id": "1923149267473797198"
+    },
+    {
+      "id": "A024",
+      "url": "https://www.zhihu.com/question/431421989/answer/1912562672978867357",
+      "answer_id": "1912562672978867357"
+    },
+    {
+      "id": "A025",
+      "url": "https://www.zhihu.com/question/567208207/answer/1911238780138030509",
+      "answer_id": "1911238780138030509"
+    },
+    {
+      "id": "A026",
+      "url": "https://www.zhihu.com/question/1908775952865010029/answer/1909154539594027495",
+      "answer_id": "1909154539594027495"
+    },
+    {
+      "id": "A027",
+      "url": "https://www.zhihu.com/question/1905878853529890854/answer/1908980031851570617",
+      "answer_id": "1908980031851570617"
+    },
+    {
+      "id": "A028",
+      "url": "https://www.zhihu.com/question/343638603/answer/1908972138301486617",
+      "answer_id": "1908972138301486617"
+    },
+    {
+      "id": "A029",
+      "url": "https://www.zhihu.com/question/67967791/answer/1908613213848860563",
+      "answer_id": "1908613213848860563"
+    },
+    {
+      "id": "A030",
+      "url": "https://www.zhihu.com/question/785414329/answer/1908610191227859409",
+      "answer_id": "1908610191227859409"
+    },
+    {
+      "id": "A031",
+      "url": "https://www.zhihu.com/question/1904888856634957914/answer/1905923402251868114",
+      "answer_id": "1905923402251868114"
+    },
+    {
+      "id": "A032",
+      "url": "https://www.zhihu.com/question/61917117/answer/1890797178378756751",
+      "answer_id": "1890797178378756751"
+    },
+    {
+      "id": "A033",
+      "url": "https://www.zhihu.com/question/13319265470/answer/1890188935336019090",
+      "answer_id": "1890188935336019090"
+    },
+    {
+      "id": "A034",
+      "url": "https://www.zhihu.com/question/658831054/answer/1890187047781761419",
+      "answer_id": "1890187047781761419"
+    },
+    {
+      "id": "A035",
+      "url": "https://www.zhihu.com/question/433188481/answer/126751480016",
+      "answer_id": "126751480016"
+    },
+    {
+      "id": "A036",
+      "url": "https://www.zhihu.com/question/351426844/answer/124331458195",
+      "answer_id": "124331458195"
+    },
+    {
+      "id": "A037",
+      "url": "https://www.zhihu.com/question/14827485465/answer/123212845786",
+      "answer_id": "123212845786"
+    },
+    {
+      "id": "A038",
+      "url": "https://www.zhihu.com/question/315434260/answer/122954807166",
+      "answer_id": "122954807166"
+    },
+    {
+      "id": "A039",
+      "url": "https://www.zhihu.com/question/556318718/answer/122954012766",
+      "answer_id": "122954012766"
+    },
+    {
+      "id": "A040",
+      "url": "https://www.zhihu.com/question/10250287117/answer/120987189157",
+      "answer_id": "120987189157"
+    },
+    {
+      "id": "A041",
+      "url": "https://www.zhihu.com/question/14296916398/answer/118500422897",
+      "answer_id": "118500422897"
+    },
+    {
+      "id": "A042",
+      "url": "https://www.zhihu.com/question/13407582809/answer/117642776144",
+      "answer_id": "117642776144"
+    },
+    {
+      "id": "A043",
+      "url": "https://www.zhihu.com/question/22728934/answer/117247729110",
+      "answer_id": "117247729110"
+    },
+    {
+      "id": "A044",
+      "url": "https://www.zhihu.com/question/600372729/answer/115334403970",
+      "answer_id": "115334403970"
+    },
+    {
+      "id": "A045",
+      "url": "https://www.zhihu.com/question/12528527091/answer/113512429325",
+      "answer_id": "113512429325"
+    },
+    {
+      "id": "A046",
+      "url": "https://www.zhihu.com/question/453209177/answer/113505794565",
+      "answer_id": "113505794565"
+    },
+    {
+      "id": "A047",
+      "url": "https://www.zhihu.com/question/13724239684/answer/113503394800",
+      "answer_id": "113503394800"
+    },
+    {
+      "id": "A048",
+      "url": "https://www.zhihu.com/question/641320022/answer/109401627410",
+      "answer_id": "109401627410"
+    },
+    {
+      "id": "A049",
+      "url": "https://www.zhihu.com/question/13159050101/answer/108796745212",
+      "answer_id": "108796745212"
+    },
+    {
+      "id": "A050",
+      "url": "https://www.zhihu.com/question/660601784/answer/100939216700",
+      "answer_id": "100939216700"
+    },
+    {
+      "id": "A051",
+      "url": "https://www.zhihu.com/question/12094345493/answer/100333543549",
+      "answer_id": "100333543549"
+    },
+    {
+      "id": "A052",
+      "url": "https://www.zhihu.com/question/9914313759/answer/98596407622",
+      "answer_id": "98596407622"
+    },
+    {
+      "id": "A053",
+      "url": "https://www.zhihu.com/question/5497717489/answer/81877383121",
+      "answer_id": "81877383121"
+    },
+    {
+      "id": "A054",
+      "url": "https://www.zhihu.com/question/585044811/answer/79549270327",
+      "answer_id": "79549270327"
+    },
+    {
+      "id": "A055",
+      "url": "https://www.zhihu.com/question/594705679/answer/79539093417",
+      "answer_id": "79539093417"
+    },
+    {
+      "id": "A056",
+      "url": "https://www.zhihu.com/question/658098268/answer/78253953140",
+      "answer_id": "78253953140"
+    },
+    {
+      "id": "A057",
+      "url": "https://www.zhihu.com/question/9400557407/answer/77956283409",
+      "answer_id": "77956283409"
+    },
+    {
+      "id": "A058",
+      "url": "https://www.zhihu.com/question/425638863/answer/76172114585",
+      "answer_id": "76172114585"
+    },
+    {
+      "id": "A059",
+      "url": "https://www.zhihu.com/question/653635431/answer/73639460252",
+      "answer_id": "73639460252"
+    },
+    {
+      "id": "A060",
+      "url": "https://www.zhihu.com/question/564856229/answer/61721424498",
+      "answer_id": "61721424498"
+    },
+    {
+      "id": "A061",
+      "url": "https://www.zhihu.com/question/428222511/answer/60888355847",
+      "answer_id": "60888355847"
+    },
+    {
+      "id": "A062",
+      "url": "https://www.zhihu.com/question/434662413/answer/53263874696",
+      "answer_id": "53263874696"
+    },
+    {
+      "id": "A063",
+      "url": "https://www.zhihu.com/question/3195969657/answer/28246713145",
+      "answer_id": "28246713145"
+    },
+    {
+      "id": "A064",
+      "url": "https://www.zhihu.com/question/790229993/answer/13810206718",
+      "answer_id": "13810206718"
+    },
+    {
+      "id": "A065",
+      "url": "https://www.zhihu.com/question/1561367251/answer/11555921335",
+      "answer_id": "11555921335"
+    },
+    {
+      "id": "A066",
+      "url": "https://www.zhihu.com/question/1560766336/answer/11540868946",
+      "answer_id": "11540868946"
+    },
+    {
+      "id": "A067",
+      "url": "https://www.zhihu.com/question/326998351/answer/11375220787",
+      "answer_id": "11375220787"
+    },
+    {
+      "id": "A068",
+      "url": "https://www.zhihu.com/question/275087993/answer/3637611529",
+      "answer_id": "3637611529"
+    },
+    {
+      "id": "A069",
+      "url": "https://www.zhihu.com/question/427024293/answer/3625728668",
+      "answer_id": "3625728668"
+    },
+    {
+      "id": "A070",
+      "url": "https://www.zhihu.com/question/662551343/answer/3574962586",
+      "answer_id": "3574962586"
+    },
+    {
+      "id": "A071",
+      "url": "https://www.zhihu.com/question/662534390/answer/3574920338",
+      "answer_id": "3574920338"
+    },
+    {
+      "id": "A072",
+      "url": "https://www.zhihu.com/question/662259873/answer/3570361667",
+      "answer_id": "3570361667"
+    },
+    {
+      "id": "A073",
+      "url": "https://www.zhihu.com/question/460755177/answer/3558993032",
+      "answer_id": "3558993032"
+    },
+    {
+      "id": "A074",
+      "url": "https://www.zhihu.com/question/659943842/answer/3544513740",
+      "answer_id": "3544513740"
+    },
+    {
+      "id": "A075",
+      "url": "https://www.zhihu.com/question/445776429/answer/3542224138",
+      "answer_id": "3542224138"
+    },
+    {
+      "id": "A076",
+      "url": "https://www.zhihu.com/question/659409915/answer/3536557767",
+      "answer_id": "3536557767"
+    },
+    {
+      "id": "A077",
+      "url": "https://www.zhihu.com/question/659050853/answer/3533701136",
+      "answer_id": "3533701136"
+    },
+    {
+      "id": "A078",
+      "url": "https://www.zhihu.com/question/659136603/answer/3533077256",
+      "answer_id": "3533077256"
+    },
+    {
+      "id": "A079",
+      "url": "https://www.zhihu.com/question/557563845/answer/3533007158",
+      "answer_id": "3533007158"
+    },
+    {
+      "id": "A080",
+      "url": "https://www.zhihu.com/question/658149573/answer/3531740376",
+      "answer_id": "3531740376"
+    },
+    {
+      "id": "A081",
+      "url": "https://www.zhihu.com/question/31885355/answer/3531690953",
+      "answer_id": "3531690953"
+    },
+    {
+      "id": "A082",
+      "url": "https://www.zhihu.com/question/658149661/answer/3531642114",
+      "answer_id": "3531642114"
+    },
+    {
+      "id": "A083",
+      "url": "https://www.zhihu.com/question/578889397/answer/3530259712",
+      "answer_id": "3530259712"
+    },
+    {
+      "id": "A084",
+      "url": "https://www.zhihu.com/question/653759989/answer/3529700708",
+      "answer_id": "3529700708"
+    },
+    {
+      "id": "A085",
+      "url": "https://www.zhihu.com/question/654388108/answer/3524620893",
+      "answer_id": "3524620893"
+    },
+    {
+      "id": "A086",
+      "url": "https://www.zhihu.com/question/655189079/answer/3524617862",
+      "answer_id": "3524617862"
+    },
+    {
+      "id": "A087",
+      "url": "https://www.zhihu.com/question/626662382/answer/3523681743",
+      "answer_id": "3523681743"
+    },
+    {
+      "id": "A088",
+      "url": "https://www.zhihu.com/question/655428326/answer/3509351869",
+      "answer_id": "3509351869"
+    },
+    {
+      "id": "A089",
+      "url": "https://www.zhihu.com/question/582740277/answer/3501715351",
+      "answer_id": "3501715351"
+    },
+    {
+      "id": "A090",
+      "url": "https://www.zhihu.com/question/626019843/answer/3501712630",
+      "answer_id": "3501712630"
+    },
+    {
+      "id": "A091",
+      "url": "https://www.zhihu.com/question/655304426/answer/3493202101",
+      "answer_id": "3493202101"
+    },
+    {
+      "id": "A092",
+      "url": "https://www.zhihu.com/question/607430514/answer/3484086554",
+      "answer_id": "3484086554"
+    },
+    {
+      "id": "A093",
+      "url": "https://www.zhihu.com/question/654579609/answer/3483824679",
+      "answer_id": "3483824679"
+    },
+    {
+      "id": "A094",
+      "url": "https://www.zhihu.com/question/305010512/answer/3478727755",
+      "answer_id": "3478727755"
+    },
+    {
+      "id": "A095",
+      "url": "https://www.zhihu.com/question/652036879/answer/3461638940",
+      "answer_id": "3461638940"
+    },
+    {
+      "id": "A096",
+      "url": "https://www.zhihu.com/question/651816978/answer/3457780477",
+      "answer_id": "3457780477"
+    },
+    {
+      "id": "A097",
+      "url": "https://www.zhihu.com/question/628715474/answer/3431186807",
+      "answer_id": "3431186807"
+    },
+    {
+      "id": "A098",
+      "url": "https://www.zhihu.com/question/648505600/answer/3430901314",
+      "answer_id": "3430901314"
+    },
+    {
+      "id": "A099",
+      "url": "https://www.zhihu.com/question/648208667/answer/3429921024",
+      "answer_id": "3429921024"
+    },
+    {
+      "id": "A100",
+      "url": "https://www.zhihu.com/question/647123655/answer/3419175576",
+      "answer_id": "3419175576"
+    }
+  ],
+  "user_reference": "已收到用户2026-11-11上传的知乎‘凯翔’100答原文字节、可验SHA和100个原文URL；未取得独立评论区回复。",
+  "publication_url": "https://www.zhihu.com/people/tsk-47-98",
+  "original_speaker_name": "凯翔",
   "analysis_only": [
     {
       "path": "deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_SIX_CRITICISMS_WHOLE_THEORY_THIRD_LAYER_SYNTHESIS.md",
@@ -27,6 +528,10 @@
     {
       "path": "deliverables/chanlun_108_acceptance/00_REVIEW/LEVEL_TYPE_DOMAIN_2007_REPLY_AND_OB99_OB102_V447.md",
       "role": "AUTHOR_TEXT_SYNTAX_AND_LEVEL_DOMAIN_REASSESSMENT"
+    },
+    {
+      "path": "deliverables/chanlun_108_acceptance/00_REVIEW/KAI_XIANG_100_ANSWERS_FIRSTHAND_AND_THIRD_LAYER_V448.md",
+      "role": "FIRSTHAND_ORIGINAL100_CROSSLESSON_SPEAKER_RESEARCH"
     }
   ],
   "frontiers": [
@@ -35,5 +540,21 @@
     "OB99_OPEN",
     "NOT_RUN"
   ],
-  "tracking_issue": "https://github.com/CrazyA1ice/TradeBooksInAIsEyes/issues/110"
+  "tracking_issue": "https://github.com/CrazyA1ice/TradeBooksInAIsEyes/issues/110",
+  "speaker_identified_by_export": true,
+  "web_authentication": "UNVERIFIED_403",
+  "uploaded_export": {
+    "source_file": "answers-2026-11-11.md",
+    "original_name": "answers(1).md",
+    "sha256": "3fb9f3255cffe62a93f5473cfbf003f15d4c60ae8ee4d9f2e4e56083b935b7b9",
+    "git_blob_sha1": "3dda9aee3ecda29f48e86381315d21dd3d736aeb",
+    "size_bytes": 130167,
+    "answers": 100,
+    "explicit_chanlun_answers": 31,
+    "independent_comments_in_export": 0
+  },
+  "comment_status": "NOT_PRESENT_IN_UPLOAD",
+  "third_party_authority_warning": [
+    "A007"
+  ]
 }
