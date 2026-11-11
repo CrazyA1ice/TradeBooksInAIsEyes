@@ -1,0 +1,15 @@
+name: chanlun-expert-completion-quantifiers-gate
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  source-and-quantifier-scope:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -B tools/audit_chanlun_expert_completion_quantifiers.py
+      - run: python -B -m unittest discover -s tests -p "test_chanlun_expert_completion_quantifiers.py" -v
