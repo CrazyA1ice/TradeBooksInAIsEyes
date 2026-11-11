@@ -1,5 +1,7 @@
 # ChanlunCollection｜《缠论》五卷108课完整研究档案
 
+**新增：其他人的观点专区**：[OtherVoices/人物索引](OtherVoices/README.md)。每名交易者/研究者独立文件夹，同目录存原话、来源、我的分析和修订；先前高手暂存 [speaker-unknown-001](OtherVoices/speaker-unknown-001/README.md)，原话未找回，不把分析转述冒充引文。
+
 **v4.45“某级别”与“任何级别”量词审查：**[第17/18/20/35/102课与2007-02-26作者答疑交叉校勘](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_ANY_LEVEL_CENTER_QUANTIFIER_AND_EXIT_DOMAIN_V445.md)。第20课极端低级别延伸与评论强全称用语有文本张力，需同域证明；F01/OB38/OB99 OPEN，高手原帖未获。
 
 **v4.44严格与实用最低层分流：**[2006第19课回复一字线、2007第60课最低线段操作截断与最低盘整终止未决证明](deliverables/chanlun_108_acceptance/00_REVIEW/ABSOLUTE_PAN_BASE_VS_OPERABLE_SEGMENT_CUTOFF_V444.md)。最低中心≠已完成盘整，不自动将操作截断变成原作者完备解析算法。

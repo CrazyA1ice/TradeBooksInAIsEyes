@@ -4,6 +4,8 @@
 
 **v4.45 新研究关口（2026-11-11）：**第20课较低结构持续而不生成高一级中枢的作者极端例，与2007-02-26二手作者署时问答中“任何级别”文句存在量词定义域张力。独立[研究报告](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_ANY_LEVEL_CENTER_QUANTIFIER_AND_EXIT_DOMAIN_V445.md)严格区分“某级别中心存在(E)”“每一级别最终有中心(A)”“已完成类型必含相应中心(T)”，逻辑上E/T不蕴涵A，但**作者同域数学矛盾仍未证**；一般层第三点出口有更早作者线索，绝对最底成交完成基例仍未闭合。高手原帖NOT_AUTHENTICATED，F01/OB38/OB99 OPEN、市场NOT_RUN。
 
+**v4.46 人物观点档案（2026-11-11）：**已创建[OtherVoices独立入口](OtherVoices/README.md)，一人一文件夹同时保存原话、AI解读、来源和修订。先前高手暂用`speaker-unknown-001`，仅有六条议题的研究性概述，原话**MISSING_VERBATIM**、作者身份**UNVERIFIED**；禁止对外声明为逐字原文。该工程与研究材料归档不解决F01/OB38/OB99，市场NOT_RUN。
+
 | 范围 | 状态 | 回查资料 |
 |---|---|---|
 | 五卷原PDF与物理页登记 | SHA记录存在；部分原图/编注时序未完成终审 | `ChineseBooks/缠论/`、`reports/source_inventory/` |
