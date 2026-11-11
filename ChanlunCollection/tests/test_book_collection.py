@@ -160,6 +160,19 @@ class BookCollectionTests(unittest.TestCase):
         self.assertFalse(receipt["market_data"])
         self.assertEqual(receipt["orders"],0)
 
+    def test_kaixiang_raw_price_tape_precedes_local_direction_labels(self):
+        path=ROOT/"tests/fixtures/kaixiang_raw_tape_v456.json"
+        x=json.loads(path.read_text(encoding="utf-8"))
+        self.assertEqual(x["source_answer_ids"],["A026","A084","A016"])
+        m=imported("kx_tape_v456","tools/audit_kaixiang_raw_tape_prefix_v456.py")
+        receipt=m.audit_fixture(path)
+        self.assertEqual(receipt["raw_trades"],27)
+        self.assertEqual(receipt["f01_graph_nodes"],43)
+        self.assertEqual(receipt["local_pattern_counts"],[0,1,1,1,2,2,3,3])
+        self.assertEqual(receipt["unverified_exit_receipt_counts"],[0,0,1,1,1,2,2,3])
+        self.assertFalse(receipt["actual_movement_completion_certified"])
+        self.assertFalse(receipt["real_market_verified"])
+
     def test_alias_paths_are_safe_and_no_registry_collision(self):
         self.assertEqual(
             m.mirror_destination(self.book,"other_views/chanlun/speaker-unknown-001/analysis.md"),

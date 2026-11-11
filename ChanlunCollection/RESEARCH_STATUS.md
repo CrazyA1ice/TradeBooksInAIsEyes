@@ -2,6 +2,8 @@
 
 **查询时点：** 2026-11-11。研究稿已覆盖五卷第1—108课；当前收据以GitHub主分支及[本书逐课逻辑地图](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md)、[来源索引](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_SOURCE_ATLAS.md)为准。**研究覆盖完成不等于全部数学证明完成。**
 
+**v4.56 合成原始成交价格的前缀推导与F01人造退出区分：**[完整报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_RAW_TAPE_DERIVED_PREFIX_AND_EXIT_ASSUMPTIONS_V456.md)、[价带前缀工具](tools/audit_kaixiang_raw_tape_prefix_v456.py)、[源数据夹具](tests/fixtures/kaixiang_raw_tape_v456.json)和[定向测试](tests/test_kaixiang_raw_tape_prefix_v456.py)。不再把预先填好的方向/区间直接作为基础输入，而由27笔冻结合成原价推导三同价中枢、初始方向及未延续关系，再核对旧F01图。**本地价序满足条件t=9/18/27≠真实退出确认**；t=10/19/28只出现未获独立证实的合成退出声明。源价SHA仅锁定仓库自造实验数据，非外部市场认证；F01/OB38/OB99 OPEN、市场NOT_RUN。
+
 **v4.55 F01旧研究图假阳性修复（第35课初始趋势方向）：**[深入报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_F01_INITIAL_DIRECTION_THREE_CENTER_GUARD_V455.md)、[方向价序检验器](tools/audit_kaixiang_f01_direction_three_centers.py)、[反例测试](tests/test_kaixiang_f01_direction_three_centers.py)。发现v4.54的完成图只有#2/#3低阶中心与DOWN/NOT_LOWER字符串，无法验其先前是否真的形成DOWN且后续是否真未创新低；新43节点三中心/9根价源每成员的方向、退出价序比较门阻止此类旧F01结构假阳性。仍**不能认证真实底层走势完成**，F01/OB38/OB99 OPEN、市场NOT_RUN。
 
 **v4.54 F01低阶完成依赖链的合成证明结构审计：** [报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_F01_DEPENDENCY_GRAPH_BRIDGE_AND_COMPLETION_LIMIT_V454.md)、[审计器](tools/audit_kaixiang_f01_graph_completion_bridge.py)和[15个测试](tests/test_kaixiang_f01_graph_completion_bridge.py)。已将凯翔A026三段交集从简单“已完成”bool升级为**F01原始点→基础中心→退出断言→完成走势→上级中心**31节点图的依赖/来源/双时钟审计，局部新增六个底层虚拟点对成员高低价的核验。**结构图校验成功不等于真实次级走势已完成**，F01底层比较条件仍未获独立证据，依旧F01/OB38/OB99 OPEN、市场NOT_RUN。

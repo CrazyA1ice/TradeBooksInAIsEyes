@@ -1,5 +1,7 @@
 # ChanlunCollection｜《缠论》五卷108课完整研究档案
 
+**v4.56 最底级合成成交价的来源驱动式前缀验证：**[研究报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_RAW_TAPE_DERIVED_PREFIX_AND_EXIT_ASSUMPTIONS_V456.md)、[源码](tools/audit_kaixiang_raw_tape_prefix_v456.py)、[27项虚拟成交价格](tests/fixtures/kaixiang_raw_tape_v456.json)、[单测](tests/test_kaixiang_raw_tape_prefix_v456.py)。本地中心趋势不延续通过仍**不代表实际走势结束**：没有真实独立退出事件。 
+
 **v4.55 F01低阶初始方向缺口纠错：**[深度报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_F01_INITIAL_DIRECTION_THREE_CENTER_GUARD_V455.md)、[三单价中心检验工具](tools/audit_kaixiang_f01_direction_three_centers.py)、[反例fixtures](tests/fixtures/kaixiang_f01_direction_three_centers_v455.json)、[单测](tests/test_kaixiang_f01_direction_three_centers.py)。新增检查源点实际价序能否支持先前DOWN/UP与后续不再延续，拒绝旧图可能接受的自报退出声明。不验证真行情完成。
 
 **v4.54 凯翔三段完成证据图结构门：**[深度审计与结论限制](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_F01_DEPENDENCY_GRAPH_BRIDGE_AND_COMPLETION_LIMIT_V454.md)、[F01依赖图桥](tools/audit_kaixiang_f01_graph_completion_bridge.py)、[合成结构输入](tests/fixtures/kaixiang_f01_graph_bridge_v454.json)和[单测](tests/test_kaixiang_f01_graph_completion_bridge.py)。已复用F01图检查并核6个源点价位，**原始行情与完成真实资格未认证**。

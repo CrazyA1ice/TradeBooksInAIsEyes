@@ -6,7 +6,9 @@
 
 **《缠论》全部研究成果已整理到 [ChanlunCollection/](ChanlunCollection/README.md)**：五卷原PDF、108篇逐课分析、108张原文证据卡、108课统一理论主脊、深度导读、来源与版本登记、报告、测试和审计工具均在一个文件夹内可查；保留原仓库规范路径作为编辑源，由`COLLECTION_MANIFEST.json`逐文件验证精确一致。后续每本书都建立独立`<BookName>Collection/`；**每一步研究都必须同步修订[通用工作流](docs/BOOK_RESEARCH_WORKFLOW.md)、该书[工作日志](ChanlunCollection/WORK_LOG.md)和集合完整性清单**。
 
-**最新v4.55：**[修复凯翔A026合成完成图中“初始方向缺证、退出声明可能与价序相反”的两种假阳性](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_F01_INITIAL_DIRECTION_THREE_CENTER_GUARD_V455.md)。新增[最低级别三单价中心方向审计](tools/audit_kaixiang_f01_direction_three_centers.py)，原F01接受的伪方向与伪停止案例现会被拒绝；43节点/四时点/16项定向测试。依旧仅合成证据、F01/OB38/OB99 OPEN、行情NOT_RUN，原始100篇不动。
+**最新v4.56：**[凯翔A026排除法所需的底层价格条件首次由合成原始成交序列自主计算，而非用人工方向标签反向生成](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_RAW_TAPE_DERIVED_PREFIX_AND_EXIT_ASSUMPTIONS_V456.md)。冻结27笔虚拟原价，用[无前视重放程序](tools/audit_kaixiang_raw_tape_prefix_v456.py)核三同价中枢及其趋势非延续，且严格区别局部价格关系可知与未经认证的F01完成事件。无真实行情、盈利验证，F01/OB38/OB99 OPEN，用户100答不改。
+
+**此前v4.55：**[修复凯翔A026合成完成图中“初始方向缺证、退出声明可能与价序相反”的两种假阳性](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_F01_INITIAL_DIRECTION_THREE_CENTER_GUARD_V455.md)。新增[最低级别三单价中心方向审计](tools/audit_kaixiang_f01_direction_three_centers.py)，原F01接受的伪方向与伪停止案例现会被拒绝；43节点/四时点/16项定向测试。依旧仅合成证据、F01/OB38/OB99 OPEN、行情NOT_RUN，原始100篇不动。
 
 **此前v4.54：**[凯翔A026候选排除研究从三段“已完成”标签升级为带31节点依赖关系的F01结构收据检查](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_F01_DEPENDENCY_GRAPH_BRIDGE_AND_COMPLETION_LIMIT_V454.md)，新增[桥代码](tools/audit_kaixiang_f01_graph_completion_bridge.py)和负面单元测试。只证明合成依赖图满足必要结构规则，不认证真实市场完成、第二种中枢或第三层。原100篇正文不变，F01/OB38/OB99 OPEN，NOT_RUN。
 

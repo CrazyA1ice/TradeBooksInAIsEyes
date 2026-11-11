@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.55.0
+# ChanlunCollection｜本书实施工作流 v4.56.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.56.0 本步：**将v4.55反例研究由“先写好价区间及DOWN标签再生产价格”推进为[合成原始价格的前缀自算](tools/audit_kaixiang_raw_tape_prefix_v456.py)。以冻结的27个虚拟价格，从可见三同价组出发推导3个中心、方向及第三中心是否继续创新高/低；同旧F01图对照时保持明确两时钟：t=9有局部条件，t=10才有**人为给出的退出收据**，退出条件没有独立原始证据。新增[报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_RAW_TAPE_DERIVED_PREFIX_AND_EXIT_ASSUMPTIONS_V456.md)、[固定价带](tests/fixtures/kaixiang_raw_tape_v456.json)、[16项定向测试](tests/test_kaixiang_raw_tape_prefix_v456.py)、书籍集成CI和完整镜像。仓库自锁SHA≠真实源认证，F01/OB38/OB99 OPEN，市场NOT_RUN。
 
 **v4.55.0 本步：**优先消除旧F01研究桥的假阳性，不再把`DOWN+NOT_LOWER`仅当作输入字符串即可采信。新[可执行三中枢方向必要条件门](tools/audit_kaixiang_f01_direction_three_centers.py)复用原F01图检查后，对最低级别三单价中枢c1/c2/c3增加**已建立原方向**和**第N个不再延续原方向**的原始价序检查，并用每中心3个同价合成源点保存证据。43节点图、四时点、16项单测中有两例旧门会放行而新门拒绝的反例；详见[完整报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_F01_INITIAL_DIRECTION_THREE_CENTER_GUARD_V455.md)。这不涉及真实行情、不自动认证完整走势完成/买点，F01/OB38/OB99 OPEN。
 
