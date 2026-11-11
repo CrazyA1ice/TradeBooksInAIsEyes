@@ -1,0 +1,19 @@
+name: chanlun-f01-completion-receipts-gate
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  proof-carrying-structural-contract-not-market-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate author source anchors, bottom trend termination condition and OPEN gates
+        run: python -B tools/audit_chanlun_f01_completion_receipts.py
+      - name: Run fictional-graph necessary-condition tests (never market claims)
+        run: python -B -m unittest discover -s tests -p "test_chanlun_f01_completion_receipts.py" -v
