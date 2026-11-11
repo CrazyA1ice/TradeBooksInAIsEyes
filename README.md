@@ -6,7 +6,9 @@
 
 **《缠论》全部研究成果已整理到 [ChanlunCollection/](ChanlunCollection/README.md)**：五卷原PDF、108篇逐课分析、108张原文证据卡、108课统一理论主脊、深度导读、来源与版本登记、报告、测试和审计工具均在一个文件夹内可查；保留原仓库规范路径作为编辑源，由`COLLECTION_MANIFEST.json`逐文件验证精确一致。后续每本书都建立独立`<BookName>Collection/`；**每一步研究都必须同步修订[通用工作流](docs/BOOK_RESEARCH_WORKFLOW.md)、该书[工作日志](ChanlunCollection/WORK_LOG.md)和集合完整性清单**。
 
-**最新深度整书研究（v4.35）**：[高手关于缠论的六条质疑与“走势终完美”递归、完整分类、实时操作的四层综合解释](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_SIX_CRITICISMS_WHOLE_THEORY_THIRD_LAYER_SYNTHESIS.md)。逐条还原第15/17课分类变义、第35课级别体系、单中枢盘整、区间套、低级稳定性及原文图证问题；原话尚未逐字认证，F01/OB38/OB99证明前沿保留OPEN，行情NOT_RUN。
+**v4.36新增：**[“终要完成”和“无限延伸”是否矛盾？固定规则唯一与当下判断的量词审计](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_COMPLETION_QUANTIFIERS_V436.md)。仅作者文本与抽象逻辑；未取得高手逐字原帖，F01/OB38/OB99 OPEN、NOT_RUN。
+
+**此前深度整书研究（v4.35）**：[高手关于缠论的六条质疑与“走势终完美”递归、完整分类、实时操作的四层综合解释](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_SIX_CRITICISMS_WHOLE_THEORY_THIRD_LAYER_SYNTHESIS.md)。逐条还原第15/17课分类变义、第35课级别体系、单中枢盘整、区间套、低级稳定性及原文图证问题；原话尚未逐字认证，F01/OB38/OB99证明前沿保留OPEN，行情NOT_RUN。
 
 ## 从哪里开始
 

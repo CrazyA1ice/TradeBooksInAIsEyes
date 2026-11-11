@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.35.0",
-  "source_count": 886,
+  "workflow_version": "4.36.0",
+  "source_count": 891,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -70,6 +70,12 @@
       "mirror_path": "ChanlunCollection/.github/workflows/chanlun-crosslesson-original-prose.yml",
       "git_blob_sha": "506892f85a9026e8f1436458bfe8ad8a482982c4",
       "size_bytes": 1156
+    },
+    {
+      "source_path": ".github/workflows/chanlun-expert-completion-quantifiers-gate.yml",
+      "mirror_path": "ChanlunCollection/.github/workflows/chanlun-expert-completion-quantifiers-gate.yml",
+      "git_blob_sha": "b09a55436919ef1f09f52f579456f649ef58a3e3",
+      "size_bytes": 475
     },
     {
       "source_path": ".github/workflows/chanlun-expert-six-criticisms-provenance-gate.yml",
@@ -1404,6 +1410,12 @@
       "size_bytes": 16241
     },
     {
+      "source_path": "catalog/chanlun_expert_completion_quantifiers_v1.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun_expert_completion_quantifiers_v1.json",
+      "git_blob_sha": "20a8cec482208f23f875bc3e6378421025f84e7e",
+      "size_bytes": 3903
+    },
+    {
       "source_path": "catalog/chanlun_expert_six_criticisms_source_matrix_v1.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_expert_six_criticisms_source_matrix_v1.json",
       "git_blob_sha": "edf2abacb2f6c1b4e9ce53b63f95cd90050de22c",
@@ -1756,6 +1768,12 @@
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/DETAIL_COVERAGE_GAPS.md",
       "git_blob_sha": "512eab36773f03b6fff61e583350fcab6d59d9dc",
       "size_bytes": 10138
+    },
+    {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_COMPLETION_QUANTIFIERS_V436.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_COMPLETION_QUANTIFIERS_V436.md",
+      "git_blob_sha": "8be5deb392a8fa1caec2a6d33cebf3a2b3ec9959",
+      "size_bytes": 7953
     },
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_SIX_CRITICISMS_WHOLE_THEORY_THIRD_LAYER_SYNTHESIS.md",
@@ -2198,8 +2216,8 @@
     {
       "source_path": "deliverables/chanlun_108_acceptance/README.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/README.md",
-      "git_blob_sha": "deb0104ae497a48809427b27403b606426128489",
-      "size_bytes": 31931
+      "git_blob_sha": "e8dfed4e4c52ddb8c688c38bb4b06efb5db96587",
+      "size_bytes": 32166
     },
     {
       "source_path": "docs/ANALYSIS_STANDARD.md",
@@ -2210,8 +2228,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "7523b582701981c6d7e5b9bea0dc79692043aaf2",
-      "size_bytes": 76096
+      "git_blob_sha": "2d085e53ee8fa57290030eb6ff58de2247fb494b",
+      "size_bytes": 76874
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -3696,6 +3714,12 @@
       "size_bytes": 10757
     },
     {
+      "source_path": "tests/test_chanlun_expert_completion_quantifiers.py",
+      "mirror_path": "ChanlunCollection/tests/test_chanlun_expert_completion_quantifiers.py",
+      "git_blob_sha": "9da3ad062b906c37355d0001b71bf3f22aefeaa3",
+      "size_bytes": 2221
+    },
+    {
       "source_path": "tests/test_chanlun_expert_six_criticisms.py",
       "mirror_path": "ChanlunCollection/tests/test_chanlun_expert_six_criticisms.py",
       "git_blob_sha": "c87c32284a0599c48fa1a6a00c9647b3ebbd2778",
@@ -4444,6 +4468,12 @@
       "mirror_path": "ChanlunCollection/tools/audit_chanlun_crosslesson_consistency.py",
       "git_blob_sha": "c35eb4cd220dbbed848a9ccf40dadd5e97dd57e6",
       "size_bytes": 10762
+    },
+    {
+      "source_path": "tools/audit_chanlun_expert_completion_quantifiers.py",
+      "mirror_path": "ChanlunCollection/tools/audit_chanlun_expert_completion_quantifiers.py",
+      "git_blob_sha": "ecebcbcd80cc878256cc169f7fa7bd9368219046",
+      "size_bytes": 3291
     },
     {
       "source_path": "tools/audit_chanlun_expert_six_criticisms.py",

@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.35.0
+# ChanlunCollection｜本书实施工作流 v4.36.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.36.0 本步：**拆分作者第17/18课“终完美／延伸”中的EV、UB、IN三个量词，第38/102课固定政策唯一FU与跨政策一致PI，以及第99课中阴时的在线完成确认ON。独立研究者字母串反模型仅验证逻辑蕴含，不能冒充市场或作者解析器。逐字专家原帖未认证，F01/OB38/OB99 OPEN、NOT_RUN。见[量词审计专题](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_COMPLETION_QUANTIFIERS_V436.md)。
 
 **v4.35.0 重点补充：对那位高手的六条批评进行全书语义审计，而非无限增加局部仿真测试。** 核对第15/17课“上涨/盘整”从高低点外观变成完成走势的中枢计数；一个中心虽外观方向上移，作者仍称结构盘整（但不自动已完成）。第35课严格逐笔`f1`与第17课单位K线`f1`、第72/83课后期严格线段`f1`不同；第84课允许`f1!=f2`。第35课自下而上构造与第27/102课自上而下区间套是**证明生成和候选定位不同操作**，第44课明说小背驰/大转折只有必要非充分。第83课作者本人已承认单笔导致底层分解不稳，不能把跨级自同构当成各级噪声、交易费或胜率相同。第54/69课存档有图，但历史原发图片和子分钟行情未充分认证。尤其第99课中阴暂时不可分与第102课已完成结构的“唯一分解”要按**历史完成/在线待定**分开；作者并没有把研究者称呼的“第三层”作为第17课正式原理编号。专家原始六条逐字引文/原始网址目前未恢复，严格标`EXPERT_PARAPHRASE_NOT_ORIGINAL_QUOTE`。[整书六条批评研究](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_SIX_CRITICISMS_WHOLE_THEORY_THIRD_LAYER_SYNTHESIS.md)、`catalog/chanlun_expert_six_criticisms_source_matrix_v1.json`和专用证据审计。F01/OB38/OB99仍OPEN；没有实际市场数据或回测，`NOT_RUN`。
 

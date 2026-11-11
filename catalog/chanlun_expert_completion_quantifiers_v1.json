@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "version": "4.36.0",
+  "id": "CHANLUN-EXPERT-COMPLETION-QUANTIFIERS-V436",
+  "date": "2026-11-11",
+  "provenance": {
+    "expert_verbatim_recovered": false,
+    "expert_original_post_recovered": false,
+    "expert_issues_paraphrased": true,
+    "author_source_not_theorem_proof": true,
+    "market_backtest_performed": false
+  },
+  "anchors": [
+    {
+      "lesson": 17,
+      "id": "CL017-S01",
+      "pages": [
+        196,
+        197
+      ]
+    },
+    {
+      "lesson": 18,
+      "id": "CL018-S07",
+      "pages": [
+        235
+      ]
+    },
+    {
+      "lesson": 38,
+      "id": "CL38-SOURCE-1",
+      "pages": [
+        338
+      ]
+    },
+    {
+      "lesson": 38,
+      "id": "CL38-SOURCE-2",
+      "pages": [
+        338,
+        339
+      ]
+    },
+    {
+      "lesson": 99,
+      "id": "CL99-SOURCE-1",
+      "pages": [
+        202
+      ]
+    },
+    {
+      "lesson": 102,
+      "id": "CL102-SOURCE-1",
+      "pages": [
+        241
+      ]
+    },
+    {
+      "lesson": 102,
+      "id": "CL102-SOURCE-3",
+      "pages": [
+        242
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "EV",
+      "meaning": "Every admitted history eventually completes at some finite time",
+      "strength": "AUTHOR_ASSERTION_NOT_PROVED",
+      "formula": "forall S in D, exists finite t with complete_R(S,t)"
+    },
+    {
+      "id": "UB",
+      "meaning": "For every finite bound a completed history can take longer",
+      "strength": "CONDITIONAL_POSSIBILITY",
+      "formula": "forall N, exists S in D with finite completion_time_R(S)>N"
+    },
+    {
+      "id": "IN",
+      "meaning": "One admitted infinite history never completes",
+      "strength": "HYPOTHETICAL_DOMAIN_NOT_AUTHENTICATED",
+      "formula": "exists S in D such that forall finite t, not complete_R(S,t)"
+    },
+    {
+      "id": "FU",
+      "meaning": "For each fixed parsing policy R the fully completed history has a unique decomposition",
+      "strength": "AUTHOR_ASSERTION_PROOF_OPEN",
+      "formula": "forall completed S in D, exists exactly one valid decomposition P under R"
+    },
+    {
+      "id": "PI",
+      "meaning": "Every admissible parsing policy gives the same decomposition",
+      "strength": "NOT_IMPLIED_BY_FU",
+      "formula": "forall S and all permitted R1,R2, P_R1(S)=P_R2(S)"
+    },
+    {
+      "id": "ON",
+      "meaning": "Every partial prefix reveals its exact final terminal point without waiting",
+      "strength": "NOT_IMPLIED_BY_EV_OR_FU",
+      "formula": "forall prefix p, same terminal classification across all admitted futures"
+    },
+    {
+      "id": "TR",
+      "meaning": "Live execution produces verified positive out-of-sample returns",
+      "strength": "NOT_RUN",
+      "formula": "positive net outcome under costs latency fills and held-out sample"
+    }
+  ],
+  "toy_models": [
+    {
+      "id": "FINITE_UNBOUNDED",
+      "input": "A^n E for every integer n>=1",
+      "logical_result": "EV_AND_UB_COMPATIBLE",
+      "limitation": "NOT_MARKET_PATH"
+    },
+    {
+      "id": "INFINITE_PATH_IF_ADMITTED",
+      "input": "A^omega without an ending E if included in same D",
+      "logical_result": "IN_CONTRADICTS_EV_IN_SAME_DOMAIN",
+      "limitation": "NO_AUTHOR_AUTHENTICATION_OF_INFINITE_PATH"
+    },
+    {
+      "id": "DISTINCT_FIXED_POLICIES",
+      "input": "ABC => under R1 A|BC, under R2 AB|C, unique each",
+      "logical_result": "FU_DOES_NOT_IMPLY_PI",
+      "limitation": "NOT_AUTHOR_RULES"
+    },
+    {
+      "id": "COMMON_PREFIX",
+      "input": "A^n E versus A^(n+1) E share prefix A^n",
+      "logical_result": "EV_DOES_NOT_IMPLY_ON",
+      "limitation": "DOES_NOT_EXCLUDE_FUTURE_CONFIRMATION"
+    }
+  ],
+  "limits": [
+    "EXPERT_ORIGINAL_UNAVAILABLE",
+    "INFINITE_SEMANTIC_DOMAIN_UNRESOLVED",
+    "F01_OPEN",
+    "OB38_OPEN",
+    "OB99_OPEN",
+    "REAL_MARKET_NOT_RUN"
+  ],
+  "status": "LOGICAL_SCOPING_ONLY_NOT_A_FORMAL_AUTHOR_PROOF"
+}
