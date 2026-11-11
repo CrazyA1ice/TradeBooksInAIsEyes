@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.56.0
+# ChanlunCollection｜本书实施工作流 v4.57.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.57.0 本步：**新增[源价与退出元数据来源守恒验证](tools/audit_kaixiang_exit_evidence_v457.py)、[三条人工+1 tick声明输入](tests/fixtures/kaixiang_exit_evidence_v457.json)、[18项测试](tests/test_kaixiang_exit_evidence_v457.py)与[报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_EXIT_EVIDENCE_CONSERVATION_AND_COUNTERFACTUAL_V457.md)。从v4.56的27笔合成价格回溯显示：t=9/18/27仅可确认**局部条件满足**，t=10/19的所谓退出时间对应**下一分组合成价格**，t=28没有新的成交；v4.55自动附上的三条退出收据都只是研究者元数据，不是独立真实完成证明。工具严格让`independently_completed_movement_count`为0，并拒绝伪造来源或交易认证；后续接入行情也必须先补合法原始逐笔完整性与退出证书，不能直接复用合成声明。F01/OB38/OB99 OPEN，市场NOT_RUN。
 
 **v4.56.0 本步：**将v4.55反例研究由“先写好价区间及DOWN标签再生产价格”推进为[合成原始价格的前缀自算](tools/audit_kaixiang_raw_tape_prefix_v456.py)。以冻结的27个虚拟价格，从可见三同价组出发推导3个中心、方向及第三中心是否继续创新高/低；同旧F01图对照时保持明确两时钟：t=9有局部条件，t=10才有**人为给出的退出收据**，退出条件没有独立原始证据。新增[报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_RAW_TAPE_DERIVED_PREFIX_AND_EXIT_ASSUMPTIONS_V456.md)、[固定价带](tests/fixtures/kaixiang_raw_tape_v456.json)、[16项定向测试](tests/test_kaixiang_raw_tape_prefix_v456.py)、书籍集成CI和完整镜像。仓库自锁SHA≠真实源认证，F01/OB38/OB99 OPEN，市场NOT_RUN。
 

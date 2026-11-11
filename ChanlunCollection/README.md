@@ -1,5 +1,7 @@
 # ChanlunCollection｜《缠论》五卷108课完整研究档案
 
+**v4.57 底层完成资格的来源与状态类型审计：**[报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_EXIT_EVIDENCE_CONSERVATION_AND_COUNTERFACTUAL_V457.md)、[Python来源检查](tools/audit_kaixiang_exit_evidence_v457.py)、[严格声明清单](tests/fixtures/kaixiang_exit_evidence_v457.json)、[18项定向单测](tests/test_kaixiang_exit_evidence_v457.py)。本轮明确区分三中心可知、人工+1 tick标签、独立真实完成证书；后者仍为0，保留原著第18课的“可以结束”与“真的结束”的差异。
+
 **v4.56 最底级合成成交价的来源驱动式前缀验证：**[研究报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_RAW_TAPE_DERIVED_PREFIX_AND_EXIT_ASSUMPTIONS_V456.md)、[源码](tools/audit_kaixiang_raw_tape_prefix_v456.py)、[27项虚拟成交价格](tests/fixtures/kaixiang_raw_tape_v456.json)、[单测](tests/test_kaixiang_raw_tape_prefix_v456.py)。本地中心趋势不延续通过仍**不代表实际走势结束**：没有真实独立退出事件。 
 
 **v4.55 F01低阶初始方向缺口纠错：**[深度报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_F01_INITIAL_DIRECTION_THREE_CENTER_GUARD_V455.md)、[三单价中心检验工具](tools/audit_kaixiang_f01_direction_three_centers.py)、[反例fixtures](tests/fixtures/kaixiang_f01_direction_three_centers_v455.json)、[单测](tests/test_kaixiang_f01_direction_three_centers.py)。新增检查源点实际价序能否支持先前DOWN/UP与后续不再延续，拒绝旧图可能接受的自报退出声明。不验证真行情完成。
