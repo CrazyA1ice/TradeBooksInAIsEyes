@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.39.0",
-  "source_count": 906,
+  "workflow_version": "4.40.0",
+  "source_count": 911,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -22,6 +22,12 @@
       "mirror_path": "ChanlunCollection/.github/workflows/chanlun-108-acceptance-bundle.yml",
       "git_blob_sha": "1d46314fd9ed9f5ae7dcc758241d2d1929ea08ef",
       "size_bytes": 13631
+    },
+    {
+      "source_path": ".github/workflows/chanlun-333-author-replies-provenance-gate.yml",
+      "mirror_path": "ChanlunCollection/.github/workflows/chanlun-333-author-replies-provenance-gate.yml",
+      "git_blob_sha": "26522bdf95c63c538200301b66a30b85a6720b95",
+      "size_bytes": 493
     },
     {
       "source_path": ".github/workflows/chanlun-35-38-99-native-text.yml",
@@ -1698,6 +1704,12 @@
       "size_bytes": 2308
     },
     {
+      "source_path": "catalog/chanlun_recursive_center_333_author_reply_v440.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun_recursive_center_333_author_reply_v440.json",
+      "git_blob_sha": "46b87f6db0cfe50e94f8bff4eb9dcd8452a99362",
+      "size_bytes": 9388
+    },
+    {
       "source_path": "catalog/chanlun_recursive_construction_proof_chain_v1.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_recursive_construction_proof_chain_v1.json",
       "git_blob_sha": "79d344be4bff1ee2ae56d14414dff09a1a1327a1",
@@ -1822,6 +1834,12 @@
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_HISTORICAL_LEVEL_SHIFT_AND_TWO_METHODS_V437.md",
       "git_blob_sha": "d8062c493073c43d447e75d575512b73167f9f4c",
       "size_bytes": 7922
+    },
+    {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_NINEFOLD_CENTER_333_AUTHOR_REPLIES_V440.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_NINEFOLD_CENTER_333_AUTHOR_REPLIES_V440.md",
+      "git_blob_sha": "9bdc5aae5b3fc94659fd8e5a7dc3562889285ba6",
+      "size_bytes": 8290
     },
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_SECOND_CENTER_METHOD_DISAMBIGUATION_V439.md",
@@ -2270,8 +2288,8 @@
     {
       "source_path": "deliverables/chanlun_108_acceptance/README.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/README.md",
-      "git_blob_sha": "1c13f95b9bf2441b3220d9fb562606511fe1e24f",
-      "size_bytes": 33024
+      "git_blob_sha": "acb09a381c240f773995c0daed139313dac5596a",
+      "size_bytes": 33342
     },
     {
       "source_path": "docs/ANALYSIS_STANDARD.md",
@@ -2282,8 +2300,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "3a7b02254e35e1e15cd903a4d83b9d805524c857",
-      "size_bytes": 80751
+      "git_blob_sha": "e92702f7bc1cb90fa87a28c75f9dbefb4a70d434",
+      "size_bytes": 82260
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -4398,6 +4416,12 @@
       "size_bytes": 8974
     },
     {
+      "source_path": "tests/test_chanlun_recursive_center_333_author_reply.py",
+      "mirror_path": "ChanlunCollection/tests/test_chanlun_recursive_center_333_author_reply.py",
+      "git_blob_sha": "7923e27fdc85416b2ca5e9a0e542a05ee561527e",
+      "size_bytes": 2991
+    },
+    {
       "source_path": "tests/test_chanlun_recursive_eligibility.py",
       "mirror_path": "ChanlunCollection/tests/test_chanlun_recursive_eligibility.py",
       "git_blob_sha": "ce7801f27659e0db41a1692537d64e616b6becf9",
@@ -4984,6 +5008,12 @@
       "mirror_path": "ChanlunCollection/tools/audit_chanlun_primitive_trades_prefix.py",
       "git_blob_sha": "86b63154703c824f6f4bc4906bf7a88451b1847a",
       "size_bytes": 11378
+    },
+    {
+      "source_path": "tools/audit_chanlun_recursive_center_333_author_reply.py",
+      "mirror_path": "ChanlunCollection/tools/audit_chanlun_recursive_center_333_author_reply.py",
+      "git_blob_sha": "7b427b6a26c5ff5d16da1f032ae816e4ea1e85a3",
+      "size_bytes": 5754
     },
     {
       "source_path": "tools/audit_chanlun_recursive_proof_chain.py",

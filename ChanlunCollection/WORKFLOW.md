@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.39.0
+# ChanlunCollection｜本书实施工作流 v4.40.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.40.0 本步：**新找到并交叉验证作者2007-05-21 16:41:03、2007-07-11 16:32:08、2007-07-31 16:43:17/16:50:47/16:55:59五条署时答疑。九段裸重叠与已完成三三组合再递归中枢结果“不一定相同”；级别内延伸固定前三段核心与跨级对象升级不可混淆，线段或次级走势未完成时绝不升级。另对2008年左右编纂PDF印刷p164—165做实际页面目检，未经版权许可不复刻整本；2025年第三方的“所有段再交”不是原作者公理。见[新专题](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_NINEFOLD_CENTER_333_AUTHOR_REPLIES_V440.md)，原高手和老虎版仍未认证，F01/OB38/OB99 OPEN、NOT_RUN。
 
 **v4.39.0 本步：**将“第二种中枢定义”拆成6个不同对象类型，尤其核对第54课当d4对两种合法分解作者明确以实操清晰度偏选第二种、但g7两套结构标签不同。第20课回调/回升只是同一区间公式的两种方向；第18/20课固定前三段中枢核心不可被“后续全部成员再交”偷换；第38课两纯视角/跨级混合和第83课两种底层构件保持独立。完整逐句反证[六候选裁定](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_SECOND_CENTER_METHOD_DISAMBIGUATION_V439.md)，包含四个原作者图解节点和人工区间的三个函数区别。未找回原高手首帖、老虎版/新浪源字节、全理论完成证书；F01/OB38/OB99 OPEN、NOT_RUN。
 
