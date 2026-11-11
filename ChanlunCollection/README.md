@@ -1,5 +1,7 @@
 # ChanlunCollection｜《缠论》五卷108课完整研究档案
 
+**v4.44严格与实用最低层分流：**[2006第19课回复一字线、2007第60课最低线段操作截断与最低盘整终止未决证明](deliverables/chanlun_108_acceptance/00_REVIEW/ABSOLUTE_PAN_BASE_VS_OPERABLE_SEGMENT_CUTOFF_V444.md)。最低中心≠已完成盘整，不自动将操作截断变成原作者完备解析算法。
+
 **v4.43最低盘整终止与跨级计数新研究：**[2007-03-20最低盘整何时完结的直接问答、03-21两次微回抽其实一次父回抽、负一级基例缺口](deliverables/chanlun_108_acceptance/00_REVIEW/MINIMUM_PAN_END_NESTED_RETRACE_AND_BASE_GAP_V443.md)。未解F01、不认证市场。
 
 **v4.42新的完成证据：**[旧中枢回试首次资格与时钟，16:19/16:29原作者答疑、等号语义边界](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_FIRST_ELIGIBLE_THIRD_RETRACE_ASOF_V442.md)。只审未认证合成成员，不能推得真实行情完成。

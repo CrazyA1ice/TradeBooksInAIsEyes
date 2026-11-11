@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-V444-BOTTOM-PAN-STRICT-AND-OPERABLE-CUTOFF-DISTINCTION",
+  "version": "4.44.0",
+  "asof": "2026-11-11",
+  "thesis": "Explicit authored lesson60 operable segment cutoff is a different semantic layer than strict lesson35 individual-execution a0; neither supplies an independently sourced universal lowest pan terminal oracle.",
+  "source_layers": [
+    {
+      "id": "L18",
+      "kind": "AUTHOR_LESSON_BODY_REPUBLISHED",
+      "url": "https://eczsc.com/originals/18",
+      "original_at": "2006-12-26 15:05:58",
+      "role": "ELIGIBLE_TO_END_AFTER_THREE_COMPLETED_COMPONENTS_BUT_MAY_EXTEND"
+    },
+    {
+      "id": "L19_REPLY",
+      "kind": "SECONDARY_ARCHIVED_AUTHOR_ATTRIBUTED_REPLY_NOT_2006_SINA_COMMENT_BYTES",
+      "url": "https://chzhshch.blog/stocks/019/",
+      "question_at": "2006-12-27 20:21:58",
+      "reply_at": "2006-12-27 21:05:20",
+      "role": "ONE_PRICE_LIMIT_LINE_AND_LOWEST_VALUE_CENTER_EARLY_EDGE_CASE_NOT_NEW_TERMINAL_RULE"
+    },
+    {
+      "id": "L35",
+      "kind": "AUTHOR_LESSON_BODY_REPUBLISHED",
+      "url": "https://eczsc.com/originals/35",
+      "original_at": "2007-03-09 11:51:34",
+      "role": "THREE_SAME_PRICE_ACTUAL_EXECUTIONS_STRICT_CENTER_AXIOM_AND_LOWEST_TREND_NONADVANCE"
+    },
+    {
+      "id": "L60",
+      "kind": "AUTHOR_LESSON_BODY_REPUBLISHED",
+      "url": "https://eczsc.com/originals/60",
+      "original_at": "2007-06-19 08:04:06",
+      "role": "AUTHOR_EXPLICIT_PRACTICAL_MINIMUM_SEGMENT_CUTOFF_IGNORE_SMALLER_MOVEMENTS_AND_NO_PREMATURE_SEGMENT_END"
+    },
+    {
+      "id": "L65",
+      "kind": "AUTHOR_LESSON_BODY_REPUBLISHED",
+      "url": "https://eczsc.com/originals/65",
+      "original_at": "2007-07-16 22:14:16",
+      "role": "PRACTICAL_PEN_SEGMENT_STRUCTURAL_PRECONDITIONS"
+    },
+    {
+      "id": "L81",
+      "kind": "AUTHOR_LESSON_BODY_REPUBLISHED",
+      "url": "https://eczsc.com/originals/81",
+      "original_at": "2007-09-17 22:57:16",
+      "role": "SOURCE_PRICE_PRECISION_DEPENDENCY_ON_SEGMENT_PARSE"
+    },
+    {
+      "id": "L84",
+      "kind": "AUTHOR_LESSON_BODY_REPUBLISHED",
+      "url": "https://eczsc.com/originals/84",
+      "original_at": "2007-10-07 16:09:06",
+      "role": "INITIALIZER_F1_AND_HIGHER_RECURSION_F2_CAN_DIFFER"
+    }
+  ],
+  "original_pdf_source_claim_pins": [
+    {
+      "lesson": 17,
+      "id": "CL017-S03",
+      "pages": [
+        197,
+        198
+      ],
+      "kind": "SOURCE_IN_COMPILED_LESSON_NOT_ORIGINAL_SERVER_SIGNATURE"
+    },
+    {
+      "lesson": 18,
+      "id": "CL018-S01",
+      "pages": [
+        234
+      ],
+      "kind": "SOURCE_IN_COMPILED_LESSON_NOT_ORIGINAL_SERVER_SIGNATURE"
+    },
+    {
+      "lesson": 18,
+      "id": "CL018-S07",
+      "pages": [
+        235
+      ],
+      "kind": "SOURCE_IN_COMPILED_LESSON_NOT_ORIGINAL_SERVER_SIGNATURE"
+    },
+    {
+      "lesson": 19,
+      "id": "CL019-S02",
+      "pages": [
+        238,
+        239
+      ],
+      "kind": "SOURCE_IN_COMPILED_LESSON_NOT_ORIGINAL_SERVER_SIGNATURE"
+    },
+    {
+      "lesson": 20,
+      "id": "CL020-S03",
+      "pages": [
+        247
+      ],
+      "kind": "SOURCE_IN_COMPILED_LESSON_NOT_ORIGINAL_SERVER_SIGNATURE"
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-1",
+      "pages": [
+        291
+      ],
+      "kind": "SOURCE_IN_COMPILED_LESSON_NOT_ORIGINAL_SERVER_SIGNATURE"
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-2",
+      "pages": [
+        291
+      ],
+      "kind": "SOURCE_IN_COMPILED_LESSON_NOT_ORIGINAL_SERVER_SIGNATURE"
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-3",
+      "pages": [
+        291,
+        292
+      ],
+      "kind": "SOURCE_IN_COMPILED_LESSON_NOT_ORIGINAL_SERVER_SIGNATURE"
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-9",
+      "pages": [
+        291
+      ],
+      "kind": "SOURCE_IN_COMPILED_LESSON_NOT_ORIGINAL_SERVER_SIGNATURE"
+    },
+    {
+      "lesson": 60,
+      "id": "CL60-SOURCE-2",
+      "pages": [
+        267,
+        268
+      ],
+      "kind": "SOURCE_IN_COMPILED_LESSON_NOT_ORIGINAL_SERVER_SIGNATURE"
+    },
+    {
+      "lesson": 60,
+      "id": "CL60-SOURCE-4",
+      "pages": [
+        269
+      ],
+      "kind": "SOURCE_IN_COMPILED_LESSON_NOT_ORIGINAL_SERVER_SIGNATURE"
+    },
+    {
+      "lesson": 65,
+      "id": "CL65-SOURCE-4",
+      "pages": [
+        348
+      ],
+      "kind": "SOURCE_IN_COMPILED_LESSON_NOT_ORIGINAL_SERVER_SIGNATURE"
+    },
+    {
+      "lesson": 78,
+      "id": "CL78-SOURCE-1",
+      "pages": [
+        174
+      ],
+      "kind": "SOURCE_IN_COMPILED_LESSON_NOT_ORIGINAL_SERVER_SIGNATURE"
+    },
+    {
+      "lesson": 81,
+      "id": "CL81-SOURCE-2",
+      "pages": [
+        232,
+        234
+      ],
+      "kind": "SOURCE_IN_COMPILED_LESSON_NOT_ORIGINAL_SERVER_SIGNATURE"
+    },
+    {
+      "lesson": 84,
+      "id": "CL84-SOURCE-3",
+      "pages": [
+        301
+      ],
+      "kind": "SOURCE_IN_COMPILED_LESSON_NOT_ORIGINAL_SERVER_SIGNATURE"
+    },
+    {
+      "lesson": 99,
+      "id": "CL99-SOURCE-1",
+      "pages": [
+        202
+      ],
+      "kind": "SOURCE_IN_COMPILED_LESSON_NOT_ORIGINAL_SERVER_SIGNATURE"
+    }
+  ],
+  "important_attribution_clarification": {
+    "lesson19_article_claim_card_source_is_not_author_reply": true,
+    "lesson19_archive_reply_timestamp": "2006-12-27 21:05:20",
+    "lesson19_reply_uses": "最低级别的价值中枢",
+    "lesson19_early_value_center_identical_to_lesson35_three_transaction_center": "NOT_ESTABLISHED",
+    "lesson60_operational_cutoff_original_date": "2007-06-19 08:04:06",
+    "lesson81_20070917_precision_correction_not_source_of_cutoff": true,
+    "lesson60_images_reconstructed_from_pixels_in_this_round": false,
+    "source_bytes_original_post_time_authenticated": false
+  },
+  "base_contracts": [
+    {
+      "id": "STRICT_TRANSACTION_BASE",
+      "a0_kind": "CONSECUTIVE_REAL_EXECUTION_EVENTS",
+      "price_minimum": "THREE_EQUAL_PRICE_EXECUTIONS",
+      "cutoff_policy": "NO_OPERATIONAL_COARSENING_ASSUMED",
+      "center_exists": "SOURCE_CONDITIONAL",
+      "eligible_to_finish": "STRUCTURE_ONLY",
+      "base_pan_finished": "OPEN_NO_AUTHOR_NONRECURSIVE_TERMINAL_RULE",
+      "negative_level_child_movement": "NOT_DEFINED_IN_CURRENT_STRICT_BASE_CONTRACT",
+      "not_equivalent_to": "OPERABLE_SEGMENT_CUTOFF"
+    },
+    {
+      "id": "OPERABLE_SEGMENT_CUTOFF",
+      "a0_kind": "FROZEN_OPERATIONAL_FRACTAL_PEN_SEGMENT_INITIALIZER",
+      "price_minimum": "NOT_THE_SAME_AS_THREE_EXECUTIONS",
+      "cutoff_policy": "AUTHOR_L60_INTENTIONALLY_IGNORE_SUBCUTOFF_MOVEMENTS",
+      "center_exists": "CONDITIONAL_ON_EXTERNAL_LEGAL_SEGMENT_AND_CENTER_EVIDENCE",
+      "eligible_to_finish": "STRUCTURE_ONLY",
+      "base_pan_finished": "OPEN_NEEDS_AUTHORED_EXIT_OR_EXPLICIT_RESEARCH_POLICY",
+      "negative_level_child_movement": "INTENTIONALLY_ABSTRACTED_NOT_PROVED_NONEXISTENT",
+      "not_equivalent_to": "STRICT_TRANSACTION_BASE"
+    }
+  ],
+  "separated_propositions": [
+    {
+      "id": "P1",
+      "label": "CENTER_PRESENT",
+      "not_implies": "FINISHED_LOWEST_PAN"
+    },
+    {
+      "id": "P2",
+      "label": "PAN_CAN_NOW_COMPLETE",
+      "not_implies": "PAN_ACTUALLY_COMPLETED_ASOF"
+    },
+    {
+      "id": "P3",
+      "label": "LEGAL_SEGMENT_ENDPOINT",
+      "not_implies": "FINISHED_LOWEST_MOVEMENT"
+    },
+    {
+      "id": "P4",
+      "label": "CUTOFF_IGNORES_CHILD_NOISE",
+      "not_implies": "NO_STRICT_SMALLER_MOVEMENT_PHYSICALLY_EXISTS"
+    },
+    {
+      "id": "P5",
+      "label": "SAME_RECURSIVE_SHAPE",
+      "not_implies": "SAME_ALL_MARKET_CENTER_LABELS_OR_END_TIMES"
+    },
+    {
+      "id": "P6",
+      "label": "SECONDARY_ARCHIVE_2006_SINGLE_LINE_CENTER",
+      "not_implies": "2007_SAME_THREE_EXECUTION_BASE_PROVEN"
+    }
+  ],
+  "prefix_nonidentifiability": {
+    "type": "CONDITIONAL_TWO_POSSIBLE_FUTURES_SAME_PRICE_OBSERVATIONS_NOT_LEGAL_MARKET_COUNTEREXAMPLE",
+    "shared_raw_prefix": [
+      {
+        "seq": 0,
+        "price": "8.00"
+      },
+      {
+        "seq": 1,
+        "price": "8.00"
+      },
+      {
+        "seq": 2,
+        "price": "8.00"
+      }
+    ],
+    "common_asof": 2,
+    "possible_future_A": {
+      "hypothetical_role": "FURTHER_SAME_CENTER_EXTENSION_WITHOUT_EXIT",
+      "observed_at": 5,
+      "assumed_compatible_with_current_text": true
+    },
+    "possible_future_B": {
+      "hypothetical_role": "FUTURE_INDEPENDENT_LEGAL_EXIT_ASSUMED_NOT_PROVEN_GENERABLE",
+      "observed_at": 5,
+      "assumed_compatible_with_current_text": true
+    },
+    "conclusion": "A_CLASSIFIER_ONLY_GIVEN_PREFIX_CANNOT_DECLARE_AUTHOR_VALID_IRREVERSIBLE_PAN_END_AT_ASOF2_WITHOUT_ADDITIONAL_AUTHORIZED_EXIT_EVIDENCE",
+    "is_a_market_valid_chanlun_counterexample": false,
+    "is_a_proof_author_theory_inconsistent": false,
+    "source_existence_of_future_B_not_established": true
+  },
+  "synthetic_receipt_cases": [
+    {
+      "id": "STRICT_THREE_EQUAL_CENTER_ONLY",
+      "base": "STRICT_TRANSACTION_BASE",
+      "asof": 2,
+      "exit": null,
+      "expected": "CENTER_EXISTS_PAN_TERMINAL_UNKNOWN"
+    },
+    {
+      "id": "STRICT_THREE_EQUAL_BEFORE_END",
+      "base": "STRICT_TRANSACTION_BASE",
+      "asof": 1,
+      "exit": null,
+      "expected": "AWAITING_BASE_CENTER"
+    },
+    {
+      "id": "STRICT_THREE_EQUAL_NO_REAL_EXIT",
+      "base": "STRICT_TRANSACTION_BASE",
+      "asof": 8,
+      "exit": null,
+      "expected": "CENTER_EXISTS_PAN_TERMINAL_UNKNOWN"
+    },
+    {
+      "id": "STRICT_ADDITIONAL_EXIT_BEFORE_ARRIVAL",
+      "base": "STRICT_TRANSACTION_BASE",
+      "asof": 3,
+      "exit": {
+        "first_known": 5,
+        "kind": "EXTERNAL_UNVERIFIED_AUTHOR_END"
+      },
+      "expected": "AWAITING_EXTERNAL_EXIT"
+    },
+    {
+      "id": "STRICT_EXTERNAL_EXIT_DECLARED_AT5",
+      "base": "STRICT_TRANSACTION_BASE",
+      "asof": 5,
+      "exit": {
+        "first_known": 5,
+        "kind": "EXTERNAL_UNVERIFIED_AUTHOR_END"
+      },
+      "expected": "CONDITIONAL_EXIT_UNVERIFIED"
+    },
+    {
+      "id": "PRACTICAL_NO_INITIAL_SEGMENT",
+      "base": "OPERABLE_SEGMENT_CUTOFF",
+      "asof": 5,
+      "practical_center_first_known": null,
+      "exit": null,
+      "expected": "AWAITING_PRACTICAL_CENTER_SOURCE"
+    },
+    {
+      "id": "PRACTICAL_CENTER_READY_NOT_EXIT",
+      "base": "OPERABLE_SEGMENT_CUTOFF",
+      "asof": 5,
+      "practical_center_first_known": 4,
+      "exit": null,
+      "expected": "PRACTICAL_CENTER_CONDITIONAL_PAN_TERMINAL_UNKNOWN"
+    },
+    {
+      "id": "PRACTICAL_CUTOFF_EXTERNAL_EXIT_T6",
+      "base": "OPERABLE_SEGMENT_CUTOFF",
+      "asof": 6,
+      "practical_center_first_known": 4,
+      "exit": {
+        "first_known": 6,
+        "kind": "EXTERNAL_UNVERIFIED_RESEARCH_POLICY_EXIT"
+      },
+      "expected": "PRACTICAL_CONDITIONAL_EXIT_UNVERIFIED_NOT_AUTHOR"
+    },
+    {
+      "id": "STRICT_THREE_PRICE_NOT_IDENTICAL",
+      "base": "STRICT_TRANSACTION_BASE",
+      "asof": 3,
+      "amended_prices": [
+        "8.00",
+        "8.00",
+        "8.01"
+      ],
+      "exit": null,
+      "expected": "NO_THREE_EQUAL_PRICE_CENTER"
+    },
+    {
+      "id": "PRACTICAL_CENTER_NOT_YET_KNOWN",
+      "base": "OPERABLE_SEGMENT_CUTOFF",
+      "asof": 3,
+      "practical_center_first_known": 4,
+      "exit": null,
+      "expected": "AWAITING_PRACTICAL_CENTER_SOURCE"
+    }
+  ],
+  "proof_frontier": {
+    "F01": "OPEN",
+    "OB38": "OPEN",
+    "OB99": "OPEN",
+    "strict_base_pan": "UNSOURCED_TERMINAL_ORACLE",
+    "practical_cutoff_exit": "AUTHOR_PARTITION_POLICY_NOT_A_FINISHING_ORACLE",
+    "real_market": "NOT_RUN"
+  },
+  "unverified": {
+    "original_2006_reply_sina_bytes": false,
+    "original_2007_blog_main_post_bytes_time_signed": false,
+    "original_lesson60_image_pixels_verified": false,
+    "laohu_edition_read": false,
+    "full_108_lessons_reaudit": false,
+    "real_market_trade_replay": false,
+    "author_licensed_total_bottom_pan_exit_algorithm": false,
+    "expert_original_post_found": false
+  },
+  "status": "STRICT_VS_OPERABLE_BOTTOM_CUTOFF_DISTINCT_WITH_OPEN_TERMINAL_RULE_AND_CONDITIONAL_PREFIX_LIMIT"
+}

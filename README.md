@@ -6,7 +6,9 @@
 
 **《缠论》全部研究成果已整理到 [ChanlunCollection/](ChanlunCollection/README.md)**：五卷原PDF、108篇逐课分析、108张原文证据卡、108课统一理论主脊、深度导读、来源与版本登记、报告、测试和审计工具均在一个文件夹内可查；保留原仓库规范路径作为编辑源，由`COLLECTION_MANIFEST.json`逐文件验证精确一致。后续每本书都建立独立`<BookName>Collection/`；**每一步研究都必须同步修订[通用工作流](docs/BOOK_RESEARCH_WORKFLOW.md)、该书[工作日志](ChanlunCollection/WORK_LOG.md)和集合完整性清单**。
 
-**最新v4.43：**[2007年作者关于可无限延伸盘整的直接答疑、两次次次级回抽只是一段次级回抽、最低层退出需要的基础规则](deliverables/chanlun_108_acceptance/00_REVIEW/MINIMUM_PAN_END_NESTED_RETRACE_AND_BASE_GAP_V443.md)。建立带时钟的跨级有限前缀审计；F01/OB38/OB99仍OPEN，NOT_RUN。
+**最新v4.44：**[作者2007-06-19第60课已有最低可操作线段截断；2006-12-27第19课早期一字线作者答疑，严格成交与实用最低层两个证明合同](deliverables/chanlun_108_acceptance/00_REVIEW/ABSOLUTE_PAN_BASE_VS_OPERABLE_SEGMENT_CUTOFF_V444.md)。有限前缀证明义务不能只凭三笔同价中心宣告盘整终止。F01/OB38/OB99 OPEN，NOT_RUN。
+
+**此前v4.43：**[2007年作者关于可无限延伸盘整的直接答疑、两次次次级回抽只是一段次级回抽、最低层退出需要的基础规则](deliverables/chanlun_108_acceptance/00_REVIEW/MINIMUM_PAN_END_NESTED_RETRACE_AND_BASE_GAP_V443.md)。建立带时钟的跨级有限前缀审计；F01/OB38/OB99仍OPEN，NOT_RUN。
 
 **此前v4.42：**[第三类买点“第一次回抽”是否已被旧震荡用掉？原作者2007-03-21追问与首次资格、事件时钟的局部审计](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_FIRST_ELIGIBLE_THIRD_RETRACE_ASOF_V442.md)。内返不中断中心、首次合格外返条件标记、同中心后续不重复三买。F01/OB38/OB99 OPEN、NOT_RUN。
 
