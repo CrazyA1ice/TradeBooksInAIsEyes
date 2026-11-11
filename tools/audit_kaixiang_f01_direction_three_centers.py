@@ -14,12 +14,26 @@ from __future__ import annotations
 
 from decimal import Decimal
 from pathlib import Path
+import importlib.util
 import json
-
-from audit_kaixiang_f01_graph_completion_bridge import f01, bridge, ORIGIN
-from audit_kaixiang_f01_graph_completion_bridge import SCOPE, ALIAS
+import sys
 
 ROOT=Path(__file__).resolve().parents[1]
+
+
+def load(name, path):
+    spec=importlib.util.spec_from_file_location(name,path)
+    if spec is None or spec.loader is None:
+        raise RuntimeError("audited upstream module missing: "+str(path))
+    module=importlib.util.module_from_spec(spec)
+    sys.modules[spec.name]=module
+    spec.loader.exec_module(module)
+    return module
+
+
+_prior=load("kaixiang_v455_f01_upstream",ROOT/"tools/audit_kaixiang_f01_graph_completion_bridge.py")
+f01,bridge,ORIGIN,SCOPE,ALIAS=(
+    _prior.f01,_prior.bridge,_prior.ORIGIN,_prior.SCOPE,_prior.ALIAS)
 IDENTITY="KX-F01-SYNTHETIC-INITIAL-DIRECTION-THREE-CENTER-V455"
 STRUCTURE="THREE_CENTER_LOCAL_DIRECTION_AND_NONADVANCE_CHECKED_NOT_MARKET"
 PROVENANCE="SYNTHETIC_SOURCE_ASSERTIONS_NOT_AUTHENTICATED"

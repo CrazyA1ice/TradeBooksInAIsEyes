@@ -60,7 +60,6 @@ class KaixiangDirectionReceiptTests(unittest.TestCase):
 
     def test_old_v454_graph_lacks_required_initial_center_witness(self):
         old=json.loads((ROOT/"tests/fixtures/kaixiang_f01_graph_bridge_v454.json").read_text(encoding="utf-8"))
-        witness=mod.bridge.candidate_gate if False else None
         # Older bridge emits only the N-1/N comparison pair, not the
         # earlier trend-forming center. Old graph still passes F01.
         old_module=mod.load("kx_old_v454",ROOT/"tools/audit_kaixiang_f01_graph_completion_bridge.py")
@@ -69,6 +68,7 @@ class KaixiangDirectionReceiptTests(unittest.TestCase):
         old_w["id"]=mod.IDENTITY
         old_w["source_case_id"]=self.c["id"]
         old_w["source_answer_ids"]=self.c["source_answer_ids"]
+        old_w["policy_id"]=old["policy_id"]
         with self.assertRaisesRegex(ValueError,"three qualified members|three distinct base centers"):
             self.check(old_w)
 
