@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "origin": "SYNTHETIC_SYMBOLS_NOT_MARKET",
+  "source_contract": "other_views/chanlun/speaker-unknown-001/decision_audit_v451.json",
+  "purpose": "NO_LOOKAHEAD_SYMBOLIC_ACCOUNT_ONLY_NOT_MARKET",
+  "cases": [
+    {
+      "id": "KX-CASE-01",
+      "source_answer_ids": [
+        "A026",
+        "A084",
+        "A016"
+      ],
+      "scope": "g_5min|policy_R_demo|segment_A",
+      "candidates": [
+        "third_buy_extension",
+        "pan",
+        "decline"
+      ],
+      "events": [
+        {
+          "id": "e1",
+          "kind": "CANDIDATE_INVALIDATED",
+          "occurred_tick": 2,
+          "known_tick": 3,
+          "candidate": "third_buy_extension",
+          "scope": "g_5min|policy_R_demo|segment_A",
+          "evidence": "SYNTHETIC_ASSERTION_NOT_INDEPENDENTLY_VALIDATED"
+        },
+        {
+          "id": "e2",
+          "kind": "CANDIDATE_INVALIDATED",
+          "occurred_tick": 4,
+          "known_tick": 5,
+          "candidate": "pan",
+          "scope": "g_5min|policy_R_demo|segment_A",
+          "evidence": "SYNTHETIC_ASSERTION_NOT_INDEPENDENTLY_VALIDATED"
+        }
+      ],
+      "checkpoints": [
+        {
+          "tick": 2,
+          "remaining": [
+            "third_buy_extension",
+            "pan",
+            "decline"
+          ],
+          "risk_exit": false,
+          "seen": []
+        },
+        {
+          "tick": 3,
+          "remaining": [
+            "pan",
+            "decline"
+          ],
+          "risk_exit": false,
+          "seen": [
+            "e1"
+          ]
+        },
+        {
+          "tick": 5,
+          "remaining": [
+            "decline"
+          ],
+          "risk_exit": false,
+          "seen": [
+            "e1",
+            "e2"
+          ]
+        }
+      ],
+      "origin": "SYNTHETIC_SYMBOLS_NOT_MARKET"
+    },
+    {
+      "id": "KX-CASE-02",
+      "source_answer_ids": [
+        "A073",
+        "A026"
+      ],
+      "scope": "g_day|policy_R_demo|segment_B",
+      "candidates": [
+        "up_continues",
+        "up_exhausts"
+      ],
+      "events": [
+        {
+          "id": "e1",
+          "kind": "LOCAL_CONDITION",
+          "occurred_tick": 1,
+          "known_tick": 2,
+          "candidate": "up_continues",
+          "scope": "g_day|policy_R_demo|segment_B",
+          "evidence": "SYNTHETIC_ASSERTION_NOT_INDEPENDENTLY_VALIDATED"
+        },
+        {
+          "id": "e2",
+          "kind": "CANDIDATE_INVALIDATED",
+          "occurred_tick": 3,
+          "known_tick": 5,
+          "candidate": "up_continues",
+          "scope": "g_day|policy_R_demo|segment_B",
+          "evidence": "SYNTHETIC_ASSERTION_NOT_INDEPENDENTLY_VALIDATED"
+        }
+      ],
+      "checkpoints": [
+        {
+          "tick": 2,
+          "remaining": [
+            "up_continues",
+            "up_exhausts"
+          ],
+          "risk_exit": false,
+          "seen": [
+            "e1"
+          ]
+        },
+        {
+          "tick": 4,
+          "remaining": [
+            "up_continues",
+            "up_exhausts"
+          ],
+          "risk_exit": false,
+          "seen": [
+            "e1"
+          ]
+        },
+        {
+          "tick": 5,
+          "remaining": [
+            "up_exhausts"
+          ],
+          "risk_exit": false,
+          "seen": [
+            "e1",
+            "e2"
+          ]
+        }
+      ],
+      "origin": "SYNTHETIC_SYMBOLS_NOT_MARKET"
+    },
+    {
+      "id": "KX-CASE-03",
+      "source_answer_ids": [
+        "A061",
+        "A026"
+      ],
+      "scope": "g_5min|policy_R_demo|segment_C",
+      "candidates": [
+        "small_turn",
+        "later_expansion"
+      ],
+      "events": [
+        {
+          "id": "e1",
+          "kind": "LOCAL_CONDITION",
+          "occurred_tick": 2,
+          "known_tick": 2,
+          "candidate": "small_turn",
+          "scope": "g_5min|policy_R_demo|segment_C",
+          "evidence": "SYNTHETIC_ASSERTION_NOT_INDEPENDENTLY_VALIDATED"
+        }
+      ],
+      "checkpoints": [
+        {
+          "tick": 1,
+          "remaining": [
+            "small_turn",
+            "later_expansion"
+          ],
+          "risk_exit": false,
+          "seen": []
+        },
+        {
+          "tick": 2,
+          "remaining": [
+            "small_turn",
+            "later_expansion"
+          ],
+          "risk_exit": false,
+          "seen": [
+            "e1"
+          ]
+        }
+      ],
+      "origin": "SYNTHETIC_SYMBOLS_NOT_MARKET"
+    },
+    {
+      "id": "KX-CASE-04",
+      "source_answer_ids": [
+        "A074",
+        "A095"
+      ],
+      "scope": "g_30min|policy_R_demo|segment_D",
+      "candidates": [
+        "structure_intact",
+        "structure_invalidated"
+      ],
+      "events": [
+        {
+          "id": "e1",
+          "kind": "LOCAL_CONDITION",
+          "occurred_tick": 1,
+          "known_tick": 2,
+          "candidate": "structure_intact",
+          "scope": "g_30min|policy_R_demo|segment_D",
+          "evidence": "SYNTHETIC_ASSERTION_NOT_INDEPENDENTLY_VALIDATED"
+        },
+        {
+          "id": "e2",
+          "kind": "ACCOUNT_RISK_LIMIT",
+          "occurred_tick": 3,
+          "known_tick": 4,
+          "candidate": null,
+          "scope": "ACCOUNT",
+          "evidence": "SYNTHETIC_ASSERTION_NOT_INDEPENDENTLY_VALIDATED"
+        }
+      ],
+      "checkpoints": [
+        {
+          "tick": 3,
+          "remaining": [
+            "structure_intact",
+            "structure_invalidated"
+          ],
+          "risk_exit": false,
+          "seen": [
+            "e1"
+          ]
+        },
+        {
+          "tick": 4,
+          "remaining": [
+            "structure_intact",
+            "structure_invalidated"
+          ],
+          "risk_exit": true,
+          "seen": [
+            "e1",
+            "e2"
+          ]
+        }
+      ],
+      "origin": "SYNTHETIC_SYMBOLS_NOT_MARKET"
+    },
+    {
+      "id": "KX-CASE-05",
+      "source_answer_ids": [
+        "A095",
+        "A074",
+        "A061"
+      ],
+      "scope": "g_day|policy_R_demo|segment_E",
+      "candidates": [
+        "hold",
+        "technical_exit"
+      ],
+      "events": [
+        {
+          "id": "e1",
+          "kind": "ACCOUNT_RISK_LIMIT",
+          "occurred_tick": 2,
+          "known_tick": 5,
+          "candidate": null,
+          "scope": "ACCOUNT",
+          "evidence": "SYNTHETIC_ASSERTION_NOT_INDEPENDENTLY_VALIDATED"
+        }
+      ],
+      "checkpoints": [
+        {
+          "tick": 3,
+          "remaining": [
+            "hold",
+            "technical_exit"
+          ],
+          "risk_exit": false,
+          "seen": []
+        },
+        {
+          "tick": 5,
+          "remaining": [
+            "hold",
+            "technical_exit"
+          ],
+          "risk_exit": true,
+          "seen": [
+            "e1"
+          ]
+        }
+      ],
+      "origin": "SYNTHETIC_SYMBOLS_NOT_MARKET"
+    },
+    {
+      "id": "KX-CASE-06",
+      "source_answer_ids": [
+        "A084",
+        "A016",
+        "A026"
+      ],
+      "scope": "g_30min|policy_R_demo|segment_F",
+      "candidates": [
+        "unfinished_up",
+        "finished_up"
+      ],
+      "events": [],
+      "checkpoints": [
+        {
+          "tick": 0,
+          "remaining": [
+            "unfinished_up",
+            "finished_up"
+          ],
+          "risk_exit": false,
+          "seen": []
+        },
+        {
+          "tick": 5,
+          "remaining": [
+            "unfinished_up",
+            "finished_up"
+          ],
+          "risk_exit": false,
+          "seen": []
+        }
+      ],
+      "origin": "SYNTHETIC_SYMBOLS_NOT_MARKET"
+    },
+    {
+      "id": "KX-CASE-07",
+      "source_answer_ids": [
+        "A016",
+        "A026",
+        "A058"
+      ],
+      "scope": "g_30min|policy_R_demo|segment_G",
+      "candidates": [
+        "higher_center_future",
+        "higher_center_unconfirmed"
+      ],
+      "events": [],
+      "checkpoints": [
+        {
+          "tick": 0,
+          "remaining": [
+            "higher_center_future",
+            "higher_center_unconfirmed"
+          ],
+          "risk_exit": false,
+          "seen": []
+        }
+      ],
+      "origin": "SYNTHETIC_SYMBOLS_NOT_MARKET"
+    },
+    {
+      "id": "KX-CASE-08",
+      "source_answer_ids": [
+        "A094",
+        "A058"
+      ],
+      "scope": "document_comment|policy_provenance|answer_A094",
+      "candidates": [
+        "comment_authenticated",
+        "comment_unverified"
+      ],
+      "events": [],
+      "checkpoints": [
+        {
+          "tick": 0,
+          "remaining": [
+            "comment_authenticated",
+            "comment_unverified"
+          ],
+          "risk_exit": false,
+          "seen": []
+        }
+      ],
+      "origin": "SYNTHETIC_SYMBOLS_NOT_MARKET"
+    }
+  ]
+}

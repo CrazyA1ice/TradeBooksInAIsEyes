@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.51.0",
-  "source_count": 947,
+  "workflow_version": "4.52.0",
+  "source_count": 951,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -1986,6 +1986,12 @@
       "size_bytes": 10169
     },
     {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_CANDIDATE_EXCLUSION_CLOSED_WORLD_AND_RISK_GATE_V452.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_CANDIDATE_EXCLUSION_CLOSED_WORLD_AND_RISK_GATE_V452.md",
+      "git_blob_sha": "b90bc29ec087c49ffadd5635b01d59d9ed986a74",
+      "size_bytes": 6985
+    },
+    {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_SECOND_CENTER_METHOD_TYPE_AND_FEB05_DYNAMIC_CLAIM_V449.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_SECOND_CENTER_METHOD_TYPE_AND_FEB05_DYNAMIC_CLAIM_V449.md",
       "git_blob_sha": "9ac0f2c6fa6f1e20a087f234d3a6e8f90a27b543",
@@ -2408,8 +2414,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "16330cdc5fcd9142e387417ca9a7f7c08550a3f9",
-      "size_bytes": 96194
+      "git_blob_sha": "b866049e15341583ea1e0e21815942c9e406ef0c",
+      "size_bytes": 97340
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -3536,8 +3542,8 @@
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/analysis.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/analysis.md",
-      "git_blob_sha": "8fe52dcf08392c62bc7819fdbc5b32c1b2a68929",
-      "size_bytes": 16859
+      "git_blob_sha": "ad0355ede46fa5b3fb55573695835007f7225a74",
+      "size_bytes": 18184
     },
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/answers-2026-11-11.md",
@@ -3578,8 +3584,8 @@
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/updates.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/updates.md",
-      "git_blob_sha": "d67c9739a3a8561a10326dfc6cbc432affdb2970",
-      "size_bytes": 3947
+      "git_blob_sha": "0889dc81148484f33e9953bd619d376af03fad2d",
+      "size_bytes": 4558
     },
     {
       "source_path": "reports/source_inventory/chanlun_20261107_verified.json",
@@ -3846,10 +3852,16 @@
       "size_bytes": 6092
     },
     {
+      "source_path": "tests/fixtures/kaixiang_asof_symbolic_v452.json",
+      "mirror_path": "ChanlunCollection/tests/fixtures/kaixiang_asof_symbolic_v452.json",
+      "git_blob_sha": "5d23b64c518f2960d111b5bb8df1c10b1e318c8f",
+      "size_bytes": 8713
+    },
+    {
       "source_path": "tests/test_book_collection.py",
       "mirror_path": "ChanlunCollection/tests/test_book_collection.py",
-      "git_blob_sha": "72346820c1908ebf5144ee05ea898ab12f705a65",
-      "size_bytes": 9653
+      "git_blob_sha": "cd77d07e8e9c3638adb683f87b430fa300047859",
+      "size_bytes": 10887
     },
     {
       "source_path": "tests/test_chanlun20_center_extension_membership_gate.py",
@@ -4680,6 +4692,12 @@
       "size_bytes": 4273
     },
     {
+      "source_path": "tests/test_kaixiang_asof_candidates.py",
+      "mirror_path": "ChanlunCollection/tests/test_kaixiang_asof_candidates.py",
+      "git_blob_sha": "ab5315a7e9cd09d0891be9c2cdef988071bd499b",
+      "size_bytes": 5812
+    },
+    {
       "source_path": "tests/test_verify_chanlun_lesson_index.py",
       "mirror_path": "ChanlunCollection/tests/test_verify_chanlun_lesson_index.py",
       "git_blob_sha": "b7de9dd331264f08b4190c31788b81d4921c8333",
@@ -5284,6 +5302,12 @@
       "mirror_path": "ChanlunCollection/tools/audit_chanlun_whole_book_integrated.py",
       "git_blob_sha": "28622ef22c98068032fcce060c638dcc442297e2",
       "size_bytes": 9712
+    },
+    {
+      "source_path": "tools/audit_kaixiang_asof_candidates.py",
+      "mirror_path": "ChanlunCollection/tools/audit_kaixiang_asof_candidates.py",
+      "git_blob_sha": "8b0d1bad3878a03ec77c2cba00f02fc0eca05507",
+      "size_bytes": 6745
     },
     {
       "source_path": "tools/book_collection.py",

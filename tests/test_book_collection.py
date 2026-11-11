@@ -101,6 +101,26 @@ class BookCollectionTests(unittest.TestCase):
             audit["independent_comment_evidence"],
             "MISSING_IN_UPLOADED_EXPORT_NOT_ZERO_ON_ZHIHU")
 
+    def test_kaixiang_symbolic_gate_runs_on_same_eight_source_cases(self):
+        fixture=ROOT/"tests/fixtures/kaixiang_asof_symbolic_v452.json"
+        text=json.loads(fixture.read_text(encoding="utf-8"))
+        previous=json.loads((ROOT/"other_views/chanlun/speaker-unknown-001/decision_audit_v451.json").read_text(encoding="utf-8"))
+        self.assertEqual(text["origin"],"SYNTHETIC_SYMBOLS_NOT_MARKET")
+        self.assertEqual(len(text["cases"]),len(previous["cases"]))
+        self.assertEqual(
+            [(x["id"],x["source_answer_ids"]) for x in text["cases"]],
+            [(x["id"],x["source_answer_ids"]) for x in previous["cases"]])
+        gate=imported("kaixiang_asof_candidates","tools/audit_kaixiang_asof_candidates.py")
+        checked=gate.audit_fixture(fixture)
+        self.assertEqual(checked["cases"],8)
+        self.assertGreaterEqual(checked["prefix_checks"],15)
+        self.assertFalse(checked["market_data"])
+        last=gate.assess(text["cases"][0],5)
+        self.assertEqual(last["sole_survivor"],"decline")
+        self.assertFalse(last["sole_survivor_confirmed_final"])
+        self.assertFalse(last["candidate_universe_exhaustiveness_proven"])
+        self.assertFalse(last["order_submitted"])
+
     def test_alias_paths_are_safe_and_no_registry_collision(self):
         self.assertEqual(
             m.mirror_destination(self.book,"other_views/chanlun/speaker-unknown-001/analysis.md"),

@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.51.0
+# ChanlunCollection｜本书实施工作流 v4.52.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.52.0 本步：**把凯翔A026的候选排除转化为可执行但严格局限于合成语义的前缀检查，继承v4.51的8个原话来源锚。新增[纯符号源代码](tools/audit_kaixiang_asof_candidates.py)、[8组时间前缀情景](tests/fixtures/kaixiang_asof_symbolic_v452.json)、[14项测试](tests/test_kaixiang_asof_candidates.py)、[审计报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_CANDIDATE_EXCLUSION_CLOSED_WORLD_AND_RISK_GATE_V452.md)。核心：候选只剩一个仍不是最后类型已确认；拒绝同级分解规则或具体片段身份偷换，已观察和首次可知时点分离，账户风险提示不当交易成交事实。本轮仅用合成文字事件，不读取真实行情、不运行交易；A094/A058评论仍无可认证记录、第二套中枢公式与第三层未披露，F01/OB38/OB99 OPEN。
 
 **v4.51.0 本步：**不再只概括100答核心名词，使用A026/A073/A061/A084/A016/A074/A095逐篇原文严格区分“当前观察到的技术条件”“最终类型完成”“在当前条件下排除某候选”“交易执行与独立风险限额”；新增[无前视逻辑审核报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_ASOF_ELIMINATION_VS_STRUCTURAL_STOPS_V451.md)及人物文件夹[8个有来源、反例和禁止过推论字段的JSON研究契约](OtherVoices/speaker-unknown-001/decision_audit_v451.json)。特别标记A074结构解读仍有效但A095期货止损应快这一潜在风险，`Exit=结构失效OR账户风险上限`属于**研究者建议**不是凯翔隐藏“杀招”。A094/A058与主页公开取证无法取得评论（403/抓取失败），不增加C编号；F01/OB38/OB99 OPEN、真实行情NOT_RUN。
 

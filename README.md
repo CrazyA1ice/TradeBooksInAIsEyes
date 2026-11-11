@@ -6,7 +6,9 @@
 
 **《缠论》全部研究成果已整理到 [ChanlunCollection/](ChanlunCollection/README.md)**：五卷原PDF、108篇逐课分析、108张原文证据卡、108课统一理论主脊、深度导读、来源与版本登记、报告、测试和审计工具均在一个文件夹内可查；保留原仓库规范路径作为编辑源，由`COLLECTION_MANIFEST.json`逐文件验证精确一致。后续每本书都建立独立`<BookName>Collection/`；**每一步研究都必须同步修订[通用工作流](docs/BOOK_RESEARCH_WORKFLOW.md)、该书[工作日志](ChanlunCollection/WORK_LOG.md)和集合完整性清单**。
 
-**最新v4.51：**[凯翔动态排除法／趋势末端未定／级别扩张／结构止损与账户风险分开](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_ASOF_ELIMINATION_VS_STRUCTURAL_STOPS_V451.md)。在[本人观点目录](ChanlunCollection/OtherVoices/speaker-unknown-001/README.md)新增8条带A编号、首次可知时刻与禁止事后推断的研究性规则契约（非其本人盈利方法）；本轮A094/A058原帖及个人主页公开访问不可取评论，不造句。F01/OB38/OB99 OPEN、实盘NOT_RUN。
+**最新v4.52：**[凯翔A026“只剩下跌”结论的封闭候选、首个可知时钟与独立风险审计](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_CANDIDATE_EXCLUSION_CLOSED_WORLD_AND_RISK_GATE_V452.md)。首次把v4.51的8条研究情境变成[可运行纯符号Python检查器](tools/audit_kaixiang_asof_candidates.py)和反前视单测；不把“清单只剩一项”伪装成行情全域已证，也不操作账户。原100答/108课不改，F01/OB38/OB99 OPEN。
+
+**此前v4.51：**[凯翔动态排除法／趋势末端未定／级别扩张／结构止损与账户风险分开](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_ASOF_ELIMINATION_VS_STRUCTURAL_STOPS_V451.md)。在[本人观点目录](ChanlunCollection/OtherVoices/speaker-unknown-001/README.md)新增8条带A编号、首次可知时刻与禁止事后推断的研究性规则契约（非其本人盈利方法）；本轮A094/A058原帖及个人主页公开访问不可取评论，不造句。F01/OB38/OB99 OPEN、实盘NOT_RUN。
 
 **此前v4.50：**[对凯翔100篇回答的完整交易思想合成](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_100_ANSWERS_SYSTEM_CROSSLEVEL_AND_COMMENT_GAPS_V450.md)：首次贯通A058“结构/方向/级别/势能/三级别联合”、A085六项执行标准与A014五维市场条件；指出同一人物“级别”的结构/持仓时间双义、第99课“结束→高一级中枢震荡”是“第三层”新候选，和A094/A058明确存在未收录的高价值评论区。原100篇不改，F01/OB38/OB99 OPEN，NOT_RUN。
 

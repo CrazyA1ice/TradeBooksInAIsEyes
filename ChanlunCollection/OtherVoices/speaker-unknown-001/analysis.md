@@ -19,6 +19,10 @@
 | A089/90-5 | [83课](https://eczsc.com/originals/83)明说细笔层受偶然成交影响，线段更稳；[84课](https://eczsc.com/originals/84)称结构自同构 | 自同构**结构语言**不自动等于所有级别统计信号同样稳健，凯翔这条具有合理的经验审查价值，强弱仍需市场样本 |
 | A089/90-6 | 54课等原正文/存档确有图，不能把“没图”解释为作者从未附图 | 可改问难例图、历史股价和实时首次确认是否有可再现证据；图证与数学证明不同 |
 
+## v4.52｜A026“最后剩一种情况”其实包含未经证明的封闭集合假设
+
+[新增研究/可执行合成逻辑门](https://github.com/CrazyA1ice/TradeBooksInAIsEyes/blob/main/deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_CANDIDATE_EXCLUSION_CLOSED_WORLD_AND_RISK_GATE_V452.md)。凯翔[A026](https://www.zhihu.com/question/1908775952865010029/answer/1909154539594027495)亲自说可按三买扩展/盘整/下跌候选逐步排除；但**“不再满足某个候选的形成条件”必须区分“尚未出现”与“对当前固定片段已经不可能成立”**。只有同一g、同一切分R、同一被分析片段、具有真实已证的排除事件时，`remaining`才是有意义的本地结果。即使在自列候选集中仅剩下跌，也不能自动证明三项覆盖所有市场未来或最终下跌已发生。为此新增8组依旧逐字绑定A编号的合成事件`occurred_tick/known_tick`前缀检查，输入事件仍不是市场证据。A061级别扩张、A073趋势末端不可知是对“当下已经全局确定”的直接文字限制。A074/A095结构失效和独立资金风险是两个不同触发；资金退出是AI提出的审慎建议，不是凯翔已写出的交易规则。A016第三层与A087第二中枢定义依旧未公开，人物原话/评论状态未变。
+
 ## v4.51｜“分类排除≠最终完成”与结构止损风险的逐时点审查
 
 [新专题](https://github.com/CrazyA1ice/TradeBooksInAIsEyes/blob/main/deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_ASOF_ELIMINATION_VS_STRUCTURAL_STOPS_V451.md)与[8条机器可读逻辑审核例](decision_audit_v451.json)直接对照**本人原文**：A026按候选未来结构排除，A073承认趋势已走一截无法知是否末端，A061小级一买后30分钟中心扩张说明后续可重新归档，A084“涨多了→两形态”和A016“已完成走势→另两类型”有严格完成资格差异。不能把当下局部条件`CONDITION_CONFIRMED`偷换成最终标签`FINAL_ONLY_AFTER_CONFIRMATION`；这套状态标记是AI提出的验证方式，不是凯翔未公开的数学规则。
