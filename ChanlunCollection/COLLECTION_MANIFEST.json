@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.54.0",
-  "source_count": 959,
+  "workflow_version": "4.55.0",
+  "source_count": 963,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -1998,6 +1998,12 @@
       "size_bytes": 6040
     },
     {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_F01_INITIAL_DIRECTION_THREE_CENTER_GUARD_V455.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_F01_INITIAL_DIRECTION_THREE_CENTER_GUARD_V455.md",
+      "git_blob_sha": "39a14518a70b6f03b865aed21bff85685caba146",
+      "size_bytes": 5548
+    },
+    {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_SECOND_CENTER_METHOD_TYPE_AND_FEB05_DYNAMIC_CLAIM_V449.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_SECOND_CENTER_METHOD_TYPE_AND_FEB05_DYNAMIC_CLAIM_V449.md",
       "git_blob_sha": "9ac0f2c6fa6f1e20a087f234d3a6e8f90a27b543",
@@ -2426,8 +2432,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "b26a5ed15e817ca59e2df97b3be1fe61574a3009",
-      "size_bytes": 99744
+      "git_blob_sha": "066b740ef673b05ee490ba1974fa65ebb050d29f",
+      "size_bytes": 100957
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -3554,8 +3560,8 @@
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/analysis.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/analysis.md",
-      "git_blob_sha": "b5887708784ca7bbc0e740ac46a5c60fdbe11aaf",
-      "size_bytes": 20303
+      "git_blob_sha": "d8b60d6ec533e9ea8ee8ae301545964d52010987",
+      "size_bytes": 21401
     },
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/answers-2026-11-11.md",
@@ -3596,8 +3602,8 @@
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/updates.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/updates.md",
-      "git_blob_sha": "3c792bf77d17ebbcce1d3cd39152c8a4d085cf4c",
-      "size_bytes": 5787
+      "git_blob_sha": "ad33e2c7f19f260952402710b17db1013cb17daa",
+      "size_bytes": 6385
     },
     {
       "source_path": "reports/source_inventory/chanlun_20261107_verified.json",
@@ -3876,6 +3882,12 @@
       "size_bytes": 9845
     },
     {
+      "source_path": "tests/fixtures/kaixiang_f01_direction_three_centers_v455.json",
+      "mirror_path": "ChanlunCollection/tests/fixtures/kaixiang_f01_direction_three_centers_v455.json",
+      "git_blob_sha": "febd331014a2ca9c442b96a3864753bf2f28233c",
+      "size_bytes": 985
+    },
+    {
       "source_path": "tests/fixtures/kaixiang_f01_graph_bridge_v454.json",
       "mirror_path": "ChanlunCollection/tests/fixtures/kaixiang_f01_graph_bridge_v454.json",
       "git_blob_sha": "36517bb6fb9a1f1d92e257458fc14397056e9f32",
@@ -3884,8 +3896,8 @@
     {
       "source_path": "tests/test_book_collection.py",
       "mirror_path": "ChanlunCollection/tests/test_book_collection.py",
-      "git_blob_sha": "a78a70d3b28c4f5ea1b33a6d76f40c2a0d0fa348",
-      "size_bytes": 12507
+      "git_blob_sha": "2e0b7b18712ec9555de2b839c326290f09d4aebf",
+      "size_bytes": 13201
     },
     {
       "source_path": "tests/test_chanlun20_center_extension_membership_gate.py",
@@ -4728,6 +4740,12 @@
       "size_bytes": 7172
     },
     {
+      "source_path": "tests/test_kaixiang_f01_direction_three_centers.py",
+      "mirror_path": "ChanlunCollection/tests/test_kaixiang_f01_direction_three_centers.py",
+      "git_blob_sha": "346305195ee2dfabeb809fb8346ef764aafcc846",
+      "size_bytes": 8575
+    },
+    {
       "source_path": "tests/test_kaixiang_f01_graph_completion_bridge.py",
       "mirror_path": "ChanlunCollection/tests/test_kaixiang_f01_graph_completion_bridge.py",
       "git_blob_sha": "855763f85bc0c20bc79e7711e243a4a8fb2a8d0d",
@@ -5350,6 +5368,12 @@
       "mirror_path": "ChanlunCollection/tools/audit_kaixiang_center_asof_bridge.py",
       "git_blob_sha": "be71e33007b213da6b6374ff6bbf1ae95b3fa9bb",
       "size_bytes": 9248
+    },
+    {
+      "source_path": "tools/audit_kaixiang_f01_direction_three_centers.py",
+      "mirror_path": "ChanlunCollection/tools/audit_kaixiang_f01_direction_three_centers.py",
+      "git_blob_sha": "e48a9a1eb4f9fdc6f30a9299729f01eda5f7fca4",
+      "size_bytes": 14495
     },
     {
       "source_path": "tools/audit_kaixiang_f01_graph_completion_bridge.py",

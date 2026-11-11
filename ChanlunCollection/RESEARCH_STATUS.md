@@ -2,6 +2,8 @@
 
 **查询时点：** 2026-11-11。研究稿已覆盖五卷第1—108课；当前收据以GitHub主分支及[本书逐课逻辑地图](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md)、[来源索引](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_SOURCE_ATLAS.md)为准。**研究覆盖完成不等于全部数学证明完成。**
 
+**v4.55 F01旧研究图假阳性修复（第35课初始趋势方向）：**[深入报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_F01_INITIAL_DIRECTION_THREE_CENTER_GUARD_V455.md)、[方向价序检验器](tools/audit_kaixiang_f01_direction_three_centers.py)、[反例测试](tests/test_kaixiang_f01_direction_three_centers.py)。发现v4.54的完成图只有#2/#3低阶中心与DOWN/NOT_LOWER字符串，无法验其先前是否真的形成DOWN且后续是否真未创新低；新43节点三中心/9根价源每成员的方向、退出价序比较门阻止此类旧F01结构假阳性。仍**不能认证真实底层走势完成**，F01/OB38/OB99 OPEN、市场NOT_RUN。
+
 **v4.54 F01低阶完成依赖链的合成证明结构审计：** [报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_F01_DEPENDENCY_GRAPH_BRIDGE_AND_COMPLETION_LIMIT_V454.md)、[审计器](tools/audit_kaixiang_f01_graph_completion_bridge.py)和[15个测试](tests/test_kaixiang_f01_graph_completion_bridge.py)。已将凯翔A026三段交集从简单“已完成”bool升级为**F01原始点→基础中心→退出断言→完成走势→上级中心**31节点图的依赖/来源/双时钟审计，局部新增六个底层虚拟点对成员高低价的核验。**结构图校验成功不等于真实次级走势已完成**，F01底层比较条件仍未获独立证据，依旧F01/OB38/OB99 OPEN、市场NOT_RUN。
 
 **v4.53 第17课三段区间交叠×凯翔A026候选清单的可执行时点桥：**[报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_THREE_COMPLETED_MEMBER_ASOF_BRIDGE_V453.md)、[桥代码](tools/audit_kaixiang_center_asof_bridge.py)、[合成夹具](tests/fixtures/kaixiang_center_asof_bridge_v453.json)及[15个定向单测](tests/test_kaixiang_center_asof_bridge.py)。第三段历史完成时间与**首次可知时间**分离，未可知则不准输出交集；只能确认合成的三断言成员正宽度交集，不证次级走势真实合法、不证整体完成/三买/终局；候选状态和账户风险另算。F01/OB38/OB99 OPEN，市场NOT_RUN。

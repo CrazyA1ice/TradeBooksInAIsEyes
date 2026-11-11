@@ -148,6 +148,18 @@ class BookCollectionTests(unittest.TestCase):
         self.assertFalse(receipt["real_market_data"])
         self.assertEqual(receipt["orders"],0)
 
+    def test_kaixiang_three_center_direction_and_nonadvance_guard(self):
+        new=ROOT/"tests/fixtures/kaixiang_f01_direction_three_centers_v455.json"
+        a=json.loads(new.read_text(encoding="utf-8"))
+        self.assertEqual(a["source_answer_ids"],["A026","A084","A016"])
+        m=imported("kx_direction_v455","tools/audit_kaixiang_f01_direction_three_centers.py")
+        receipt=m.fixture_audit(new)
+        self.assertEqual(receipt["graph_nodes"],43)
+        self.assertEqual(receipt["visible_members"],[0,1,2,3])
+        self.assertEqual(receipt["independently_finished_movements"],0)
+        self.assertFalse(receipt["market_data"])
+        self.assertEqual(receipt["orders"],0)
+
     def test_alias_paths_are_safe_and_no_registry_collision(self):
         self.assertEqual(
             m.mirror_destination(self.book,"other_views/chanlun/speaker-unknown-001/analysis.md"),
