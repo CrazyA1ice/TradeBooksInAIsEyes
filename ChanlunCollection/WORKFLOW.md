@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.36.0
+# ChanlunCollection｜本书实施工作流 v4.37.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.37.0 本步：**从第15、16课传统K线周期视角，经第17/18课中枢定义、第33课早于35课的严格交易级别、第35课递归基例、第38课两种分析视角、第72课作者教学回顾、第83/84课底层稳定性变化，重新核对高手的断代论。区分作者真实评论、转载资料和AI推理；特别不把周期近似、两种走势观察和不同底层零件当作完全相同的“两个中枢定义”。新报告[历史时间线与两种方法](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_HISTORICAL_LEVEL_SHIFT_AND_TWO_METHODS_V437.md)。本轮非108课逐字重新通读，老虎版未认证，F01/OB38/OB99 OPEN，NOT_RUN。
 
 **v4.36.0 本步：**拆分作者第17/18课“终完美／延伸”中的EV、UB、IN三个量词，第38/102课固定政策唯一FU与跨政策一致PI，以及第99课中阴时的在线完成确认ON。独立研究者字母串反模型仅验证逻辑蕴含，不能冒充市场或作者解析器。逐字专家原帖未认证，F01/OB38/OB99 OPEN、NOT_RUN。见[量词审计专题](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_COMPLETION_QUANTIFIERS_V436.md)。
 
