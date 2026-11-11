@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.32.0
+# ChanlunCollection｜本书实施工作流 v4.33.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.33.0 重点补充：第20课中心整体极值比较的部分解与最低盘整无负一级基例。** 作者的`GG/DD`来自中枢内合格Z段的最大高/最低低，`ZG/ZD`是核心区间的上/下边；[第20课](https://eczsc.com/originals/20)中心定理二给四组有条件的比较：`后DD>前GG`严格上涨，`后GG<前DD`严格下跌；`后ZD>前ZG且后DD≤前GG`上行扩展，`后ZG<前ZD且后GG≥前DD`下行扩展。即使核心同样上移，整体外沿极值不同也可使严格分离/扩展分类不同；核心相接或重叠不满足这些严格式时不得默默变成`第35课N>2不再高于`。另外第35课以每一笔成交为绝对最底`f1`，此处**不能**机械套用第20课要求“完成的下一次级别离开及首次回抽”的统一三类点出口来结束最底层单中枢盘整——没有已定义的负一级走势类型。需要补出作者明确的最低单中枢盘整终止特例或获准的f1映射。新增[研究报告](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_CENTER_ENVELOPE_ORDER_AND_BASE_PAN_DOMAIN_GAP.md)、源锚四式与七套虚构四元组、数值审计及22个反向测试；只有局部`PASS_LOCAL_FORMULAS_ONLY`，F01/OB38/OB99继续OPEN，市场NOT_RUN。
 
 **v4.32.0 重点补充：以最低真实成交为证明叶子和无循环完成收据。** 现在有第35课`CL35-SO-2`“连续三笔同价形成最低中枢”和`CL35-SO-9`“最低趋势第N个(N>2)中枢不再更高/更低，方向性结束”的原文锚点。两种规则不能互换：最低中枢存在不等于其单中心盘整终结，而`N`中心的“更高/更低”尚无原文统一数值算子。将第18课的三连续**完成**次级走势交集、20课**完整**离开/首次回试与`>=ZG/<=ZD`、2007-08-21署时评论的盘整/趋势退出按依赖边构建。任何`FINISHED_MOVEMENT`须有自身退出证据，图无环、同`f1/f2/R_g`政策、首次可知不早于依赖；原始逐笔流、真实退出声明没有独立认证时，即使代码通过也**只能说`PASS_STRUCTURE_ONLY`**，禁止当成作者理论已证明。新增[专题研究](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_PROOF_CARRYING_COMPLETION_RECEIPTS_AND_BOTTOM_CASE.md)、`catalog/chanlun_f01_completion_receipt_contract_v1.json`和22项虚构结构用例。F01/OB38/OB99 OPEN，实际行情NOT_RUN。
 
