@@ -20,6 +20,12 @@ jobs:
         run: python -B tools/book_collection.py --book chanlun --check
       - name: Test reusable collections, source SHA and source-role/market boundaries
         run: python -B -m unittest discover -s tests -p "test_book_collection.py" -v
+      - name: Run Kaixiang complete as-of / three-member / F01 / direction evidence tests
+        run: |
+          python -B -m unittest discover -s tests -p "test_kaixiang_asof_candidates.py" -v
+          python -B -m unittest discover -s tests -p "test_kaixiang_center_asof_bridge.py" -v
+          python -B -m unittest discover -s tests -p "test_kaixiang_f01_graph_completion_bridge.py" -v
+          python -B -m unittest discover -s tests -p "test_kaixiang_f01_direction_three_centers.py" -v
       - name: Enforce per-research-step workflow revision, log, status and manifest update
         if: github.event_name == 'pull_request'
         env:

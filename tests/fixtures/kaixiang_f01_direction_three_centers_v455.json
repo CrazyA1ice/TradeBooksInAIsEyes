@@ -1,0 +1,45 @@
+{
+  "id": "KX-F01-SYNTHETIC-INITIAL-DIRECTION-THREE-CENTER-V455",
+  "schema_version": 1,
+  "origin": "SYNTHETIC_SYMBOLS_NOT_MARKET",
+  "provenance": "SYNTHETIC_SOURCE_ASSERTIONS_NOT_AUTHENTICATED",
+  "scope": "SYNTHETIC_F01_GRAPH_ADMISSIBILITY_NOT_INDEPENDENT_COMPLETION",
+  "level_alias_kind": "SYNTHETIC_LEVEL_ALIAS_NOT_CHART_TIMEFRAME",
+  "source_case_id": "KX-CASE-01",
+  "source_answer_ids": [
+    "A026",
+    "A084",
+    "A016"
+  ],
+  "policy_id": "policy_R_demo",
+  "parent_level": 1,
+  "child_level": 0,
+  "lower_level": "g_1min",
+  "member_keys": [
+    "u",
+    "v",
+    "w"
+  ],
+  "price_bounds": [
+    [
+      "7",
+      "14"
+    ],
+    [
+      "8",
+      "13"
+    ],
+    [
+      "9",
+      "12"
+    ]
+  ],
+  "direction": "DOWN",
+  "checkpoints": [
+    9,
+    10,
+    19,
+    28
+  ],
+  "scope_note": "Synthetic level 0 is not objectively identical to a one-minute K-line; only a test alias. Nth=3. First two centers descending; third not lower. No real-data certificate."
+}

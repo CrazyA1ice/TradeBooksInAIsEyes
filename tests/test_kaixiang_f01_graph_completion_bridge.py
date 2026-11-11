@@ -70,11 +70,11 @@ class KaixiangF01GraphBridgeTests(unittest.TestCase):
         w=self.witness()
         w["member_receipt_mapping"][0],w["member_receipt_mapping"][1]=(
             w["member_receipt_mapping"][1],w["member_receipt_mapping"][0])
-        with self.assertRaisesRegex(ValueError,"parent three dependencies"):
+        with self.assertRaisesRegex(ValueError,"parent three dependencies|child movements consecutive"):
             self.run_witness(w)
         w=self.witness()
         w["graph"]["nodes"][-1]["deps"].reverse()
-        with self.assertRaisesRegex(ValueError,"parent three dependencies"):
+        with self.assertRaisesRegex(ValueError,"parent three dependencies|child movements consecutive"):
             self.run_witness(w)
 
     def test_reject_mismatched_move_price_intervals(self):
@@ -121,7 +121,7 @@ class KaixiangF01GraphBridgeTests(unittest.TestCase):
         mid=w["member_receipt_mapping"][0]["finished_receipt_id"]
         node=next(n for n in w["graph"]["nodes"] if n["id"]==mid)
         node["first_known_seq"]=1
-        with self.assertRaisesRegex(ValueError,"timestamp is before dependency"):
+        with self.assertRaisesRegex(ValueError,"cannot know historical endpoint before observation|timestamp is before dependency"):
             self.run_witness(w)
 
     def test_reject_member_first_known_backdating(self):
