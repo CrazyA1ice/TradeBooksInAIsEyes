@@ -81,11 +81,8 @@ class TestL20PartialOrder(unittest.TestCase):
     def test_original_GG_DD_definition_forgery_fails(self):
         d = deepcopy(self.spec)
         d["source_notation"]["GG"] = "ZG"
-        # Audit intentionally validates geometric and examples but not arbitrary prose.
-        # Assert specifically that this mutation cannot change the actual numeric theorem.
-        self.assertEqual(classify(A, {"DD":"15","ZD":"16","ZG":"18","GG":"20"}),
-                         "STRICT_UP_SEPARATED")
-        self.assertNotEqual(d["source_notation"]["GG"], self.spec["source_notation"]["GG"])
+        with self.assertRaises(ValueError):
+            audit(d, self.old, self.report)
 
     def test_author_formula_strict_sign_mutation_rejected(self):
         d = deepcopy(self.spec)
