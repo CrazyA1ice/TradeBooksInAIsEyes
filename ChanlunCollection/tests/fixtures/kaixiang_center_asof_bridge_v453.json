@@ -1,0 +1,381 @@
+{
+  "schema_version": 1,
+  "origin": "SYNTHETIC_SYMBOLS_NOT_MARKET",
+  "description": "One synthetic lesson17 three-member overlap witness alongside unchanged v452 hypothesis ledger; not Chanlun completed type verification.",
+  "source_fixture": "tests/fixtures/kaixiang_asof_symbolic_v452.json",
+  "bridge_cases": [
+    {
+      "source_case_id": "KX-CASE-01",
+      "source_answer_ids": [
+        "A026",
+        "A084",
+        "A016"
+      ],
+      "origin": "SYNTHETIC_SYMBOLS_NOT_MARKET",
+      "scope": "g_5min|policy_R_demo|segment_A",
+      "target_level": "g_5min",
+      "lower_level": "g_1min",
+      "policy": "policy_R_demo",
+      "segment_instance": "segment_A",
+      "candidate": "third_buy_extension",
+      "members": [
+        {
+          "key": "u",
+          "ordinal": 1,
+          "member_level": "g_1min",
+          "member_status": "COMPLETED_LOWER_LEVEL_TYPE_ASSERTED_SYNTHETIC",
+          "completed_at_tick": 1,
+          "first_known_tick": 1,
+          "low": 7,
+          "high": 14
+        },
+        {
+          "key": "v",
+          "ordinal": 2,
+          "member_level": "g_1min",
+          "member_status": "COMPLETED_LOWER_LEVEL_TYPE_ASSERTED_SYNTHETIC",
+          "completed_at_tick": 2,
+          "first_known_tick": 2,
+          "low": 8,
+          "high": 13
+        },
+        {
+          "key": "w",
+          "ordinal": 3,
+          "member_level": "g_1min",
+          "member_status": "COMPLETED_LOWER_LEVEL_TYPE_ASSERTED_SYNTHETIC",
+          "completed_at_tick": 2,
+          "first_known_tick": 3,
+          "low": 9,
+          "high": 12
+        }
+      ],
+      "checkpoints": [
+        {
+          "asof_tick": 2,
+          "state": "PENDING_THIRD_MEMBER_FIRST_KNOWABLE_TIME",
+          "intersection": null,
+          "visible": [
+            "u",
+            "v"
+          ],
+          "risk_exit": false
+        },
+        {
+          "asof_tick": 3,
+          "state": "THREE_ASSERTED_COMPLETE_MEMBERS_POSITIVE_OVERLAP_ONLY",
+          "intersection": [
+            9,
+            12
+          ],
+          "visible": [
+            "u",
+            "v",
+            "w"
+          ],
+          "risk_exit": false
+        },
+        {
+          "asof_tick": 5,
+          "state": "THREE_ASSERTED_COMPLETE_MEMBERS_POSITIVE_OVERLAP_ONLY",
+          "intersection": [
+            9,
+            12
+          ],
+          "visible": [
+            "u",
+            "v",
+            "w"
+          ],
+          "risk_exit": false
+        }
+      ]
+    },
+    {
+      "source_case_id": "KX-CASE-02",
+      "source_answer_ids": [
+        "A073",
+        "A026"
+      ],
+      "origin": "SYNTHETIC_SYMBOLS_NOT_MARKET",
+      "scope": "g_day|policy_R_demo|segment_B",
+      "target_level": "g_day",
+      "lower_level": "g_30min",
+      "policy": "policy_R_demo",
+      "segment_instance": "segment_B",
+      "candidate": "up_continues",
+      "members": [
+        {
+          "key": "p",
+          "ordinal": 1,
+          "member_level": "g_30min",
+          "member_status": "COMPLETED_LOWER_LEVEL_TYPE_ASSERTED_SYNTHETIC",
+          "completed_at_tick": 1,
+          "first_known_tick": 1,
+          "low": 1,
+          "high": 3
+        },
+        {
+          "key": "q",
+          "ordinal": 2,
+          "member_level": "g_30min",
+          "member_status": "COMPLETED_LOWER_LEVEL_TYPE_ASSERTED_SYNTHETIC",
+          "completed_at_tick": 2,
+          "first_known_tick": 2,
+          "low": 4,
+          "high": 6
+        },
+        {
+          "key": "r",
+          "ordinal": 3,
+          "member_level": "g_30min",
+          "member_status": "COMPLETED_LOWER_LEVEL_TYPE_ASSERTED_SYNTHETIC",
+          "completed_at_tick": 3,
+          "first_known_tick": 3,
+          "low": 7,
+          "high": 9
+        }
+      ],
+      "checkpoints": [
+        {
+          "asof_tick": 2,
+          "state": "PENDING_THIRD_MEMBER_FIRST_KNOWABLE_TIME",
+          "intersection": null,
+          "visible": [
+            "p",
+            "q"
+          ],
+          "risk_exit": false
+        },
+        {
+          "asof_tick": 3,
+          "state": "NO_POSITIVE_THREE_MEMBER_OVERLAP",
+          "intersection": null,
+          "visible": [
+            "p",
+            "q",
+            "r"
+          ],
+          "risk_exit": false
+        }
+      ]
+    },
+    {
+      "source_case_id": "KX-CASE-03",
+      "source_answer_ids": [
+        "A061",
+        "A026"
+      ],
+      "origin": "SYNTHETIC_SYMBOLS_NOT_MARKET",
+      "scope": "g_5min|policy_R_demo|segment_C",
+      "target_level": "g_5min",
+      "lower_level": "g_1min",
+      "policy": "policy_R_demo",
+      "segment_instance": "segment_C",
+      "candidate": "small_turn",
+      "members": [
+        {
+          "key": "s1",
+          "ordinal": 1,
+          "member_level": "g_1min",
+          "member_status": "COMPLETED_LOWER_LEVEL_TYPE_ASSERTED_SYNTHETIC",
+          "completed_at_tick": 1,
+          "first_known_tick": 1,
+          "low": 20,
+          "high": 28
+        },
+        {
+          "key": "s2",
+          "ordinal": 2,
+          "member_level": "g_1min",
+          "member_status": "COMPLETED_LOWER_LEVEL_TYPE_ASSERTED_SYNTHETIC",
+          "completed_at_tick": 2,
+          "first_known_tick": 2,
+          "low": 21,
+          "high": 27
+        },
+        {
+          "key": "s3",
+          "ordinal": 3,
+          "member_level": "g_1min",
+          "member_status": "COMPLETED_LOWER_LEVEL_TYPE_ASSERTED_SYNTHETIC",
+          "completed_at_tick": 4,
+          "first_known_tick": 5,
+          "low": 22,
+          "high": 26
+        }
+      ],
+      "checkpoints": [
+        {
+          "asof_tick": 2,
+          "state": "PENDING_THIRD_MEMBER_FIRST_KNOWABLE_TIME",
+          "intersection": null,
+          "visible": [
+            "s1",
+            "s2"
+          ],
+          "risk_exit": false
+        },
+        {
+          "asof_tick": 4,
+          "state": "PENDING_THIRD_MEMBER_FIRST_KNOWABLE_TIME",
+          "intersection": null,
+          "visible": [
+            "s1",
+            "s2"
+          ],
+          "risk_exit": false
+        },
+        {
+          "asof_tick": 5,
+          "state": "THREE_ASSERTED_COMPLETE_MEMBERS_POSITIVE_OVERLAP_ONLY",
+          "intersection": [
+            22,
+            26
+          ],
+          "visible": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "risk_exit": false
+        }
+      ]
+    },
+    {
+      "source_case_id": "KX-CASE-04",
+      "source_answer_ids": [
+        "A074",
+        "A095"
+      ],
+      "origin": "SYNTHETIC_SYMBOLS_NOT_MARKET",
+      "scope": "g_30min|policy_R_demo|segment_D",
+      "target_level": "g_30min",
+      "lower_level": "g_5min",
+      "policy": "policy_R_demo",
+      "segment_instance": "segment_D",
+      "candidate": "structure_intact",
+      "members": [
+        {
+          "key": "r1",
+          "ordinal": 1,
+          "member_level": "g_5min",
+          "member_status": "COMPLETED_LOWER_LEVEL_TYPE_ASSERTED_SYNTHETIC",
+          "completed_at_tick": 1,
+          "first_known_tick": 1,
+          "low": 11,
+          "high": 20
+        },
+        {
+          "key": "r2",
+          "ordinal": 2,
+          "member_level": "g_5min",
+          "member_status": "COMPLETED_LOWER_LEVEL_TYPE_ASSERTED_SYNTHETIC",
+          "completed_at_tick": 2,
+          "first_known_tick": 2,
+          "low": 12,
+          "high": 19
+        },
+        {
+          "key": "r3",
+          "ordinal": 3,
+          "member_level": "g_5min",
+          "member_status": "COMPLETED_LOWER_LEVEL_TYPE_ASSERTED_SYNTHETIC",
+          "completed_at_tick": 3,
+          "first_known_tick": 3,
+          "low": 13,
+          "high": 18
+        }
+      ],
+      "checkpoints": [
+        {
+          "asof_tick": 3,
+          "state": "THREE_ASSERTED_COMPLETE_MEMBERS_POSITIVE_OVERLAP_ONLY",
+          "intersection": [
+            13,
+            18
+          ],
+          "visible": [
+            "r1",
+            "r2",
+            "r3"
+          ],
+          "risk_exit": false
+        },
+        {
+          "asof_tick": 4,
+          "state": "THREE_ASSERTED_COMPLETE_MEMBERS_POSITIVE_OVERLAP_ONLY",
+          "intersection": [
+            13,
+            18
+          ],
+          "visible": [
+            "r1",
+            "r2",
+            "r3"
+          ],
+          "risk_exit": true
+        }
+      ]
+    },
+    {
+      "source_case_id": "KX-CASE-07",
+      "source_answer_ids": [
+        "A016",
+        "A026",
+        "A058"
+      ],
+      "origin": "SYNTHETIC_SYMBOLS_NOT_MARKET",
+      "scope": "g_30min|policy_R_demo|segment_G",
+      "target_level": "g_30min",
+      "lower_level": "g_5min",
+      "policy": "policy_R_demo",
+      "segment_instance": "segment_G",
+      "candidate": "higher_center_future",
+      "members": [
+        {
+          "key": "h1",
+          "ordinal": 1,
+          "member_level": "g_5min",
+          "member_status": "COMPLETED_LOWER_LEVEL_TYPE_ASSERTED_SYNTHETIC",
+          "completed_at_tick": 1,
+          "first_known_tick": 1,
+          "low": 30,
+          "high": 34
+        },
+        {
+          "key": "h2",
+          "ordinal": 2,
+          "member_level": "g_5min",
+          "member_status": "COMPLETED_LOWER_LEVEL_TYPE_ASSERTED_SYNTHETIC",
+          "completed_at_tick": 2,
+          "first_known_tick": 2,
+          "low": 31,
+          "high": 35
+        }
+      ],
+      "checkpoints": [
+        {
+          "asof_tick": 2,
+          "state": "PENDING_THREE_MEMBERS",
+          "intersection": null,
+          "visible": [
+            "h1",
+            "h2"
+          ],
+          "risk_exit": false
+        },
+        {
+          "asof_tick": 100,
+          "state": "PENDING_THREE_MEMBERS",
+          "intersection": null,
+          "visible": [
+            "h1",
+            "h2"
+          ],
+          "risk_exit": false
+        }
+      ]
+    }
+  ]
+}

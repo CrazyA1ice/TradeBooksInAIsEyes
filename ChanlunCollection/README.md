@@ -1,5 +1,7 @@
 # ChanlunCollection｜《缠论》五卷108课完整研究档案
 
+**v4.53 三已完成次级段区间交叠的首次可知桥：**[报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_THREE_COMPLETED_MEMBER_ASOF_BRIDGE_V453.md)、[Python工具](tools/audit_kaixiang_center_asof_bridge.py)、[合成5例](tests/fixtures/kaixiang_center_asof_bridge_v453.json)、[测试](tests/test_kaixiang_center_asof_bridge.py)。只证明三段已声称完成且在时点可知时有价格重叠，不升级为完整缠论中枢/买卖点认证。
+
 **v4.52 凯翔动态排除法可执行反前视检验：**[完整研究报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_CANDIDATE_EXCLUSION_CLOSED_WORLD_AND_RISK_GATE_V452.md)、[审计代码](tools/audit_kaixiang_asof_candidates.py)、[八组纯符号fixture](tests/fixtures/kaixiang_asof_symbolic_v452.json)及[反前视测试](tests/test_kaixiang_asof_candidates.py)。输出区分一项剩余与真实已完成类型、账户风险提示与真正成交。
 
 **v4.51 凯翔排除法的当下可信度：**[A026三候选、A073趋势末端不确定、A061跨级扩张、A074/A095止损不同语境的无前视审计](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_ASOF_ELIMINATION_VS_STRUCTURAL_STOPS_V451.md)。附[8条来源明确的机器可读反事实契约](OtherVoices/speaker-unknown-001/decision_audit_v451.json)，严格标研究者框架而非高手私有算法。评论无可认证新增。
