@@ -1,0 +1,1346 @@
+{
+  "schema_version": 1,
+  "account_name_from_export": "凯翔",
+  "account_url": "https://www.zhihu.com/people/tsk-47-98",
+  "identity_level": "USER_SUPPLIED_EXPORT_NOT_PLATFORM_VERIFIED",
+  "source_file": "answers-2026-11-11.md",
+  "original_filename": "answers(1).md",
+  "source_sha256": "3fb9f3255cffe62a93f5473cfbf003f15d4c60ae8ee4d9f2e4e56083b935b7b9",
+  "git_blob_sha1": "3dda9aee3ecda29f48e86381315d21dd3d736aeb",
+  "bytes": 130167,
+  "line_endings": "CRLF",
+  "export_datetime_local_unspecified_offset": "2026-11-11 16:06",
+  "answer_count": 100,
+  "unique_answer_urls": 100,
+  "explicit_chanlun_mentions": 31,
+  "independent_comment_records": 0,
+  "comment_warning": "MISSING_IN_UPLOADED_EXPORT_NOT_ZERO_ON_ZHIHU",
+  "duplicate_notes": [
+    {
+      "answers": [
+        "A089",
+        "A090"
+      ],
+      "kind": "same six points; A090 adds a brief introductory phrase"
+    },
+    {
+      "answers": [
+        "A038",
+        "A039"
+      ],
+      "kind": "same short body"
+    }
+  ],
+  "third_party_quote_answer": "A007",
+  "answers": [
+    {
+      "id": "A001",
+      "title": "为什么做交易厉害的人不喜欢带人？",
+      "url": "https://www.zhihu.com/question/1887805487786987607/answer/2062338856758798016",
+      "answer_id": "2062338856758798016",
+      "published_at_export": "2026-07-20 00:51",
+      "source_line_start": 9,
+      "body_characters": 715,
+      "tags": [
+        "chanlun-explicit",
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A002",
+      "title": "交易心态修炼的核心是什么？",
+      "url": "https://www.zhihu.com/question/12991610539/answer/2026806640024778084",
+      "answer_id": "2026806640024778084",
+      "published_at_export": "2026-04-12 23:39",
+      "source_line_start": 38,
+      "body_characters": 294,
+      "tags": [
+        "execution",
+        "causal-model",
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A003",
+      "title": "真正的交易者应是什么样的？",
+      "url": "https://www.zhihu.com/question/466421913/answer/2014259178890347065",
+      "answer_id": "2014259178890347065",
+      "published_at_export": "2026-03-09 08:40",
+      "source_line_start": 54,
+      "body_characters": 121,
+      "tags": [
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A004",
+      "title": "为什么成功的交易员都不建议别人做交易？",
+      "url": "https://www.zhihu.com/question/55823923/answer/1990796659232362496",
+      "answer_id": "1990796659232362496",
+      "published_at_export": "2026-01-03 14:48",
+      "source_line_start": 72,
+      "body_characters": 635,
+      "tags": [
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A005",
+      "title": "为什么明明35岁以上的员工更稳定，招聘时不要，被裁的也是他们？",
+      "url": "https://www.zhihu.com/question/659022679/answer/1989208785919684691",
+      "answer_id": "1989208785919684691",
+      "published_at_export": "2025-12-30 05:38",
+      "source_line_start": 90,
+      "body_characters": 360,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A006",
+      "title": "投资交易怎么才能让自己的心态很平和？",
+      "url": "https://www.zhihu.com/question/635335982/answer/1988977518120829390",
+      "answer_id": "1988977518120829390",
+      "published_at_export": "2025-12-29 14:19",
+      "source_line_start": 108,
+      "body_characters": 566,
+      "tags": [
+        "causal-model",
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A007",
+      "title": "交易到底有没有秘密，或者说交易最核心的是什么？",
+      "url": "https://www.zhihu.com/question/584511060/answer/1985506193423225926",
+      "answer_id": "1985506193423225926",
+      "published_at_export": "2025-12-20 00:26",
+      "source_line_start": 132,
+      "body_characters": 514,
+      "tags": [
+        "structure-and-levels",
+        "execution",
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": true
+    },
+    {
+      "id": "A008",
+      "title": "30岁前后，你花了最长时间才想通的道理是什么？",
+      "url": "https://www.zhihu.com/question/1983602162371141693/answer/1983658687097743218",
+      "answer_id": "1983658687097743218",
+      "published_at_export": "2025-12-14 22:04",
+      "source_line_start": 183,
+      "body_characters": 112,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A009",
+      "title": "人人都说炒股难，到底难在什么地方？",
+      "url": "https://www.zhihu.com/question/1976019073918861331/answer/1979882927027401731",
+      "answer_id": "1979882927027401731",
+      "published_at_export": "2025-12-04 12:01",
+      "source_line_start": 197,
+      "body_characters": 287,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A010",
+      "title": "通俗地讲，什么是交易逻辑？",
+      "url": "https://www.zhihu.com/question/55627060/answer/1979874290846409087",
+      "answer_id": "1979874290846409087",
+      "published_at_export": "2025-12-04 11:26",
+      "source_line_start": 217,
+      "body_characters": 50,
+      "tags": [
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A011",
+      "title": "做交易，如何才能打心眼里爱上止损，有可能吗？",
+      "url": "https://www.zhihu.com/question/435159789/answer/1979605689514079589",
+      "answer_id": "1979605689514079589",
+      "published_at_export": "2025-12-03 17:39",
+      "source_line_start": 229,
+      "body_characters": 424,
+      "tags": [
+        "execution"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A012",
+      "title": "每个人说一个行业的秘密吧？",
+      "url": "https://www.zhihu.com/question/368062487/answer/1955944105688413424",
+      "answer_id": "1955944105688413424",
+      "published_at_export": "2025-09-29 10:36",
+      "source_line_start": 249,
+      "body_characters": 110,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A013",
+      "title": "如何炒股才能百战百胜？",
+      "url": "https://www.zhihu.com/question/659765150/answer/1950854810808082521",
+      "answer_id": "1950854810808082521",
+      "published_at_export": "2025-09-15 09:33",
+      "source_line_start": 261,
+      "body_characters": 71,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A014",
+      "title": "炒股人悟到了什么，才算是悟道了？",
+      "url": "https://www.zhihu.com/question/600060146/answer/1950601282369851436",
+      "answer_id": "1950601282369851436",
+      "published_at_export": "2025-09-14 16:46",
+      "source_line_start": 273,
+      "body_characters": 648,
+      "tags": [
+        "structure-and-levels",
+        "execution",
+        "causal-model",
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A015",
+      "title": "想学缠论，应该看哪本书？",
+      "url": "https://www.zhihu.com/question/386727740/answer/1943916084915860281",
+      "answer_id": "1943916084915860281",
+      "published_at_export": "2025-08-27 06:01",
+      "source_line_start": 296,
+      "body_characters": 466,
+      "tags": [
+        "chanlun-explicit",
+        "structure-and-levels"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A016",
+      "title": "各位大神，缠论最核心的是不是说的盘整？",
+      "url": "https://www.zhihu.com/question/1939969122378188363/answer/1939986384359235980",
+      "answer_id": "1939986384359235980",
+      "published_at_export": "2025-08-16 09:46",
+      "source_line_start": 316,
+      "body_characters": 153,
+      "tags": [
+        "chanlun-explicit",
+        "structure-and-levels"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A017",
+      "title": "交易市场十数年，能谈谈对止盈的见解与看法?",
+      "url": "https://www.zhihu.com/question/4360777234/answer/1939090639397558158",
+      "answer_id": "1939090639397558158",
+      "published_at_export": "2025-08-13 22:27",
+      "source_line_start": 340,
+      "body_characters": 65,
+      "tags": [
+        "structure-and-levels",
+        "execution"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A018",
+      "title": "为什么越学习，对交易越没有信心？怎么解？",
+      "url": "https://www.zhihu.com/question/1910477074298304019/answer/1939086554527142341",
+      "answer_id": "1939086554527142341",
+      "published_at_export": "2025-08-13 22:11",
+      "source_line_start": 352,
+      "body_characters": 100,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A019",
+      "title": "请问下怎么培养交易的耐心呀?",
+      "url": "https://www.zhihu.com/question/665063848/answer/1932217798945374819",
+      "answer_id": "1932217798945374819",
+      "published_at_export": "2025-07-25 23:17",
+      "source_line_start": 370,
+      "body_characters": 585,
+      "tags": [
+        "structure-and-levels",
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A020",
+      "title": "严重怀疑交易悟道个伪命题，根本就不存在悟道一说对吗？",
+      "url": "https://www.zhihu.com/question/1914461113510262417/answer/1931315110095360269",
+      "answer_id": "1931315110095360269",
+      "published_at_export": "2025-07-23 11:30",
+      "source_line_start": 400,
+      "body_characters": 781,
+      "tags": [
+        "causal-model",
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A021",
+      "title": "你认为真的有交易的圣杯吗？",
+      "url": "https://www.zhihu.com/question/451984238/answer/1930773511472936577",
+      "answer_id": "1930773511472936577",
+      "published_at_export": "2025-07-21 23:37",
+      "source_line_start": 422,
+      "body_characters": 106,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A022",
+      "title": "我好像顿悟了交易获利的本质逻辑，有没有高手来看看对不对?",
+      "url": "https://www.zhihu.com/question/1889062352055412413/answer/1925084875104429203",
+      "answer_id": "1925084875104429203",
+      "published_at_export": "2025-07-06 06:53",
+      "source_line_start": 436,
+      "body_characters": 1028,
+      "tags": [
+        "execution",
+        "causal-model",
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A023",
+      "title": "交易最重要的是什么？",
+      "url": "https://www.zhihu.com/question/457311590/answer/1923149267473797198",
+      "answer_id": "1923149267473797198",
+      "published_at_export": "2025-06-30 22:41",
+      "source_line_start": 464,
+      "body_characters": 52,
+      "tags": [
+        "execution",
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A024",
+      "title": "做交易的本质是什么？",
+      "url": "https://www.zhihu.com/question/431421989/answer/1912562672978867357",
+      "answer_id": "1912562672978867357",
+      "published_at_export": "2025-06-01 17:34",
+      "source_line_start": 482,
+      "body_characters": 53,
+      "tags": [
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A025",
+      "title": "交易者需要多长时间，付出多少成本才能成为一个出色的交易者？",
+      "url": "https://www.zhihu.com/question/567208207/answer/1911238780138030509",
+      "answer_id": "1911238780138030509",
+      "published_at_export": "2025-05-29 01:53",
+      "source_line_start": 494,
+      "body_characters": 579,
+      "tags": [
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A026",
+      "title": "缠论的不测而测，还是技术吗？为什么可以不测而测呢？",
+      "url": "https://www.zhihu.com/question/1908775952865010029/answer/1909154539594027495",
+      "answer_id": "1909154539594027495",
+      "published_at_export": "2025-05-23 07:51",
+      "source_line_start": 523,
+      "body_characters": 1286,
+      "tags": [
+        "chanlun-explicit",
+        "structure-and-levels",
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A027",
+      "title": "普通人能够“开悟”或者“大彻大悟”么？",
+      "url": "https://www.zhihu.com/question/1905878853529890854/answer/1908980031851570617",
+      "answer_id": "1908980031851570617",
+      "published_at_export": "2025-05-22 20:18",
+      "source_line_start": 577,
+      "body_characters": 335,
+      "tags": [
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A028",
+      "title": "从进入交易开始 你用了多长时间真正感觉自己悟道了并稳定盈利了？",
+      "url": "https://www.zhihu.com/question/343638603/answer/1908972138301486617",
+      "answer_id": "1908972138301486617",
+      "published_at_export": "2025-05-22 19:47",
+      "source_line_start": 593,
+      "body_characters": 482,
+      "tags": [
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A029",
+      "title": "交易的最高境界到底是什么？",
+      "url": "https://www.zhihu.com/question/67967791/answer/1908613213848860563",
+      "answer_id": "1908613213848860563",
+      "published_at_export": "2025-05-21 20:00",
+      "source_line_start": 617,
+      "body_characters": 56,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A030",
+      "title": "交易方法满大街，但能持久盈利的核心或本质是什么？",
+      "url": "https://www.zhihu.com/question/785414329/answer/1908610191227859409",
+      "answer_id": "1908610191227859409",
+      "published_at_export": "2025-05-21 19:48",
+      "source_line_start": 629,
+      "body_characters": 59,
+      "tags": [
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A031",
+      "title": "为什么知乎有这么多看着像稳定盈利的交易高手？",
+      "url": "https://www.zhihu.com/question/1904888856634957914/answer/1905923402251868114",
+      "answer_id": "1905923402251868114",
+      "published_at_export": "2025-05-14 09:52",
+      "source_line_start": 641,
+      "body_characters": 97,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A032",
+      "title": "你所经历的哪些事情让你怀疑这个世界是假的/有 bug 的？",
+      "url": "https://www.zhihu.com/question/61917117/answer/1890797178378756751",
+      "answer_id": "1890797178378756751",
+      "published_at_export": "2025-04-02 16:06",
+      "source_line_start": 653,
+      "body_characters": 929,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A033",
+      "title": "为什么90%的散户亏钱？",
+      "url": "https://www.zhihu.com/question/13319265470/answer/1890188935336019090",
+      "answer_id": "1890188935336019090",
+      "published_at_export": "2025-03-31 23:49",
+      "source_line_start": 673,
+      "body_characters": 32,
+      "tags": [
+        "execution"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A034",
+      "title": "炒股十天赚来的钱一天就赔光，这是为什么？",
+      "url": "https://www.zhihu.com/question/658831054/answer/1890187047781761419",
+      "answer_id": "1890187047781761419",
+      "published_at_export": "2025-03-31 23:41",
+      "source_line_start": 687,
+      "body_characters": 303,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A035",
+      "title": "如何理解天之道，损有余以补不足，人之道，损不足以奉有余？",
+      "url": "https://www.zhihu.com/question/433188481/answer/126751480016",
+      "answer_id": "126751480016",
+      "published_at_export": "2025-03-17 23:50",
+      "source_line_start": 707,
+      "body_characters": 399,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A036",
+      "title": "你曾经买过最后悔的东西是什么？",
+      "url": "https://www.zhihu.com/question/351426844/answer/124331458195",
+      "answer_id": "124331458195",
+      "published_at_export": "2025-03-14 17:06",
+      "source_line_start": 731,
+      "body_characters": 395,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A037",
+      "title": "为什么日子变得没有意思没有盼头?",
+      "url": "https://www.zhihu.com/question/14827485465/answer/123212845786",
+      "answer_id": "123212845786",
+      "published_at_export": "2025-03-13 11:00",
+      "source_line_start": 773,
+      "body_characters": 151,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A038",
+      "title": "交易的核心精髓是什么？",
+      "url": "https://www.zhihu.com/question/315434260/answer/122954807166",
+      "answer_id": "122954807166",
+      "published_at_export": "2025-03-12 22:56",
+      "source_line_start": 787,
+      "body_characters": 7,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A039",
+      "title": "交易的核心是什么？",
+      "url": "https://www.zhihu.com/question/556318718/answer/122954012766",
+      "answer_id": "122954012766",
+      "published_at_export": "2025-03-12 22:55",
+      "source_line_start": 797,
+      "body_characters": 7,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A040",
+      "title": "如何看待不信神佛的人?",
+      "url": "https://www.zhihu.com/question/10250287117/answer/120987189157",
+      "answer_id": "120987189157",
+      "published_at_export": "2025-03-10 15:24",
+      "source_line_start": 807,
+      "body_characters": 426,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A041",
+      "title": "2025年AI技术冲击下，普通人如何避免失业并抓住新机遇？",
+      "url": "https://www.zhihu.com/question/14296916398/answer/118500422897",
+      "answer_id": "118500422897",
+      "published_at_export": "2025-03-07 11:12",
+      "source_line_start": 827,
+      "body_characters": 1093,
+      "tags": [
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A042",
+      "title": "为什么现在的年轻人越来越迷信了？",
+      "url": "https://www.zhihu.com/question/13407582809/answer/117642776144",
+      "answer_id": "117642776144",
+      "published_at_export": "2025-03-06 11:12",
+      "source_line_start": 863,
+      "body_characters": 206,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A043",
+      "title": "为什么大多数人会感到不幸福?",
+      "url": "https://www.zhihu.com/question/22728934/answer/117247729110",
+      "answer_id": "117247729110",
+      "published_at_export": "2025-03-05 21:03",
+      "source_line_start": 879,
+      "body_characters": 687,
+      "tags": [
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A044",
+      "title": "有没有最笨最简单的炒股方法？",
+      "url": "https://www.zhihu.com/question/600372729/answer/115334403970",
+      "answer_id": "115334403970",
+      "published_at_export": "2025-03-03 18:12",
+      "source_line_start": 907,
+      "body_characters": 54,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A045",
+      "title": "如何在交易中将资金和时间用到极致，并获得好的收益？",
+      "url": "https://www.zhihu.com/question/12528527091/answer/113512429325",
+      "answer_id": "113512429325",
+      "published_at_export": "2025-03-01 13:42",
+      "source_line_start": 919,
+      "body_characters": 123,
+      "tags": [
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A046",
+      "title": "交易的天赋是什么？",
+      "url": "https://www.zhihu.com/question/453209177/answer/113505794565",
+      "answer_id": "113505794565",
+      "published_at_export": "2025-03-01 13:33",
+      "source_line_start": 935,
+      "body_characters": 34,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A047",
+      "title": "30岁想转行，却担心沉没成本太高，该如何抉择？",
+      "url": "https://www.zhihu.com/question/13724239684/answer/113503394800",
+      "answer_id": "113503394800",
+      "published_at_export": "2025-03-01 13:29",
+      "source_line_start": 945,
+      "body_characters": 572,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A048",
+      "title": "长期炒股盈利的人，为什么不会告诉别人自己炒股的秘诀？",
+      "url": "https://www.zhihu.com/question/641320022/answer/109401627410",
+      "answer_id": "109401627410",
+      "published_at_export": "2025-02-24 21:24",
+      "source_line_start": 967,
+      "body_characters": 849,
+      "tags": [
+        "causal-model",
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A049",
+      "title": "缠论应该怎么学?",
+      "url": "https://www.zhihu.com/question/13159050101/answer/108796745212",
+      "answer_id": "108796745212",
+      "published_at_export": "2025-02-24 09:20",
+      "source_line_start": 993,
+      "body_characters": 86,
+      "tags": [
+        "chanlun-explicit",
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A050",
+      "title": "炒股这么多年，你最大感悟是什么？",
+      "url": "https://www.zhihu.com/question/660601784/answer/100939216700",
+      "answer_id": "100939216700",
+      "published_at_export": "2025-02-14 17:12",
+      "source_line_start": 1005,
+      "body_characters": 81,
+      "tags": [
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A051",
+      "title": "交易真的有“道”吗？",
+      "url": "https://www.zhihu.com/question/12094345493/answer/100333543549",
+      "answer_id": "100333543549",
+      "published_at_export": "2025-02-13 23:33",
+      "source_line_start": 1019,
+      "body_characters": 726,
+      "tags": [
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A052",
+      "title": "为什么绝大多数人没办法在股市赚到钱？",
+      "url": "https://www.zhihu.com/question/9914313759/answer/98596407622",
+      "answer_id": "98596407622",
+      "published_at_export": "2025-02-11 23:08",
+      "source_line_start": 1046,
+      "body_characters": 383,
+      "tags": [
+        "causal-model",
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A053",
+      "title": "期货交易悟道，悟的是什么道？",
+      "url": "https://www.zhihu.com/question/5497717489/answer/81877383121",
+      "answer_id": "81877383121",
+      "published_at_export": "2025-01-18 11:50",
+      "source_line_start": 1064,
+      "body_characters": 271,
+      "tags": [
+        "causal-model",
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A054",
+      "title": "交易者最稀缺的是什么？",
+      "url": "https://www.zhihu.com/question/585044811/answer/79549270327",
+      "answer_id": "79549270327",
+      "published_at_export": "2025-01-15 10:38",
+      "source_line_start": 1078,
+      "body_characters": 186,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A055",
+      "title": "交易的逻辑重要还是技术重要？",
+      "url": "https://www.zhihu.com/question/594705679/answer/79539093417",
+      "answer_id": "79539093417",
+      "published_at_export": "2025-01-15 10:26",
+      "source_line_start": 1098,
+      "body_characters": 86,
+      "tags": [
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A056",
+      "title": "交易的底层逻辑是什么？",
+      "url": "https://www.zhihu.com/question/658098268/answer/78253953140",
+      "answer_id": "78253953140",
+      "published_at_export": "2025-01-13 16:50",
+      "source_line_start": 1112,
+      "body_characters": 16,
+      "tags": [
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A057",
+      "title": "会缠论的大佬会收徒弟嘛？",
+      "url": "https://www.zhihu.com/question/9400557407/answer/77956283409",
+      "answer_id": "77956283409",
+      "published_at_export": "2025-01-13 10:38",
+      "source_line_start": 1126,
+      "body_characters": 1065,
+      "tags": [
+        "chanlun-explicit",
+        "structure-and-levels"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A058",
+      "title": "请问真正的交易高手，能否把你们最舍不得分享的交易秘诀，用简单的一两句话暗示一下？谢谢！？",
+      "url": "https://www.zhihu.com/question/425638863/answer/76172114585",
+      "answer_id": "76172114585",
+      "published_at_export": "2025-01-10 16:08",
+      "source_line_start": 1156,
+      "body_characters": 261,
+      "tags": [
+        "structure-and-levels"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A059",
+      "title": "交易多久能够成为高手?",
+      "url": "https://www.zhihu.com/question/653635431/answer/73639460252",
+      "answer_id": "73639460252",
+      "published_at_export": "2025-01-07 14:40",
+      "source_line_start": 1178,
+      "body_characters": 739,
+      "tags": [
+        "execution",
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A060",
+      "title": "缠论并没有写完，但为什么仍有人成功靠缠论赚到钱了？",
+      "url": "https://www.zhihu.com/question/564856229/answer/61721424498",
+      "answer_id": "61721424498",
+      "published_at_export": "2024-12-23 10:48",
+      "source_line_start": 1255,
+      "body_characters": 255,
+      "tags": [
+        "chanlun-explicit",
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A061",
+      "title": "缠论的难点有哪些？",
+      "url": "https://www.zhihu.com/question/428222511/answer/60888355847",
+      "answer_id": "60888355847",
+      "published_at_export": "2024-12-22 01:17",
+      "source_line_start": 1282,
+      "body_characters": 459,
+      "tags": [
+        "chanlun-explicit",
+        "structure-and-levels",
+        "execution",
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A062",
+      "title": "从级别方面看线段和走势类型有什么区别？",
+      "url": "https://www.zhihu.com/question/434662413/answer/53263874696",
+      "answer_id": "53263874696",
+      "published_at_export": "2024-12-11 23:34",
+      "source_line_start": 1308,
+      "body_characters": 338,
+      "tags": [
+        "chanlun-explicit",
+        "structure-and-levels"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A063",
+      "title": "为什么很多人不懂股票还在炒股？",
+      "url": "https://www.zhihu.com/question/3195969657/answer/28246713145",
+      "answer_id": "28246713145",
+      "published_at_export": "2024-11-11 10:29",
+      "source_line_start": 1331,
+      "body_characters": 468,
+      "tags": [
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A064",
+      "title": "为什么很多人失业后就不再工作了？",
+      "url": "https://www.zhihu.com/question/790229993/answer/13810206718",
+      "answer_id": "13810206718",
+      "published_at_export": "2024-10-24 18:18",
+      "source_line_start": 1364,
+      "body_characters": 809,
+      "tags": [
+        "structure-and-levels",
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A065",
+      "title": "该如何应用缠论操作好三买，并且做好缠论三买止损？",
+      "url": "https://www.zhihu.com/question/1561367251/answer/11555921335",
+      "answer_id": "11555921335",
+      "published_at_export": "2024-10-22 09:49",
+      "source_line_start": 1390,
+      "body_characters": 125,
+      "tags": [
+        "chanlun-explicit",
+        "structure-and-levels",
+        "execution"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A066",
+      "title": "如何利用缠论防狼术去定位市场的牛与熊？",
+      "url": "https://www.zhihu.com/question/1560766336/answer/11540868946",
+      "answer_id": "11540868946",
+      "published_at_export": "2024-10-22 09:34",
+      "source_line_start": 1408,
+      "body_characters": 52,
+      "tags": [
+        "chanlun-explicit"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A067",
+      "title": "炒股的基本功是什么？",
+      "url": "https://www.zhihu.com/question/326998351/answer/11375220787",
+      "answer_id": "11375220787",
+      "published_at_export": "2024-10-22 00:44",
+      "source_line_start": 1420,
+      "body_characters": 130,
+      "tags": [
+        "chanlun-explicit",
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A068",
+      "title": "为什么知乎上很多交易者都在问怎么悟道？",
+      "url": "https://www.zhihu.com/question/275087993/answer/3637611529",
+      "answer_id": "3637611529",
+      "published_at_export": "2024-09-26 12:52",
+      "source_line_start": 1436,
+      "body_characters": 464,
+      "tags": [
+        "execution",
+        "causal-model",
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A069",
+      "title": "缠论高手总说级别与时间没有关系，可能吗？",
+      "url": "https://www.zhihu.com/question/427024293/answer/3625728668",
+      "answer_id": "3625728668",
+      "published_at_export": "2024-09-14 22:16",
+      "source_line_start": 1456,
+      "body_characters": 267,
+      "tags": [
+        "chanlun-explicit",
+        "structure-and-levels",
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A070",
+      "title": "有没有人因为炒股毁掉自己的人生？",
+      "url": "https://www.zhihu.com/question/662551343/answer/3574962586",
+      "answer_id": "3574962586",
+      "published_at_export": "2024-07-27 09:36",
+      "source_line_start": 1480,
+      "body_characters": 552,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A071",
+      "title": "缠论线段划分，线段的破坏和形成是否有3种情况？",
+      "url": "https://www.zhihu.com/question/662534390/answer/3574920338",
+      "answer_id": "3574920338",
+      "published_at_export": "2024-07-27 08:46",
+      "source_line_start": 1504,
+      "body_characters": 37,
+      "tags": [
+        "chanlun-explicit",
+        "structure-and-levels"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A072",
+      "title": "为什么缠中说禅在缠徒心中“誉冠全球”在外人听都没谁听过？",
+      "url": "https://www.zhihu.com/question/662259873/answer/3570361667",
+      "answer_id": "3570361667",
+      "published_at_export": "2024-07-23 01:47",
+      "source_line_start": 1514,
+      "body_characters": 338,
+      "tags": [
+        "chanlun-explicit"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A073",
+      "title": "顺势交易系统真的有用吗？",
+      "url": "https://www.zhihu.com/question/460755177/answer/3558993032",
+      "answer_id": "3558993032",
+      "published_at_export": "2024-07-11 21:51",
+      "source_line_start": 1530,
+      "body_characters": 651,
+      "tags": [
+        "structure-and-levels",
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A074",
+      "title": "你们缠论怎么止损的？",
+      "url": "https://www.zhihu.com/question/659943842/answer/3544513740",
+      "answer_id": "3544513740",
+      "published_at_export": "2024-06-28 06:39",
+      "source_line_start": 1558,
+      "body_characters": 240,
+      "tags": [
+        "chanlun-explicit",
+        "structure-and-levels",
+        "execution",
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A075",
+      "title": "学过缠论，你最大的心得体会是什么？",
+      "url": "https://www.zhihu.com/question/445776429/answer/3542224138",
+      "answer_id": "3542224138",
+      "published_at_export": "2024-06-26 01:00",
+      "source_line_start": 1576,
+      "body_characters": 448,
+      "tags": [
+        "chanlun-explicit",
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A076",
+      "title": "为什么所有缠徒都升级成圣人了，还是没有人赚钱？",
+      "url": "https://www.zhihu.com/question/659409915/answer/3536557767",
+      "answer_id": "3536557767",
+      "published_at_export": "2024-06-20 15:08",
+      "source_line_start": 1600,
+      "body_characters": 92,
+      "tags": [
+        "chanlun-explicit"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A077",
+      "title": "为什么说走上缠中说禅歪门邪道的人这辈子也没法回头？",
+      "url": "https://www.zhihu.com/question/659050853/answer/3533701136",
+      "answer_id": "3533701136",
+      "published_at_export": "2024-06-17 23:53",
+      "source_line_start": 1614,
+      "body_characters": 1125,
+      "tags": [
+        "chanlun-explicit",
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A078",
+      "title": "你从什么时候开始感觉缠论成了你精神负担的源泉？",
+      "url": "https://www.zhihu.com/question/659136603/answer/3533077256",
+      "answer_id": "3533077256",
+      "published_at_export": "2024-06-17 13:10",
+      "source_line_start": 1652,
+      "body_characters": 40,
+      "tags": [
+        "chanlun-explicit"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A079",
+      "title": "为什么绝大多数的人都学不会缠论？",
+      "url": "https://www.zhihu.com/question/557563845/answer/3533007158",
+      "answer_id": "3533007158",
+      "published_at_export": "2024-06-17 11:56",
+      "source_line_start": 1664,
+      "body_characters": 1842,
+      "tags": [
+        "chanlun-explicit",
+        "structure-and-levels",
+        "execution",
+        "causal-model",
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A080",
+      "title": "缠论到底是要告诉我们什么东西？",
+      "url": "https://www.zhihu.com/question/658149573/answer/3531740376",
+      "answer_id": "3531740376",
+      "published_at_export": "2024-06-16 00:07",
+      "source_line_start": 1723,
+      "body_characters": 400,
+      "tags": [
+        "chanlun-explicit",
+        "causal-model",
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A081",
+      "title": "写《十年一梦》的青泽，到底厉不厉害？",
+      "url": "https://www.zhihu.com/question/31885355/answer/3531690953",
+      "answer_id": "3531690953",
+      "published_at_export": "2024-06-15 23:00",
+      "source_line_start": 1741,
+      "body_characters": 264,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A082",
+      "title": "缠论的作者最终表达的是啥？",
+      "url": "https://www.zhihu.com/question/658149661/answer/3531642114",
+      "answer_id": "3531642114",
+      "published_at_export": "2024-06-15 22:00",
+      "source_line_start": 1755,
+      "body_characters": 440,
+      "tags": [
+        "chanlun-explicit"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A083",
+      "title": "为什么缠论终将没落？",
+      "url": "https://www.zhihu.com/question/578889397/answer/3530259712",
+      "answer_id": "3530259712",
+      "published_at_export": "2024-06-14 13:45",
+      "source_line_start": 1779,
+      "body_characters": 712,
+      "tags": [
+        "chanlun-explicit",
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A084",
+      "title": "缠论知识点的底层逻辑是什么？",
+      "url": "https://www.zhihu.com/question/653759989/answer/3529700708",
+      "answer_id": "3529700708",
+      "published_at_export": "2024-06-13 23:28",
+      "source_line_start": 1809,
+      "body_characters": 339,
+      "tags": [
+        "chanlun-explicit",
+        "structure-and-levels",
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A085",
+      "title": "你认为炒股最重要的是什么？",
+      "url": "https://www.zhihu.com/question/654388108/answer/3524620893",
+      "answer_id": "3524620893",
+      "published_at_export": "2024-06-09 02:43",
+      "source_line_start": 1835,
+      "body_characters": 183,
+      "tags": [
+        "structure-and-levels",
+        "execution",
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A086",
+      "title": "为什么大多数人的认知很低？",
+      "url": "https://www.zhihu.com/question/655189079/answer/3524617862",
+      "answer_id": "3524617862",
+      "published_at_export": "2024-06-09 02:29",
+      "source_line_start": 1855,
+      "body_characters": 19,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A087",
+      "title": "谁能真正讲明白缠论的级别呢？",
+      "url": "https://www.zhihu.com/question/626662382/answer/3523681743",
+      "answer_id": "3523681743",
+      "published_at_export": "2024-06-08 00:28",
+      "source_line_start": 1865,
+      "body_characters": 445,
+      "tags": [
+        "chanlun-explicit",
+        "structure-and-levels",
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A088",
+      "title": "缠论只是提高了认知吗？",
+      "url": "https://www.zhihu.com/question/655428326/answer/3509351869",
+      "answer_id": "3509351869",
+      "published_at_export": "2024-05-25 09:30",
+      "source_line_start": 1881,
+      "body_characters": 255,
+      "tags": [
+        "chanlun-explicit",
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A089",
+      "title": "说说缠论的大坑是啥？大家怎么破？",
+      "url": "https://www.zhihu.com/question/582740277/answer/3501715351",
+      "answer_id": "3501715351",
+      "published_at_export": "2024-05-17 20:02",
+      "source_line_start": 1895,
+      "body_characters": 467,
+      "tags": [
+        "chanlun-explicit",
+        "structure-and-levels",
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A090",
+      "title": "为什么缠论已经尽善尽美了，我还是赚不到钱？",
+      "url": "https://www.zhihu.com/question/626019843/answer/3501712630",
+      "answer_id": "3501712630",
+      "published_at_export": "2024-05-17 19:58",
+      "source_line_start": 1921,
+      "body_characters": 477,
+      "tags": [
+        "chanlun-explicit",
+        "structure-and-levels",
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A091",
+      "title": "为什么高手都在下午尾盘之后再选股？",
+      "url": "https://www.zhihu.com/question/655304426/answer/3493202101",
+      "answer_id": "3493202101",
+      "published_at_export": "2024-05-10 02:11",
+      "source_line_start": 1949,
+      "body_characters": 46,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A092",
+      "title": "交易员顿悟的瞬间是个什么感觉？",
+      "url": "https://www.zhihu.com/question/607430514/answer/3484086554",
+      "answer_id": "3484086554",
+      "published_at_export": "2024-04-30 20:40",
+      "source_line_start": 1959,
+      "body_characters": 353,
+      "tags": [
+        "causal-model",
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A093",
+      "title": "明明长线比短线更容易赚钱，为什么散户更加执着于做短线？",
+      "url": "https://www.zhihu.com/question/654579609/answer/3483824679",
+      "answer_id": "3483824679",
+      "published_at_export": "2024-04-30 15:38",
+      "source_line_start": 1973,
+      "body_characters": 244,
+      "tags": [
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A094",
+      "title": "作为交易员，你最终的方法是自己顿悟的还是早就烂大街的？",
+      "url": "https://www.zhihu.com/question/305010512/answer/3478727755",
+      "answer_id": "3478727755",
+      "published_at_export": "2024-04-25 23:10",
+      "source_line_start": 1993,
+      "body_characters": 1878,
+      "tags": [
+        "execution",
+        "causal-model"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A095",
+      "title": "炒股如何才能真正稳定盈利呢？",
+      "url": "https://www.zhihu.com/question/652036879/answer/3461638940",
+      "answer_id": "3461638940",
+      "published_at_export": "2024-04-11 01:36",
+      "source_line_start": 2019,
+      "body_characters": 221,
+      "tags": [
+        "execution"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A096",
+      "title": "我爸失业在家天天炒股，真的能赚钱吗？",
+      "url": "https://www.zhihu.com/question/651816978/answer/3457780477",
+      "answer_id": "3457780477",
+      "published_at_export": "2024-04-07 22:33",
+      "source_line_start": 2039,
+      "body_characters": 403,
+      "tags": [
+        "chanlun-explicit",
+        "causal-model",
+        "psychology"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A097",
+      "title": "读完了大学，依然是社会底层，读书的意义是什么？",
+      "url": "https://www.zhihu.com/question/628715474/answer/3431186807",
+      "answer_id": "3431186807",
+      "published_at_export": "2024-03-15 10:33",
+      "source_line_start": 2054,
+      "body_characters": 232,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A098",
+      "title": "学习缠论的人为什么都很自卑？",
+      "url": "https://www.zhihu.com/question/648505600/answer/3430901314",
+      "answer_id": "3430901314",
+      "published_at_export": "2024-03-15 02:09",
+      "source_line_start": 2066,
+      "body_characters": 234,
+      "tags": [
+        "chanlun-explicit"
+      ],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A099",
+      "title": "你认为交易最开始先做预判，还是按照行情走势来顺势操作？",
+      "url": "https://www.zhihu.com/question/648208667/answer/3429921024",
+      "answer_id": "3429921024",
+      "published_at_export": "2024-03-14 10:47",
+      "source_line_start": 2078,
+      "body_characters": 63,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    },
+    {
+      "id": "A100",
+      "title": "年轻人在当今社会面对诸多复杂环境及生活状态如何修心？",
+      "url": "https://www.zhihu.com/question/647123655/answer/3419175576",
+      "answer_id": "3419175576",
+      "published_at_export": "2024-03-05 11:42",
+      "source_line_start": 2090,
+      "body_characters": 115,
+      "tags": [],
+      "contains_third_party_quoted_trader": false
+    }
+  ]
+}
