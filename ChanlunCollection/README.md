@@ -4,6 +4,8 @@
 
 ## 先从哪里读？
 
+**最新整书深读：之前那位高手的六条缠论质疑究竟怎样评价？** [从第15/17课定义变化到第35课级别、向上递归与向下区间套、小级稳定性及第54/69课原图，通读六条批评的原文依据与逻辑边界](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_SIX_CRITICISMS_WHOLE_THEORY_THIRD_LAYER_SYNTHESIS.md)。关键区分作者第102课历史跨级唯一分类的强主张、第99课当前中阴待定、17/18课“走势终要完成”的时间含义；**我们命名的第三层不是作者逐字原理**。报告不冒称已找回高手原帖原句，也不拿没有验证的市场数据充当证据。
+
 **最新关键发现：第17课“3根K线重叠”与第35课“3笔同价”两种最低中枢怎么会不同？** [同一个虚构逐笔流的双向非蕴涵反例，以及第38/72/83/84课的f1/Rg/f2政策审查](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F1_INITIALIZERS_NON_EQUIVALENCE_AND_BASE_PAN_CLOCK.md)。来源说明了作者确实采用过不同最低初始化；**只生成最低中心不能给最低盘整最终结束出证**。支持按书籍目录完整追踪源证与CI状态。
 
 **最新研究：第20课已经明确了哪些最低中枢高低公式，哪里还缺证明？** [核心`ZG/ZD`与整体`GG/DD`四条条件式比较及最低单中枢盘整在绝对基础级别的终止域缺口](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_CENTER_ENVELOPE_ORDER_AND_BASE_PAN_DOMAIN_GAP.md)。以相同核心/不同整体极值的虚构反例澄清严格上涨和中枢扩展不能混淆；第35课全域比较及最低盘整完成仍OPEN。
@@ -22,7 +24,7 @@
 
 **最新专题：真正同一张图验证“级别”和“走势类型”的多义性。** [第54课作者同图双分解：甲乙5分钟中枢形成位置与g7三卖判断为何不同](deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_SAME_CHART_TWO_PARSINGS_AND_CROSS_ERA_LEVELS.md)。同时对照第15、17、35、72、84课，逐项给出SOURCE、RETROSPECTIVE或OPEN的边界；无市场回测。
 
-**优先读整本书（v4.34）**：[108课发表顺序与理论依赖双地图、七环核心主线和八步条件演练](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_READER_CONCEPTUAL_CLOSURE.md)。可以连续理解全书，但F01—F08、OB38/99仍OPEN且未进行市场实证。
+**优先读整本书（v4.35）**：[108课发表顺序与理论依赖双地图、七环核心主线和八步条件演练](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_READER_CONCEPTUAL_CLOSURE.md)。可以连续理解全书，但F01—F08、OB38/99仍OPEN且未进行市场实证。
 
 
 **最新研究：从有限合成特征实际生成候选**：[第67/71课G01候选与G05所有允许切分枚举](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_LOCAL_CANDIDATE_GENERATORS.md)。
