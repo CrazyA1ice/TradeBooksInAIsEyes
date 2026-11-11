@@ -1,5 +1,7 @@
 # 《缠论》五卷108课：最终成果验收入口（无重复副本）
 
+**v4.38问答来源审计：**[纯中枢与纯走势、跨级混合、3月8日作者更正和老虎版文件名来源](00_REVIEW/EXPERT_AUTHOR_REPLY_TWO_METHODS_AND_LAOHU_V438.md)。原新浪评论与老虎版实体未获；F01/OB38/OB99 OPEN、NOT_RUN。
+
 **v4.37 新高手发言专题：**[历史级别、周期及两种方法的原文分层核对](00_REVIEW/EXPERT_HISTORICAL_LEVEL_SHIFT_AND_TWO_METHODS_V437.md)，第17/33课纠正35课硬断代，评论存档和老虎版限制明确，F01/OB38/OB99 OPEN、NOT_RUN。
 
 **v4.36 量词与定义域研究：**[完成与无界延伸、固定政策唯一与当下确认](00_REVIEW/EXPERT_COMPLETION_QUANTIFIERS_V436.md)。四个抽象反模型不能当作真实走势证据，F01/OB38/OB99 OPEN，NOT_RUN。
