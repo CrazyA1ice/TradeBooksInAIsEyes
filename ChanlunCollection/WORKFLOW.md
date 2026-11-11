@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.52.0
+# ChanlunCollection｜本书实施工作流 v4.53.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.53.0 本步：**新增[三已完成次级段合成交叠与凯翔候选清单的时点桥](tools/audit_kaixiang_center_asof_bridge.py)、[五个场景12个时点](tests/fixtures/kaixiang_center_asof_bridge_v453.json)、[15项测试](tests/test_kaixiang_center_asof_bridge.py)及[解释报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_THREE_COMPLETED_MEMBER_ASOF_BRIDGE_V453.md)。调用原有`audit_chanlun_lesson099_resegmentation.center_asof`，用**first_known_tick**代替回顾性`completed_at_tick`防提前使用晚知第三段；只确立局部正宽度交叠，不证真实次级走势类型完整、完整中枢或三买。v4.52原候选与账户风险状态不随交叠改写，不读取行情，F01/OB38/OB99 OPEN。
 
 **v4.52.0 本步：**把凯翔A026的候选排除转化为可执行但严格局限于合成语义的前缀检查，继承v4.51的8个原话来源锚。新增[纯符号源代码](tools/audit_kaixiang_asof_candidates.py)、[8组时间前缀情景](tests/fixtures/kaixiang_asof_symbolic_v452.json)、[14项测试](tests/test_kaixiang_asof_candidates.py)、[审计报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_CANDIDATE_EXCLUSION_CLOSED_WORLD_AND_RISK_GATE_V452.md)。核心：候选只剩一个仍不是最后类型已确认；拒绝同级分解规则或具体片段身份偷换，已观察和首次可知时点分离，账户风险提示不当交易成交事实。本轮仅用合成文字事件，不读取真实行情、不运行交易；A094/A058评论仍无可认证记录、第二套中枢公式与第三层未披露，F01/OB38/OB99 OPEN。
 

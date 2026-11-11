@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.52.0",
-  "source_count": 951,
+  "workflow_version": "4.53.0",
+  "source_count": 955,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -1998,6 +1998,12 @@
       "size_bytes": 8673
     },
     {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_THREE_COMPLETED_MEMBER_ASOF_BRIDGE_V453.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_THREE_COMPLETED_MEMBER_ASOF_BRIDGE_V453.md",
+      "git_blob_sha": "a29e403bbe9462b52bd97c58768d23f48cf7ac42",
+      "size_bytes": 6760
+    },
+    {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/KAI_XIANG_100_ANSWERS_FIRSTHAND_AND_THIRD_LAYER_V448.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/KAI_XIANG_100_ANSWERS_FIRSTHAND_AND_THIRD_LAYER_V448.md",
       "git_blob_sha": "dbf8819d980ce245a63b0db360bedb2073d183a1",
@@ -2414,8 +2420,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "b866049e15341583ea1e0e21815942c9e406ef0c",
-      "size_bytes": 97340
+      "git_blob_sha": "1a9761c80e3acda863b9f356f4870fd362e4bde9",
+      "size_bytes": 98388
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -3542,8 +3548,8 @@
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/analysis.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/analysis.md",
-      "git_blob_sha": "ad0355ede46fa5b3fb55573695835007f7225a74",
-      "size_bytes": 18184
+      "git_blob_sha": "96cc4341da5e11c9686f6bb7f81064cd7a82c95b",
+      "size_bytes": 19297
     },
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/answers-2026-11-11.md",
@@ -3584,8 +3590,8 @@
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/updates.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/updates.md",
-      "git_blob_sha": "0889dc81148484f33e9953bd619d376af03fad2d",
-      "size_bytes": 4558
+      "git_blob_sha": "183073cd61c6720652a9408231404469ab9c2acd",
+      "size_bytes": 5200
     },
     {
       "source_path": "reports/source_inventory/chanlun_20261107_verified.json",
@@ -3858,10 +3864,16 @@
       "size_bytes": 8713
     },
     {
+      "source_path": "tests/fixtures/kaixiang_center_asof_bridge_v453.json",
+      "mirror_path": "ChanlunCollection/tests/fixtures/kaixiang_center_asof_bridge_v453.json",
+      "git_blob_sha": "313428a198476ee1edc38aca9d1deea8793ed314",
+      "size_bytes": 9845
+    },
+    {
       "source_path": "tests/test_book_collection.py",
       "mirror_path": "ChanlunCollection/tests/test_book_collection.py",
-      "git_blob_sha": "cd77d07e8e9c3638adb683f87b430fa300047859",
-      "size_bytes": 10887
+      "git_blob_sha": "147a9a9d2686b3b07b471f887f336d6b7660ab55",
+      "size_bytes": 11710
     },
     {
       "source_path": "tests/test_chanlun20_center_extension_membership_gate.py",
@@ -4698,6 +4710,12 @@
       "size_bytes": 5812
     },
     {
+      "source_path": "tests/test_kaixiang_center_asof_bridge.py",
+      "mirror_path": "ChanlunCollection/tests/test_kaixiang_center_asof_bridge.py",
+      "git_blob_sha": "bdde428895c36ef819b2ecc62478b22531f080e5",
+      "size_bytes": 7172
+    },
+    {
       "source_path": "tests/test_verify_chanlun_lesson_index.py",
       "mirror_path": "ChanlunCollection/tests/test_verify_chanlun_lesson_index.py",
       "git_blob_sha": "b7de9dd331264f08b4190c31788b81d4921c8333",
@@ -5308,6 +5326,12 @@
       "mirror_path": "ChanlunCollection/tools/audit_kaixiang_asof_candidates.py",
       "git_blob_sha": "8b0d1bad3878a03ec77c2cba00f02fc0eca05507",
       "size_bytes": 6745
+    },
+    {
+      "source_path": "tools/audit_kaixiang_center_asof_bridge.py",
+      "mirror_path": "ChanlunCollection/tools/audit_kaixiang_center_asof_bridge.py",
+      "git_blob_sha": "be71e33007b213da6b6374ff6bbf1ae95b3fa9bb",
+      "size_bytes": 9248
     },
     {
       "source_path": "tools/book_collection.py",

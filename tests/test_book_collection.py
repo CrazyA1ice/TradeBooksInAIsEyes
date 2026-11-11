@@ -121,6 +121,20 @@ class BookCollectionTests(unittest.TestCase):
         self.assertFalse(last["candidate_universe_exhaustiveness_proven"])
         self.assertFalse(last["order_submitted"])
 
+    def test_kaixiang_three_member_asof_bridge_consumes_existing_source_gates(self):
+        source=ROOT/"tests/fixtures/kaixiang_center_asof_bridge_v453.json"
+        fixture=json.loads(source.read_text(encoding="utf-8"))
+        self.assertEqual(fixture["origin"],"SYNTHETIC_SYMBOLS_NOT_MARKET")
+        self.assertEqual(len(fixture["bridge_cases"]),5)
+        gate=imported("kaixiang_three_member_bridge","tools/audit_kaixiang_center_asof_bridge.py")
+        proof=gate.audit_fixture(source)
+        self.assertEqual(proof["bridge_cases"],5)
+        self.assertEqual(proof["prefix_checks"],12)
+        self.assertFalse(proof["market_data"])
+        self.assertFalse(proof["genuine_lower_level_completion_verified"])
+        self.assertFalse(proof["third_buy_detected"])
+        self.assertEqual(proof["orders_sent"],0)
+
     def test_alias_paths_are_safe_and_no_registry_collision(self):
         self.assertEqual(
             m.mirror_destination(self.book,"other_views/chanlun/speaker-unknown-001/analysis.md"),
