@@ -1,0 +1,19 @@
+name: chanlun-f1-init-non-equivalence-gate
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  audit-two-historical-f1-initialization-predicates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Verify original author SOURCE anchors and two directional nonimplications
+        run: python -B tools/audit_chanlun_f1_init_non_equivalence.py
+      - name: Test only fictional trade events, fixed K-bar partitions and evidence limits
+        run: python -B -m unittest discover -s tests -p "test_chanlun_f1_init_non_equivalence.py" -v
