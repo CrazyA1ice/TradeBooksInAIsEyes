@@ -4460,8 +4460,8 @@
     {
       "source_path": "tools/audit_chanlun_f1_init_non_equivalence.py",
       "mirror_path": "ChanlunCollection/tools/audit_chanlun_f1_init_non_equivalence.py",
-      "git_blob_sha": "7ae3604be453c39c8558048d436f121360ea1e05",
-      "size_bytes": 8333
+      "git_blob_sha": "78f8c09d035e59a911ed3a081671a4a55f6dce26",
+      "size_bytes": 8533
     },
     {
       "source_path": "tools/audit_chanlun_four_core_contrasts.py",
