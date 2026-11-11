@@ -98,7 +98,7 @@ def audit(spec: dict, earlier: dict, report: str, root: Path = ROOT) -> dict:
     types = spec["types"]
     require("three consecutive" in types["f1_17"] and "price interval" in types["f1_17"], "L17 three bars")
     require("three CONSECUTIVE" in types["f1_35"] and "identical" in types["f1_35"], "L35 equal prints")
-    require("finished" in types["f2"], "upper recurrence requires finished movements")
+    require("completed" in types["f2"], "upper recurrence requires completed movements")
     rules = spec["comparison_contract"]
     require(all(v is True for v in rules.values()), "source preservation and not-overclaim requirements")
 
