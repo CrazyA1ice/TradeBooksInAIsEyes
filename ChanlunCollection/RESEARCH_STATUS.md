@@ -2,6 +2,8 @@
 
 **查询时点：** 2026-11-11。研究稿已覆盖五卷第1—108课；当前收据以GitHub主分支及[本书逐课逻辑地图](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md)、[来源索引](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_SOURCE_ATLAS.md)为准。**研究覆盖完成不等于全部数学证明完成。**
 
+**v4.49 源答疑强句与第二定义分层审查：** [专题报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_SECOND_CENTER_METHOD_TYPE_AND_FEB05_DYNAMIC_CLAIM_V449.md)。2007-02-05 16:59:23归档作者确有“未达指定级别、后续达到”的动态强言辞；修正v4.47文本解读过于保守处；但不能无证推到所有原始流所有g。2007-01-11“下上下”只是作者注明非严谨的快捷口诀，03-08的两种是分析看法非两套独立中心公式。凯翔A087的第二方法精确算法、A016第三层仍未公开，F01/OB38/OB99 OPEN，行情NOT_RUN。
+
 **v4.48 原话验收（2026-11-11）：**用户上传的知乎“凯翔”100条回答已在[OtherVoices个人目录](OtherVoices/speaker-unknown-001/README.md)以原字节/原SHA/100个URL归档；31条显式谈缠论，2024-05-17 A089/A090六个“坑”确有真人原文。本人总体支持缠论；2024-06-08 A087第二中枢定义的具体计算尚不明确，2025-08-16 A016第三层未明说，A007有他人的独立引用；用户文件未包含独立评论区回复。单书[v4.48研究报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAI_XIANG_100_ANSWERS_FIRSTHAND_AND_THIRD_LAYER_V448.md)全部保留鉴证边界；F01/OB38/OB99 OPEN，行情NOT_RUN。
 
 **v4.47 句法与类型域纠偏（2026-11-11）：**[“任何级别都不可能永远不形成中枢”的原文主语、A过强解释与V类型准入](deliverables/chanlun_108_acceptance/00_REVIEW/LEVEL_TYPE_DOMAIN_2007_REPLY_AND_OB99_OB102_V447.md)。2007-02-26作者二手评论总结明确指向“该级别走势”，不应把它直接读作“每条原始价格流×所有级别均有中心”。第20课低层延伸不能自动证明存在已合法启动却永不完成的高级走势；第99课中阴一般性划分待定、第102课当下完全分类强言辞仍须另解。高手原帖仍缺，F01/OB38/OB99 OPEN，市场NOT_RUN。
