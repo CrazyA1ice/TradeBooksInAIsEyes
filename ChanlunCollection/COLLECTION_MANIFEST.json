@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.44.0",
-  "source_count": 931,
+  "workflow_version": "4.45.0",
+  "source_count": 932,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -2046,6 +2046,12 @@
       "size_bytes": 39228
     },
     {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_ANY_LEVEL_CENTER_QUANTIFIER_AND_EXIT_DOMAIN_V445.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_ANY_LEVEL_CENTER_QUANTIFIER_AND_EXIT_DOMAIN_V445.md",
+      "git_blob_sha": "37533b885fc1a258c88d27d4730be56e3d5c22d3",
+      "size_bytes": 10623
+    },
+    {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_AUTHOR_REPLY_COMPLETION_EXIT_EVENTS_AND_NONCIRCULAR_PROOFS.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_AUTHOR_REPLY_COMPLETION_EXIT_EVENTS_AND_NONCIRCULAR_PROOFS.md",
       "git_blob_sha": "d6d3fba6c185651fe692cc45f77e2fef15d2b4db",
@@ -2372,8 +2378,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "867398bfc3b9f0ad759d01176e085ba4f20afc20",
-      "size_bytes": 88311
+      "git_blob_sha": "fa81f9ba51121716eb9e7bc4efa591de1a0a2b25",
+      "size_bytes": 89507
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
