@@ -1,0 +1,38 @@
+name: G0 source intake - offline, cross-platform provenance gate
+
+on:
+  pull_request:
+    paths:
+      - 'intake/**'
+      - '.github/workflows/g0-source-intake.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'intake/**'
+      - '.github/workflows/g0-source-intake.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  offline-intake:
+    name: G0 isolated test / ${{ matrix.os }} / Python ${{ matrix.python-version }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python-version: ['3.11', '3.12']
+    steps:
+      - name: Checkout metadata-only intake code
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Verify CLI available without any books or network
+        run: python -B intake/book_intake.py --help
+      - name: Run G0 offline synthetic fixture tests
+        run: python -B -m unittest discover -s intake/tests -p 'test_*.py' -v
