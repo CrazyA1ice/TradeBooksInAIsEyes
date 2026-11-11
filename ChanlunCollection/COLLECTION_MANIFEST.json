@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.37.0",
-  "source_count": 896,
+  "workflow_version": "4.38.0",
+  "source_count": 901,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -340,6 +340,12 @@
       "mirror_path": "ChanlunCollection/.github/workflows/chanlun-theory-second-pass-source.yml",
       "git_blob_sha": "2be542a08260aba50fbf0250b8b7edaf81311830",
       "size_bytes": 1229
+    },
+    {
+      "source_path": ".github/workflows/chanlun-two-methods-archives-laohu-gate.yml",
+      "mirror_path": "ChanlunCollection/.github/workflows/chanlun-two-methods-archives-laohu-gate.yml",
+      "git_blob_sha": "94db1f99ae5457817f554f39fbc1c55b4c569f03",
+      "size_bytes": 472
     },
     {
       "source_path": ".github/workflows/chanlun-unified-evidence-audit.yml",
@@ -1716,6 +1722,12 @@
       "size_bytes": 13637
     },
     {
+      "source_path": "catalog/chanlun_two_methods_archives_laohu_v438.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun_two_methods_archives_laohu_v438.json",
+      "git_blob_sha": "5c4a2fca8d057e64342a3c23ae82f3ab61d08216",
+      "size_bytes": 6342
+    },
+    {
       "source_path": "catalog/reports.yaml",
       "mirror_path": "ChanlunCollection/catalog/reports.yaml",
       "git_blob_sha": "91b2f5d232a2be3e9a937e3c418f4f83b5c26486",
@@ -1780,6 +1792,12 @@
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/DETAIL_COVERAGE_GAPS.md",
       "git_blob_sha": "512eab36773f03b6fff61e583350fcab6d59d9dc",
       "size_bytes": 10138
+    },
+    {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_AUTHOR_REPLY_TWO_METHODS_AND_LAOHU_V438.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_AUTHOR_REPLY_TWO_METHODS_AND_LAOHU_V438.md",
+      "git_blob_sha": "57eb42208961d79f3c01e39c35b3b0525846a496",
+      "size_bytes": 6874
     },
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_COMPLETION_QUANTIFIERS_V436.md",
@@ -2234,8 +2252,8 @@
     {
       "source_path": "deliverables/chanlun_108_acceptance/README.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/README.md",
-      "git_blob_sha": "2d4f2a4e56d5643bb2fc2983d43472e7bff8ad87",
-      "size_bytes": 32433
+      "git_blob_sha": "c18b9b26d40e4d28ecb2df8a10f0d75620c7b8b4",
+      "size_bytes": 32690
     },
     {
       "source_path": "docs/ANALYSIS_STANDARD.md",
@@ -2246,8 +2264,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "cd9f3c31cad6bcec2319d69f41df6499bd0df9f8",
-      "size_bytes": 78146
+      "git_blob_sha": "390661c66e0c1b98b50139e5d88c8281e9e43818",
+      "size_bytes": 79221
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -4404,6 +4422,12 @@
       "size_bytes": 4206
     },
     {
+      "source_path": "tests/test_chanlun_two_methods_archives_laohu.py",
+      "mirror_path": "ChanlunCollection/tests/test_chanlun_two_methods_archives_laohu.py",
+      "git_blob_sha": "38e7974adc2c544178705240e9c38b139b13147f",
+      "size_bytes": 2586
+    },
+    {
       "source_path": "tests/test_chanlun_unified_knowledge.py",
       "mirror_path": "ChanlunCollection/tests/test_chanlun_unified_knowledge.py",
       "git_blob_sha": "09790341153e860bc3372fdf2d52e9b4d8fcf05d",
@@ -4966,6 +4990,12 @@
       "mirror_path": "ChanlunCollection/tools/audit_chanlun_theory_second_pass.py",
       "git_blob_sha": "f44fcaa81d3e9c9bdcd809229ef718db13b51e8d",
       "size_bytes": 6515
+    },
+    {
+      "source_path": "tools/audit_chanlun_two_methods_archives_laohu.py",
+      "mirror_path": "ChanlunCollection/tools/audit_chanlun_two_methods_archives_laohu.py",
+      "git_blob_sha": "554d2685b30305a0cc0f46b4714e1308070498a8",
+      "size_bytes": 3828
     },
     {
       "source_path": "tools/audit_chanlun_unified_knowledge.py",

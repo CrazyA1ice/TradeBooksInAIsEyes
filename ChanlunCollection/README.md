@@ -1,5 +1,7 @@
 # ChanlunCollection｜《缠论》五卷108课完整研究档案
 
+**v4.38新研究：**[作者2007-03-08两方法原问题、第三条跨级混合及老虎版文件名](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_AUTHOR_REPLY_TWO_METHODS_AND_LAOHU_V438.md)。未验证原新浪字节、老虎版全文或方法普遍收益。
+
 **v4.37新报告：**[高手发言的级别/周期历史、两种处理方法与第72课教学路线](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_HISTORICAL_LEVEL_SHIFT_AND_TWO_METHODS_V437.md)。回查第17、33课避免断代过强，老虎版与第二种方法仍待核验。
 
 **v4.36新增专题：**[高手六点背后的完成量词、无界延伸及固定规则唯一性](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_COMPLETION_QUANTIFIERS_V436.md)，本书原作者定理仍OPEN，行情NOT_RUN。

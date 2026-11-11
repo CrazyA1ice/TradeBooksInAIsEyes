@@ -19,6 +19,8 @@
 | **OB99-EXIST/LOCATION** | **BLOCKED**：全部合法未来路径有限时间高层中枢与首次位置待证 | 同上 |
 | **F08 三类点到实际收益** | **NOT_RUN**：真实行情、成交、交易成本/样本外检验均未运行 | `experiments/`（仅研究计划和合成例） |
 
+**当前v4.38.0：连续作者署时问答的两种纯观察与跨级混合第三条路径**：[原提问、证据时点和老虎版名称专题](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_AUTHOR_REPLY_TWO_METHODS_AND_LAOHU_V438.md)。作者2007-03-08的a+B+b与纯中枢答疑属于两种**观察视角**，第38课明确说跨级混合更有效，不能因此证明第二种纯法通用更优。归档有2958→2858的纠错和9段5分钟具体历史例子；公开目录已找到《108课老虎整理版》PDF/DOCX的文件名但未取得实体字节，原Sina评论也未认证。F01/OB38/OB99 OPEN、NOT_RUN。
+
 **当前v4.37.0：高手补充关于级别、周期和两种方法的历史解释**：[22条原课SOURCE和3条作者评论归档对照](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_HISTORICAL_LEVEL_SHIFT_AND_TWO_METHODS_V437.md)。第15—16课的传统走势图分类得到支持，但第17课已定义中枢，第33课已区分严格逐笔级别和时间图表；第35课是进一步严格化而不是首次发明中枢。2007-03-08作者评论比较的是两种分析视角，不自动等于独立的两条中枢公理。“老虎版”未认证，未核实作者所谓第二种普遍更优；本次未重新逐字复读108课。F01/OB38/OB99 OPEN，NOT_RUN。
 
 **当前v4.36.0：量词与规则域的理论增量**：[完整专题](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_COMPLETION_QUANTIFIERS_V436.md)。第17课终要完成EV与第18课无界有限延伸UB可在同一逻辑域并存；实际无限不完结IN是否属于作者同域尚不可认证。固定政策唯一FU不蕴涵跨政策不变PI、也不蕴涵在线终点全知ON。七个SOURCE页锚及四个抽象字母串模型不构成作者全理论证明。高手原帖未取得，F01/OB38/OB99 OPEN，NOT_RUN。

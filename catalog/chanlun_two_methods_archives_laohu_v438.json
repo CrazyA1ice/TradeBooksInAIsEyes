@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "version": "4.38.0",
+  "id": "CHANLUN_TWO_METHODS_REPLY_TRIANGULATION_AND_LAOHU_FILENAME_V438",
+  "asof": "2026-11-11",
+  "purpose": "Disambiguate author two viewpoints / optional hybrid, identify named Laohu edition without claiming to possess its bytes.",
+  "provenance": {
+    "original_expert_post_recovered": false,
+    "user_supplied_expert_passage_present": true,
+    "original_sina_reply_bytes_authenticated": false,
+    "laohu_edition_file_bytes_obtained": false,
+    "market_data_or_backtest_performed": false
+  },
+  "original_lessons": [
+    {
+      "lesson": 17,
+      "id": "CL017-S03",
+      "pages": [
+        197,
+        198
+      ],
+      "claim": "Minimum unit bar initializer already in lesson17"
+    },
+    {
+      "lesson": 33,
+      "id": "CL33-SO-2",
+      "pages": [
+        256
+      ],
+      "claim": "Strict per trade level differs from sampled chart clock before lesson35"
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-2",
+      "pages": [
+        291
+      ],
+      "claim": "Strict trade-by-trade base initializer"
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-3",
+      "pages": [
+        291,
+        292
+      ],
+      "claim": "Three lower-level complete movements recurse to higher center"
+    },
+    {
+      "lesson": 38,
+      "id": "CL38-SOURCE-1",
+      "pages": [
+        338
+      ],
+      "claim": "Uniqueness conditioned on fixed decomposition policy"
+    },
+    {
+      "lesson": 38,
+      "id": "CL38-SOURCE-2",
+      "pages": [
+        338,
+        339
+      ],
+      "claim": "Pure center and pure movement type methods, more effective cross-level hybrid"
+    },
+    {
+      "lesson": 72,
+      "id": "CL72-SOURCE-3",
+      "pages": [
+        86,
+        87
+      ],
+      "claim": "Didactic teaching sequence for foundational components"
+    },
+    {
+      "lesson": 83,
+      "id": "CL83-SOURCE-1",
+      "pages": [
+        288
+      ],
+      "claim": "Lower center with pens is unstable compared with using segments"
+    }
+  ],
+  "author_replies_archive": [
+    {
+      "id": "R1",
+      "at": "2007-03-08 16:10:43",
+      "context": "Question about 5min center, decreasing MACD area, intraday turning point",
+      "locator": "https://chzhshch.blog/stocks/confucius55/",
+      "source_status": "ARCHIVED_AUTHOR_ATTRIBUTED_NOT_SINA_ORIGINAL",
+      "substance": "a+B+b column area differs from pure center oscillation account"
+    },
+    {
+      "id": "R2",
+      "at": "2007-03-08 16:38:56",
+      "context": "Questioner 缠文观止 confused higher center level with same-level pan and trend connectors",
+      "locator": "https://chzhshch.blog/stocks/confucius55/",
+      "source_status": "ARCHIVED_AUTHOR_ATTRIBUTED_NOT_SINA_ORIGINAL",
+      "substance": "Movement composition a+B+b versus center first three plus all subsequent oscillations; both agreement improves confidence"
+    },
+    {
+      "id": "R3",
+      "at": "2007-03-08 16:15:44",
+      "context": "Correction of earlier 2958 to 2858 quoted in comment at 15:30:24",
+      "locator": "https://chzhshch.blog/stocks/confucius55/",
+      "source_status": "ARCHIVED_AUTHOR_ATTRIBUTED_NOT_SINA_ORIGINAL",
+      "substance": "Explicit correction 2958 -> 2858; do not misread as two market centers"
+    },
+    {
+      "id": "R4",
+      "at": "2007-03-08 16:23:09",
+      "context": "Reply about 9 x 5min movements / daily center starting date",
+      "locator": "https://chzhshch.blog/stocks/confucius55/",
+      "source_status": "ARCHIVED_AUTHOR_ATTRIBUTED_NOT_SINA_ORIGINAL",
+      "substance": "Starts Jan 4, nine five-minute movements, specific historical case not universal rule"
+    }
+  ],
+  "third_party_crosscheck": {
+    "repo": "stockServ/chzhshch-108-plus",
+    "role": "THIRD_PARTY_REPOST_NOT_AUTHOR_ORIGINAL",
+    "files": [
+      {
+        "path": "108/0469-486e105c010008x4-033.md",
+        "git_blob_sha": "180e047fc0b3b33b29699b5ce319e42c61fa91df",
+        "claim": "Lesson33 earliest strict level versus chart clock"
+      },
+      {
+        "path": "108/0475-486e105c01000914-035.md",
+        "git_blob_sha": "54dae3ccf1f71e2cba73e4f5f81ac24b14d0bf4e",
+        "claim": "Lesson35 strict base/recursion versus practical shortcuts"
+      },
+      {
+        "path": "108/0485-486e105c010009be-038.md",
+        "git_blob_sha": "972410356eb2995007a5522678465ece1f242fb8",
+        "claim": "Lesson38 more effective across-level hybrid, NOT second pure method dominates"
+      }
+    ],
+    "anonymous_commenters_can_include_impersonations": true,
+    "independent_provenance_lineage_proved": false
+  },
+  "laohu_edition": {
+    "attested_title": "108课老虎整理版",
+    "attested_formats": [
+      ".pdf",
+      ".docx"
+    ],
+    "catalogue_pages": [
+      "https://www.wobangzhao.com/thread-3192-1-1.html",
+      "https://xueqiu.com/4058260819/97198669"
+    ],
+    "identity_status": "FILENAME_ATTESTED_IN_TWO_CATALOGUES_CONTENT_NOT_VERIFIED",
+    "document_bytes_available": false,
+    "editor_identity_verified": false,
+    "comment_completeness_compared": false,
+    "editorial_interpolation_compared": false,
+    "do_not_import_unlicensed_pdf": true
+  },
+  "three_distinct_judgments": [
+    {
+      "id": "M1",
+      "object": "TWO_PURE_VIEWS",
+      "evidence": "2007-03-08 replies and lesson38",
+      "claim": "a+B+b movement-combination versus pure-center after-three-segments",
+      "ranking": "NO_STRICT_WINNER_DEMONSTRATED"
+    },
+    {
+      "id": "M2",
+      "object": "HYBRID_APPROACH",
+      "evidence": "Lesson38",
+      "claim": "Cross-level mixed application of two pure views",
+      "ranking": "AUTHOR_EXPLICITLY_PREFERS_HYBRID_OVER_PURELY_SINGLE_VIEW"
+    },
+    {
+      "id": "M3",
+      "object": "STRICT_VS_PRACTICAL_LEVEL",
+      "evidence": "Lesson33 and lesson35",
+      "claim": "Strict per-trade recursion versus practical clock-bucket approximation",
+      "ranking": "AUTHOR_CALLS_APPROXIMATION_CONVENIENT_NOT_GLOBAL_WINNER"
+    }
+  ],
+  "unresolved": [
+    "ORIGINAL_AUTHOR_SINA_COMMENT_BYTES",
+    "EXPERT_IDENTITY_AND_ORIGINAL_POST",
+    "LAOHU_PDF_AND_DOCX_BYTES",
+    "LAOHU_REPLY_COVERAGE_AND_EDITORIAL_COMPARISON",
+    "EXPERT_WHICH_SECOND_METHOD_UNDETERMINED",
+    "F01_OPEN",
+    "OB38_OPEN",
+    "OB99_OPEN",
+    "NOT_RUN_MARKET"
+  ],
+  "status": "AUTHOR_ATTRIBUTED_ARCHIVE_WITH_EXACT_CONTEXT_NOT_FULL_SOURCE_AUTHENTICATION"
+}

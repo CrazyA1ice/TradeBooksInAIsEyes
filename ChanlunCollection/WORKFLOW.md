@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.37.0
+# ChanlunCollection｜本书实施工作流 v4.38.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.38.0 本步：**以2007-03-08作者16:10/16:38完整问答为起点，区分a+B+b纯走势组合、纯中枢前三段震荡及第38课提出的**跨级混合更有效**第三条处理策略；记录作者2958更正为2858与9段五分钟的特定历史条件。老虎整理版只核实PDF/DOCX文件名，尚无SHA、全文及完整率。二手作者归档不当原新浪文件；F01/OB38/OB99 OPEN、NOT_RUN。[阅读报告](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_AUTHOR_REPLY_TWO_METHODS_AND_LAOHU_V438.md)。
 
 **v4.37.0 本步：**从第15、16课传统K线周期视角，经第17/18课中枢定义、第33课早于35课的严格交易级别、第35课递归基例、第38课两种分析视角、第72课作者教学回顾、第83/84课底层稳定性变化，重新核对高手的断代论。区分作者真实评论、转载资料和AI推理；特别不把周期近似、两种走势观察和不同底层零件当作完全相同的“两个中枢定义”。新报告[历史时间线与两种方法](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_HISTORICAL_LEVEL_SHIFT_AND_TWO_METHODS_V437.md)。本轮非108课逐字重新通读，老虎版未认证，F01/OB38/OB99 OPEN，NOT_RUN。
 
