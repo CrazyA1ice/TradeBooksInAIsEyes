@@ -69,6 +69,10 @@ def audit(spec: dict, old: dict, report: str, root: Path = ROOT) -> dict:
         demand(set(card["physical_pages"]).issubset(set(matches[0]["pdf_pages"])), "PDF page mismatch")
     demand({x["id"] for x in cards}.issuperset({"CL020-S08","CL35-SO-9","CL35-SO-2","CL020-S03"}), "critical sources missing")
     assert_defs = spec["source_notation"]
+    demand(assert_defs["GG"] == "max(g_n) among author-defined Z move segments of same center", "GG must remain author Z-segment maximum")
+    demand(assert_defs["DD"] == "min(d_n) among author-defined Z move segments of same center", "DD must remain author Z-segment minimum")
+    demand(assert_defs["ZG"] == "min(g1,g2) center overlap upper boundary", "ZG zone upper")
+    demand(assert_defs["ZD"] == "max(d1,d2) center overlap lower boundary", "ZD zone lower")
     demand(assert_defs["necessary_enclosure"] == "DD <= ZD <= ZG <= GG", "core/envelope geometry")
     demand(assert_defs["cannot_authenticate_actual_legal_center_from_four_numbers"] is True,
            "four arbitrary extrema do not prove a legal center")
