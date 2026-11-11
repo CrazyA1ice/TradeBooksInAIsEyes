@@ -1,5 +1,7 @@
 # 《缠论》五卷108课：最终成果验收入口（无重复副本）
 
+**v4.42第三买首次资格研究：**[2007-03-21完整追问，未返中枢首次与返回中心仍是震荡，独立完成时钟和等号边界](00_REVIEW/EXPERT_FIRST_ELIGIBLE_THIRD_RETRACE_ASOF_V442.md)。只做合成前缀条件性输出；F01/OB38/OB99 OPEN，NOT_RUN。
+
 **v4.41原新浪主文重大证据：**[2007-07-19提问与7月20日作者独立文章的理论/实操双a0解释](00_REVIEW/EXPERT_PRIMARY_SINA_DUAL_A0_THEORY_V441.md)。不同基例相同递归形式不代表两个解析政策的所有结果或完成时刻等价；F01/OB38/OB99 OPEN，NOT_RUN。
 
 **v4.40 重要作者答疑新证据：**[2007-05-21、07-11、07-31带完整问答的九段组合与层级中心构造区别](00_REVIEW/EXPERT_NINEFOLD_CENTER_333_AUTHOR_REPLIES_V440.md)。原评论二级归档及较早PDF印刷p164—165互核；仅合法完成的组元可跨级，F01/OB38/OB99仍OPEN、NOT_RUN。

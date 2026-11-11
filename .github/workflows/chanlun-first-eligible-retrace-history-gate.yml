@@ -1,0 +1,15 @@
+name: chanlun-first-eligible-retrace-history-gate
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  first-retrace-completion-asof:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -B tools/audit_chanlun_first_eligible_retrace.py
+      - run: python -B -m unittest discover -s tests -p "test_chanlun_first_eligible_retrace.py" -v

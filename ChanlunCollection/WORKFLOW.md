@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.41.0
+# ChanlunCollection｜本书实施工作流 v4.42.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.42.0 本步：**按作者2007-03-21 16:19/16:29二手归档评论确认：旧中心此前向下回到中心内部属于未结束的中枢震荡，不消耗“首次合格回试”资格；首次未返之后同一中心再外返不另发三买。独立固定政策有限前缀模拟区分t10价格极值与t12完成资格首次可知。第20课low>=ZG与三月“不回”在边界等于ZG处保留分叉，不擅创唯一解析规则。完整报告[原问答与事件审核](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_FIRST_ELIGIBLE_THIRD_RETRACE_ASOF_V442.md)。实用双a0到已完成下级走势的桥仍未建成，F01/OB38/OB99 OPEN、NOT_RUN。
 
 **v4.41.0 本步：**首次直接发现原新浪2007-07-20 08:26:20主文，并连同7月19日提问一起定位：理论实际逐笔成交a0与实用分型笔线段a0，共享向上递归形式而非全部输出同值。作者严格反对把线段当最低走势类型的次级别。作为对高手理论第一种/实战第二种的当前最强原文解答，记录[新专题](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_PRIMARY_SINA_DUAL_A0_THEORY_V441.md)；该原博客可访问不等于2007年历史字节签名，原图像素和老虎版未获。F01/OB38/OB99 OPEN、NOT_RUN。
 

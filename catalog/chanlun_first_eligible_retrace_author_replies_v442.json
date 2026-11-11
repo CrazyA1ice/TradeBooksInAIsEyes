@@ -1,0 +1,637 @@
+{
+  "schema_version": 1,
+  "version": "4.42.0",
+  "id": "CHANLUN-FIRST-ELIGIBLE-RETRACE-PREFIX-F01-V442",
+  "asof": "2026-11-11",
+  "novelty": "March21 2007 author-attributed answers: returning inside the old center is oscillation, not successful first retrace; after valid third a subsequent outside retrace is not another third of same center.",
+  "sources": [
+    {
+      "date": "2007-03-21 15:23:21",
+      "role": "DIRECT_AUTHOR_SINA_MAIN_POST",
+      "url": "https://blog.sina.com.cn/s/blog_486e105c010009be.html",
+      "scope": "Lesson38 fixed partition rule, not its later comments"
+    },
+    {
+      "date": "2007-03-21 15:44:04",
+      "question_at": "2007-03-21 15:41:09",
+      "role": "ARCHIVED_AUTHOR_ATTRIBUTED_COMMENT_NOT_ORIGINAL_SINA_BYTES",
+      "url": "https://eczsc.com/replies?lesson=38",
+      "scope": "No divergence => movement not ended; not a complete momentum exit oracle"
+    },
+    {
+      "date": "2007-03-21 16:19:02",
+      "question_at": "2007-03-21 16:14:10",
+      "role": "ARCHIVED_AUTHOR_ATTRIBUTED_COMMENT_NOT_ORIGINAL_SINA_BYTES",
+      "url": "https://yutao.org/philosophy/缠中说禅-教你炒股票-38/",
+      "scope": "Earlier re-entry is oscillation; later first non-reentry can be true third"
+    },
+    {
+      "date": "2007-03-21 16:29:42",
+      "question_at": "2007-03-21 16:23:48",
+      "role": "ARCHIVED_AUTHOR_ATTRIBUTED_COMMENT_NOT_ORIGINAL_SINA_BYTES",
+      "url": "https://blog.sina.com.cn/s/blog_9e8ae543010127ym.html",
+      "scope": "First eligible nonreturning retrace terminates old oscillation; later outside retrace is not second third"
+    },
+    {
+      "date": "2007-08-21 16:20:01",
+      "role": "ARCHIVED_AUTHOR_ATTRIBUTED_COMMENT_NOT_ORIGINAL_SINA_BYTES",
+      "url": "https://blog.sina.com.cn/s/blog_15e1934cd0102w990.html",
+      "scope": "Pan exit indicated by third point, still conditional on completed submovements"
+    }
+  ],
+  "course_anchors": [
+    {
+      "lesson": 18,
+      "id": "CL018-S01",
+      "pages": [
+        234
+      ]
+    },
+    {
+      "lesson": 18,
+      "id": "CL018-S07",
+      "pages": [
+        235
+      ]
+    },
+    {
+      "lesson": 20,
+      "id": "CL020-S02",
+      "pages": [
+        246
+      ]
+    },
+    {
+      "lesson": 20,
+      "id": "CL020-S03",
+      "pages": [
+        247
+      ]
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-2",
+      "pages": [
+        291
+      ]
+    },
+    {
+      "lesson": 38,
+      "id": "CL38-SOURCE-1",
+      "pages": [
+        338
+      ]
+    },
+    {
+      "lesson": 53,
+      "id": "CL53-SOURCE-3",
+      "pages": [
+        162
+      ]
+    },
+    {
+      "lesson": 67,
+      "id": "CL67-SOURCE-3",
+      "pages": [
+        388,
+        389
+      ]
+    },
+    {
+      "lesson": 71,
+      "id": "CL71-SOURCE-4",
+      "pages": [
+        72
+      ]
+    },
+    {
+      "lesson": 78,
+      "id": "CL78-SOURCE-1",
+      "pages": [
+        174
+      ]
+    },
+    {
+      "lesson": 84,
+      "id": "CL84-SOURCE-3",
+      "pages": [
+        301
+      ]
+    }
+  ],
+  "scope_flags": {
+    "archive_original_sina_comment_database_authenticated": false,
+    "primary_lesson38_main_post_visible": true,
+    "entire_original_comment_stream_complete": false,
+    "real_historical_center_authenticated": false,
+    "real_finished_lower_movements_independently_authenticated": false,
+    "original_expert_post_verified": false,
+    "laohu_edition_file_reviewed": false,
+    "all_108_lessons_reaudited_this_round": false,
+    "real_market_replay_or_backtest": false
+  },
+  "operator_scope": {
+    "domain": "ONE_SYNTHETIC_CENTER_UPWARD_THIRD_BUY_ONLY",
+    "source_class": "UNVERIFIED_ABSTRACT_DECLARED_COMPLETED_LOWER_TYPES",
+    "lower_retrace_low_must_not_break_ZG": "low >= zg",
+    "inside_center_return_condition": "low < zg",
+    "touch_status": "BOUNDARY_TOUCH_SEMANTIC_FORK",
+    "no_repeat_for_same_center": true,
+    "first_time_no_backdating": true,
+    "external_declared_completion_not_authenticated": true,
+    "policy_id_required": true,
+    "unmodeled_patterns_are_not_author_illegal_market_paths": true,
+    "no_complete_finished_child_generator": true
+  },
+  "sample_center": {
+    "id": "SYN_CENTER_01",
+    "zd": "8",
+    "zg": "10",
+    "parent_level": "5min",
+    "child_level": "1min",
+    "policy_id": "SYNTHETIC_R_001",
+    "source_role": "UNVERIFIED_SYNTHETIC_CENTER",
+    "independently_authenticated": false
+  },
+  "synthetic_scenarios": [
+    {
+      "id": "FAIL_THEN_FIRST_THIRD",
+      "asof": 12,
+      "events": [
+        {
+          "id": "E1",
+          "leg": "DEPARTURE_UP",
+          "market_endpoint": 2,
+          "first_known": 3,
+          "low": "10",
+          "high": "13",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "R1",
+          "leg": "RETRACE_DOWN",
+          "market_endpoint": 5,
+          "first_known": 6,
+          "low": "9",
+          "high": "12",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "E2",
+          "leg": "DEPARTURE_UP",
+          "market_endpoint": 7,
+          "first_known": 8,
+          "low": "10",
+          "high": "14",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "R2",
+          "leg": "RETRACE_DOWN",
+          "market_endpoint": 10,
+          "first_known": 12,
+          "low": "11",
+          "high": "13",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "E3",
+          "leg": "DEPARTURE_UP",
+          "market_endpoint": 13,
+          "first_known": 14,
+          "low": "11",
+          "high": "15",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "R3",
+          "leg": "RETRACE_DOWN",
+          "market_endpoint": 16,
+          "first_known": 17,
+          "low": "12",
+          "high": "14",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        }
+      ],
+      "expected": "NEW_THIRD_BUY_CONDITIONAL"
+    },
+    {
+      "id": "PREMATURE_AT_HISTORICAL_EXTREMUM",
+      "asof": 10,
+      "events": [
+        {
+          "id": "E1",
+          "leg": "DEPARTURE_UP",
+          "market_endpoint": 2,
+          "first_known": 3,
+          "low": "10",
+          "high": "13",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "R1",
+          "leg": "RETRACE_DOWN",
+          "market_endpoint": 5,
+          "first_known": 6,
+          "low": "9",
+          "high": "12",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "E2",
+          "leg": "DEPARTURE_UP",
+          "market_endpoint": 7,
+          "first_known": 8,
+          "low": "10",
+          "high": "14",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "R2",
+          "leg": "RETRACE_DOWN",
+          "market_endpoint": 10,
+          "first_known": 12,
+          "low": "11",
+          "high": "13",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "E3",
+          "leg": "DEPARTURE_UP",
+          "market_endpoint": 13,
+          "first_known": 14,
+          "low": "11",
+          "high": "15",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "R3",
+          "leg": "RETRACE_DOWN",
+          "market_endpoint": 16,
+          "first_known": 17,
+          "low": "12",
+          "high": "14",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        }
+      ],
+      "expected": "AWAITING_RETRACE_COMPLETION"
+    },
+    {
+      "id": "LATER_NOT_REPEAT_THIRD",
+      "asof": 17,
+      "events": [
+        {
+          "id": "E1",
+          "leg": "DEPARTURE_UP",
+          "market_endpoint": 2,
+          "first_known": 3,
+          "low": "10",
+          "high": "13",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "R1",
+          "leg": "RETRACE_DOWN",
+          "market_endpoint": 5,
+          "first_known": 6,
+          "low": "9",
+          "high": "12",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "E2",
+          "leg": "DEPARTURE_UP",
+          "market_endpoint": 7,
+          "first_known": 8,
+          "low": "10",
+          "high": "14",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "R2",
+          "leg": "RETRACE_DOWN",
+          "market_endpoint": 10,
+          "first_known": 12,
+          "low": "11",
+          "high": "13",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "E3",
+          "leg": "DEPARTURE_UP",
+          "market_endpoint": 13,
+          "first_known": 14,
+          "low": "11",
+          "high": "15",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "R3",
+          "leg": "RETRACE_DOWN",
+          "market_endpoint": 16,
+          "first_known": 17,
+          "low": "12",
+          "high": "14",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        }
+      ],
+      "expected": "LATER_OUTSIDE_RETRACE_NOT_THIRD"
+    },
+    {
+      "id": "EQUALITY_TOUCH",
+      "asof": 5,
+      "events": [
+        {
+          "id": "E1",
+          "leg": "DEPARTURE_UP",
+          "market_endpoint": 1,
+          "first_known": 2,
+          "low": "10",
+          "high": "13",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "R1",
+          "leg": "RETRACE_DOWN",
+          "market_endpoint": 4,
+          "first_known": 5,
+          "low": "10",
+          "high": "12",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        }
+      ],
+      "expected": "BOUNDARY_TOUCH_SEMANTIC_FORK"
+    },
+    {
+      "id": "UNFINISHED_RETRACE",
+      "asof": 5,
+      "events": [
+        {
+          "id": "E1",
+          "leg": "DEPARTURE_UP",
+          "market_endpoint": 1,
+          "first_known": 2,
+          "low": "10",
+          "high": "13",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "R1",
+          "leg": "RETRACE_DOWN",
+          "market_endpoint": 4,
+          "first_known": 5,
+          "low": "11",
+          "high": "12",
+          "declared_finished": false,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        }
+      ],
+      "expected": "PENDING_DECLARED_CHILD_COMPLETION"
+    },
+    {
+      "id": "FIRST_VALID",
+      "asof": 5,
+      "events": [
+        {
+          "id": "E1",
+          "leg": "DEPARTURE_UP",
+          "market_endpoint": 1,
+          "first_known": 2,
+          "low": "10",
+          "high": "13",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "R1",
+          "leg": "RETRACE_DOWN",
+          "market_endpoint": 4,
+          "first_known": 5,
+          "low": "11",
+          "high": "12",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        }
+      ],
+      "expected": "NEW_THIRD_BUY_CONDITIONAL"
+    },
+    {
+      "id": "SAME_LAST_PAIR_PREV_THIRD",
+      "asof": 12,
+      "events": [
+        {
+          "id": "E0",
+          "leg": "DEPARTURE_UP",
+          "market_endpoint": 1,
+          "first_known": 2,
+          "low": "10",
+          "high": "13",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "R0",
+          "leg": "RETRACE_DOWN",
+          "market_endpoint": 3,
+          "first_known": 4,
+          "low": "11",
+          "high": "12",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "E2",
+          "leg": "DEPARTURE_UP",
+          "market_endpoint": 7,
+          "first_known": 8,
+          "low": "10",
+          "high": "14",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "R2",
+          "leg": "RETRACE_DOWN",
+          "market_endpoint": 10,
+          "first_known": 12,
+          "low": "11",
+          "high": "13",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        }
+      ],
+      "expected": "LATER_OUTSIDE_RETRACE_NOT_THIRD"
+    },
+    {
+      "id": "RETRACE_NOT_YET_KNOWN",
+      "asof": 4,
+      "events": [
+        {
+          "id": "E1",
+          "leg": "DEPARTURE_UP",
+          "market_endpoint": 1,
+          "first_known": 2,
+          "low": "10",
+          "high": "13",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "R1",
+          "leg": "RETRACE_DOWN",
+          "market_endpoint": 4,
+          "first_known": 5,
+          "low": "11",
+          "high": "12",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        }
+      ],
+      "expected": "AWAITING_RETRACE_COMPLETION"
+    },
+    {
+      "id": "FIRSTNESS_BLOCKED_BY_EARLIER_EQUALITY",
+      "asof": 12,
+      "events": [
+        {
+          "id": "E0",
+          "leg": "DEPARTURE_UP",
+          "market_endpoint": 1,
+          "first_known": 2,
+          "low": "10",
+          "high": "13",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "R0",
+          "leg": "RETRACE_DOWN",
+          "market_endpoint": 3,
+          "first_known": 4,
+          "low": "10",
+          "high": "12",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "E2",
+          "leg": "DEPARTURE_UP",
+          "market_endpoint": 7,
+          "first_known": 8,
+          "low": "10",
+          "high": "14",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        },
+        {
+          "id": "R2",
+          "leg": "RETRACE_DOWN",
+          "market_endpoint": 10,
+          "first_known": 12,
+          "low": "11",
+          "high": "13",
+          "declared_finished": true,
+          "child_level": "1min",
+          "policy_id": "SYNTHETIC_R_001",
+          "source_role": "UNVERIFIED_DECLARED_COMPLETED_LOWER_MOVEMENT"
+        }
+      ],
+      "expected": "BLOCKED_FIRSTNESS_AFTER_TOUCH"
+    }
+  ],
+  "proof_frontier": {
+    "F01": "OPEN",
+    "OB38": "OPEN",
+    "OB99": "OPEN",
+    "base_pan_finish": "OPEN",
+    "market": "NOT_RUN"
+  },
+  "status": "FIRST_ELIGIBLE_RETRACE_EVENT_HISTORY_CONDITIONAL_ONLY_NO_AUTHOR_CERTIFIED_MARKET_THIRD"
+}
