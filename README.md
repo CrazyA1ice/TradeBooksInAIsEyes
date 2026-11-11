@@ -52,6 +52,10 @@
 
 **此前深度整书研究（v4.35）**：[高手关于缠论的六条质疑与“走势终完美”递归、完整分类、实时操作的四层综合解释](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_SIX_CRITICISMS_WHOLE_THEORY_THIRD_LAYER_SYNTHESIS.md)。逐条还原第15/17课分类变义、第35课级别体系、单中枢盘整、区间套、低级稳定性及原文图证问题；原话尚未逐字认证，F01/OB38/OB99证明前沿保留OPEN，行情NOT_RUN。
 
+## 新增：第二本及后续书籍的 G0 本地入库预检
+
+为避免当前《缠论》研究与未来每本书的数据混写，新增[独立 G0 来源预检程序](intake/README.md)（`intake/book_intake.py`）：**离线扫描本地 PDF/EPUB/DOCX/TXT/MD，自动记录 SHA-256、大小、重复、格式初检和版权审查状态**。默认仅在终端显示元数据，可指定本地私有 JSON 路径。不会复制/公开书籍，不会运行 OCR 或声称已完成 AI 阅读，尚不自动注册新的 BookCollection。以 13 个完全虚构样本单测覆盖格式、边界及不越界访问；后续收到真正的新书时再进入目录与 G1—G3 阅读流程。
+
 ## 从哪里开始
 
 | 需求 | 唯一入口 |
