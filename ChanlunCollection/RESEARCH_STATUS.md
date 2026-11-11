@@ -2,6 +2,8 @@
 
 **查询时点：** 2026-11-11。研究稿已覆盖五卷第1—108课；当前收据以GitHub主分支及[本书逐课逻辑地图](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md)、[来源索引](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_SOURCE_ATLAS.md)为准。**研究覆盖完成不等于全部数学证明完成。**
 
+**v4.54 F01低阶完成依赖链的合成证明结构审计：** [报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_F01_DEPENDENCY_GRAPH_BRIDGE_AND_COMPLETION_LIMIT_V454.md)、[审计器](tools/audit_kaixiang_f01_graph_completion_bridge.py)和[15个测试](tests/test_kaixiang_f01_graph_completion_bridge.py)。已将凯翔A026三段交集从简单“已完成”bool升级为**F01原始点→基础中心→退出断言→完成走势→上级中心**31节点图的依赖/来源/双时钟审计，局部新增六个底层虚拟点对成员高低价的核验。**结构图校验成功不等于真实次级走势已完成**，F01底层比较条件仍未获独立证据，依旧F01/OB38/OB99 OPEN、市场NOT_RUN。
+
 **v4.53 第17课三段区间交叠×凯翔A026候选清单的可执行时点桥：**[报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_THREE_COMPLETED_MEMBER_ASOF_BRIDGE_V453.md)、[桥代码](tools/audit_kaixiang_center_asof_bridge.py)、[合成夹具](tests/fixtures/kaixiang_center_asof_bridge_v453.json)及[15个定向单测](tests/test_kaixiang_center_asof_bridge.py)。第三段历史完成时间与**首次可知时间**分离，未可知则不准输出交集；只能确认合成的三断言成员正宽度交集，不证次级走势真实合法、不证整体完成/三买/终局；候选状态和账户风险另算。F01/OB38/OB99 OPEN，市场NOT_RUN。
 
 **v4.52 首次可执行的凯翔“排除法”闭世界前提审计：**[报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_CANDIDATE_EXCLUSION_CLOSED_WORLD_AND_RISK_GATE_V452.md)；[纯符号检查器](tools/audit_kaixiang_asof_candidates.py)、[八组合成时点](tests/fixtures/kaixiang_asof_symbolic_v452.json)与[单测](tests/test_kaixiang_asof_candidates.py)覆盖发生时间/可知时间、固定级别及片段、非认证局部状态、候选只剩一条但**无全集与最终标签证明**、账户风险≠技术结构失效/订单成交。与凯翔A026/A061/A073/A074/A095原话中的未公开条件分离，绝不宣称该门槛就是其个人算法；F01/OB38/OB99 OPEN、市场NOT_RUN。

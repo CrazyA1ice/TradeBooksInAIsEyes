@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "origin": "SYNTHETIC_SYMBOLS_NOT_MARKET",
+  "scope": "SYNTHETIC_F01_GRAPH_ADMISSIBILITY_NOT_INDEPENDENT_COMPLETION",
+  "level_alias_kind": "SYNTHETIC_LEVEL_ALIAS_NOT_CHART_TIMEFRAME",
+  "parent_level": 1,
+  "child_level": 0,
+  "lower_level": "g_1min",
+  "case_id": "KX-CASE-01",
+  "source_answer_ids": [
+    "A026",
+    "A084",
+    "A016"
+  ],
+  "policy_id": "policy_R_demo",
+  "member_keys": [
+    "u",
+    "v",
+    "w"
+  ],
+  "primitive_price_pairs": [
+    [
+      7,
+      14
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      9,
+      12
+    ]
+  ],
+  "checkpoints": [
+    5,
+    7,
+    14,
+    21
+  ],
+  "notes": "ALL PRICES AND DECLARED EXIT EVENTS ARE AI-SYNTHETIC. Level-0 alias to chart g_1min is only a test label, NOT a formally derived Chanlun period-to-level map. F01 comparator, trade authenticity and movement finish are not independently certified."
+}

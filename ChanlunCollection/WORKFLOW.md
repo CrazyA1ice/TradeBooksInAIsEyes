@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.53.0
+# ChanlunCollection｜本书实施工作流 v4.54.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.54.0 本步：**首次实际调用既存F01图收据检查器，为凯翔A026的三段价格交集附上**31节点合成证据依赖图**，并强制检验3个完成走势的价格界、首次可知时间与底层虚拟点相符。[研究报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_F01_DEPENDENCY_GRAPH_BRIDGE_AND_COMPLETION_LIMIT_V454.md)及[新工具](tools/audit_kaixiang_f01_graph_completion_bridge.py)、[fixture](tests/fixtures/kaixiang_f01_graph_bridge_v454.json)、[15项定向单测](tests/test_kaixiang_f01_graph_completion_bridge.py)都说明：F01图的结构正确**不是**作者原始算法、真行情完成证书或买点认证；尤其底层趋势未创新低/高比较仍是未经独立验证的声明。F01/OB38/OB99 OPEN、市场NOT_RUN。
 
 **v4.53.0 本步：**新增[三已完成次级段合成交叠与凯翔候选清单的时点桥](tools/audit_kaixiang_center_asof_bridge.py)、[五个场景12个时点](tests/fixtures/kaixiang_center_asof_bridge_v453.json)、[15项测试](tests/test_kaixiang_center_asof_bridge.py)及[解释报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_THREE_COMPLETED_MEMBER_ASOF_BRIDGE_V453.md)。调用原有`audit_chanlun_lesson099_resegmentation.center_asof`，用**first_known_tick**代替回顾性`completed_at_tick`防提前使用晚知第三段；只确立局部正宽度交叠，不证真实次级走势类型完整、完整中枢或三买。v4.52原候选与账户风险状态不随交叠改写，不读取行情，F01/OB38/OB99 OPEN。
 

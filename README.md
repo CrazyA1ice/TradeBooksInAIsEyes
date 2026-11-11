@@ -6,7 +6,9 @@
 
 **《缠论》全部研究成果已整理到 [ChanlunCollection/](ChanlunCollection/README.md)**：五卷原PDF、108篇逐课分析、108张原文证据卡、108课统一理论主脊、深度导读、来源与版本登记、报告、测试和审计工具均在一个文件夹内可查；保留原仓库规范路径作为编辑源，由`COLLECTION_MANIFEST.json`逐文件验证精确一致。后续每本书都建立独立`<BookName>Collection/`；**每一步研究都必须同步修订[通用工作流](docs/BOOK_RESEARCH_WORKFLOW.md)、该书[工作日志](ChanlunCollection/WORK_LOG.md)和集合完整性清单**。
 
-**最新v4.53：**[凯翔A026排除法和第17课“连续三次级走势重叠”之间首次可执行、无前视的结构桥](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_THREE_COMPLETED_MEMBER_ASOF_BRIDGE_V453.md)。复用现有第99课`center_asof`、五组合成案例12个时点15项定向单测；正区间交叠**不证明**完整中枢、三买或赢利，原100答/五卷108课不变，F01/OB38/OB99 OPEN。
+**最新v4.54：**[凯翔A026候选排除研究从三段“已完成”标签升级为带31节点依赖关系的F01结构收据检查](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_F01_DEPENDENCY_GRAPH_BRIDGE_AND_COMPLETION_LIMIT_V454.md)，新增[桥代码](tools/audit_kaixiang_f01_graph_completion_bridge.py)和负面单元测试。只证明合成依赖图满足必要结构规则，不认证真实市场完成、第二种中枢或第三层。原100篇正文不变，F01/OB38/OB99 OPEN，NOT_RUN。
+
+**此前v4.53：**[凯翔A026排除法和第17课“连续三次级走势重叠”之间首次可执行、无前视的结构桥](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_THREE_COMPLETED_MEMBER_ASOF_BRIDGE_V453.md)。复用现有第99课`center_asof`、五组合成案例12个时点15项定向单测；正区间交叠**不证明**完整中枢、三买或赢利，原100答/五卷108课不变，F01/OB38/OB99 OPEN。
 
 **此前v4.52：**[凯翔A026“只剩下跌”结论的封闭候选、首个可知时钟与独立风险审计](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_CANDIDATE_EXCLUSION_CLOSED_WORLD_AND_RISK_GATE_V452.md)。首次把v4.51的8条研究情境变成[可运行纯符号Python检查器](tools/audit_kaixiang_asof_candidates.py)和反前视单测；不把“清单只剩一项”伪装成行情全域已证，也不操作账户。原100答/108课不改，F01/OB38/OB99 OPEN。
 
