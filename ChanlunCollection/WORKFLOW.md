@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.40.0
+# ChanlunCollection｜本书实施工作流 v4.41.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.41.0 本步：**首次直接发现原新浪2007-07-20 08:26:20主文，并连同7月19日提问一起定位：理论实际逐笔成交a0与实用分型笔线段a0，共享向上递归形式而非全部输出同值。作者严格反对把线段当最低走势类型的次级别。作为对高手理论第一种/实战第二种的当前最强原文解答，记录[新专题](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_PRIMARY_SINA_DUAL_A0_THEORY_V441.md)；该原博客可访问不等于2007年历史字节签名，原图像素和老虎版未获。F01/OB38/OB99 OPEN、NOT_RUN。
 
 **v4.40.0 本步：**新找到并交叉验证作者2007-05-21 16:41:03、2007-07-11 16:32:08、2007-07-31 16:43:17/16:50:47/16:55:59五条署时答疑。九段裸重叠与已完成三三组合再递归中枢结果“不一定相同”；级别内延伸固定前三段核心与跨级对象升级不可混淆，线段或次级走势未完成时绝不升级。另对2008年左右编纂PDF印刷p164—165做实际页面目检，未经版权许可不复刻整本；2025年第三方的“所有段再交”不是原作者公理。见[新专题](deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_NINEFOLD_CENTER_333_AUTHOR_REPLIES_V440.md)，原高手和老虎版仍未认证，F01/OB38/OB99 OPEN、NOT_RUN。
 

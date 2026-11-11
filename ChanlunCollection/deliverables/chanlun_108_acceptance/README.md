@@ -1,5 +1,7 @@
 # 《缠论》五卷108课：最终成果验收入口（无重复副本）
 
+**v4.41原新浪主文重大证据：**[2007-07-19提问与7月20日作者独立文章的理论/实操双a0解释](00_REVIEW/EXPERT_PRIMARY_SINA_DUAL_A0_THEORY_V441.md)。不同基例相同递归形式不代表两个解析政策的所有结果或完成时刻等价；F01/OB38/OB99 OPEN，NOT_RUN。
+
 **v4.40 重要作者答疑新证据：**[2007-05-21、07-11、07-31带完整问答的九段组合与层级中心构造区别](00_REVIEW/EXPERT_NINEFOLD_CENTER_333_AUTHOR_REPLIES_V440.md)。原评论二级归档及较早PDF印刷p164—165互核；仅合法完成的组元可跨级，F01/OB38/OB99仍OPEN、NOT_RUN。
 
 **v4.39 高手第二种中枢方法的证据判别：**[第54课原文第二个合法分组“更便操作”的上下文与六候选排除](00_REVIEW/EXPERT_SECOND_CENTER_METHOD_DISAMBIGUATION_V439.md)。不把合法分组当全局第二定义，不把后续所有段交集当前三段固定核心；F01/OB38/OB99 OPEN、NOT_RUN。
