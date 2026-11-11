@@ -4,6 +4,8 @@
 
 ## 先从哪里读？
 
+**最新研究：最低级别究竟如何独立生成“完成走势”？** [第35课N>2中枢停止谓词与无循环证明收据](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_F01_PROOF_CARRYING_COMPLETION_RECEIPTS_AND_BOTTOM_CASE.md)。可核最低三笔连续同价基础中枢和递归三完成下级类型的交集、正确三买/三卖等号边界、异构时间戳与无循环关系；但不把虚构测试的“结构合法”误说成真实行情“完成”。最低单中心盘整的停止证书与价格中心比较器仍OPEN。
+
 **最新重大原文新证据：作者在哪些条件下宣布盘整、趋势已结束？** [2007-08-21 16:20:01的作者答疑与第18/20/67/78课联立证据](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_AUTHOR_REPLY_COMPLETION_EXIT_EVENTS_AND_NONCIRCULAR_PROOFS.md)：盘整退出第三类点、趋势退出本级背驰后回拉；这些都不能从单笔/线段结束直接推出。尤其核查此答疑不属于同日晚间第72课正式正文，F01尚缺原始下级走势完成证书与市场as-of。
 
 **最新理论研究：第54课抽象低级走势线是否能合法递归到后发严格线段/中枢？** [11类构件类型、第38课与第84课两根独立政策轴、8个仍待证明的构件接口](deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_F1_F2_COMPONENT_ADMISSION_AND_UNPROVEN_BRIDGES.md)。明确第67课合法线段结束不等于第18课已完成次级走势类型；没有实际重跑历史子分钟行情，F01/OB38继续OPEN。
@@ -16,7 +18,7 @@
 
 **最新专题：真正同一张图验证“级别”和“走势类型”的多义性。** [第54课作者同图双分解：甲乙5分钟中枢形成位置与g7三卖判断为何不同](deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_SAME_CHART_TWO_PARSINGS_AND_CROSS_ERA_LEVELS.md)。同时对照第15、17、35、72、84课，逐项给出SOURCE、RETROSPECTIVE或OPEN的边界；无市场回测。
 
-**优先读整本书（v4.31）**：[108课发表顺序与理论依赖双地图、七环核心主线和八步条件演练](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_READER_CONCEPTUAL_CLOSURE.md)。可以连续理解全书，但F01—F08、OB38/99仍OPEN且未进行市场实证。
+**优先读整本书（v4.32）**：[108课发表顺序与理论依赖双地图、七环核心主线和八步条件演练](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_READER_CONCEPTUAL_CLOSURE.md)。可以连续理解全书，但F01—F08、OB38/99仍OPEN且未进行市场实证。
 
 
 **最新研究：从有限合成特征实际生成候选**：[第67/71课G01候选与G05所有允许切分枚举](deliverables/chanlun_108_acceptance/00_REVIEW/G01_G05_LOCAL_CANDIDATE_GENERATORS.md)。

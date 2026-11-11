@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-F01-PROOF-CARRYING-COMPLETION-RECEIPT-V432",
+  "date": "2026-11-11",
+  "scope": "STRUCTURAL_ADMISSIBILITY_AUDIT_NOT_AUTHOR_COMPLETE_RECONSTRUCTION",
+  "sources": [
+    {
+      "lesson": 18,
+      "id": "CL018-S01",
+      "physical_pages": [
+        234
+      ],
+      "note": "F2 requires three consecutive completed lower-level movement types"
+    },
+    {
+      "lesson": 18,
+      "id": "CL018-S07",
+      "physical_pages": [
+        235
+      ],
+      "note": "minimal pan/trend construction may extend; not terminal evidence"
+    },
+    {
+      "lesson": 20,
+      "id": "CL020-S03",
+      "physical_pages": [
+        247
+      ],
+      "note": "third type point requires lower-level departure and first retrace, nonbroken boundary"
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-2",
+      "physical_pages": [
+        291
+      ],
+      "note": "three consecutive same-price trades initialize lowest center"
+    },
+    {
+      "lesson": 35,
+      "id": "CL35-SO-9",
+      "physical_pages": [
+        291
+      ],
+      "note": "lowest upward trend ends when N-th center (N>2) no longer higher; downward is converse; precise interval comparator unresolved"
+    },
+    {
+      "lesson": 67,
+      "id": "CL67-SOURCE-3",
+      "physical_pages": [
+        388,
+        389
+      ],
+      "note": "segment termination needs feature sequence gap branch"
+    },
+    {
+      "lesson": 71,
+      "id": "CL71-SOURCE-2",
+      "physical_pages": [
+        71
+      ],
+      "note": "auxiliary/middle pen membership cannot be declared completed immediately"
+    },
+    {
+      "lesson": 78,
+      "id": "CL78-SOURCE-2",
+      "physical_pages": [
+        175
+      ],
+      "note": "pen break not equal segment break"
+    },
+    {
+      "lesson": 84,
+      "id": "CL84-SOURCE-3",
+      "physical_pages": [
+        301
+      ],
+      "note": "f1 initializer can differ from f2 recursive rule"
+    }
+  ],
+  "author_reply_dataset": "catalog/chanlun_author_completion_event_witnesses_v1.json",
+  "source_kind_labels": [
+    "AUTHOR_LESSON_TEXT_IN_COMPILATION",
+    "ARCHIVED_AUTHOR_REPLY_NOT_ORIGINAL_SINA",
+    "RESEARCH_DERIVED_ADMISSIBILITY_GUARD"
+  ],
+  "raw_claim_bundle_contract": {
+    "schema_version": 1,
+    "intended_input": "UNTRUSTED_ABSTRACT_RECEIPT_GRAPH_NOT_MARKET_VALIDATION",
+    "supported_nodes": [
+      "RAW_TRADE",
+      "F1_CENTER",
+      "F1_TREND_NONADVANCE",
+      "FINISHED_MOVEMENT",
+      "F2_CENTER",
+      "THIRD_POINT",
+      "PAN_EXIT",
+      "TREND_EXIT",
+      "SEGMENT_END"
+    ],
+    "policy_requirement": "all graph nodes must use same frozen analysis policy id",
+    "raw_provenance": "RAW_TRADE.source_digest and stream_id are caller-supplied and NOT authenticated by this tool",
+    "time_requirement": "discrete observation ordinal, first_seen_seq, historical_endpoint_seq; first_seen_seq may follow physical turning point and must not precede dependencies",
+    "terminal_claim": "only STRUCTURAL_CHECKED_NOT_MARKET_AUTHENTICATED is ever returned",
+    "semantic_guards": [
+      "F1_CENTER: exactly three consecutive raw trade ordinals with identical prices; never claim the sole pan movement has ended",
+      "F1_TREND_NONADVANCE: N>2 and previous/Nth F1 center, upward not-higher or downward not-lower; market range comparator under-specified, only a declared predicate, not independently verified",
+      "F2_CENTER: exactly three consecutive FINISHED_MOVEMENT at child level, inclusive decimal price intersection; child exits still need independent certification",
+      "THIRD_POINT: same-level center plus completed lower departure and first-retrace; first-ness cannot be authenticated by graph labels alone; buy retrace-low>=ZG, sell retrace-high<=ZD",
+      "PAN_EXIT: same-level THIRD_POINT and center; cannot certify its own lower retrace",
+      "TREND_EXIT: divergence and pullback independent externally authenticated content required; not derived from segment-end",
+      "SEGMENT_END cannot be used as FINISHED_MOVEMENT or as direct third-point departure/retrace",
+      "graph must be acyclic, all references exist, and no node can first be seen before its dependencies",
+      "policy id, source class, historical endpoint and first-known time cannot silently change",
+      "no graph can output market-validated completed movement without independently verified raw trade/segment/exit sources"
+    ]
+  },
+  "formal_local_distinctions": [
+    {
+      "id": "B01",
+      "before": "THREE_IDENTICAL_BASE_TRADES",
+      "after": "LOWEST_CENTER_INSTANCE",
+      "status": "AUTHOR_DEFINED_CONDITIONAL_CONSTRUCTION",
+      "does_not_imply": "LOWEST_PAN_HAS_FINALLY_ENDED"
+    },
+    {
+      "id": "B02",
+      "before": "Nth_LOWEST_CENTER_NONADVANCE_N_GT_2",
+      "after": "LOWEST_UP_TREND_END_LABEL",
+      "status": "AUTHOR_TEXT_CONDITIONAL_WITH_UNRESOLVED_COMPARATOR",
+      "does_not_imply": "FIRST_REAL_TIME_CERTIFICATION_POINT"
+    },
+    {
+      "id": "B03",
+      "before": "THREE_COMPLETED_CONSECUTIVE_CHILD_MOVEMENTS_AND_RANGE_INTERSECTION",
+      "after": "F2_CENTER_INSTANCE",
+      "status": "AUTHOR_DEFINED_CONDITIONAL_CONSTRUCTION",
+      "does_not_imply": "PARENT_MOVEMENT_ALREADY_ENDED"
+    },
+    {
+      "id": "B04",
+      "before": "COMPLETE_LOWER_DEPARTURE_PLUS_FIRST_COMPLETE_RETRACE_AND_NONRETURN",
+      "after": "THIRD_POINT_CONDITIONAL",
+      "status": "AUTHOR_TEXT_WITH_COMMENT_EXIT_INTERPRETATION",
+      "does_not_imply": "RETRACE_COMPLETED_WITHOUT_OWN_EXIT_CERTIFICATE"
+    },
+    {
+      "id": "B05",
+      "before": "STRICT_SEGMENT_END",
+      "after": "FINISHED_LOWER_MOVEMENT",
+      "status": "UNLICENSED_BRIDGE",
+      "does_not_imply": "NO_PROOF_OF_COMPLETED_TREND_OR_PAN"
+    },
+    {
+      "id": "B06",
+      "before": "DIVERGENCE_AT_LEVEL_PLUS_ACTUAL_RETURN_TO_LAST_CENTER",
+      "after": "TREND_EXIT_CONDITIONAL",
+      "status": "ARCHIVED_AUTHOR_REPLY_CONDITIONAL",
+      "does_not_imply": "COMPLETE_DIVERGENCE_DETECTOR_OR_HISTORICAL_ASOF"
+    }
+  ],
+  "proof_status": {
+    "base_center": "CONDITIONALLY_AUTHOR_DEFINED",
+    "base_trend_nonadvance": "AUTHOR_CONDITION_COMPARATOR_NOT_FORMALIZED",
+    "base_pan_completion": "OPEN",
+    "f2_three_finished_types": "REQUIRES_INDEPENDENT_FINISH_EVIDENCE",
+    "pan_exit": "CONDITIONAL_NEEDS_FINISHED_LOWER_RETRACE",
+    "trend_exit": "CONDITIONAL_NEEDS_DIVERGENCE_AND_OBSERVED_PULLBACK",
+    "source_archive_authentication": "SECONDARY_OR_COMPILATION",
+    "unique_frozen_parse": "OPEN_OB38",
+    "f01": "OPEN",
+    "ob99": "OPEN",
+    "market_backtest": "NOT_RUN"
+  },
+  "hard_limits": {
+    "no_source_trade_tape_in_repo_for_l54": true,
+    "no_verified_subminute_trade_stream": true,
+    "no_author_certified_frozen_full_parser": true,
+    "no_intraday_or_order_fills_verified": true,
+    "no_false_automatic_base_pan_termination": true,
+    "never_return_AUTHOR_THEOREM_PROVEN": true
+  }
+}
