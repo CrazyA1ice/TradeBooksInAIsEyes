@@ -45,7 +45,7 @@ class KaixiangCenterBridgeTests(unittest.TestCase):
     def test_overlap_never_resurrects_an_invalidated_third_buy(self):
         r = self.assess("KX-CASE-01", 3)
         self.assertEqual(r["three_member_check"], bridge.OVERLAP)
-        self.assertEqual(r["candidate_states"]["third_buy_extension"], "INVALIDATED")
+        self.assertEqual(r["candidate_states_unchanged"]["third_buy_extension"], "INVALIDATED")
         self.assertFalse(r["third_buy_or_center_extension_proven"])
         self.assertFalse(r["center_sufficient_for_complete_chanlun_center"])
 

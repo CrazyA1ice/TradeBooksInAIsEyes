@@ -4712,8 +4712,8 @@
     {
       "source_path": "tests/test_kaixiang_center_asof_bridge.py",
       "mirror_path": "ChanlunCollection/tests/test_kaixiang_center_asof_bridge.py",
-      "git_blob_sha": "9b1ca2dd1c41be4e53e82bb8044f4dd9b59b68f5",
-      "size_bytes": 7162
+      "git_blob_sha": "bdde428895c36ef819b2ecc62478b22531f080e5",
+      "size_bytes": 7172
     },
     {
       "source_path": "tests/test_verify_chanlun_lesson_index.py",
