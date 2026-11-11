@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.48.0
+# ChanlunCollection｜本书实施工作流 v4.49.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.49.0 本步：**新对照原作者2006-12-28可不打开下级K线的熟练观察、2007-01-11“不够严谨”的上下上/下上下助记、2007-02-05 15:50:54中枢精确定义与16:59:23未来必达目标级别的动态强句、03-08两种看法和03-21第38课分析政策，系统排除不能当独立中心定义的候选。更正v4.47过强缩域，但不认证全量词或完成证明；凯翔第二套完整公式/第三层均缺其本人解释。详见[专题](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_SECOND_CENTER_METHOD_TYPE_AND_FEB05_DYNAMIC_CLAIM_V449.md)。F01/OB38/OB99 OPEN，实证NOT_RUN。
 
 **v4.48.0 本步：**已获得用户上传的知乎凯翔100条回答原文，在[OtherVoices单人目录](OtherVoices/speaker-unknown-001/README.md)建立原始字节、100个URL、关键短引、AI分析和评论缺失记录，避免丢失原说话者的真实语境。六点A089/A090已找到原话、第二种A087仍需具体算法、第三层A016未说出、A007引用另一交易者。全部成果见[审查报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAI_XIANG_100_ANSWERS_FIRSTHAND_AND_THIRD_LAYER_V448.md)；用户导出文件可靠性与知乎在线平台认证分开，F01/OB38/OB99 OPEN、NOT_RUN。
 
