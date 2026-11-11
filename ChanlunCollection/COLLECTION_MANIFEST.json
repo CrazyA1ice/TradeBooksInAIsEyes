@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.43.0",
-  "source_count": 926,
+  "workflow_version": "4.44.0",
+  "source_count": 931,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -364,6 +364,12 @@
       "mirror_path": "ChanlunCollection/.github/workflows/chanlun-second-method-source-disambiguation-gate.yml",
       "git_blob_sha": "da4a692a48626342e9d404d9dec23ee74f58d93d",
       "size_bytes": 614
+    },
+    {
+      "source_path": ".github/workflows/chanlun-strict-vs-operable-base-pan-gate.yml",
+      "mirror_path": "ChanlunCollection/.github/workflows/chanlun-strict-vs-operable-base-pan-gate.yml",
+      "git_blob_sha": "261cccb0e3d60e9626a1eb462efd626db2186cb0",
+      "size_bytes": 468
     },
     {
       "source_path": ".github/workflows/chanlun-theory-second-pass-source.yml",
@@ -1770,6 +1776,12 @@
       "size_bytes": 9665
     },
     {
+      "source_path": "catalog/chanlun_strict_vs_operable_bottom_pan_v444.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun_strict_vs_operable_bottom_pan_v444.json",
+      "git_blob_sha": "ab15c43310be6d8990bb057eda5d6ce39b13832c",
+      "size_bytes": 11965
+    },
+    {
       "source_path": "catalog/chanlun_strong_theses_proof_map_v1.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_strong_theses_proof_map_v1.json",
       "git_blob_sha": "9b9003be9eff177d26021df3d07c0af273493abd",
@@ -1798,6 +1810,12 @@
       "mirror_path": "ChanlunCollection/catalog/sources.yaml",
       "git_blob_sha": "2ddd8bf00d2a303d7fac83982e1b03df2579fbfd",
       "size_bytes": 114
+    },
+    {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/ABSOLUTE_PAN_BASE_VS_OPERABLE_SEGMENT_CUTOFF_V444.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/ABSOLUTE_PAN_BASE_VS_OPERABLE_SEGMENT_CUTOFF_V444.md",
+      "git_blob_sha": "a10fa1e7f2aee230429257618d6d2433ba083a50",
+      "size_bytes": 8716
     },
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/ACCEPTANCE_REPORT.md",
@@ -2342,8 +2360,8 @@
     {
       "source_path": "deliverables/chanlun_108_acceptance/README.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/README.md",
-      "git_blob_sha": "860e5c97816bdb7742cab77586682738641dda90",
-      "size_bytes": 34175
+      "git_blob_sha": "dbeee19417de220e0b75027efab88886bc36419c",
+      "size_bytes": 34501
     },
     {
       "source_path": "docs/ANALYSIS_STANDARD.md",
@@ -2354,8 +2372,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "f4db08e896c53b6f203fdb796332f0a5db224908",
-      "size_bytes": 86647
+      "git_blob_sha": "867398bfc3b9f0ad759d01176e085ba4f20afc20",
+      "size_bytes": 88311
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -3786,6 +3804,12 @@
       "size_bytes": 4872
     },
     {
+      "source_path": "tests/test_chanlun_base_pan_cutoff_dual.py",
+      "mirror_path": "ChanlunCollection/tests/test_chanlun_base_pan_cutoff_dual.py",
+      "git_blob_sha": "68fcdb71589b8b04609957b2c93df1c4c34ffd8d",
+      "size_bytes": 5737
+    },
+    {
       "source_path": "tests/test_chanlun_bridge_text_audit.py",
       "mirror_path": "ChanlunCollection/tests/test_chanlun_bridge_text_audit.py",
       "git_blob_sha": "dd293abaa4e7f0bc05cc19df972a38e56e1def37",
@@ -4612,6 +4636,12 @@
       "mirror_path": "ChanlunCollection/tools/audit_chanlun_author_law_cards.py",
       "git_blob_sha": "b3295ee992cc926954bb58c50e80d9a99c3f2ea0",
       "size_bytes": 5156
+    },
+    {
+      "source_path": "tools/audit_chanlun_base_pan_cutoff_dual.py",
+      "mirror_path": "ChanlunCollection/tools/audit_chanlun_base_pan_cutoff_dual.py",
+      "git_blob_sha": "4c78fafbe365787c45b7304f11b059abc4233d4b",
+      "size_bytes": 11103
     },
     {
       "source_path": "tools/audit_chanlun_center_order_completion.py",

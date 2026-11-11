@@ -1,0 +1,15 @@
+name: chanlun-strict-vs-operable-base-pan-gate
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  provenance-and-prefix-nonidentifiability:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -B tools/audit_chanlun_base_pan_cutoff_dual.py
+      - run: python -B -m unittest discover -s tests -p "test_chanlun_base_pan_cutoff_dual.py" -v

@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.43.0
+# ChanlunCollection｜本书实施工作流 v4.44.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.44.0 本步：**原作者第60课2007-06-19提前明确最低线段操作截断；2006-12-27第19课21:05作者署时二级评论谈一字线最低价值中枢，此早期措辞无法自动替换第35课严格逐笔交易三同价基例。把绝对严格交易a0与实用分型笔线段a0分别建类型合同，显式区分中心已成立、盘整可结束、盘整已在某历史时刻独立确认完结。条件性同前缀延续/退出模型证明三同价不能仅凭前缀推出唯一终结，未找到最底层全部行情退出特则，不伪称理论反证。完整[新研究报告](deliverables/chanlun_108_acceptance/00_REVIEW/ABSOLUTE_PAN_BASE_VS_OPERABLE_SEGMENT_CUTOFF_V444.md)，F01/OB38/OB99 OPEN、NOT_RUN。
 
 **v4.43.0 本步：**找到2007-03-20 18:16:44作者正面答复“低层回试盘整可无限延伸如何完结”，连同18:55:11“可结束不等于已结束”、17:39:28“最低三笔同价不必翻转”及3月21日16:56:34“次次级两次回抽属次级一次结构内部”，从原文限定最低完成/跨级计数。源码建立1级父回抽、0级微走势的独立完成声明审查，标记t10已见微构件与t12才声明父级出口的区别。**绝对最低层第三点需要不存在的负一级已完成走势**只表示现有规则子集缺一个基础终结特则，不证明原文全局不可实现；F01/OB38/OB99 OPEN、NOT_RUN。详情[最低盘整专题](deliverables/chanlun_108_acceptance/00_REVIEW/MINIMUM_PAN_END_NESTED_RETRACE_AND_BASE_GAP_V443.md)。
 
