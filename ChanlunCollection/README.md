@@ -1,5 +1,7 @@
 # ChanlunCollection｜《缠论》五卷108课完整研究档案
 
+**v4.51 凯翔排除法的当下可信度：**[A026三候选、A073趋势末端不确定、A061跨级扩张、A074/A095止损不同语境的无前视审计](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_ASOF_ELIMINATION_VS_STRUCTURAL_STOPS_V451.md)。附[8条来源明确的机器可读反事实契约](OtherVoices/speaker-unknown-001/decision_audit_v451.json)，严格标研究者框架而非高手私有算法。评论无可认证新增。
+
 **v4.50 凯翔100篇全局思想研究：**[十三字观察纲领→六个执行要素→五维环境系统，兼论级别双义、第99课跨级后继H4与A094评论资料缺口](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_100_ANSWERS_SYSTEM_CROSSLEVEL_AND_COMMENT_GAPS_V450.md)。保留100篇原件，新增人物原话与研究并列；“第三层”仍是候选，不是凯翔已披露的公式。
 
 **v4.49 强动态原文发现：**[2007-02-05级别必达署时回复、01-11非严谨口诀、03-08两种观察视角和凯翔“第二种定义”的排他校勘](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_SECOND_CENTER_METHOD_TYPE_AND_FEB05_DYNAMIC_CLAIM_V449.md)。纠正v4.47的一项过度缩域，但严格完成/第二定义仍开放。

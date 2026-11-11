@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "title": "凯翔已公开发言的条件分类/止损规则研究性验证契约",
+  "basis": "USER_SUPPLIED_100_ANSWERS_AS_OF_2026-11-11",
+  "upstream_source_file": "answers-2026-11-11.md",
+  "source_sha256": "3fb9f3255cffe62a93f5473cfbf003f15d4c60ae8ee4d9f2e4e56083b935b7b9",
+  "status": "RESEARCHER_TEST_DESIGN_NOT_KAIXIANG_TRADING_ALGORITHM",
+  "market_data": "NOT_RUN",
+  "independent_comment_evidence": "MISSING_IN_UPLOADED_EXPORT_NOT_ZERO_ON_ZHIHU",
+  "reference_author_lesson_urls": {
+    "L17": "https://eczsc.com/originals/17",
+    "L38": "https://eczsc.com/originals/38",
+    "L99": "https://eczsc.com/originals/99",
+    "L102": "https://eczsc.com/originals/102"
+  },
+  "required_asof_record_fields": [
+    "observed_at",
+    "raw_market_data_cutoff",
+    "analysis_structural_level",
+    "trading_horizon",
+    "segmentation_policy",
+    "feature_availability_time",
+    "claimed_completion_confirmation_time",
+    "candidate_states",
+    "candidate_invalidation_events",
+    "separate_account_risk_limit",
+    "decision_reason"
+  ],
+  "state_vocabulary": {
+    "PENDING": "截至observed_at结构或未来类型尚无完成证书",
+    "CONDITION_CONFIRMED": "仅确认给定级别/政策的某一个已观察条件，并非事后全局唯一标签",
+    "INVALIDATED": "给定假设的已知反证事件已在截止时点发生",
+    "FINAL_ONLY_AFTER_CONFIRMATION": "仅在完成/后验认证时才允许使用的标签",
+    "RISK_EXIT": "账户风险限额触发而退出，即使技术结构判断尚未失效"
+  },
+  "cases": [
+    {
+      "id": "KX-CASE-01",
+      "source_answer_ids": [
+        "A026",
+        "A084",
+        "A016"
+      ],
+      "scenario": "某级别上涨被叙述为结束，后续可能涉及三买/盘整/下跌；区分涨多与严格结束",
+      "preconditions": [
+        "明确g与分解政策R",
+        "现时t有无完成证书",
+        "列出当下有效的全部候选"
+      ],
+      "when_can_exclude": "三买前置条件已通过t可见事实失效，才排除该技术分支；不能以事后行情回填",
+      "must_not_claim": "三候选在所有级别/全部未来都数学互斥穷尽；涨多即已完成；盘整后下跌必然获利",
+      "researcher_judgment": "A026的排除法是有条件的候选集合筛减，并非先知式确定最终走势"
+    },
+    {
+      "id": "KX-CASE-02",
+      "source_answer_ids": [
+        "A073",
+        "A026"
+      ],
+      "scenario": "已经上涨一段并盘了几天，或上涨后回落，看上去可顺势买入",
+      "preconditions": [
+        "记录t之前已经走出的走势",
+        "标注买入时趋势是否处于可能末端",
+        "记录基于t信息的确认信号"
+      ],
+      "when_can_exclude": "只有在符合冻结规则的突破、失效或完整构造事件发生后才调整候选",
+      "must_not_claim": "趋势已经上升故接下来必然续涨；事后正确趋势标签当时已经可见",
+      "researcher_judgment": "A073给出对所有“看起来顺势”策略的真实前视警告"
+    },
+    {
+      "id": "KX-CASE-03",
+      "source_answer_ids": [
+        "A061",
+        "A026"
+      ],
+      "scenario": "以两个5分钟中枢下跌后的疑似一买入场，先有浮盈随后出现30分钟中枢和更深回落",
+      "preconditions": [
+        "小级别一买首次可确认时点",
+        "t时大一级别中心是否已经形成",
+        "持仓决策是否在t记录"
+      ],
+      "when_can_exclude": "只有30分钟结构后续确实满足成立条件才能改变对高层级的已确认归属",
+      "must_not_claim": "当初小级别一买时已知道之后一定形成30分钟中心；5%浮盈或3%回撤是普适策略收益",
+      "researcher_judgment": "A061实例是可能路径的经验举例，不是经过核算的真实成交单据"
+    },
+    {
+      "id": "KX-CASE-04",
+      "source_answer_ids": [
+        "A074",
+        "A095"
+      ],
+      "scenario": "买早后背驰段继续下行，技术解读认为结构还没坏，但账户出现亏损",
+      "preconditions": [
+        "入场时冻结结构逻辑",
+        "预先确定结构失效事件",
+        "独立确定单笔账户风险上限"
+      ],
+      "when_can_exclude": "结构否定事件发生便按A074退出；独立账户上限先触发也必须触发RISK_EXIT（AI风险约束）",
+      "must_not_claim": "只要结构没破坏就可以无限扛单；A074已给出适用于任何杠杆的最大亏损保证",
+      "researcher_judgment": "技术判断失败和风险限额不同步。独立风险退出是研究者安全约束，不冒充凯翔公式"
+    },
+    {
+      "id": "KX-CASE-05",
+      "source_answer_ids": [
+        "A095",
+        "A074",
+        "A061"
+      ],
+      "scenario": "期货杠杆环境出现不利跳空或快速变动，尚未有可观测的结构反证",
+      "preconditions": [
+        "记录保证金和最大账户亏损规则",
+        "提前定义触发风险限额的可知价格事件",
+        "记录可实际成交时间"
+      ],
+      "when_can_exclude": "无论技术看法，只要可执行风险限额被触发，单独标记RISK_EXIT",
+      "must_not_claim": "未来价格会在理论止损价成交；交易成本/滑点不影响收益；期货适宜用来练习巨大亏损",
+      "researcher_judgment": "A095强调快止损，A074强调结构；二者可在双层退出契约共存但作者未给数值参数"
+    },
+    {
+      "id": "KX-CASE-06",
+      "source_answer_ids": [
+        "A084",
+        "A016",
+        "A026"
+      ],
+      "scenario": "A084涨多后只列跌/盘，A016完成后转另外两型，A026涨后还谈三买中枢扩展",
+      "preconditions": [
+        "严格区别“涨多”、“某级别涨完”和“初看可能涨完但未确认”",
+        "显式标注分解级别、类型转换和级别扩张状态"
+      ],
+      "when_can_exclude": "只有同一g、相同切分政策、已认证完成才能适用严格同级后继约束",
+      "must_not_claim": "三个发言在没有统一级别/完成证书的前提下构成形式自相矛盾或完全相同命题",
+      "researcher_judgment": "必须给对象加类型标签；涨多是经验话语，完成是理论准入条件"
+    },
+    {
+      "id": "KX-CASE-07",
+      "source_answer_ids": [
+        "A016",
+        "A026",
+        "A058"
+      ],
+      "scenario": "将作者第99课跨级中阴后继强句解释为凯翔的第三层H4",
+      "preconditions": [
+        "确认当前g走势真的结束",
+        "确认后续g+1中心的成立时刻和位置",
+        "分离作者原课、凯翔本人原话与AI推断"
+      ],
+      "when_can_exclude": "只有凯翔本人明确将第三层对应第99课规则，才可提升H4为本人意图",
+      "must_not_claim": "第99课的作者原文就是凯翔的第三层定义；未来高一级中心必达代表可立即获利",
+      "researcher_judgment": "H4属于与原课兼容的候选而非已证谜底"
+    },
+    {
+      "id": "KX-CASE-08",
+      "source_answer_ids": [
+        "A094",
+        "A058"
+      ],
+      "scenario": "根据A094回答内补记和A058删后恢复的自述查找评论或历史版本",
+      "preconditions": [
+        "独立评论需要评论ID、父关系、作者身份、时间及原文",
+        "回答正文里谈及评论只做来源指针"
+      ],
+      "when_can_exclude": "没有可核验的独立评论记录时只能标记COMMENTS_MISSING",
+      "must_not_claim": "搜索结果没有即不存在评论；回答发表日期等于13字完整版本首次公布日期",
+      "researcher_judgment": "目前公开网页访问403/获取失败，保留缺口并优先补真实来源"
+    }
+  ]
+}
