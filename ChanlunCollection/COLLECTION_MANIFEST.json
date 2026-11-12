@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.66.0",
-  "source_count": 980,
+  "workflow_version": "4.67.0",
+  "source_count": 981,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -1872,6 +1872,12 @@
       "size_bytes": 6664
     },
     {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_F01_AUTHOR_REPLY_20070320_NONREUSE_AND_L36_POLICY_DEPENDENCE_V467.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_F01_AUTHOR_REPLY_20070320_NONREUSE_AND_L36_POLICY_DEPENDENCE_V467.md",
+      "git_blob_sha": "84ace52adf438dd99d0491172bdb49a7588e8346",
+      "size_bytes": 12958
+    },
+    {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_F01_THREE_TRADE_SEED_WINDOWS_VS_CENTER_IDENTITY_V466.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_F01_THREE_TRADE_SEED_WINDOWS_VS_CENTER_IDENTITY_V466.md",
       "git_blob_sha": "d17c2278146b4ef97f1623132aa195feea705934",
@@ -2498,8 +2504,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "263e4a2b6673b37c27fb088e4aa2f9ecdffc3646",
-      "size_bytes": 120815
+      "git_blob_sha": "a5e76204a6abd87c222614bdb856f2cb82458932",
+      "size_bytes": 122980
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
