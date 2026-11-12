@@ -2,7 +2,7 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.76.0",
+  "workflow_version": "4.77.0",
   "source_count": 996,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
@@ -14,8 +14,8 @@
     {
       "source_path": ".github/workflows/book-collection-integrity.yml",
       "mirror_path": "ChanlunCollection/.github/workflows/book-collection-integrity.yml",
-      "git_blob_sha": "574c8c0498ed74b8e5ce06d06911c8ec01b8b958",
-      "size_bytes": 1827
+      "git_blob_sha": "2013a321cb65bee8fde057e080392fcf006058f0",
+      "size_bytes": 1992
     },
     {
       "source_path": ".github/workflows/chanlun-108-acceptance-bundle.yml",
@@ -2588,8 +2588,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "6e17deca96d76f88edcc94fcde95232e780d8a26",
-      "size_bytes": 139520
+      "git_blob_sha": "c636582c482fd955122d634c102989acd45b335c",
+      "size_bytes": 140166
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
