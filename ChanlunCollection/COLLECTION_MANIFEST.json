@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.60.0",
-  "source_count": 974,
+  "workflow_version": "4.61.0",
+  "source_count": 975,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -2046,6 +2046,12 @@
       "size_bytes": 6760
     },
     {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_THREE_OVERLAPS_AND_ASOF_ELIMINATION_V461.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_THREE_OVERLAPS_AND_ASOF_ELIMINATION_V461.md",
+      "git_blob_sha": "cb55823a3cecc41a3bd356b2fb5d0d9c8569d4cc",
+      "size_bytes": 12978
+    },
+    {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/KAI_XIANG_100_ANSWERS_FIRSTHAND_AND_THIRD_LAYER_V448.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/KAI_XIANG_100_ANSWERS_FIRSTHAND_AND_THIRD_LAYER_V448.md",
       "git_blob_sha": "dbf8819d980ce245a63b0db360bedb2073d183a1",
@@ -2462,8 +2468,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "dea9bc313b699d2207c28c25eb9ee2d152e95cf2",
-      "size_bytes": 108159
+      "git_blob_sha": "939f14ecb573d11464b737b12076a7e826f0577d",
+      "size_bytes": 110014
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
