@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.73.0",
-  "source_count": 989,
+  "workflow_version": "4.74.0",
+  "source_count": 991,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -1464,6 +1464,12 @@
       "size_bytes": 13636
     },
     {
+      "source_path": "catalog/chanlun_confucius59_boundary_dependencies_v474.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun_confucius59_boundary_dependencies_v474.json",
+      "git_blob_sha": "a6d00eeaf932bbcfaaeeb431eb7bfa182aebea5c",
+      "size_bytes": 4231
+    },
+    {
       "source_path": "catalog/chanlun_crosslesson_consistency_v1.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_crosslesson_consistency_v1.json",
       "git_blob_sha": "b2495dbae6d764998c537ff6f722297c809964a3",
@@ -1882,6 +1888,12 @@
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/CENTER_EVOLUTION_AND_DIVERGENCE_METHOD.md",
       "git_blob_sha": "711481dc6461356cdb88f79330b4b3f5c84ceee5",
       "size_bytes": 6664
+    },
+    {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_CONFUCIUS59_BOUNDARY_REQUIRES_PREVIOUS_COMPLETED_MOVEMENT_V474.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_CONFUCIUS59_BOUNDARY_REQUIRES_PREVIOUS_COMPLETED_MOVEMENT_V474.md",
+      "git_blob_sha": "3a5d0f16d44bdf6f19ec4dd7d13e3b8d0698361b",
+      "size_bytes": 9110
     },
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_F01_AUTHOR_REPLY_20070320_NONREUSE_AND_L36_POLICY_DEPENDENCE_V467.md",
@@ -2552,8 +2564,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "cc7b3db7267367ebad81b97fd26e3f7f1701869c",
-      "size_bytes": 133398
+      "git_blob_sha": "8873d382024120488e01d08b85bae48387cc91ce",
+      "size_bytes": 135361
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -4028,8 +4040,8 @@
     {
       "source_path": "tests/test_book_collection.py",
       "mirror_path": "ChanlunCollection/tests/test_book_collection.py",
-      "git_blob_sha": "d96fa2f36ddf1d1a30ad775ced7c77784eeac6c5",
-      "size_bytes": 21279
+      "git_blob_sha": "a1bc35afb578de4c1fd1606f3638437e845013ce",
+      "size_bytes": 24905
     },
     {
       "source_path": "tests/test_chanlun20_center_extension_membership_gate.py",

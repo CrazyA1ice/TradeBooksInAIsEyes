@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-CONFUCIUS59-BOUNDARY-DEPENDENCIES-V474",
+  "reviewed_at": "2026-11-12",
+  "classification": "RESEARCH_PROVENANCE_NOT_COMPLETION_CERTIFICATE",
+  "sources": [
+    {
+      "id": "L38_AUTHOR_MAIN",
+      "role": "AUTHOR_MAIN",
+      "source_article": "教你炒股票38",
+      "published_at": "2007-03-21T15:23:21",
+      "url": "https://eczsc.com/originals/38",
+      "claim": "FIXED_SAME_LEVEL_POLICY_AUTHOR_CLAIMS_UNIQUE_DECOMPOSITION"
+    },
+    {
+      "id": "CONFUCIUS59_160348",
+      "role": "ARCHIVED_AUTHOR_REPLY",
+      "source_article": "论语详解59",
+      "source_article_published_at": "2007-03-22T15:28:36",
+      "question_author": "空读",
+      "question_at": "2007-03-22T15:35:59",
+      "reply_at": "2007-03-22T16:03:48",
+      "url": "https://chzhshch.blog/confucius/59/",
+      "claim": "DIVERGENCE_AND_PAN_DIVERGENCE_GUIDE_SEGMENTATION_THIRD_POINTS_STILL_HAVE_INTERNAL_EVIDENCE"
+    },
+    {
+      "id": "CONFUCIUS59_164752",
+      "role": "ARCHIVED_AUTHOR_REPLY",
+      "source_article": "论语详解59",
+      "source_article_published_at": "2007-03-22T15:28:36",
+      "question_author": "touchnet",
+      "question_at": "2007-03-22T15:57:49",
+      "reply_at": "2007-03-22T16:47:52",
+      "url": "https://chzhshch.blog/confucius/59/",
+      "claim": "INTERNAL_CONFIRMATION_NEEDED_SAME_LEVEL_CENTERS_AND_BOUNDARY_MUST_BE_PREVIOUS_MOVEMENT_END"
+    },
+    {
+      "id": "L39_AUTHOR_MAIN",
+      "role": "AUTHOR_MAIN",
+      "source_article": "教你炒股票39",
+      "published_at": "2007-03-23T15:16:51",
+      "url": "https://eczsc.com/originals/39",
+      "claim": "AI_AIPLUS2_RELATIVE_COMPARISON_ASSUMES_LEGAL_SAME_LEVEL_CHILD_MEMBERS"
+    },
+    {
+      "id": "L53_AUTHOR_MAIN",
+      "role": "AUTHOR_MAIN",
+      "source_article": "教你炒股票53",
+      "published_at": "2007-05-23T08:47:18",
+      "url": "https://eczsc.com/originals/53",
+      "claim": "CHILD_MOVEMENT_EXTREMA_NOT_NECESSARILY_START_END"
+    }
+  ],
+  "rules": [
+    {
+      "id": "R1",
+      "premise": "ARBITRARY_RAW_SWING_EXTREMUM",
+      "claimed_result": "LEGAL_MOVEMENT_BOUNDARY",
+      "state": "REJECTED_BY_ARCHIVED_AUTHOR_REPLY"
+    },
+    {
+      "id": "R2",
+      "premise": "CERTIFIED_PREVIOUS_SAME_LEVEL_MOVEMENT_END",
+      "claimed_result": "NEXT_MOVEMENT_BOUNDARY_ADMISSIBLE_UNDER_FIXED_R",
+      "state": "AUTHOR_NECESSARY_CONDITION_NOT_UNIVERSAL_SUFFICIENCY"
+    },
+    {
+      "id": "R3",
+      "premise": "DIVERGENCE_EARLY_WARNING_OR_INTERVAL_NESTING",
+      "claimed_result": "FINISHED_MOVEMENT_INSTANTLY_KNOWN",
+      "state": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "R4",
+      "premise": "PRICE_NO_BREAK",
+      "claimed_result": "INTERNAL_STRUCTURE_CONFIRMED",
+      "state": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "R5",
+      "premise": "THIRD_POINT_STRUCTURE",
+      "claimed_result": "PAN_EXIT_CAN_BE_INFERRED_WITHOUT_INTERNAL_CHILD_CERTIFICATION",
+      "state": "REJECTED_AS_OMITTING_REQUIRED_SCOPE"
+    }
+  ],
+  "research_time_fields": [
+    "EXTREMUM_PRICE_AT",
+    "PREVIOUS_MOVEMENT_END_PRICE_AT",
+    "PREVIOUS_MOVEMENT_END_FIRST_KNOWN_AT",
+    "THIRD_POINT_FIRST_KNOWN_AT"
+  ],
+  "anti_circularity": {
+    "boundary_claim_depends_on_previous_completed_movement": true,
+    "previous_completion_must_have_independent_evidence": true,
+    "assigning_start_then_assuming_previous_end": "CIRCULAR_BOUNDARY_ASSIGNMENT_REJECTED"
+  },
+  "guardrails": {
+    "f01_root_identity": "OPEN",
+    "f01_root_exit": "OPEN",
+    "ob38": "OPEN",
+    "ob99": "OPEN",
+    "border_touch": "BORDER_TOUCH_UNRESOLVED",
+    "kaixiang_a087": "UNKNOWN",
+    "kaixiang_a016": "UNKNOWN",
+    "source_comment_original_bytes_authenticated": false,
+    "market_replay": "NOT_RUN",
+    "orders_sent": 0
+  },
+  "notes": [
+    "Comments are historically archived under 2007-03-22 Confucius 59, not the lesson 38 author body.",
+    "A secondary anthology may place them as a lesson 38 appendix for topical convenience, not original comment attachment.",
+    "Question timestamps and author reply timestamps are not interchangeable.",
+    "Author statements about internal divergence and operational early selling are not independently certified online finish events."
+  ]
+}

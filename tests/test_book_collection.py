@@ -359,5 +359,64 @@ class BookCollectionTests(unittest.TestCase):
                        "AUTHOR_MAIN","ROOT_IDENTITY","ROOT_EXIT","NOT_RUN"):
             self.assertIn(marker,content)
 
+
+    def test_v474_confucius59_nonarbitrary_legal_boundary_evidence(self):
+        """Guard true archive attachment, question/reply clocks and no circular exit."""
+        source=ROOT/"catalog/chanlun_confucius59_boundary_dependencies_v474.json"
+        data=json.loads(source.read_text(encoding="utf-8"))
+        self.assertEqual(data["schema_version"],1)
+        self.assertEqual(data["classification"],
+                         "RESEARCH_PROVENANCE_NOT_COMPLETION_CERTIFICATE")
+        events={e["id"]:e for e in data["sources"]}
+        self.assertEqual(len(events),5)
+        self.assertEqual(events["L38_AUTHOR_MAIN"]["role"],"AUTHOR_MAIN")
+        self.assertEqual(events["L38_AUTHOR_MAIN"]["published_at"],
+                         "2007-03-21T15:23:21")
+        self.assertEqual(events["L39_AUTHOR_MAIN"]["published_at"],
+                         "2007-03-23T15:16:51")
+        self.assertEqual(events["L53_AUTHOR_MAIN"]["role"],"AUTHOR_MAIN")
+        reply1=events["CONFUCIUS59_160348"]
+        reply2=events["CONFUCIUS59_164752"]
+        self.assertEqual((reply1["question_author"],reply2["question_author"]),
+                         ("空读","touchnet"))
+        self.assertEqual((reply1["question_at"],reply1["reply_at"]),
+                         ("2007-03-22T15:35:59","2007-03-22T16:03:48"))
+        self.assertEqual((reply2["question_at"],reply2["reply_at"]),
+                         ("2007-03-22T15:57:49","2007-03-22T16:47:52"))
+        for e in (reply1,reply2):
+            self.assertEqual(e["role"],"ARCHIVED_AUTHOR_REPLY")
+            self.assertEqual(e["source_article"],"论语详解59")
+            self.assertEqual(e["source_article_published_at"],
+                             "2007-03-22T15:28:36")
+            self.assertEqual(e["url"],"https://chzhshch.blog/confucius/59/")
+        rules={r["id"]:r for r in data["rules"]}
+        self.assertEqual(len(rules),5)
+        self.assertEqual(rules["R1"]["state"],"REJECTED_BY_ARCHIVED_AUTHOR_REPLY")
+        self.assertEqual(rules["R2"]["state"],
+                         "AUTHOR_NECESSARY_CONDITION_NOT_UNIVERSAL_SUFFICIENCY")
+        self.assertEqual(rules["R3"]["state"],"NOT_ESTABLISHED")
+        self.assertEqual(rules["R4"]["state"],"NOT_ESTABLISHED")
+        self.assertEqual(rules["R5"]["state"],"REJECTED_AS_OMITTING_REQUIRED_SCOPE")
+        anti=data["anti_circularity"]
+        self.assertIs(anti["boundary_claim_depends_on_previous_completed_movement"],True)
+        self.assertIs(anti["previous_completion_must_have_independent_evidence"],True)
+        self.assertEqual(anti["assigning_start_then_assuming_previous_end"],
+                         "CIRCULAR_BOUNDARY_ASSIGNMENT_REJECTED")
+        self.assertEqual(len(data["research_time_fields"]),4)
+        limits=data["guardrails"]
+        for key in ("f01_root_identity","f01_root_exit","ob38","ob99"):
+            self.assertEqual(limits[key],"OPEN")
+        self.assertEqual(limits["border_touch"],"BORDER_TOUCH_UNRESOLVED")
+        self.assertIs(limits["source_comment_original_bytes_authenticated"],False)
+        self.assertEqual(limits["market_replay"],"NOT_RUN")
+        self.assertEqual(limits["orders_sent"],0)
+        report=(ROOT/"deliverables/chanlun_108_acceptance/00_REVIEW/"
+                "CHANLUN_CONFUCIUS59_BOUNDARY_REQUIRES_PREVIOUS_COMPLETED_MOVEMENT_V474.md")
+        s=report.read_text(encoding="utf-8")
+        for marker in ("《论语》59","16:03:48","16:47:52","第38课",
+                       "第39课","第53课","CIRCULAR_BOUNDARY_ASSIGNMENT_REJECTED",
+                       "F01_ROOT_EXIT=OPEN","NOT_RUN"):
+            self.assertIn(marker,s)
+
 if __name__=="__main__":
     unittest.main()
