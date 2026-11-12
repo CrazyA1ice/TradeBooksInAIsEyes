@@ -1,4 +1,8 @@
-# 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.79.0，2026-11-12）
+# 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.80.0，2026-11-12）
+
+## v4.80.0｜灵感第三轮：递归起点、骨牌反身性与跨级风险
+
+[凯翔70条灵感](../other_views/chanlun/speaker-unknown-001/IDEA_NOTEBOOK.md)、[27组组合](../other_views/chanlun/speaker-unknown-001/IDEA_COMBINATIONS.md)与[本轮原文深读](../other_views/chanlun/speaker-unknown-001/IDEA_DEEP_DIVE_V480.md)聚焦第84课f1/f2和初值变体、第83课线段骨牌与模仿、第60课较高结构破坏的较低级退出动作，并对A069时间比喻进行原文压力测试。每次新阅读要区分理论定义、观察抗噪性和实际交易效果，允许多种猜想共存。
 
 ## v4.79.0 原文差分与灵感融合
 

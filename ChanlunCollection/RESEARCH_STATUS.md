@@ -2,6 +2,8 @@
 
 **查询时点：** 2026-11-12。研究稿已覆盖五卷第1—108课；当前收据以GitHub主分支及[本书逐课逻辑地图](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md)、[来源索引](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_SOURCE_ATLAS.md)为准。**研究覆盖完成不等于全部数学证明完成。**
 
+**v4.80.0 灵感第三轮：**[70条个人灵感](OtherVoices/speaker-unknown-001/IDEA_NOTEBOOK.md)、[27组组合](OtherVoices/speaker-unknown-001/IDEA_COMBINATIONS.md)、[第三轮第84/83/60课深读](OtherVoices/speaker-unknown-001/IDEA_DEEP_DIVE_V480.md)。新增“可选初始f1不等于另一上级递归f2”“拥挤仓位可能骨牌放大弱反攻”“大级破坏与低级撤退动作可分层”的竞争解释。第二中枢与第三层仍未获得本人明确公式；F01/OB38/OB99 OPEN、行情NOT_RUN。
+
 **v4.79.0 第二轮原文差分：**已累计[凯翔60条灵感](OtherVoices/speaker-unknown-001/IDEA_NOTEBOOK.md)、[21组组合](OtherVoices/speaker-unknown-001/IDEA_COMBINATIONS.md)，新增[第17/57/60/83/99课源证深读](OtherVoices/speaker-unknown-001/IDEA_DEEP_DIVE_V479.md)。第60课外化行为、第83课抗噪、第17课已明确动态两层促成新解释；A087/A016本人未认证，F01/OB38/OB99 OPEN，行情NOT_RUN。
 
 **v4.78.0 灵感发掘已成为通用研究步骤：**已保存[凯翔48条开放式想法](OtherVoices/speaker-unknown-001/IDEA_NOTEBOOK.md)与[14组组合实验](OtherVoices/speaker-unknown-001/IDEA_COMBINATIONS.md)，并设[跨人物主题索引](OtherVoices/IDEA_CROSS_AUTHOR_INDEX.md)和[通用工作流](docs/IDEA_DISCOVERY_WORKFLOW.md)。不同猜想可同时存在，原文/推测必须分开；现在**只有凯翔一名系统登记的人物**，未来才能验证跨人共通之处。作者未公布的中枢第二法与第三层仍未确证，A094/A058独立评论缺失，F01/OB38/OB99 OPEN，实盘 NOT_RUN。
