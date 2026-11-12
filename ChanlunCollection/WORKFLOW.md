@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.59.0
+# ChanlunCollection｜本书实施工作流 v4.60.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.60.0 跨课证明桥门：**基于[原作者第18/20/38/99课与凯翔A016/A026对照](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_CROSSLEVEL_COMPLETION_AND_CENTER_RECONCILIATION_V460.md)，今后跨级结论必须独立审核：同级分段政策R是否考虑高级别？两个中心外沿波动是否符合第20课升级条件？第18课“可以结束”有无实际完成证书？第99课未来更大中心的可知时间/区间几何是否已独立验证？第99课“中阴一般划分未明”不等于所有同级别片段不可用，二者不同命题。仅由六段两个盘整不得出具高级中心或已完成交易信号。原100答、5卷PDF、108课不改，F01/OB38/OB99 OPEN，NOT_RUN。
 
 **v4.59.0 本书原文审稿门：**用户确认上传凯翔回答确实100条，研究样本即A001—A100。新增[第17/18/38课与凯翔第二层的分解政策核对](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_POLICY_SCOPED_NEXT_TYPE_AND_THIRD_LAYER_V459.md)：第38课明确允许同级别固定分解下盘整接盘整，故“完成后必转另外两种”若要成为强全称命题必须限定R/g/“完成”对象；不能混淆中心存在、可结束、政策截断、独立完成和相邻类型。第99课H4跨级后继、第102课H5递归整体表达均有作者原文但**均不是凯翔已说出的第三层**；A087第二中枢方法仍未披露。今后每个具体书籍都应核查看似相同的术语有没有改变分解政策、输入层级与时钟，而非以AI猜测代替作者公式。F01/OB38/OB99 OPEN、真实行情NOT_RUN。
 
