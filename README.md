@@ -24,6 +24,8 @@
 
 **《缠论》全部研究成果已整理到 [ChanlunCollection/](ChanlunCollection/README.md)**：五卷原PDF、108篇逐课分析、108张原文证据卡、108课统一理论主脊、深度导读、来源与版本登记、报告、测试和审计工具均在一个文件夹内可查；保留原仓库规范路径作为编辑源，由`COLLECTION_MANIFEST.json`逐文件验证精确一致。后续每本书都建立独立`<BookName>Collection/`；**每一步研究都必须同步修订[通用工作流](docs/BOOK_RESEARCH_WORKFLOW.md)、该书[工作日志](ChanlunCollection/WORK_LOG.md)和集合完整性清单**。
 
+**最新v4.62《缠论》原课三级别推理：**[第98/100课实际30/5/1条件树与凯翔A026不测而测](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_LESSONS_98_100_LIVE_MULTILEVEL_STATE_TREE_V462.md)。不再以虚构价带推导原作者“未来一定”结论；直接按第100课：1分钟底背驰先出现，回拉是否构成5分钟三卖而分成两种5分钟状态，30分钟尚不自动变化，后续需要更高层完成/回试证据。第98课明确强调回拉后的分类与当下响应，支持凯翔A026/A058所强调的分层条件思维，但第100课三卖不可冒充A026三买原路径。H6为新增原课支撑的**研究者候选**，不是凯翔本人确认的“第三层”；F01/OB38/OB99 OPEN，行情NOT_RUN。长期多交易书籍架构不变。
+
 **最新v4.61《缠论》原课区间语义研究：**[第20/99课重叠对象与凯翔A026“不测而测”源证据报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_THREE_OVERLAPS_AND_ASOF_ELIMINATION_V461.md)。作者第20课的中心延伸触及本中心核心、两中心外围波动交叠促成级别扩张，与第99课后继大中心位置**属于三种不同的关系**；上行扩张可以满足“核心分离而外围波动交叠”的数值条件。第99课“落在旧最后中心范围”尚不能自造全部区间包含式。凯翔A026“当前未见高层中心”不能直接等于“已证高层扩张永远不可能”。研究对象仍100答，第三层/第二算法UNKNOWN，F01/OB38/OB99 OPEN，市场NOT_RUN。
 
 **最新v4.60《缠论》跨课推理：**[第18/20/38/99课与凯翔A026的分层证据报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_CROSSLEVEL_COMPLETION_AND_CENTER_RECONCILIATION_V460.md)。**第38课的两个同级盘整不自动构成第20课更高一级中心**，因为中心外沿波动及实际成员仍需验；第18课“可结束”不等于“已完成”；第99课“中阴一般分解未明”特别不排斥固定同级分析已可用，后继更高中心是未来强命题而非当下已证买点。100答基线已确认，A087第二定义/A016第三层仍未由本人揭晓，F01/OB38/OB99 OPEN，市场NOT_RUN。本仓库长期支持其他交易书籍。
