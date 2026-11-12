@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-THIRD-POINT-SOURCE-RECEIPTS-V472",
+  "research_only": true,
+  "sources": [
+    {
+      "id": "L53_AUTHOR_MAIN",
+      "role": "AUTHOR_MAIN",
+      "source_article": "教你炒股票53",
+      "date": "2007-05-23",
+      "url": "https://eczsc.com/originals/53",
+      "claim": "MOVEMENT_RANGE_EXTREMA_MAY_DIFFER_FROM_ENDPOINT"
+    },
+    {
+      "id": "L24_AUTHOR_REPLY",
+      "role": "ARCHIVED_AUTHOR_REPLY",
+      "source_article": "教你炒股票24",
+      "reply_at": "2007-01-18T22:11:08",
+      "url": "https://chzhshch.blog/stocks/024/",
+      "claim": "THIRD_BUY_END_MAY_DIFFER_FROM_WHOLE_RETRACE_LOW"
+    },
+    {
+      "id": "L65_TWO_COMPLETED_CHILD",
+      "role": "ARCHIVED_AUTHOR_REPLY",
+      "source_article": "论语详解65",
+      "article_at": "2007-05-22T08:48:56",
+      "reply_at": "2007-05-22T15:58:20",
+      "url": "https://chzhshch.blog/confucius/65/",
+      "claim": "TWO_CHILD_MOVEMENT_TYPES_REQUIRED"
+    },
+    {
+      "id": "L65_MINIMUM_SUBCHILD",
+      "role": "ARCHIVED_AUTHOR_REPLY",
+      "source_article": "论语详解65",
+      "article_at": "2007-05-22T08:48:56",
+      "reply_at": "2007-05-22T16:30:17",
+      "url": "https://chzhshch.blog/confucius/65/",
+      "claim": "THIRTY_MINUTE_THIRD_POINT_NEEDS_FIVE_MINUTE_CHILD_THREE_ONE_MINUTE_MEMBERS"
+    },
+    {
+      "id": "L65_CHILD_CENTER_OVERLAP",
+      "role": "ARCHIVED_AUTHOR_REPLY",
+      "source_article": "论语详解65",
+      "article_at": "2007-05-22T08:48:56",
+      "reply_at": "2007-05-22T16:35:58",
+      "url": "https://chzhshch.blog/confucius/65/",
+      "claim": "DEPARTURE_CHILD_CENTER_MAY_OVERLAP_PARENT"
+    },
+    {
+      "id": "L65_CENTER_NOT_WHOLE_PATH",
+      "role": "ARCHIVED_AUTHOR_REPLY",
+      "source_article": "论语详解65",
+      "article_at": "2007-05-22T08:48:56",
+      "reply_at": "2007-05-22T16:49:11",
+      "url": "https://chzhshch.blog/confucius/65/",
+      "claim": "CENTER_NOT_WHOLE_MOVEMENT"
+    },
+    {
+      "id": "L65_600216_AUTHOR_AFFIRMATIVE",
+      "role": "ARCHIVED_AUTHOR_REPLY",
+      "source_article": "论语详解65",
+      "article_at": "2007-05-22T08:48:56",
+      "reply_at": "2007-05-22T17:36:49",
+      "url": "https://chzhshch.blog/confucius/65/",
+      "claim": "HISTORICAL_AUTHOR_ACCEPTANCE_NOT_ASOF_MARKET_CERTIFICATION"
+    }
+  ],
+  "historical_case": {
+    "symbol": "600216",
+    "target_level": "30min",
+    "child_level": "5min",
+    "subchild_level": "1min",
+    "minimum_subchild_movements": 3,
+    "initial_rejected_proposal": "2007-05-18T10:00:00",
+    "departure": {
+      "start": "2007-05-16T10:20:00",
+      "end": "2007-05-17T10:10:00"
+    },
+    "retrace": {
+      "start": "2007-05-17T10:10:00",
+      "end": "2007-05-17T14:55:00"
+    },
+    "author_reply_at": "2007-05-22T17:36:49",
+    "author_reply": "AFFIRMATIVE_TO_REPORTED_WINDOWS",
+    "independent_original_market_prices_verified": false,
+    "independent_child_completion_verified": false,
+    "first_known_at_trade_time_verified": false
+  },
+  "boundaries": {
+    "source_of_l65_comments": "CONFUCIUS_65_NOT_LESSON_52_OR_LESSON_53",
+    "lesson53_2009_afterword_source_role": "LATER_EDITORIAL_NOT_AUTHOR_MAIN",
+    "root_identity": "OPEN",
+    "root_exit": "OPEN",
+    "ob38": "OPEN",
+    "ob99": "OPEN",
+    "price_scope": "UNDETERMINED",
+    "boundary_equality": "BORDER_TOUCH_UNRESOLVED",
+    "market_replay": "NOT_RUN",
+    "orders_sent": 0
+  }
+}

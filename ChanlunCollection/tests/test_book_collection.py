@@ -256,5 +256,55 @@ class BookCollectionTests(unittest.TestCase):
         self.assertIn("G7",text)
         self.assertIn("ChanlunCollection",text)
 
+
+    def test_v472_l53_author_main_confucius65_replies_source_domain(self):
+        """Guard author/editor/reply roles and reject invented market completion."""
+        item=ROOT/"catalog/chanlun_third_point_source_receipts_v472.json"
+        record=json.loads(item.read_text(encoding="utf-8"))
+        self.assertEqual(record["schema_version"],1)
+        self.assertIs(record["research_only"],True)
+        events={e["id"]:e for e in record["sources"]}
+        self.assertEqual(len(events),len(record["sources"]))
+        main=events["L53_AUTHOR_MAIN"]
+        self.assertEqual(main["role"],"AUTHOR_MAIN")
+        self.assertEqual(main["date"],"2007-05-23")
+        self.assertEqual(main["url"],"https://eczsc.com/originals/53")
+        questions=[e for e in record["sources"] if e["source_article"]=="论语详解65"]
+        self.assertEqual([e["reply_at"][11:] for e in questions],
+                         ["15:58:20","16:30:17","16:35:58","16:49:11","17:36:49"])
+        for q in questions:
+            self.assertEqual(q["role"],"ARCHIVED_AUTHOR_REPLY")
+            self.assertEqual(q["url"],"https://chzhshch.blog/confucius/65/")
+            self.assertEqual(q["article_at"],"2007-05-22T08:48:56")
+        case=record["historical_case"]
+        self.assertEqual((case["symbol"],case["target_level"],case["child_level"],
+                          case["subchild_level"]),("600216","30min","5min","1min"))
+        self.assertEqual(case["minimum_subchild_movements"],3)
+        self.assertEqual(case["initial_rejected_proposal"],"2007-05-18T10:00:00")
+        self.assertEqual(case["departure"]["end"],case["retrace"]["start"])
+        self.assertLess(case["departure"]["start"],case["departure"]["end"])
+        self.assertLess(case["retrace"]["start"],case["retrace"]["end"])
+        self.assertEqual(case["retrace"]["end"],"2007-05-17T14:55:00")
+        self.assertEqual(case["author_reply_at"],"2007-05-22T17:36:49")
+        for flag in ("independent_original_market_prices_verified",
+                     "independent_child_completion_verified",
+                     "first_known_at_trade_time_verified"):
+            self.assertIs(case[flag],False)
+        bounds=record["boundaries"]
+        self.assertEqual(bounds["source_of_l65_comments"],
+                         "CONFUCIUS_65_NOT_LESSON_52_OR_LESSON_53")
+        self.assertEqual(bounds["lesson53_2009_afterword_source_role"],
+                         "LATER_EDITORIAL_NOT_AUTHOR_MAIN")
+        for state in ("root_identity","root_exit","ob38","ob99"):
+            self.assertEqual(bounds[state],"OPEN")
+        self.assertEqual(bounds["boundary_equality"],"BORDER_TOUCH_UNRESOLVED")
+        self.assertEqual(bounds["market_replay"],"NOT_RUN")
+        self.assertEqual(bounds["orders_sent"],0)
+        report=(ROOT/"deliverables/chanlun_108_acceptance/00_REVIEW/"
+                "CHANLUN_L53_CHILD_EXTREMA_AND_CONFUCIUS65_REPLIES_V472.md").read_text(encoding="utf-8")
+        for marker in ("2007-05-23","2007-05-22","《论语》65","600216",
+                       "2009-01-05","ROOT-EXIT","MARKET_REPLAY_NOT_RUN"):
+            self.assertIn(marker,report)
+
 if __name__=="__main__":
     unittest.main()

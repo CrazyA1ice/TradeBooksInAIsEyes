@@ -26,6 +26,8 @@
 
 **同轮第101课关键原文**：作者直接称“走势必完美”的深层是递归函数的**唯一分解**，并允许a0有不同设计。各自唯一≠跨a0计算结果相同；而这一原课已明说的H5核心也不应冒充凯翔声称“第三层没有明的总结”的谜底。详见[v4.62报告第七节](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_LESSONS_98_100_LIVE_MULTILEVEL_STATE_TREE_V462.md)。
 
+**最新v4.72《缠论》正式第53课与2007-05-22作者五段历史问答：**[高低极值≠走势端点、离开走势内中心≠整体离开、600216具体三买分段](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L53_CHILD_EXTREMA_AND_CONFUCIUS65_REPLIES_V472.md)。第53课AUTHOR_MAIN说明5分钟完整走势高低价未必落在起止点；前一天《论语》65（**不是第52/53课评论**）15:58/16:30/16:35/16:49/17:36作者回帖要求分别完整的次级离开和回试、允许离开走势的小中心在旧中心内，并对600216两份历史时间窗答“对”。历史答复不能倒填交易日实时首知；逐笔F01、OB38/OB99、ZG/ZD等号继续OPEN，行情NOT_RUN。
+
 **最新v4.71《缠论》第24课作者署时回复补出第三买点“结束位置≠整个回拉最低位置”：**[2007-01-18 22:11:08 作者600832答疑与第20/38课的价格对象、完成时间对照](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L24_AUTHOR_REPLY_THIRD_BUY_ENDPOINT_VS_WHOLE_RETRACE_V471.md)。作者举2007-01-17三段30分钟回拉、最后C段不创新低及五段复杂回拉说明第三买点位置未必落在整次回拉最低价；这是ARCHIVED_AUTHOR_REPLY，不是当天15:02发表的正式课文、也不是当年行情的独立验证。**v4.70数值不破界条件未被取消，但L/H输入必须先证实是原作者判据指向的哪个完成成员/端点**，不能拿全局最低和信号结束价混算。触边端点语义、F01/OB38/OB99依旧OPEN，行情NOT_RUN。
 
 **最新v4.70《缠论》第20课边界等号与第38课首次外回抽角色的未决接口：**[第20课等号与第38课触边词义、首次回抽计数的双证据审稿](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L20_L38_BOUNDARY_TOUCH_RETRACE_ROLE_V470.md)。第20课三买低点\(L=ZG\)、三卖高点\(H=ZD\)满足价格非严格条件，但作者第38课「回中枢里」未明确裁决**恰好触及端点**算不算回入；必须将价格门、回试角色、完整次级证书和第18课中枢破坏分别留存，端点身份标`BORDER_TOUCH_UNRESOLVED`，不得伪造三买/三卖。承接v4.69、不改变A001—A100/原PDF，F01/OB38/OB99 OPEN，市场NOT_RUN。
