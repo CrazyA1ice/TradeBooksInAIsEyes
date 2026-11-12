@@ -1,8 +1,10 @@
-# ChanlunCollection｜本书实施工作流 v4.62.0
+# ChanlunCollection｜本书实施工作流 v4.63.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
 
 **v4.62.0 补查第101课强源门：**第101课作者直接提出**唯一递归分解**且宣称改变a0不损唯一性，研究者必须区分“每个固定a0/政策下唯一”与“跨a0输出完全相同”，也必须注意凯翔A016说“第三层正文未明总结”而作者第101课其实已明言唯一分解，故H5不能仅靠该段就等同他第三层。参见[本轮报告第七节](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_LESSONS_98_100_LIVE_MULTILEVEL_STATE_TREE_V462.md)。
+
+**v4.63.0 五分钟三卖完成资格审稿门：**[第18/20/53/100/101课的六收据、三时钟和作者案例后件限制](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_L100_THIRD_SELL_FIRST_CONFIRMATION_PROOF_CHAIN_V463.md)。每个三类卖点申请必须分别出示g级原中心的三完成低级成员与ZD、第一次向下离开之合法次级走势、底背驰后第一次合法回抽已完成、全回抽高点不升破ZD以及t_retrace_known/t_sell_known。第一次回抽尚未定型，哪怕现时价格低于ZD也只准标候选；任何一个信号不自动证明第二个g中心，更不自动改变g+1层。第53课正文与2009后人补充不得混写。不得从图上峰值倒填当时完成证书，F01/OB38/OB99 OPEN，NOT_RUN。
 
 **v4.62.0 原作者具体多级事件顺序门：**[第98/100课30/5/1状态分支](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_LESSONS_98_100_LIVE_MULTILEVEL_STATE_TREE_V462.md)要求每个跨级解释都从课文**当时可知的分级状态**起步：当前何种级别正在震荡、哪些中心/三卖尚未确认、首次低层事件、随后的回拉是否触发5分钟三卖、为什么30分钟未立即变化、哪条后续完成与回试才有资格触发30分钟改变。第98课强调未见未来结果时不应先假设路径；第100课示范为三卖而非凯翔A026的三买。不得将原作者示例简化成通用必赢算法，不能从某一级底背驰直接出具上一级或大两级中心完成证书。F01/OB38/OB99 OPEN，NOT_RUN。
 
