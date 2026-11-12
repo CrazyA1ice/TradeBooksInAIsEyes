@@ -2,6 +2,8 @@
 
 **查询时点：** 2026-11-12。研究稿已覆盖五卷第1—108课；当前收据以GitHub主分支及[本书逐课逻辑地图](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md)、[来源索引](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_SOURCE_ATLAS.md)为准。**研究覆盖完成不等于全部数学证明完成。**
 
+**v4.78.0 灵感发掘已成为通用研究步骤：**已保存[凯翔48条开放式想法](OtherVoices/speaker-unknown-001/IDEA_NOTEBOOK.md)与[14组组合实验](OtherVoices/speaker-unknown-001/IDEA_COMBINATIONS.md)，并设[跨人物主题索引](OtherVoices/IDEA_CROSS_AUTHOR_INDEX.md)和[通用工作流](docs/IDEA_DISCOVERY_WORKFLOW.md)。不同猜想可同时存在，原文/推测必须分开；现在**只有凯翔一名系统登记的人物**，未来才能验证跨人共通之处。作者未公布的中枢第二法与第三层仍未确证，A094/A058独立评论缺失，F01/OB38/OB99 OPEN，实盘 NOT_RUN。
+
 **同版新增第101课原文限制：**[第101课答疑1](https://eczsc.com/originals/101)明确把走势必完美称为递归函数下市场走势的唯一分解，且称不同a0设计不影响唯一性证明。此原作者**已直接说出**的H5核心不应冒称凯翔A016“第三层没有明的总结”；研究者区分每套初值各唯一与跨初值输出完全同一，后者未获证明，F01/OB38/OB99仍OPEN。详见[v4.62报告第七节](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_LESSONS_98_100_LIVE_MULTILEVEL_STATE_TREE_V462.md)。
 
 **v4.76 F01最低级别单中枢盘整的完成证书缺口已转化为可执行、不得漂白的负回归：**[第18/20/35课来源锚定、6种非法结构提升、1个仅结构正例](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_F01_ROOT_PAN_EXIT_REGRESSION_AND_MISSING_WITNESS_V476.md)。新[工具](tools/audit_chanlun_f01_root_pan_frontier_v476.py)复用既有v4.32`check_graph`真正运行六种非法证书：一中枢=>已完、最低PAN_EXIT、盘背警报=>完成、SEGMENT_END=>走势完成、单中心冒充N>2趋势出口、先后分界循环证据。只允许虚构同价三笔确认`F1_CENTER`局部结构，`PASS_STRUCTURE_ONLY`不等于已认证真实行情。作者SOURCE页码卷一235/247、卷二291已被[机器合同](catalog/chanlun_f01_root_pan_frontier_v476.json)与集成测试绑定。并不宣称作者理论被反证或我们已建立全域严格逐笔原子算法；`ROOT_IDENTITY/ROOT_EXIT`、OB38/OB99、BORDER_TOUCH继续OPEN，凯翔A087/A016 UNKNOWN，实盘/收益NOT_RUN。
