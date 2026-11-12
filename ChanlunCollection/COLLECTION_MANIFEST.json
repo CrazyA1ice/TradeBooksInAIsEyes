@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.63.0",
-  "source_count": 977,
+  "workflow_version": "4.64.0",
+  "source_count": 978,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -2022,6 +2022,12 @@
       "size_bytes": 5548
     },
     {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_L100_LINE_SEGMENT_VS_MOVEMENT_COMPLETION_V464.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_L100_LINE_SEGMENT_VS_MOVEMENT_COMPLETION_V464.md",
+      "git_blob_sha": "fcb97feebdc7691f9c9b8548ea00f99853b419b1",
+      "size_bytes": 13459
+    },
+    {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_L100_THIRD_SELL_FIRST_CONFIRMATION_PROOF_CHAIN_V463.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_L100_THIRD_SELL_FIRST_CONFIRMATION_PROOF_CHAIN_V463.md",
       "git_blob_sha": "835cc809e687b56420ede9310b4748ead44f97f2",
@@ -2480,8 +2486,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "bf5557fc04bbf31bbcbabfd74e4a9986539fb4e9",
-      "size_bytes": 114522
+      "git_blob_sha": "b2639f02feb6dee67a9a57b732dd55b689906a19",
+      "size_bytes": 116648
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
