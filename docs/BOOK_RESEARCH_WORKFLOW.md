@@ -1,4 +1,8 @@
-# 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.78.0，2026-11-12）
+# 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.79.0，2026-11-12）
+
+## v4.79.0 原文差分与灵感融合
+
+本轮新增第60课预期→买卖外化、第83课结构抗噪、第17课已明动态完美与第99课中阴跨级的源约束，凯翔灵感累计[I001—I060](../other_views/chanlun/speaker-unknown-001/IDEA_NOTEBOOK.md)、组合累计[KX-C01—C21](../other_views/chanlun/speaker-unknown-001/IDEA_COMBINATIONS.md)，[专题深读](../other_views/chanlun/speaker-unknown-001/IDEA_DEEP_DIVE_V479.md)。以后读书应主动寻找**新文本相对旧理论增加的条件**，用多种解释拼接，而不把相似词汇当已证共识。
 
 ## G-IDEA｜灵感发掘、拼接、跨作者汇聚（v4.78.0；永久阅读步骤）
 
