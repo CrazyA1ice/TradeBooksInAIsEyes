@@ -69,6 +69,22 @@ class ReconciliationTests(unittest.TestCase):
         return rec.reconcile(self.base, self.index, self.incoming,
                              "tsk-47-98", min_candidate=minimum)
 
+    def test_repository_existing_100_answers_match_current_index(self):
+        """Read current real source only for integrity; never prints original text."""
+        repo_root = Path(__file__).resolve().parents[2]
+        source = repo_root / "other_views" / "chanlun" / "speaker-unknown-001"
+        if not (source / "answers-2026-11-11.md").is_file():
+            self.skipTest("full book collection checkout unavailable")
+        original = source / "answers-2026-11-11.md"
+        index = source / "answers-index.json"
+        audit = rec.reconcile(original, index, original, "tsk-47-98",
+                              min_candidate=100)
+        self.assertEqual(audit["base"]["declared_answers"], 100)
+        self.assertEqual(audit["base"]["parsed_answers"], 100)
+        self.assertEqual(audit["kept_stable_answer_references"], 100)
+        self.assertEqual(audit["new_proposed"], 0)
+        self.assertEqual(audit["status"], "SAME_COVERAGE_NO_NEW_ANSWERS")
+
     def test_215_answer_full_export_has_no_100_cap(self):
         x = self.run_reconcile(200)
         self.assertEqual(x["base"]["parsed_answers"], 100)
