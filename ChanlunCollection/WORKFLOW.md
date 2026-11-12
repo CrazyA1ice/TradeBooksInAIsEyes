@@ -1,8 +1,10 @@
-# ChanlunCollection｜本书实施工作流 v4.67.0
+# ChanlunCollection｜本书实施工作流 v4.68.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
 
 **v4.62.0 补查第101课强源门：**第101课作者直接提出**唯一递归分解**且宣称改变a0不损唯一性，研究者必须区分“每个固定a0/政策下唯一”与“跨a0输出完全相同”，也必须注意凯翔A016说“第三层正文未明总结”而作者第101课其实已明言唯一分解，故H5不能仅靠该段就等同他第三层。参见[本轮报告第七节](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_LESSONS_98_100_LIVE_MULTILEVEL_STATE_TREE_V462.md)。
+
+**v4.68.0 第43课历史分界与后续条件证实的双时钟门：**[第38/39/40/43课原文分岔及署时2/26回复](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L43_FUTURE_CENTER_BRANCH_AND_FIRST_KNOWN_BOUNDARY_V468.md)。在c内1分钟背驰t_b后作者允许未来30分钟C与旧B不重叠（30分钟原走势延续）或重叠（高级重组、30分钟同级分界可落回t_b），因此**不能凭后来C条件的真假倒填t_b当时已知该高层归组**。记录t_b_price/t_b_known、future_C_qualified/t_C_known、B_C_relation_known、historical_split_label_time、f1/R/g及策略换档选择时刻。第39课**固定R已完成Ai+1**的原作者前缀稳定性与第43课**待定跨级组**分开；第40课是否换档是交易者之后的独立选择，历史订单不可复写。2/26历史作者归属回答“之前中枢属于前一走势、只列前三段但延伸可能存在”仍需注明来源非原新浪评论字节。F01/OB38/OB99 OPEN，NOT_RUN。
 
 **v4.67.0 2007-03-20作者历史回帖与L36跨政策双中枢门：**[第35/36课+《论语》58评论源文](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_F01_AUTHOR_REPLY_20070320_NONREUSE_AND_L36_POLICY_DEPENDENCE_V467.md)。原新浪《论语》58文章独立可见但原评论数据库未见，2007-03-20 17:39:28回复仅标`ARCHIVED_AUTHOR_REPLY`。该答复否认“三笔同价→直接翻转”，并明确合法组合中**归到前括号的构件不得重复归后括号**；不能把`(A+B)+(B+C)`误写成与`A+(B+C)`一样的结合式。第36课原作者亲述同一行情两个合法30分钟组合的中心[2892,2911]与[2905,2947]以及不同第三买点ZG阈值；信号计算应记录`f1/R_at_t/g/center/first_known`并禁止跨R混合。此为中心身份同式不复用的作者级证据，**非**严格逐笔所有共享滑动三笔窗口的完整唯一归属程序。ROOT-IDENTITY/ROOT-EXIT OPEN，F01/OB38/OB99 OPEN，真实市场NOT_RUN。
 
