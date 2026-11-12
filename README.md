@@ -4,7 +4,9 @@
 
 ## 当前研究主线：准确解读知乎凯翔的缠论观点
 
-**当前优先级不是扩建通用 Lab，也不是继续准备第二本书，而是继续此前《缠论》研究，重点解释知乎用户「凯翔」（主页公开名 `tsk-47-98`）已有回答在原作者108课及署时答疑中的确切含义。** 本仓库保存原始问答、研究性解释、不同观点和未证问题；通用资料入库G0只作为将来需要时的独立辅助能力。A股跨来源知识库、OCR与研究管理平台属于另一个仓库 [AStockResearchLab](https://github.com/CrazyA1ice/AStockResearchLab)，不在本仓库复制其平台建设。
+**本仓库长期仍是支持多本交易书籍分别研究的 `TradeBooksInAIsEyes`，而当前研究阶段优先完成《缠论》，重点准确解读知乎用户「凯翔」（公开主页标识 `tsk-47-98`）的观点。** 未来其他书籍沿用独立 BookCollection 和通用阅读工作流；AStockResearchLab 单独承担综合知识库与研究平台。 本仓库保存原始问答、研究性解释、不同观点和未证问题；通用资料入库G0只作为将来需要时的独立辅助能力。A股跨来源知识库、OCR与研究管理平台属于另一个仓库 [AStockResearchLab](https://github.com/CrazyA1ice/AStockResearchLab)，不在本仓库复制其平台建设。
+
+**来源覆盖核查（2026-11-12）**：此前上传到对话的文件 `answers(1).md` 是 **130,167 字节**，文件头写明「回答总数：100」，里面确有100个带URL的回答块；仓库A001—A100与其一致。**用户指出其完整收藏应有200多条；目前尚未收到或定位到这些额外回答**，因此100只是*本次已归档覆盖数*，**绝非凯翔账号历史总回答数，也不等于其全部言论、评论**。目前不可声称“完整分析了凯翔全部回答”，新增观点可能推翻旧AI综合结论。日后取得完整导出，使用 [只读增量核对工具](intake/zhihu_answer_reconcile.py) 检查 >100条来源、稳定回答ID、重复与修改，再补本人原话、来源锚及研究报告；在此之前 A087/A016 等仍保留未公开/待核实结论。
 
 **唯一原话入口**：[凯翔人物档案](ChanlunCollection/OtherVoices/speaker-unknown-001/README.md) → [A001—A100原文](ChanlunCollection/OtherVoices/speaker-unknown-001/answers-2026-11-11.md) → [来源索引](ChanlunCollection/OtherVoices/speaker-unknown-001/answers-index.json)。100条来自用户2026-11-11提供的导出，含100个不同知乎回答URL；这可核验导出文件内部的原字节与记录，不等于我们已独立验证知乎账号历史或取得所有评论。人物目录ID沿用 `speaker-unknown-001` 以保留历史链接，不代表“仍不知道导出所写的账号名称”。
 
