@@ -1,8 +1,10 @@
-# ChanlunCollection｜本书实施工作流 v4.72.0
+# ChanlunCollection｜本书实施工作流 v4.73.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
 
 **v4.62.0 补查第101课强源门：**第101课作者直接提出**唯一递归分解**且宣称改变a0不损唯一性，研究者必须区分“每个固定a0/政策下唯一”与“跨a0输出完全相同”，也必须注意凯翔A016说“第三层正文未明总结”而作者第101课其实已明言唯一分解，故H5不能仅靠该段就等同他第三层。参见[本轮报告第七节](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_LESSONS_98_100_LIVE_MULTILEVEL_STATE_TREE_V462.md)。
+
+**v4.73.0 第33课作者评论完成/背驰的级别映射审核：**[2007-03-02 15:34:18作者回复＋第27课主文](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L33_AUTHOR_REPLY_DIVERGENCE_LEVEL_AND_FINISH_PROOF_V473.md)。研究者必须先区分g级走势完成事件和其观测的背驰等级h；作者声称同级背驰至少结束相应走势，同时明确否认所有g级完成必须是g−1级背驰引起。不得把g−1 MACD背驰、g−2局部反抽、走势历史底点或作者事后判断直接升级为g级完整结束/买卖点首次可知。来源仅ARCHIVED_AUTHOR_REPLY，第27课AUTHOR_MAIN另区分趋势与盘背、有限层级不保证唯一原子点。作者v4.31双出口已是旧成果；F01 ROOT-IDENTITY/ROOT-EXIT、OB38/OB99 OPEN，实盘NOT_RUN。
 
 **v4.72.0 原文双身份与次级走势端点门：**[第53课正式正文＋《论语》65作者署时评论](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L53_CHILD_EXTREMA_AND_CONFUCIUS65_REPLIES_V472.md)确认：完整g−1走势区间高低值未必为端点，离开走势内部g−1小中心可在旧g中心内；实际第三买需完成的离开和回试两份g−1身份。2007-05-22作者对600216离开5/16 10:20→5/17 10:10与回试5/17 10:10→14:55答“对”，但评论答复不是5/17当时可知证明，次级完成底层ROOT-EXIT未解决。禁将第53课同编2009后人补充当作者原文，历史评论附属于《论语》65。F01/OB38/OB99与边界语义OPEN，市场NOT_RUN。
 

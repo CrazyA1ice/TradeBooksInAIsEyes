@@ -2,6 +2,10 @@
 
 **同轮补充第101课**：作者直接阐述“走势必完美”的递归唯一分解，并称a0可多种设计但不损唯一性证明。不同a0各自唯一**不意味着**输出必须一致；而既然第101课已明说唯一分解，就不能未经凯翔本人认可把这句话冒充其所谓“第三层没明总结”。[报告新增第七节](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_LESSONS_98_100_LIVE_MULTILEVEL_STATE_TREE_V462.md)。
 
+## 2026-11-12 v4.73｜第33课作者署时答疑：走势结束不必以紧邻下一级背驰为必要事件
+
+[第33课2007-03-02 15:34:18回帖与第27课正式正文的源文/逻辑审计](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L33_AUTHOR_REPLY_DIVERGENCE_LEVEL_AND_FINISH_PROOF_V473.md)新增此前F01未直接引用的作者问答：作者声称任何走势结束与背驰有关、某级背驰至少结束同级走势，**又明确否定终结必须由其恰好下一层背驰导致**。因此`D_(g-1)`既非已证`END_g`充分条件，也不能强加为其必要条件；`D_g`到`END_g`仍属作者理论断言、非已核实时完成证书。原回复在第33课评论区而非15:20:37正文，原新浪评论原字节未认证。第27课正式正文还明确趋势背驰/盘整背驰不同、有限层级区间套不能证明数学上唯一原子点。附[机器可读来源与推断状态合同](catalog/chanlun_l33_divergence_finish_source_scope_v473.json)及集成测试。F01 ROOT-IDENTITY/ROOT-EXIT、OB38/OB99 OPEN，行情NOT_RUN。
+
 ## 2026-11-12 v4.72｜第53课作者正式正文极值/端点与2007-05-22历史问答联合审稿
 
 [第53课正文＋《论语》65五条作者署时答疑](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L53_CHILD_EXTREMA_AND_CONFUCIUS65_REPLIES_V472.md)实质新增：5分钟走势高低价未必在走势端点；次级离开走势内部中心可与原中心重叠；三买需要**两个有序完整次级走势**。对600216，作者先否定2007-05-18 10:00问法，后认可离开2007-05-16 10:20→17日10:10、回试2007-05-17 10:10→14:55的历史分段。回帖在《论语》65而非第52/53课，属于ARCHIVED_AUTHOR_REPLY，不是实时行情核证；第53课同编2009年后附另归EDITORIAL。新增[结构化来源收据](catalog/chanlun_third_point_source_receipts_v472.json)，不宣称ZG等号已裁决或F01完成；市场NOT_RUN。

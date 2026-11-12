@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-L33-DIVERGENCE-FINISH-SOURCE-SCOPE-V473",
+  "research_only": true,
+  "reviewed_at": "2026-11-12",
+  "sources": [
+    {
+      "id": "L27_AUTHOR_MAIN",
+      "role": "AUTHOR_MAIN",
+      "article": "教你炒股票27",
+      "date": "2007-02-02",
+      "url": "https://eczsc.com/originals/27",
+      "claim": "DIVERGENCE_VS_PAN_DIVERGENCE_AND_FINITE_LEVEL_NESTING_NOT_UNIQUE_POINT"
+    },
+    {
+      "id": "L33_AUTHOR_MAIN",
+      "role": "AUTHOR_MAIN",
+      "article": "教你炒股票33",
+      "date": "2007-03-02",
+      "published_at": "2007-03-02T15:20:37",
+      "url": "https://eczsc.com/originals/33",
+      "claim": "MULTIPLE_REASONABLE_LEVEL_PARSINGS_AND_SAMPLING_POLICY"
+    },
+    {
+      "id": "L33_AUTHOR_REPLY_153418",
+      "role": "ARCHIVED_AUTHOR_REPLY",
+      "article": "教你炒股票33",
+      "question_author": "小鸟",
+      "question_at": "2007-03-02T15:28:49",
+      "reply_at": "2007-03-02T15:34:18",
+      "url": "https://kldcty.tech/fqbook/108/0469-486e105c010008x4-033/",
+      "index_url": "https://eczsc.com/replies?lesson=33",
+      "claim": "AUTHOR_ASSERTS_DIVERGENCE_END_LINK_BUT_REJECTS_MANDATORY_IMMEDIATE_CHILD_DIVERGENCE"
+    },
+    {
+      "id": "AUTHOR_20070821_REPLY_ALREADY_RESEARCHED",
+      "role": "ARCHIVED_AUTHOR_REPLY",
+      "article": "热点蔓延渐成潮流",
+      "reply_at": "2007-08-21T16:20:01",
+      "url": "https://blog.sina.com.cn/s/blog_15e1934cd0102w990.html",
+      "claim": "PREVIOUSLY_RESEARCHED_PAN_AND_TREND_EXIT_CONDITIONS_NOT_NEW"
+    }
+  ],
+  "scoped_implications": [
+    {
+      "id": "D_g_IMPLIES_END_g",
+      "source_role": "ARCHIVED_AUTHOR_REPLY",
+      "conclusion": "AUTHOR_ASSERTED_NOT_INDEPENDENTLY_PROVEN",
+      "market_completion_certificate": false
+    },
+    {
+      "id": "END_g_IMPLIES_D_g_minus_1",
+      "source_role": "ARCHIVED_AUTHOR_REPLY",
+      "conclusion": "NOT_MANDATORY_AS_PER_AUTHOR_REPLY",
+      "market_completion_certificate": false
+    },
+    {
+      "id": "D_g_minus_1_IMPLIES_END_g",
+      "source_role": "RESEARCH_LOGIC",
+      "conclusion": "DOES_NOT_FOLLOW_FROM_SAME_LEVEL_END_STATEMENT",
+      "market_completion_certificate": false
+    },
+    {
+      "id": "END_g_IMPLIES_SOME_D_h",
+      "source_role": "ARCHIVED_AUTHOR_REPLY",
+      "conclusion": "AUTHOR_GENERAL_CLAIM_LEVEL_MAP_NOT_FORMALIZED",
+      "market_completion_certificate": false
+    },
+    {
+      "id": "D_g_PRICE_EVENT_IMPLIES_SAME_TIME_KNOWN_END_g",
+      "source_role": "RESEARCH_LOGIC",
+      "conclusion": "NOT_ESTABLISHED",
+      "market_completion_certificate": false
+    }
+  ],
+  "guardrails": {
+    "divergence_kind": "MUST_DISTINGUISH_TREND_FROM_PAN_DIVERGENCE",
+    "event_price_time": "NOT_VERIFIED",
+    "completed_child_movement": "NOT_INDEPENDENTLY_VERIFIED",
+    "first_known_at": "NOT_INDEPENDENTLY_VERIFIED",
+    "root_center_identity": "OPEN",
+    "root_movement_exit": "OPEN",
+    "ob38": "OPEN",
+    "ob99": "OPEN",
+    "boundary_touch": "BORDER_TOUCH_UNRESOLVED",
+    "market_replay": "NOT_RUN",
+    "orders_sent": 0,
+    "sina_comment_original_bytes_authenticated": false,
+    "author_private_second_center_algorithm_known": false,
+    "kaixiang_third_layer_known": false
+  },
+  "interpretation_limits": [
+    "The March 2 reply is archived author-attributed commentary, not the lesson 33 published article body.",
+    "An author-stated implication is not a verified theorem or independently calculated online completion certificate.",
+    "The author rejects the necessity of an immediate-child divergence, not the relevance of every lower-level divergence.",
+    "Lesson 27 finite nesting does not certify a unique actionable atomic price or first-known timestamp.",
+    "Previously researched August 21 exits are background, not newly discovered material."
+  ]
+}

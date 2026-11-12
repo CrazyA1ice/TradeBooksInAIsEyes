@@ -306,5 +306,58 @@ class BookCollectionTests(unittest.TestCase):
                        "2009-01-05","ROOT-EXIT","MARKET_REPLAY_NOT_RUN"):
             self.assertIn(marker,report)
 
+
+    def test_v473_divergence_level_vs_movement_completion_provenance(self):
+        """Test asserted source semantics, never invent live completion."""
+        source=ROOT/"catalog/chanlun_l33_divergence_finish_source_scope_v473.json"
+        doc=json.loads(source.read_text(encoding="utf-8"))
+        self.assertEqual(doc["schema_version"],1)
+        self.assertIs(doc["research_only"],True)
+        self.assertEqual(doc["id"],"CHANLUN-L33-DIVERGENCE-FINISH-SOURCE-SCOPE-V473")
+        events={r["id"]:r for r in doc["sources"]}
+        self.assertEqual(len(events),4)
+        self.assertEqual(events["L27_AUTHOR_MAIN"]["role"],"AUTHOR_MAIN")
+        self.assertEqual(events["L27_AUTHOR_MAIN"]["date"],"2007-02-02")
+        self.assertEqual(events["L33_AUTHOR_MAIN"]["role"],"AUTHOR_MAIN")
+        self.assertEqual(events["L33_AUTHOR_MAIN"]["published_at"],"2007-03-02T15:20:37")
+        reply=events["L33_AUTHOR_REPLY_153418"]
+        self.assertEqual(reply["role"],"ARCHIVED_AUTHOR_REPLY")
+        self.assertEqual(reply["question_author"],"小鸟")
+        self.assertEqual(reply["question_at"],"2007-03-02T15:28:49")
+        self.assertEqual(reply["reply_at"],"2007-03-02T15:34:18")
+        self.assertEqual(reply["index_url"],"https://eczsc.com/replies?lesson=33")
+        self.assertEqual(events["AUTHOR_20070821_REPLY_ALREADY_RESEARCHED"]["claim"],
+                         "PREVIOUSLY_RESEARCHED_PAN_AND_TREND_EXIT_CONDITIONS_NOT_NEW")
+        arrows={r["id"]:r for r in doc["scoped_implications"]}
+        self.assertEqual(len(arrows),5)
+        self.assertEqual(arrows["D_g_IMPLIES_END_g"]["conclusion"],
+                         "AUTHOR_ASSERTED_NOT_INDEPENDENTLY_PROVEN")
+        self.assertEqual(arrows["END_g_IMPLIES_D_g_minus_1"]["conclusion"],
+                         "NOT_MANDATORY_AS_PER_AUTHOR_REPLY")
+        self.assertEqual(arrows["D_g_minus_1_IMPLIES_END_g"]["conclusion"],
+                         "DOES_NOT_FOLLOW_FROM_SAME_LEVEL_END_STATEMENT")
+        self.assertEqual(arrows["D_g_PRICE_EVENT_IMPLIES_SAME_TIME_KNOWN_END_g"]["conclusion"],
+                         "NOT_ESTABLISHED")
+        self.assertTrue(all(not a["market_completion_certificate"]
+                            for a in arrows.values()))
+        bounds=doc["guardrails"]
+        self.assertEqual(bounds["divergence_kind"],
+                         "MUST_DISTINGUISH_TREND_FROM_PAN_DIVERGENCE")
+        self.assertEqual(bounds["root_center_identity"],"OPEN")
+        self.assertEqual(bounds["root_movement_exit"],"OPEN")
+        self.assertEqual(bounds["ob38"],"OPEN")
+        self.assertEqual(bounds["ob99"],"OPEN")
+        self.assertEqual(bounds["market_replay"],"NOT_RUN")
+        self.assertEqual(bounds["orders_sent"],0)
+        self.assertIs(bounds["sina_comment_original_bytes_authenticated"],False)
+        self.assertIs(bounds["author_private_second_center_algorithm_known"],False)
+        self.assertIs(bounds["kaixiang_third_layer_known"],False)
+        report=(ROOT/"deliverables/chanlun_108_acceptance/00_REVIEW/"
+                "CHANLUN_L33_AUTHOR_REPLY_DIVERGENCE_LEVEL_AND_FINISH_PROOF_V473.md")
+        content=report.read_text(encoding="utf-8")
+        for marker in ("2007-03-02","15:34:18","ARCHIVED_AUTHOR_REPLY",
+                       "AUTHOR_MAIN","ROOT_IDENTITY","ROOT_EXIT","NOT_RUN"):
+            self.assertIn(marker,content)
+
 if __name__=="__main__":
     unittest.main()
