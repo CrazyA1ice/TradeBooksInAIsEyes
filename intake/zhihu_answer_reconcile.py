@@ -71,17 +71,25 @@ def parse_export(path, speaker):
         title = HEADING.fullmatch(line)
         if title is None:
             continue
-        metadata = lines[i + 1:i + 9]
+        # A real answer's *immediate* first nonblank line must be a
+        # recognizable export metadata field. Otherwise a ## subheading in
+        # the body followed by the *next* answer is not another answer.
+        following = lines[i + 1:i + 9]
+        first = next((x for x in following if x.strip()), "")
+        if not (first.startswith("- 原文链接:")
+                or first.startswith("- 发布时间:")):
+            continue
+        metadata = []
+        for x in following:
+            if x.startswith("## ") or x.strip() == "---":
+                break
+            metadata.append(x)
         has_link = any(LINK.fullmatch(x) for x in metadata)
         has_date = any(DATE.fullmatch(x) for x in metadata)
-        # A malformed "原文链接" near an answer-looking heading must not
-        # disappear silently into the preceding answer.
-        suspicious = any(x.lstrip().startswith("- 原文链接:") for x in metadata)
-        if suspicious and not has_link:
-            raise CoverageError("invalid_answer_url_or_metadata")
-        if has_link:
-            ensure(has_date, "answer_date_metadata_missing")
-            starts.append((i, title.group(1)))
+        # Malformed answers fail instead of disappearing from the count.
+        ensure(has_link, "invalid_answer_url_or_metadata")
+        ensure(has_date, "answer_date_metadata_missing")
+        starts.append((i, title.group(1)))
     ensure(bool(starts), "no_structured_answers_found")
     ensure(len(starts) <= MAX_ANSWERS, "parsed_count_out_of_bounds")
     ensure(declared == len(starts), "declared_and_parsed_counts_differ")
