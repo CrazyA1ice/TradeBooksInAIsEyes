@@ -1,6 +1,8 @@
 # 《缠论》五卷108课｜当前研究状态与未完成关口
 
-**查询时点：** 2026-11-11。研究稿已覆盖五卷第1—108课；当前收据以GitHub主分支及[本书逐课逻辑地图](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md)、[来源索引](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_SOURCE_ATLAS.md)为准。**研究覆盖完成不等于全部数学证明完成。**
+**查询时点：** 2026-11-12。研究稿已覆盖五卷第1—108课；当前收据以GitHub主分支及[本书逐课逻辑地图](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md)、[来源索引](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_SOURCE_ATLAS.md)为准。**研究覆盖完成不等于全部数学证明完成。**
+
+**v4.59 原文研究新增：**[凯翔A016“另外两种”与第38课同级盘整+盘整的政策域冲突，及第99/102课H4/H5双候选](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_POLICY_SCOPED_NEXT_TYPE_AND_THIRD_LAYER_V459.md)。用户确认本次上传确实100条回答，研究对象A001—A100成立；不再误以为该文件漏装200+。第17课支持“完成后转其他类型”的一般直觉，但第38课对固定同级切法允许盘整接盘整，因此第二层**不能直接是所有R政策下“相邻标签必不同”的强公理**；其真实完成/最大化语义仍待凯翔本人限定。第99课跨级后继H4、第102课整体递归H5都为作者原文明示、不是凯翔第三层已认证答案；A087第二方法仍未披露。原100答不改，F01/OB38/OB99 OPEN，真实行情NOT_RUN。
 
 **v4.58 仅通用G0基础设施更新：**《缠论》现有研究结论与证明义务没有改变。第二本书的本地SHA/文件格式/权限预检已在仓库`intake/`，本次新增跨平台CI并按现行G7要求镜像根工作流和通用文档；保留原五卷、108课、凯翔100答和F01/OB38/OB99 OPEN、真实行情NOT_RUN。CI是否通过须看本次PR的准确head SHA记录。
 
