@@ -1,6 +1,10 @@
-# ChanlunCollection｜本书实施工作流 v4.76.0
+# ChanlunCollection｜本书实施工作流 v4.77.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+## v4.77.0｜F01 严格逐笔与可操作模型的隔离研究原型（PR #146）
+
+本次新增 `intake/f01_policy_boundary_v477.py` 和十项独立测试。严格逐笔根层 `STRICT_TICK_F1` 的退出一律保持 `ROOT_EXIT_OPEN`，可操作截止模型 `OPERABLE_SEGMENT_CUTOFF_F1` 只允许登记不带完成认证的研究候选；拒绝跨政策混入、证据自循环、未来时点、伪造完成标签。现有 `check_graph` 保持原状；这**不是作者认证的完成规则**，也不是回测。代码仍位于隔离 `intake/`，本次只是为原型增加 CI 执行和书籍流程约束。F01/OB38/OB99 OPEN，市场 NOT_RUN。
 
 **v4.62.0 补查第101课强源门：**第101课作者直接提出**唯一递归分解**且宣称改变a0不损唯一性，研究者必须区分“每个固定a0/政策下唯一”与“跨a0输出完全相同”，也必须注意凯翔A016说“第三层正文未明总结”而作者第101课其实已明言唯一分解，故H5不能仅靠该段就等同他第三层。参见[本轮报告第七节](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_LESSONS_98_100_LIVE_MULTILEVEL_STATE_TREE_V462.md)。
 
