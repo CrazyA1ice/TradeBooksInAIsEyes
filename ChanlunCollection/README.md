@@ -1,5 +1,9 @@
 # ChanlunCollection｜《缠论》五卷108课完整研究档案
 
+## 2026-11-12 v4.60｜第18/20/38/99课的真实跨级完成门
+
+继续以凯翔A001—A100原话为中心。[本次原课推理报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_CROSSLEVEL_COMPLETION_AND_CENTER_RECONCILIATION_V460.md)将**第38课固定同级分解可切两盘整**、**第20课高一级中心需要外围波动重叠**、**第18课可结束≠已完成**、**第99课未来高层中心与中阴一般划分未决**四件事分开，拒绝先切分后补出未证的跨级完成标签。A026的条件排除可以利用局部同级知识而不宣称当下已知道完整一般分解；A016第三层仍仅H4/H5研究候选。F01/OB38/OB99 OPEN，市场NOT_RUN。
+
 ## 当前《缠论》原文深读（v4.59，2026-11-12）
 
 用户确认2026-11-11的知乎导出是**凯翔100条回答**。以[A001—A100人物档案](OtherVoices/speaker-unknown-001/README.md)为来源锚，继续结合作者第17/18/38/54/99/102课及2007-07-20新浪原主文研究：第38课同级固定分解允许“盘整+盘整”，因此凯翔A016“完成后只转另外两种”若被强读成所有切法无例外，就要补上**分解政策**；第99课H4跨级后继和第102课H5递归整体表达是有原课依据的**两个竞争性的AI候选**，均非凯翔已揭示第三层。[查看详细原文对照报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_POLICY_SCOPED_NEXT_TYPE_AND_THIRD_LAYER_V459.md)。A087第二中心公式仍未公开，F01/OB38/OB99 OPEN，市场NOT_RUN。
