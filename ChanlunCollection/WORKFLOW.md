@@ -1,4 +1,6 @@
-# ChanlunCollection｜本书实施工作流 v4.78.0
+# ChanlunCollection｜本书实施工作流 v4.79.0
+
+**v4.79.0灵感深读**：从第17/60/83/99课新限定与凯翔100答对照，个人[60条灵感](OtherVoices/speaker-unknown-001/IDEA_NOTEBOOK.md)、[21组组合](OtherVoices/speaker-unknown-001/IDEA_COMBINATIONS.md)及[深读稿](OtherVoices/speaker-unknown-001/IDEA_DEEP_DIVE_V479.md)保持并行假说和负面解释；跨人新增T08—T10问题但没有第二人共识。
 
 **v4.78.0灵感发掘步骤**：后续每本书、每位高手、每轮作者答疑，必须依照[通用G-IDEA流程](docs/IDEA_DISCOVERY_WORKFLOW.md)自由发散、多假说并行、逐条归档、跨条拼接、再探索不同作者的共通与冲突。首轮[凯翔48条灵感](OtherVoices/speaker-unknown-001/IDEA_NOTEBOOK.md)、[14组组合](OtherVoices/speaker-unknown-001/IDEA_COMBINATIONS.md)、[跨作者主题汇聚](OtherVoices/IDEA_CROSS_AUTHOR_INDEX.md)，不把猜想当原文，不伪造其他人物共识。
 
