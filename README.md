@@ -24,6 +24,8 @@
 
 **《缠论》全部研究成果已整理到 [ChanlunCollection/](ChanlunCollection/README.md)**：五卷原PDF、108篇逐课分析、108张原文证据卡、108课统一理论主脊、深度导读、来源与版本登记、报告、测试和审计工具均在一个文件夹内可查；保留原仓库规范路径作为编辑源，由`COLLECTION_MANIFEST.json`逐文件验证精确一致。后续每本书都建立独立`<BookName>Collection/`；**每一步研究都必须同步修订[通用工作流](docs/BOOK_RESEARCH_WORKFLOW.md)、该书[工作日志](ChanlunCollection/WORK_LOG.md)和集合完整性清单**。
 
+**最新v4.60《缠论》跨课推理：**[第18/20/38/99课与凯翔A026的分层证据报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_CROSSLEVEL_COMPLETION_AND_CENTER_RECONCILIATION_V460.md)。**第38课的两个同级盘整不自动构成第20课更高一级中心**，因为中心外沿波动及实际成员仍需验；第18课“可结束”不等于“已完成”；第99课“中阴一般分解未明”特别不排斥固定同级分析已可用，后继更高中心是未来强命题而非当下已证买点。100答基线已确认，A087第二定义/A016第三层仍未由本人揭晓，F01/OB38/OB99 OPEN，市场NOT_RUN。本仓库长期支持其他交易书籍。
+
 **最新v4.59《缠论》原文研究：**用户已确认当前凯翔导出实际为100答；[新报告](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_POLICY_SCOPED_NEXT_TYPE_AND_THIRD_LAYER_V459.md)把A016“完成后另外两种”与作者第17及38课并对，发现**第38课固定同级政策下允许盘整+盘整**，故后继必异类的字面强全称需要R/g限定。又分别核第99课跨级后继H4与第102课递归整体表达H5，二者都**不能认证为凯翔本人第三层**；A087第二中枢计算法继续未知。未来书籍研究架构不变，F01/OB38/OB99 OPEN、市场NOT_RUN。
 
 **最新v4.57：**[审计凯翔A026走势分析中最低级别“满足局部停止价序”到“走势真正结束”的证据缺口](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_EXIT_EVIDENCE_CONSERVATION_AND_COUNTERFACTUAL_V457.md)。此前v4.56人工`+1 tick`完成声明没有独立市场来源：t=10/19是下一合成成员价格，t=28无源价。新增[可执行退出来源守恒门](tools/audit_kaixiang_exit_evidence_v457.py)、18项伪认证拒绝测试，真实完成证书数维持0，原100篇及五卷108课不改，F01/OB38/OB99 OPEN。
