@@ -1,8 +1,10 @@
-# ChanlunCollection｜本书实施工作流 v4.70.0
+# ChanlunCollection｜本书实施工作流 v4.71.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
 
 **v4.62.0 补查第101课强源门：**第101课作者直接提出**唯一递归分解**且宣称改变a0不损唯一性，研究者必须区分“每个固定a0/政策下唯一”与“跨a0输出完全相同”，也必须注意凯翔A016说“第三层正文未明总结”而作者第101课其实已明言唯一分解，故H5不能仅靠该段就等同他第三层。参见[本轮报告第七节](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_LESSONS_98_100_LIVE_MULTILEVEL_STATE_TREE_V462.md)。
+
+**v4.71.0 第24课2007-01-18作者三买结束价语义门：**[600832作者22:11回复、三段30分钟与五段复杂回拉的原文审稿](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L24_AUTHOR_REPLY_THIRD_BUY_ENDPOINT_VS_WHOLE_RETRACE_V471.md)显示“整个回拉最低价”≠“第三买点结束位置”的可能性；保留作者解释的日期/问答/源级别。必须先证`PRICE_OBJECT_SCOPE`：分别存全回拉极值、最后段极值、真实三买结束位置、完整次级走势身份与首知时点，不允许无条件把全局最低价或最后段最低价塞入第20课`L>=ZG`。与v4.70等号边界及第38课回入身份相接；不证明2007年600832实际点位、作者唯一分段函数或三卖全域镜像。F01/OB38/OB99及`BORDER_TOUCH_UNRESOLVED` OPEN，市场NOT_RUN。
 
 **v4.70.0 端点触边的三重证据门：**[第20课等号与第38课触边词义、首次回抽计数的双证据审稿](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L20_L38_BOUNDARY_TOUCH_RETRACE_ROLE_V470.md)。第20课三买\(L=ZG\)/三卖\(H=ZD\)符合数值不破界，但第38课「跌回中枢里」并未明确解答**恰好触边**是否属于回入；保存`P20_PRICE`（可通过）、`P38_ROLE`（等号可UNKNOWN）、`P18_DESTRUCTION`（不能由价格推出）及完整g−1回试证书、首知时间。g−2两次内部回拉只可能归同一个g−1回试，不允许自行消耗两次首次资格。端点身份`BORDER_TOUCH_UNRESOLVED`，F01/OB38/OB99 OPEN，市场NOT_RUN，凯翔100答/五卷不修改。
 

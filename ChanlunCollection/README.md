@@ -2,6 +2,10 @@
 
 **同轮补充第101课**：作者直接阐述“走势必完美”的递归唯一分解，并称a0可多种设计但不损唯一性证明。不同a0各自唯一**不意味着**输出必须一致；而既然第101课已明说唯一分解，就不能未经凯翔本人认可把这句话冒充其所谓“第三层没明总结”。[报告新增第七节](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_LESSONS_98_100_LIVE_MULTILEVEL_STATE_TREE_V462.md)。
 
+## 2026-11-12 v4.71｜第24课历史作者回帖补证：整个回拉最低位不等于三买结束位置
+
+[2007-01-18 22:11:08 600832作者回帖及第20/38课价格对象对照](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L24_AUTHOR_REPLY_THIRD_BUY_ENDPOINT_VS_WHOLE_RETRACE_V471.md)明确作者说2007-01-17的日线第三买来自三段30分钟回拉，C段可以不创新低，五段复杂回拉要看最后一次回拉与原中枢关系；**不是整个回拉全局最低点必为三买结束位置**。该证据为ARCHIVED_AUTHOR_REPLY，原新浪comment及当年行情未独立核证。对v4.70新增`P20_PRICE_SOURCE_SCOPE`审核：先区分整次回拉极值、最后段极值、第三买点结束价和各自首次可知，再谈ZG数值条件；等号回中枢语义仍UNKNOWN，不能以“最后一次”取代合法完整次级走势证书。F01/OB38/OB99 OPEN，NOT_RUN。
+
 ## 2026-11-12 v4.70｜触及ZG/ZD端点、回中枢内部和首次合格回抽必须分证据门
 
 [第20课等号与第38课触边词义、首次回抽计数的双证据审稿](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L20_L38_BOUNDARY_TOUCH_RETRACE_ROLE_V470.md)直接联结第20课非严格价格界、第18课破坏结构和第38课2007-03-21历史作者答疑。\(L=ZG\)/\(H=ZD\)通过第20课数值谓词，但作者的「回中枢里」没有明定恰好触边，保持`BORDER_TOUCH_UNRESOLVED`，不得把等号自动判为第三买卖点、也不擅自取消；完整g−1回抽身份、g−2内部事件和首次可知必须独立。属于文字原文审稿，不复跑市场/高清图，不补造凯翔未公开算法；F01/OB38/OB99 OPEN。
