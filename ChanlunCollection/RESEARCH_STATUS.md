@@ -4,6 +4,8 @@
 
 **同版新增第101课原文限制：**[第101课答疑1](https://eczsc.com/originals/101)明确把走势必完美称为递归函数下市场走势的唯一分解，且称不同a0设计不影响唯一性证明。此原作者**已直接说出**的H5核心不应冒称凯翔A016“第三层没有明的总结”；研究者区分每套初值各唯一与跨初值输出完全同一，后者未获证明，F01/OB38/OB99仍OPEN。详见[v4.62报告第七节](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_LESSONS_98_100_LIVE_MULTILEVEL_STATE_TREE_V462.md)。
 
+**v4.72 第53课高低极值非端点与《论语》65署时作者历史三买问答：**[原作者正文及2007-05-22 15:58—17:36答疑](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L53_CHILD_EXTREMA_AND_CONFUCIUS65_REPLIES_V472.md)直接支持：合法完整g−1走势的全区间极值与端点不恒等；离开走势内部小中心可在原中心内；第三点必须有两份有序的完整次级离开与回试。作者先否定600216的2007-05-18 10:00三买提问，再认可离开5月16日10:20→5月17日10:10、回试至5月17日14:55的分段，是2007-05-22的**事后问答**而非市场实时首知。评论真实附于《论语》65，53课正式正文与2009后附不能混；原新浪评论字节、市场原始行情未验证。ROOT-IDENTITY/EXIT、OB38/OB99、P20_PRICE_SOURCE_SCOPE及ZG/ZD触界OPEN，凯翔A087/A016 UNKNOWN，市场NOT_RUN。
+
 **v4.71 第24课2007-01-18署时作者回复新增三买价格对象限制：**[第24课600832的三段30分钟回拉与复杂五段回拉解释](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L24_AUTHOR_REPLY_THIRD_BUY_ENDPOINT_VS_WHOLE_RETRACE_V471.md)首次把“第三类买点的结束位置可与整个回拉最低位置不同”接入第20/38课的完成/首次计数链。作者署时22:11:08，归为ARCHIVED_AUTHOR_REPLY；没有独立核证原新浪评论数据库或2007行情。于是v4.70`P20_PRICE`在复杂回拉先须证明`P20_PRICE_SOURCE_SCOPE`，不得默认全程最低点=有效三买结束价，亦不得选最后段漂亮数值就自动成立；触及ZG/ZD等号是否回中枢仍UNKNOWN。固定R/g、完整g−1走势和第18课破坏证书不可省。F01 ROOT-IDENTITY/EXIT、OB38/OB99 OPEN，凯翔A087/A016 UNKNOWN，真实行情NOT_RUN。
 
 **v4.70 第20课允许触边等号，而第38课「回中枢里」的端点范围仍UNKNOWN：**[第20课等号与第38课触边词义、首次回抽计数的双证据审稿](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L20_L38_BOUNDARY_TOUCH_RETRACE_ROLE_V470.md)核实第20课三买\(L=ZG\)、三卖\(H=ZD\)满足**数值**不破界；作者第38课历史答疑只明确「回中枢里」属震荡/不作为合格首次外回抽，**未明示碰到ZG/ZD等号属于哪种角色**。今后价格、首次合法完整g−1回抽角色、第18课破坏证书分开，端点记录`BORDER_TOUCH_UNRESOLVED`而不能出具真实第三点。v4.1已审等号、本轮新增与v4.69回抽身份的交叉辨析，不自报新作者定理。F01 ROOT-IDENTITY/EXIT、OB38/OB99 OPEN，凯翔A087/A016 UNKNOWN，行情NOT_RUN。

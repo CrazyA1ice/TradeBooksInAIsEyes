@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.71.0",
-  "source_count": 985,
+  "workflow_version": "4.72.0",
+  "source_count": 987,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -1800,6 +1800,12 @@
       "size_bytes": 13637
     },
     {
+      "source_path": "catalog/chanlun_third_point_source_receipts_v472.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun_third_point_source_receipts_v472.json",
+      "git_blob_sha": "c9b7f04928ef9c5b84be1f648c3a2712702f819a",
+      "size_bytes": 3431
+    },
+    {
       "source_path": "catalog/chanlun_two_methods_archives_laohu_v438.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_two_methods_archives_laohu_v438.json",
       "git_blob_sha": "5c4a2fca8d057e64342a3c23ae82f3ab61d08216",
@@ -1912,6 +1918,12 @@
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L43_FUTURE_CENTER_BRANCH_AND_FIRST_KNOWN_BOUNDARY_V468.md",
       "git_blob_sha": "b1d1c077758b98904037fb24b37affea8c0f8e83",
       "size_bytes": 14772
+    },
+    {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L53_CHILD_EXTREMA_AND_CONFUCIUS65_REPLIES_V472.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L53_CHILD_EXTREMA_AND_CONFUCIUS65_REPLIES_V472.md",
+      "git_blob_sha": "dff6f63dc9910181a48a473bcf9645a63df8b4c4",
+      "size_bytes": 5920
     },
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/DETAIL_COVERAGE_GAPS.md",
@@ -2528,8 +2540,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "fea3495e87105320ef14a8c1544c264b619f76ff",
-      "size_bytes": 130362
+      "git_blob_sha": "31a1d5b6ad5c10d68772300ecdb81d49fb37bbac",
+      "size_bytes": 131839
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -4004,8 +4016,8 @@
     {
       "source_path": "tests/test_book_collection.py",
       "mirror_path": "ChanlunCollection/tests/test_book_collection.py",
-      "git_blob_sha": "b87606832113157facbfae523fc62845b13bbc60",
-      "size_bytes": 14796
+      "git_blob_sha": "839d98656f69a376796a481bf9717163ab64b80e",
+      "size_bytes": 17925
     },
     {
       "source_path": "tests/test_chanlun20_center_extension_membership_gate.py",

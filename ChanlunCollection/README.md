@@ -2,6 +2,10 @@
 
 **同轮补充第101课**：作者直接阐述“走势必完美”的递归唯一分解，并称a0可多种设计但不损唯一性证明。不同a0各自唯一**不意味着**输出必须一致；而既然第101课已明说唯一分解，就不能未经凯翔本人认可把这句话冒充其所谓“第三层没明总结”。[报告新增第七节](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_LESSONS_98_100_LIVE_MULTILEVEL_STATE_TREE_V462.md)。
 
+## 2026-11-12 v4.72｜第53课作者正式正文极值/端点与2007-05-22历史问答联合审稿
+
+[第53课正文＋《论语》65五条作者署时答疑](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L53_CHILD_EXTREMA_AND_CONFUCIUS65_REPLIES_V472.md)实质新增：5分钟走势高低价未必在走势端点；次级离开走势内部中心可与原中心重叠；三买需要**两个有序完整次级走势**。对600216，作者先否定2007-05-18 10:00问法，后认可离开2007-05-16 10:20→17日10:10、回试2007-05-17 10:10→14:55的历史分段。回帖在《论语》65而非第52/53课，属于ARCHIVED_AUTHOR_REPLY，不是实时行情核证；第53课同编2009年后附另归EDITORIAL。新增[结构化来源收据](catalog/chanlun_third_point_source_receipts_v472.json)，不宣称ZG等号已裁决或F01完成；市场NOT_RUN。
+
 ## 2026-11-12 v4.71｜第24课历史作者回帖补证：整个回拉最低位不等于三买结束位置
 
 [2007-01-18 22:11:08 600832作者回帖及第20/38课价格对象对照](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L24_AUTHOR_REPLY_THIRD_BUY_ENDPOINT_VS_WHOLE_RETRACE_V471.md)明确作者说2007-01-17的日线第三买来自三段30分钟回拉，C段可以不创新低，五段复杂回拉要看最后一次回拉与原中枢关系；**不是整个回拉全局最低点必为三买结束位置**。该证据为ARCHIVED_AUTHOR_REPLY，原新浪comment及当年行情未独立核证。对v4.70新增`P20_PRICE_SOURCE_SCOPE`审核：先区分整次回拉极值、最后段极值、第三买点结束价和各自首次可知，再谈ZG数值条件；等号回中枢语义仍UNKNOWN，不能以“最后一次”取代合法完整次级走势证书。F01/OB38/OB99 OPEN，NOT_RUN。
