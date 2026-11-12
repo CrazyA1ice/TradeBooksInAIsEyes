@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.70.0",
-  "source_count": 984,
+  "workflow_version": "4.71.0",
+  "source_count": 985,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -1896,6 +1896,12 @@
       "size_bytes": 8619
     },
     {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L24_AUTHOR_REPLY_THIRD_BUY_ENDPOINT_VS_WHOLE_RETRACE_V471.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L24_AUTHOR_REPLY_THIRD_BUY_ENDPOINT_VS_WHOLE_RETRACE_V471.md",
+      "git_blob_sha": "98a68ec7b6fcb7087e310cf3feb654ce3d0f57bd",
+      "size_bytes": 9981
+    },
+    {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L38_NESTED_RETRACE_AND_L54_SAMELEVEL_CONNECTOR_SCOPE_V469.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L38_NESTED_RETRACE_AND_L54_SAMELEVEL_CONNECTOR_SCOPE_V469.md",
       "git_blob_sha": "2ad311a3965d75f7aeb1e7ba33e650fa7bd71e1b",
@@ -2522,8 +2528,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "d02c041d143a84738d34fa71205829faa9845869",
-      "size_bytes": 128818
+      "git_blob_sha": "fea3495e87105320ef14a8c1544c264b619f76ff",
+      "size_bytes": 130362
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
