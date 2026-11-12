@@ -27,3 +27,20 @@
     python -B -m unittest discover -s intake/tests -p "test_*.py" -v
 
 首版以虚构测试样本覆盖容器、SHA/去重、编码、无源输入、格式、符号链接、大小写冲突、输出边界等场景。已通过单独的 [G0跨平台 GitHub Actions](../.github/workflows/g0-source-intake.yml)纳入自动化校验：Windows/Linux 与 Python 3.11/3.12 四个组合，执行命令行帮助检查和离线单测。该CI只以程序自动生成的虚构格式/文本作为输入，不包含真实交易书籍；是否通过以该PR准确head SHA的运行结果为准。它不替代《缠论》精确镜像和其他47项专题检查，下一阶段才是实际第二本书接入。
+
+
+## 当前《缠论》研究：知乎凯翔回答覆盖与增量对账
+
+这是**独立于未来新书G0资料扫描**的特定来源质量门，复用同一个仓库的`intake/`离线工具区；不改变本项目未来逐书研究的目标。2026-11-11 用户上传的 `answers(1).md` **仅有100个回答块，文件头也声称100**，对应目前的 A001—A100，并不构成“凯翔全部答复”认证。用户指出原始收藏/预期应为200多条，但尚未得到可独立重读的更长版本。
+
+后续有200+条完整MD文件时，在仓库根目录运行**一行 PowerShell**（自行替换新文件路径）：
+
+    python -B intake/zhihu_answer_reconcile.py --base-md "other_views/chanlun/speaker-unknown-001/answers-2026-11-11.md" --base-index "other_views/chanlun/speaker-unknown-001/answers-index.json" --incoming-md "D:\Downloads\answers-full.md" --speaker-token "tsk-47-98" --min-incoming-answers 200 --output "$env:TEMP\kaixiang-coverage-review.private.json"
+
+也可省略 `--output`，只在终端返回 JSON（不写文件）。路径默认只能是**已经存在的**本地普通文件，不随 symlink 读取外部文件；文件必须是 UTF-8、有知乎回答 URL、发布时间、当前用户主页标识、声明总条数，实际解析数量必须一致。测试支持 215 条乃至更多项，**没有旧版的100条程序上限**。若用户明确要求至少200条而传入100条，**直接拒绝**，不会继续以100条生成“完整覆盖”的研究结果。
+
+结果仅包括来源文件SHA、声明/解析数量、现有A编号保留、新增A编号建议、旧回答正文或题目发生变化的复核数量、以及新版本缺少哪些旧ID；不输出回答原文、不会覆盖旧MD、不会实际导入或修改任何研究结论、不会访问知乎或抓取评论。100条与200多条版本不同不等于作者删除或改过帖子：可能是导出范围、分页、页面可见性或不同时刻所致，需保留两个版本。旧A001—A100绝不重新编号；新增先按原回答ID分配A101+建议号，**来源与原作者身份仍待独立确认**。即使新的导出包含200+条，也只能证明该次文件自身达到200+，**不能证明已完整抓取某知乎用户所有历史回答或评论**。
+
+**数据质量门的重要性**：`answers-index.json` 中的 `source_sha256` 必须与既有规范原文的字节SHA精确相符，A001—A100回答ID、URL与规范原文必须逐项对应；任一不一致拒绝做映射。历史答案修改与新答案添加分开列出，不自动覆盖研究者过去的引文。第三人引用、评论区、回答后续编辑和账号平台身份需要另外的证据，不能从回答个数推断。
+
+相关合成离线测试：`python -B -m unittest discover -s intake/tests -p "test_zhihu_answer_reconcile.py" -v`。纳入现有 G0 `intake/tests` 跨平台CI扫描；它只是来源覆盖质检，并非新书解析或缠论理论突破。
