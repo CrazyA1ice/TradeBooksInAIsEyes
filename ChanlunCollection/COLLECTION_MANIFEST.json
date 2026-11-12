@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.75.0",
-  "source_count": 993,
+  "workflow_version": "4.76.0",
+  "source_count": 996,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -1512,6 +1512,12 @@
       "size_bytes": 9236
     },
     {
+      "source_path": "catalog/chanlun_f01_root_pan_frontier_v476.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun_f01_root_pan_frontier_v476.json",
+      "git_blob_sha": "b0a26a3ffdbb2a78832cfbc232436fa51d4543bf",
+      "size_bytes": 3484
+    },
+    {
       "source_path": "catalog/chanlun_f01_segment_termination_reconciliation_v1.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_f01_segment_termination_reconciliation_v1.json",
       "git_blob_sha": "9932dc492c3e4b5754a86b7c491eff6d99d5d31d",
@@ -1906,6 +1912,12 @@
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_F01_AUTHOR_REPLY_20070320_NONREUSE_AND_L36_POLICY_DEPENDENCE_V467.md",
       "git_blob_sha": "84ace52adf438dd99d0491172bdb49a7588e8346",
       "size_bytes": 12958
+    },
+    {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_F01_ROOT_PAN_EXIT_REGRESSION_AND_MISSING_WITNESS_V476.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_F01_ROOT_PAN_EXIT_REGRESSION_AND_MISSING_WITNESS_V476.md",
+      "git_blob_sha": "d0185a53e4f9b8074723a79f069c69b825afcc07",
+      "size_bytes": 7006
     },
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_F01_THREE_TRADE_SEED_WINDOWS_VS_CENTER_IDENTITY_V466.md",
@@ -2576,8 +2588,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "bfa1c63bdb9dd89dbe7a77a2dc15f71832db509b",
-      "size_bytes": 137494
+      "git_blob_sha": "6e17deca96d76f88edcc94fcde95232e780d8a26",
+      "size_bytes": 139520
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -4052,8 +4064,8 @@
     {
       "source_path": "tests/test_book_collection.py",
       "mirror_path": "ChanlunCollection/tests/test_book_collection.py",
-      "git_blob_sha": "bdea728f5ea6ed6e24437c19380c1d2cd94e70d9",
-      "size_bytes": 28348
+      "git_blob_sha": "d9c2bb6a40d52127241c681aa07c348790c07046",
+      "size_bytes": 31110
     },
     {
       "source_path": "tests/test_chanlun20_center_extension_membership_gate.py",
@@ -5044,6 +5056,12 @@
       "mirror_path": "ChanlunCollection/tools/audit_chanlun_f01_original_figure_provenance.py",
       "git_blob_sha": "b3c0b94feba02a0653b3a1fbfa7d1ff692012063",
       "size_bytes": 8188
+    },
+    {
+      "source_path": "tools/audit_chanlun_f01_root_pan_frontier_v476.py",
+      "mirror_path": "ChanlunCollection/tools/audit_chanlun_f01_root_pan_frontier_v476.py",
+      "git_blob_sha": "e5abaf79d96a7376120c2fc899576acc4e33a3dd",
+      "size_bytes": 9310
     },
     {
       "source_path": "tools/audit_chanlun_f01_segment_termination_reconciliation.py",

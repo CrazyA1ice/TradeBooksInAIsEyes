@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-F01-ROOT-PAN-FRONTIER-V476",
+  "workflow_version": "4.76.0",
+  "scope": "EXISTING_UNTRUSTED_RECEIPT_GRAMMAR_NEGATIVE_REGRESSION",
+  "existing_checker": "tools/audit_chanlun_f01_completion_receipts.py",
+  "source_claims": [
+    {
+      "lesson": 18,
+      "claim_id": "CL018-S07",
+      "pdf_page": 235,
+      "role": "AUTHOR_MAIN_SOURCE_CARD_IN_COMPILATION",
+      "meaning": "MINIMUM_THREE_FINISHED_CHILDREN_DOES_NOT_FORCE_PAN_TERMINATION"
+    },
+    {
+      "lesson": 20,
+      "claim_id": "CL020-S03",
+      "pdf_page": 247,
+      "role": "AUTHOR_MAIN_SOURCE_CARD_IN_COMPILATION",
+      "meaning": "THIRD_POINT_REQUIRES_COMPLETE_CHILD_DEPARTURE_AND_FIRST_RETRACE"
+    },
+    {
+      "lesson": 35,
+      "claim_id": "CL35-SO-2",
+      "pdf_page": 291,
+      "role": "AUTHOR_MAIN_SOURCE_CARD_IN_COMPILATION",
+      "meaning": "THREE_EQUAL_TRADES_CONSTRUCT_ROOT_CENTER_NOT_ROOT_PAN_EXIT"
+    },
+    {
+      "lesson": 35,
+      "claim_id": "CL35-SO-9",
+      "pdf_page": 291,
+      "role": "AUTHOR_MAIN_SOURCE_CARD_IN_COMPILATION",
+      "meaning": "N_GREATER_THAN_TWO_NONADVANCING_TREND_STOP_IS_NOT_ONE_CENTER_PAN_END"
+    }
+  ],
+  "negative_cases": [
+    {
+      "id": "CENTER_ASSUMED_FINISHED",
+      "expected_reason": "no unfinished/segment-based or unsupported finish promotion",
+      "claim_status": "REJECTED_AS_COMPLETION_CERTIFICATE"
+    },
+    {
+      "id": "BASE_PAN_EXIT_FROM_CENTER",
+      "expected_reason": "no automatic lowest-pan terminal predicate",
+      "claim_status": "REJECTED_AS_COMPLETION_CERTIFICATE"
+    },
+    {
+      "id": "PAN_DIVERGENCE_ALERT_AS_FINISH",
+      "expected_reason": "unsupported or unimplemented evidence kind",
+      "claim_status": "REJECTED_AS_COMPLETION_CERTIFICATE"
+    },
+    {
+      "id": "SEGMENT_END_ASSUMED_FINISHED",
+      "expected_reason": "no unfinished/segment-based or unsupported finish promotion",
+      "claim_status": "REJECTED_AS_COMPLETION_CERTIFICATE"
+    },
+    {
+      "id": "ONE_CENTER_AS_NTH_TREND_EXIT",
+      "expected_reason": "Nth center must be beyond second",
+      "claim_status": "REJECTED_AS_COMPLETION_CERTIFICATE"
+    },
+    {
+      "id": "SELF_JUSTIFYING_BOUNDARY",
+      "expected_reason": "circular completion evidence",
+      "claim_status": "REJECTED_AS_COMPLETION_CERTIFICATE"
+    }
+  ],
+  "proof_frontier": {
+    "strict_tick_root_center": "CONSTRUCTIBLE_STRUCTURE_ONLY",
+    "strict_tick_root_pan_exit": "OPEN",
+    "strict_tick_root_center_identity": "OPEN",
+    "root_trend_nonadvance_comparator": "AUTHOR_CONDITION_WITH_UNDETERMINED_FULL_COMPARATOR",
+    "global_market_completion": "NOT_CERTIFIED",
+    "market_backtest": "NOT_RUN",
+    "trades_executed": 0,
+    "author_full_grammar_recovered": false
+  },
+  "interpretation_limits": [
+    "This regression suite audits a deliberately partial existing typed-graph grammar, not completeness of every possible author-licensed construction.",
+    "A rejection means this proposed proof cannot be certified by the current reviewed evidence rules, not that the theory as a whole is false.",
+    "The single-center seed is a fictional three-trade stream, not independently authenticated tick data.",
+    "PAN_DIVERGENCE is an observation; v4.75 source analysis says it can coexist with a continuing movement.",
+    "The N>2 trend nonadvance rule is separate from strictly one-center base-pan completion.",
+    "No market backtest, orders, data ingestion or first-known-at trading claim is made."
+  ]
+}
