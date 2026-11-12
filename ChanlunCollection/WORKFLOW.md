@@ -1,8 +1,10 @@
-# ChanlunCollection｜本书实施工作流 v4.74.0
+# ChanlunCollection｜本书实施工作流 v4.75.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
 
 **v4.62.0 补查第101课强源门：**第101课作者直接提出**唯一递归分解**且宣称改变a0不损唯一性，研究者必须区分“每个固定a0/政策下唯一”与“跨a0输出完全相同”，也必须注意凯翔A016说“第三层正文未明总结”而作者第101课其实已明言唯一分解，故H5不能仅靠该段就等同他第三层。参见[本轮报告第七节](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_LESSONS_98_100_LIVE_MULTILEVEL_STATE_TREE_V462.md)。
+
+**v4.75.0 盘背双尺度观察非完成证书：**[2007-03-14 15:39:57与2007-03-20 15:54:24两条作者署时回复](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_PAN_DIVERGENCE_TWO_SCALE_OBSERVATION_NOT_EXIT_V475.md)。A/C盘背比较与C内部更低级背驰配合**仅提供多尺度判断线索**；作者随后明确盘整背驰可能还在同一个走势类型内部，所以不能从盘背推出C完成/原盘整退出/第三点合法成立。分别留档`PAN_AC_OBSERVED`、`LOWER_C_DIVERGENCE_OBSERVED`、`C_FINISH_CERT`、`PAN_EXIT`、`FIRST_KNOWN`，无法独立合法完成则UNKNOWN。真实评论来源按日期和真正所属文章分层：3月14文章《关于大盘个股说几句闲话》但目前只有后人第36课答疑编排材料；3月20《论语》58历史存档，有作者及读者双时戳，均非原新浪评论服务器字节认证。17:39三笔同价不翻转在v4.67已经发现，绝不重复算。F01 ROOT_IDENTITY/ROOT_EXIT、OB38/OB99 OPEN，市场NOT_RUN。
 
 **v4.74.0 任意高低点非合法分界与独立前段完成来源门：**[第38课次日实际附在《论语》59的2007-03-22 16:03、16:47作者署时答疑](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_CONFUCIUS59_BOUNDARY_REQUIRES_PREVIOUS_COMPLETED_MOVEMENT_V474.md)：当下走势分段参考趋势背驰、盘背，第三点的盘整终结确认关联内部结构；同级分解的新分界不可以是任意高低点，必须是**前一走势类型的结束点**，不跌破历史低价还需内部结构确认。严格记`PREVIOUS_COMPLETED_MOVEMENT_ID`、`END_FIRST_KNOWN`、`NEXT_BOUNDARY`的独立有向依赖，拒绝`RAW_EXTREMUM -> AD_HOC_SPLIT -> PREVIOUS_END`循环证书。第38/39课固定同级分解假定合法成员；第53课指出极值与端点非恒等。来源ARCHIVED_AUTHOR_REPLY，不是第38课AUTHOR_MAIN，原新浪comment字节未验证。F01 ROOT-IDENTITY/EXIT、OB38/OB99 OPEN，真实市场NOT_RUN。
 

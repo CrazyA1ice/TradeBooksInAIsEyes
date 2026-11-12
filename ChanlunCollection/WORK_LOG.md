@@ -3,6 +3,13 @@
 > **必须随每一次后续研究步骤一并更新；不能只交成果、不修工作流。** 记录问题、来源、研究实际增量、通用流程改动、集合同步和验收状态。GitHub PR应拒绝未同步工作流和镜像的改动。
 
 - **同轮新核第101课**：2008-03-04《答疑1》第二问作者直接把走势必完美解释为分型/笔/段/各级别递归的**唯一分解**；还声称初始a0可不同设计而不影响唯一分解证明。条件性唯一不等于各不同a0的输出必完全相同，第38课不同固定切法与该句不能自动矛盾。这一原文反而限制H5被误认作凯翔“第三层没明说”的准确性：作者其实明说了唯一，凯翔可能指其未明述的更深推论，暂无本人确认。
+## 2026-11-12｜v4.75.0：3月14日A/C双尺度盘背建议与3月20日盘背不必终结的反向原文，排除自动完成快捷路径
+
+- **新署时来源一**：[2007-03-14 15:39:57答复及读者ED男猿15:32:18问题](https://www.fengmr.com/cld36ka.html)：针对三段5分钟构成30分钟盘整却无法确认完成，作者说可比较A/C盘整背驰与C内部更低级背驰配合观察，**没有给双观察必然成立完成证书的定理**。再版按第36课回复归类，而3月14日作者当日博文是《关于大盘个股说几句闲话》08:58:13，真正原新浪评论附属记录未独立复核。
+- **新署时来源二**：[2007-03-20 15:54:24《论语》58作者回应百思不解](https://chzhshch.blog/confucius/58/)明确区别趋势背驰与盘背，称盘整背驰可以**仍在同一个走势类型中**，因此盘背观察非完整走势的无条件充分证书。该问答源文章15:23:18发表，评论层ARCHIVED_AUTHOR_REPLY，原新浪comment字节未认证。
+- **已有资料不重复报新**：[v4.67](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_F01_AUTHOR_REPLY_20070320_NONREUSE_AND_L36_POLICY_DEPENDENCE_V467.md)已记录3月20日17:39:28“三笔同价不等于反转/同一式不复用”答疑；[v4.31](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_AUTHOR_REPLY_COMPLETION_EXIT_EVENTS_AND_NONCIRCULAR_PROOFS.md)已有盘整第三点与趋势后回拉退出，均非v4.75新发现。
+- **新审稿门**：区别`PAN_AC_OBSERVED`、`LOWER_C_DIVERGENCE_OBSERVED`、`C_FINISH_CERT`、`PAN_EXIT`及`THIRD_POINT_FIRST_KNOWN`；**无条件`PAN_AC=>C_FINISHED`被作者反例语义明确否定**，双观察充分性仍NOT_ESTABLISHED（不是被证明处处为假）。补[研究报告](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_PAN_DIVERGENCE_TWO_SCALE_OBSERVATION_NOT_EXIT_V475.md)与[机器收据](catalog/chanlun_pan_divergence_finish_scope_v475.json)并加入集成负证据断言，更新通用与本书工作流v4.75、状态/清单/精确镜像；原5卷108课/凯翔A001—A100不改，F01 ROOT-IDENTITY/ROOT-EXIT、OB38/OB99 OPEN，实盘NOT_RUN。
+
 ## 2026-11-12｜v4.74.0：《论语》59作者两条明确否定任意高低点分界的署时回复及原文出处修正
 
 - **新文献事实**：[《论语》详解59 2007-03-22 15:28:36及历史评论](https://chzhshch.blog/confucius/59/)。读者“空读”15:35:59问如何当下辨别30分钟走势结束，作者16:03:48谈背驰/盘整背驰用于分段、第三点的盘整结束确认也依赖内部结构；读者“touchnet”15:57:49问“不跌破”“同级中心”与“任意高低点可否作为分界”，作者16:47:52分别答“需内部结构确认”“同级中心”“**必须是前面走势类型的结束点**”。历史评论真正附属《论语》59，**不是第38课2007-03-21 AUTHOR_MAIN**，但有二次出版物按主题附于第38课；原新浪评论数据库字节未证。

@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-PAN-DIVERGENCE-FINISH-SCOPE-V475",
+  "workflow_version": "4.75.0",
+  "review_date": "2026-11-12",
+  "classification": "RESEARCH_PROVENANCE_AND_LOGICAL_GATES_ONLY",
+  "research_only": true,
+  "sources": [
+    {
+      "id": "L35_MAIN",
+      "role": "AUTHOR_MAIN",
+      "url": "https://eczsc.com/originals/35",
+      "publication_date": "2007-03-09",
+      "claim": "THREE_EQUAL_TRADES_IS_CENTER_SEED_NOT_EXIT"
+    },
+    {
+      "id": "MAR14_REPLY_153957",
+      "role": "ARCHIVED_AUTHOR_REPLY_SECONDARY",
+      "question_author": "ED男猿",
+      "question_at": "2007-03-14T15:32:18",
+      "reply_at": "2007-03-14T15:39:57",
+      "candidate_original_article": "关于大盘个股说几句闲话",
+      "candidate_article_published_at": "2007-03-14T08:58:13",
+      "candidate_article_evidence": "https://chzhshch.blog/timeline/",
+      "reply_transcript": "https://xueqiu.com/5811997489/232246951",
+      "original_comment_attachment_verified": false,
+      "claim": "PAN_AC_AND_LOWER_C_DIVERGENCE_JOINT_OBSERVATION_ADVICE_NOT_FORMAL_FINISH_RULE"
+    },
+    {
+      "id": "MAR20_REPLY_155424",
+      "role": "ARCHIVED_AUTHOR_REPLY",
+      "question_author": "百思不解",
+      "question_at": "2007-03-20T15:30:51",
+      "reply_at": "2007-03-20T15:54:24",
+      "attached_article": "论语详解58",
+      "article_published_at": "2007-03-20T15:23:18",
+      "url": "https://chzhshch.blog/confucius/58/",
+      "original_sina_comment_bytes_verified": false,
+      "claim": "PAN_DIVERGENCE_MAY_CONTINUE_WITHIN_SAME_MOVEMENT"
+    },
+    {
+      "id": "MAR20_REPLY_173928_ALREADY_V467",
+      "role": "ARCHIVED_AUTHOR_REPLY",
+      "question_author": "一头雾水",
+      "question_at": "2007-03-20T16:02:35",
+      "reply_at": "2007-03-20T17:39:28",
+      "attached_article": "论语详解58",
+      "article_published_at": "2007-03-20T15:23:18",
+      "url": "https://chzhshch.blog/confucius/58/",
+      "previous_research": "v4.67",
+      "claim": "THREE_TRADE_SEED_NOT_AUTOMATIC_REVERSAL_PREVIOUSLY_CATALOGUED"
+    },
+    {
+      "id": "MAR20_REPLY_175111_ALREADY_V431",
+      "role": "ARCHIVED_AUTHOR_REPLY",
+      "question_author": "缠文观止",
+      "question_at": "2007-03-20T17:35:58",
+      "reply_at": "2007-03-20T17:51:11",
+      "attached_article": "论语详解58",
+      "url": "https://chzhshch.blog/confucius/58/",
+      "previous_research": "v4.31",
+      "claim": "PAN_EXTENSION_EXIT_WITH_THIRD_POINT_PREVIOUSLY_RESEARCHED"
+    }
+  ],
+  "assertions": [
+    {
+      "id": "PAN_AC_IMPLIES_MOVEMENT_END",
+      "verdict": "NOT_VALID_GENERAL_IMPLICATION_AUTHOR_ALLOWS_CONTINUATION",
+      "source": "MAR20_REPLY_155424"
+    },
+    {
+      "id": "PAN_AC_AND_LOWER_C_IMPLIES_FINISHED_C",
+      "verdict": "NOT_ESTABLISHED_AS_GENERAL_ONLINE_SUFFICIENCY",
+      "source": "MAR14_REPLY_153957"
+    },
+    {
+      "id": "THREE_EQUAL_TRADES_IMPLIES_REVERSAL",
+      "verdict": "REJECTED_ALREADY_V467",
+      "source": "MAR20_REPLY_173928_ALREADY_V467"
+    },
+    {
+      "id": "TREND_DIVERGENCE_IMPLIES_TREND_END",
+      "verdict": "AUTHOR_THEORETICAL_ASSERTION_NOT_MARKET_CERTIFICATE",
+      "source": "MAR20_REPLY_155424"
+    },
+    {
+      "id": "EARLY_DIVERGENCE_OBSERVATION_IMPLIES_SAME_TIME_FINISH_KNOWN",
+      "verdict": "NOT_ESTABLISHED",
+      "source": "MAR14_REPLY_153957"
+    }
+  ],
+  "independence_fields": [
+    "PAN_AC_OBSERVATION_FIRST_KNOWN",
+    "LOWER_C_OBSERVATION_FIRST_KNOWN",
+    "C_COMPLETED_MOVEMENT_CERTIFICATE",
+    "C_FINISH_FIRST_KNOWN",
+    "THIRD_POINT_FIRST_KNOWN"
+  ],
+  "guardrails": {
+    "root_center_identity": "OPEN",
+    "root_movement_exit": "OPEN",
+    "ob38": "OPEN",
+    "ob99": "OPEN",
+    "zg_zd_boundary": "BORDER_TOUCH_UNRESOLVED",
+    "kaixiang_a087": "UNKNOWN",
+    "kaixiang_a016": "UNKNOWN",
+    "original_comment_bytes_authenticated": false,
+    "real_market_replay": "NOT_RUN",
+    "trades_executed": 0
+  },
+  "prior_work": [
+    {
+      "version": "4.67.0",
+      "finding": "THREE_TRADE_SEED_NOT_REVERSAL_NO_REUSE"
+    },
+    {
+      "version": "4.31.0",
+      "finding": "PAN_EXIT_THIRD_POINT_TREND_EXIT_RETURN_TO_LAST_CENTER"
+    }
+  ]
+}
