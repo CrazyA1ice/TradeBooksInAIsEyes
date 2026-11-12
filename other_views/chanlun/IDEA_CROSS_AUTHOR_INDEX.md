@@ -6,7 +6,7 @@
 
 | 人物档案 | 源材料 | 灵感记录 | 可组合研究 | 状态 |
 |---|---|---|---|---|
-| [凯翔／speaker-unknown-001](speaker-unknown-001/README.md) | [100条回答与索引](speaker-unknown-001/answers-index.json)，独立评论缺失 | [I001— I060](speaker-unknown-001/IDEA_NOTEBOOK.md) | [KX-C01—KX-C21](speaker-unknown-001/IDEA_COMBINATIONS.md) | 单人初始池；无跨人共识 |
+| [凯翔／speaker-unknown-001](speaker-unknown-001/README.md) | [100条回答与索引](speaker-unknown-001/answers-index.json)，独立评论缺失 | [I001— I070](speaker-unknown-001/IDEA_NOTEBOOK.md) | [KX-C01—KX-C27](speaker-unknown-001/IDEA_COMBINATIONS.md) | 单人初始池；无跨人共识 |
 
 ## 可跨作者追踪的主题簇（只是问题，不是结论）
 
@@ -29,6 +29,16 @@
 | T10 中阴与跨级后继 | I056/I057/I058 | 何时可知、跨级别如何重新归属、是否需要风险动作 |
 
 **当前仍只有凯翔本人原文**；这些只是将来比较的问题，不是已发现的跨作者共同规律。
+
+## v4.80 待比较主题（尚非跨人物共识）
+
+| 主题 | 凯翔本轮研究灵感 | 未来要比较什么 |
+|---|---|---|
+| T11 最底层构件与递归算子 | I061/I062/I063，C22/C23 | 对方谈的是初值、f1、f2、成员分组还是完整走势？ |
+| T12 趋同与骨牌反攻 | I064/I067/I070，C24/C26 | 同向预期何时增强趋势、何时触发拥挤退出？ |
+| T13 结构级别与执行级别 | I065/I066，C25 | 其“周期”指图表、结构还是持仓执行？ |
+
+此时只有凯翔一位已有独立人物档案，不声称跨人发现共识。
 
 ## 未来加入第二位人物时的执行步骤
 
