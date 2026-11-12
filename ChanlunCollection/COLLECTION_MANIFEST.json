@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.72.0",
-  "source_count": 987,
+  "workflow_version": "4.73.0",
+  "source_count": 989,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -1566,6 +1566,12 @@
       "size_bytes": 9594
     },
     {
+      "source_path": "catalog/chanlun_l33_divergence_finish_source_scope_v473.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun_l33_divergence_finish_source_scope_v473.json",
+      "git_blob_sha": "97718ea8abe688153a2553bd607c134f25cd153d",
+      "size_bytes": 3812
+    },
+    {
       "source_path": "catalog/chanlun_l54_cross_archive_figure_and_decision_v1.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_l54_cross_archive_figure_and_decision_v1.json",
       "git_blob_sha": "28f75abc409eb19b01a90bbfcb2342e2cc4c2831",
@@ -1906,6 +1912,12 @@
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L24_AUTHOR_REPLY_THIRD_BUY_ENDPOINT_VS_WHOLE_RETRACE_V471.md",
       "git_blob_sha": "98a68ec7b6fcb7087e310cf3feb654ce3d0f57bd",
       "size_bytes": 9981
+    },
+    {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L33_AUTHOR_REPLY_DIVERGENCE_LEVEL_AND_FINISH_PROOF_V473.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L33_AUTHOR_REPLY_DIVERGENCE_LEVEL_AND_FINISH_PROOF_V473.md",
+      "git_blob_sha": "9190b7842c79166fb51397ef3695906ee2ebaf92",
+      "size_bytes": 7624
     },
     {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L38_NESTED_RETRACE_AND_L54_SAMELEVEL_CONNECTOR_SCOPE_V469.md",
@@ -2540,8 +2552,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "31a1d5b6ad5c10d68772300ecdb81d49fb37bbac",
-      "size_bytes": 131839
+      "git_blob_sha": "cc7b3db7267367ebad81b97fd26e3f7f1701869c",
+      "size_bytes": 133398
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -4016,8 +4028,8 @@
     {
       "source_path": "tests/test_book_collection.py",
       "mirror_path": "ChanlunCollection/tests/test_book_collection.py",
-      "git_blob_sha": "839d98656f69a376796a481bf9717163ab64b80e",
-      "size_bytes": 17925
+      "git_blob_sha": "d96fa2f36ddf1d1a30ad775ced7c77784eeac6c5",
+      "size_bytes": 21279
     },
     {
       "source_path": "tests/test_chanlun20_center_extension_membership_gate.py",
