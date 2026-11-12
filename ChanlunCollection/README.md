@@ -2,6 +2,10 @@
 
 **同轮补充第101课**：作者直接阐述“走势必完美”的递归唯一分解，并称a0可多种设计但不损唯一性证明。不同a0各自唯一**不意味着**输出必须一致；而既然第101课已明说唯一分解，就不能未经凯翔本人认可把这句话冒充其所谓“第三层没明总结”。[报告新增第七节](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_LESSONS_98_100_LIVE_MULTILEVEL_STATE_TREE_V462.md)。
 
+## 2026-11-12 v4.67｜作者亲自回答“三笔不必翻转”和“中枢构件不能重复归组”
+
+[阅读2007-03-20《论语》58评论源证与第36课两种合法30分钟中枢组合](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_F01_AUTHOR_REPLY_20070320_NONREUSE_AND_L36_POLICY_DEPENDENCE_V467.md)：历史署时作者回复否认第35课连续三笔同价自动导致翻转，强调同一走势连接表达式前后括号不可重复使用同一构件；原新浪文章本体已确认、评论仍为历史镜像材料。第36课作者自己把同段2007年3月走势重组为30分钟中心[2892,2911]或[2905,2947]，不同组合对应不同三买条件，这**不破坏固定R内不复用**，却否定“所有允许R必有同一核心”的强读法。F01 ROOT-SEED已定义、COMPOSITION-NONREUSE有作者归属回复、ROOT-IDENTITY/ROOT-EXIT仍OPEN，行情NOT_RUN。原凯翔100答/五卷原PDF/108课不改。
+
 ## 2026-11-12 v4.66｜同价三笔可形成中枢，不等于每个三笔窗口都是新中枢
 
 [第18/20/35/38课原文与严格最低三笔同价的身份问题](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_F01_THREE_TRADE_SEED_WINDOWS_VS_CENTER_IDENTITY_V466.md)：n笔同价成交含n−2个重叠三笔见证，但作者第18、20课要求区分**旧中枢延伸**与**独立新同级中心**，不能直接按窗口数计中心、作趋势与退出判决。第20课一天一笔同价的“一个一分钟中枢”属实用分钟级f1，与第35课严格逐笔f1不能无证混用。真正补出的上游缺口是`ROOT-IDENTITY`身份归属算法；它与`ROOT-SEED`成立、`ROOT-EXIT`完成不同，后两者分别已经有基例/仍缺无循环出口。五卷/108课/凯翔100答原样保留，F01/OB38/OB99 OPEN、行情NOT_RUN。
