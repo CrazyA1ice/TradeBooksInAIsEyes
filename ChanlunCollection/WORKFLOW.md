@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.58.0
+# ChanlunCollection｜本书实施工作流 v4.59.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.59.0 本书原文审稿门：**用户确认上传凯翔回答确实100条，研究样本即A001—A100。新增[第17/18/38课与凯翔第二层的分解政策核对](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_POLICY_SCOPED_NEXT_TYPE_AND_THIRD_LAYER_V459.md)：第38课明确允许同级别固定分解下盘整接盘整，故“完成后必转另外两种”若要成为强全称命题必须限定R/g/“完成”对象；不能混淆中心存在、可结束、政策截断、独立完成和相邻类型。第99课H4跨级后继、第102课H5递归整体表达均有作者原文但**均不是凯翔已说出的第三层**；A087第二中枢方法仍未披露。今后每个具体书籍都应核查看似相同的术语有没有改变分解政策、输入层级与时钟，而非以AI猜测代替作者公式。F01/OB38/OB99 OPEN、真实行情NOT_RUN。
 
 **v4.58.0 基础设施同步：**新增仓库级G0预检CI（Windows/Linux × Python 3.11/3.12）。旧G7镜像规则覆盖根工作流，故按原规则把G0 CI与通用工作流同步进入本书集合并刷新manifest；未修改《缠论》原PDF、100答、推理结果或F01/OB38/OB99状态，未运行真实行情。下书G0材料入库只有格式/SHA与待审权限收据，不是阅读结论。
 
