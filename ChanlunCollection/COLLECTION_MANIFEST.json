@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.58.0",
-  "source_count": 972,
+  "workflow_version": "4.59.0",
+  "source_count": 973,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -2016,6 +2016,12 @@
       "size_bytes": 5548
     },
     {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_POLICY_SCOPED_NEXT_TYPE_AND_THIRD_LAYER_V459.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_POLICY_SCOPED_NEXT_TYPE_AND_THIRD_LAYER_V459.md",
+      "git_blob_sha": "52e4b1358ab7c4514a319bd6bef6e0ae24f368e4",
+      "size_bytes": 10866
+    },
+    {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_RAW_TAPE_DERIVED_PREFIX_AND_EXIT_ASSUMPTIONS_V456.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_RAW_TAPE_DERIVED_PREFIX_AND_EXIT_ASSUMPTIONS_V456.md",
       "git_blob_sha": "52be132d2cc4ac41e61767b17d1081f2da4dfca0",
@@ -2450,8 +2456,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "ebca1533abd91acdccc3f4c4b32b0e7d4fc55065",
-      "size_bytes": 104239
+      "git_blob_sha": "947a5bd1060ac45d1d2bfd70f15379a5b010a483",
+      "size_bytes": 106268
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
