@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.69.0",
-  "source_count": 983,
+  "workflow_version": "4.70.0",
+  "source_count": 984,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -1890,6 +1890,12 @@
       "size_bytes": 13600
     },
     {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L20_L38_BOUNDARY_TOUCH_RETRACE_ROLE_V470.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L20_L38_BOUNDARY_TOUCH_RETRACE_ROLE_V470.md",
+      "git_blob_sha": "bf162d95abfe19a0d7d393dcc0c32835fd273a6c",
+      "size_bytes": 8619
+    },
+    {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L38_NESTED_RETRACE_AND_L54_SAMELEVEL_CONNECTOR_SCOPE_V469.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L38_NESTED_RETRACE_AND_L54_SAMELEVEL_CONNECTOR_SCOPE_V469.md",
       "git_blob_sha": "2ad311a3965d75f7aeb1e7ba33e650fa7bd71e1b",
@@ -2516,8 +2522,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "3a060c157fc8f2f979ab2aac1a172e58e3dd207b",
-      "size_bytes": 127375
+      "git_blob_sha": "d02c041d143a84738d34fa71205829faa9845869",
+      "size_bytes": 128818
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
