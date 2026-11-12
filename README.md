@@ -26,6 +26,8 @@
 
 **同轮第101课关键原文**：作者直接称“走势必完美”的深层是递归函数的**唯一分解**，并允许a0有不同设计。各自唯一≠跨a0计算结果相同；而这一原课已明说的H5核心也不应冒充凯翔声称“第三层没有明的总结”的谜底。详见[v4.62报告第七节](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_LESSONS_98_100_LIVE_MULTILEVEL_STATE_TREE_V462.md)。
 
+**最新v4.75《缠论》盘整背驰不能当完成证书：**[2007-03-14作者A/C盘背＋C内部小级背驰配合观察与2007-03-20作者“盘背可以仍在同一走势内部”的源文对照](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_PAN_DIVERGENCE_TWO_SCALE_OBSERVATION_NOT_EXIT_V475.md)。本轮新增的是3月14日15:39:57双尺度分析回答与3月20日15:54:24的反自动退出答复；**3月20日17:39:28三笔同价不翻转在v4.67已研究，绝不重复计为新发现**。明确区分盘背观察、下级C内部提示、已完成C合法身份、盘整退出及第三点首次知；未获得严格底层单中枢盘整独立完成算法，F01/OB38/OB99继续OPEN，实盘NOT_RUN。
+
 **最新v4.74《缠论》合法分界的前段完成证书：**[2007-03-22《论语》59原作者16:03、16:47署时答疑与第38/39/53课的有条件合成](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_CONFUCIUS59_BOUNDARY_REQUIRES_PREVIOUS_COMPLETED_MOVEMENT_V474.md)。原作者明确否定**任意高低点都能当走势分界**，合法分界需为前段走势类型结束点；同日另述背驰/盘背作为分段依据，第三买卖点确认盘整结束还须内部结构。更正一些再版把评论归第38课附录的来源位置，真正出处是《论语》59历史评论，非第38课AUTHOR_MAIN；警示信号不能直接充当首次可知完成证书。F01 ROOT-IDENTITY/EXIT、OB38/OB99 OPEN，市场NOT_RUN。
 
 **最新v4.73《缠论》作者级别背驰与实际走势完成的证据边界：**[2007-03-02第33课作者署时答疑：背驰所属级别≠机械次级别结束证书](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L33_AUTHOR_REPLY_DIVERGENCE_LEVEL_AND_FINISH_PROOF_V473.md)。新核第33课2007-03-02 15:34:18作者署时回复：作者主张走势结束与背驰关联，但**不能要求每一g级走势的终结必须恰好由g−1级背驰引起**；反过来g−1背驰本身也未证g级完整终结及当时首知。联第27课正式正文，区分趋势背驰/盘整背驰、有限多层背驰段定位与真实原子价点完成认证；作者断言不等于已证市场定理，F01/OB38/OB99 OPEN，真实行情NOT_RUN。

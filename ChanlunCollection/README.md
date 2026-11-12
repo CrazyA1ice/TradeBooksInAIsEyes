@@ -2,6 +2,10 @@
 
 **同轮补充第101课**：作者直接阐述“走势必完美”的递归唯一分解，并称a0可多种设计但不损唯一性证明。不同a0各自唯一**不意味着**输出必须一致；而既然第101课已明说唯一分解，就不能未经凯翔本人认可把这句话冒充其所谓“第三层没明总结”。[报告新增第七节](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_LESSONS_98_100_LIVE_MULTILEVEL_STATE_TREE_V462.md)。
 
+## 2026-11-12 v4.75｜盘背与次级背驰双观察不是次级走势完成证明
+
+[2007-03-14作者15:39:57对ED男猿三段5分钟回拉的答疑＋2007-03-20《论语》58作者15:54:24对百思不解的答疑](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_PAN_DIVERGENCE_TWO_SCALE_OBSERVATION_NOT_EXIT_V475.md)新增一条作者源级明确限制：A/C段可比较盘整背驰、C内部可看更小级别背驰以配合分析；**盘整背驰并不必然意味着走势结束，可能仍处于同一个走势类型内部**。二者不能逻辑偷换为`PAN_AC & LOWER_C_DIVERGENCE => C_COMPLETED`定理；需要合法的C走势成员、独立退出和首次可知收据。3月14日评论在某些转载被归入第36课“回复”，其原发当日市场文章附属身份仅具时间线和二次编排支持；3月20日评论实际附于《论语》58，非第37/38课作者正文。原新浪评论原始字节均未认证。另[v4.67](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_F01_AUTHOR_REPLY_20070320_NONREUSE_AND_L36_POLICY_DEPENDENCE_V467.md)早已发现同日17:39三笔同价不等于翻转，不能当新发现。新增[来源/否定推断合同](catalog/chanlun_pan_divergence_finish_scope_v475.json)与CI校验；F01/OB38/OB99 OPEN，行情NOT_RUN。
+
 ## 2026-11-12 v4.74｜《论语》59两条署时作者答疑直接约束走势分界，不得任意取极值
 
 [2007-03-22作者16:03:48、16:47:52完整问答及第38/39/53课对照](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_CONFUCIUS59_BOUNDARY_REQUIRES_PREVIOUS_COMPLETED_MOVEMENT_V474.md)新增：16:03说背驰与盘整背驰是分段依据，第三点对盘整结束的确认仍关联内部背驰结构；16:47直接否定任意高低点可当分界，要求**前一走势类型已结束**，且“不跌破第一段低点”仍要内部结构确认。同一天原问答真实附在**《论语》59**（3月22日15:28:36），一些第38课的后人答疑附录不是作者3月21日正式正文。对v4.72整段极值≠端点再新增`PREVIOUS_MOVEMENT_END_CERTIFICATE`必要门，不能先自选拐点后拿该分界反证上一步完成。保留来源机器收据和CI负断言；未解决原子级独立退出F01，行情NOT_RUN。

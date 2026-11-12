@@ -418,5 +418,59 @@ class BookCollectionTests(unittest.TestCase):
                        "F01_ROOT_EXIT=OPEN","NOT_RUN"):
             self.assertIn(marker,s)
 
+
+    def test_v475_pan_divergence_observation_is_not_movement_exit(self):
+        """Prevent promoting author-attributed pan divergence to certified completion."""
+        source=ROOT/"catalog/chanlun_pan_divergence_finish_scope_v475.json"
+        contract=json.loads(source.read_text(encoding="utf-8"))
+        self.assertEqual(contract["schema_version"],1)
+        self.assertEqual(contract["workflow_version"],"4.75.0")
+        self.assertEqual(contract["classification"],
+                         "RESEARCH_PROVENANCE_AND_LOGICAL_GATES_ONLY")
+        self.assertIs(contract["research_only"],True)
+        events={x["id"]:x for x in contract["sources"]}
+        self.assertEqual(len(events),5)
+        self.assertEqual(events["L35_MAIN"]["role"],"AUTHOR_MAIN")
+        march14=events["MAR14_REPLY_153957"]
+        self.assertEqual(march14["role"],"ARCHIVED_AUTHOR_REPLY_SECONDARY")
+        self.assertEqual(march14["question_author"],"ED男猿")
+        self.assertEqual(march14["question_at"],"2007-03-14T15:32:18")
+        self.assertEqual(march14["reply_at"],"2007-03-14T15:39:57")
+        self.assertEqual(march14["candidate_original_article"],"关于大盘个股说几句闲话")
+        self.assertIs(march14["original_comment_attachment_verified"],False)
+        march20=events["MAR20_REPLY_155424"]
+        self.assertEqual(march20["role"],"ARCHIVED_AUTHOR_REPLY")
+        self.assertEqual(march20["attached_article"],"论语详解58")
+        self.assertEqual(march20["question_author"],"百思不解")
+        self.assertEqual(march20["question_at"],"2007-03-20T15:30:51")
+        self.assertEqual(march20["reply_at"],"2007-03-20T15:54:24")
+        self.assertIs(march20["original_sina_comment_bytes_verified"],False)
+        self.assertEqual(events["MAR20_REPLY_173928_ALREADY_V467"]["previous_research"],
+                         "v4.67")
+        self.assertEqual(events["MAR20_REPLY_175111_ALREADY_V431"]["previous_research"],
+                         "v4.31")
+        states={x["id"]:x["verdict"] for x in contract["assertions"]}
+        self.assertEqual(states["PAN_AC_IMPLIES_MOVEMENT_END"],
+                         "NOT_VALID_GENERAL_IMPLICATION_AUTHOR_ALLOWS_CONTINUATION")
+        self.assertEqual(states["PAN_AC_AND_LOWER_C_IMPLIES_FINISHED_C"],
+                         "NOT_ESTABLISHED_AS_GENERAL_ONLINE_SUFFICIENCY")
+        self.assertEqual(states["THREE_EQUAL_TRADES_IMPLIES_REVERSAL"],
+                         "REJECTED_ALREADY_V467")
+        self.assertEqual(states["EARLY_DIVERGENCE_OBSERVATION_IMPLIES_SAME_TIME_FINISH_KNOWN"],
+                         "NOT_ESTABLISHED")
+        self.assertEqual(len(contract["independence_fields"]),5)
+        limits=contract["guardrails"]
+        for key in ("root_center_identity","root_movement_exit","ob38","ob99"):
+            self.assertEqual(limits[key],"OPEN")
+        self.assertEqual(limits["real_market_replay"],"NOT_RUN")
+        self.assertEqual(limits["trades_executed"],0)
+        self.assertIs(limits["original_comment_bytes_authenticated"],False)
+        report=(ROOT/"deliverables/chanlun_108_acceptance/00_REVIEW/"
+                "CHANLUN_PAN_DIVERGENCE_TWO_SCALE_OBSERVATION_NOT_EXIT_V475.md")
+        narrative=report.read_text(encoding="utf-8")
+        for marker in ("2007-03-14","15:39:57","2007-03-20","15:54:24",
+                       "v4.67","v4.31","PAN_DIVERGENCE_OBSERVED","ROOT_EXIT","NOT_RUN"):
+            self.assertIn(marker,narrative)
+
 if __name__=="__main__":
     unittest.main()
