@@ -1,8 +1,10 @@
-# ChanlunCollection｜本书实施工作流 v4.66.0
+# ChanlunCollection｜本书实施工作流 v4.67.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
 
 **v4.62.0 补查第101课强源门：**第101课作者直接提出**唯一递归分解**且宣称改变a0不损唯一性，研究者必须区分“每个固定a0/政策下唯一”与“跨a0输出完全相同”，也必须注意凯翔A016说“第三层正文未明总结”而作者第101课其实已明言唯一分解，故H5不能仅靠该段就等同他第三层。参见[本轮报告第七节](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_LESSONS_98_100_LIVE_MULTILEVEL_STATE_TREE_V462.md)。
+
+**v4.67.0 2007-03-20作者历史回帖与L36跨政策双中枢门：**[第35/36课+《论语》58评论源文](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_F01_AUTHOR_REPLY_20070320_NONREUSE_AND_L36_POLICY_DEPENDENCE_V467.md)。原新浪《论语》58文章独立可见但原评论数据库未见，2007-03-20 17:39:28回复仅标`ARCHIVED_AUTHOR_REPLY`。该答复否认“三笔同价→直接翻转”，并明确合法组合中**归到前括号的构件不得重复归后括号**；不能把`(A+B)+(B+C)`误写成与`A+(B+C)`一样的结合式。第36课原作者亲述同一行情两个合法30分钟组合的中心[2892,2911]与[2905,2947]以及不同第三买点ZG阈值；信号计算应记录`f1/R_at_t/g/center/first_known`并禁止跨R混合。此为中心身份同式不复用的作者级证据，**非**严格逐笔所有共享滑动三笔窗口的完整唯一归属程序。ROOT-IDENTITY/ROOT-EXIT OPEN，F01/OB38/OB99 OPEN，真实市场NOT_RUN。
 
 **v4.66.0 第35课局部成立见证/中枢身份门：**[同价三笔构造、第18课新中枢判别和第20课延伸/新生原文证明义务](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_F01_THREE_TRADE_SEED_WINDOWS_VS_CENTER_IDENTITY_V466.md)。冻结严格逐笔f1及R/g：同价成交`p^n`有n−2个互相重叠的长度3成立见证，**不得一见证新造一中心ID**；需另有`CENTER_ID`归属/延伸、新生与首次可知规则才能计第35课N>2前后中心。第20课例子用实用1分钟，不能直接移植为逐笔根层的去重算法；研究者的“合并重叠窗口”也不是已证的作者公式。F01=ROOT-SEED已定义/ROOT-IDENTITY未闭合/ROOT-EXIT未闭合，禁止把候选中心重复计数用于第100课完整回抽或高层三卖。OB38/OB99 OPEN、市场NOT_RUN。
 
