@@ -1,8 +1,10 @@
-# ChanlunCollection｜本书实施工作流 v4.63.0
+# ChanlunCollection｜本书实施工作流 v4.64.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
 
 **v4.62.0 补查第101课强源门：**第101课作者直接提出**唯一递归分解**且宣称改变a0不损唯一性，研究者必须区分“每个固定a0/政策下唯一”与“跨a0输出完全相同”，也必须注意凯翔A016说“第三层正文未明总结”而作者第101课其实已明言唯一分解，故H5不能仅靠该段就等同他第三层。参见[本轮报告第七节](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_LESSONS_98_100_LIVE_MULTILEVEL_STATE_TREE_V462.md)。
+
+**v4.64.0 线段与完整走势类型必须分开出具证据：**[本轮第67/71/78课原文与第100课C3接口](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_L100_LINE_SEGMENT_VS_MOVEMENT_COMPLETION_V464.md)。按作者第67课区分有/无缺口线段终止，71课转折后一笔待定及第三笔破不同位置之反向结果，78课笔破坏未必段破坏；记录`pivot_price_time`和`segment_first_known_time`，标准化线段区间不覆写原轨迹。第72课最低中心和走势类型严格在笔/线段**后面**，作者2007-07-20原新浪博文直接否认严格把线段视为最低走势类型次级别；所以只有SEGMENT_END证书不能补第100课首次1分钟回抽完整结束的G2。源文本辨析结束，F01/OB38/OB99 OPEN，市场NOT_RUN。
 
 **v4.63.0 五分钟三卖完成资格审稿门：**[第18/20/53/100/101课的六收据、三时钟和作者案例后件限制](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_L100_THIRD_SELL_FIRST_CONFIRMATION_PROOF_CHAIN_V463.md)。每个三类卖点申请必须分别出示g级原中心的三完成低级成员与ZD、第一次向下离开之合法次级走势、底背驰后第一次合法回抽已完成、全回抽高点不升破ZD以及t_retrace_known/t_sell_known。第一次回抽尚未定型，哪怕现时价格低于ZD也只准标候选；任何一个信号不自动证明第二个g中心，更不自动改变g+1层。第53课正文与2009后人补充不得混写。不得从图上峰值倒填当时完成证书，F01/OB38/OB99 OPEN，NOT_RUN。
 
