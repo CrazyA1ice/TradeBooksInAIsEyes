@@ -1,6 +1,8 @@
-# ChanlunCollection｜本书实施工作流 v4.60.0
+# ChanlunCollection｜本书实施工作流 v4.61.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
+
+**v4.61.0 原文三区间/动态排除门：**[新原作者公式与凯翔A026推理对账](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_THREE_OVERLAPS_AND_ASOF_ELIMINATION_V461.md)。在任何走势重叠判断前先指定比较的是Zn与本级核心、相邻同级中心外围波动，还是后继高一级中心与前走势最后中心；不可把不同区间的“触及/包含/重叠”合并。第20课Zn离开中心核心只可先得到“更高级中心**或**趋势”，高级中心是否形成需同级外沿波动真正交叠。第99课“至少落在”不是已证明整个高层核心包含旧中心。对于凯翔A026的每项候选，必须输出“未观察到”或“已证失效”，不得以未出现作为排除证据。只读原文字义，本轮不碰五卷/100答、不运行市场，F01/OB38/OB99 OPEN。
 
 **v4.60.0 跨课证明桥门：**基于[原作者第18/20/38/99课与凯翔A016/A026对照](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_CROSSLEVEL_COMPLETION_AND_CENTER_RECONCILIATION_V460.md)，今后跨级结论必须独立审核：同级分段政策R是否考虑高级别？两个中心外沿波动是否符合第20课升级条件？第18课“可以结束”有无实际完成证书？第99课未来更大中心的可知时间/区间几何是否已独立验证？第99课“中阴一般划分未明”不等于所有同级别片段不可用，二者不同命题。仅由六段两个盘整不得出具高级中心或已完成交易信号。原100答、5卷PDF、108课不改，F01/OB38/OB99 OPEN，NOT_RUN。
 
