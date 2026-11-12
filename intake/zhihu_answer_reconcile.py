@@ -110,9 +110,12 @@ def parse_export(path, speaker):
                      if (m := DATE.fullmatch(x))), None)
         ensure(date is not None, "answer_date_metadata_missing")
         # Exclude metadata/header and the separator from the normalized body.
-        body_start = max(k + 1, next((
+        metadata_end = [
             n + 1 for n, x in enumerate(section[:8])
-            if x.lstrip().startswith("- 赞同数:")), k + 1))
+            if (LINK.fullmatch(x) or DATE.fullmatch(x)
+                or x.lstrip().startswith("- 赞同数:"))
+        ]
+        body_start = max(metadata_end, default=k + 1)
         body_lines = list(section[body_start:])
         while body_lines and not body_lines[-1].strip():
             body_lines.pop()
