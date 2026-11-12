@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.61.0",
-  "source_count": 975,
+  "workflow_version": "4.62.0",
+  "source_count": 976,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -2022,6 +2022,12 @@
       "size_bytes": 5548
     },
     {
+      "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_LESSONS_98_100_LIVE_MULTILEVEL_STATE_TREE_V462.md",
+      "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_LESSONS_98_100_LIVE_MULTILEVEL_STATE_TREE_V462.md",
+      "git_blob_sha": "1ae97eef2d38917b3151974775a4adc173d3e267",
+      "size_bytes": 11746
+    },
+    {
       "source_path": "deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_POLICY_SCOPED_NEXT_TYPE_AND_THIRD_LAYER_V459.md",
       "mirror_path": "ChanlunCollection/deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_POLICY_SCOPED_NEXT_TYPE_AND_THIRD_LAYER_V459.md",
       "git_blob_sha": "52e4b1358ab7c4514a319bd6bef6e0ae24f368e4",
@@ -2468,8 +2474,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "939f14ecb573d11464b737b12076a7e826f0577d",
-      "size_bytes": 110014
+      "git_blob_sha": "dda29db577a06fde6cccafb8cfbcf48a1444f083",
+      "size_bytes": 111735
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
