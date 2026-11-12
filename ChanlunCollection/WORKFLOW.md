@@ -1,4 +1,6 @@
-# ChanlunCollection｜本书实施工作流 v4.76.0
+# ChanlunCollection｜本书实施工作流 v4.78.0
+
+**v4.78.0灵感发掘步骤**：后续每本书、每位高手、每轮作者答疑，必须依照[通用G-IDEA流程](docs/IDEA_DISCOVERY_WORKFLOW.md)自由发散、多假说并行、逐条归档、跨条拼接、再探索不同作者的共通与冲突。首轮[凯翔48条灵感](OtherVoices/speaker-unknown-001/IDEA_NOTEBOOK.md)、[14组组合](OtherVoices/speaker-unknown-001/IDEA_COMBINATIONS.md)、[跨作者主题汇聚](OtherVoices/IDEA_CROSS_AUTHOR_INDEX.md)，不把猜想当原文，不伪造其他人物共识。
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
 
