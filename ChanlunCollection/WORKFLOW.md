@@ -1,8 +1,10 @@
-# ChanlunCollection｜本书实施工作流 v4.75.0
+# ChanlunCollection｜本书实施工作流 v4.76.0
 
 此文件说明《缠论》在项目[通用工作流](../docs/BOOK_RESEARCH_WORKFLOW.md)下的执行方式；其源工作流文档位于仓库根`docs/BOOK_RESEARCH_WORKFLOW.md`，本集合内部同一路径有经完整性校验的镜像。未来新书使用各自`<BookName>Collection/WORKFLOW.md`。
 
 **v4.62.0 补查第101课强源门：**第101课作者直接提出**唯一递归分解**且宣称改变a0不损唯一性，研究者必须区分“每个固定a0/政策下唯一”与“跨a0输出完全相同”，也必须注意凯翔A016说“第三层正文未明总结”而作者第101课其实已明言唯一分解，故H5不能仅靠该段就等同他第三层。参见[本轮报告第七节](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_LESSONS_98_100_LIVE_MULTILEVEL_STATE_TREE_V462.md)。
+
+**v4.76.0 F01最低单中枢退出负证据回归必须持续通过：**[本轮作者源卡四项和6种反例报告](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_F01_ROOT_PAN_EXIT_REGRESSION_AND_MISSING_WITNESS_V476.md)、[检查器](tools/audit_chanlun_f01_root_pan_frontier_v476.py)复用原v4.32`check_graph`，以虚构三笔同价核`F1_CENTER`局部可构造，拒绝其自动变成`FINISHED_MOVEMENT@0`、`PAN_EXIT@0`、盘背警示=>完成、线段结束=>走势结束、单中枢冒充N>2最低趋势停止、相互依赖的先后分界。对每项记录原检验器实际拒绝理由并由CI固定检查，防止改代码/文档时偷关F01。`PASS_STRUCTURE_ONLY`不等于已验证市场或作者全域证明；第18/20/35课SOURCE页码齐全，盘背历史答疑参照v4.75，三笔不翻转答疑已在v4.67勿重复报新。`ROOT_IDENTITY/ROOT_EXIT`、OB38/OB99继续OPEN，行情NOT_RUN。
 
 **v4.75.0 盘背双尺度观察非完成证书：**[2007-03-14 15:39:57与2007-03-20 15:54:24两条作者署时回复](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_PAN_DIVERGENCE_TWO_SCALE_OBSERVATION_NOT_EXIT_V475.md)。A/C盘背比较与C内部更低级背驰配合**仅提供多尺度判断线索**；作者随后明确盘整背驰可能还在同一个走势类型内部，所以不能从盘背推出C完成/原盘整退出/第三点合法成立。分别留档`PAN_AC_OBSERVED`、`LOWER_C_DIVERGENCE_OBSERVED`、`C_FINISH_CERT`、`PAN_EXIT`、`FIRST_KNOWN`，无法独立合法完成则UNKNOWN。真实评论来源按日期和真正所属文章分层：3月14文章《关于大盘个股说几句闲话》但目前只有后人第36课答疑编排材料；3月20《论语》58历史存档，有作者及读者双时戳，均非原新浪评论服务器字节认证。17:39三笔同价不翻转在v4.67已经发现，绝不重复算。F01 ROOT_IDENTITY/ROOT_EXIT、OB38/OB99 OPEN，市场NOT_RUN。
 

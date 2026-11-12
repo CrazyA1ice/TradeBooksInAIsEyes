@@ -26,6 +26,8 @@
 
 **同轮第101课关键原文**：作者直接称“走势必完美”的深层是递归函数的**唯一分解**，并允许a0有不同设计。各自唯一≠跨a0计算结果相同；而这一原课已明说的H5核心也不应冒充凯翔声称“第三层没有明的总结”的谜底。详见[v4.62报告第七节](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_LESSONS_98_100_LIVE_MULTILEVEL_STATE_TREE_V462.md)。
 
+**最新v4.76 F01根层不循环退出负证据门已落地可执行：**[严格逐笔一个中枢与6种不能充作完整盘整的候选证明](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_F01_ROOT_PAN_EXIT_REGRESSION_AND_MISSING_WITNESS_V476.md)。新增[专用诊断工具](tools/audit_chanlun_f01_root_pan_frontier_v476.py)**复用**已有v4.32`check_graph`而非另造新解析器：虚构三笔同价可以得到局部`F1_CENTER`结构PASS，但`CENTER=>FINISHED`、最低PAN_EXIT、盘背警报=>退出、SEGMENT_END=>走势结束、1中心=>第N>2趋势停止、前后互证循环共六类非法提升必须被原检查器拒绝。新合同/集成测试做SOURCE来源卡物理页码校验及伪造OPEN->PROVEN负测；明确这是**当前审计语法的可执行缺口**，不是缠论原理论不可能性证明。F01 ROOT_IDENTITY/ROOT_EXIT、OB38/OB99 OPEN、行情NOT_RUN。
+
 **最新v4.75《缠论》盘整背驰不能当完成证书：**[2007-03-14作者A/C盘背＋C内部小级背驰配合观察与2007-03-20作者“盘背可以仍在同一走势内部”的源文对照](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_PAN_DIVERGENCE_TWO_SCALE_OBSERVATION_NOT_EXIT_V475.md)。本轮新增的是3月14日15:39:57双尺度分析回答与3月20日15:54:24的反自动退出答复；**3月20日17:39:28三笔同价不翻转在v4.67已研究，绝不重复计为新发现**。明确区分盘背观察、下级C内部提示、已完成C合法身份、盘整退出及第三点首次知；未获得严格底层单中枢盘整独立完成算法，F01/OB38/OB99继续OPEN，实盘NOT_RUN。
 
 **最新v4.74《缠论》合法分界的前段完成证书：**[2007-03-22《论语》59原作者16:03、16:47署时答疑与第38/39/53课的有条件合成](deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_CONFUCIUS59_BOUNDARY_REQUIRES_PREVIOUS_COMPLETED_MOVEMENT_V474.md)。原作者明确否定**任意高低点都能当走势分界**，合法分界需为前段走势类型结束点；同日另述背驰/盘背作为分段依据，第三买卖点确认盘整结束还须内部结构。更正一些再版把评论归第38课附录的来源位置，真正出处是《论语》59历史评论，非第38课AUTHOR_MAIN；警示信号不能直接充当首次可知完成证书。F01 ROOT-IDENTITY/EXIT、OB38/OB99 OPEN，市场NOT_RUN。

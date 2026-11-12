@@ -472,5 +472,53 @@ class BookCollectionTests(unittest.TestCase):
                        "v4.67","v4.31","PAN_DIVERGENCE_OBSERVED","ROOT_EXIT","NOT_RUN"):
             self.assertIn(marker,narrative)
 
+
+    def test_v476_f01_root_pan_frontier_six_real_negative_checks(self):
+        """Reuse existing F01 checker: seed can exist, no root pan exit certificate."""
+        from tools.audit_chanlun_f01_root_pan_frontier_v476 import (
+            audit, one_center_graph, make_candidate, CASE_EXPECTATIONS,
+            validate_sources, CATALOG,
+        )
+        from tools.audit_chanlun_f01_completion_receipts import check_graph
+        result=audit()
+        self.assertEqual(result["status"],
+                         "ROOT_PAN_EXIT_STILL_OPEN_NEGATIVE_REGRESSIONS_PASS")
+        self.assertIs(result["one_center_constructible"],True)
+        self.assertIs(result["root_pan_exit_certified"],False)
+        self.assertEqual(result["negative_cases_rejected"],6)
+        self.assertEqual(result["proof"],"OPEN")
+        self.assertEqual(result["market"],"NOT_RUN")
+        self.assertEqual(check_graph(one_center_graph())["audit"],
+                         "PASS_STRUCTURE_ONLY")
+        for case_id,expected_reason in CASE_EXPECTATIONS.items():
+            with self.subTest(case=case_id):
+                with self.assertRaisesRegex(ValueError,expected_reason):
+                    check_graph(make_candidate(case_id))
+        contract=json.loads(CATALOG.read_text(encoding="utf-8"))
+        self.assertEqual(len(contract["source_claims"]),4)
+        self.assertEqual(len(contract["negative_cases"]),6)
+        self.assertEqual(contract["existing_checker"],
+                         "tools/audit_chanlun_f01_completion_receipts.py")
+        self.assertEqual(contract["proof_frontier"]["strict_tick_root_pan_exit"],
+                         "OPEN")
+        self.assertEqual(contract["proof_frontier"]["market_backtest"],"NOT_RUN")
+        self.assertEqual(contract["proof_frontier"]["trades_executed"],0)
+        poisoned=json.loads(json.dumps(contract,ensure_ascii=False))
+        poisoned["proof_frontier"]["strict_tick_root_pan_exit"]="PROVEN"
+        with self.assertRaisesRegex(ValueError,"proof frontier"):
+            validate_sources(poisoned)
+        poisoned=json.loads(json.dumps(contract,ensure_ascii=False))
+        poisoned["negative_cases"][0]["claim_status"]="ACCEPTED_REAL_MARKET"
+        with self.assertRaisesRegex(ValueError,"upgrade negative"):
+            validate_sources(poisoned)
+        poisoned=json.loads(json.dumps(contract,ensure_ascii=False))
+        poisoned["source_claims"][0]["claim_id"]="FABRICATED_SOURCE"
+        with self.assertRaisesRegex(ValueError,"source identity"):
+            validate_sources(poisoned)
+        poisoned=json.loads(json.dumps(contract,ensure_ascii=False))
+        poisoned["negative_cases"].pop()
+        with self.assertRaisesRegex(ValueError,"adverse cases"):
+            validate_sources(poisoned)
+
 if __name__=="__main__":
     unittest.main()
