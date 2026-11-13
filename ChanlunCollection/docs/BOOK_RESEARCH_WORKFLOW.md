@@ -1,4 +1,8 @@
-# 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.80.0，2026-11-12）
+# 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.81.0，2026-11-13）
+
+## v4.81.0｜人物原话与原作者方法论冲突、三分支后继与账户存续
+
+新对读[第30课](https://eczsc.com/originals/30)的“价格时间轨迹足够作纯交易理论”与凯翔A083/A022市场心理土壤，并行保留价格结构内部形式化和外部成因解释的竞争关系；[第29课](https://eczsc.com/originals/29)趋势背驰后中心扩展/大级盘整/反趋势三类，提醒“完成≠强反转”；[第27课](https://eczsc.com/originals/27)有限区间套不保证单点；[第31课](https://eczsc.com/originals/31)账户资金存续不等于个别加仓建议。追加[凯翔I071—I082（累计82条）](../other_views/chanlun/speaker-unknown-001/IDEA_NOTEBOOK.md)、[C28—C34（累计34组）](../other_views/chanlun/speaker-unknown-001/IDEA_COMBINATIONS.md)、[专题深读报告](../other_views/chanlun/speaker-unknown-001/IDEA_DEEP_DIVE_V481.md)。G-IDEA新增“文本冲突”和“后继状态树”两类灵感触发器。所述是研究者假说，A087/A016本人未明内容仍开放，实盘NOT_RUN。
 
 ## v4.80.0｜灵感第三轮：递归起点、骨牌反身性与跨级风险
 
