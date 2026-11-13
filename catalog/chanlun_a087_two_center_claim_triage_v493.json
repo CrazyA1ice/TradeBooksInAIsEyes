@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "version": "4.93.0",
+  "id": "A087-TWO-CENTER-DEFINITIONS-CLAIM-TREE-WITH-NUMERIC-COUNTEREXAMPLE-V493",
+  "asof": "2026-11-13",
+  "research_question": "Which exact original-author reply supports Kaixiang A087's claimed second center definition, if any?",
+  "expert_statement": {
+    "identity": "USER_SUPPLIED_ZHIHU_EXPORT_NOT_PLATFORM_VERIFIED",
+    "export_path": "other_views/chanlun/speaker-unknown-001/answers-2026-11-11.md",
+    "export_git_blob": "3dda9aee3ecda29f48e86381315d21dd3d736aeb",
+    "index_path": "other_views/chanlun/speaker-unknown-001/answers-index.json",
+    "a087_url": "https://www.zhihu.com/question/626662382/answer/3523681743",
+    "a087_published_from_export": "2024-06-08 00:28",
+    "a087_assertions": [
+      "pre_35_level_read_as_chart_clock_period",
+      "post_35_recursion_of_center_level",
+      "author_two_definitions_first_theoretical_second_practical",
+      "second_only_vaguely_located_in_multiple_replies",
+      "recommends_laohu_edition"
+    ],
+    "other_exported_answer_title": "想学缠论，应该看哪本书？",
+    "other_exported_answer_url": "https://www.zhihu.com/question/386727740/answer/1943916084915860281",
+    "other_answer_published_from_export": "2025-08-27 06:01",
+    "other_answer_claim": "laohu_reply_coverage_more_complete_than_other_editions_claim_only_not_measured"
+  },
+  "author_primary_text_mirrors": [
+    {
+      "lesson": 20,
+      "source_role": "FORMAL_CENTER_INTERSECTION_AND_TWO_FORMATION_DIRECTIONS",
+      "repo": "stockServ/chzhshch-108-plus",
+      "path": "108/0424-486e105c010007zw-020.md",
+      "git_blob_sha": "4083ee8458840d108cd9f7be323885feb34179c4",
+      "source_commit": "d2a87d5bd9c84baac2918edca668b9f82a20be52",
+      "required_markers": [
+        "a1=b1",
+        "b2=c2",
+        "a2=b2",
+        "b1=c1",
+        "max（a2",
+        "min（a1"
+      ]
+    },
+    {
+      "lesson": 35,
+      "source_role": "TRADE_BY_TRADE_BASE_CASE_AND_RECURSIVE_CONSTRUCTION",
+      "repo": "stockServ/chzhshch-108-plus",
+      "path": "108/0475-486e105c01000914-035.md",
+      "git_blob_sha": "54dae3ccf1f71e2cba73e4f5f81ac24b14d0bf4e",
+      "source_commit": "d2a87d5bd9c84baac2918edca668b9f82a20be52",
+      "required_markers": [
+        "最严格去定义",
+        "连续三笔相同价位",
+        "严格的递归式定义"
+      ]
+    },
+    {
+      "lesson": 63,
+      "source_role": "DISTINGUISH_MATHEMATICAL_EXISTENCE_AND_FINITE_CHART_PRACTICAL_WORKFLOW",
+      "repo": "stockServ/chzhshch-108-plus",
+      "path": "108/0569-486e105c01000bgd-063.md",
+      "git_blob_sha": "b75de72cb7aa187c09128b746726cf7b2f34bb13",
+      "source_commit": "d2a87d5bd9c84baac2918edca668b9f82a20be52",
+      "required_markers": [
+        "存在性",
+        "可操作性",
+        "变通的方法",
+        "不同级别显微镜"
+      ]
+    },
+    {
+      "lesson": 72,
+      "source_role": "EXPLICIT_LAZY_MORPHOLOGY_ENTRY_ROUTE_VS_RECURSIVE_PROOFS",
+      "repo": "stockServ/chzhshch-108-plus",
+      "path": "108/0648-486e105c01000cbj-072.md",
+      "git_blob_sha": "e6632b7eed66518126167ccabe089d676072c81c",
+      "source_commit": "d2a87d5bd9c84baac2918edca668b9f82a20be52",
+      "required_markers": [
+        "从分型",
+        "递归定义",
+        "最小级别中枢",
+        "逻辑上就容易乱"
+      ]
+    }
+  ],
+  "external_interpretation": {
+    "author": "段狼",
+    "title": "以缠论论证缠论真假“中枢”的逻辑推演及原文论证",
+    "published_date": "2019-10-31",
+    "url": "https://www.ttyfp.com/chzhshch/11104.html",
+    "kind": "THIRD_PARTY_AUTHORED_ANALYSIS_NOT_ORIGINAL_CHAN_AUTHOR_REPLY",
+    "claim_under_test": "FOR_ANY_THREE_ALTERNATING_UP_DOWN_UP_MOVEMENTS_THE_COMMON_OVERLAP_IS_THE_ENTIRE_MIDDLE_MOVEMENT",
+    "claim_status": "REFUTED_AS_UNIVERSAL_GEOMETRIC_CLAIM_BY_VALID_COUNTEREXAMPLE",
+    "identity_relation_to_kaixiang": "NOT_ESTABLISHED",
+    "cannot_use_as_A087_reply_identification": true,
+    "source_content_git_blob": null
+  },
+  "formal_formula": {
+    "source_lesson": 20,
+    "three_overlap": [
+      "max(a_low,b_low,c_low)",
+      "min(a_high,b_high,c_high)"
+    ],
+    "two_edge_simplification": [
+      "max(a_low,c_low)",
+      "min(a_high,c_high)"
+    ],
+    "assumption": "A_high=B_high AND B_low=C_low for one formation orientation",
+    "counterexample": {
+      "pattern": "UP_DOWN_UP",
+      "endpoints": [
+        0,
+        10,
+        4,
+        8
+      ],
+      "a": [
+        0,
+        10
+      ],
+      "b": [
+        4,
+        10
+      ],
+      "c": [
+        4,
+        8
+      ],
+      "triple_overlap": [
+        4,
+        8
+      ],
+      "middle_interval": [
+        4,
+        10
+      ],
+      "author_formation_equalities_satisfied": true,
+      "third_party_middle_equals_triple_overlap": false
+    },
+    "control_middle_equal_case": {
+      "pattern": "UP_DOWN_UP",
+      "endpoints": [
+        0,
+        10,
+        4,
+        12
+      ],
+      "a": [
+        0,
+        10
+      ],
+      "b": [
+        4,
+        10
+      ],
+      "c": [
+        4,
+        12
+      ],
+      "triple_overlap": [
+        4,
+        10
+      ],
+      "middle_interval": [
+        4,
+        10
+      ]
+    },
+    "mirror_counterexample": {
+      "pattern": "DOWN_UP_DOWN",
+      "endpoints": [
+        10,
+        0,
+        6,
+        2
+      ],
+      "a": [
+        0,
+        10
+      ],
+      "b": [
+        0,
+        6
+      ],
+      "c": [
+        2,
+        6
+      ],
+      "triple_overlap": [
+        2,
+        6
+      ],
+      "middle_interval": [
+        0,
+        6
+      ]
+    },
+    "inference_limit": "COUNTEREXAMPLE_REFUTES_ALWAYS_EQUAL_MIDDLE_NOT_ALL_TWO_METHODS_HYPOTHESES"
+  },
+  "candidate_triage": [
+    {
+      "id": "H01",
+      "claim": "TWO_ASCENDING_DESCENDING_CENTER_FORMATIONS",
+      "support": "ORIGINAL_LESSON20",
+      "status": "TWO_GEOMETRIC_FORMATION_DIRECTIONS_NOT_TWO_CENTER_AXIOMS",
+      "not_A087_verified": true
+    },
+    {
+      "id": "H02",
+      "claim": "TRANSACTION_LEVEL_RECURSION_VS_FINITE_KLINE_MORPHOLOGY_WORKFLOW",
+      "support": "ORIGINAL_LESSONS35_63_72",
+      "status": "TEXTUAL_THEORY_PRACTICE_DISTINCTION_PLAUSIBLE_BUT_NO_A087_CITATION",
+      "not_A087_verified": true
+    },
+    {
+      "id": "H03",
+      "claim": "THIRD_PARTY_FULL_MIDDLE_SEGMENT_IS_CENTER",
+      "support": "2019_THIRD_PARTY_ANALYSIS",
+      "status": "UNIVERSAL_FORMULA_FALSE_NOT_AUTHOR_REPLY",
+      "not_A087_verified": true
+    },
+    {
+      "id": "H04",
+      "claim": "AUTHOR_REPLIES_CONTAIN_DISTINCT_SECOND_CENTER_AXIOM",
+      "support": "A087_UNCITED_ASSERTION_ONLY",
+      "status": "NOT_LOCATED_NOT_CONFIRMED_NOR_DISPROVEN",
+      "not_A087_verified": true
+    }
+  ],
+  "prior_evidence": {
+    "v438": "catalog/chanlun_two_methods_archives_laohu_v438.json",
+    "v490": "catalog/chanlun_108_author_uid_reply_baseline_v490.json",
+    "v491": "catalog/chanlun_l70_comment_host_adjudication_v491.json",
+    "v492": "catalog/chanlun_l70_editorial_time_roles_v492.json",
+    "older_hypotheses_not_reidentified_as_new": true
+  },
+  "limits": {
+    "kaixiang_identity_platform_verified": false,
+    "a087_quote_self_assigned_specific_historical_reply": false,
+    "original_2007_sina_reply_bytes_verified": false,
+    "laohu_edition_document_acquired": false,
+    "laohu_vs_other_editions_comparison_run": false,
+    "third_party_2019_interpretation_is_author_reply": false,
+    "independent_B3_second_center_axiom_confirmed": false,
+    "real_market_E1_E4_experiments_run": false
+  },
+  "frontier": {
+    "A087": "OPEN",
+    "A016": "OPEN",
+    "F01": "OPEN",
+    "OB38": "OPEN",
+    "OB99": "OPEN",
+    "E1_E4": "NOT_RUN"
+  },
+  "report": "other_views/chanlun/speaker-unknown-001/IDEA_A087_TWO_CENTER_DEFINITION_CANDIDATE_FALSIFICATION_V493.md"
+}
