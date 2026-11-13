@@ -1,4 +1,6 @@
-# ChanlunCollection｜本书实施工作流 v4.97.0
+# ChanlunCollection｜本书实施工作流 v4.98.0
+
+**v4.98研究与数据边界：** [2007上证指数1m真实供应候选D1—D6及KX-C40“分钟K时标差 vs 分解政策差”独立证否](OtherVoices/speaker-unknown-001/IDEA_20070206_MINUTE_DATA_SOURCE_TRIAGE_AND_POLICY_FORK_V498.md)。发现2007 sh000001指数1m CSV单年商品页（页面30元）、准数据2005+指数分钟目录与API、智兔Pro指数年片、WStock、官方历史产品与旧飞狐2007教学包说明；**没有取得2007数据文件，没有交易费用支出和OHLC核验**。原作者02-05 10:05与2011后研究10:10恰差5min但2011还涉及不同低点、后期笔段政策，不准只根据时间平移结案。新增通用G-IDEA-22来源实物验证门，I82、C40，A016/A087/F01/OB38/OB99 OPEN、E1—E4 NOT_RUN。
 
 **v4.97｜凯翔A026与第28/29课的真实历史署时回复：** [2007-02-06作者当晚三5m中枢与二1m中枢/02-09回顾最弱后继排除/2011多分解争议](OtherVoices/speaker-unknown-001/IDEA_20070206_SOURCE_CLOCK_REPLAY_AND_CENTER_DISPUTES_V497.md)。02-06 09:51—10:08是作者**22:46:58归档答复**写的第二1m中枢时间范围，不等于10:08已可得可交易完成证书；02-05第3个5m中心原写10:05，2011用笔/段解释建议10:10，二者不同R/f1/来源年代。新增G-IDEA-21四时钟与C39；I82、C39。并未获得真实上证1m/5m历史K、原Sina回帖数据库，F01/OB38/OB99/A016/A087 OPEN，E1—E4 NOT_RUN。
 
