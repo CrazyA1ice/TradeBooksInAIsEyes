@@ -1,5 +1,7 @@
 # 《缠论》五卷108课｜当前研究状态与未完成关口
 
+**v4.85 源文可复核案例＋真实数据就绪审查：**[第54课d4同前缀两种合法分解、g5与g6不同上级中心确认时点](OtherVoices/speaker-unknown-001/IDEA_LESSON54_COMPETING_DECOMPOSITIONS_V485.md)与[QMT/购买Parquet/H5跨源读就绪与E1—E4数据门](OtherVoices/speaker-unknown-001/IDEA_DATA_READINESS_V485.md)已形成研究报告。原作者承认第二种分解更有操作指导，故A087第二法B2候选优先追证，但其说法“定义”与“分解”未同一来源认证。QMT项目记录沪深候选5223、私有5039通过、184隔离，不能称本轮重取行情或正式库已覆盖；所有实盘E1—E4未运行。F01/OB38/OB99仍OPEN，原82/34、五卷108课与原100答不变。
+
 **v4.84 源文逻辑与事前检验方案（非实证成功）：**[H6第三层新候选、唯一分解U1/U2/U3辨析](OtherVoices/speaker-unknown-001/IDEA_UNIQUENESS_H6_V484.md)和[四项E研究事前注册方案](OtherVoices/speaker-unknown-001/IDEA_PREREGISTRATION_V484.md)已登记。第101课已明言走势必完美关联递归唯一分解，第54课允许合法多分解，第38课政策内唯一，第17课也早已定义中枢；因此谨慎区分历史原文与凯翔A016/A087二手叙事。E1外部消息/资金信号对纯价格增量、E2 f1/R政策、E3后继首知、E4账户存续都未实际回测，必须保持NOT_RUN；原82/34、100答、五卷108课仍保留，F01/OB38/OB99 OPEN。
 
 **v4.83 凯翔假说竞争阶段（文本研究已写入，市场尚未实验）：**[竞争总论](OtherVoices/speaker-unknown-001/IDEA_HYPOTHESIS_TOURNAMENT_V483.md)与[13同场情景矩阵](OtherVoices/speaker-unknown-001/IDEA_SHARED_CASE_MATRIX_V483.md)明确区分行为因果、结构识别、条件后继、账户风险、来源审计；S6仅协作。A026的两层不测而测与原作者第30/60课相比提出“外生事前信息增益”真正可区分的问题；B1/B2/B3及H1—H5仍是竞争假设。旧82/34原号全保留，原100答/五卷108课未改；F01/OB38/OB99 OPEN，行情与收益NOT_RUN。

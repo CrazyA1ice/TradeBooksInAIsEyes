@@ -1,4 +1,6 @@
-# ChanlunCollection｜本书实施工作流 v4.84.0
+# ChanlunCollection｜本书实施工作流 v4.85.0
+
+**v4.85双轨研究**：[第54课同一前缀双分解g5/g6的可复核源文例](OtherVoices/speaker-unknown-001/IDEA_LESSON54_COMPETING_DECOMPOSITIONS_V485.md)、[AStockDataTools QMT私有一分钟来源与E1—E4就绪审查](OtherVoices/speaker-unknown-001/IDEA_DATA_READINESS_V485.md)分别证成**文本中作者确实列过多种合法分解**与**市场数据候选可读性尚待本机核验**。B2追证优先级提高但不认证A087本人含义。严格禁止将5,039只SHA通过、局部量额校准视为全市场正式成交/分钟语义认证；不做行情生产合并。
 
 **v4.84 新增源文级候选与研究可执行条件**：[原典第17/38/54/84/101课与H6唯一分解辨析](OtherVoices/speaker-unknown-001/IDEA_UNIQUENESS_H6_V484.md)、[E1—E4事前注册](OtherVoices/speaker-unknown-001/IDEA_PREREGISTRATION_V484.md)。第54课合法多分解与第101课唯一分解强说法必须按U1/U2/U3量词分别研究；凯翔A016第三层新增H6，但仍无本人确认。市场验证前必冻结来源、行情截止时间、合法构件、负对照及失败条件（G-IDEA-8）；没有可靠成员/行情就保持NO_CERTIFICATE/NOT_RUN。
 
