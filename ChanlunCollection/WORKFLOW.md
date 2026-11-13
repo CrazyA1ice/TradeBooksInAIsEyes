@@ -1,4 +1,6 @@
-# ChanlunCollection｜本书实施工作流 v4.96.0
+# ChanlunCollection｜本书实施工作流 v4.97.0
+
+**v4.97｜凯翔A026与第28/29课的真实历史署时回复：** [2007-02-06作者当晚三5m中枢与二1m中枢/02-09回顾最弱后继排除/2011多分解争议](OtherVoices/speaker-unknown-001/IDEA_20070206_SOURCE_CLOCK_REPLAY_AND_CENTER_DISPUTES_V497.md)。02-06 09:51—10:08是作者**22:46:58归档答复**写的第二1m中枢时间范围，不等于10:08已可得可交易完成证书；02-05第3个5m中心原写10:05，2011用笔/段解释建议10:10，二者不同R/f1/来源年代。新增G-IDEA-21四时钟与C39；I82、C39。并未获得真实上证1m/5m历史K、原Sina回帖数据库，F01/OB38/OB99/A016/A087 OPEN，E1—E4 NOT_RUN。
 
 **v4.96 A026“分类排除”深读与KX-C38：** [作者第29课首弹未入中枢的非绝对弱路径线索/20070206回入中枢的个案条件排除、38课R分域、99课中阴](OtherVoices/speaker-unknown-001/IDEA_A026_EXCLUSION_CERTIFICATES_AND_SCOPE_V496.md)。G-IDEA-20要求冻结Q（趋势背驰等前提）、前缀P(t)、中心核心/震荡DD、g/R、完成/首知及合法未来补全域；“无三买”不可推扩展已否定，同级政策根本不定义扩展则OUT_OF_SCOPE_FOR_R。9例含条件声称而非实盘强证，C37→C38，I82不改；A016/A087 UNKNOWN、F01/OB38/OB99 OPEN、E1—E4 NOT_RUN。
 
