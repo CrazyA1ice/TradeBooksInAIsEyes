@@ -39,6 +39,8 @@ jobs:
           python -B -m unittest discover -s tests -p "test_chanlun_l70_time_roles_v492.py" -v
           python -B tools/audit_chanlun_a087_definition_triage_v493.py --check
           python -B -m unittest discover -s tests -p "test_chanlun_a087_definition_triage_v493.py" -v
+          python -B tools/audit_chanlun_l42_coverage_v494.py --check
+          python -B -m unittest discover -s tests -p "test_chanlun_l42_coverage_v494.py" -v
       - name: Enforce per-research-step workflow revision, log, status and manifest update
         if: github.event_name == 'pull_request'
         env:
