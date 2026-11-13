@@ -1,4 +1,6 @@
-# ChanlunCollection｜本书实施工作流 v4.85.0
+# ChanlunCollection｜本书实施工作流 v4.86.0
+
+**v4.86原作者独立文本新证据**：[2007-07-20严格逐笔递归与实用分型笔段初值对比](OtherVoices/speaker-unknown-001/IDEA_TWO_METHODS_PRIMARY_SOURCE_V486.md)、[凯翔B1a/B2/B3及H7假说源角色台账](OtherVoices/speaker-unknown-001/IDEA_B1_B2_B3_PROVENANCE_V486.md)。第17/35/38/54/65/84/101课时间顺序表支持B1a“理论—实用初值差别”的文字关联优先于B2“合法R双分解”，但凯翔仍称原作者“回复”，独立博文不等于回复，真实所指未解决。通用G-IDEA-10已加历史源追证；旧82/34、原5卷108课及市场NOT_RUN不变。
 
 **v4.85双轨研究**：[第54课同一前缀双分解g5/g6的可复核源文例](OtherVoices/speaker-unknown-001/IDEA_LESSON54_COMPETING_DECOMPOSITIONS_V485.md)、[AStockDataTools QMT私有一分钟来源与E1—E4就绪审查](OtherVoices/speaker-unknown-001/IDEA_DATA_READINESS_V485.md)分别证成**文本中作者确实列过多种合法分解**与**市场数据候选可读性尚待本机核验**。B2追证优先级提高但不认证A087本人含义。严格禁止将5,039只SHA通过、局部量额校准视为全市场正式成交/分钟语义认证；不做行情生产合并。
 
