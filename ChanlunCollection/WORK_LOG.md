@@ -1,5 +1,13 @@
 # 《缠论》研究步骤与工作流修订记录
 
+## 2026-11-13｜v4.99.0：回到原文组合、修复A021/A022编号，暂缓数据实证
+
+- 用户明确说“数据实证的入口暂时留着，后续再接入，先还是进行灵感组合和逻辑推理”。按此**没有调用供应商、采购授权、下载2007年行情、编写下载代码或执行回测**；v4.96—4.98的源/时间格/回放关口完整保留为PARKED_FOR_LATER。
+- 从[A026](https://www.zhihu.com/question/1908775952865010029/answer/1909154539594027495)/[A099](https://www.zhihu.com/question/648208667/answer/3429921024)/[A074](https://www.zhihu.com/question/659943842/answer/3544513740)与原作者第29课“盘整还是上涨但可按合格三买实施同一条件操作”新组合**KX-C41**：结构结果不可知≠共同条件方案不可知，结果唯一≠当时利润确定。反例分别是两后继共用三买资格方案、同一后继类别在不同时间路径先触发止损与否；不对真实行情存在性/账户收益作保证。
+- 从[A062](https://www.zhihu.com/question/434662413/answer/53263874696)/[A087](https://www.zhihu.com/question/626662382/answer/3523681743)/[A094](https://www.zhihu.com/question/305010512/answer/3478727755)与原作者第38/54/84/99课新组合**KX-C42**：固定政策唯一不等于跨政策相同；∀R∃行动与∃行动∀R不同；候选中心上下界虚构数字10/10.5、回试10.25/11解释局部数值共同性和相反性，不冒称真实中心/三买；未定义的扩展不等于被行情证伪。
+- 重要归属纠错：核查用户固定100答原文索引发现**A021（“你认为真的有交易的圣杯吗？”）**才指多次交易总体收益正与胜率/赔率/频率；**A022**是“交易获利本质/土壤”。此前v4.95 C37源编号误标A022，已更正v4.95报告、组合簿、工作流、研究状态；旧分析结论仍按原事实保留，纠错不计新发现。
+- 新[深读报告](OtherVoices/speaker-unknown-001/IDEA_A026_CLASSIFICATION_ACTION_NONIMPLICATION_AND_POLICY_CONSENSUS_V499.md)及G-IDEA-23严格区分前文C18/C31/C37/C38/C40，旧82 I和C01—40全部保留，现C41—42。A016第三层、A087第二公式、F01/OB38/OB99 OPEN，真实E1—E4 NOT_RUN。
+
 ## 2026-11-13｜v4.98.0：核实2007上证指数1分钟数据具体获取路径，但未取得行情字节
 
 - 顺着v4.97原作者第28/29课02-06历史底部例，实际查阅6条独立公开供应商/资料页面：[预测者](https://www.yucezhe.com/product?name=main-index-min-data)明确提供2007年sh000001指数1m/5m CSV选年商品（页面2007年30元）；[准数据](https://zhundata.cn/hist-data-cloud.html)指数分钟目录声称2005年起与需授权的按日API；[智兔](https://www.zhituapi.cn/hsindexapi.html)Pro完整指数分钟接口含year=2007，区分指数/hz与股票/hs；[WStock](https://www.ws-data.com/wstock/wsmin.htm)2007年5m年包和旧1m；[SSE信息网络](https://www.sseinfo.com/services/assortment/historical/)历史分钟行情产品；以及[旧飞狐上证指数2007分钟数据教学说明](https://www.scribd.com/document/771605267/上证指数分钟数据使用方法)。上述均没有下载到当前需要的2007 SH000001 1m真实CSV/原始数据库、未花钱、未使用token或运行旧exe。
