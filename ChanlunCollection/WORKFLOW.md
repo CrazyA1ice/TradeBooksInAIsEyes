@@ -1,4 +1,7 @@
-# ChanlunCollection｜本书实施工作流 v4.89.0
+# ChanlunCollection｜本书实施工作流 v4.90.0
+
+**v4.90逐课作者UID回复覆盖率已实际核算：** [108篇第三方整理库全文元数据审计](OtherVoices/speaker-unknown-001/IDEA_108_AUTHOR_REPLY_COVERAGE_BASELINE_V490.md)基于上游commit d2a87d5b…固定来源，共2,541条UID格式评论、953条同时匹配UID+昵称“缠中说禅”，仅分布58/108课；第61—108课中45篇未检出。**严格防止把资料缺录当作原作者未回，也不能凭同名UID当作2007原新浪身份认证。** 新增逐课Git blob、时间戳及25项定向测试与可选本地PDF/DOCX/TXT/MD文字筛查（仅到手的文件才能比较）。第54课两处“第二种”粗筛命中均为网友问分解，不是作者独立B3公理。G-IDEA-14，A087/老虎版/F01等未证，市场E1—E4 NOT_RUN。
+
 
 **v4.89原作者旧式HTML跨镜像证据：** [2007-02-09/02-12/03-08三条作者署时回复与九份固定Git blob](OtherVoices/speaker-unknown-001/IDEA_RAW_ARCHIVE_REPLY_CROSSWALK_V489.md)确认了旧式`divReplyIsHostTrue`快照、另一HTML镜像和MD转写中对应时间/提问及短答复，并补足《论语》52、55的原新浪主文URL。遵守G-IDEA-13：第三方`raw`并非已认证的2007新浪原始评论数据库，多个镜像可能共用转载祖本；A087“第二定义”本人指认与老虎版全文仍OPEN。新离线审计及本地合成HTML负例检查只证明**台账与可选快照可核**，不冒充CI自行联网验真。
 

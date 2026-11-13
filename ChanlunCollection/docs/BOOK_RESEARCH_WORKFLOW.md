@@ -1,4 +1,11 @@
-# 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.89.0，2026-11-13）
+# 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.90.0，2026-11-13）
+
+## v4.90｜108课回复覆盖率实算与跨版本比较入口
+
+从[已在v4.38登记的第三方108课整理库](../catalog/chanlun_two_methods_archives_laohu_v438.json)，**实际读取其固定版本中全部108篇编号MD**，用明确作者UID+昵称和评论时间戳冻结逐课元数据，不转载文本。得到2,541条UID格式评论，其中953条匹配作者UID+昵称，分布于58篇；第61—108篇中45篇未检出匹配。这个分母是`stockServ`第三方快照，不代表原Sina作者历史全部回帖，不能据此说新版/老虎版更好或更差。
+
+新增[完整报告](../other_views/chanlun/speaker-unknown-001/IDEA_108_AUTHOR_REPLY_COVERAGE_BASELINE_V490.md)、[108项Git blob+署时台账](../catalog/chanlun_108_author_uid_reply_baseline_v490.json)及`tools/audit_chanlun_reply_coverage_v490.py`，可对实际输入的合法TXT/MD/DOCX/PDF候选版做仅文本层面筛查；本地原上游材料若存在还可重算Git blob SHA与UID数量。**不提供版文件则不运行真实老虎版比对；PDF扫描无字、不包含UID或仅有日期都返回低证据状态。** 第54课两个粗筛“第二种”候选实际在网友问题里，不能升级为作者的新公理。增设G-IDEA-14及25项合成负例，本书108课/100答/其他交易项目均未改，F01/OB38/OB99 OPEN、E1—E4 NOT_RUN。
+
 
 ## v4.89｜作者历史评论的“旧式HTML作者标记”与九份Git blob核对
 

@@ -1,5 +1,12 @@
 # speaker-unknown-001｜修订与溯源日志
 
+## 2026-11-13｜v4.90：实扫108个课程文件、953条作者UID留言与版本差异自动入口
+
+- 以已登记的`stockServ/chzhshch-108-plus`上游固定commit `d2a87d5bd9c84baac2918edca668b9f82a20be52`为版本冻结，逐文件读取108篇编号课程MD；另外5个附属文件未纳入课程分母。提取2,541个UID格式评论、953个UID=`1215172700`且昵称=`缠中说禅`的署时条目（58/108课）；第61—108课有45课无作者UID匹配，说明**此整理版回复覆盖不能被假设完整**。
+- 全文粗筛“中枢+第二种/两种”的**作者UID回复整段块**仅筛出第54课15:58:51及16:04:41两处，实际细读两处均为网友问“第二种分解”、原作者回应局部条件；不是独立中枢定义B3。新证据不推翻v4.89三段作者回复。
+- 新增[逐课元数据报告](IDEA_108_AUTHOR_REPLY_COVERAGE_BASELINE_V490.md)、`catalog/chanlun_108_author_uid_reply_baseline_v490.json`（每篇上游Git blob+时间戳，不复制文章与回复全文）、`tools/audit_chanlun_reply_coverage_v490.py`（默认来源台账检查、可选本地108源文件Git SHA复核、候选PDF/DOCX/TXT/MD文本筛查，缺字保留不可判定）、25项独立单测、G-IDEA-14及CI门禁。原五卷/108课/100答及82灵感/34组合不改，老虎版真实文件字节/A087确切回复未取得，F01/OB38/OB99 OPEN、E1—E4 NOT_RUN。
+
+
 ## 2026-11-13｜v4.89：3条原作者评论×9份镜像，锁定原新浪博文宿主
 
 - 将v4.88所列2007-02-09 16:20:18第29课与02-12 16:07:02《论语》52评论，以及v4.38原已登记的03-08 16:38:56《论语》55回复，逐条在`fangj/chan`的Sina样式`raw` HTML、`gavfu`另种HTML版本及`stockServ/figozhu` Markdown版中核对完整问答与署时，锁定**9份具体Git blob SHA**及评论的`divReplyIsHostTrue`署名标记。
