@@ -1,4 +1,6 @@
-# ChanlunCollection｜本书实施工作流 v4.98.0
+# ChanlunCollection｜本书实施工作流 v4.99.0
+
+**v4.99纯理论主线：** 用户要求保留历史分钟数据实证入口、暂不接入，把精力放在[凯翔A026/A099与第29课共同条件行动C41、A062/A087与第38/54/84/99课跨分解共识量词C42](OtherVoices/speaker-unknown-001/IDEA_A026_CLASSIFICATION_ACTION_NONIMPLICATION_AND_POLICY_CONSENSUS_V499.md)。类别未唯一可有共同条件方案；类别即使唯一也不推出当下盈利动作；∀R∃a≠∃a∀R且跨R先校对语义，虚构中心阈值示例不冒认第20课真三买。旧I82保留，C40→C42；旧v4.95 C37原答源编号已更正：**A021圣杯、A022土壤**。G-IDEA-23继续实质组合；历史实证D1—D6现为PARKED_FOR_LATER，不采购、不下载、不运行E1—E4；A016/A087/F01/OB38/OB99 OPEN。
 
 **v4.98研究与数据边界：** [2007上证指数1m真实供应候选D1—D6及KX-C40“分钟K时标差 vs 分解政策差”独立证否](OtherVoices/speaker-unknown-001/IDEA_20070206_MINUTE_DATA_SOURCE_TRIAGE_AND_POLICY_FORK_V498.md)。发现2007 sh000001指数1m CSV单年商品页（页面30元）、准数据2005+指数分钟目录与API、智兔Pro指数年片、WStock、官方历史产品与旧飞狐2007教学包说明；**没有取得2007数据文件，没有交易费用支出和OHLC核验**。原作者02-05 10:05与2011后研究10:10恰差5min但2011还涉及不同低点、后期笔段政策，不准只根据时间平移结案。新增通用G-IDEA-22来源实物验证门，I82、C40，A016/A087/F01/OB38/OB99 OPEN、E1—E4 NOT_RUN。
 
