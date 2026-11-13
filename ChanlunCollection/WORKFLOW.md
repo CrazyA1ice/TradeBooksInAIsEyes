@@ -1,4 +1,6 @@
-# ChanlunCollection｜本书实施工作流 v4.83.0
+# ChanlunCollection｜本书实施工作流 v4.84.0
+
+**v4.84 新增源文级候选与研究可执行条件**：[原典第17/38/54/84/101课与H6唯一分解辨析](OtherVoices/speaker-unknown-001/IDEA_UNIQUENESS_H6_V484.md)、[E1—E4事前注册](OtherVoices/speaker-unknown-001/IDEA_PREREGISTRATION_V484.md)。第54课合法多分解与第101课唯一分解强说法必须按U1/U2/U3量词分别研究；凯翔A016第三层新增H6，但仍无本人确认。市场验证前必冻结来源、行情截止时间、合法构件、负对照及失败条件（G-IDEA-8）；没有可靠成员/行情就保持NO_CERTIFICATE/NOT_RUN。
 
 **v4.83研究对照关口**：[凯翔假说同场竞赛](OtherVoices/speaker-unknown-001/IDEA_HYPOTHESIS_TOURNAMENT_V483.md)与[13个共享情景/来源矩阵](OtherVoices/speaker-unknown-001/IDEA_SHARED_CASE_MATRIX_V483.md)。在v4.82的82/34全量重组之后，从类型维度严格区分S1行为机制、S2结构、S3条件后继、S4账户决策、S5来源审计，S6只做接口；固定原文及首知条件比真正预测增量，不因有趣故事冒称实盘有效。通用G-IDEA新增第7关。
 

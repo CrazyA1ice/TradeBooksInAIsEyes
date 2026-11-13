@@ -1,5 +1,7 @@
 # 《缠论》五卷108课｜当前研究状态与未完成关口
 
+**v4.84 源文逻辑与事前检验方案（非实证成功）：**[H6第三层新候选、唯一分解U1/U2/U3辨析](OtherVoices/speaker-unknown-001/IDEA_UNIQUENESS_H6_V484.md)和[四项E研究事前注册方案](OtherVoices/speaker-unknown-001/IDEA_PREREGISTRATION_V484.md)已登记。第101课已明言走势必完美关联递归唯一分解，第54课允许合法多分解，第38课政策内唯一，第17课也早已定义中枢；因此谨慎区分历史原文与凯翔A016/A087二手叙事。E1外部消息/资金信号对纯价格增量、E2 f1/R政策、E3后继首知、E4账户存续都未实际回测，必须保持NOT_RUN；原82/34、100答、五卷108课仍保留，F01/OB38/OB99 OPEN。
+
 **v4.83 凯翔假说竞争阶段（文本研究已写入，市场尚未实验）：**[竞争总论](OtherVoices/speaker-unknown-001/IDEA_HYPOTHESIS_TOURNAMENT_V483.md)与[13同场情景矩阵](OtherVoices/speaker-unknown-001/IDEA_SHARED_CASE_MATRIX_V483.md)明确区分行为因果、结构识别、条件后继、账户风险、来源审计；S6仅协作。A026的两层不测而测与原作者第30/60课相比提出“外生事前信息增益”真正可区分的问题；B1/B2/B3及H1—H5仍是竞争假设。旧82/34原号全保留，原100答/五卷108课未改；F01/OB38/OB99 OPEN，行情与收益NOT_RUN。
 
 **v4.82 凯翔全量重组（不是原理证成）：**[82条I和34组C逐编号完整对照](OtherVoices/speaker-unknown-001/IDEA_82_34_COVERAGE_V482.md)及[五大领域G1—G5、六竞争架构S1—S6的深度总论](OtherVoices/speaker-unknown-001/IDEA_RECOMPOSITION_MASTER_V482.md)已建立。重复母命题归并、相反路线保留竞争、弱解释降权；新加通用G-IDEA-6定期全量重组。凯翔A087第二法、A016第三层仍未获公开完整定义，F01/OB38/OB99 OPEN，行情NOT_RUN。
