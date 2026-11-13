@@ -1,4 +1,7 @@
-# ChanlunCollection｜本书实施工作流 v4.90.0
+# ChanlunCollection｜本书实施工作流 v4.91.0
+
+**v4.91评论原宿主核证：** [第70课及《41与1》《全球化》三篇不同博客原样式归档](OtherVoices/speaker-unknown-001/IDEA_L70_CROSS_ARTICLE_COMMENT_HOST_AUDIT_V491.md)发现`GtXin/TDS`第70课附加的2007-08-13 21:56:16与2007-08-16 15:50:48作者问答，实际是两篇**独立博客文章**评论区的问答，第70课第三方raw快照无对应`class="divReplyIsHostTrue"`区块。按G-IDEA-15区分原文章宿主与编辑收录位置，未核宿主的留言不得列入该课“原始作者回复覆盖数”；零快照不证2007源站零留言。增加审计及26项定向测试，凯翔A087/老虎版/F01等未证，E1—E4仍NOT_RUN。
+
 
 **v4.90逐课作者UID回复覆盖率已实际核算：** [108篇第三方整理库全文元数据审计](OtherVoices/speaker-unknown-001/IDEA_108_AUTHOR_REPLY_COVERAGE_BASELINE_V490.md)基于上游commit d2a87d5b…固定来源，共2,541条UID格式评论、953条同时匹配UID+昵称“缠中说禅”，仅分布58/108课；第61—108课中45篇未检出。**严格防止把资料缺录当作原作者未回，也不能凭同名UID当作2007原新浪身份认证。** 新增逐课Git blob、时间戳及25项定向测试与可选本地PDF/DOCX/TXT/MD文字筛查（仅到手的文件才能比较）。第54课两处“第二种”粗筛命中均为网友问分解，不是作者独立B3公理。G-IDEA-14，A087/老虎版/F01等未证，市场E1—E4 NOT_RUN。
 
