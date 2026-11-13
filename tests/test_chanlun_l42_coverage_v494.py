@@ -186,7 +186,7 @@ class L42SourceSpecificCoverageV494(unittest.TestCase):
     def test_reject_missing_garbled_host_block(self):
         with tempfile.TemporaryDirectory() as d:
             p=self.sample_file(d)
-            p.write_text(p.read_text().replace("2007/4/7 14:52:10","2007/4/7 14:52:20"),encoding="utf-8")
+            p.write_text(p.read_text().replace("2007/4/07 14:52:10","2007/4/07 14:52:20"),encoding="utf-8")
             with self.assertRaises(ValueError):
                 check_raw_html(self.catalog,p)
 
