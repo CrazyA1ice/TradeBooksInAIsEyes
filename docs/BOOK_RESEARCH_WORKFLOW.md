@@ -1,5 +1,12 @@
 # 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.87.0，2026-11-13）
 
+## v4.88｜具有真实署时的2007早期回复与解释变量分离
+
+本轮找到两条值得正式立档的**作者署时历史评论候选**：[2007-02-09第29课问答与2007-02-12《论语》52问答](../other_views/chanlun/speaker-unknown-001/IDEA_2007_FEB_EARLY_REPLY_TRIANGULATION_V488.md)。它们明确说出最低单位K线与逐笔成交起点、底层A0与上层递归，早于第35课，但不等于独立新“第二中枢公理”。旧v4.38 3月8日作者回复的两种观察角度另记**B2V**，v4.85的第54课两种合法R另记**B2R**；B1a仍最贴合凯翔A087“理论/实用”的用词，但本人确切指认、老虎版原始文档及Sina历史评论原字节均没有取得。
+
+通用G-IDEA-12把“作者回复身份/时间/宿主与归档角色”+“改变的理论变量”+“人物本人指认”分三层，新增`catalog/chanlun_early_author_reply_triage_v488.json`、`tools/audit_chanlun_reply_identity_v488.py`及18项定向回归测试，防止旧材料冒充新公理、把《论语》回复错归课程、文本相近就伪认定本人答案。原100答/五卷108课、F01/OB38/OB99及E1—E4真实市场NOT_RUN保持不变。
+
+
 ## v4.87｜先例证据复用校验而非重复“新发现”
 
 复核发现v4.86所称新取得的2007-07-20原作者文章已由v4.41的[原新浪来源台账](../catalog/chanlun_20070720_dual_a0_original_post_v441.json)和v4.41报告完整登记：严格逐笔和实用分型笔段两条a0及递归同构，不是新源证。保留v4.86将旧源应用于凯翔A087 B1a/B2/B3优先级与H7的新分析，正式纠正其来源新颖性叙事，见[审计报告](../other_views/chanlun/speaker-unknown-001/IDEA_SOURCE_PRIOR_ART_RECONCILIATION_V487.md)。G-IDEA-11要求每次新来源先查历史文献、索引和测试，`tools/audit_chanlun_prior_art_v487.py`及10项负例测试拒绝旧文冒充首发、未取证评论或伪市场验证。F01/OB38/OB99仍OPEN，实盘E1—E4 NOT_RUN。
