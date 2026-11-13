@@ -1,4 +1,7 @@
-# ChanlunCollection｜本书实施工作流 v4.88.0
+# ChanlunCollection｜本书实施工作流 v4.89.0
+
+**v4.89原作者旧式HTML跨镜像证据：** [2007-02-09/02-12/03-08三条作者署时回复与九份固定Git blob](OtherVoices/speaker-unknown-001/IDEA_RAW_ARCHIVE_REPLY_CROSSWALK_V489.md)确认了旧式`divReplyIsHostTrue`快照、另一HTML镜像和MD转写中对应时间/提问及短答复，并补足《论语》52、55的原新浪主文URL。遵守G-IDEA-13：第三方`raw`并非已认证的2007新浪原始评论数据库，多个镜像可能共用转载祖本；A087“第二定义”本人指认与老虎版全文仍OPEN。新离线审计及本地合成HTML负例检查只证明**台账与可选快照可核**，不冒充CI自行联网验真。
+
 
 **v4.88两条署时回复的真实宿主与B2V/B2R分轴：** [2007年2月第29课及《论语》52问答追证](OtherVoices/speaker-unknown-001/IDEA_2007_FEB_EARLY_REPLY_TRIANGULATION_V488.md)证实作者在第35课以前已经分别回应最低一分钟3K线/逐笔成交的不同初始选择，以及A0→An+1=F(An)递归。v4.38既有3月8日两种观点记为B2V、v4.85第54课两种合法R记为B2R，绝不与B1a合并出“第二中枢公理”；G-IDEA-12及18项测试锁源身份、时间、宿主与未确证状态。凯翔A087所指回复、A016第三层、F01/OB38/OB99、真实市场NOT_RUN均保持。
 

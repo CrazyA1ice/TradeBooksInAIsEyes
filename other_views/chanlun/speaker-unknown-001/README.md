@@ -1,5 +1,8 @@
 # 凯翔｜知乎 tsk-47-98（沿用原稳定档案ID speaker-unknown-001）
 
+**v4.89来源镜像可核性新进展：** [三条署时回复×九份GitHub HTML/Markdown存档交叉核对](IDEA_RAW_ARCHIVE_REPLY_CROSSWALK_V489.md)，找到保存有`divReplyIsHostTrue`标记的`fangj/chan` raw风格HTML、三个原Sina宿主文章的准确URL，及逐条可复核的Git blob。尤其v4.88未定位的《论语》52原新浪文章现已找到；不能把保存的第三方raw当成2007原服务器历史评论字节，也未找到凯翔A087的具体原意与老虎版全文。
+
+
 **v4.88最新可查考回复：** [2007年2月9日/12日原作者最低初值与递归的带署时问答](IDEA_2007_FEB_EARLY_REPLY_TRIANGULATION_V488.md)。区分B1a最低输入、B2V两种观察视角、B2R合法分解与尚无定义的B3；原新浪历史评论字节/凯翔A087本人确切指认继续OPEN。此次不是再次计新原作者双a0原理。
 
 
