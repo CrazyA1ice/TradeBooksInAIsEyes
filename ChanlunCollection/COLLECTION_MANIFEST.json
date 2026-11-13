@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.93.0",
-  "source_count": 1041,
+  "workflow_version": "4.94.0",
+  "source_count": 1045,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -14,8 +14,8 @@
     {
       "source_path": ".github/workflows/book-collection-integrity.yml",
       "mirror_path": "ChanlunCollection/.github/workflows/book-collection-integrity.yml",
-      "git_blob_sha": "5bff669aff05a0c70d2cbb181bd2a8bafcd12faf",
-      "size_bytes": 2789
+      "git_blob_sha": "e2cb8a591866f4e559dad692bf6e3f0a0a32e08d",
+      "size_bytes": 2950
     },
     {
       "source_path": ".github/workflows/chanlun-108-acceptance-bundle.yml",
@@ -1608,6 +1608,12 @@
       "size_bytes": 3812
     },
     {
+      "source_path": "catalog/chanlun_l42_reply_coverage_quality_v494.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun_l42_reply_coverage_quality_v494.json",
+      "git_blob_sha": "5937ee8ecb4aa3c6ba9f1a8040a85a9fc888c4dc",
+      "size_bytes": 6964
+    },
+    {
       "source_path": "catalog/chanlun_l54_cross_archive_figure_and_decision_v1.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_l54_cross_archive_figure_and_decision_v1.json",
       "git_blob_sha": "28f75abc409eb19b01a90bbfcb2342e2cc4c2831",
@@ -2630,8 +2636,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "d0b8272cdbb6b24a119d890df1cbc1532796d2ca",
-      "size_bytes": 156482
+      "git_blob_sha": "0d772124de5c5f5d32c19ca07731ec2bb4c16dfb",
+      "size_bytes": 157449
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -2672,8 +2678,8 @@
     {
       "source_path": "docs/IDEA_DISCOVERY_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/IDEA_DISCOVERY_WORKFLOW.md",
-      "git_blob_sha": "12553724a69841608b71dba5537ab3ed80785008",
-      "size_bytes": 25582
+      "git_blob_sha": "376474b10190f0d0e24f3dc66c3492d7d998f973",
+      "size_bytes": 26579
     },
     {
       "source_path": "docs/PHASE1_INTAKE.md",
@@ -3764,8 +3770,8 @@
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_108_AUTHOR_REPLY_COVERAGE_BASELINE_V490.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_108_AUTHOR_REPLY_COVERAGE_BASELINE_V490.md",
-      "git_blob_sha": "d726a09d6624e3bfed893913d6024bea5b5a8c68",
-      "size_bytes": 6764
+      "git_blob_sha": "3c4c16e880c2a3592d43fd257f2f9533a4f20132",
+      "size_bytes": 7166
     },
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_2007_FEB_EARLY_REPLY_TRIANGULATION_V488.md",
@@ -3782,8 +3788,8 @@
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_A087_TWO_CENTER_DEFINITION_CANDIDATE_FALSIFICATION_V493.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_A087_TWO_CENTER_DEFINITION_CANDIDATE_FALSIFICATION_V493.md",
-      "git_blob_sha": "eb472180f01ae714fb6495ff0737d9c44f047ab9",
-      "size_bytes": 6899
+      "git_blob_sha": "f92b6ab027ac254ef080c4fedfc3d6abf86aba6e",
+      "size_bytes": 7385
     },
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_B1_B2_B3_PROVENANCE_V486.md",
@@ -3826,6 +3832,12 @@
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_HYPOTHESIS_TOURNAMENT_V483.md",
       "git_blob_sha": "0b00ab6d52c2d6967f3e0e336c9398cf4c8583be",
       "size_bytes": 9360
+    },
+    {
+      "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_L42_AUTHOR_REPLY_COVERAGE_DELTA_AND_A087_WORKFLOW_V494.md",
+      "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_L42_AUTHOR_REPLY_COVERAGE_DELTA_AND_A087_WORKFLOW_V494.md",
+      "git_blob_sha": "166b4f5b83874bba90e6d165e4a34910011ca7a9",
+      "size_bytes": 5870
     },
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_L70_COMPLETE_EDITORIAL_REPLY_TIME_ROLES_V492.md",
@@ -3896,8 +3908,8 @@
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/README.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/README.md",
-      "git_blob_sha": "1a46be85103b3f4b9168e92f0a8a60b3017b99e5",
-      "size_bytes": 8019
+      "git_blob_sha": "61cdc295c0e089f33291b86e1c63c4fba7bad659",
+      "size_bytes": 8439
     },
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/analysis.md",
@@ -3944,8 +3956,8 @@
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/updates.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/updates.md",
-      "git_blob_sha": "21662cc584d1a0e505b5ae007166444c5b3cf9d5",
-      "size_bytes": 22263
+      "git_blob_sha": "61556c3dcaaf9c975e281719277ea6effd293c53",
+      "size_bytes": 23502
     },
     {
       "source_path": "reports/source_inventory/chanlun_20261107_verified.json",
@@ -4498,6 +4510,12 @@
       "mirror_path": "ChanlunCollection/tests/test_chanlun_inventory.py",
       "git_blob_sha": "c96c9e04d440b716c4e1ec343c97348daa1e48bf",
       "size_bytes": 2360
+    },
+    {
+      "source_path": "tests/test_chanlun_l42_coverage_v494.py",
+      "mirror_path": "ChanlunCollection/tests/test_chanlun_l42_coverage_v494.py",
+      "git_blob_sha": "8e83dda53035ae40f9426ddda18baf03e2ec60fc",
+      "size_bytes": 10298
     },
     {
       "source_path": "tests/test_chanlun_l54_author_prefix.py",
@@ -5368,6 +5386,12 @@
       "mirror_path": "ChanlunCollection/tools/audit_chanlun_incremental_witnesses_v2.py",
       "git_blob_sha": "cae6daaab34aadd7d66c7e2116bd6d2139770c06",
       "size_bytes": 3806
+    },
+    {
+      "source_path": "tools/audit_chanlun_l42_coverage_v494.py",
+      "mirror_path": "ChanlunCollection/tools/audit_chanlun_l42_coverage_v494.py",
+      "git_blob_sha": "c78c56458695d81cc1b67a0a091d3fc97d8b6a09",
+      "size_bytes": 12250
     },
     {
       "source_path": "tools/audit_chanlun_l54_f1_f2_typed_bridge.py",

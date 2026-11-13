@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "version": "4.94.0",
+  "id": "CHANLUN-L42-THREE_SOURCE_REPLY_COUNT_NONSEMANTIC_DELTA_V494",
+  "checked_on": "2026-11-13",
+  "research_focus": "A087_H02_PRACTICAL_ALTERNATIVE_REPLY_AND_SOURCE_COVERAGE_DELTA",
+  "sites": [
+    {
+      "id": "STOCKSERV",
+      "kind": "FROZEN_THIRD_PARTY_MD_WITH_UID_AND_NICKNAME",
+      "repository": "stockServ/chzhshch-108-plus",
+      "commit_sha": "d2a87d5bd9c84baac2918edca668b9f82a20be52",
+      "path": "108/0497-486e105c010009l8-042.md",
+      "blob_sha": "6e28604d9e1dc1b5e0a7105b1a2260bad060ba72",
+      "lesson": 42,
+      "matching_uid_author": 29,
+      "original_sina_server_bytes_authenticated": false
+    },
+    {
+      "id": "FANGJ",
+      "kind": "FROZEN_THIRD_PARTY_HOST_MARKED_HTML",
+      "repository": "fangj/chan",
+      "commit_sha": "9a0d1d08f3455e096a7aa37adb766d8555e16253",
+      "path": "raw/sina_blog/chan_fenlei/jiaonichaogupiao/519.html",
+      "blob_sha": "6f313ad616836c43b9d55b74be6a54b480d127ac",
+      "lesson": 42,
+      "host_marker_count": 30,
+      "original_sina_server_bytes_authenticated": false
+    },
+    {
+      "id": "ECZSC",
+      "kind": "CURRENT_PUBLIC_WEBSITE_SELF_REPORTED_DOUBLE_MARKER_PLUS_EXACT_AUTHOR_NAME",
+      "url": "https://eczsc.com/replies?lesson=42",
+      "methods_url": "https://eczsc.com/about",
+      "archive_url": "https://eczsc.com/archive",
+      "index_url": "https://eczsc.com/replies",
+      "reported_lesson42_count": 30,
+      "reported_sitewide_count": 963,
+      "independent_source_bytes_acquired": false,
+      "original_sina_server_bytes_authenticated": false
+    }
+  ],
+  "count_reconciliation": {
+    "lesson": 42,
+    "raw_host_reply_time_list": [
+      "2007-04-04 15:33:12",
+      "2007-04-04 16:00:37",
+      "2007-04-04 16:17:09",
+      "2007-04-04 16:17:50",
+      "2007-04-04 16:21:48",
+      "2007-04-04 16:27:19",
+      "2007-04-04 16:28:32",
+      "2007-04-04 16:30:04",
+      "2007-04-04 16:31:43",
+      "2007-04-04 16:34:54",
+      "2007-04-04 16:36:46",
+      "2007-04-04 16:38:20",
+      "2007-04-04 16:41:37",
+      "2007-04-04 16:43:25",
+      "2007-04-04 16:46:56",
+      "2007-04-04 16:48:17",
+      "2007-04-04 16:50:58",
+      "2007-04-04 16:55:32",
+      "2007-04-04 16:58:22",
+      "2007-04-04 17:00:57",
+      "2007-04-04 17:03:03",
+      "2007-04-04 17:04:09",
+      "2007-04-04 17:18:51",
+      "2007-04-04 17:21:24",
+      "2007-04-04 17:24:10",
+      "2007-04-04 17:34:20",
+      "2007-04-04 17:37:43",
+      "2007-04-04 17:41:13",
+      "2007-04-04 17:43:18",
+      "2007-04-07 14:52:10"
+    ],
+    "strict_uid_reply_time_list": [
+      "2007-04-04 15:33:12",
+      "2007-04-04 16:00:37",
+      "2007-04-04 16:17:09",
+      "2007-04-04 16:17:50",
+      "2007-04-04 16:21:48",
+      "2007-04-04 16:27:19",
+      "2007-04-04 16:28:32",
+      "2007-04-04 16:30:04",
+      "2007-04-04 16:31:43",
+      "2007-04-04 16:34:54",
+      "2007-04-04 16:36:46",
+      "2007-04-04 16:38:20",
+      "2007-04-04 16:41:37",
+      "2007-04-04 16:43:25",
+      "2007-04-04 16:46:56",
+      "2007-04-04 16:48:17",
+      "2007-04-04 16:50:58",
+      "2007-04-04 16:55:32",
+      "2007-04-04 16:58:22",
+      "2007-04-04 17:00:57",
+      "2007-04-04 17:03:03",
+      "2007-04-04 17:04:09",
+      "2007-04-04 17:18:51",
+      "2007-04-04 17:21:24",
+      "2007-04-04 17:24:10",
+      "2007-04-04 17:34:20",
+      "2007-04-04 17:37:43",
+      "2007-04-04 17:41:13",
+      "2007-04-04 17:43:18"
+    ],
+    "common_exact_times_count": 29,
+    "raw_only_time_list": [
+      "2007-04-07 14:52:10"
+    ],
+    "uid_only_time_list": [],
+    "raw_host_marked_count": 30,
+    "stockserv_uid_name_count": 29,
+    "eczsc_site_reported_count": 30,
+    "raw_minus_stockserv": 1,
+    "sitewide_delta_963_minus_953_not_comparable_as_missing_reply_count": true,
+    "cannot_infer_nine_other_missing_replies_from_sitewide_totals": true,
+    "semantic_new_author_explanation_count_from_raw_only": 0,
+    "raw_snapshot_looks_2022_HTTRACK_COPY_NOT_2007_SINA_ORIGINAL": true
+  },
+  "raw_only_receipt": {
+    "author_time": "2007-04-07 14:52:10",
+    "author_label": "缠中说禅",
+    "source": "FANGJ",
+    "marker_class": "divReplyIsHostTrue",
+    "literal_body": "??????????",
+    "body_character_count": 10,
+    "body_category": "QUESTION_MARKS_ONLY_MEANING_UNRECOVERABLE",
+    "counts_as_archived_host_marked_reply": true,
+    "counts_as_readable_center_definition": false,
+    "counts_as_confirmed_2007_sina_authorship": false,
+    "must_not_be_promoted_to_A087_second_axiom": true,
+    "reason_for_question_marks_not_known": true
+  },
+  "relevant_original_author_reply": {
+    "date": "2007-04-04 16:31:43",
+    "questioner": "asdf",
+    "question_at": "2007-04-04 15:55:25",
+    "parent_article_title": "教你炒股票42：有些人是不适合参与市场的",
+    "parent_article_published_at": "2007-04-04 15:31:30",
+    "question_topic": "CAN_HIGHER_TIMEFRAME_CENTER_BE_IDENTIFIED_WITHOUT_RECURSIVELY_CONFIRMING_ALL_LOWER_TIMESCALE_SEGMENTS",
+    "author_reply_short_marker": "趋势看背驰，盘整看第三类买卖点",
+    "found_in_stockserv_uid_list": true,
+    "found_in_fangj_host_list": true,
+    "newly_discovered_reply": false,
+    "helps_H02_theory_vs_practical_workflow": true,
+    "identifies_A087_second_center_definition": false,
+    "proves_two_independent_center_axioms": false
+  },
+  "site_index_top_lesson_counts": [
+    {
+      "lesson": 10,
+      "site_reported": 41,
+      "stockserv": 41
+    },
+    {
+      "lesson": 28,
+      "site_reported": 40,
+      "stockserv": 40
+    },
+    {
+      "lesson": 9,
+      "site_reported": 38,
+      "stockserv": 38
+    },
+    {
+      "lesson": 31,
+      "site_reported": 35,
+      "stockserv": 35
+    },
+    {
+      "lesson": 16,
+      "site_reported": 34,
+      "stockserv": 34
+    },
+    {
+      "lesson": 23,
+      "site_reported": 32,
+      "stockserv": 32
+    },
+    {
+      "lesson": 42,
+      "site_reported": 30,
+      "stockserv": 29
+    },
+    {
+      "lesson": 11,
+      "site_reported": 29,
+      "stockserv": 29
+    }
+  ],
+  "evidence_caveats": {
+    "no_2007_sina_server_original_comment_bytes": true,
+    "no_independence_of_public_mirrors_established": true,
+    "no_full_site_963_record_by_record_download_or_verification": true,
+    "no_lesson42_semantic_second_center_definition_from_question_marks": true,
+    "no_kaixiang_A087_original_reply_identified": true,
+    "no_laohu_edition_pdf_docx_acquired": true,
+    "no_market_backtest_run": true
+  },
+  "state": {
+    "A087": "OPEN",
+    "A016": "OPEN",
+    "F01": "OPEN",
+    "OB38": "OPEN",
+    "OB99": "OPEN",
+    "E1_E4": "NOT_RUN"
+  },
+  "prior_art": {
+    "v490": "catalog/chanlun_108_author_uid_reply_baseline_v490.json",
+    "v493": "catalog/chanlun_a087_two_center_claim_triage_v493.json",
+    "no_claim_sitewide_963_vs_953_proven_to_be_10_missing": true
+  },
+  "report": "other_views/chanlun/speaker-unknown-001/IDEA_L42_AUTHOR_REPLY_COVERAGE_DELTA_AND_A087_WORKFLOW_V494.md"
+}
