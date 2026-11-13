@@ -1,5 +1,12 @@
 # 《缠论》研究步骤与工作流修订记录
 
+## 2026-11-13｜v4.90.0：真正扫完108课回复，冻结953条第三方UID匹配
+
+- 对已在v4.38登记的`stockServ/chzhshch-108-plus`固定提交`d2a87d5bd9c84baac2918edca668b9f82a20be52`逐条下载解析108篇课文MD，仅记录SHA、评论UID总数及其时间元数据，**无全文转载**；主课108篇，额外5个编号特殊MD不纳入分母。2,541条可解析UID格式留言、953条UID=1215172700及昵称缠中说禅匹配，只有58课至少1条匹配；61—108课有45课无匹配，暴露第三方镜像回复覆盖缺口。数字不是原Sina历史留言真伪或收录完整性证明。
+- 自动筛查“中枢+第二种/两种”只在第54课作者UID**整段**找到2007-05-24 15:58:51与16:04:41两条，实际`第二种分解`出现在网友提问，作者答复局部条件与单价重叠；不等于作者提出独立“第二中枢定义”或凯翔本人已作指认。
+- 新增[研究报告](OtherVoices/speaker-unknown-001/IDEA_108_AUTHOR_REPLY_COVERAGE_BASELINE_V490.md)、`catalog/chanlun_108_author_uid_reply_baseline_v490.json`（108文件路径、Git blob、时间戳与覆盖统计）、`tools/audit_chanlun_reply_coverage_v490.py`（可选实际108本地文件逐Git SHA复核，以及实际候选TXT/MD/DOCX/PDF版的有限证据文字筛查）、25项独立负例、G-IDEA-14与同步镜像。未取得老虎版字节，**未实际比较老虎版**；保留原五卷108课卡与凯翔原100答，F01/OB38/OB99 OPEN，E1—E4 NOT_RUN。
+
+
 ## 2026-11-13｜v4.89.0：三回复×九原样式/网页/MD快照及原新浪主文地址
 
 - 2007-02-09 16:20:18第29课评论“袖手旁观”最低输入选择、02-12 16:07:02《论语》52“温柔的股客”A0递归及03-08 16:38:56《论语》55“缠文观止”两种视角，分别在`fangj/chan`Sina旧式raw HTML、`gavfu/chzhshch-blog-site`网页版和`stockServ/chzhshch-108-plus`（第29课）/`figozhu/chzhshch_The_Analects`（论语52/55）MD中找到了相符问答、作者署时和宿主标识，**九份文件各自固定repo/path/blob SHA**。

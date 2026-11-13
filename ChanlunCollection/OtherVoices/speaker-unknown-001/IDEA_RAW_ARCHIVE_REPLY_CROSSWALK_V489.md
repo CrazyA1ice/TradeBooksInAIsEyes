@@ -1,5 +1,8 @@
 # v4.89｜三条2007年原作者署时问答的原样式网页与多镜像核对
 
+> **v4.90后续全108课源覆盖审计：** 已实际逐文件扫描既知`stockServ/chzhshch-108-plus`固定版本的108篇原课MD，记录2,541个UID格式评论，其中953个同时匹配作者UID+昵称，分布58课；第61—108课中45课无作者UID匹配。这是**单一第三方整理源覆盖率**，不等于原作者全部留言量或老虎版覆盖率。第54课两处“第二种+中枢”自动命中均来自整段作者回复中引用的网友问题，而非作者提出了独立第二中枢公理。详见[全108课冻结证据与未来版对比协议](IDEA_108_AUTHOR_REPLY_COVERAGE_BASELINE_V490.md)。
+
+
 **核对日期2026-11-13。** 上轮v4.88定位的2007-02-09、02-12两条问答，及早由v4.38登记的2007-03-08两种看法，本轮进一步找到 [fangj/chan](https://github.com/fangj/chan) 保存的Sina样式**raw HTML**、[gavfu/chzhshch-blog-site](https://github.com/gavfu/chzhshch-blog-site)生成的另一HTML版，以及针对每篇分别由[stockServ/chzhshch-108-plus](https://github.com/stockServ/chzhshch-108-plus)或[figozhu/chzhshch_The_Analects](https://github.com/figozhu/chzhshch_The_Analects)提供的Markdown转写。新增的是**多格式可逐条核对的原回复署时与上下文**，而非首次发现第17/35课定义、7月20日双a0理论或3月8日观点。
 
 ## 三条精确匹配的问答与原作者博文归属

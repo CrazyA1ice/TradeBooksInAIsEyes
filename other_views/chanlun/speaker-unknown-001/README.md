@@ -1,5 +1,8 @@
 # 凯翔｜知乎 tsk-47-98（沿用原稳定档案ID speaker-unknown-001）
 
+**v4.90新建老虎版到手即可比较的作者回复基线：** [实际遍历108课第三方Markdown得到的UID+时间覆盖情况](IDEA_108_AUTHOR_REPLY_COVERAGE_BASELINE_V490.md)。仅匹配953条/58课；未匹配不得说原作者未回答。新增批量来源Git blob核验工具和TXT/MD/DOCX/PDF版自动文字筛查入口（PDF需PyMuPDF，扫描无字不得伪称验证）。没有取得老虎版文件，禁止宣称已比对。
+
+
 **v4.89来源镜像可核性新进展：** [三条署时回复×九份GitHub HTML/Markdown存档交叉核对](IDEA_RAW_ARCHIVE_REPLY_CROSSWALK_V489.md)，找到保存有`divReplyIsHostTrue`标记的`fangj/chan` raw风格HTML、三个原Sina宿主文章的准确URL，及逐条可复核的Git blob。尤其v4.88未定位的《论语》52原新浪文章现已找到；不能把保存的第三方raw当成2007原服务器历史评论字节，也未找到凯翔A087的具体原意与老虎版全文。
 
 
