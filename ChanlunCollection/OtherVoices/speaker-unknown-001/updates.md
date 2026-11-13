@@ -1,5 +1,12 @@
 # speaker-unknown-001｜修订与溯源日志
 
+## 2026-11-13｜v4.89：3条原作者评论×9份镜像，锁定原新浪博文宿主
+
+- 将v4.88所列2007-02-09 16:20:18第29课与02-12 16:07:02《论语》52评论，以及v4.38原已登记的03-08 16:38:56《论语》55回复，逐条在`fangj/chan`的Sina样式`raw` HTML、`gavfu`另种HTML版本及`stockServ/figozhu` Markdown版中核对完整问答与署时，锁定**9份具体Git blob SHA**及评论的`divReplyIsHostTrue`署名标记。
+- 新找到[《论语》52原Sina主文](https://blog.sina.com.cn/s/blog_486e105c010008n0.html)，并验证[《论语》55原Sina主文](https://blog.sina.com.cn/s/blog_486e105c0100090r.html)，但今日原Sina正文并不提供那些2007历史评论字节，第三方的raw文件名不能冒充源站法证。多个镜像可能复制共同上游，不能按镜像数累加独立取证度。
+- [交叉溯源报告](IDEA_RAW_ARCHIVE_REPLY_CROSSWALK_V489.md)、`catalog/chanlun_archived_html_crosswalk_v489.json`、`tools/audit_chanlun_archive_crosswalk_v489.py`、独立合成HTML回归测试及G-IDEA-13已写入本书工作流。原五卷108课/100答均未修改，A087所称确切回复与老虎版字节仍缺，F01/OB38/OB99 OPEN，E1—E4 NOT_RUN。
+
+
 ## 2026-11-13｜v4.88：A087候选回复有了2007年2月可核时钟，仍不认证本人所指
 
 - 新增第29课归档2007-02-09 16:20:18“袖手旁观”问答与《论语》52归档2007-02-12 16:07:02“温柔的股客”问答，均能定位提问-回答-时间和后期转载；不存在原新浪评论数据库原始字节认证。

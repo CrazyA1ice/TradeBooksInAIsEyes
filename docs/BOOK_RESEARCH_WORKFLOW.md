@@ -1,4 +1,11 @@
-# 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.88.0，2026-11-13）
+# 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.89.0，2026-11-13）
+
+## v4.89｜作者历史评论的“旧式HTML作者标记”与九份Git blob核对
+
+在v4.88仅找到2007-02-09、02-12评论索引与转写的基础上，本轮将两条早期问答及v4.38已登记的03-08回复全部对应至`fangj/chan`的旧式Sina HTML`divReplyIsHostTrue`区块，另交叉核对`gavfu`的另一HTML渲染和`stockServ/figozhu`的MD：总计**3回复×3种呈现=9份固定Git blob**。新增准确的[《论语》52原新浪文章](https://blog.sina.com.cn/s/blog_486e105c010008n0.html)，并验证第29课/《论语》55宿主，完整参见[研究报告](../other_views/chanlun/speaker-unknown-001/IDEA_RAW_ARCHIVE_REPLY_CROSSWALK_V489.md)和[台账](../catalog/chanlun_archived_html_crosswalk_v489.json)。
+
+新增G-IDEA-13与离线`tools/audit_chanlun_archive_crosswalk_v489.py`：默认只核冻结登记、时间与前版本去重；可选给出**自行合法获取的**三份HTML快照自动比对博主标记、提问者/时间与答复短锚点，CI用人工合成HTML执行负例，不重新分发原始文章。第三方文件名raw不代表2007原服务器字节，三镜像未证明独立采集，A087人物确指、老虎整理版PDF/DOCX、另一套中枢公理仍未取得；F01/OB38/OB99 OPEN、E1—E4 NOT_RUN。
+
 
 ## v4.88｜具有真实署时的2007早期回复与解释变量分离
 

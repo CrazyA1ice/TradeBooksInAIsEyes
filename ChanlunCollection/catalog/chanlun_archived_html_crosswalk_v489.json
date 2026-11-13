@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "version": "4.89.0",
+  "id": "CHANLUN-THREE-DATED-REPLY-MULTIMIRROR-CROSSWALK-V489",
+  "checked_at": "2026-11-13",
+  "scope": "FROZEN_GITHUB_ARCHIVED_SINA_STYLE_REPLY_HTML_AND_INDEPENDENT_MD_TRANSCRIPTIONS",
+  "case_replies": [
+    {
+      "id": "FEB09_R29",
+      "author_reply_at": "2007-02-09 16:20:18",
+      "question_at": "2007-02-09 15:55:07",
+      "questioner": "袖手旁观",
+      "article": "教你炒股票29",
+      "primary_article_url": "https://blog.sina.com.cn/s/blog_486e105c010008la.html",
+      "sina_blog_id": "486e105c010008la",
+      "raw_snapshot_id": "RAW_FEB09",
+      "reference_snapshot_ids": [
+        "GAV_FEB09",
+        "STOCK_029"
+      ],
+      "type_axis": "B1a",
+      "author_answer_markers": [
+        "如果你把1分钟当最低的",
+        "3根K线重合部分",
+        "每笔成交当最低的"
+      ],
+      "machine_observed_author_marker": "divReplyIsHostTrue",
+      "exact_original_2007_comment_bytes": false
+    },
+    {
+      "id": "FEB12_R52",
+      "author_reply_at": "2007-02-12 16:07:02",
+      "question_at": "2007-02-12 15:43:32",
+      "questioner": "温柔的股客",
+      "article": "《论语》详解52",
+      "primary_article_url": "https://blog.sina.com.cn/s/blog_486e105c010008n0.html",
+      "sina_blog_id": "486e105c010008n0",
+      "raw_snapshot_id": "RAW_FEB12",
+      "reference_snapshot_ids": [
+        "GAV_FEB12",
+        "ANAL_052"
+      ],
+      "type_axis": "B1a",
+      "author_answer_markers": [
+        "三根相连K线的重叠部分",
+        "中枢其实是一个典型的递归",
+        "An+1=F（An）"
+      ],
+      "machine_observed_author_marker": "divReplyIsHostTrue",
+      "exact_original_2007_comment_bytes": false
+    },
+    {
+      "id": "MAR08_R55",
+      "author_reply_at": "2007-03-08 16:38:56",
+      "question_at": "2007-03-08 15:34:28",
+      "questioner": "缠文观止",
+      "article": "《论语》详解55",
+      "primary_article_url": "https://blog.sina.com.cn/s/blog_486e105c0100090r.html",
+      "sina_blog_id": "486e105c0100090r",
+      "raw_snapshot_id": "RAW_MAR08",
+      "reference_snapshot_ids": [
+        "GAV_MAR08",
+        "ANAL_055"
+      ],
+      "type_axis": "B2V",
+      "author_answer_markers": [
+        "你不能把两种不搭界的看法混在一起",
+        "a+B+b",
+        "前三段就是中枢"
+      ],
+      "machine_observed_author_marker": "divReplyIsHostTrue",
+      "exact_original_2007_comment_bytes": false
+    }
+  ],
+  "mirrored_snapshots": [
+    {
+      "id": "RAW_FEB09",
+      "case_id": "FEB09_R29",
+      "repo": "fangj/chan",
+      "path": "raw/sina_blog/chan_fenlei/jiaonichaogupiao/460.html",
+      "git_blob_sha": "cd2dddca6643236ef4091c21e86c0a64ebcccaab",
+      "snapshot_role": "ARCHIVED_SINA_STYLE_HTML_HOST_MARKER_NOT_AUTHENTICATED_HISTORICAL_ORIGINAL",
+      "can_parse_raw_reply": true,
+      "local_filename": "feb09.html"
+    },
+    {
+      "id": "RAW_FEB12",
+      "case_id": "FEB12_R52",
+      "repo": "fangj/chan",
+      "path": "raw/sina_blog/chan_fenlei/wenshizhexue/458.html",
+      "git_blob_sha": "2ed6e0db25b974530761b4cd02d0a308c7683a57",
+      "snapshot_role": "ARCHIVED_SINA_STYLE_HTML_HOST_MARKER_NOT_AUTHENTICATED_HISTORICAL_ORIGINAL",
+      "can_parse_raw_reply": true,
+      "local_filename": "feb12.html"
+    },
+    {
+      "id": "RAW_MAR08",
+      "case_id": "MAR08_R55",
+      "repo": "fangj/chan",
+      "path": "raw/sina_blog/chan_fenlei/wenshizhexue/442.html",
+      "git_blob_sha": "a3d7467d72402a5885309a00b595ff3d5fea196d",
+      "snapshot_role": "ARCHIVED_SINA_STYLE_HTML_HOST_MARKER_NOT_AUTHENTICATED_HISTORICAL_ORIGINAL",
+      "can_parse_raw_reply": true,
+      "local_filename": "mar08.html"
+    },
+    {
+      "id": "GAV_FEB09",
+      "case_id": "FEB09_R29",
+      "repo": "gavfu/chzhshch-blog-site",
+      "path": "stocks/029/index.html",
+      "git_blob_sha": "840003fc58509dd8c97a659044201a1214c3b345",
+      "snapshot_role": "LATER_THIRD_PARTY_HTML_RENDER_NOT_PROVEN_INDEPENDENT_INGEST",
+      "can_parse_raw_reply": false
+    },
+    {
+      "id": "GAV_FEB12",
+      "case_id": "FEB12_R52",
+      "repo": "gavfu/chzhshch-blog-site",
+      "path": "confucius/52/index.html",
+      "git_blob_sha": "b078975de7f63608e2877558a1bfbb4a7394aac2",
+      "snapshot_role": "LATER_THIRD_PARTY_HTML_RENDER_NOT_PROVEN_INDEPENDENT_INGEST",
+      "can_parse_raw_reply": false
+    },
+    {
+      "id": "GAV_MAR08",
+      "case_id": "MAR08_R55",
+      "repo": "gavfu/chzhshch-blog-site",
+      "path": "confucius/55/index.html",
+      "git_blob_sha": "6a589fe7ad4f8187aa0a20ae3153110610bf03ee",
+      "snapshot_role": "LATER_THIRD_PARTY_HTML_RENDER_NOT_PROVEN_INDEPENDENT_INGEST",
+      "can_parse_raw_reply": false
+    },
+    {
+      "id": "STOCK_029",
+      "case_id": "FEB09_R29",
+      "repo": "stockServ/chzhshch-108-plus",
+      "path": "108/0456-486e105c010008la-029.md",
+      "git_blob_sha": "63d24f7d2665a284595266700b5e40024b070213",
+      "snapshot_role": "LATER_THIRD_PARTY_MARKDOWN_WITH_UID_NOT_PROVEN_INDEPENDENT_INGEST",
+      "can_parse_raw_reply": false
+    },
+    {
+      "id": "ANAL_052",
+      "case_id": "FEB12_R52",
+      "repo": "figozhu/chzhshch_The_Analects",
+      "path": "The Analects/0458-486e105c010008n0-(60).md",
+      "git_blob_sha": "03730b436233de31d203e78a13d274882e9627e5",
+      "snapshot_role": "LATER_THIRD_PARTY_MARKDOWN_WITH_UID_NOT_PROVEN_INDEPENDENT_INGEST",
+      "can_parse_raw_reply": false
+    },
+    {
+      "id": "ANAL_055",
+      "case_id": "MAR08_R55",
+      "repo": "figozhu/chzhshch_The_Analects",
+      "path": "The Analects/0474-486e105c0100090r-(93).md",
+      "git_blob_sha": "b41216c361d8329b5d81759f620b8108e2a6939d",
+      "snapshot_role": "LATER_THIRD_PARTY_MARKDOWN_WITH_UID_NOT_PROVEN_INDEPENDENT_INGEST",
+      "can_parse_raw_reply": false
+    }
+  ],
+  "predecessor": {
+    "v488": "catalog/chanlun_early_author_reply_triage_v488.json",
+    "v438": "catalog/chanlun_two_methods_archives_laohu_v438.json",
+    "v487": "catalog/chanlun_source_novelty_v487.json",
+    "v488_missing_feb12_original_sina_url_now_landed": true,
+    "v438_march_reply_previously_known": true,
+    "v438_stockserv_35_38_already_known": true,
+    "v489_new_source_role": "PINNED_RAW_STYLE_HTML_AND_CROSS_ARCHIVE_COMPARISON"
+  },
+  "provenance_limit": {
+    "archived_divReplyIsHostTrue_not_2007_sina_server_authentication": true,
+    "archived_replies_substantive_author_identity_authentication": false,
+    "archives_proven_independent_collection_lineage": false,
+    "kaixiang_identified_exact_reply": false,
+    "laohu_full_pdf_docx_bytes_collected": false,
+    "two_different_independent_center_axioms_discovered": false,
+    "market_backtest_performed": false
+  },
+  "state": {
+    "B1a": "ARCHIVED_REPLY_CROSSCHECKED_NOT_KAIXIANG_IDENTIFIED",
+    "B2V": "ARCHIVED_REPLY_CROSSCHECKED_NOT_KAIXIANG_IDENTIFIED",
+    "B2R": "PRIOR_LESSON_ONLY",
+    "B3": "NO_SOURCE",
+    "A087": "OPEN",
+    "A016": "OPEN",
+    "F01": "OPEN",
+    "OB38": "OPEN",
+    "OB99": "OPEN",
+    "E1_E4": "NOT_RUN"
+  },
+  "report": "other_views/chanlun/speaker-unknown-001/IDEA_RAW_ARCHIVE_REPLY_CROSSWALK_V489.md"
+}

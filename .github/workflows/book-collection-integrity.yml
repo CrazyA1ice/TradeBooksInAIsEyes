@@ -30,6 +30,7 @@ jobs:
           python -B -m unittest discover -s tests -p "test_kaixiang_exit_evidence_v457.py" -v
           python -B -m unittest discover -s tests -p "test_chanlun_prior_art_v487.py" -v
           python -B -m unittest discover -s tests -p "test_chanlun_reply_identity_v488.py" -v
+          python -B -m unittest discover -s tests -p "test_chanlun_archive_crosswalk_v489.py" -v
       - name: Enforce per-research-step workflow revision, log, status and manifest update
         if: github.event_name == 'pull_request'
         env:

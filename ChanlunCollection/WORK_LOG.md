@@ -1,5 +1,12 @@
 # 《缠论》研究步骤与工作流修订记录
 
+## 2026-11-13｜v4.89.0：三回复×九原样式/网页/MD快照及原新浪主文地址
+
+- 2007-02-09 16:20:18第29课评论“袖手旁观”最低输入选择、02-12 16:07:02《论语》52“温柔的股客”A0递归及03-08 16:38:56《论语》55“缠文观止”两种视角，分别在`fangj/chan`Sina旧式raw HTML、`gavfu/chzhshch-blog-site`网页版和`stockServ/chzhshch-108-plus`（第29课）/`figozhu/chzhshch_The_Analects`（论语52/55）MD中找到了相符问答、作者署时和宿主标识，**九份文件各自固定repo/path/blob SHA**。
+- 确证[《论语》52原Sina博客正文](https://blog.sina.com.cn/s/blog_486e105c010008n0.html)、[《论语》55原Sina正文](https://blog.sina.com.cn/s/blog_486e105c0100090r.html)及第29课主文宿主；当前Sina正文没显示历史评论，第三方raw HTML及镜像之间的独立采集、历史字节真实性并未证明。3月8日回复已在v4.38登记，旧双a0已在v4.41登记，本轮仅交叉核对不重复计新公理。
+- 新增[证据报告](OtherVoices/speaker-unknown-001/IDEA_RAW_ARCHIVE_REPLY_CROSSWALK_V489.md)、`catalog/chanlun_archived_html_crosswalk_v489.json`、`tools/audit_chanlun_archive_crosswalk_v489.py`及本地合成HTML定向负例，并纳入Book Collections CI、G-IDEA-13、人物和逐书日志、镜像与manifest。五卷108课/100答、82 I/34 C未改；A087确指与老虎版原文件OPEN，F01/OB38/OB99 OPEN，E1—E4 NOT_RUN。
+
+
 ## 2026-11-13｜v4.88.0：早于第35课两条作者署时回复，修正“第二种”变量混称
 
 - 本轮在公开历史归档核对：**2007-02-09 16:20:18**第29课评论“袖手旁观”就1分钟中枢定义提问，作者区分最低3根K线的交叠与以逐笔成交为最低单位；**2007-02-12 16:07:02**《论语》52评论“温柔的股客”问中枢段如何划分，作者用最低A0与An+1=F(An)递归解释。两条有问/答/时间/宿主及二次转载，但原新浪2007历史评论字节未取得，仍只是ARCHIVED_ATTRIBUTED而非历史原字节认证。
