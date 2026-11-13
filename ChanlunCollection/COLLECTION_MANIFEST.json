@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.100.0",
-  "source_count": 1051,
+  "workflow_version": "4.101.0",
+  "source_count": 1052,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -2636,8 +2636,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "30988420844cbb33cdbbcd88f8dce36226bded8f",
-      "size_bytes": 168427
+      "git_blob_sha": "897dc4db4ec6848bf636b23dd60310ca21c82cf0",
+      "size_bytes": 170753
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -2678,8 +2678,8 @@
     {
       "source_path": "docs/IDEA_DISCOVERY_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/IDEA_DISCOVERY_WORKFLOW.md",
-      "git_blob_sha": "a2bc3e49f0ada4e0336210f982d5258700872845",
-      "size_bytes": 39410
+      "git_blob_sha": "1835521c05e3b2c7e0a012d5080b08c4655c4dcc",
+      "size_bytes": 41912
     },
     {
       "source_path": "docs/PHASE1_INTAKE.md",
@@ -3830,8 +3830,8 @@
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_COMBINATIONS.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_COMBINATIONS.md",
-      "git_blob_sha": "9ca93034a734c7a75e08b8c55405cfc1ef7bdb03",
-      "size_bytes": 33707
+      "git_blob_sha": "9b0c683e8fa83bc63172313df92e9a26ff1dd4bd",
+      "size_bytes": 37483
     },
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_CROSS_SOURCE_COMBINATIONS_V495.md",
@@ -3886,6 +3886,12 @@
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_L70_CROSS_ARTICLE_COMMENT_HOST_AUDIT_V491.md",
       "git_blob_sha": "a482e073e73d842662ffbe97ba66cb40b7efe0b2",
       "size_bytes": 6235
+    },
+    {
+      "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_L92_LEVEL_PROMOTION_THIRDPOINT_AND_TYPED_EVIDENCE_V4101.md",
+      "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_L92_LEVEL_PROMOTION_THIRDPOINT_AND_TYPED_EVIDENCE_V4101.md",
+      "git_blob_sha": "ab5dd7a493d66d87eceb6d3b334c3fdd16422eda",
+      "size_bytes": 15891
     },
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_LESSON54_COMPETING_DECOMPOSITIONS_V485.md",
@@ -3944,8 +3950,8 @@
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/README.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/README.md",
-      "git_blob_sha": "fda5c0e17f7ea3eab9de79aca19985703d789a9d",
-      "size_bytes": 11699
+      "git_blob_sha": "b73a6a494b7273d2d560d6d421031fd286d66b7e",
+      "size_bytes": 12482
     },
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/analysis.md",
