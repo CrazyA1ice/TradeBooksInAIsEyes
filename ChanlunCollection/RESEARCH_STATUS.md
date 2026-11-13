@@ -1,5 +1,7 @@
 # 《缠论》五卷108课｜当前研究状态与未完成关口
 
+**v4.83 凯翔假说竞争阶段（文本研究已写入，市场尚未实验）：**[竞争总论](OtherVoices/speaker-unknown-001/IDEA_HYPOTHESIS_TOURNAMENT_V483.md)与[13同场情景矩阵](OtherVoices/speaker-unknown-001/IDEA_SHARED_CASE_MATRIX_V483.md)明确区分行为因果、结构识别、条件后继、账户风险、来源审计；S6仅协作。A026的两层不测而测与原作者第30/60课相比提出“外生事前信息增益”真正可区分的问题；B1/B2/B3及H1—H5仍是竞争假设。旧82/34原号全保留，原100答/五卷108课未改；F01/OB38/OB99 OPEN，行情与收益NOT_RUN。
+
 **v4.82 凯翔全量重组（不是原理证成）：**[82条I和34组C逐编号完整对照](OtherVoices/speaker-unknown-001/IDEA_82_34_COVERAGE_V482.md)及[五大领域G1—G5、六竞争架构S1—S6的深度总论](OtherVoices/speaker-unknown-001/IDEA_RECOMPOSITION_MASTER_V482.md)已建立。重复母命题归并、相反路线保留竞争、弱解释降权；新加通用G-IDEA-6定期全量重组。凯翔A087第二法、A016第三层仍未获公开完整定义，F01/OB38/OB99 OPEN，行情NOT_RUN。
 
 **查询时点：** 2026-11-12。研究稿已覆盖五卷第1—108课；当前收据以GitHub主分支及[本书逐课逻辑地图](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md)、[来源索引](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_SOURCE_ATLAS.md)为准。**研究覆盖完成不等于全部数学证明完成。**

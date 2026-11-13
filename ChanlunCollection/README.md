@@ -1,5 +1,7 @@
 # ChanlunCollection｜《缠论》五卷108课完整研究档案
 
+**最新v4.83人物研究**：[凯翔假说竞争总论](OtherVoices/speaker-unknown-001/IDEA_HYPOTHESIS_TOURNAMENT_V483.md) · [13个共享情景矩阵](OtherVoices/speaker-unknown-001/IDEA_SHARED_CASE_MATRIX_V483.md)。在旧82灵感/34组合基础上开展可区别、可反驳的条件对照，不新增空泛计数。
+
 **最新人物研究 v4.82**：[凯翔82条＋34组全量重组总论](OtherVoices/speaker-unknown-001/IDEA_RECOMPOSITION_MASTER_V482.md) · [全部旧编号完整追踪表](OtherVoices/speaker-unknown-001/IDEA_82_34_COVERAGE_V482.md)。五大研究领域、六套竞争模型，旧原文与旧灵感不删除。
 
 **研究灵感入口（v4.78）**：[凯翔48条](OtherVoices/speaker-unknown-001/IDEA_NOTEBOOK.md) · [14种拼接](OtherVoices/speaker-unknown-001/IDEA_COMBINATIONS.md) · [跨作者汇聚](OtherVoices/IDEA_CROSS_AUTHOR_INDEX.md) · [G-IDEA阅读法](docs/IDEA_DISCOVERY_WORKFLOW.md)。
