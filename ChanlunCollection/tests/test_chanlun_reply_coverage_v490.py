@@ -99,7 +99,7 @@ class UidReplyBaselineV490(unittest.TestCase):
             p = Path(d)/rel
             p.parent.mkdir(parents=True, exist_ok=True)
             p.write_bytes(data)
-            row = {"path": rel, "blob_sha": git_blob_sha(data), **source_facts(text)}
+            row = {"lesson": 29, "path": rel, "blob_sha": git_blob_sha(data), **source_facts(text)}
             self.assertEqual(reverify_source_dir({"records": [row]}, d)["verified_files"], 1)
             p.write_bytes(data + b"tamper")
             with self.assertRaises(ValueError):
