@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "version": "4.92.0",
+  "id": "CHANLUN-L70-ALL-EDITORIAL-AUTHOR-BLOCKS-REHOSTED-TIME-ROLES-V492",
+  "checked_at": "2026-11-13",
+  "scope": "ALL_16_AUTHOR_LABELED_OR_INLINE_COMMENT_ENTRIES_IN_GTXIN_TDS_070_MD",
+  "editorial_source": {
+    "repo": "GtXin/TDS",
+    "path": "references/chan_theory/070.md",
+    "git_blob_sha": "fc4e936b515de4c0e28bb5f7ba1182813fd29ff0",
+    "display_title": "教你炒股票70",
+    "author_attributed_block_total": 16,
+    "inline_unmarked_block_count": 1,
+    "bold_author_header_block_count": 15
+  },
+  "original_post_archives": {
+    "AUG13": {
+      "repo": "fangj/chan",
+      "path": "raw/sina_blog/chan_fenlei/shizhengjingji/584.html",
+      "git_blob_sha": "ac9e3b569cfdf5fc4a9ca49f21e51c9ebe84bfbd",
+      "article_title": "41与1，本ID对二级市场兴趣已失",
+      "article_published_at": "2007-08-13 21:26:14",
+      "archived_author_host_block_count": 6
+    },
+    "AUG16": {
+      "repo": "fangj/chan",
+      "path": "raw/sina_blog/chan_fenlei/shizhengjingji/680.html",
+      "git_blob_sha": "06ffc2f7781e8e15725cf63621fbcb8dbdd48a81",
+      "article_title": "全球化，没有市场可与世隔绝",
+      "article_published_at": "2007-08-16 15:41:56",
+      "archived_author_host_block_count": 20
+    },
+    "JUL31": {
+      "repo": "fangj/chan",
+      "path": "raw/sina_blog/chan_fenlei/shizhengjingji/607.html",
+      "git_blob_sha": "f208869e8aab963d5ef900b6e351977d45e92d51",
+      "article_title": "完美的震荡制造完美的月线收盘",
+      "article_published_at": "2007-07-31 16:03:53",
+      "archived_author_host_block_count": 19
+    },
+    "L70": {
+      "repo": "fangj/chan",
+      "path": "raw/sina_blog/chan_fenlei/jiaonichaogupiao/681.html",
+      "git_blob_sha": "d0b0891704a0b1c1c561ad87d5510dd73ed7f1ad",
+      "article_title": "教你炒股票70：一个教科书式走势的示范分析",
+      "article_published_at": "2007-08-15 22:41:35",
+      "archived_author_host_block_count": 0
+    }
+  },
+  "author_attributed_entries": [
+    {
+      "record_id": "E00",
+      "editorial_author_label_at": "2007-08-13 21:56:16",
+      "editorial_label_style": "INLINE_UNMARKED",
+      "actual_author_reply_at": "2007-08-13 21:56:16",
+      "original_post_id": "AUG13",
+      "match_status": "SAME_REPLY_TIME_OTHER_POST",
+      "time_label_is_author_reply": true
+    },
+    {
+      "record_id": "E01",
+      "editorial_author_label_at": "2007-08-16 15:50:48",
+      "editorial_label_style": "BOLD_AUTHOR_LINE",
+      "actual_author_reply_at": "2007-08-16 15:50:48",
+      "original_post_id": "AUG16",
+      "match_status": "SAME_REPLY_TIME_OTHER_POST",
+      "time_label_is_author_reply": true
+    },
+    {
+      "record_id": "E02",
+      "editorial_author_label_at": "2007-08-16 15:51:35",
+      "editorial_label_style": "BOLD_AUTHOR_LINE",
+      "actual_author_reply_at": "2007-08-16 15:51:35",
+      "original_post_id": "AUG16",
+      "match_status": "SAME_REPLY_TIME_OTHER_POST",
+      "time_label_is_author_reply": true
+    },
+    {
+      "record_id": "E03",
+      "editorial_author_label_at": "2007-07-31 16:10:56",
+      "editorial_label_style": "BOLD_AUTHOR_LINE",
+      "actual_author_reply_at": "2007-08-16 15:58:06",
+      "original_post_id": "AUG16",
+      "match_status": "NESTED_JUL31_QUESTION_TIME_MISTAKEN_FOR_AUG16_AUTHOR_TIME",
+      "time_label_is_author_reply": false
+    },
+    {
+      "record_id": "E04",
+      "editorial_author_label_at": "2007-08-16 16:04:18",
+      "editorial_label_style": "BOLD_AUTHOR_LINE",
+      "actual_author_reply_at": "2007-08-16 16:04:18",
+      "original_post_id": "AUG16",
+      "match_status": "SAME_REPLY_TIME_OTHER_POST",
+      "time_label_is_author_reply": true
+    },
+    {
+      "record_id": "E05",
+      "editorial_author_label_at": "2007-08-16 16:08:05",
+      "editorial_label_style": "BOLD_AUTHOR_LINE",
+      "actual_author_reply_at": "2007-08-16 16:08:05",
+      "original_post_id": "AUG16",
+      "match_status": "SAME_REPLY_TIME_OTHER_POST",
+      "time_label_is_author_reply": true
+    },
+    {
+      "record_id": "E06",
+      "editorial_author_label_at": "2007-08-16 16:16:47",
+      "editorial_label_style": "BOLD_AUTHOR_LINE",
+      "actual_author_reply_at": "2007-08-16 16:16:47",
+      "original_post_id": "AUG16",
+      "match_status": "SAME_REPLY_TIME_OTHER_POST",
+      "time_label_is_author_reply": true
+    },
+    {
+      "record_id": "E07",
+      "editorial_author_label_at": "2007-08-16 16:25:02",
+      "editorial_label_style": "BOLD_AUTHOR_LINE",
+      "actual_author_reply_at": "2007-08-16 16:25:02",
+      "original_post_id": "AUG16",
+      "match_status": "SAME_REPLY_TIME_OTHER_POST",
+      "time_label_is_author_reply": true
+    },
+    {
+      "record_id": "E08",
+      "editorial_author_label_at": "2007-08-16 16:29:29",
+      "editorial_label_style": "BOLD_AUTHOR_LINE",
+      "actual_author_reply_at": "2007-08-16 16:29:29",
+      "original_post_id": "AUG16",
+      "match_status": "SAME_REPLY_TIME_OTHER_POST",
+      "time_label_is_author_reply": true
+    },
+    {
+      "record_id": "E09",
+      "editorial_author_label_at": "2007-08-16 16:34:13",
+      "editorial_label_style": "BOLD_AUTHOR_LINE",
+      "actual_author_reply_at": "2007-08-16 16:34:13",
+      "original_post_id": "AUG16",
+      "match_status": "SAME_REPLY_TIME_OTHER_POST",
+      "time_label_is_author_reply": true
+    },
+    {
+      "record_id": "E10",
+      "editorial_author_label_at": "2007-08-16 16:35:57",
+      "editorial_label_style": "BOLD_AUTHOR_LINE",
+      "actual_author_reply_at": "2007-08-16 16:35:57",
+      "original_post_id": "AUG16",
+      "match_status": "SAME_REPLY_TIME_OTHER_POST",
+      "time_label_is_author_reply": true
+    },
+    {
+      "record_id": "E11",
+      "editorial_author_label_at": "2007-08-16 16:41:04",
+      "editorial_label_style": "BOLD_AUTHOR_LINE",
+      "actual_author_reply_at": "2007-08-16 16:41:04",
+      "original_post_id": "AUG16",
+      "match_status": "SAME_REPLY_TIME_OTHER_POST",
+      "time_label_is_author_reply": true
+    },
+    {
+      "record_id": "E12",
+      "editorial_author_label_at": "2007-08-16 16:44:08",
+      "editorial_label_style": "BOLD_AUTHOR_LINE",
+      "actual_author_reply_at": "2007-08-16 16:44:08",
+      "original_post_id": "AUG16",
+      "match_status": "SAME_REPLY_TIME_OTHER_POST",
+      "time_label_is_author_reply": true
+    },
+    {
+      "record_id": "E13",
+      "editorial_author_label_at": "2007-08-16 16:46:08",
+      "editorial_label_style": "BOLD_AUTHOR_LINE",
+      "actual_author_reply_at": "2007-08-16 16:46:08",
+      "original_post_id": "AUG16",
+      "match_status": "SAME_REPLY_TIME_OTHER_POST",
+      "time_label_is_author_reply": true
+    },
+    {
+      "record_id": "E14",
+      "editorial_author_label_at": "2007-08-16 16:54:24",
+      "editorial_label_style": "BOLD_AUTHOR_LINE",
+      "actual_author_reply_at": "2007-08-16 16:54:24",
+      "original_post_id": "AUG16",
+      "match_status": "SAME_REPLY_TIME_OTHER_POST",
+      "time_label_is_author_reply": true
+    },
+    {
+      "record_id": "E15",
+      "editorial_author_label_at": "2007-08-16 16:59:27",
+      "editorial_label_style": "BOLD_AUTHOR_LINE",
+      "actual_author_reply_at": "2007-08-16 16:59:27",
+      "original_post_id": "AUG16",
+      "match_status": "SAME_REPLY_TIME_OTHER_POST",
+      "time_label_is_author_reply": true
+    }
+  ],
+  "historical_question_time_disambiguation": {
+    "editorial_record_id": "E03",
+    "incorrectly_displayed_under_author": "2007-07-31 16:10:56",
+    "time_role_of_that_string": "JUL31_QUESTION_TIME_COPIED_INTO_AUG16_COMMENTER_QUOTE",
+    "historical_original_post": "JUL31",
+    "historical_questioner": "新浪网友",
+    "historical_question_at": "2007-07-31 16:10:56",
+    "historical_original_author_reply_at": "2007-07-31 16:14:47",
+    "august_quote_questioner": "蓝羽",
+    "august_question_at": "2007-08-16 15:48:44",
+    "august_actual_author_reply_at": "2007-08-16 15:58:06",
+    "august_original_post": "AUG16",
+    "display_record_time_is_original_author_reply_time": false,
+    "text_copy_does_not_certify_sina_2007_bytes": true
+  },
+  "tallies": {
+    "editorial_author_attributed_entries": 16,
+    "explicitly_labelled_entries": 15,
+    "inline_unmarked_entries": 1,
+    "exact_editorial_author_time_matches_different_post": 15,
+    "mislabeled_question_time_entries": 1,
+    "mapped_actual_author_replies_from_aug13": 1,
+    "mapped_actual_author_replies_from_aug16": 15,
+    "archived_aug16_total_host_replies": 20,
+    "archived_aug13_total_host_replies": 6,
+    "archived_jul31_total_host_replies": 19,
+    "archived_lesson70_host_replies": 0,
+    "source_post_count": 4
+  },
+  "prior_art": {
+    "v491": "catalog/chanlun_l70_comment_host_adjudication_v491.json",
+    "v490": "catalog/chanlun_108_author_uid_reply_baseline_v490.json",
+    "v491_first_two_cross_host_examples_are_not_new_discoveries": true,
+    "new_contribution": "FULL_16_EDITORIAL_BLOCK_ORIGINAL_POST_RECONCILIATION_AND_QUESTION_VS_AUTHOR_TIME_CORRECTION"
+  },
+  "source_limits": {
+    "archived_html_is_not_verified_original_2007_sina_server_bytes": true,
+    "copies_are_not_proven_independent_collection_chain": true,
+    "no_authored_full_2007_comment_corpus_proven": true,
+    "no_automatic_authorship_authentication_from_display_name": true,
+    "zero_l70_archive_host_blocks_not_proof_historical_zero": true,
+    "editorial_order_not_original_post_order": true,
+    "editor_july_time_not_actual_author_reply_time": true,
+    "laohu_source_document_obtained": false,
+    "laohu_all_lessons_compared": false,
+    "kaixiang_A087_actual_second_center_definition_identified": false,
+    "independent_B3_new_center_axiom_proven": false,
+    "market_E1_E4_experiments_run": false
+  },
+  "research_gates": {
+    "A087": "OPEN",
+    "A016": "OPEN",
+    "F01": "OPEN",
+    "OB38": "OPEN",
+    "OB99": "OPEN",
+    "E1_E4": "NOT_RUN"
+  },
+  "report": "other_views/chanlun/speaker-unknown-001/IDEA_L70_COMPLETE_EDITORIAL_REPLY_TIME_ROLES_V492.md"
+}

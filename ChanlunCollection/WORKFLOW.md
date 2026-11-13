@@ -1,4 +1,7 @@
-# ChanlunCollection｜本书实施工作流 v4.91.0
+# ChanlunCollection｜本书实施工作流 v4.92.0
+
+**v4.92完整评论署时归宿主复核：** [第70课编者附录16处作者名下问答全部归位](OtherVoices/speaker-unknown-001/IDEA_L70_COMPLETE_EDITORIAL_REPLY_TIME_ROLES_V492.md)：14条8月16日署时与《全球化》raw风格HTML作者host区块匹配、1条8月13日署时来自《41与1》；第16处竟将2007-07-31 16:10:56网友旧问题放在作者名下，实际7月31日作者回答是16:14:47、8月16日引用旧问答的新答为15:58:06。新增第4篇《完美的震荡制造完美的月线收盘》原宿主证据和G-IDEA-16，分清`quoted_question_at`、`original_author_at`与`editorial_location`；32项合成回归测试，未获老虎版/凯翔A087指认，E1—E4 NOT_RUN。
+
 
 **v4.91评论原宿主核证：** [第70课及《41与1》《全球化》三篇不同博客原样式归档](OtherVoices/speaker-unknown-001/IDEA_L70_CROSS_ARTICLE_COMMENT_HOST_AUDIT_V491.md)发现`GtXin/TDS`第70课附加的2007-08-13 21:56:16与2007-08-16 15:50:48作者问答，实际是两篇**独立博客文章**评论区的问答，第70课第三方raw快照无对应`class="divReplyIsHostTrue"`区块。按G-IDEA-15区分原文章宿主与编辑收录位置，未核宿主的留言不得列入该课“原始作者回复覆盖数”；零快照不证2007源站零留言。增加审计及26项定向测试，凯翔A087/老虎版/F01等未证，E1—E4仍NOT_RUN。
 

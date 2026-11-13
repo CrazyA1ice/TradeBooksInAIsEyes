@@ -1,5 +1,14 @@
 # 通用模块 G-IDEA｜灵感发掘、自由拼接与跨作者研究
 
+## G-IDEA-16｜作者署名行的时间也可能来自被引用的旧网友问题（v4.92）
+
+跨文章汇编文档中的每条“**作者名 + 时间**”必须单独确认`time_role`。至少区分：`original_post`及发表时间、`current_question_at`、`original_author_reply_at`、`quoted_historical_question_at`及被引用的旧作者答复时间、`editorial_location`。一段嵌套引用中同时出现2007-07-31和2007-08-16的时刻时，**不可**把其中最早的时刻直接赋给回复人。
+
+确定性例证：[v4.92第70课编者16处问答的逐项时间/原宿主台账](../other_views/chanlun/speaker-unknown-001/IDEA_L70_COMPLETE_EDITORIAL_REPLY_TIME_ROLES_V492.md)。8月16日15:58:06《全球化》作者回复中引用的七月31日旧问答，网友旧提问是**16:10:56**、原作者旧答**16:14:47**；编辑将16:10:56显示在“缠中说禅”署名之下，导致虚假的“旧作者署时”。对`GtXin/TDS`第70课整理文本其余14处8月16日标签和8月13日行内回复，已逐时刻在第三方旧式HTML原文章宿主核对；**并未逐字法证全部原文或认证历史新浪服务器数据库**。
+
+防混淆门`tools/audit_chanlun_l70_time_roles_v492.py --check`验证冻结16项与已有v4.90/v4.91先例；可选`--snapshot-dir`读取5个自行合法获取的快照复核标记，`--verify-git-blobs`可提高到精确上游Git blob字节匹配。默认CI只验证本地台账和合成反例，不能把旧归档镜像当作2007原始服务器字节，更不能用“第二种线段情况”推出独立第二中枢公理或直接锁定凯翔A087。
+
+
 ## G-IDEA-15｜明确“原发表文章”不同于“编者编排在某课下面”（v4.91）
 
 多个版本之间比较原作者回复覆盖率时，每条回复必须尽可能分别登记`original_parent_article`（尽量提供原博客ID与主文发表时间）、`original_reply_at`、`questioner`、`editorial_location`（某整理版第几课）、`archived_snapshot_repo/path/git_blob`、`authentication_status`。把同一作者对某教学概念的回复编辑进第70课可能提升可读性，但**绝不证明原发表宿主就是第70课**；若原宿主未核实，不可纳入“这课作者原评论数”分子。
