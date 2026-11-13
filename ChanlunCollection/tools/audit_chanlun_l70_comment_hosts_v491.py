@@ -148,7 +148,7 @@ def check_snapshot_dir(catalog, folder):
                 and normalize_time(published.group(1)) == parent_pub, "wrong original host "+rid)
         valid = [x for x in archived_host_entries(source)
                  if x["author"]=="缠中说禅" and x["when"]==tm
-                 and questioner in x["body"] and qtime in x["body"]]
+                 and questioner in x["body"] and re.sub(r"\s+", "", qtime) in x["body"]]
         require(len(valid)==1, "attributed reply absent or ambiguous under original host "+rid)
         require(tm in text, "editorial source does not contain migrated date "+rid)
         results[rid]={"original_parent_title":parent_title,"author_reply_time":tm,
