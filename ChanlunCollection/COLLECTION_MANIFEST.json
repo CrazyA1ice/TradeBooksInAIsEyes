@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.86.0",
-  "source_count": 1013,
+  "workflow_version": "4.87.0",
+  "source_count": 1017,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -14,8 +14,8 @@
     {
       "source_path": ".github/workflows/book-collection-integrity.yml",
       "mirror_path": "ChanlunCollection/.github/workflows/book-collection-integrity.yml",
-      "git_blob_sha": "574c8c0498ed74b8e5ce06d06911c8ec01b8b958",
-      "size_bytes": 1827
+      "git_blob_sha": "27dfa9eef59a7205619acb7e164624a4bce18d17",
+      "size_bytes": 1916
     },
     {
       "source_path": ".github/workflows/chanlun-108-acceptance-bundle.yml",
@@ -1806,6 +1806,12 @@
       "size_bytes": 9665
     },
     {
+      "source_path": "catalog/chanlun_source_novelty_v487.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun_source_novelty_v487.json",
+      "git_blob_sha": "373208009349cd826e4e810a9758b2a7bbc95e9a",
+      "size_bytes": 1069
+    },
+    {
       "source_path": "catalog/chanlun_strict_vs_operable_bottom_pan_v444.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_strict_vs_operable_bottom_pan_v444.json",
       "git_blob_sha": "ab15c43310be6d8990bb057eda5d6ce39b13832c",
@@ -2588,8 +2594,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "00c97975d96ac133a3bea210b2fe0798dab19bc5",
-      "size_bytes": 147633
+      "git_blob_sha": "efa6b5a3f8b56b3e911604143dc6555dde13c988",
+      "size_bytes": 148428
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -2630,8 +2636,8 @@
     {
       "source_path": "docs/IDEA_DISCOVERY_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/IDEA_DISCOVERY_WORKFLOW.md",
-      "git_blob_sha": "a50586126e29727e59dfc59f5f121e907897a948",
-      "size_bytes": 14833
+      "git_blob_sha": "c77dc4c88df3c3311fcf363f903ad334170d0b36",
+      "size_bytes": 15888
     },
     {
       "source_path": "docs/PHASE1_INTAKE.md",
@@ -3728,8 +3734,8 @@
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_B1_B2_B3_PROVENANCE_V486.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_B1_B2_B3_PROVENANCE_V486.md",
-      "git_blob_sha": "2a47ddec38f49df24d7e383a4bb08fa309569c53",
-      "size_bytes": 5350
+      "git_blob_sha": "ada8cd99a130d701e643e85c521d8d93a17f4d68",
+      "size_bytes": 5663
     },
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_COMBINATIONS.md",
@@ -3798,10 +3804,16 @@
       "size_bytes": 9970
     },
     {
+      "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_SOURCE_PRIOR_ART_RECONCILIATION_V487.md",
+      "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_SOURCE_PRIOR_ART_RECONCILIATION_V487.md",
+      "git_blob_sha": "0de02c661278625bd8ee7e7262c1b78a915cdf3f",
+      "size_bytes": 3723
+    },
+    {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_TWO_METHODS_PRIMARY_SOURCE_V486.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_TWO_METHODS_PRIMARY_SOURCE_V486.md",
-      "git_blob_sha": "bb2b679cc4f6f607f2658afb7a581897a655e91b",
-      "size_bytes": 11263
+      "git_blob_sha": "89d8afa9ae9c1e6165467e6b4f72aa047bc8e05d",
+      "size_bytes": 11848
     },
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_UNIQUENESS_H6_V484.md",
@@ -4926,6 +4938,12 @@
       "size_bytes": 8974
     },
     {
+      "source_path": "tests/test_chanlun_prior_art_v487.py",
+      "mirror_path": "ChanlunCollection/tests/test_chanlun_prior_art_v487.py",
+      "git_blob_sha": "1b18c9c4d2c15a6259a94cde6e7e1576256dcf76",
+      "size_bytes": 1654
+    },
+    {
       "source_path": "tests/test_chanlun_recursive_center_333_author_reply.py",
       "mirror_path": "ChanlunCollection/tests/test_chanlun_recursive_center_333_author_reply.py",
       "git_blob_sha": "7923e27fdc85416b2ca5e9a0e542a05ee561527e",
@@ -5584,6 +5602,12 @@
       "mirror_path": "ChanlunCollection/tools/audit_chanlun_primitive_trades_prefix.py",
       "git_blob_sha": "86b63154703c824f6f4bc4906bf7a88451b1847a",
       "size_bytes": 11378
+    },
+    {
+      "source_path": "tools/audit_chanlun_prior_art_v487.py",
+      "mirror_path": "ChanlunCollection/tools/audit_chanlun_prior_art_v487.py",
+      "git_blob_sha": "103e950f4924a5cd90b62b13328d4e6a8f4ab3df",
+      "size_bytes": 2700
     },
     {
       "source_path": "tools/audit_chanlun_recursive_center_333_author_reply.py",

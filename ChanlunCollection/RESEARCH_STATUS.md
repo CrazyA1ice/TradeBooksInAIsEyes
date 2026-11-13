@@ -1,5 +1,8 @@
 # 《缠论》五卷108课｜当前研究状态与未完成关口
 
+**v4.87资料去重与真实性纠偏：** [v4.87先例审计报告](OtherVoices/speaker-unknown-001/IDEA_SOURCE_PRIOR_ART_RECONCILIATION_V487.md)发现v4.86称“新取得”的2007-07-20作者独立文早在v4.41以原新浪URL及08:26:20署时登记了双a0及类型边界，旧资料不应重复计作新来源。v4.86仍有对凯翔A087、B1a/B2/B3与H7的新论证价值。新跨版本审计与10项定向测试阻止旧来源冒充创新，人物所指历史回复、第三层、F01/OB38/OB99和行情E1—E4保持OPEN/NOT_RUN。
+
+
 **v4.86 原作者2007-07-20独立博文直接源证突破**：[严格逐笔理论递归 vs 实用分型笔段初值](OtherVoices/speaker-unknown-001/IDEA_TWO_METHODS_PRIMARY_SOURCE_V486.md)与[B1a/B2/B3及第三层H7竞争证据台账](OtherVoices/speaker-unknown-001/IDEA_B1_B2_B3_PROVENANCE_V486.md)已建立。较v4.85第54课“第二分解更方便”，此作者独立文本更直接对应凯翔A087“第一理论、第二实用”的词义，B1a追证优先级上升，但A087称第二法见**回复**，而新资料是**独立博文**，本人真正所指与B3仍未识别。H7只是跨课研究灵感，不能证实A016第三层。F01/OB38/OB99 OPEN，原82/34及5卷108课不变，行情NOT_RUN。
 
 **v4.85 源文可复核案例＋真实数据就绪审查：**[第54课d4同前缀两种合法分解、g5与g6不同上级中心确认时点](OtherVoices/speaker-unknown-001/IDEA_LESSON54_COMPETING_DECOMPOSITIONS_V485.md)与[QMT/购买Parquet/H5跨源读就绪与E1—E4数据门](OtherVoices/speaker-unknown-001/IDEA_DATA_READINESS_V485.md)已形成研究报告。原作者承认第二种分解更有操作指导，故A087第二法B2候选优先追证，但其说法“定义”与“分解”未同一来源认证。QMT项目记录沪深候选5223、私有5039通过、184隔离，不能称本轮重取行情或正式库已覆盖；所有实盘E1—E4未运行。F01/OB38/OB99仍OPEN，原82/34、五卷108课与原100答不变。
