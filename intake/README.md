@@ -44,3 +44,41 @@
 **数据质量门的重要性**：`answers-index.json` 中的 `source_sha256` 必须与既有规范原文的字节SHA精确相符，A001—A100回答ID、URL与规范原文必须逐项对应；任一不一致拒绝做映射。历史答案修改与新答案添加分开列出，不自动覆盖研究者过去的引文。第三人引用、评论区、回答后续编辑和账号平台身份需要另外的证据，不能从回答个数推断。
 
 相关合成离线测试：`python -B -m unittest discover -s intake/tests -p "test_zhihu_answer_reconcile.py" -v`。纳入现有 G0 `intake/tests` 跨平台CI扫描；它只是来源覆盖质检，并非新书解析或缠论理论突破。
+
+
+## 凯翔评论区资料：离线证据接收和增量复核（独立、只读）
+
+新增 [zhihu_comment_reconcile.py](zhihu_comment_reconcile.py)，用于将未来**用户合法取得且具备独立评论 ID 的结构化 JSON**与已固定的 A001—A100 回答索引关联。它不联网、不抓取知乎、不从回答正文伪造评论、不独立认证账号身份、不修改研究原文，也不把评论正文输出到报告。当前未提供独立评论实体导出；A094、A058、A084 仍为待获取，**不能从本轮的缺失判断平台没有评论**。
+
+输入必须是下述 UTF-8 JSON 交换格式；这**不是**任意爬虫（包括 ZHVision）的原生格式。若取得其他格式，需要先在本地明确映射字段并复核来源/评论层级，不得凭“正文提到评论”补造 ID。以下仅为**虚构格式示例，并非凯翔真实评论**：
+
+~~~json
+{
+  "schema": "tradebooks-zhihu-comments-export-v1",
+  "profile_url": "https://www.zhihu.com/people/tsk-47-98",
+  "captured_at": "2026-11-13T18:00:00+08:00",
+  "comments": [
+    {
+      "comment_id": "123456789",
+      "answer_url": "https://www.zhihu.com/question/305010512/answer/3478727755",
+      "parent_comment_id": null,
+      "author_label": "虚构示例用户",
+      "reported_author_role": "UNKNOWN",
+      "published_at": "2024-05-23T10:00:00+08:00",
+      "content": "格式示例，非任何真实用户原话"
+    }
+  ]
+}
+~~~
+
+在仓库根目录使用**一行 PowerShell**；仅输出来源哈希、A 编号、评论/父评论 ID、作者标签及正文哈希、待审状态，不把正文写到仓库：
+
+    python -B intake/zhihu_comment_reconcile.py --answers-md "other_views/chanlun/speaker-unknown-001/answers-2026-11-11.md" --answers-index "other_views/chanlun/speaker-unknown-001/answers-index.json" --incoming-json "D:\Downloads\zhihu-comments.json" --speaker-token "tsk-47-98" --output "$env:TEMP\kaixiang-comments-review.private.json"
+
+省略 --output 则只在终端输出 JSON；提供路径时只能创建此前不存在的 .private.json，禁止覆盖原输入。comment_id 必须保留导出中的原数字 ID 字符串，parent_comment_id 指向真实父评论 ID 或为 null。时间须有时区（如 +08:00）；published_at 缺失可以保留 null，但该条被阻止分配候选 C 编号直到补齐。若父评论未导出或未在旧台账中、对应回答不在现有 A 索引中，同样隔离复核；重复 ID、跨回答父子关系、循环回复、错误答帖 URL、时间晚于导出采集时点会拒绝。
+
+reported_author_role 只能是 ANSWER_AUTHOR、OTHER 或 UNKNOWN，表示**文件中的声称角色，不等于平台验证作者身份**。报告按 A094、A058、A084 优先显示本次导出的证据覆盖；EXPORTED_UNVERIFIED_NOT_RESEARCH_APPROVED 只表示本次文件有条目，NOT_OBSERVED_IN_THIS_EXPORT 只表示这次文件没观察到条目，均不证明整个知乎历史。
+
+如果日后经**人工审核**已有 C 编号台账，可传 --existing-ledger "D:\...\approved-comments.json"。其 schema 为 tradebooks-zhihu-comment-ledger-v1、speaker_token 与输入一致，comments 为批准的记录数组，每条包含 stable_id（如 C001）、comment_id、answer_ref、parent_comment_id、published_at、reported_author_role、content_sha256、author_label_sha256。工具将保留旧 C 编号，识别同 ID 文本变化、仅部分导出的缺失与新增候选；没有已批准台账时，C001+ 仅是**本次建议号，不是入库事实**。
+
+离线验证：python -B -m unittest discover -s intake/tests -p "test_zhihu_comment_reconcile.py" -v 。现有 G0 Actions 自动在 Windows/Linux、Python 3.11/3.12 执行 intake/tests；其中一项只读集成测试会用仓库真实 A001—A100 索引进行空评论导出核对，不会暴露答帖正文。
