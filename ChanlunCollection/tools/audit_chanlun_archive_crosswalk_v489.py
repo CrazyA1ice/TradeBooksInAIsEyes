@@ -51,7 +51,7 @@ def audit(catalog,root=ROOT):
         require(q_at<reply_at,"reply chronology "+key)
     for sid,(repo,path,sha,filename,cid) in SNAPSHOTS.items():
         s=snaps[sid]
-        require(tuple(s[k] for k in ("repo","path","git_blob_sha","local_filename","case_id"))==(repo,path,sha,filename,cid),"file/blob changed "+sid)
+        require(tuple(s.get(k) for k in ("repo","path","git_blob_sha","local_filename","case_id"))==(repo,path,sha,filename,cid),"file/blob changed "+sid)
         require(re.fullmatch(r"[0-9a-f]{40}",s["git_blob_sha"]) is not None,"invalid blob identifier")
         if sid.startswith("RAW_"):
             require(s["snapshot_role"]==RAW_ROLE and s["can_parse_raw_reply"] is True,"raw role inflated "+sid)
