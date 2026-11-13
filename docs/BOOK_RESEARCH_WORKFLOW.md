@@ -1,4 +1,8 @@
-# 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.81.0，2026-11-13）
+# 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.82.0，2026-11-13）
+
+## v4.82｜所有灵感的定期重新组合，而不只是继续收集
+
+对凯翔全部[82条旧灵感](../other_views/chanlun/speaker-unknown-001/IDEA_NOTEBOOK.md)和[34组旧组合](../other_views/chanlun/speaker-unknown-001/IDEA_COMBINATIONS.md)逐项审阅，生成[不遗漏映射](../other_views/chanlun/speaker-unknown-001/IDEA_82_34_COVERAGE_V482.md)与[五领域/六竞争框架重组研究](../other_views/chanlun/speaker-unknown-001/IDEA_RECOMPOSITION_MASTER_V482.md)。新增通用G-IDEA-6固定环节：定期回看每条灵感及每组组合，归并同母命题但保存不同条件，将真正冲突并列、弱候选降权，明确下一步证据以区分假说，避免把重复表达计成多份市场证据。本次没有擅自把第二中枢、第三层和“真土壤”认证为已解。
 
 ## v4.81.0｜人物原话与原作者方法论冲突、三分支后继与账户存续
 
