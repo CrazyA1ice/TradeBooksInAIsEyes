@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.94.0",
-  "source_count": 1045,
+  "workflow_version": "4.95.0",
+  "source_count": 1046,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -2636,8 +2636,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "0d772124de5c5f5d32c19ca07731ec2bb4c16dfb",
-      "size_bytes": 157449
+      "git_blob_sha": "f8a5df4d6743e1d74f31c2fc07a76bb70688f0df",
+      "size_bytes": 158862
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -3800,8 +3800,14 @@
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_COMBINATIONS.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_COMBINATIONS.md",
-      "git_blob_sha": "81b0c4fae8353b2ead8ae0cced673602b0de0fa6",
-      "size_bytes": 19430
+      "git_blob_sha": "9b523be391c8927412691851e934235e171613e1",
+      "size_bytes": 21584
+    },
+    {
+      "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_CROSS_SOURCE_COMBINATIONS_V495.md",
+      "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_CROSS_SOURCE_COMBINATIONS_V495.md",
+      "git_blob_sha": "96db15919aa584a4b9ed5e85c784b6a9d317f622",
+      "size_bytes": 6903
     },
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_DATA_READINESS_V485.md",
