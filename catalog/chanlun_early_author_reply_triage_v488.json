@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "version": "4.88.0",
+  "id": "CHANLUN-KAIXIANG-A087-EARLY-ARCHIVED-REPLY-TRIAGE-V488",
+  "researched_at": "2026-11-13",
+  "person_claim": "A087",
+  "person_post_url": "https://www.zhihu.com/question/626662382/answer/3523681743",
+  "archival_replies": [
+    {
+      "id": "FEB09_R29",
+      "reply_at": "2007-02-09 16:20:18",
+      "question_at": "2007-02-09 15:55:07",
+      "questioner": "袖手旁观",
+      "parent_context": "LESSON29_COMMENT_ARCHIVE",
+      "source_role": "ARCHIVED_ATTRIBUTED_AUTHOR_REPLY_NOT_ORIGINAL_SINA_COMMENT_BYTES",
+      "archive_url": "https://eczsc.com/replies?lesson=29",
+      "corroboration_url": "https://blog.sina.com.cn/s/blog_9e33391b0101n3v9.html",
+      "original_sina_parent_article": "https://blog.sina.com.cn/s/blog_486e105c010008la.html",
+      "reading": "BASE_INPUT_CHOICE_1MIN_THREE_BARS_VS_INDIVIDUAL_TRADE",
+      "candidates": [
+        "B1a"
+      ],
+      "no_independent_center_formula": true
+    },
+    {
+      "id": "FEB12_R52",
+      "reply_at": "2007-02-12 16:07:02",
+      "question_at": "2007-02-12 15:43:32",
+      "questioner": "温柔的股客",
+      "parent_context": "CONFUCIUS52_COMMENT_ARCHIVE_NOT_LESSON29",
+      "source_role": "ARCHIVED_ATTRIBUTED_AUTHOR_REPLY_NOT_ORIGINAL_SINA_COMMENT_BYTES",
+      "archive_url": "https://chzhshch.blog/stocks/confucius52/",
+      "corroboration_url": "https://blog.sina.com.cn/s/blog_d6c202040102xc41.html",
+      "original_sina_parent_article": null,
+      "reading": "ROOT_A0_TO_RECURSION_AN_PLUS_ONE",
+      "candidates": [
+        "B1a"
+      ],
+      "no_independent_center_formula": true
+    }
+  ],
+  "prior_evidence": [
+    {
+      "id": "MAR08_TWO_VIEWS",
+      "date": "2007-03-08 16:38:56",
+      "source_role": "PREVIOUSLY_REGISTERED_ARCHIVED_REPLY",
+      "prior_catalog": "catalog/chanlun_two_methods_archives_laohu_v438.json",
+      "locator": "https://chzhshch.blog/stocks/confucius55/",
+      "axis": "B2V_ANALYTICAL_VIEW_NOT_EQUIVALENT_TO_R"
+    },
+    {
+      "id": "MAY24_TWO_R",
+      "date": "2007-05-24",
+      "source_role": "PREVIOUSLY_REGISTERED_AUTHOR_LESSON",
+      "prior_catalog": "catalog/chanlun_second_method_disambiguation_v439.json",
+      "locator": "https://eczsc.com/originals/54",
+      "axis": "B2R_LEGAL_PARTITION_POLICY_NOT_EQUIVALENT_TO_VIEW"
+    },
+    {
+      "id": "JUL20_TWO_A0",
+      "date": "2007-07-20 08:26:20",
+      "source_role": "PREVIOUSLY_REGISTERED_AUTHOR_INDEPENDENT_POST",
+      "prior_catalog": "catalog/chanlun_20070720_dual_a0_original_post_v441.json",
+      "locator": "https://blog.sina.com.cn/s/blog_486e105c01000bs4.html",
+      "axis": "B1a_TWO_INITIALIZATION_PATHS_NOT_A_REPLY"
+    }
+  ],
+  "candidate_taxonomy": [
+    {
+      "id": "B1a",
+      "changes": "LOWEST_BASE_A0_F1",
+      "reply_evidence": [
+        "FEB09_R29",
+        "FEB12_R52"
+      ],
+      "identification": "CANDIDATE_ONLY"
+    },
+    {
+      "id": "B2V",
+      "changes": "ANALYTICAL_VIEW_a_PLUS_B_PLUS_b_VS_CENTER_OSCILLATION",
+      "reply_evidence": [
+        "MAR08_TWO_VIEWS"
+      ],
+      "identification": "CANDIDATE_ONLY"
+    },
+    {
+      "id": "B2R",
+      "changes": "LEGAL_DECOMPOSITION_POLICY_R",
+      "reply_evidence": [
+        "MAY24_TWO_R"
+      ],
+      "identification": "CANDIDATE_ONLY"
+    },
+    {
+      "id": "B3",
+      "changes": "POSSIBLE_UNDISCOVERED_INDEPENDENT_CENTER_AXIOM",
+      "reply_evidence": [],
+      "identification": "NO_SOURCE"
+    }
+  ],
+  "provenance_limit": {
+    "archive_author_marker_not_historical_source_authentication": true,
+    "exact_historical_sina_comment_bytes_verified": false,
+    "kaixiang_explicitly_identified_one_of_these_replies": false,
+    "laohu_complete_edition_bytes_reviewed": false,
+    "source_replies_prove_second_independent_center_axiom": false,
+    "source_replies_certify_finished_movement": false,
+    "market_experiment_run": false
+  },
+  "gates": [
+    "A087_REFERENT_OPEN",
+    "A016_THIRD_LAYER_OPEN",
+    "F01_OPEN",
+    "OB38_OPEN",
+    "OB99_OPEN",
+    "E1_E4_NOT_RUN"
+  ],
+  "report_path": "other_views/chanlun/speaker-unknown-001/IDEA_2007_FEB_EARLY_REPLY_TRIANGULATION_V488.md",
+  "prior_art_v487": "catalog/chanlun_source_novelty_v487.json"
+}
