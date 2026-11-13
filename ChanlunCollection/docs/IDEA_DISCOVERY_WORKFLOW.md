@@ -1,5 +1,15 @@
 # 通用模块 G-IDEA｜灵感发掘、自由拼接与跨作者研究
 
+## G-IDEA-22｜历史行情数据有商品页 ≠ 已取得并复算过原作者案例；先分开时间戳与分解规则（v4.98）
+
+涉及交易书中**历史具体日期的分时图**，给每个供应商网页单独定义`CANDIDATE_ONLY`：页面写2007年1m、给出SKU/样例/API/链接，仅证明**找到可能供应链**，不证明此标的此年月的真实数据实际可导出、版权使用合规、字段能映射、行情质量过关。必须先有`ACTUAL_BYTES_OBTAINED + SHA256 + INDEX_SYMBOL_MATCH + TIME_GRID_AUDITED + PER_DAY_COVERAGE + OHLC_CROSS_SOURCE_CHECK`才可升级`SOURCE_DATA_VERIFIED`；还需独立走势合法成员、背驰与排除证书才能升级`TRADING_THEORY_CASE_REPLAY_VERIFIED`。不可用没有数据的程序示意图、2025年样例、商家“1991年起”广告或SSE另售分钟K产品来替代2007年上证1m实物。
+
+**明确品种防串线**：上证综指可以在不同来源写`sh000001`,`SH000001`,`000001.SH`,`XSHG,000001`，而`000001.SZ`是股票平安银行；必须从**供应商自己的交易所字段与指数名称**确认，不单凭裸码。
+
+**五分钟差异双检**：当历史原作者标`10:05`而后来研究者同图标`10:10`，相差一个5分钟桶不证明其中一个理论错误。先用**同一原始分钟数据**检查`bar_timestamp_convention=interval_start|interval_end`是否只是单步平移且OHLC和构件身份保持同一；若不成立，再在**同一已对齐数据、政策显式固定**时检查(a0/f1,R,g)改变导致的真实结构分段分歧。原图另提价格低点差异时，不能只做字符串时间+5分钟就结束。没有2007字节时两者都`NOT_TESTABLE_YET`，不能根据文字相似声称已找到答主所指第二公理。严格分离G-IDEA-21历史作者发表时钟、G-IDEA-20排除全称条件、本门的数据输入语义。
+
+[完整2007年上证指数1m供应商候选D1—D6及KX-C40](../other_views/chanlun/speaker-unknown-001/IDEA_20070206_MINUTE_DATA_SOURCE_TRIAGE_AND_POLICY_FORK_V498.md)给出可复核的公开URL与不采购、不执行未知FoxTrader程序的边界；其中预测者单年2007指数1m CSV（页面当时显示30元）、准数据2005+指数分钟CSV、智兔API Pro完整指数历史年片、WStock旧5m/1m、原上交所信息历史数据产品和旧飞狐2007教学数据包**均未取得实际所需历史数据**。此类线索属于数据源研究，不能据其数量夸大交易理论本身取得证明。
+
 ## G-IDEA-21｜老作者历史案例必须同时冻结“事件时钟/可知时钟/作者说出时钟/后编者版本”（v4.97）
 
 严禁把**原作者某天晚间回帖中标注的历史中枢时间窗末点**当作当日行情的**实时首次可知时刻**。必须分列：`market_event_at`、`structure_first_known_at`（需原始行情、合格成员完成及公开政策）、`author_statement_at`（只能证明署时文献中陈述出现过）、`editorial_reanalysis_at`（后编者/后研究者新定义或重画），并为每段冻结`source_role, original_parent_article, author_vs_questioner, g, R, f1, core_vs_DD, source_url, first_known_proof_status`。
