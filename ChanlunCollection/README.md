@@ -1,5 +1,7 @@
 # ChanlunCollection｜《缠论》五卷108课完整研究档案
 
+**最新人物研究 v4.82**：[凯翔82条＋34组全量重组总论](OtherVoices/speaker-unknown-001/IDEA_RECOMPOSITION_MASTER_V482.md) · [全部旧编号完整追踪表](OtherVoices/speaker-unknown-001/IDEA_82_34_COVERAGE_V482.md)。五大研究领域、六套竞争模型，旧原文与旧灵感不删除。
+
 **研究灵感入口（v4.78）**：[凯翔48条](OtherVoices/speaker-unknown-001/IDEA_NOTEBOOK.md) · [14种拼接](OtherVoices/speaker-unknown-001/IDEA_COMBINATIONS.md) · [跨作者汇聚](OtherVoices/IDEA_CROSS_AUTHOR_INDEX.md) · [G-IDEA阅读法](docs/IDEA_DISCOVERY_WORKFLOW.md)。
 
 **同轮补充第101课**：作者直接阐述“走势必完美”的递归唯一分解，并称a0可多种设计但不损唯一性证明。不同a0各自唯一**不意味着**输出必须一致；而既然第101课已明说唯一分解，就不能未经凯翔本人认可把这句话冒充其所谓“第三层没明总结”。[报告新增第七节](deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_LESSONS_98_100_LIVE_MULTILEVEL_STATE_TREE_V462.md)。

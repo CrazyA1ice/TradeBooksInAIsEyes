@@ -1,5 +1,7 @@
 # 《缠论》五卷108课｜当前研究状态与未完成关口
 
+**v4.82 凯翔全量重组（不是原理证成）：**[82条I和34组C逐编号完整对照](OtherVoices/speaker-unknown-001/IDEA_82_34_COVERAGE_V482.md)及[五大领域G1—G5、六竞争架构S1—S6的深度总论](OtherVoices/speaker-unknown-001/IDEA_RECOMPOSITION_MASTER_V482.md)已建立。重复母命题归并、相反路线保留竞争、弱解释降权；新加通用G-IDEA-6定期全量重组。凯翔A087第二法、A016第三层仍未获公开完整定义，F01/OB38/OB99 OPEN，行情NOT_RUN。
+
 **查询时点：** 2026-11-12。研究稿已覆盖五卷第1—108课；当前收据以GitHub主分支及[本书逐课逻辑地图](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_LOGIC_MAP.md)、[来源索引](deliverables/chanlun_108_acceptance/00_REVIEW/WHOLE_BOOK_108_SOURCE_ATLAS.md)为准。**研究覆盖完成不等于全部数学证明完成。**
 
 **v4.81.0 第四轮人物研究：**[个人82条灵感](OtherVoices/speaker-unknown-001/IDEA_NOTEBOOK.md)、[34组组合](OtherVoices/speaker-unknown-001/IDEA_COMBINATIONS.md)、[第27/29/30/31课对照专题](OtherVoices/speaker-unknown-001/IDEA_DEEP_DIVE_V481.md)已完成：凯翔“人心—资金”的因果解释与第30课纯价格轨迹方法存在真实张力；第29课趋势背驰的三类后继可用于条件式状态树，但不等于每次会强反转；第31课资金生存提醒图形正确不保证账户存续。A016第三层仍是开放假说。新增未来跨人物T14—T16问题，不声称已有他人共识；F01/OB38/OB99 OPEN、行情NOT_RUN。
