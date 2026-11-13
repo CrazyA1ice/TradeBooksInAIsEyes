@@ -1,4 +1,6 @@
-# ChanlunCollection｜本书实施工作流 v4.95.0
+# ChanlunCollection｜本书实施工作流 v4.96.0
+
+**v4.96 A026“分类排除”深读与KX-C38：** [作者第29课首弹未入中枢的非绝对弱路径线索/20070206回入中枢的个案条件排除、38课R分域、99课中阴](OtherVoices/speaker-unknown-001/IDEA_A026_EXCLUSION_CERTIFICATES_AND_SCOPE_V496.md)。G-IDEA-20要求冻结Q（趋势背驰等前提）、前缀P(t)、中心核心/震荡DD、g/R、完成/首知及合法未来补全域；“无三买”不可推扩展已否定，同级政策根本不定义扩展则OUT_OF_SCOPE_FOR_R。9例含条件声称而非实盘强证，C37→C38，I82不改；A016/A087 UNKNOWN、F01/OB38/OB99 OPEN、E1—E4 NOT_RUN。
 
 **v4.95｜研究主线：知乎原话×缠论作者原课×有反例的灵感组合。** [C35—C37源证报告](OtherVoices/speaker-unknown-001/IDEA_CROSS_SOURCE_COMBINATIONS_V495.md)以A062/A071/A087、A026/A073/A099、A022/A075/A074为原话，回到第17/29/31/38/60/63/72/84/99课的作者正文及已登记PDF页码。原I仍82，原C01—C34不变，新C35“线段语义类型桥”、C36“缺证不等于反证”、C37“胜率不等于净期望”，现37组。增加通用G-IDEA-19来源→旧I/C→新增逻辑→反例→未证关口；没有新原评论/老虎版/行情，不认证A087、A016及F01/OB38/OB99，市场NOT_RUN。
 
