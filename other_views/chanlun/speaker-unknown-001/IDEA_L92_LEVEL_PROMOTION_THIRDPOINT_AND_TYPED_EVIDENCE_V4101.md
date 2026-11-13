@@ -6,7 +6,7 @@
 
 ### 第92课的三个同时出现的原作者断言
 
-[第92课正文“中枢震荡的监视器”](https://chanlun108.cn/chanzhongshuochan108ke/92)，对应本项目[PDF限定阅读卡](../../../../analyses/books/chanlun/chapters/lesson_092.md)：
+[第92课正文“中枢震荡的监视器”](https://chanlun108.cn/chanzhongshuochan108ke/92)，对应本项目[PDF限定阅读卡](../../../analyses/books/chanlun/chapters/lesson_092.md)：
 
 1. 作者谈**中枢震荡最终将以“某级别”的第三类买卖点结束**，不是把当前观察的中枢ID、级别g和时间t全部具体化。
 2. 对中枢区间`[A,B]`设中轴`Z=(A+B)/2`；对第n个**次级震荡区间**`[a_n,b_n]`设`Z_n=(a_n+b_n)/2`。作者称`Z_n`最终将越过A或B，但又明确说：**`Z_n`越界不充分证明第三买卖点成立**，有时可反复越界；未成第三点的越界“通常”伴随中心级别扩展，他**未把概率说成100%**。
