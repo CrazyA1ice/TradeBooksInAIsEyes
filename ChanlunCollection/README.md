@@ -1,5 +1,7 @@
 # ChanlunCollection｜《缠论》五卷108课完整研究档案
 
+**最新v4.86人物研究**：[新发现原作者2007-07-20关于两种理论/实用初值的直接比较](OtherVoices/speaker-unknown-001/IDEA_TWO_METHODS_PRIMARY_SOURCE_V486.md) · [B1a/B2/B3及H7的竞争、证据归属与反证](OtherVoices/speaker-unknown-001/IDEA_B1_B2_B3_PROVENANCE_V486.md)。该独立博文不是原作者老虎版的具体评论，A087本人所指仍未认证；研究为源文级，市场NOT_RUN。
+
 **最新v4.85**：[凯翔第54课两种分解/首知竞争的具体文本证据](OtherVoices/speaker-unknown-001/IDEA_LESSON54_COMPETING_DECOMPOSITIONS_V485.md) · [QMT/Parquet/H5真实来源就绪审查](OtherVoices/speaker-unknown-001/IDEA_DATA_READINESS_V485.md)。有分钟价量候选不等于理论与行情已经经过真实回测；本轮不触碰付费行情。
 
 **最新v4.84人物研究**：[第101/54课与第三层H6新候选](OtherVoices/speaker-unknown-001/IDEA_UNIQUENESS_H6_V484.md) · [E1—E4事前注册与负对照方案](OtherVoices/speaker-unknown-001/IDEA_PREREGISTRATION_V484.md)。真实市场/收益NOT_RUN，不替凯翔补写未披露的方法。
