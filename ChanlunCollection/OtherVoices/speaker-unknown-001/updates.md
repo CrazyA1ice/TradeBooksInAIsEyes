@@ -1,5 +1,12 @@
 # speaker-unknown-001｜修订与溯源日志
 
+## 2026-11-13｜v4.91：第70课作者回复错归属实证与原文章宿主门
+
+- 比较`stockServ`第70课零UID、`fangj/chan`第70课真实host评论区块零条、`GtXin/TDS`第70课附编评论后发现两条**确实跨宿主**问答：2007-08-13 21:56:16“深潜江湖”真实位于《41与1》原样式档（8月13日21:26:14发表），更比第70课发表还早；2007-08-16 15:50:48“新浪网友”真实位于《全球化，没有市场可与世隔绝》原样式档（8月16日15:41:56发表）。
+- 第70课本身发表时间2007-08-15 22:41:35，旧HTML`class="divReplyIsHostTrue"`实际区块数为0，但该快照零仍不证明原新浪服务器历史总体零评论。另一整理版按相关知识主题拼接合理，却应标注`original_parent_article`和`editorial_location`；不可将两条算作第70课原始评论覆盖。
+- 新增[研究报告](IDEA_L70_CROSS_ARTICLE_COMMENT_HOST_AUDIT_V491.md)、`catalog/chanlun_l70_comment_host_adjudication_v491.json`、`tools/audit_chanlun_l70_comment_hosts_v491.py`、26项合成旧式HTML反例及G-IDEA-15。老虎版全文与凯翔A087确切指认仍未取得，原108课/100答/证据卡不改，F01/OB38/OB99 OPEN，E1—E4 NOT_RUN。
+
+
 ## 2026-11-13｜v4.90：实扫108个课程文件、953条作者UID留言与版本差异自动入口
 
 - 以已登记的`stockServ/chzhshch-108-plus`上游固定commit `d2a87d5bd9c84baac2918edca668b9f82a20be52`为版本冻结，逐文件读取108篇编号课程MD；另外5个附属文件未纳入课程分母。提取2,541个UID格式评论、953个UID=`1215172700`且昵称=`缠中说禅`的署时条目（58/108课）；第61—108课有45课无作者UID匹配，说明**此整理版回复覆盖不能被假设完整**。

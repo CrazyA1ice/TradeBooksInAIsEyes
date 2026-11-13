@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "version": "4.91.0",
+  "id": "CHANLUN-L70-MISATTRIBUTED-REPLY-HOST-PROVENANCE-V491",
+  "date": "2026-11-13",
+  "research_scope": "THIRD_PARTY_ARCHIVED_TEXT_CROSS_ARTICLE_REPLY_HOST_NOT_INDEPENDENT_2007_SINA_SERVER_BYTES",
+  "lesson70": {
+    "id": "L70",
+    "published_at": "2007-08-15 22:41:35",
+    "article_title": "教你炒股票70：一个教科书式走势的示范分析",
+    "archival_raw": {
+      "repo": "fangj/chan",
+      "path": "raw/sina_blog/chan_fenlei/jiaonichaogupiao/681.html",
+      "git_blob_sha": "d0b0891704a0b1c1c561ad87d5510dd73ed7f1ad",
+      "article_datetime": "2007/8/15 22:41:35",
+      "exact_host_reply_div_count": 0
+    },
+    "baseline": {
+      "repo": "stockServ/chzhshch-108-plus",
+      "path": "108/0637-486e105c01000c86-070.md",
+      "git_blob_sha": "ffed7ff2175af35b55e9318ce2f428f8737fa305",
+      "uid_reply_count": 0,
+      "reference": "catalog/chanlun_108_author_uid_reply_baseline_v490.json"
+    },
+    "editor_compilation": {
+      "repo": "GtXin/TDS",
+      "path": "references/chan_theory/070.md",
+      "git_blob_sha": "fc4e936b515de4c0e28bb5f7ba1182813fd29ff0",
+      "source_role": "EDITION_WITH_TRANSPLANTED_CROSS_ARTICLE_AUTHOR_ATTRIBUTED_REPLIES"
+    }
+  },
+  "actual_reply_hosts": [
+    {
+      "id": "AUG13_215616",
+      "author_at": "2007-08-13 21:56:16",
+      "questioner": "深潜江湖",
+      "question_at": "2007-08-13 21:40:22",
+      "parent_article_title": "41与1，本ID对二级市场兴趣已失",
+      "parent_published_at": "2007-08-13 21:26:14",
+      "raw": {
+        "repo": "fangj/chan",
+        "path": "raw/sina_blog/chan_fenlei/shizhengjingji/584.html",
+        "git_blob_sha": "ac9e3b569cfdf5fc4a9ca49f21e51c9ebe84bfbd",
+        "host_reply_time": "2007/8/13 21:56:16"
+      },
+      "appears_in_editorial_l70": true,
+      "may_belong_to_l70_original_comment_host": false,
+      "why": "REPLY_PREDATES_L70_PUBLICATION_AND_HOST_ARTICLE_DIFFERS",
+      "theoretical_role": "DISCUSSION_OF_FEATURE_SEQUENCE_NOT_SECOND_CENTER_AXIOM"
+    },
+    {
+      "id": "AUG16_155048",
+      "author_at": "2007-08-16 15:50:48",
+      "questioner": "新浪网友",
+      "question_at": "2007-08-16 15:45:17",
+      "parent_article_title": "全球化，没有市场可与世隔绝",
+      "parent_published_at": "2007-08-16 15:41:56",
+      "raw": {
+        "repo": "fangj/chan",
+        "path": "raw/sina_blog/chan_fenlei/shizhengjingji/680.html",
+        "git_blob_sha": "06ffc2f7781e8e15725cf63621fbcb8dbdd48a81",
+        "host_reply_time": "2007/8/16 15:50:48"
+      },
+      "appears_in_editorial_l70": true,
+      "may_belong_to_l70_original_comment_host": false,
+      "why": "SEPARATE_AUG16_POST_REPLY_HAS_DISTINCT_PARENT",
+      "theoretical_role": "DISCUSSION_OF_PEN_AND_SEGMENT_CONDITIONS_NOT_SECOND_CENTER_AXIOM"
+    }
+  ],
+  "secondary_crosschecks": [
+    {
+      "repo": "gavfu/chzhshch-blog-site",
+      "path": "stocks/070/index.html",
+      "git_blob_sha": "1fb18eb52e55eaeb424fe849250a568606ec1ab0",
+      "kind": "L70_RENDERED_HTML_NO_TWO_TRANSPLANTED_REPLY_TIMES"
+    },
+    {
+      "repo": "gavfu/chzhshch-blog-site",
+      "path": "stocks/41vs1/index.html",
+      "kind": "AUG13_PARENT_RENDERED_ARCHIVE"
+    },
+    {
+      "repo": "gavfu/chzhshch-blog-site",
+      "path": "stocks/20070816/index.html",
+      "git_blob_sha": "7c9e5995455abddf15da4053d14ac885cbbe7536",
+      "kind": "AUG16_PARENT_RENDERED_ARCHIVE"
+    }
+  ],
+  "archive_counterexample": {
+    "same_lesson_heading_does_not_imply_same_comment_host": true,
+    "same_author_label_does_not_imply_historical_original_identity": true,
+    "text_archived_under_course_does_not_mean_original_course_comments": true,
+    "canonical_source_keeps_no_UID_matching_l70_correct_for_that_source": true,
+    "do_not_merge_transplanted_replies_into_l70_same_host_count": true,
+    "transcript_crosspost_can_be_useful_commentary_when_labeled": true
+  },
+  "false_claim_guards": {
+    "original_2007_sina_comment_bytes_authenticated": false,
+    "gtXin_collection_proven_firsthand_or_independently_sourced": false,
+    "all_15_transcribed_author_blocks_proven_distinct_original_hosts": false,
+    "lesson70_original_total_reply_count_proven_zero": false,
+    "laohu_full_document_obtained": false,
+    "laohu_compared_against_108_baseline": false,
+    "kaixiang_A087_identified_second_method": false,
+    "market_real_data_backtest_run": false
+  },
+  "frontier": {
+    "A087": "OPEN",
+    "A016": "OPEN",
+    "F01": "OPEN",
+    "OB38": "OPEN",
+    "OB99": "OPEN",
+    "E1_E4": "NOT_RUN"
+  },
+  "report": "other_views/chanlun/speaker-unknown-001/IDEA_L70_CROSS_ARTICLE_COMMENT_HOST_AUDIT_V491.md"
+}
