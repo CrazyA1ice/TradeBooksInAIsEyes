@@ -1,4 +1,7 @@
-# ChanlunCollection｜本书实施工作流 v4.92.0
+# ChanlunCollection｜本书实施工作流 v4.93.0
+
+**v4.93直接回到A087“两种中枢定义”指认：** [四候选逐源分流与数值反例](OtherVoices/speaker-unknown-001/IDEA_A087_TWO_CENTER_DEFINITION_CANDIDATE_FALSIFICATION_V493.md)对照2024凯翔A087、2025老虎版推荐答、原作者第20/35/63/72课及2019第三方另一作者的“两种画法”。其中H01回升/回调是形成方向；H02逐笔严格递归与图表分型—笔—线段是不同构造/操作入口；H03外部作者“上—下—上中段全部即三段交集”被严格区间反例`0→10→4→8`驳斥其普遍性；H04有无另一个独立原作者中枢定义公式依然无确证原回复。G-IDEA-17+37项负例与数学/来源校验，不混淆文献层级或未获取老虎版；E1—E4 NOT_RUN。
+
 
 **v4.92完整评论署时归宿主复核：** [第70课编者附录16处作者名下问答全部归位](OtherVoices/speaker-unknown-001/IDEA_L70_COMPLETE_EDITORIAL_REPLY_TIME_ROLES_V492.md)：14条8月16日署时与《全球化》raw风格HTML作者host区块匹配、1条8月13日署时来自《41与1》；第16处竟将2007-07-31 16:10:56网友旧问题放在作者名下，实际7月31日作者回答是16:14:47、8月16日引用旧问答的新答为15:58:06。新增第4篇《完美的震荡制造完美的月线收盘》原宿主证据和G-IDEA-16，分清`quoted_question_at`、`original_author_at`与`editorial_location`；32项合成回归测试，未获老虎版/凯翔A087指认，E1—E4 NOT_RUN。
 
