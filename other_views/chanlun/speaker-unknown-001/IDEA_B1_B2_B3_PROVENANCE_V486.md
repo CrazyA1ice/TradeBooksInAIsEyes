@@ -1,5 +1,8 @@
 # v4.86｜第二方法B1a/B2/B3与第三层H2/H6/H7：文献来源角色与反证台账
 
+> **v4.87来源去重：** B1a所引2007-07-20作者独立博文不是v4.86新取得的来源，仓库v4.41已经登记原新浪URL、发布时间和双a0命题。新颖之处是重新比较凯翔A087的B1a与B2合法R，保留B3待证；详见[跨版本审核](IDEA_SOURCE_PRIOR_ART_RECONCILIATION_V487.md)。
+
+
 2026-11-13。此表只回答“**原文支持哪种区别**”，不排序交易胜率，不声称已取得老虎版完整回复。主研究[原作者两路径历史核对](IDEA_TWO_METHODS_PRIMARY_SOURCE_V486.md)，旧[第54课实用双分解](IDEA_LESSON54_COMPETING_DECOMPOSITIONS_V485.md)、[唯一三量词](IDEA_UNIQUENESS_H6_V484.md)。
 
 ## 研究竞争矩阵

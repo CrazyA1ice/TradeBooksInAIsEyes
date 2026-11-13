@@ -1,4 +1,7 @@
-# ChanlunCollection｜本书实施工作流 v4.86.0
+# ChanlunCollection｜本书实施工作流 v4.87.0
+
+**v4.87来源历史去重：** [证据复用纠正报告](OtherVoices/speaker-unknown-001/IDEA_SOURCE_PRIOR_ART_RECONCILIATION_V487.md)核实v4.86称“新取得”的2007-07-20原作者博文，已由v4.41在原新浪域名以08:26:20精确署时登记。新贡献是旧资料的凯翔A087 B1a/B2/B3假说比较而非新发现。新增 G-IDEA-11、原始登记/现有研究跨版本审计合同和10项回归测试；A087确切回复、A016第三层、F01/OB38/OB99及E1—E4仍OPEN/NOT_RUN。
+
 
 **v4.86原作者独立文本新证据**：[2007-07-20严格逐笔递归与实用分型笔段初值对比](OtherVoices/speaker-unknown-001/IDEA_TWO_METHODS_PRIMARY_SOURCE_V486.md)、[凯翔B1a/B2/B3及H7假说源角色台账](OtherVoices/speaker-unknown-001/IDEA_B1_B2_B3_PROVENANCE_V486.md)。第17/35/38/54/65/84/101课时间顺序表支持B1a“理论—实用初值差别”的文字关联优先于B2“合法R双分解”，但凯翔仍称原作者“回复”，独立博文不等于回复，真实所指未解决。通用G-IDEA-10已加历史源追证；旧82/34、原5卷108课及市场NOT_RUN不变。
 
