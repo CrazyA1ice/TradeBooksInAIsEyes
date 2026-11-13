@@ -1,4 +1,6 @@
-# ChanlunCollection｜本书实施工作流 v4.99.0
+# ChanlunCollection｜本书实施工作流 v4.100.0
+
+**v4.100 A016第三层原文消重与C43/C44：** [第17课“终要完成”与第18课“可延伸到无穷”的合法未来量词域，第17课“后继另两型”与第38课同级“盘整+盘整”的语义叉](OtherVoices/speaker-unknown-001/IDEA_A016_THIRD_LAYER_TEMPORAL_MODAL_SCOPE_AND_SOURCE_SATURATION_V4100.md)。第17课本人正文只明确两个不可分割方面，故不能把第29/99课已明说的三分支/高级中枢或第84/101课已明说的唯一性冒认A016未披露第三层。新增C43的L最终完成/U任意久未完/I永不完成三种模态及极限封闭性前提；C44下一类型候选集合≠一条市场路径同时发生两种类型；固定R与新对象身份必须分开。G-IDEA-24只供纯理论证据审核；I82、C44，A016/A087仍UNIDENTIFIED，F01/OB38/OB99 OPEN、E1—E4 NOT_RUN，D1—D6数据入口PARKED_FOR_LATER。
 
 **v4.99纯理论主线：** 用户要求保留历史分钟数据实证入口、暂不接入，把精力放在[凯翔A026/A099与第29课共同条件行动C41、A062/A087与第38/54/84/99课跨分解共识量词C42](OtherVoices/speaker-unknown-001/IDEA_A026_CLASSIFICATION_ACTION_NONIMPLICATION_AND_POLICY_CONSENSUS_V499.md)。类别未唯一可有共同条件方案；类别即使唯一也不推出当下盈利动作；∀R∃a≠∃a∀R且跨R先校对语义，虚构中心阈值示例不冒认第20课真三买。旧I82保留，C40→C42；旧v4.95 C37原答源编号已更正：**A021圣杯、A022土壤**。G-IDEA-23继续实质组合；历史实证D1—D6现为PARKED_FOR_LATER，不采购、不下载、不运行E1—E4；A016/A087/F01/OB38/OB99 OPEN。
 
