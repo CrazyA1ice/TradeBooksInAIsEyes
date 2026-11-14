@@ -1,5 +1,9 @@
 # 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.101.0，2026-11-13）
 
+## M53｜第35课作者示例的重括号价格交集单向包含，不得越级签发第20课证明（2026-11-14）
+
+[完整M53](../other_views/chanlun/speaker-unknown-001/IDEA_M53_L35_REBRACKETED_PRICE_RANGE_MONOTONICITY_AND_L20_PHI.md)在第35课明确的`a+B+b=(a+B1)+B2+(B3+b)`构造骨架上给出局部定理：若连接段价区取组成成员包络，则`J_raw=B1∩B2∩B3 ⊆ J_grp=Range(a+B1)∩B2∩Range(B3+b)`，逆向不成立；有合成例子显示由空变单点、由[3,4]扩大为[1,6]。真实成员资格仍须外部完成证据，不能据算术断定“更可靠中枢”或认证凯翔A087方法。特别是L35有一内部中心B而L20要求**两个**连续同级中心及其外围；`Φ35_example`不能自动当`Φ20`。新增11组[输入案例](../catalog/chanlun_l35_rebracketing_monotonicity_m53.json)、[核查](../tools/audit_chanlun_l35_rebracketing_m53.py)及14项[回归](../tests/test_chanlun_l35_rebracketing_m53.py)，保持I82/C46/v4.101.0、A016/A087/F01/OB38/OB99 OPEN、E1–E4 NOT_RUN。
+
 ## M52｜已证明的L20有限Z段包络引理与仍缺的L18/35跨级构件映射（2026-11-14）
 
 [正式报告](../other_views/chanlun/speaker-unknown-001/IDEA_M52_L20_L35_FINITE_Z_UNION_AND_PROMOTION_WITNESS_GAP.md)：第20课冻结核`K=I1∩I2`、有限合法同R已完成Z段均与K相交，可以严格推导Z区间并集连通且等于[DD,GG]；两合格中心的Z包络区间重叠当且仅当存在跨中心Z成员区间交叠。若混入不触核的“假延伸”，可出现包络交却无任意成员相交的纯数值负例。[结构化台账](../catalog/chanlun_l20_l35_finite_z_envelope_bridge_m52.json)与[10条小测试](../tests/test_chanlun_l20_l35_finite_z_bridge_m52.py)只验证闭区间算术/未来屏蔽/同R门，不解析真实价格。L20对**任何瞬间外围波动**的定理范围仍待对应到Z集合；L18/35三完整g走势、递归构造`Φ`与高中心身份/首知仍OPEN。原I82/C46/v4.101、F01/OB38/OB99、A016/A087状态不变，市场NOT_RUN。

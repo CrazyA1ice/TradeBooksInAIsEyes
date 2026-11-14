@@ -1,5 +1,10 @@
 # 《缠论》研究步骤与工作流修订记录
 
+## 2026-11-14｜M53：第35课a+B+b真正给出的重括号骨架与价格区间扩张的单向关系
+
+- [正式研究](OtherVoices/speaker-unknown-001/IDEA_M53_L35_REBRACKETED_PRICE_RANGE_MONOTONICITY_AND_L20_PHI.md)复核第35课的具体式子`(a+B1)+B2+(B3+b)`。原B三段价区交集包含在重组后价区交集中，证明使用连接取包络的区间单调性；**逆向不真**：虚构`B1=[0,2],B2=[3,4],B3=[6,8]`无公共交集，补`a=[2,3.5],b=[3.5,6]`后重组三段交于3.5；另组`[3,4]→[1,6]`显示非空交集也可严格扩大。数字不构成真实连续价序或合法已完成走势。
+- 本期关键缺口进一步定位为`Φ35`仅是作者书写**单个B**内部的组合骨架，而第20课`Φ20`输入有两个连续合法g中心；未取得可追原子数据的三个独立完成g走势/时点/对象ID。不能借L35结合律直接宣称L20双向定理已构造证明。11组[JSON](catalog/chanlun_l35_rebracketing_monotonicity_m53.json)/[Python](tools/audit_chanlun_l35_rebracketing_m53.py)/[14项测试](tests/test_chanlun_l35_rebracketing_m53.py)在无行情状态下回归。I82/C46/v4.101不变，A016/A087/F01/OB38/OB99 OPEN、E1–E4 NOT_RUN。
+
 ## 2026-11-14｜M52：两中心合格Z包络交与成员交的等价引理，分离三完整g走势所需的`Φ`
 
 - [研究稿](OtherVoices/speaker-unknown-001/IDEA_M52_L20_L35_FINITE_Z_UNION_AND_PROMOTION_WITNESS_GAP.md)严格证明：有限闭Z段`I1∩I2=K`、其余各触K，则`∪I_i=[min d_i,max g_i]=[DD,GG]`。于是两中心各自满足该资格时，其Z外围包络交等价于存在具体跨中心Z成员价区交。A核[10,12]、B核[16,18]的合格人工成员包络交[13,14]可指出具体成员；虚假离核段[20,22]则造成包络假交。边界一点交、异R、未来成员、假初始核均有合成负例检查。

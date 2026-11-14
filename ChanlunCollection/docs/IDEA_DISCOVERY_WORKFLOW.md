@@ -1,5 +1,9 @@
 # 通用模块 G-IDEA｜灵感发掘、自由拼接与跨作者研究
 
+## G-IDEA-M53｜重括号的价格范围可严格单向放宽，但不能证明走势完成或新高中心（2026-11-14）
+
+[来源已标的M53区间形式证明](../other_views/chanlun/speaker-unknown-001/IDEA_M53_L35_REBRACKETED_PRICE_RANGE_MONOTONICITY_AND_L20_PHI.md)：原作者第35课明确给`a+B+b=a+B1+B2+B3+b=(a+B1)+B2+(B3+b)`。若只定义已给成员的连接价区等于区间包络，则`B1∩B2∩B3 ⊆ Range(a+B1)∩B2∩Range(B3+b)`；严格放宽甚至原交集空而新交集非空均可，但这**只是集合论**，与合法已完成g走势、中心对象资格及asof时间是不同证明层。作者文字例包含单一内层B，不能填第20课两合法连续g中心的`Φ20`。11组[冻结JSON](../catalog/chanlun_l35_rebracketing_monotonicity_m53.json)与14条[小测试](../tests/test_chanlun_l35_rebracketing_m53.py)拒绝异源、异R、错序、未完成声明、未来数据和重名组成单位；即使数学通过也强制`higher_center_authenticated=false`。消重v4.40/v4.53/v4.60/M52，I82/C46/v4.101.0、F01/OB38/OB99、A016/A087仍OPEN。
+
 ## G-IDEA-M52｜外围区间“包络交”必须先证明Z成员触核连通，跨层再查完成证书（2026-11-14）
 
 [M52原文及有限集合论证明](../other_views/chanlun/speaker-unknown-001/IDEA_M52_L20_L35_FINITE_Z_UNION_AND_PROMOTION_WITNESS_GAP.md)：L20冻结核心K是初始同向Z段交集；其余有限闭Z成员若全部`I_i∩K≠∅`且截至asof均合格，`∪I_i=[DD,GG]`，两个分别满足资格门的Z并集/包络相交等价于存在跨中心合格Z区间对相交。离核成员混入包络会造成数学假交。此局部结果**不能**把作者“任何瞬间外围波动”完整替换为同向Z，也不能把两中心价区重叠冒充L18/35三完整g级走势的构造`Φ`与首次可知证书。冻结7组数学示例[JSON](../catalog/chanlun_l20_l35_finite_z_envelope_bridge_m52.json)及10条[回归](../tests/test_chanlun_l20_l35_finite_z_bridge_m52.py)；旧v4.33/v4.61/M51不重计。A087/F01/OB38/OB99 OPEN，市场NOT_RUN。
