@@ -1,5 +1,9 @@
 # 《缠论》五卷108课｜当前研究状态与未完成关口
 
+## 2026-11-14｜M52：L20有限闭Z价区包络桥完成，L20↔L18/35构造等价证明仍OPEN
+
+[研究报告](OtherVoices/speaker-unknown-001/IDEA_M52_L20_L35_FINITE_Z_UNION_AND_PROMOTION_WITNESS_GAP.md)与[7合成案例](catalog/chanlun_l20_l35_finite_z_envelope_bridge_m52.json)：核心K必须由前两同向Z段区间求交确定；有限且已确认的后续同R合格Z段各与K相交，数学上可严格得`Z_union=[DD,GG]`，双中心Z包络交⇔某Z成员对交；非法延伸可出现包络假交。局部引理受来源身份、时间与边界域约束。第20课“任何瞬时外围波动”完整集合与Z段集合是否一致、以及L20两合法相邻g中心与L18/35三个完整g走势之间的同R构造映射`Φ`，仍不得从数值包络交冒充已证明。新[只读审计](tools/audit_chanlun_l20_l35_finite_z_bridge_m52.py)及[10单元回归](tests/test_chanlun_l20_l35_finite_z_bridge_m52.py)只处理合成区间；F01/OB38/OB99及A016/A087 OPEN，I82/C46/v4.101保持，E1–E4 NOT_RUN。
+
 ## 2026-11-14｜M51：高一级中心“形成”具有限域正面收据，但“九”的自动升级门仍未完成
 
 [正式报告](OtherVoices/speaker-unknown-001/IDEA_M51_L33_L92_NINE_COUNTS_AND_TYPED_PROMOTION.md)：新完成第33课`3形成+6延伸`与92课`Z_n`的**计数单位/原点/逻辑方向/升级目标**四重分流。L33的合格组合构造不是“9段无条件形成”；L92在**中心确立后**取次级震荡中点并称超过9需“**次级别**升级”，并非“g中心已形成g+1中心”。研究者假设`N_z=N_ext`给L33的9总段/6监测样本，`N_z=N_total`给9/9监测；二者都不自动违反L92上界，但映射均未经本人定义证实。L18/35在固定f1/f2/R、三连续完整g成员且价格区间非空时给`FormationReceipt(g+1)`的**条件性形成证书**，不解决更高走势完成、跨R映射、L20两中心扩张条件严格等价。旧v4.40/v4.60/C45/C46消重，I82/C46/v4.101不变，A016/A087/F01/OB38/OB99 OPEN，E1–E4 NOT_RUN。
