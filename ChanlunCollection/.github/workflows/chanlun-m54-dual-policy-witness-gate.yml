@@ -1,0 +1,19 @@
+name: chanlun-m54-dual-policy-witness-gate
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  author-l54-symbolic-policy-proof-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Audit author Lesson 54 dual policy witness and no Phi20 certification
+        run: python -B tools/audit_chanlun_l54_dual_policy_witness_m54.py
+      - name: Verify no g6 lookahead at g5, topology typing and source tokens
+        run: python -B -m unittest discover -s tests -p "test_chanlun_l54_dual_policy_witness_m54.py" -v

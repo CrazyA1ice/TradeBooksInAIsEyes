@@ -1,5 +1,9 @@
 # 《缠论》五卷108课｜当前研究状态与未完成关口
 
+## 2026-11-15｜M54：L54两个作者方案的符号级3×3见证及固定R相容门完成，完整Phi20仍OPEN
+
+[正式研究](OtherVoices/speaker-unknown-001/IDEA_M54_L54_DUAL_POLICY_THREE_GROUP_WITNESS_AND_PHI20_SCOPE.md)登记**同一作者L54实例**、两套合法分解`R_A/R_B`各**3×3下级符号成员**、作者给出的分别在g5/g6完成较高中心及不同`[d2,g5]`/`[d3,g5]`价区表达。文本层g5`∃R`有高中心但`∀R`没有；在g6两种方案均有各自结论，不能因“最终方向判断接近”统一中心ID或第三卖点标签。L54同级“两中心无连接非法”与跨级“三小组直接相加可允许”拓扑不同；在书本已明确的组成员边界下建立源字段核验，但未获取相同f1/f2/R、两个连续合法g中心+外围的原市场数据及三完整g走势的同源双向构造`Φ20`。新增[JSON](catalog/chanlun_l54_dual_policy_witness_m54.json)、[验证代码](tools/audit_chanlun_l54_dual_policy_witness_m54.py)、[17单测](tests/test_chanlun_l54_dual_policy_witness_m54.py)、[专属CI](.github/workflows/chanlun-m54-dual-policy-witness-gate.yml)均是符号非市场门。先例v4.27/v4.69/v4.85/M53不重计；I82/C46/v4.101、A016/A087/F01/OB38/OB99 OPEN，E1–E4 NOT_RUN。
+
 ## 2026-11-14｜M53：跨级重括号价区单调性已证，L20双中心→三完成走势的Φ仍OPEN
 
 [完整结果](OtherVoices/speaker-unknown-001/IDEA_M53_L35_REBRACKETED_PRICE_RANGE_MONOTONICITY_AND_L20_PHI.md)：原L35文字提供了`a+B+b=(a+B1)+B2+(B3+b)`这一**有来源的示例性结构重括号**；在同一数据源及价区包络政策下，研究者可严证`RawOverlap(B1,B2,B3)⊆GroupedOverlap(a+B1,B2,B3+b)`，逆向由11组合成输入中的反例否定。**只有数学包含关系成立**，并未证明三个重组的g级走势在某历史时点已各自完成，也未得到原L20要求的两个连续同级中心，不能认证`Φ20`、高级别中心或A087另一种公式。新增11组[台账](catalog/chanlun_l35_rebracketing_monotonicity_m53.json)与[14条测试](tests/test_chanlun_l35_rebracketing_m53.py)只读且无实盘。v4.40/v4.53/v4.60/M52等先例不重计，I82/C46/v4.101.0、A016/A087/F01/OB38/OB99 OPEN、E1–E4 NOT_RUN。

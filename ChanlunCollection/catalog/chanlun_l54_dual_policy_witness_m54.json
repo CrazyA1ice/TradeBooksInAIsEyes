@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-L54-TWO-R-THREE-GROUP-SOURCE-WITNESS-M54",
+  "study_date": "2026-11-15",
+  "scope": "AUTHOR_MAIN_ARCHIVED_SYMBOL_GROUPS_ONLY_NOT_ACTUAL_MARKET_SEQUENCE",
+  "original_source": "https://eczsc.com/originals/54",
+  "date_original": "2007-05-24 01:37:31",
+  "source_role": "LATER_TRANSCRIPTION_AUTHOR_MAIN_NOT_SIGNED_SINA_BYTE",
+  "same_source_chart": true,
+  "prior_art": [
+    "other_views/chanlun/speaker-unknown-001/IDEA_LESSON54_COMPETING_DECOMPOSITIONS_V485.md",
+    "deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_SOURCE_FIGURE_AND_STRUCTURAL_VS_DECISION_AGREEMENT.md",
+    "deliverables/chanlun_108_acceptance/00_REVIEW/CHANLUN_L38_NESTED_RETRACE_AND_L54_SAMELEVEL_CONNECTOR_SCOPE_V469.md",
+    "other_views/chanlun/speaker-unknown-001/IDEA_M53_L35_REBRACKETED_PRICE_RANGE_MONOTONICITY_AND_L20_PHI.md"
+  ],
+  "structural_topologies": {
+    "invalid_same_level_adjacent": {
+      "role": "TWO_SAME_LEVEL_CENTERS",
+      "groups": [
+        [
+          "d1g1",
+          "g1d2",
+          "d2g2"
+        ],
+        [
+          "g2d3",
+          "d3g3",
+          "g3d4"
+        ]
+      ],
+      "independent_connector_between": false,
+      "source_author_rejects": true
+    },
+    "permitted_higher_level_three_child": {
+      "role": "THREE_CHILD_CENTERS_FOR_PARENT",
+      "independent_connector_between": false,
+      "source_author_permits": true,
+      "full_author_lower_movement_completion_witnessed": false
+    }
+  },
+  "policies": [
+    {
+      "id": "R_A",
+      "author_attested_higher_at": "g5",
+      "prefix_connector": [
+        "g0d1"
+      ],
+      "higher_price_interval_symbolic": [
+        "d2",
+        "g5"
+      ],
+      "groups": [
+        [
+          "d1g1",
+          "g1d2",
+          "d2g2"
+        ],
+        [
+          "g2d3",
+          "d3g3",
+          "g3d4"
+        ],
+        [
+          "d4g4",
+          "g4d5",
+          "d5g5"
+        ]
+      ],
+      "g7_classification": "THIRD_SELL"
+    },
+    {
+      "id": "R_B",
+      "author_attested_higher_at": "g6",
+      "prefix_connector": [
+        "g0d1",
+        "d1g1",
+        "g1d2"
+      ],
+      "higher_price_interval_symbolic": [
+        "d3",
+        "g5"
+      ],
+      "groups": [
+        [
+          "d2g2",
+          "g2d3",
+          "d3g3"
+        ],
+        [
+          "g3d4",
+          "d4g4",
+          "g4d5"
+        ],
+        [
+          "d5g5",
+          "g5d6",
+          "d6g6"
+        ]
+      ],
+      "g7_classification": "CENTER_OSCILLATION_NOT_THIRD_SELL"
+    }
+  ],
+  "checkpoints": [
+    {
+      "id": "g5",
+      "milestone_symbol": "g5",
+      "author_attested_by_policy": {
+        "R_A": true,
+        "R_B": false
+      },
+      "exists_r": true,
+      "forall_r": false
+    },
+    {
+      "id": "g6",
+      "milestone_symbol": "g6",
+      "author_attested_by_policy": {
+        "R_A": true,
+        "R_B": true
+      },
+      "exists_r": true,
+      "forall_r": true
+    }
+  ],
+  "forbidden_claims": [
+    "L20_ALL_CASES_EQUIVALENCE_PROVED",
+    "L54_REPLAYED_OHLC_INDEPENDENTLY",
+    "ALL_CHILD_MOVEMENTS_COMPLETED_FROM_RAW_TRADES",
+    "FIRST_KNOWN_MINUTE_TIMES_AUTHENTICATED",
+    "SAME_HIGHER_CENTER_OBJECT_ACROSS_R",
+    "ALL_R_PRICE_INTERVALS_EQUAL",
+    "A087_SECOND_CENTER_FORMULA_FOUND"
+  ],
+  "missing_phi20": [
+    "two consecutive independent same-level legally completed centers under ONE fixed R",
+    "independent legal connector where required in same-level series",
+    "every peripheral source Z segment identity, membership, and first-known",
+    "three completed g-level MOVEMENT identities (not just bracketed g centers)",
+    "source-preserving exact same higher center ID and core",
+    "f1/f2/R same historical specification and no retroactive as-of leak"
+  ],
+  "status": "AUTHOR_TEXT_DUAL_POLICY_WITNESS_BUT_NOT_L20_L35_PHI20"
+}
