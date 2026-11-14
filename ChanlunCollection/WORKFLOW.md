@@ -1,5 +1,13 @@
 # ChanlunCollection｜本书实施工作流 v4.101.0
 
+## 2026-11-14｜M47 非编号源证续研：有条件的操作分解选择与规则内一致性
+
+- 研究源文件：[M47：第38/39/54/57课×凯翔A014/A026/A074/A085/A087的分解政策选择证据](OtherVoices/speaker-unknown-001/IDEA_M47_SELECTION_CONSISTENCY_AND_PREFIX_STABILITY.md)，与规范源、镜像、WORK_LOG、RESEARCH_STATUS 和 1053 条 COLLECTION_MANIFEST 同步。
+- **原文实际已给准则**：第54课 d4 可偏好在特定短线操作任务上更明晰的第二套合法分解，不能再称原作者完全没有选择原则；但全域唯一选规/同样明晰两解如何裁决仍未知。
+- **严格去重**：第57课同类弱折统一划分标准此前已在 lesson_057.md 登记；第54课 g7 两解分歧与定性结论一致此前已审。新内容是第39课固定同级已完成 Ai+1 的前缀稳定性，联结第38课跨级多规则合法性与第54课局部可操作偏好，分离 R_op/R_audit 的受限研究协议，不新增 I/C 编号。
+- A016 第三层/A087 第二中枢定义仍 UNIDENTIFIED；F01/OB38/OB99 OPEN；不获取2007分钟行情、不执行市场 E1–E4。工作流版本仍保持 4.101.0。
+
+
 **v4.101纯理论推进：** [第92课“某级别最终第三买卖”×九次级震荡/晋级，与第54课g7不同合法分解的证据类型冲突](OtherVoices/speaker-unknown-001/IDEA_L92_LEVEL_PROMOTION_THIRDPOINT_AND_TYPED_EVIDENCE_V4101.md)。C45新检验：未来某级别h三买卖不可自动等于原中心C/g在晋级前必三买卖；C46新检验：Zn越界预警、固定R三买卖完成、独立较小级别三点及账户行动不可跨证书合签。第54课作者g7在R₁为三卖、R₂仍为中心震荡，别用作者第92课已有“Zn越界非充分”当新增发现；抽象升级路径未证明原作者笔段全合法。G-IDEA-25要求固定center_id/g/R/first_known；I82/C46、A016第三层/A087第二法UNIDENTIFIED，F01/OB38/OB99 OPEN；D1—D6历史分钟数据入口PARKED_FOR_LATER，E1—E4 NOT_RUN。
 
 **v4.100 A016第三层原文消重与C43/C44：** [第17课“终要完成”与第18课“可延伸到无穷”的合法未来量词域，第17课“后继另两型”与第38课同级“盘整+盘整”的语义叉](OtherVoices/speaker-unknown-001/IDEA_A016_THIRD_LAYER_TEMPORAL_MODAL_SCOPE_AND_SOURCE_SATURATION_V4100.md)。第17课本人正文只明确两个不可分割方面，故不能把第29/99课已明说的三分支/高级中枢或第84/101课已明说的唯一性冒认A016未披露第三层。新增C43的L最终完成/U任意久未完/I永不完成三种模态及极限封闭性前提；C44下一类型候选集合≠一条市场路径同时发生两种类型；固定R与新对象身份必须分开。G-IDEA-24只供纯理论证据审核；I82、C44，A016/A087仍UNIDENTIFIED，F01/OB38/OB99 OPEN、E1—E4 NOT_RUN，D1—D6数据入口PARKED_FOR_LATER。
