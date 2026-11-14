@@ -1,5 +1,12 @@
 # ChanlunCollection｜本书实施工作流 v4.101.0
 
+## 2026-11-14｜M47第五阶段：从解析标签走向信号、持仓、账户订单的证据分级
+
+- [第35/41/45/53/54课原文对照凯翔A062/A073/A074/A085](OtherVoices/speaker-unknown-001/IDEA_M47_L35_L41_L45_L53_L54_ACTION_SIGNAL_WITNESS.md)：第35课作者理论例子同一路径5m两次完整买卖操作、30m无须操作；第54课g1分笔二卖与1m未建中枢；第41/53课较小级别可有信号却应受较大级别风险/该级别无点约束；第45课持股/持币解释“无该级点”不决定账户实际持仓。
+- 将\`LABEL_DIFF\`、\`CROSS_LEVEL_SIGNAL_VS_SILENCE\`、\`HIGHER_LEVEL_RISK_FILTER\`、\`SAME_MANDATE_OPPOSITE_ORDER\`、\`EXECUTED_TRADE\`分成独立证据等级。前几项有原课文本，**同一g、同一时点、两合法R下对同一账户相反订单仍无作者一手见证**。无成交/完整OHLC验证。
+- 这不是获得凯翔A016第三层/A087第二中心公式，也不重算新灵感编号。I82/C46/v4.101.0不变，F01/OB38/OB99 OPEN，E1-E4 NOT_RUN，源/镜像/manifest和日志同步。
+
+
 ## 2026-11-14｜M47第四阶段：区分三中心ID、结构解析R与判断边界D，保留未来分支
 
 - [完整报告](OtherVoices/speaker-unknown-001/IDEA_M47_L36_L68_THREE_CENTERS_BOUNDARY_SWITCH_AND_BRANCH_SCOPE.md)：第36课前置中心[2760,2858]、震荡高点2888、作者回抽2871，应识别`C_prev`的数值关系`2858<2871<2888`，不能错配给后续C_old=[2892,2911]/C_new=[2905,2947]。没有行情实时独立验收。
