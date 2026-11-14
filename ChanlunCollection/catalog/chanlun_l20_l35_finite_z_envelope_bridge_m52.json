@@ -1,0 +1,404 @@
+{
+  "schema_version": 1,
+  "id": "CL20-L35-FINITE-Z-ENVELOPE-M52",
+  "research_date": "2026-11-14",
+  "kind": "SYNTHETIC_CLOSED_INTERVAL_MATH_ONLY",
+  "sources": [
+    "https://eczsc.com/originals/18",
+    "https://eczsc.com/originals/20",
+    "https://eczsc.com/originals/35"
+  ],
+  "prior_art": [
+    "catalog/chanlun_f01_l20_center_partial_order_and_base_pan_v1.json",
+    "deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_THREE_OVERLAPS_AND_ASOF_ELIMINATION_V461.md",
+    "other_views/chanlun/speaker-unknown-001/IDEA_M51_L33_L92_NINE_COUNTS_AND_TYPED_PROMOTION.md"
+  ],
+  "assumptions": [
+    "finite closed intervals",
+    "core equals first-two member intersection",
+    "later members all touch core",
+    "known by asof",
+    "same R for cross-center comparison",
+    "declared Z is not author-certified Z"
+  ],
+  "theorem": "UNION_Z_EQUALS_HULL; TWO_QUALIFIED_HULL_OVERLAP_IFF_CROSS_MEMBER_INTERVAL_PAIR",
+  "forbidden": [
+    "AUTHENTICATED_HIGHER_CENTER",
+    "VALID_REAL_CHANLUN_Z",
+    "COMPLETED_G_MOVEMENT",
+    "MARKET_BACKTEST",
+    "KAIXIANG_SECOND_CENTER_FORMULA"
+  ],
+  "cases": [
+    {
+      "id": "qualified_overlap",
+      "asof": 9,
+      "left": {
+        "id": "A",
+        "rule": "R0",
+        "core": [
+          10,
+          12
+        ],
+        "z": [
+          {
+            "lo": 9,
+            "hi": 13,
+            "known_at": 1
+          },
+          {
+            "lo": 10,
+            "hi": 12,
+            "known_at": 2
+          },
+          {
+            "lo": 12,
+            "hi": 14,
+            "known_at": 3
+          }
+        ]
+      },
+      "right": {
+        "id": "B",
+        "rule": "R0",
+        "core": [
+          16,
+          18
+        ],
+        "z": [
+          {
+            "lo": 15,
+            "hi": 19,
+            "known_at": 4
+          },
+          {
+            "lo": 16,
+            "hi": 18,
+            "known_at": 5
+          },
+          {
+            "lo": 13,
+            "hi": 16,
+            "known_at": 6
+          }
+        ]
+      },
+      "expected": {
+        "status": "MATH_ONLY",
+        "overlap": [
+          13,
+          14
+        ],
+        "has_pair": true
+      }
+    },
+    {
+      "id": "invalid_extension",
+      "asof": 9,
+      "left": {
+        "id": "A",
+        "rule": "R0",
+        "core": [
+          10,
+          12
+        ],
+        "z": [
+          {
+            "lo": 9,
+            "hi": 13,
+            "known_at": 1
+          },
+          {
+            "lo": 10,
+            "hi": 12,
+            "known_at": 2
+          },
+          {
+            "lo": 20,
+            "hi": 22,
+            "known_at": 3
+          }
+        ]
+      },
+      "right": {
+        "id": "B",
+        "rule": "R0",
+        "core": [
+          15,
+          17
+        ],
+        "z": [
+          {
+            "lo": 14,
+            "hi": 18,
+            "known_at": 4
+          },
+          {
+            "lo": 15,
+            "hi": 17,
+            "known_at": 5
+          }
+        ]
+      },
+      "expected": {
+        "status": "INVALID_EXTENSION_MEMBER"
+      }
+    },
+    {
+      "id": "future_hidden",
+      "asof": 6,
+      "left": {
+        "id": "A",
+        "rule": "R0",
+        "core": [
+          10,
+          12
+        ],
+        "z": [
+          {
+            "lo": 9,
+            "hi": 13,
+            "known_at": 1
+          },
+          {
+            "lo": 10,
+            "hi": 12,
+            "known_at": 2
+          },
+          {
+            "lo": 12,
+            "hi": 14,
+            "known_at": 99
+          }
+        ]
+      },
+      "right": {
+        "id": "B",
+        "rule": "R0",
+        "core": [
+          16,
+          18
+        ],
+        "z": [
+          {
+            "lo": 15,
+            "hi": 19,
+            "known_at": 4
+          },
+          {
+            "lo": 16,
+            "hi": 18,
+            "known_at": 5
+          }
+        ]
+      },
+      "expected": {
+        "status": "PENDING_ASOF"
+      }
+    },
+    {
+      "id": "rule_mismatch",
+      "asof": 9,
+      "left": {
+        "id": "A",
+        "rule": "R0",
+        "core": [
+          10,
+          12
+        ],
+        "z": [
+          {
+            "lo": 9,
+            "hi": 13,
+            "known_at": 1
+          },
+          {
+            "lo": 10,
+            "hi": 12,
+            "known_at": 2
+          }
+        ]
+      },
+      "right": {
+        "id": "B",
+        "rule": "R1",
+        "core": [
+          16,
+          18
+        ],
+        "z": [
+          {
+            "lo": 15,
+            "hi": 19,
+            "known_at": 4
+          },
+          {
+            "lo": 16,
+            "hi": 18,
+            "known_at": 5
+          }
+        ]
+      },
+      "expected": {
+        "status": "RULE_MISMATCH"
+      }
+    },
+    {
+      "id": "disjoint",
+      "asof": 9,
+      "left": {
+        "id": "A",
+        "rule": "R0",
+        "core": [
+          1,
+          2
+        ],
+        "z": [
+          {
+            "lo": 0,
+            "hi": 3,
+            "known_at": 1
+          },
+          {
+            "lo": 1,
+            "hi": 2,
+            "known_at": 2
+          }
+        ]
+      },
+      "right": {
+        "id": "B",
+        "rule": "R0",
+        "core": [
+          8,
+          9
+        ],
+        "z": [
+          {
+            "lo": 7,
+            "hi": 10,
+            "known_at": 4
+          },
+          {
+            "lo": 8,
+            "hi": 9,
+            "known_at": 5
+          }
+        ]
+      },
+      "expected": {
+        "status": "MATH_ONLY",
+        "overlap": null,
+        "has_pair": false
+      }
+    },
+    {
+      "id": "point_touch",
+      "asof": 9,
+      "left": {
+        "id": "A",
+        "rule": "R0",
+        "core": [
+          10,
+          12
+        ],
+        "z": [
+          {
+            "lo": 9,
+            "hi": 13,
+            "known_at": 1
+          },
+          {
+            "lo": 10,
+            "hi": 12,
+            "known_at": 2
+          }
+        ]
+      },
+      "right": {
+        "id": "B",
+        "rule": "R0",
+        "core": [
+          13,
+          15
+        ],
+        "z": [
+          {
+            "lo": 13,
+            "hi": 16,
+            "known_at": 4
+          },
+          {
+            "lo": 13,
+            "hi": 15,
+            "known_at": 5
+          }
+        ]
+      },
+      "expected": {
+        "status": "MATH_ONLY",
+        "overlap": [
+          13,
+          13
+        ],
+        "has_pair": true
+      }
+    },
+    {
+      "id": "fake_core",
+      "asof": 9,
+      "left": {
+        "id": "A",
+        "rule": "R0",
+        "core": [
+          11,
+          12
+        ],
+        "z": [
+          {
+            "lo": 9,
+            "hi": 13,
+            "known_at": 1
+          },
+          {
+            "lo": 10,
+            "hi": 12,
+            "known_at": 2
+          }
+        ]
+      },
+      "right": {
+        "id": "B",
+        "rule": "R0",
+        "core": [
+          13,
+          15
+        ],
+        "z": [
+          {
+            "lo": 13,
+            "hi": 16,
+            "known_at": 4
+          },
+          {
+            "lo": 13,
+            "hi": 15,
+            "known_at": 5
+          }
+        ]
+      },
+      "expected": {
+        "status": "BAD_SEED_CORE"
+      }
+    }
+  ],
+  "open": [
+    "AUTHOR_PERIPHERY_Z_MEMBER_EQUIVALENCE",
+    "SAME_SOURCE_F1_F2_R_CROSSLEVEL_COMPLETION_PHI",
+    "F01",
+    "OB38",
+    "OB99",
+    "A087",
+    "E1_E4_NOT_RUN"
+  ]
+}

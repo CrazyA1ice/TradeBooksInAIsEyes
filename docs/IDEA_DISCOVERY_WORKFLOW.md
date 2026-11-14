@@ -1,5 +1,9 @@
 # 通用模块 G-IDEA｜灵感发掘、自由拼接与跨作者研究
 
+## G-IDEA-M52｜外围区间“包络交”必须先证明Z成员触核连通，跨层再查完成证书（2026-11-14）
+
+[M52原文及有限集合论证明](../other_views/chanlun/speaker-unknown-001/IDEA_M52_L20_L35_FINITE_Z_UNION_AND_PROMOTION_WITNESS_GAP.md)：L20冻结核心K是初始同向Z段交集；其余有限闭Z成员若全部`I_i∩K≠∅`且截至asof均合格，`∪I_i=[DD,GG]`，两个分别满足资格门的Z并集/包络相交等价于存在跨中心合格Z区间对相交。离核成员混入包络会造成数学假交。此局部结果**不能**把作者“任何瞬间外围波动”完整替换为同向Z，也不能把两中心价区重叠冒充L18/35三完整g级走势的构造`Φ`与首次可知证书。冻结7组数学示例[JSON](../catalog/chanlun_l20_l35_finite_z_envelope_bridge_m52.json)及10条[回归](../tests/test_chanlun_l20_l35_finite_z_bridge_m52.py)；旧v4.33/v4.61/M51不重计。A087/F01/OB38/OB99 OPEN，市场NOT_RUN。
+
 ## G-IDEA-M51｜同一个数字“九”跨来源使用前必须核单位、方向、升级对象（2026-11-14，非编号）
 
 [完整L33/L92跨源语义对照](../other_views/chanlun/speaker-unknown-001/IDEA_M51_L33_L92_NINE_COUNTS_AND_TYPED_PROMOTION.md)：第33课可写`3初始+6延伸=9个合格次级成员`，第92课却在中心确立后给每一**次级震荡区间中点**Z_n计数并说`>9`次级别升级；没有任何现存一手证书保证`N_monitor=N_total`或`N_ext`。即使研究者暂假一对一，也要分清“满足全部合法构件条件足以构造某高级中心”与“Z_n数量上界提醒次级结构需升级”，两句不是同一个iff；第92课原文升级主语为**次级别**，不可自动当作原中心g→g+1。第18/35课定义内形成收据：三完整连续g成员、同R/f1/f2、非空区间交集、全部first-known；此收据不能签完成走势/三买/账户盈利。去重v4.40、v4.60、v4.101 C45/C46、M50；保持F01/OB38/OB99未证明。

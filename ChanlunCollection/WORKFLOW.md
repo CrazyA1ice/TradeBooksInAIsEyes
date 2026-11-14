@@ -1,5 +1,11 @@
 # ChanlunCollection｜本书实施工作流 v4.101.0
 
+## 2026-11-14｜M52：L20合格Z段区间连通性局部可证、跨级走势完成仍是独立证明门
+
+- [M52文本源与区间证明](OtherVoices/speaker-unknown-001/IDEA_M52_L20_L35_FINITE_Z_UNION_AND_PROMOTION_WITNESS_GAP.md)：在同一R、有限闭区间与已确认身份下，核心K=前两Z交集，所有后续Z均触K ⇒ Z并集等于包络[DD,GG]；两个分别合格中心的Z包络交⇔某具体Z区间对相交。**离核成员、未来成员、跨R、非实际初始核**拒绝出数学收据。第20课“全部瞬间外围波动”与合格Z的文献映射仍未完成。
+- 纯合成[JSON](catalog/chanlun_l20_l35_finite_z_envelope_bridge_m52.json)、[审计](tools/audit_chanlun_l20_l35_finite_z_bridge_m52.py)、[单测](tests/test_chanlun_l20_l35_finite_z_bridge_m52.py)仅验证有限算术，不输出真实中枢/走势/行情。要把第20课双中心外围重叠桥接到第18/35课三完成g走势构成高级中心，仍需同源f1/f2/R、构件完成、对象ID、价区来源与t_known的构造映射`Φ`。
+- v4.33/v4.40/v4.60/v4.61/M51来源先例不重新宣称发现；I82/C46/v4.101.0不变，A016/A087/F01/OB38/OB99 OPEN，E1–E4 NOT_RUN。
+
 ## 2026-11-14｜M51：不同“九”的计数与升级类型证据门（非编号）
 
 - [L18/20/33/35/38/92 × 凯翔A069/A087/A026跨源报告](OtherVoices/speaker-unknown-001/IDEA_M51_L33_L92_NINE_COUNTS_AND_TYPED_PROMOTION.md)：L33`3+6=9`按合格低级走势/延伸计，L92`Z_n>9`按中心确立后的**次级震荡区间中点**计；计数起点、单位与阈值逻辑方向不等，必须有资格与一一映射证据方可比较。作者第92课称“**次级别**升级”，不能从中套取原监测中心g必升g+1。
