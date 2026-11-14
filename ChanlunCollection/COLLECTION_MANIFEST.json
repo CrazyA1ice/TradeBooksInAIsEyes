@@ -3,7 +3,7 @@
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
   "workflow_version": "4.101.0",
-  "source_count": 1069,
+  "source_count": 1074,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -298,6 +298,12 @@
       "mirror_path": "ChanlunCollection/.github/workflows/chanlun-lessons106-108-audit.yml",
       "git_blob_sha": "54ef15d5c08caaf75b6af3cf0fee1ded930ba49c",
       "size_bytes": 1394
+    },
+    {
+      "source_path": ".github/workflows/chanlun-m54-dual-policy-witness-gate.yml",
+      "mirror_path": "ChanlunCollection/.github/workflows/chanlun-m54-dual-policy-witness-gate.yml",
+      "git_blob_sha": "c7c1d0bfc1b94b0a7af6a940e3b239c8be097b7a",
+      "size_bytes": 639
     },
     {
       "source_path": ".github/workflows/chanlun-nested-retrace-bottom-pan-f01-gate.yml",
@@ -1632,6 +1638,12 @@
       "size_bytes": 5190
     },
     {
+      "source_path": "catalog/chanlun_l54_dual_policy_witness_m54.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun_l54_dual_policy_witness_m54.json",
+      "git_blob_sha": "e34e1ccf6acf142227dfac4c65cdcf1a55450e6c",
+      "size_bytes": 3831
+    },
+    {
       "source_path": "catalog/chanlun_l54_equation_variant_witnesses_v1.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_l54_equation_variant_witnesses_v1.json",
       "git_blob_sha": "f6b7257c5db846f3fe020cb3a3bce29b5ea82f0e",
@@ -2648,8 +2660,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "ea75d2ab6f136503f44eec8964b898edb7a01f8e",
-      "size_bytes": 182433
+      "git_blob_sha": "107d124d9400648e05e6954e7d58dfb9659951c0",
+      "size_bytes": 183769
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -2690,8 +2702,8 @@
     {
       "source_path": "docs/IDEA_DISCOVERY_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/IDEA_DISCOVERY_WORKFLOW.md",
-      "git_blob_sha": "a023e9ff605e80a51b4403b2fb12a72735688ad7",
-      "size_bytes": 54669
+      "git_blob_sha": "0e468680ea7b95c30ea4fb88277bd11f16a0ecd2",
+      "size_bytes": 55801
     },
     {
       "source_path": "docs/PHASE1_INTAKE.md",
@@ -3978,6 +3990,12 @@
       "size_bytes": 9569
     },
     {
+      "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_M54_L54_DUAL_POLICY_THREE_GROUP_WITNESS_AND_PHI20_SCOPE.md",
+      "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_M54_L54_DUAL_POLICY_THREE_GROUP_WITNESS_AND_PHI20_SCOPE.md",
+      "git_blob_sha": "c78f3fa497f5a19ef46ceb2837bd77e10a4cd122",
+      "size_bytes": 9425
+    },
+    {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_NOTEBOOK.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_NOTEBOOK.md",
       "git_blob_sha": "4f70af00b4431e6ff35ad8e92e429f500f159d95",
@@ -4028,8 +4046,8 @@
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/README.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/README.md",
-      "git_blob_sha": "15b6840d9707b40a1532d5634419aa337970d4c6",
-      "size_bytes": 20237
+      "git_blob_sha": "1633d6b3531428ba91c8da135ecbee0cd0bdb097",
+      "size_bytes": 21347
     },
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/analysis.md",
@@ -4654,6 +4672,12 @@
       "mirror_path": "ChanlunCollection/tests/test_chanlun_l54_author_prefix.py",
       "git_blob_sha": "033e877deabff87cbfadee607c986458df9cd7f3",
       "size_bytes": 4107
+    },
+    {
+      "source_path": "tests/test_chanlun_l54_dual_policy_witness_m54.py",
+      "mirror_path": "ChanlunCollection/tests/test_chanlun_l54_dual_policy_witness_m54.py",
+      "git_blob_sha": "aeb8b163e71971720f8dca6690f5d49ea1913809",
+      "size_bytes": 4034
     },
     {
       "source_path": "tests/test_chanlun_l54_f1_f2_typed_bridge.py",
@@ -5536,6 +5560,12 @@
       "mirror_path": "ChanlunCollection/tools/audit_chanlun_l42_coverage_v494.py",
       "git_blob_sha": "c78c56458695d81cc1b67a0a091d3fc97d8b6a09",
       "size_bytes": 12250
+    },
+    {
+      "source_path": "tools/audit_chanlun_l54_dual_policy_witness_m54.py",
+      "mirror_path": "ChanlunCollection/tools/audit_chanlun_l54_dual_policy_witness_m54.py",
+      "git_blob_sha": "de8c3b83d7f0d64e9261ad1ee4e95edb5fa3b798",
+      "size_bytes": 5020
     },
     {
       "source_path": "tools/audit_chanlun_l54_f1_f2_typed_bridge.py",

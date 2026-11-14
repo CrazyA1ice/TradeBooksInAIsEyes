@@ -1,5 +1,11 @@
 # 《缠论》研究步骤与工作流修订记录
 
+## 2026-11-15｜M54：原第54课两种3×3下级中枢分组的成员链、形成节点和类型叉路对照
+
+- [完整M54报告](OtherVoices/speaker-unknown-001/IDEA_M54_L54_DUAL_POLICY_THREE_GROUP_WITNESS_AND_PHI20_SCOPE.md)冻结第54课作者`g0g5`与`g0g6`两个带大括号式：R_A三组从`d1g1`到`d5g5`、g5形成高中心[ d2,g5 ]；R_B三组从`d2g2`到`d6g6`、g6形成[ d3,g5 ]。两个方案不能当作同R下同一高中心的无歧义最早形成时钟；g5时R_B第三组仍需g6后缀，必须拒绝用未来信息提前签证。
+- 同一L54正文明确禁止**两个同级中心零合格连接**，却允许**三个次级中心用来构成高一级中心时直接相加**。检查器[JSON](catalog/chanlun_l54_dual_policy_witness_m54.json)、[符号链](tools/audit_chanlun_l54_dual_policy_witness_m54.py)、[17单测](tests/test_chanlun_l54_dual_policy_witness_m54.py)及[专属Actions](.github/workflows/chanlun-m54-dual-policy-witness-gate.yml)只证作者**符号字符串**与政策条件，不能证明每条真实1分钟走势完成、真价区/交易时钟或L20两独立中心与L35三已完成g走势的`Φ20`。
+- 旧v4.27已目视原图、v4.69已有拓扑门、v4.85已有g5/g6结论；本轮登记两套完整三组三段的成员谱系与跨政策量词门，不重复计新来源/新I/C；I82/C46/v4.101不变，A016/A087/F01/OB38/OB99 OPEN、E1–E4 NOT_RUN。
+
 ## 2026-11-14｜M53：第35课a+B+b真正给出的重括号骨架与价格区间扩张的单向关系
 
 - [正式研究](OtherVoices/speaker-unknown-001/IDEA_M53_L35_REBRACKETED_PRICE_RANGE_MONOTONICITY_AND_L20_PHI.md)复核第35课的具体式子`(a+B1)+B2+(B3+b)`。原B三段价区交集包含在重组后价区交集中，证明使用连接取包络的区间单调性；**逆向不真**：虚构`B1=[0,2],B2=[3,4],B3=[6,8]`无公共交集，补`a=[2,3.5],b=[3.5,6]`后重组三段交于3.5；另组`[3,4]→[1,6]`显示非空交集也可严格扩大。数字不构成真实连续价序或合法已完成走势。

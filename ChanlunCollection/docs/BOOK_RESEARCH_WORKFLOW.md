@@ -1,5 +1,9 @@
 # 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.101.0，2026-11-13）
 
+## M54｜L54双分解的精确成员谱系、量词差异和L20跨级未证映射（2026-11-15）
+
+[正式报告](../other_views/chanlun/speaker-unknown-001/IDEA_M54_L54_DUAL_POLICY_THREE_GROUP_WITNESS_AND_PHI20_SCOPE.md)从第54课**作者自己写出的**两套3+3+3小括号重建符号序列、政策身份、g5/g6阶段及[ d2,g5 ]/[ d3,g5 ]两中心价格端点，证明**作者源文语义下**`∃R AuthorAttests(g5)`但不满足`∀R`，在g6两政策各自有形成说明却保留不同成员谱系与中心ID。对比“两个同级独立中心需外部次级连接”与“构成更高级的三个次级中心括号允许相连”的不同拓扑，不能拿同级零连接非法式子充作第20课合格两个中心。新[JSON](../catalog/chanlun_l54_dual_policy_witness_m54.json)/[代码](../tools/audit_chanlun_l54_dual_policy_witness_m54.py)/[17定向单测](../tests/test_chanlun_l54_dual_policy_witness_m54.py)由[新CI](../.github/workflows/chanlun-m54-dual-policy-witness-gate.yml)单独运行；均**只检查作者原文符号、并非原数据OHLC/完成首知**。虽然Phi20实证来源筛查推进到具体成员字段，L18/35三已完成g走势与L20两个同级中心同源映射仍OPEN。v4.27/85/69和M53材料不是新发现；I82/C46/v4.101、F01/OB38/OB99、A016/A087未解，真实E1–E4 NOT_RUN。
+
 ## M53｜第35课作者示例的重括号价格交集单向包含，不得越级签发第20课证明（2026-11-14）
 
 [完整M53](../other_views/chanlun/speaker-unknown-001/IDEA_M53_L35_REBRACKETED_PRICE_RANGE_MONOTONICITY_AND_L20_PHI.md)在第35课明确的`a+B+b=(a+B1)+B2+(B3+b)`构造骨架上给出局部定理：若连接段价区取组成成员包络，则`J_raw=B1∩B2∩B3 ⊆ J_grp=Range(a+B1)∩B2∩Range(B3+b)`，逆向不成立；有合成例子显示由空变单点、由[3,4]扩大为[1,6]。真实成员资格仍须外部完成证据，不能据算术断定“更可靠中枢”或认证凯翔A087方法。特别是L35有一内部中心B而L20要求**两个**连续同级中心及其外围；`Φ35_example`不能自动当`Φ20`。新增11组[输入案例](../catalog/chanlun_l35_rebracketing_monotonicity_m53.json)、[核查](../tools/audit_chanlun_l35_rebracketing_m53.py)及14项[回归](../tests/test_chanlun_l35_rebracketing_m53.py)，保持I82/C46/v4.101.0、A016/A087/F01/OB38/OB99 OPEN、E1–E4 NOT_RUN。

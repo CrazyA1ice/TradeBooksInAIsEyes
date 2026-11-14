@@ -1,5 +1,9 @@
 # 通用模块 G-IDEA｜灵感发掘、自由拼接与跨作者研究
 
+## G-IDEA-M54｜原作者同图双R的三组三段与级别证明：必须存成员谱系和量词域（2026-11-15）
+
+[源文→符号化两方案报告](../other_views/chanlun/speaker-unknown-001/IDEA_M54_L54_DUAL_POLICY_THREE_GROUP_WITNESS_AND_PHI20_SCOPE.md)：原作者L54在g5将`(d1g1,g1d2,d2g2)`、`(g2d3,d3g3,g3d4)`、`(d4g4,g4d5,d5g5)`三组汇入5分钟中心，声明`[d2,g5]`；在另一合法政策R_B到g6才完成三组`(d2g2,g2d3,d3g3)`、`(g3d4,d4g4,g4d5)`、`(d5g5,g5d6,d6g6)`，声明`[d3,g5]`。L54还区分**非法两个同级中心零连接**与**三次级中心向上构造允许三括号相连**。因此g5文本下`∃R`“作者声称高中心形成”真而`∀R`假，但**不能**偷写成市场实时first-known、算法已独立验证、同一高中心ID、三已完成g走势或凯翔A087第二中枢定义。[审计契约](../catalog/chanlun_l54_dual_policy_witness_m54.json)和[17条测试](../tests/test_chanlun_l54_dual_policy_witness_m54.py)绑定[独立CI](../.github/workflows/chanlun-m54-dual-policy-witness-gate.yml)，源文记功v4.85/v4.69；I82/C46不变，Phi20/F01/OB38/OB99 OPEN。
+
 ## G-IDEA-M53｜重括号的价格范围可严格单向放宽，但不能证明走势完成或新高中心（2026-11-14）
 
 [来源已标的M53区间形式证明](../other_views/chanlun/speaker-unknown-001/IDEA_M53_L35_REBRACKETED_PRICE_RANGE_MONOTONICITY_AND_L20_PHI.md)：原作者第35课明确给`a+B+b=a+B1+B2+B3+b=(a+B1)+B2+(B3+b)`。若只定义已给成员的连接价区等于区间包络，则`B1∩B2∩B3 ⊆ Range(a+B1)∩B2∩Range(B3+b)`；严格放宽甚至原交集空而新交集非空均可，但这**只是集合论**，与合法已完成g走势、中心对象资格及asof时间是不同证明层。作者文字例包含单一内层B，不能填第20课两合法连续g中心的`Φ20`。11组[冻结JSON](../catalog/chanlun_l35_rebracketing_monotonicity_m53.json)与14条[小测试](../tests/test_chanlun_l35_rebracketing_m53.py)拒绝异源、异R、错序、未完成声明、未来数据和重名组成单位；即使数学通过也强制`higher_center_authenticated=false`。消重v4.40/v4.53/v4.60/M52，I82/C46/v4.101.0、F01/OB38/OB99、A016/A087仍OPEN。
