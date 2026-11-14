@@ -1,5 +1,9 @@
 # 《缠论》五卷108课｜当前研究状态与未完成关口
 
+## 2026-11-14｜M53：跨级重括号价区单调性已证，L20双中心→三完成走势的Φ仍OPEN
+
+[完整结果](OtherVoices/speaker-unknown-001/IDEA_M53_L35_REBRACKETED_PRICE_RANGE_MONOTONICITY_AND_L20_PHI.md)：原L35文字提供了`a+B+b=(a+B1)+B2+(B3+b)`这一**有来源的示例性结构重括号**；在同一数据源及价区包络政策下，研究者可严证`RawOverlap(B1,B2,B3)⊆GroupedOverlap(a+B1,B2,B3+b)`，逆向由11组合成输入中的反例否定。**只有数学包含关系成立**，并未证明三个重组的g级走势在某历史时点已各自完成，也未得到原L20要求的两个连续同级中心，不能认证`Φ20`、高级别中心或A087另一种公式。新增11组[台账](catalog/chanlun_l35_rebracketing_monotonicity_m53.json)与[14条测试](tests/test_chanlun_l35_rebracketing_m53.py)只读且无实盘。v4.40/v4.53/v4.60/M52等先例不重计，I82/C46/v4.101.0、A016/A087/F01/OB38/OB99 OPEN、E1–E4 NOT_RUN。
+
 ## 2026-11-14｜M52：L20有限闭Z价区包络桥完成，L20↔L18/35构造等价证明仍OPEN
 
 [研究报告](OtherVoices/speaker-unknown-001/IDEA_M52_L20_L35_FINITE_Z_UNION_AND_PROMOTION_WITNESS_GAP.md)与[7合成案例](catalog/chanlun_l20_l35_finite_z_envelope_bridge_m52.json)：核心K必须由前两同向Z段区间求交确定；有限且已确认的后续同R合格Z段各与K相交，数学上可严格得`Z_union=[DD,GG]`，双中心Z包络交⇔某Z成员对交；非法延伸可出现包络假交。局部引理受来源身份、时间与边界域约束。第20课“任何瞬时外围波动”完整集合与Z段集合是否一致、以及L20两合法相邻g中心与L18/35三个完整g走势之间的同R构造映射`Φ`，仍不得从数值包络交冒充已证明。新[只读审计](tools/audit_chanlun_l20_l35_finite_z_bridge_m52.py)及[10单元回归](tests/test_chanlun_l20_l35_finite_z_bridge_m52.py)只处理合成区间；F01/OB38/OB99及A016/A087 OPEN，I82/C46/v4.101保持，E1–E4 NOT_RUN。

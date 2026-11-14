@@ -1,0 +1,724 @@
+{
+  "schema_version": 1,
+  "id": "CL35-A-B-B-REBRACKETED-RANGE-MONOTONICITY-M53",
+  "date": "2026-11-14",
+  "kind": "AUTHOR_EXAMPLE_SOURCE_ANCHORED_SYNTHETIC_RANGE_LOGIC",
+  "source_anchors": [
+    {
+      "lesson": 35,
+      "url": "https://eczsc.com/originals/35",
+      "role": "AUTHOR_MAIN",
+      "claim": "a+B+b = a+B1+B2+B3+b = (a+B1)+B2+(B3+b)",
+      "limitation": "This source-level illustrative grouping is not a market completion oracle"
+    },
+    {
+      "lesson": 20,
+      "url": "https://eczsc.com/originals/20",
+      "role": "AUTHOR_MAIN",
+      "claim": "two valid consecutive same-level centers peripheral overlap iff higher center"
+    },
+    {
+      "lesson": 38,
+      "url": "https://eczsc.com/originals/38",
+      "role": "AUTHOR_MAIN",
+      "claim": "same-level cutoff R does not evaluate higher levels"
+    }
+  ],
+  "prior_art": [
+    "deliverables/chanlun_108_acceptance/00_REVIEW/EXPERT_NINEFOLD_CENTER_333_AUTHOR_REPLIES_V440.md",
+    "deliverables/chanlun_108_acceptance/00_REVIEW/KAIXIANG_THREE_COMPLETED_MEMBER_ASOF_BRIDGE_V453.md",
+    "other_views/chanlun/speaker-unknown-001/IDEA_M52_L20_L35_FINITE_Z_UNION_AND_PROMOTION_WITNESS_GAP.md"
+  ],
+  "theorem": "intersection(B1,B2,B3) subseteq intersection(hull(a,B1),B2,hull(B3,b))",
+  "not_proved": [
+    "real valid 5min movement member completion",
+    "same R cross g recursive source mapping",
+    "L20 two-center-to-L35 triple Phi",
+    "any real market OHLC",
+    "Kaixiang A087 second formula"
+  ],
+  "cases": [
+    {
+      "asof": 10,
+      "parts": [
+        {
+          "id": "a",
+          "ordinal": 0,
+          "low": 2,
+          "high": 3.5,
+          "known_at": 1,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B1",
+          "ordinal": 1,
+          "low": 0,
+          "high": 2,
+          "known_at": 2,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B2",
+          "ordinal": 2,
+          "low": 3,
+          "high": 4,
+          "known_at": 3,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B3",
+          "ordinal": 3,
+          "low": 6,
+          "high": 8,
+          "known_at": 4,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "b",
+          "ordinal": 4,
+          "low": 3.5,
+          "high": 6,
+          "known_at": 5,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        }
+      ],
+      "expected": {
+        "status": "ARITHMETIC_ONLY_GROUP_MEMBERS_UNVERIFIED",
+        "raw_intersection": null,
+        "grouped_intersection": [
+          3.5,
+          3.5
+        ],
+        "strictly_wider": true
+      },
+      "id": "created_touching_overlap"
+    },
+    {
+      "asof": 10,
+      "parts": [
+        {
+          "id": "a",
+          "ordinal": 0,
+          "low": 1,
+          "high": 6,
+          "known_at": 1,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B1",
+          "ordinal": 1,
+          "low": 2,
+          "high": 4,
+          "known_at": 2,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B2",
+          "ordinal": 2,
+          "low": 1,
+          "high": 7,
+          "known_at": 3,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B3",
+          "ordinal": 3,
+          "low": 3,
+          "high": 5,
+          "known_at": 4,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "b",
+          "ordinal": 4,
+          "low": 0,
+          "high": 6,
+          "known_at": 5,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        }
+      ],
+      "expected": {
+        "status": "ARITHMETIC_ONLY_GROUP_MEMBERS_UNVERIFIED",
+        "raw_intersection": [
+          3,
+          4
+        ],
+        "grouped_intersection": [
+          1,
+          6
+        ],
+        "strictly_wider": true
+      },
+      "id": "nonempty_strict_widening"
+    },
+    {
+      "asof": 10,
+      "parts": [
+        {
+          "id": "a",
+          "ordinal": 0,
+          "low": 0,
+          "high": 2,
+          "known_at": 1,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B1",
+          "ordinal": 1,
+          "low": 1,
+          "high": 5,
+          "known_at": 2,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B2",
+          "ordinal": 2,
+          "low": 2,
+          "high": 4,
+          "known_at": 3,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B3",
+          "ordinal": 3,
+          "low": 3,
+          "high": 6,
+          "known_at": 4,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "b",
+          "ordinal": 4,
+          "low": 5,
+          "high": 7,
+          "known_at": 5,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        }
+      ],
+      "expected": {
+        "status": "ARITHMETIC_ONLY_GROUP_MEMBERS_UNVERIFIED",
+        "raw_intersection": [
+          3,
+          4
+        ],
+        "grouped_intersection": [
+          3,
+          4
+        ],
+        "strictly_wider": false
+      },
+      "id": "raw_overlap_equal"
+    },
+    {
+      "asof": 10,
+      "parts": [
+        {
+          "id": "a",
+          "ordinal": 0,
+          "low": 2,
+          "high": 3,
+          "known_at": 1,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B1",
+          "ordinal": 1,
+          "low": 0,
+          "high": 1,
+          "known_at": 2,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B2",
+          "ordinal": 2,
+          "low": 9,
+          "high": 10,
+          "known_at": 3,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B3",
+          "ordinal": 3,
+          "low": 20,
+          "high": 21,
+          "known_at": 4,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "b",
+          "ordinal": 4,
+          "low": 17,
+          "high": 18,
+          "known_at": 5,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        }
+      ],
+      "expected": {
+        "status": "ARITHMETIC_ONLY_GROUP_MEMBERS_UNVERIFIED",
+        "raw_intersection": null,
+        "grouped_intersection": null,
+        "strictly_wider": false
+      },
+      "id": "neither_intersection"
+    },
+    {
+      "asof": 10,
+      "parts": [
+        {
+          "id": "a",
+          "ordinal": 0,
+          "low": 0,
+          "high": 2,
+          "known_at": 1,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B1",
+          "ordinal": 1,
+          "low": 1,
+          "high": 2,
+          "known_at": 2,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B2",
+          "ordinal": 2,
+          "low": 2,
+          "high": 3,
+          "known_at": 3,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B3",
+          "ordinal": 3,
+          "low": 3,
+          "high": 4,
+          "known_at": 4,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "b",
+          "ordinal": 4,
+          "low": 2,
+          "high": 5,
+          "known_at": 5,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        }
+      ],
+      "expected": {
+        "status": "ARITHMETIC_ONLY_GROUP_MEMBERS_UNVERIFIED",
+        "raw_intersection": null,
+        "grouped_intersection": [
+          2,
+          2
+        ],
+        "strictly_wider": true
+      },
+      "id": "point_touch_only"
+    },
+    {
+      "asof": 8,
+      "parts": [
+        {
+          "id": "a",
+          "ordinal": 0,
+          "low": 2,
+          "high": 3.5,
+          "known_at": 1,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B1",
+          "ordinal": 1,
+          "low": 0,
+          "high": 2,
+          "known_at": 2,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B2",
+          "ordinal": 2,
+          "low": 3,
+          "high": 4,
+          "known_at": 3,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B3",
+          "ordinal": 3,
+          "low": 6,
+          "high": 8,
+          "known_at": 4,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "b",
+          "ordinal": 4,
+          "low": 3.5,
+          "high": 6,
+          "known_at": 99,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        }
+      ],
+      "expected": {
+        "status": "PENDING_FIRST_KNOWN_NO_FUTURE_LEAK"
+      },
+      "id": "future_b_hidden"
+    },
+    {
+      "asof": 10,
+      "parts": [
+        {
+          "id": "a",
+          "ordinal": 0,
+          "low": 2,
+          "high": 3.5,
+          "known_at": 1,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B1",
+          "ordinal": 1,
+          "low": 0,
+          "high": 2,
+          "known_at": 2,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B2",
+          "ordinal": 2,
+          "low": 3,
+          "high": 4,
+          "known_at": 3,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B3",
+          "ordinal": 3,
+          "low": 6,
+          "high": 8,
+          "known_at": 4,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "b",
+          "ordinal": 4,
+          "low": 3.5,
+          "high": 6,
+          "known_at": 5,
+          "rule": "R0",
+          "source": "Another-Source",
+          "external_complete_declared": true
+        }
+      ],
+      "expected": {
+        "status": "SOURCE_ID_MISMATCH"
+      },
+      "id": "source_mismatch"
+    },
+    {
+      "asof": 10,
+      "parts": [
+        {
+          "id": "a",
+          "ordinal": 0,
+          "low": 2,
+          "high": 3.5,
+          "known_at": 1,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B1",
+          "ordinal": 1,
+          "low": 0,
+          "high": 2,
+          "known_at": 2,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B2",
+          "ordinal": 2,
+          "low": 3,
+          "high": 4,
+          "known_at": 3,
+          "rule": "R1",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B3",
+          "ordinal": 3,
+          "low": 6,
+          "high": 8,
+          "known_at": 4,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "b",
+          "ordinal": 4,
+          "low": 3.5,
+          "high": 6,
+          "known_at": 5,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        }
+      ],
+      "expected": {
+        "status": "R_POLICY_MISMATCH"
+      },
+      "id": "policy_mismatch"
+    },
+    {
+      "asof": 10,
+      "parts": [
+        {
+          "id": "a",
+          "ordinal": 0,
+          "low": 2,
+          "high": 3.5,
+          "known_at": 1,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B1",
+          "ordinal": 1,
+          "low": 0,
+          "high": 2,
+          "known_at": 2,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B2",
+          "ordinal": 2,
+          "low": 3,
+          "high": 4,
+          "known_at": 3,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B3",
+          "ordinal": 3,
+          "low": 6,
+          "high": 8,
+          "known_at": 4,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": false
+        },
+        {
+          "id": "b",
+          "ordinal": 4,
+          "low": 3.5,
+          "high": 6,
+          "known_at": 5,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        }
+      ],
+      "expected": {
+        "status": "COMPONENT_COMPLETION_NOT_EVEN_DECLARED"
+      },
+      "id": "component_not_completed"
+    },
+    {
+      "asof": 10,
+      "parts": [
+        {
+          "id": "a",
+          "ordinal": 0,
+          "low": 2,
+          "high": 3.5,
+          "known_at": 1,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B1",
+          "ordinal": 1,
+          "low": 0,
+          "high": 2,
+          "known_at": 2,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B2",
+          "ordinal": 44,
+          "low": 3,
+          "high": 4,
+          "known_at": 3,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B3",
+          "ordinal": 3,
+          "low": 6,
+          "high": 8,
+          "known_at": 4,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "b",
+          "ordinal": 4,
+          "low": 3.5,
+          "high": 6,
+          "known_at": 5,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        }
+      ],
+      "expected": {
+        "status": "PART_ORDER_INVALID"
+      },
+      "id": "ordinal_corrupted"
+    },
+    {
+      "asof": 10,
+      "parts": [
+        {
+          "id": "a",
+          "ordinal": 0,
+          "low": 2,
+          "high": 3.5,
+          "known_at": 1,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B1",
+          "ordinal": 1,
+          "low": 0,
+          "high": 2,
+          "known_at": 2,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B2",
+          "ordinal": 2,
+          "low": 3,
+          "high": 4,
+          "known_at": 3,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "B2",
+          "ordinal": 3,
+          "low": 6,
+          "high": 8,
+          "known_at": 4,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        },
+        {
+          "id": "b",
+          "ordinal": 4,
+          "low": 3.5,
+          "high": 6,
+          "known_at": 5,
+          "rule": "R0",
+          "source": "Synthetic-S0",
+          "external_complete_declared": true
+        }
+      ],
+      "expected": {
+        "status": "PART_ID_INVALID_OR_DUPLICATE"
+      },
+      "id": "duplicate_id"
+    }
+  ]
+}
