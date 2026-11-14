@@ -3,7 +3,7 @@
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
   "workflow_version": "4.101.0",
-  "source_count": 1056,
+  "source_count": 1057,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -2636,8 +2636,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "acfc98fb775cf5593c5446c9fa48b152622763f7",
-      "size_bytes": 174834
+      "git_blob_sha": "4c04c9202fcd9f18f86ee9fa58803d754c91f473",
+      "size_bytes": 176150
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -2678,8 +2678,8 @@
     {
       "source_path": "docs/IDEA_DISCOVERY_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/IDEA_DISCOVERY_WORKFLOW.md",
-      "git_blob_sha": "89e7ab6050fdde19b608c884af42aa9c84a52112",
-      "size_bytes": 46695
+      "git_blob_sha": "77e1b3f9dfabe135edbbdcd3faf88f7ccd87b208",
+      "size_bytes": 48151
     },
     {
       "source_path": "docs/PHASE1_INTAKE.md",
@@ -3924,6 +3924,12 @@
       "size_bytes": 9939
     },
     {
+      "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_M48_ENTRY_VALIDITY_HOLD_AUTHORIZATION_AND_ACCOUNT_EXIT.md",
+      "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_M48_ENTRY_VALIDITY_HOLD_AUTHORIZATION_AND_ACCOUNT_EXIT.md",
+      "git_blob_sha": "5a880e3c22a6018a831c5636b1240e8090e62360",
+      "size_bytes": 15119
+    },
+    {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_NOTEBOOK.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_NOTEBOOK.md",
       "git_blob_sha": "4f70af00b4431e6ff35ad8e92e429f500f159d95",
@@ -3974,8 +3980,8 @@
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/README.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/README.md",
-      "git_blob_sha": "814e27953a6a63954567d21c0ee675b397b7fcf2",
-      "size_bytes": 14843
+      "git_blob_sha": "c384a86b25137fd7c2acff86a1de8d5d4ead80db",
+      "size_bytes": 15582
     },
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/analysis.md",
