@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-M55-L18-L54-CENTER-VS-FINISHED-MOVEMENT-SLOTS",
+  "study_date": "2026-11-15",
+  "kind": "SOURCE_ANCHORED_SIX_POLICY_SLOTS_NOT_MARKET_DATA",
+  "sources": [
+    {
+      "uri": "https://eczsc.com/originals/18",
+      "role": "AUTHOR_MAIN_TRANSCRIPTION",
+      "claim": "center formed by 3 completed lower movements; containing pan may continue"
+    },
+    {
+      "uri": "https://eczsc.com/originals/54",
+      "role": "AUTHOR_MAIN_TRANSCRIPTION",
+      "claim": "full chart except last segment assumed low-level; coarse higher-view line and two alternative 3x3 center groups"
+    },
+    {
+      "uri": "deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_F1_F2_COMPONENT_ADMISSION_AND_UNPROVEN_BRIDGES.md",
+      "role": "PRIOR_AUDIT_V430"
+    },
+    {
+      "uri": "deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_AUTHOR_PREFIX_REPLAY_AND_END_POINT_AUDIT.md",
+      "role": "PRIOR_AUDIT_V428"
+    }
+  ],
+  "source_m54_path": "catalog/chanlun_l54_dual_policy_witness_m54.json",
+  "source_m54_id": "CHANLUN-L54-TWO-R-THREE-GROUP-SOURCE-WITNESS-M54",
+  "lesson18_semantics": {
+    "formed_center_implies_containing_movement_finished_now": false,
+    "model_is_hypothetical_not_market": true,
+    "countermodels": [
+      {
+        "id": "CENTER_CONTINUES",
+        "center_exists": true,
+        "containing_g_movement_finished_at_t": false
+      },
+      {
+        "id": "CENTER_CAN_FINISH",
+        "center_exists": true,
+        "containing_g_movement_finished_at_t": true
+      }
+    ]
+  },
+  "full_chart_vs_prefix": {
+    "author_assumption": "FULL_AUTHOR_CHART_ALL_EXCEPT_FINAL",
+    "not_implied": "PREFIX_RIGHTMOST_LEG_ALREADY_COMPLETED_FIRST_KNOWN",
+    "full_market_raw_data_unavailable": true
+  },
+  "required_independent_fields": [
+    "independent_movement_completion_receipt",
+    "raw_source_digest",
+    "market_first_known",
+    "strict_f1_f2_R_receipt"
+  ],
+  "group_slots": [
+    {
+      "slot_id": "R_A:G1",
+      "policy_id": "R_A",
+      "ordinal": 1,
+      "source_group_members": [
+        "d1g1",
+        "g1d2",
+        "d2g2"
+      ],
+      "source_typed_role": "AUTHOR_BRACKETED_1MIN_CENTER_GROUP",
+      "coarse_segmentation_grade": "SOURCE_ILLUSTRATION_NOT_FINISHED_MOVEMENT",
+      "independent_movement_completion_receipt": null,
+      "raw_source_digest": null,
+      "market_first_known": null,
+      "strict_f1_f2_R_receipt": null,
+      "proof_status": "AUTHOR_TEXT_GROUP_KNOWN_INDEPENDENT_MOVEMENT_COMPLETION_UNKNOWN"
+    },
+    {
+      "slot_id": "R_A:G2",
+      "policy_id": "R_A",
+      "ordinal": 2,
+      "source_group_members": [
+        "g2d3",
+        "d3g3",
+        "g3d4"
+      ],
+      "source_typed_role": "AUTHOR_BRACKETED_1MIN_CENTER_GROUP",
+      "coarse_segmentation_grade": "SOURCE_ILLUSTRATION_NOT_FINISHED_MOVEMENT",
+      "independent_movement_completion_receipt": null,
+      "raw_source_digest": null,
+      "market_first_known": null,
+      "strict_f1_f2_R_receipt": null,
+      "proof_status": "AUTHOR_TEXT_GROUP_KNOWN_INDEPENDENT_MOVEMENT_COMPLETION_UNKNOWN"
+    },
+    {
+      "slot_id": "R_A:G3",
+      "policy_id": "R_A",
+      "ordinal": 3,
+      "source_group_members": [
+        "d4g4",
+        "g4d5",
+        "d5g5"
+      ],
+      "source_typed_role": "AUTHOR_BRACKETED_1MIN_CENTER_GROUP",
+      "coarse_segmentation_grade": "SOURCE_ILLUSTRATION_NOT_FINISHED_MOVEMENT",
+      "independent_movement_completion_receipt": null,
+      "raw_source_digest": null,
+      "market_first_known": null,
+      "strict_f1_f2_R_receipt": null,
+      "proof_status": "AUTHOR_TEXT_GROUP_KNOWN_INDEPENDENT_MOVEMENT_COMPLETION_UNKNOWN"
+    },
+    {
+      "slot_id": "R_B:G1",
+      "policy_id": "R_B",
+      "ordinal": 1,
+      "source_group_members": [
+        "d2g2",
+        "g2d3",
+        "d3g3"
+      ],
+      "source_typed_role": "AUTHOR_BRACKETED_1MIN_CENTER_GROUP",
+      "coarse_segmentation_grade": "SOURCE_ILLUSTRATION_NOT_FINISHED_MOVEMENT",
+      "independent_movement_completion_receipt": null,
+      "raw_source_digest": null,
+      "market_first_known": null,
+      "strict_f1_f2_R_receipt": null,
+      "proof_status": "AUTHOR_TEXT_GROUP_KNOWN_INDEPENDENT_MOVEMENT_COMPLETION_UNKNOWN"
+    },
+    {
+      "slot_id": "R_B:G2",
+      "policy_id": "R_B",
+      "ordinal": 2,
+      "source_group_members": [
+        "g3d4",
+        "d4g4",
+        "g4d5"
+      ],
+      "source_typed_role": "AUTHOR_BRACKETED_1MIN_CENTER_GROUP",
+      "coarse_segmentation_grade": "SOURCE_ILLUSTRATION_NOT_FINISHED_MOVEMENT",
+      "independent_movement_completion_receipt": null,
+      "raw_source_digest": null,
+      "market_first_known": null,
+      "strict_f1_f2_R_receipt": null,
+      "proof_status": "AUTHOR_TEXT_GROUP_KNOWN_INDEPENDENT_MOVEMENT_COMPLETION_UNKNOWN"
+    },
+    {
+      "slot_id": "R_B:G3",
+      "policy_id": "R_B",
+      "ordinal": 3,
+      "source_group_members": [
+        "d5g5",
+        "g5d6",
+        "d6g6"
+      ],
+      "source_typed_role": "AUTHOR_BRACKETED_1MIN_CENTER_GROUP",
+      "coarse_segmentation_grade": "SOURCE_ILLUSTRATION_NOT_FINISHED_MOVEMENT",
+      "independent_movement_completion_receipt": null,
+      "raw_source_digest": null,
+      "market_first_known": null,
+      "strict_f1_f2_R_receipt": null,
+      "proof_status": "AUTHOR_TEXT_GROUP_KNOWN_INDEPENDENT_MOVEMENT_COMPLETION_UNKNOWN"
+    }
+  ],
+  "checkpoints": [
+    {
+      "id": "g5",
+      "author_attested": {
+        "R_A": true,
+        "R_B": false
+      },
+      "market_verified": {
+        "R_A": "UNKNOWN",
+        "R_B": "NOT_SOURCE_ELIGIBLE_AT_G5"
+      }
+    },
+    {
+      "id": "g6",
+      "author_attested": {
+        "R_A": true,
+        "R_B": true
+      },
+      "market_verified": {
+        "R_A": "UNKNOWN",
+        "R_B": "UNKNOWN"
+      }
+    }
+  ],
+  "phi20_proof_missing": [
+    "TWO_INDEPENDENT_CONSECUTIVE_VALID_G_CENTERS",
+    "LEGAL_CONNECTOR_AS_REQUIRED",
+    "SOURCE_PERIPHERAL_MEMBER_IDENTITY",
+    "THREE_COMPLETED_G_MOVEMENT_RECEIPTS",
+    "SAME_HIGHER_CENTER_ID",
+    "MARKET_FIRST_KNOWN_TIMES"
+  ],
+  "guard_flags": {
+    "preserve_author_higher_center_attestation": true,
+    "market_completion_claim": false,
+    "full_f01_solution": false,
+    "phi20_solution": false,
+    "real_market_backtest": false,
+    "a087_second_formula_identified": false
+  }
+}

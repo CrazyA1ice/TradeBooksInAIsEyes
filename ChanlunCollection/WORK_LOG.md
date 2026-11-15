@@ -1,5 +1,11 @@
 # 《缠论》研究步骤与工作流修订记录
 
+## 2026-11-15｜M55：第18课中心与走势完结分离，L54六个具体组缺可追完成证据
+
+- [本期报告](OtherVoices/speaker-unknown-001/IDEA_M55_L18_L54_CENTER_VS_COMPLETED_MOVEMENT_PROOF_SLOTS.md)：第18课明确下层三个完整走势重叠可生本层中枢，同时本层盘整达到成中枢条件后可继续无限延伸；“本层中枢出现→本层走势结束”的强论断因此不成立。把该类型区分**落实至**M54原作者R_A(3组g5)和R_B(3组g6)共六个政策限定**源文组槽位**，每组另待同一f1/f2/R、合法本级结束、原子行情来源、market first-known证书，不能靠原图括号或作者抽象线段直接捏造。
+- L54“除最后一个可视为线段”以完整出版图为论域，不能自动给g5最右d5g5、g6最右d6g6签发当时实时结束证明；而作者在图例自己给出的高级中心形成阶段仍有效保留。新[六组JSON](catalog/chanlun_l18_l54_completed_movement_slots_m55.json)/[校验器](tools/audit_chanlun_l18_l54_completion_slots_m55.py)/[24条测试](tests/test_chanlun_l18_l54_completion_slots_m55.py)/[专属CI](.github/workflows/chanlun-m55-completed-movement-slots-gate.yml)拒绝伪造原始行情及“已证明Φ20”。
+- 先例v4.30已经分过抽象线/严格线/完整走势，v4.54已有F01合成依赖图，M54已有源文六组三段，故本轮不重复称新史料；保持I82/C46/v4.101，A016/A087/F01/OB38/OB99 OPEN、E1–E4 NOT_RUN。
+
 ## 2026-11-15｜M54：原第54课两种3×3下级中枢分组的成员链、形成节点和类型叉路对照
 
 - [完整M54报告](OtherVoices/speaker-unknown-001/IDEA_M54_L54_DUAL_POLICY_THREE_GROUP_WITNESS_AND_PHI20_SCOPE.md)冻结第54课作者`g0g5`与`g0g6`两个带大括号式：R_A三组从`d1g1`到`d5g5`、g5形成高中心[ d2,g5 ]；R_B三组从`d2g2`到`d6g6`、g6形成[ d3,g5 ]。两个方案不能当作同R下同一高中心的无歧义最早形成时钟；g5时R_B第三组仍需g6后缀，必须拒绝用未来信息提前签证。
