@@ -1,5 +1,9 @@
-# ChanlunCollection｜本书实施工作流 v4.101.2
+# ChanlunCollection｜本书实施工作流 v4.101.3
 
+## 2026-11-15｜M74.1：修复官方CDN重定向误拒、继续保护下载文件
+
+- Windows本机M74 11项单测通过，真实模式遇`unexpected source redirect`，导致SVG未生成；问题在M74硬编码分发主机不包含HF官方现行US/EU LFS、US CDN及EU Xet域名，与已确认真实行情不存在矛盾。
+- 依照[HF官方数据集下载域名](https://huggingface.co/docs/hub/datasets-downloading)采用严格HTTPS+官方`hf.co`、`huggingface.co`与子域后缀校验，拒绝非HF域名/HTTP/异常端口/URL账号，并保留2,897,499字节及精确LFS SHA256要求；只有验证全链通过后才允许仓库外SVG写入。增加无网域名正反例单测。保留g/d未配准、复权与原图年份未独立认证、F01/OB38/OB99/Φ20 OPEN和E1-E4 NOT_RUN。
 ## 2026-11-15｜M74：真实1m数据数值指纹与作者g/d标记隔离
 
 - 用户确认2007-05-18的600151全部240根分钟格网和价量有效，13:07最高18.59、15:00末价18.03，末量1917、均量MA5=1565.2/MA10=1498.4及价均线18.05/18.052与二次原图高度一致。[完整证据与执行步骤](OtherVoices/speaker-unknown-001/IDEA_M74_L54_REAL_2007_MINUTE_REPLAY_AND_FIGURE_FINGERPRINT.md)留档。独立交易所源/复权未证，不准写交易所认证或“作者已证2007”。
