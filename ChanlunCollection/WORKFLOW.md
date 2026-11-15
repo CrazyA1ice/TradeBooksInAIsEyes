@@ -1,5 +1,11 @@
 # ChanlunCollection｜本书实施工作流 v4.101.0
 
+## 2026-11-15｜M67：《论语》61两个盘整结束答疑须保持级别限定与正确回复时钟
+
+- [M67新来源报告](OtherVoices/speaker-unknown-001/IDEA_M67_CONFUCIUS61_PAN_END_LEVEL_SCOPE_F01_ROOT_CUT.md)分别核对2007-04-03 15:51:18的“你的样子”问答、15:54:51的“hehe2”问答及原宿主《论语》61；第二回复纠正“走势全部由背驰终结”，第一回复允许本级盘整结束后继续有更高级盘整，不能推广为全级别无盘整。
+- [2来源合同/23人工状态](catalog/chanlun_confucius61_pan_end_root_cut_m67.json)、[复用v4.76及M66的只读审计器](tools/audit_chanlun_confucius61_pan_end_root_cut_m67.py)、[10项Python测试](tests/test_chanlun_confucius61_pan_end_root_cut_m67.py)进入既有M56 workflow，不将`F1_CENTER`、根层`THIRD_POINT`或盘整背驰单独提升为根层PAN_EXIT证书。
+- I82/C46/v4.101、五卷108课/100答不变；作者Sina评论原字节未验、严格根层F01/OB38/OB99/Φ20、A016/A087 OPEN，真实市场E1–E4 NOT_RUN。
+
 ## 2026-11-15｜M66：原始所属市场文章评论而非第64课，段严格确认需要未来另段证书
 
 - [M66新的原宿主溯源](OtherVoices/speaker-unknown-001/IDEA_M66_JULY11_AUTHOR_SEGMENT_PREVIEW_VS_CONFIRMATION.md)找到2007-07-11《3850点，残酷的多空无量鏖战》8条确切作者答疑（含15:59:25的“段被段破坏才确认”、16:08:23的MACD辅助、16:10:26的最低笔段/上层递归、16:36:27的把次级当段仅是比喻）；与第64课2007-07-02正文严格分开。
