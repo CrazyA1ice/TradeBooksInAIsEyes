@@ -135,17 +135,27 @@ class ReplayTests(unittest.TestCase):
         self.assertEqual(m.summarize(fake_full_day())["macd_initialization"],
                          "SESSION_FIRST_CLOSE_ONLY_NOT_VENDOR_CROSS_DAY_MATCH")
 
-    def test_opt_in_svg_destination_must_be_outside_repo_and_not_overwrite(self):
-        with self.assertRaisesRegex(ValueError,"Git repository"):
-            m.safe_svg_destination(str(m.ROOT/"output.svg"))
-        with self.assertRaisesRegex(ValueError,".svg"):
-            m.safe_svg_destination(str(m.ROOT.parent/"some-report.txt"))
+    def test_opt_in_svg_destination_must_be_inside_project_work_and_not_overwrite(self):
         with tempfile.TemporaryDirectory() as d:
-            output=Path(d)/"chart.svg"
-            self.assertEqual(m.safe_svg_destination(str(output)),output.resolve())
-            output.write_text("existing")
-            with self.assertRaisesRegex(ValueError,"overwriting"):
-                m.safe_svg_destination(str(output))
+            work=Path(d)/"TradeBooksInAIsEyes"/"work"
+            work.mkdir(parents=True)
+            with mock.patch.object(m,"private_work_root",return_value=work):
+                with self.assertRaisesRegex(ValueError,"inside project work"):
+                    m.safe_svg_destination(str(m.ROOT/"output.svg"))
+                with self.assertRaisesRegex(ValueError,".svg"):
+                    m.safe_svg_destination(str(work/"some-report.txt"))
+                output=work/"chart.svg"
+                self.assertEqual(m.safe_svg_destination(str(output)),output.resolve())
+                output.write_text("existing")
+                with self.assertRaisesRegex(ValueError,"overwriting"):
+                    m.safe_svg_destination(str(output))
+
+    def test_linked_review_worktree_resolves_canonical_main_project(self):
+        base=Path("D:/ChatGPT/TradeBooksInAIsEyes")
+        nested=base/"work"/"review-worktrees"/"M74-Review"
+        with mock.patch.object(m,"ROOT",nested):
+            self.assertEqual(m.canonical_project_root(),base.resolve())
+            self.assertEqual(m.private_work_root(),(base/"work").resolve())
 
     def test_no_network_chart_request_is_invalid(self):
         with self.assertRaisesRegex(ValueError,"preflight"):
