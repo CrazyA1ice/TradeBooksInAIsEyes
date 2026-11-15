@@ -39,3 +39,7 @@ jobs:
         run: |
           python -B tools/audit_chanlun_dual_f1_bar_close_asof_m68.py
           python -B -m unittest discover -s tests -p "test_chanlun_dual_f1_bar_close_asof_m68.py" -v
+      - name: M69 native local QMT to in-memory M56 source admission and 240-grid fake tests
+        run: |
+          python -B tools/admit_chanlun_l54_local_qmt_m69.py --mode preflight
+          python -B -m unittest discover -s tests -p "test_chanlun_l54_local_qmt_m69.py" -v
