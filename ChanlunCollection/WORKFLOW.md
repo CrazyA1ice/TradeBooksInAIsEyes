@@ -1,4 +1,11 @@
-# ChanlunCollection｜本书实施工作流 v4.101.4
+# ChanlunCollection｜本书实施工作流 v4.101.5
+
+## 2026-11-15｜M75.1：从项目内部既有副本引用卷三PDF
+
+- 实际Windows迁移已成功（两个Review由git worktree move移动、SVG迁移前后SHA吻合）。M75 8项单测全过后，在用户主工作树上出现`canonical volume-3 PDF missing`。不代表Git仓库没有PDF，也不代表原图行情作废：这只说明当前工作区指定物理路径缺文件。
+- [M75工具](tools/prepare_chanlun_l54_alignment_m75.py)优先主工作树规范文件；缺失则从同一项目的ChanlunCollection镜像和M74/M73内部Review取现有文件，继续原文PDF SHA校验。输出HTML引用实际选中的项目内PDF，JSON记录相对项目路径，不复制、不重新下载PDF，不修改主工作区。所有候选都没有时保留阻断并请本机只读诊断。
+- 只有本机M75 prepare回执成功后才能宣称HTML/JSON实际生成；g/d尚无通过图像精确认证的具体分钟，F01/OB38/OB99/Φ20 OPEN，E1-E4 NOT_RUN。
+
 
 ## 2026-11-15｜M75：统一项目工作目录与第54课原图配准入口
 
