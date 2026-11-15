@@ -1,5 +1,11 @@
 # ChanlunCollection｜本书实施工作流 v4.101.0
 
+## 2026-11-15｜M66：原始所属市场文章评论而非第64课，段严格确认需要未来另段证书
+
+- [M66新的原宿主溯源](OtherVoices/speaker-unknown-001/IDEA_M66_JULY11_AUTHOR_SEGMENT_PREVIEW_VS_CONFIRMATION.md)找到2007-07-11《3850点，残酷的多空无量鏖战》8条确切作者答疑（含15:59:25的“段被段破坏才确认”、16:08:23的MACD辅助、16:10:26的最低笔段/上层递归、16:36:27的把次级当段仅是比喻）；与第64课2007-07-02正文严格分开。
+- [新8来源/18人工时序案例JSON](catalog/chanlun_july11_segment_confirmation_m66.json)、[复用现有F01 v4.76与M65的审计器](tools/audit_chanlun_july11_segment_confirmation_m66.py)、[10项Python测试](tests/test_chanlun_july11_segment_confirmation_m66.py)由已稳定触发的M56工作流运行，不能用历史端点时钟提前发真实完成证书。
+- 不将作者“98%解决问题”解释为可验证的交易准确率。I82/C46/v4.101不改；A016/A087/F01/OB38/OB99/Φ20 OPEN，2007真实市场E1–E4 NOT_RUN。
+
 ## 2026-11-15｜M65：第55课16:28盘整离开与盘整回试，只审原文合格资格
 
 - [M65新源审稿](OtherVoices/speaker-unknown-001/IDEA_M65_L55_CONSOLIDATION_DEPARTURE_RETRACE_SCOPE.md)定位作者2007-05-28 16:28:12对“大盘”两问的统一答复，防止把“只要是次级别”理解成任意K线和任意盘整均构成三买三卖；按15:55:28完成、16:25:10离开、3月21日16:29:42回中心内部属于震荡分别建立资格门。
