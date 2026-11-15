@@ -56,6 +56,27 @@ jobs:
         run: |
           python -B tools/probe_chanlun_l54_public_archive_m73.py --mode preflight
           python -B -m unittest discover -s tests -p "test_chanlun_l54_public_archive_m73.py" -v
+      - name: M73 HF public repository directory prefix diagnostics (names and statuses only)
+        if: github.event_name == 'pull_request' && github.head_ref == 'research/m73-github-public-minute-archive-2007-probe-20261115'
+        timeout-minutes: 3
+        continue-on-error: true
+        run: |
+          python -B - <<'PY'
+          import json,urllib.request,urllib.parse,urllib.error
+          base="https://huggingface.co/api/datasets/OxFengyuan/stock_dataset/tree/main"
+          paths=["","A股分钟","A股分钟/2000-2024","A股分钟/2000-2024/2007","A股分钟/2000-2024/2007/1分钟"]
+          for path in paths:
+              url=base+("/"+urllib.parse.quote(path,safe="/") if path else "")+"?limit=12"
+              try:
+                  with urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"}),timeout=15) as f:
+                      records=json.loads(f.read(75000))
+                      names=[str(x.get("path","")) for x in records if isinstance(x,dict)]
+                      print(json.dumps({"prefix":path or "repo-root","http_status":f.status,"items":len(records),"first_paths":names[:6]},ensure_ascii=False))
+              except urllib.error.HTTPError as e:
+                  print(json.dumps({"prefix":path or "repo-root","http_status":e.code,"items":0},ensure_ascii=False))
+              except Exception as e:
+                  print(json.dumps({"prefix":path or "repo-root","exception_class":type(e).__name__,"items":0},ensure_ascii=False))
+          PY
       - name: M73 one-off public historical minute source discovery (no credentials, no saved bars)
         if: github.event_name == 'pull_request' && github.head_ref == 'research/m73-github-public-minute-archive-2007-probe-20261115'
         timeout-minutes: 4
