@@ -1,5 +1,9 @@
 # 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.101.0，2026-11-13）
 
+## M73｜GitHub分钟数据仓再筛选：HF 2000—2024年度CSV + zzshare匿名2007单日API（2026-11-15）
+
+[来源调查与实际受限单次检索](../other_views/chanlun/speaker-unknown-001/IDEA_M73_L54_GITHUB_HF_ZZSHARE_PUBLIC_2007_1MIN.md)把重心从需付费授权的API转到可公开核验的既有历史分钟档案。HF数据集OxFengyuan/stock_dataset公开称包含2000—2024年A股分年份/单股票1m CSV，无法把总库200GB下载到本地，故新增[纯标准库单文件探针](../tools/probe_chanlun_l54_public_archive_m73.py)，只枚举2007年1m目录、600151文件且≤30MiB，只在内存检查2007-05-18一天并走M56/M69。备用[zzshare](https://github.com/zzquant/zzshare)从源码核实匿名HTTP单股票2007-05-18 1m API路径，**但2007分钟深度未确认**。GitHub aitech17/A_history及waizao/StockApiJava百度网盘含分钟线的README声明已经留档，**未核实分享实际目录或具体目标样本**。默认preflight不联网；只有用户明确选择hf-once或zzshare-once才发出受限公共请求；PR专属一次性公开探测允许网络错误而不伪造来源。新增[30项Fake无网验收](../tests/test_chanlun_l54_public_archive_m73.py)、[状态合同](../catalog/chanlun_l54_github_public_minute_2007_m73.json)。已实际从GitHub Actions证实HF的2007年度1分钟目录返回HTTP 200，但大量列表及sh600151单文件尝试HTTP 401；zzshare匿名该日返回0条，**2007目标分钟数据仍未取得**。当前原图年月认证、历史1m实际入库、F01/OB38/OB99/Φ20、E1–E4不推进，原5卷/108课/100答/I82/C46/v4.101保留。
+
 ## M72｜受控外部历史分钟样本：RQData 2005+源与ARData备选（2026-11-15）
 
 [完整外部数据源和单日操作报告](../other_views/chanlun/speaker-unknown-001/IDEA_M72_L54_EXTERNAL_2007_MINUTE_RQDATA_ARDATA_ONE_DAY.md)在真实本地测试QMT2007-05-18一天1m补下载后仍返回0的前提下，正式改变路线：RQData官方称A股分钟数据自2005起，支持600151.XSHG同一天1m、`adjust_type=none`、`skip_suspended=True`；ARData作为可明确计费、须独立授权的备选。新增[外部只读一次性查询工具](../tools/probe_chanlun_l54_external_minute_m72.py)、[固定来源/权限合同](../catalog/chanlun_l54_external_minute_single_day_m72.json)、[26项无网络假源/认证脱敏单测](../tests/test_chanlun_l54_external_minute_m72.py)。默认`preflight`与`access-check`完全离线，不输出/上传账号Token、原始行情；只有用户显式选择`rqdata-once`或`ardata-once`才会按**单只股票/单个2006或2007候选日期**发起可能计费的请求并在内存调用M56/M69历史入场门。**提供商宣称2005覆盖不代表用户有账号或具体2007日数据确实存在，当前CI未获取真实行情。** 保留第54课图年月未核验、F01/OB38/OB99/Φ20/A016/A087 OPEN、E1–E4 NOT_RUN，原5卷/108课/100答/I82/C46/v4.101不变。
