@@ -52,7 +52,7 @@ jobs:
           python -B tools/probe_chanlun_l54_external_minute_m72.py --mode preflight
           python -B tools/probe_chanlun_l54_external_minute_m72.py --mode access-check
           python -B -m unittest discover -s tests -p "test_chanlun_l54_external_minute_m72.py" -v
-      - name: M73 public archive and anonymous zzshare one-day source safety gate (28 fake fixtures)
+      - name: M73 public archive and anonymous zzshare one-day source safety gate (30 fake fixtures)
         run: |
           python -B tools/probe_chanlun_l54_public_archive_m73.py --mode preflight
           python -B -m unittest discover -s tests -p "test_chanlun_l54_public_archive_m73.py" -v
