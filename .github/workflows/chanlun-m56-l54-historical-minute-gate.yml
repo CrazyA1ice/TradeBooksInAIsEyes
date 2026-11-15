@@ -23,3 +23,7 @@ jobs:
         run: python -B -m unittest discover -s tests -p "test_probe_chanlun_l54_qmt_local_1m_m57.py" -v
       - name: M64 seven dated author reply receipts and third-point proof-boundary regressions
         run: python -B -m unittest discover -s tests -p "test_chanlun_l55_reply_chain_m64.py" -v
+      - name: M65 L55 conditional pan departure/retrace proof-source state gate
+        run: |
+          python -B tools/audit_chanlun_l55_consolidation_depart_retrace_m65.py
+          python -B -m unittest discover -s tests -p "test_chanlun_l55_consolidation_depart_retrace_m65.py" -v

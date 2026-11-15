@@ -1,5 +1,11 @@
 # 《缠论》研究步骤与工作流修订记录
 
+## 2026-11-15｜M65：补入第五十五课16:28:12作者对盘整离开/返回的有条件允许
+
+- [研究报告](OtherVoices/speaker-unknown-001/IDEA_M65_L55_CONSOLIDATION_DEPARTURE_RETRACE_SCOPE.md)新增2007-05-28 16:28:12作者回答“大盘”关于跳空后第二日线中心及三卖“次级盘整离开＋盘整返回”两问的精确问答署时；作者只说明次级资格与括号组合必须合法，不承认每个图形实例已经发生。
+- 与M64 15:55:28“合法中枢、B完成、回试完成”及16:25:10“另证券777未离开中枢，不是三卖”，第38课2007-03-21 16:29:42“回到中枢内部为震荡”，第20课正式定义联合**有类型**研究门。不同读者/证券不能强拼同一历史实证。
+- [条件来源JSON](catalog/chanlun_l55_consolidation_depart_retrace_m65.json)、[只读分类器](tools/audit_chanlun_l55_consolidation_depart_retrace_m65.py)和[单测](tests/test_chanlun_l55_consolidation_depart_retrace_m65.py)不采集行情、不证明任何交易信号，边界、F01/OB38/OB99/Φ20及A016/A087保留未解；市场NOT_RUN。
+
 ## 2026-11-15｜M64：已登记七条历史作者问答的原发宿主与第三类点证书依赖
 
 - [完整研究](OtherVoices/speaker-unknown-001/IDEA_M64_L55_REPLY_CHAIN_AND_THIRD_POINT_GATES.md)补源2007-03-08《论语》55问答16:10:43/16:38:56及2007-05-28第55课问答15:55:28/16:04:26/16:25:10/16:29:40/16:31:01；绝不把3月留言称为35课正文或5月28日回复称为54课5月24日正文。后期镜像有问答署时但非Sina服务器原始字节签名。

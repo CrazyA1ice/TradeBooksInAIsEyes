@@ -1,5 +1,9 @@
 # 《缠论》五卷108课｜当前研究状态与未完成关口
 
+## 2026-11-15｜M65：盘整离开及盘整回试获来源层条件性许可，不是三卖市场认证
+
+[有时间来源的回答](OtherVoices/speaker-unknown-001/IDEA_M65_L55_CONSOLIDATION_DEPARTURE_RETRACE_SCOPE.md)补证2007-05-28 16:28:12作者在第55课下对两问的统一答复：次级盘整可在满足定义及结合律时用于离开/回试角色。结合M64同日15:55:28、16:25:10与旧第38课2007-03-21 16:29:42的负例，登记`NO_DEPARTURE`、`INTERIOR_RETRACE`、`PRIOR_COMPLETED_EXTERNAL_RETRACE`、`BORDER_TOUCH`、`CHILD_NOT_COMPLETED`的不同状态。新增17个合成拒绝/待证输入及11个单元测试，但**真实行情尚未取得，原图年份仍未验明**。状态`SOURCE_CONDITIONAL_CANDIDATE_ONLY`不升级为`MARKET_CONFIRMED`，F01/OB38/OB99/Φ20及A016/A087 OPEN，E1–E4 NOT_RUN，v4.101/I82/C46不变。
+
 ## 2026-11-15｜M64：七条历史作者答疑已结构化，真实三卖与2007 MACD仍未独立认证
 
 [署时问答研究](OtherVoices/speaker-unknown-001/IDEA_M64_L55_REPLY_CHAIN_AND_THIRD_POINT_GATES.md)正式保存2007年《论语》55两条及第55课五条作者答复的不同宿主/问答时刻，包括05-28三卖的“原中枢合法、B次级完成、回试完成”要求、L54 d4双MACD基准及可能不一致、另证券“777”未离开旧中心的否证、账户交易费/时间条件。只属ARCHIVED_AUTHOR_REPLY，不是Signed Sina原始评论、600151市场数据或盈利证明。[JSON](catalog/chanlun_l55_reply_chain_m64.json)、[Python测试](tests/test_chanlun_l55_reply_chain_m64.py)可做来源类型守门，不能生成F01完成/第三买卖点。维持原I82/C46、v4.101、五卷108课100回答不变，A016/A087/F01/OB38/OB99/Φ20 OPEN，真实E1–E4 NOT_RUN。

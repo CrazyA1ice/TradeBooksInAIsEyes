@@ -1,5 +1,11 @@
 # ChanlunCollection｜本书实施工作流 v4.101.0
 
+## 2026-11-15｜M65：第55课16:28盘整离开与盘整回试，只审原文合格资格
+
+- [M65新源审稿](OtherVoices/speaker-unknown-001/IDEA_M65_L55_CONSOLIDATION_DEPARTURE_RETRACE_SCOPE.md)定位作者2007-05-28 16:28:12对“大盘”两问的统一答复，防止把“只要是次级别”理解成任意K线和任意盘整均构成三买三卖；按15:55:28完成、16:25:10离开、3月21日16:29:42回中心内部属于震荡分别建立资格门。
+- 新[JSON和17条研究者合成状态](catalog/chanlun_l55_consolidation_depart_retrace_m65.json)、[零行情只读状态审计](tools/audit_chanlun_l55_consolidation_depart_retrace_m65.py)、[11个Python来源单测](tests/test_chanlun_l55_consolidation_depart_retrace_m65.py)挂入已有M56工作流。触边等号、F01完成和A087第二定义仍未证，不能输出实盘三卖。
+- 原100条知乎答/五卷PDF/108课、I82/C46/v4.101不变，A016/A087/F01/OB38/OB99/Φ20 OPEN、E1–E4 NOT_RUN。
+
 ## 2026-11-15｜M64：作者2007-03-08与05-28七条署时回复，三卖条件必须跨来源验收
 
 - [新研究报告](OtherVoices/speaker-unknown-001/IDEA_M64_L55_REPLY_CHAIN_AND_THIRD_POINT_GATES.md)与[七来源合同](catalog/chanlun_l55_reply_chain_m64.json)区分《论语》55作者3月8日的两观察方法、5月28日第55课评论下的两MACD比较基准、第三点成员完成条件、未离开中枢的另证券负例及交易费用/通道约束。特别声明不同读者/证券不构成同一证券的完整真实行情见证。

@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-M65-L55-LOWER-CONSOLIDATION-DEPARTURE-RETRACE-CONDITIONAL-ELIGIBILITY",
+  "study_date": "2026-11-15",
+  "scope": "ARCHIVED_AUTHOR_REPLY_PROVENANCE_AND_RESEARCHER_TOY_DECISION_GATE_ONLY",
+  "author_reply": {
+    "id": "L55_162812",
+    "article": "教你炒股票55",
+    "article_date": "2007-05-28T08:12:41",
+    "question_by": "大盘",
+    "question_at": "2007-05-28T16:15:20",
+    "reply_at": "2007-05-28T16:28:12",
+    "url": "https://chzhshch.blog/stocks/055/",
+    "question_part_1": "DAILY_CENTER_GAP_LEAVE_AND_SECOND_DAILY_CENTER_CONSTRUCTION",
+    "question_part_2": "THIRD_SELL_LOWER_CONSOLIDATION_DEPART_AND_CONSOLIDATION_RETURN",
+    "author_reply_claim": "LOWER_LEVEL_MOVEMENT_TYPE_NOT_CATEGORICALLY_DISALLOWED_BUT_COMPOSITION_BRACKET_MEMBERS_MUST_MEET_DEFINITIONS",
+    "conclusion_strength": "AUTHOR_GENERIC_CONDITIONAL_REPLY_TO_TWO_PART_QUESTION_NOT_CASE_BY_CASE_CERTIFICATION",
+    "sina_original_bytes_verified": false
+  },
+  "corroborating_sources": [
+    {
+      "id": "L55_155528",
+      "url": "https://chzhshch.blog/stocks/055/",
+      "article": "教你炒股票55",
+      "question_at": "2007-05-28T15:48:54",
+      "reply_at": "2007-05-28T15:55:28",
+      "claim": "A_CENTER_LEGAL_B_COMPLETED_CHILD_RETRACE_COMPLETED_CHILD"
+    },
+    {
+      "id": "L55_162510",
+      "url": "https://chzhshch.blog/stocks/055/",
+      "article": "教你炒股票55",
+      "question_at": "2007-05-28T16:13:52",
+      "reply_at": "2007-05-28T16:25:10",
+      "claim": "777_OTHER_SECURITIES_NO_DEPARTURE_REJECT_THIRD_SELL"
+    },
+    {
+      "id": "L38_162942",
+      "url": "https://chzhshch.blog/stocks/038/",
+      "article": "教你炒股票38",
+      "question_at": "2007-03-21T16:23:48",
+      "reply_at": "2007-03-21T16:29:42",
+      "claim": "RETURN_INSIDE_CENTER_IS_OSCILLATION_NOT_FIRST_QUALIFIED_EXTERNAL_RETRACE"
+    },
+    {
+      "id": "L20_AUTHOR_MAIN",
+      "url": "https://eczsc.com/originals/20",
+      "article": "教你炒股票20",
+      "published_at": "2007-01-05T15:23:22",
+      "claim": "THIRD_POINT_REQUIRES_LOWER_MOVEMENT_DEPARTURE_FIRST_QUALIFIED_RETRACE_AND_PRICE_BOUNDARY"
+    }
+  ],
+  "prior_report": "other_views/chanlun/speaker-unknown-001/IDEA_M64_L55_REPLY_CHAIN_AND_THIRD_POINT_GATES.md",
+  "prior_provenance": "catalog/chanlun_l55_reply_chain_m64.json",
+  "distinct_case_roles": {
+    "l54_chart": "600151_AUTHOR_TEXT_ONLY",
+    "l55_777": "000777_OR_600777_NOT_600151",
+    "l55_162812": "GENERIC_TWO_PART_QUESTION_NO_SINGLE_CHART_CERTIFICATION"
+  },
+  "live_context_required": [
+    "same_fixed_policy_R_and_level_g",
+    "qualified_original_center_id",
+    "separate_lower_movement_completion_receipts",
+    "real_departure_evidence",
+    "first_eligible_external_retrace_role",
+    "interior_vs_boundary_price_role",
+    "source_available_at_and_market_first_known_at",
+    "order_and_fill_provenance_if_market_claim"
+  ],
+  "grade": "SOURCE_TEXT_CONDITIONAL_NOT_REAL_MARKET",
+  "boundary_touch": "UNRESOLVED_L20_L38",
+  "repo_status": {
+    "A087_second_center_formula": "UNKNOWN",
+    "A016_third_layer": "UNKNOWN",
+    "F01": "OPEN",
+    "OB38": "OPEN",
+    "OB99": "OPEN",
+    "phi20": "OPEN",
+    "real_market": "NOT_RUN",
+    "trade_count": 0,
+    "orders_sent": 0,
+    "market_data_acquired": false
+  },
+  "forbidden": [
+    "CONSOLIDATION_CHILD_TYPE_EQUALS_COMPLETED_CHILD",
+    "AUTHOR_GENERIC_PERMISSION_EQUALS_ANY_REAL_MARKET_THIRD_POINT",
+    "RETURN_INSIDE_CENTER_COUNTS_AS_OUTSIDE_THIRD_POINT",
+    "L55_777_CASE_IS_L54_600151",
+    "L20_BOUNDARY_TOUCH_IS_SETTLED_BY_L55_REPLY",
+    "ARCHIVED_REPLY_TEXT_IS_SINA_AUTHENTICATED_OR_MARKET_FIRST_KNOWN"
+  ],
+  "toy_cases": [
+    {
+      "id": "allowed_toy_consolidation_combo",
+      "input": {
+        "origin": "SYNTHETIC_SOURCE_CONDITIONAL_NOT_MARKET",
+        "market_verified": false,
+        "orders_sent": 0,
+        "child_type_departure": "CONSOLIDATION",
+        "child_type_retrace": "CONSOLIDATION",
+        "departure_relation": "OUTSIDE",
+        "retrace_relation": "OUTSIDE",
+        "child_completion_departure": "COMPLETE",
+        "child_completion_retrace": "COMPLETE",
+        "original_center_legal": true,
+        "composition_legal": true,
+        "prior_completed_external_retrace": false,
+        "known_asof": true
+      },
+      "expected": "SOURCE_CONDITIONAL_CANDIDATE_ONLY"
+    },
+    {
+      "id": "trend_type_not_required_to_be_rejected",
+      "input": {
+        "origin": "SYNTHETIC_SOURCE_CONDITIONAL_NOT_MARKET",
+        "market_verified": false,
+        "orders_sent": 0,
+        "child_type_departure": "TREND",
+        "child_type_retrace": "CONSOLIDATION",
+        "departure_relation": "OUTSIDE",
+        "retrace_relation": "OUTSIDE",
+        "child_completion_departure": "COMPLETE",
+        "child_completion_retrace": "COMPLETE",
+        "original_center_legal": true,
+        "composition_legal": true,
+        "prior_completed_external_retrace": false,
+        "known_asof": true
+      },
+      "expected": "SOURCE_CONDITIONAL_CANDIDATE_ONLY"
+    },
+    {
+      "id": "no_departure",
+      "input": {
+        "origin": "SYNTHETIC_SOURCE_CONDITIONAL_NOT_MARKET",
+        "market_verified": false,
+        "orders_sent": 0,
+        "child_type_departure": "CONSOLIDATION",
+        "child_type_retrace": "CONSOLIDATION",
+        "departure_relation": "NO_DEPARTURE",
+        "retrace_relation": "OUTSIDE",
+        "child_completion_departure": "COMPLETE",
+        "child_completion_retrace": "COMPLETE",
+        "original_center_legal": true,
+        "composition_legal": true,
+        "prior_completed_external_retrace": false,
+        "known_asof": true
+      },
+      "expected": "REJECT_NO_DEPARTURE"
+    },
+    {
+      "id": "inside_core_is_oscillation",
+      "input": {
+        "origin": "SYNTHETIC_SOURCE_CONDITIONAL_NOT_MARKET",
+        "market_verified": false,
+        "orders_sent": 0,
+        "child_type_departure": "CONSOLIDATION",
+        "child_type_retrace": "CONSOLIDATION",
+        "departure_relation": "OUTSIDE",
+        "retrace_relation": "INSIDE",
+        "child_completion_departure": "COMPLETE",
+        "child_completion_retrace": "COMPLETE",
+        "original_center_legal": true,
+        "composition_legal": true,
+        "prior_completed_external_retrace": false,
+        "known_asof": true
+      },
+      "expected": "REJECT_INTERIOR_RETRACE_IS_OSCILLATION"
+    },
+    {
+      "id": "already_one_external_retrace",
+      "input": {
+        "origin": "SYNTHETIC_SOURCE_CONDITIONAL_NOT_MARKET",
+        "market_verified": false,
+        "orders_sent": 0,
+        "child_type_departure": "CONSOLIDATION",
+        "child_type_retrace": "CONSOLIDATION",
+        "departure_relation": "OUTSIDE",
+        "retrace_relation": "OUTSIDE",
+        "child_completion_departure": "COMPLETE",
+        "child_completion_retrace": "COMPLETE",
+        "original_center_legal": true,
+        "composition_legal": true,
+        "prior_completed_external_retrace": true,
+        "known_asof": true
+      },
+      "expected": "REJECT_NOT_FIRST_EXTERNAL_RETRACE"
+    },
+    {
+      "id": "boundary_touch_not_resolved",
+      "input": {
+        "origin": "SYNTHETIC_SOURCE_CONDITIONAL_NOT_MARKET",
+        "market_verified": false,
+        "orders_sent": 0,
+        "child_type_departure": "CONSOLIDATION",
+        "child_type_retrace": "CONSOLIDATION",
+        "departure_relation": "OUTSIDE",
+        "retrace_relation": "BOUNDARY_TOUCH",
+        "child_completion_departure": "COMPLETE",
+        "child_completion_retrace": "COMPLETE",
+        "original_center_legal": true,
+        "composition_legal": true,
+        "prior_completed_external_retrace": false,
+        "known_asof": true
+      },
+      "expected": "PENDING_BOUNDARY_TOUCH_L20_L38"
+    },
+    {
+      "id": "center_not_legal",
+      "input": {
+        "origin": "SYNTHETIC_SOURCE_CONDITIONAL_NOT_MARKET",
+        "market_verified": false,
+        "orders_sent": 0,
+        "child_type_departure": "CONSOLIDATION",
+        "child_type_retrace": "CONSOLIDATION",
+        "departure_relation": "OUTSIDE",
+        "retrace_relation": "OUTSIDE",
+        "child_completion_departure": "COMPLETE",
+        "child_completion_retrace": "COMPLETE",
+        "original_center_legal": false,
+        "composition_legal": true,
+        "prior_completed_external_retrace": false,
+        "known_asof": true
+      },
+      "expected": "REJECT_INVALID_CENTER_OR_COMPOSITION"
+    },
+    {
+      "id": "combination_not_legal",
+      "input": {
+        "origin": "SYNTHETIC_SOURCE_CONDITIONAL_NOT_MARKET",
+        "market_verified": false,
+        "orders_sent": 0,
+        "child_type_departure": "CONSOLIDATION",
+        "child_type_retrace": "CONSOLIDATION",
+        "departure_relation": "OUTSIDE",
+        "retrace_relation": "OUTSIDE",
+        "child_completion_departure": "COMPLETE",
+        "child_completion_retrace": "COMPLETE",
+        "original_center_legal": true,
+        "composition_legal": false,
+        "prior_completed_external_retrace": false,
+        "known_asof": true
+      },
+      "expected": "REJECT_INVALID_CENTER_OR_COMPOSITION"
+    },
+    {
+      "id": "retrace_pending_completion",
+      "input": {
+        "origin": "SYNTHETIC_SOURCE_CONDITIONAL_NOT_MARKET",
+        "market_verified": false,
+        "orders_sent": 0,
+        "child_type_departure": "CONSOLIDATION",
+        "child_type_retrace": "CONSOLIDATION",
+        "departure_relation": "OUTSIDE",
+        "retrace_relation": "OUTSIDE",
+        "child_completion_departure": "COMPLETE",
+        "child_completion_retrace": "INCOMPLETE",
+        "original_center_legal": true,
+        "composition_legal": true,
+        "prior_completed_external_retrace": false,
+        "known_asof": true
+      },
+      "expected": "PENDING_NOT_YET_COMPLETED"
+    },
+    {
+      "id": "departure_pending_completion",
+      "input": {
+        "origin": "SYNTHETIC_SOURCE_CONDITIONAL_NOT_MARKET",
+        "market_verified": false,
+        "orders_sent": 0,
+        "child_type_departure": "CONSOLIDATION",
+        "child_type_retrace": "CONSOLIDATION",
+        "departure_relation": "OUTSIDE",
+        "retrace_relation": "OUTSIDE",
+        "child_completion_departure": "INCOMPLETE",
+        "child_completion_retrace": "COMPLETE",
+        "original_center_legal": true,
+        "composition_legal": true,
+        "prior_completed_external_retrace": false,
+        "known_asof": true
+      },
+      "expected": "PENDING_NOT_YET_COMPLETED"
+    },
+    {
+      "id": "unknown_completion",
+      "input": {
+        "origin": "SYNTHETIC_SOURCE_CONDITIONAL_NOT_MARKET",
+        "market_verified": false,
+        "orders_sent": 0,
+        "child_type_departure": "CONSOLIDATION",
+        "child_type_retrace": "CONSOLIDATION",
+        "departure_relation": "OUTSIDE",
+        "retrace_relation": "OUTSIDE",
+        "child_completion_departure": "COMPLETE",
+        "child_completion_retrace": "UNKNOWN",
+        "original_center_legal": true,
+        "composition_legal": true,
+        "prior_completed_external_retrace": false,
+        "known_asof": true
+      },
+      "expected": "PENDING_REQUIRED_RECEIPT"
+    },
+    {
+      "id": "unknown_first_eligible",
+      "input": {
+        "origin": "SYNTHETIC_SOURCE_CONDITIONAL_NOT_MARKET",
+        "market_verified": false,
+        "orders_sent": 0,
+        "child_type_departure": "CONSOLIDATION",
+        "child_type_retrace": "CONSOLIDATION",
+        "departure_relation": "OUTSIDE",
+        "retrace_relation": "OUTSIDE",
+        "child_completion_departure": "COMPLETE",
+        "child_completion_retrace": "COMPLETE",
+        "original_center_legal": true,
+        "composition_legal": true,
+        "prior_completed_external_retrace": null,
+        "known_asof": true
+      },
+      "expected": "PENDING_REQUIRED_RECEIPT"
+    },
+    {
+      "id": "missing_asof",
+      "input": {
+        "origin": "SYNTHETIC_SOURCE_CONDITIONAL_NOT_MARKET",
+        "market_verified": false,
+        "orders_sent": 0,
+        "child_type_departure": "CONSOLIDATION",
+        "child_type_retrace": "CONSOLIDATION",
+        "departure_relation": "OUTSIDE",
+        "retrace_relation": "OUTSIDE",
+        "child_completion_departure": "COMPLETE",
+        "child_completion_retrace": "COMPLETE",
+        "original_center_legal": true,
+        "composition_legal": true,
+        "prior_completed_external_retrace": false,
+        "known_asof": false
+      },
+      "expected": "PENDING_REQUIRED_RECEIPT"
+    },
+    {
+      "id": "invalid_market_claim",
+      "input": {
+        "origin": "SYNTHETIC_SOURCE_CONDITIONAL_NOT_MARKET",
+        "market_verified": true,
+        "orders_sent": 0,
+        "child_type_departure": "CONSOLIDATION",
+        "child_type_retrace": "CONSOLIDATION",
+        "departure_relation": "OUTSIDE",
+        "retrace_relation": "OUTSIDE",
+        "child_completion_departure": "COMPLETE",
+        "child_completion_retrace": "COMPLETE",
+        "original_center_legal": true,
+        "composition_legal": true,
+        "prior_completed_external_retrace": false,
+        "known_asof": true
+      },
+      "expected": "REJECT_FORGED_MARKET_CERTIFICATION"
+    },
+    {
+      "id": "invalid_order_count",
+      "input": {
+        "origin": "SYNTHETIC_SOURCE_CONDITIONAL_NOT_MARKET",
+        "market_verified": false,
+        "orders_sent": 1,
+        "child_type_departure": "CONSOLIDATION",
+        "child_type_retrace": "CONSOLIDATION",
+        "departure_relation": "OUTSIDE",
+        "retrace_relation": "OUTSIDE",
+        "child_completion_departure": "COMPLETE",
+        "child_completion_retrace": "COMPLETE",
+        "original_center_legal": true,
+        "composition_legal": true,
+        "prior_completed_external_retrace": false,
+        "known_asof": true
+      },
+      "expected": "REJECT_FORGED_MARKET_CERTIFICATION"
+    },
+    {
+      "id": "source_grade_wrong",
+      "input": {
+        "origin": "REAL_2007_MARKET",
+        "market_verified": false,
+        "orders_sent": 0,
+        "child_type_departure": "CONSOLIDATION",
+        "child_type_retrace": "CONSOLIDATION",
+        "departure_relation": "OUTSIDE",
+        "retrace_relation": "OUTSIDE",
+        "child_completion_departure": "COMPLETE",
+        "child_completion_retrace": "COMPLETE",
+        "original_center_legal": true,
+        "composition_legal": true,
+        "prior_completed_external_retrace": false,
+        "known_asof": true
+      },
+      "expected": "REJECT_SOURCE_GRADE"
+    },
+    {
+      "id": "invalid_child_role",
+      "input": {
+        "origin": "SYNTHETIC_SOURCE_CONDITIONAL_NOT_MARKET",
+        "market_verified": false,
+        "orders_sent": 0,
+        "child_type_departure": "BARE_KLINE",
+        "child_type_retrace": "CONSOLIDATION",
+        "departure_relation": "OUTSIDE",
+        "retrace_relation": "OUTSIDE",
+        "child_completion_departure": "COMPLETE",
+        "child_completion_retrace": "COMPLETE",
+        "original_center_legal": true,
+        "composition_legal": true,
+        "prior_completed_external_retrace": false,
+        "known_asof": true
+      },
+      "expected": "REJECT_INVALID_CHILD_TYPE"
+    }
+  ]
+}
