@@ -1,4 +1,9 @@
-# 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.101.2，2026-11-15）
+# 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.101.3，2026-11-15）
+
+## M74.1｜Hugging Face官方CDN重定向与源文件身份分层校验（2026-11-15）
+
+用户在Windows验证M74新增11项离线单测通过后，真实模式 `openfinmind-once` 下载阶段报 `M74_REJECTED: unexpected source redirect`，未写出SVG。根因指向原白名单仅允许指定的`cdn-lfs.hf.co`与`*.xethub.hf.co`，遗漏官方文档明确列出的`cdn-lfs-us-1.hf.co`、`cdn-lfs-eu-1.hf.co`及多级`us.aws.cdn.hf.co`/EU Xet 分发域名。此错误并不推翻此前用户对相同2,897,499字节文件SHA和240根行情的独立验证。按[HF官方数据下载文档](https://huggingface.co/docs/hub/datasets-downloading)将可信分发域名控制收束为HTTPS的`hf.co`与`huggingface.co`自身及其严格子域，拒绝HTTP、非443端口、嵌入账号、后缀伪造和非HF域名；**源文件精确大小和既有LFS SHA256仍为不可绕过的最终入场前提**，不得为方便生成图而取消指纹校验。异常仅输出最终主机名，不披露带签名的下载URL。增加纯离线正反域名与完整性测试并保持原图g/d待配准。修复后的用户真实SVG生成尚需重新验收。
+
 
 ## M74｜真实1分钟图像身份指纹与作者标签分离（2026-11-15）
 
