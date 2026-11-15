@@ -6,6 +6,7 @@ import hashlib
 import io
 import json
 import unittest
+from urllib import error as urlerror
 from contextlib import redirect_stdout
 from tools import probe_chanlun_l54_public_archive_m73 as m
 
@@ -92,6 +93,28 @@ class M73PublicMinuteTests(unittest.TestCase):
         self.assertEqual(r["admission"]["F01"],"OPEN")
         self.assertFalse(r["original_chart_year_authenticated"])
         self.assertNotIn('"open": "18.50"',json.dumps(r))
+
+    def test_hf_anonymous_listing_401_falls_back_to_one_exact_stock_file(self):
+        def metadata_blocked(day):
+            self.assertEqual(day,DAY)
+            raise urlerror.HTTPError("https://huggingface.co/",401,"Unauthorized",{},None)
+        requested=[]
+        def fake_fetch(url,cap):
+            requested.append((url,cap))
+            return CSV_SAMPLE,{}
+        r=m.hf_once(DAY,"bar_end",listing=metadata_blocked,fetcher=fake_fetch)
+        self.assertEqual(r["admission"]["rows"],2)
+        self.assertTrue(r["direct_filename_guess_not_metadata_authenticated"])
+        self.assertIn("sh600151.csv",requested[0][0])
+        self.assertEqual(len(requested),1)
+        self.assertEqual(requested[0][1],m.MAX_HF_FILE)
+        self.assertEqual(r["admission"]["adjustment"],"UNVERIFIED_NOT_RQDATA_REQUEST")
+
+    def test_zzshare_admission_never_claims_rqdata_adjustment(self):
+        r=m.zzshare_once(DAY,"bar_end",getter=lambda _:
+            ({"code":200,"data":[dict(ZZ_ROW)]},{}))
+        self.assertEqual(r["admission"]["adjustment"],"UNVERIFIED_NOT_RQDATA_REQUEST")
+        self.assertIsNone(r["admission"]["skip_suspended_rqdata"])
 
     def test_hf_lfs_blob_hash_mismatch_refused(self):
         metadata={"path":PATH,"size":len(CSV_SAMPLE),"lfs":{"oid":"0"*64}}
