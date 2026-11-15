@@ -1,5 +1,10 @@
 # 《缠论》五卷108课｜当前研究状态与未完成关口
 
+## 2026-11-15｜M75：真正完成M74历史图生成，开始统一项目根内路径与图像配准
+
+用户本机在M74官方CDN域修复后成功验证`OpenFinMind/stock_dataset`文件SHA与2007-05-18的240根完整1m，13个时间、价格、成交量、均线指纹全部匹配，且实际生成`D:\ChatGPT\L54-M74-20070518-afternoon.svg`。但该SVG及两份M73/M74-Review工作树位于`D:\ChatGPT\TradeBooksInAIsEyes`项目根外，用户要求纠正。新增统一路径约束：项目根下已忽略的`work/`收容受Git管理的两个Review、原SVG及下一阶段配准文件；本机执行`git worktree move`与文件迁移前**不得声称已搬迁成功**。新增M75无网本地卷三PDF+SVG HTML与14个g/d未定位审核模板，仍不宣布g/d、f1/f2、原图年份独立认证。F01/OB38/OB99/Φ20/A016/A087 OPEN，E1–E4 NOT_RUN。
+
+
 ## 2026-11-15｜M74.1：真实SVG重放受旧版CDN域名白名单误拒，校验策略已修复
 
 M74首次实测：用户独立worktree通过11项离线测试，随后HTTP跟随跳转后被`M74_REJECTED: unexpected source redirect`拒绝，因而本机没有生成预期SVG；与前面已验证OpenFinMind年度CSV SHA、2007-05-18的240根合法1m及原图价量指纹不冲突。新修复按Hugging Face官方文档接受HF旗下HTTPS的hf.co/huggingface.co及严格子域，拒绝伪域与不安全URL；下载到内存后仍要求精确2,897,499字节及SHA-256，然后才允许输出图。**用户修复后真实SVG仍待再次验收**。作者g/d未知、复权/源身份未独立认证，F01/OB38/OB99/Φ20/A016/A087 OPEN及E1-E4 NOT_RUN。

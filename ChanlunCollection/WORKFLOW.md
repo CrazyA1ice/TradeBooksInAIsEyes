@@ -1,4 +1,9 @@
-# ChanlunCollection｜本书实施工作流 v4.101.3
+# ChanlunCollection｜本书实施工作流 v4.101.4
+
+## 2026-11-15｜M75：统一项目工作目录与第54课原图配准入口
+
+- 用户否定过去在D:\ChatGPT新建`TradeBooksInAIsEyes-M73-Review`、`TradeBooksInAIsEyes-M74-Review`及将SVG保存到主项目外的做法。新的[单一项目本地路径规范](docs/PROJECT_LOCAL_FILES_POLICY.md)固定主根`D:\ChatGPT\TradeBooksInAIsEyes`，其下`work/review-worktrees/`放两份迁入的受Git管理工作树，`work/chanlun/lesson054/figures/`放SVG，`work/chanlun/lesson054/alignment/`放对照文件。只允许用户本机经`git worktree move`迁移，禁止强制清理/覆盖未提交工作。
+- [M74代码](tools/replay_chanlun_l54_real_minute_m74.py)限制SVG只能落主项目已忽略work/路径，在嵌套Review工作树执行也会识别主根；[M75对照工具](tools/prepare_chanlun_l54_alignment_m75.py)先验证规范卷三PDF及M74 SVG，再只在项目内创建PDF+SVG左右对照HTML和14个g/d空白审核JSON，离线且不覆盖旧文件。此处属于开发已入库、用户本地迁移与配准未验收；不能把图像可看当成已经精确定位作者点位。F01/OB38/OB99/Φ20 OPEN，E1–E4 NOT_RUN。
 
 ## 2026-11-15｜M74.1：修复官方CDN重定向误拒、继续保护下载文件
 

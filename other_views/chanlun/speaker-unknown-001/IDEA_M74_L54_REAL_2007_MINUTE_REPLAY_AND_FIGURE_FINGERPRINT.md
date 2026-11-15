@@ -2,6 +2,11 @@
 
 > 日期：2026-11-15。此文记录用户在自己的 Windows 环境实际执行后的输出，而不是 GitHub CI 采集到的行情。CLI 与离线图形工具的存在不能冒充真实网络试验。作者原图跨来源对照来自原图复核报告（deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_SOURCE_FIGURE_AND_STRUCTURAL_VS_DECISION_AGREEMENT.md），M73.1 时间字段修复已合并主分支 PR #197。
 
+## M75路径纠正（2026-11-15）
+
+用户要求所有项目内生成成果必须存在`D:\ChatGPT\TradeBooksInAIsEyes`内部。先前“仓库外SVG”路径及平行Review工作树目录是**已否定的错误操作方案**：本机原SVG需移入`work/chanlun/lesson054/figures/L54-M74-20070518-afternoon.svg`，两个Review由`git worktree move`迁入项目内`work/review-worktrees`，新M74仅允许输出主项目`work/`，M75仅在本项目的`work/chanlun/lesson054/alignment/`产生对照HTML和未知g/d审核模板。具体见[项目路径政策](../../../docs/PROJECT_LOCAL_FILES_POLICY.md)。**GitHub记录此路径规范，不表示已自动移动用户Windows磁盘文件。**
+
+
 ## M74.1 本机真实SVG受HF CDN旧名单误拒及修复（2026-11-15）
 
 用户在独立M74工作区`test_chanlun_l54_real_minute_m74.py`11/11通过后，执行`--mode openfinmind-once --window afternoon --svg-output ...`，在`fetch_pinned()`阶段得到`M74_REJECTED: unexpected source redirect`，**没有生成本地SVG**。这是M74内部白名单硬编码过窄的错误；HF[官方数据下载文档](https://huggingface.co/docs/hub/datasets-downloading)明确列出US/EU LFS、跨层CDN及EU Xet，与旧仅列`cdn-lfs.hf.co`和`*.xethub.hf.co`不完全一致。修正为验证HTTPS/443/无URL凭据及官方`hf.co`、`huggingface.co`主域及子域，保留原大小+LFS SHA256+M56/M69完整验证与写盘边界，补离线测试。此修复尚不等于已经重新成功生成SVG，g/d标签仍全未认证；若重试又遇不同主机名，错误仅打印主机，不暴露签名URL。
@@ -38,7 +43,7 @@
 
     python -B tools/replay_chanlun_l54_real_minute_m74.py --mode preflight
     python -B -m unittest discover -s tests -p "test_chanlun_l54_real_minute_m74.py" -v
-    python -B tools/replay_chanlun_l54_real_minute_m74.py --mode openfinmind-once --window afternoon --svg-output "D:\ChatGPT\L54-M74-20070518-afternoon.svg"
+    python -B tools/replay_chanlun_l54_real_minute_m74.py --mode openfinmind-once --window afternoon --svg-output "D:\ChatGPT\TradeBooksInAIsEyes\work\chanlun\lesson054\figures\L54-M74-20070518-afternoon.svg"
 
 第三条写出的是本地可查看图像而非上传原始行情；要求输出父目录已存在且目标文件不存在。若网络文件内容不匹配SHA，必须拒绝生成图。
 

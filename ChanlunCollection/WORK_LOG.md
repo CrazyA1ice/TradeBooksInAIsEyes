@@ -1,5 +1,12 @@
 # 《缠论》研究步骤与工作流修订记录
 
+## 2026-11-15｜M75：纠正项目根外的历史Review工作树与SVG产物
+
+- 用户要求统一所有`TradeBooksInAIsEyes`项目文件至原根`D:\ChatGPT\TradeBooksInAIsEyes`，此前我在外部平行建M73/M74-Review及导出SVG的规划错误。主Git工作区有未提交更改时，不能通过复制/重置/强制worktree remove实现清理；应按Git官方`worktree move`搬入已忽略`work/review-worktrees`以保留身份，再把SVG移至`work/chanlun/lesson054/figures`。
+- 原代码禁止任何项目内SVG输出，本轮修改为强制主项目私有`work/`，并新增只读的M75 PDF/SVG对照HTML和14点未知映射JSON输出。路径约束、PDF SHA和本地文件守门由纯合成测试覆盖；尚无权限在GitHub直接操作用户D盘，本地迁移及产物须以本机执行回执为准。
+- 下一阶段用原版卷三PDF与已生成1m SVG进行实际图示配准；尚无任一g/d作者点位的独立分钟认证。复权、供应链与低级线段完成仍未知，F01/OB38/OB99/Φ20 OPEN，E1–E4 NOT_RUN。
+
+
 ## 2026-11-15｜M74.1：排查真实下载重定向、修正误拒的域名规则
 
 - 用户在独立M74工作区离线11/11通过，首次真实SVG生成被`unexpected source redirect`拦截；源文件此前已使用Python标准库核验SHA并得到240根行情，本轮不能推断行情不可用。
