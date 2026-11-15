@@ -1,5 +1,11 @@
 # ChanlunCollection｜本书实施工作流 v4.101.0
 
+## 2026-11-15｜M70：TDX本地LC1 2006/2007双候选日时标与QMT本地分钟交叉验证
+
+- [完整研究](OtherVoices/speaker-unknown-001/IDEA_M70_L54_TDX_QMT_2006_2007_CLOCK_COMPARISON.md)将AStockDataTools已有32B TDX日期分钟解析移植为本书的轻量只读分钟键扫描（**未读取TDX价格或成交量**），检查全文件时钟升序/原始SHA256，保留2006和2007年05月18日两个候选日，区分240 bar-start/240 bar-end/241特殊档。
+- [新代码](tools/probe_chanlun_l54_tdx_qmt_clock_m70.py)、[源合同](catalog/chanlun_l54_tdx_qmt_clock_intersection_m70.json)、[22项人工LC1/QMT单测](tests/test_chanlun_l54_tdx_qmt_clock_m70.py)接入M56已经稳定触发的CI；双方分钟数据只比较各自声明时间标签后的**区间起点集合**，不比较或发布原始OHLCV。
+- 仓库与旧M69保持默认无本地文件写入、无下载/订阅/下单；真实Windows TDX/QMT尚未探测，不能声称市场数据已取得或图年份已证。A016/A087/F01/OB38/OB99/Φ20 OPEN、E1–E4 NOT_RUN，I82/C46/v4.101、五卷108课/100答不变。
+
 ## 2026-11-15｜M69：单次本机真实行情只读入口已备，CI仍只检验人工QMT帧
 
 - [完整新源证报告](OtherVoices/speaker-unknown-001/IDEA_M69_L54_LOCAL_QMT_HISTORICAL_SOURCE_ENVELOPE.md)把既有M57单股`600151.SH` 2007-05-18本地QMT调用转换为在内存中生成规范K线CSV，再用既有M56的新增纯字节接口逐行验证。新[来源合同](catalog/chanlun_l54_local_qmt_market_envelope_m69.json)、[CLI工具](tools/admit_chanlun_l54_local_qmt_m69.py)、[21项Fake-QMT及CSV单元测试](tests/test_chanlun_l54_local_qmt_m69.py)在已有M56 CI执行；M56原有文件入场方法兼容。
