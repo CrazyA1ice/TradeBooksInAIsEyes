@@ -1,5 +1,11 @@
 # 《缠论》研究步骤与工作流修订记录
 
+## 2026-11-15｜M70：备选2006/2007-05-18行情来源从QMT扩展为只读TDX时间键交集
+
+- [研究报告](OtherVoices/speaker-unknown-001/IDEA_M70_L54_TDX_QMT_2006_2007_CLOCK_COMPARISON.md)实质新增一个独立本地入口：利用AStockDataTools的TDX原生分钟记录格式，只读扫描`sh600151.lc1`压缩日期与当日分钟，检查文件stat/摘要/时间顺序和240/241档；仅返回两个候选日记录数，**不反序推断1分钟内部OHLC高低先后**。
+- 如xtquant可用，在相同脚本里调用M69固定QMT参数，先完成M56逐行校验，再在bar_start/bar_end声明下核对`2007-05-18`两源分钟交集；2006另列，不通过2007零记录排除2006。测试使用人造32B记录和Fake QMT，未读取用户电脑。
+- [22项测试](tests/test_chanlun_l54_tdx_qmt_clock_m70.py)、[源合同](catalog/chanlun_l54_tdx_qmt_clock_intersection_m70.json)及[M70只读工具](tools/probe_chanlun_l54_tdx_qmt_clock_m70.py)接入M56 CI；无行情实证、年份认证、F01/OB38/OB99/Φ20/A016/A087突破，E1–E4 NOT_RUN。I82/C46/v4.101及原PDF/108课/100答不变。
+
 ## 2026-11-15｜M69：L54 600151候选日从“QMT可只读统计”推进到“本机逐行来源凭据入口”
 
 - [研究与运行指南](OtherVoices/speaker-unknown-001/IDEA_M69_L54_LOCAL_QMT_HISTORICAL_SOURCE_ENVELOPE.md)明确M56原图05月18日缺年份、2007-05-18仍待证明。旧M57已查询得到Frame就输出统计，M69新增Fake-QMT执行的`Frame→内存CSV→M56完整OHLCVA与时标逐行校验→240槽网格诊断→SHA256源摘要`；若真实客户端有数据可以在用户Windows本机显式输出私有CSV，不经Git上传、不写原数据库。
