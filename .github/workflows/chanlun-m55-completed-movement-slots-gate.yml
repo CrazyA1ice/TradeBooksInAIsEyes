@@ -1,0 +1,19 @@
+name: chanlun-m55-completed-movement-slots-gate
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  center-versus-completed-movement:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Audit M54 source group identity and L18 completed movement type boundary
+        run: python -B tools/audit_chanlun_l18_l54_completion_slots_m55.py
+      - name: Test six policy-bound slots and reject forged completion timestamps
+        run: python -B -m unittest discover -s tests -p "test_chanlun_l18_l54_completion_slots_m55.py" -v

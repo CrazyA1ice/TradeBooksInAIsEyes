@@ -3,7 +3,7 @@
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
   "workflow_version": "4.101.0",
-  "source_count": 1074,
+  "source_count": 1079,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -304,6 +304,12 @@
       "mirror_path": "ChanlunCollection/.github/workflows/chanlun-m54-dual-policy-witness-gate.yml",
       "git_blob_sha": "c7c1d0bfc1b94b0a7af6a940e3b239c8be097b7a",
       "size_bytes": 639
+    },
+    {
+      "source_path": ".github/workflows/chanlun-m55-completed-movement-slots-gate.yml",
+      "mirror_path": "ChanlunCollection/.github/workflows/chanlun-m55-completed-movement-slots-gate.yml",
+      "git_blob_sha": "b3ddf1fe517e6314c8f92d89cb0a89014f2be43c",
+      "size_bytes": 648
     },
     {
       "source_path": ".github/workflows/chanlun-nested-retrace-bottom-pan-f01-gate.yml",
@@ -1608,6 +1614,12 @@
       "size_bytes": 9594
     },
     {
+      "source_path": "catalog/chanlun_l18_l54_completed_movement_slots_m55.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun_l18_l54_completed_movement_slots_m55.json",
+      "git_blob_sha": "05f3c1ac93149d611d56f87c3632a56549f7ce4d",
+      "size_bytes": 6299
+    },
+    {
       "source_path": "catalog/chanlun_l20_l35_finite_z_envelope_bridge_m52.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_l20_l35_finite_z_envelope_bridge_m52.json",
       "git_blob_sha": "1562afa28d47b8bf0a096e4a3f09b8b6c0bd12ba",
@@ -2660,8 +2672,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "107d124d9400648e05e6954e7d58dfb9659951c0",
-      "size_bytes": 183769
+      "git_blob_sha": "37471f3ba099cf2b961970cc897950ddc280fed9",
+      "size_bytes": 185069
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -2702,8 +2714,8 @@
     {
       "source_path": "docs/IDEA_DISCOVERY_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/IDEA_DISCOVERY_WORKFLOW.md",
-      "git_blob_sha": "0e468680ea7b95c30ea4fb88277bd11f16a0ecd2",
-      "size_bytes": 55801
+      "git_blob_sha": "6c38331254bad139b98c691968bb94db8c3b4279",
+      "size_bytes": 57123
     },
     {
       "source_path": "docs/PHASE1_INTAKE.md",
@@ -3996,6 +4008,12 @@
       "size_bytes": 9425
     },
     {
+      "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_M55_L18_L54_CENTER_VS_COMPLETED_MOVEMENT_PROOF_SLOTS.md",
+      "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_M55_L18_L54_CENTER_VS_COMPLETED_MOVEMENT_PROOF_SLOTS.md",
+      "git_blob_sha": "40c57fc7df192bde791040e717ed6fc8e8d46f63",
+      "size_bytes": 8613
+    },
+    {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_NOTEBOOK.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_NOTEBOOK.md",
       "git_blob_sha": "4f70af00b4431e6ff35ad8e92e429f500f159d95",
@@ -4046,8 +4064,8 @@
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/README.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/README.md",
-      "git_blob_sha": "1633d6b3531428ba91c8da135ecbee0cd0bdb097",
-      "size_bytes": 21347
+      "git_blob_sha": "817f309a9d4881a216129c54554e6b2c6d16788b",
+      "size_bytes": 22441
     },
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/analysis.md",
@@ -4648,6 +4666,12 @@
       "mirror_path": "ChanlunCollection/tests/test_chanlun_inventory.py",
       "git_blob_sha": "c96c9e04d440b716c4e1ec343c97348daa1e48bf",
       "size_bytes": 2360
+    },
+    {
+      "source_path": "tests/test_chanlun_l18_l54_completion_slots_m55.py",
+      "mirror_path": "ChanlunCollection/tests/test_chanlun_l18_l54_completion_slots_m55.py",
+      "git_blob_sha": "6e08c34e9e88da679eae9f9e9b37adbf16a8fde2",
+      "size_bytes": 4374
     },
     {
       "source_path": "tests/test_chanlun_l20_l35_finite_z_bridge_m52.py",
@@ -5542,6 +5566,12 @@
       "mirror_path": "ChanlunCollection/tools/audit_chanlun_incremental_witnesses_v2.py",
       "git_blob_sha": "cae6daaab34aadd7d66c7e2116bd6d2139770c06",
       "size_bytes": 3806
+    },
+    {
+      "source_path": "tools/audit_chanlun_l18_l54_completion_slots_m55.py",
+      "mirror_path": "ChanlunCollection/tools/audit_chanlun_l18_l54_completion_slots_m55.py",
+      "git_blob_sha": "f9fdec0ec4a8cc8d3fd2eae0e2a18704da7bb554",
+      "size_bytes": 5033
     },
     {
       "source_path": "tools/audit_chanlun_l20_l35_finite_z_bridge_m52.py",

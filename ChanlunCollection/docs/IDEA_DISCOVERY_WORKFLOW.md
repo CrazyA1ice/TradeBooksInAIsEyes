@@ -1,5 +1,9 @@
 # 通用模块 G-IDEA｜灵感发掘、自由拼接与跨作者研究
 
+## G-IDEA-M55｜从中枢形成到完整走势，需要哪一份带原始来源的结束证书？（2026-11-15）
+
+[第18/54课六政策槽位研究](../other_views/chanlun/speaker-unknown-001/IDEA_M55_L18_L54_CENTER_VS_COMPLETED_MOVEMENT_PROOF_SLOTS.md)：L18一方面以三个**完整次级走势**的重叠建立中心，另一方面明确中枢成立后本级盘整或趋势可继续延伸，故“中心存在”**不蕴涵**“包含它的走势此刻完成”。L54源文R_A/R_B的3×3括号只是作者在该图解中认可的高层中心分组；在两个R下分别对三组设**独立完整走势**、底层市场来源、f1/f2/R结束事件、真实first-known字段，现有档案全部UNKNOWN，不能把文本形成阶段g5/g6当市场时间。第54课整图“除了最后一个”的线段假设亦不能直接证明过去前缀的最右段已完成。新增[六组源文本合同](../catalog/chanlun_l18_l54_completed_movement_slots_m55.json)、[审计器](../tools/audit_chanlun_l18_l54_completion_slots_m55.py)与[24条定向测试](../tests/test_chanlun_l18_l54_completion_slots_m55.py)由[独立CI](../.github/workflows/chanlun-m55-completed-movement-slots-gate.yml)验证；L20双中心与L35三已完成走势的Φ20还需另外合格连接、外围及同center ID，旧v4.30/v4.54/M54不重计。
+
 ## G-IDEA-M54｜原作者同图双R的三组三段与级别证明：必须存成员谱系和量词域（2026-11-15）
 
 [源文→符号化两方案报告](../other_views/chanlun/speaker-unknown-001/IDEA_M54_L54_DUAL_POLICY_THREE_GROUP_WITNESS_AND_PHI20_SCOPE.md)：原作者L54在g5将`(d1g1,g1d2,d2g2)`、`(g2d3,d3g3,g3d4)`、`(d4g4,g4d5,d5g5)`三组汇入5分钟中心，声明`[d2,g5]`；在另一合法政策R_B到g6才完成三组`(d2g2,g2d3,d3g3)`、`(g3d4,d4g4,g4d5)`、`(d5g5,g5d6,d6g6)`，声明`[d3,g5]`。L54还区分**非法两个同级中心零连接**与**三次级中心向上构造允许三括号相连**。因此g5文本下`∃R`“作者声称高中心形成”真而`∀R`假，但**不能**偷写成市场实时first-known、算法已独立验证、同一高中心ID、三已完成g走势或凯翔A087第二中枢定义。[审计契约](../catalog/chanlun_l54_dual_policy_witness_m54.json)和[17条测试](../tests/test_chanlun_l54_dual_policy_witness_m54.py)绑定[独立CI](../.github/workflows/chanlun-m54-dual-policy-witness-gate.yml)，源文记功v4.85/v4.69；I82/C46不变，Phi20/F01/OB38/OB99 OPEN。
