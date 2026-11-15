@@ -1,0 +1,551 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-M67-CONFUCIUS61-PAN-END-LEVEL-SCOPE-STRICT-ROOT-CUT",
+  "study_date": "2026-11-15",
+  "role": "ARCHIVED_AUTHOR_REPLIES_WITH_QUESTION_CONTEXT_NOT_SINA_ORIGINAL",
+  "source_host": {
+    "article": "论语详解61",
+    "original_post_at": "2007-04-03T15:27:02",
+    "url": "https://chzhshch.blog/confucius/61/",
+    "original_2007_sina_bytes_authenticated": false
+  },
+  "source_replies": [
+    {
+      "id": "CONFUCIUS61_155118",
+      "question_author": "你的样子",
+      "question_at": "2007-04-03T15:39:53",
+      "reply_at": "2007-04-03T15:51:18",
+      "role": "ARCHIVED_AUTHOR_REPLY",
+      "claim": "SAME_LEVEL_CENTER_END_SUPPORTS_SAME_LEVEL_PAN_END_BUT_HIGHER_PAN_CAN_FOLLOW",
+      "note": "The 15:51:18 header is the author reply clock for the immediately following quoted question. NOT 15:54:51."
+    },
+    {
+      "id": "CONFUCIUS61_155451",
+      "question_author": "hehe2",
+      "question_at": "2007-04-03T15:53:00",
+      "reply_at": "2007-04-03T15:54:51",
+      "role": "ARCHIVED_AUTHOR_REPLY",
+      "claim": "DIVERGENCE_FINISH_RELATION_FOR_TREND_NOT_ALL_MOVEMENTS_PAN_NOT_FULLY_DETERMINED_BY_PAN_DIVERGENCE",
+      "note": "16:03:11 is the subsequent different reply to another user, not this answer."
+    }
+  ],
+  "base_author_main": [
+    {
+      "lesson": 18,
+      "published_at": "2006-12-26T15:05:58",
+      "url": "https://eczsc.com/originals/18",
+      "claim": "FORMED_CENTER_DOES_NOT_FORCE_MOTHER_PAN_END_CAN_EXTEND"
+    },
+    {
+      "lesson": 35,
+      "published_at": "2007-03-09T11:51:34",
+      "url": "https://eczsc.com/originals/35",
+      "claim": "STRICT_TICK_THREE_EQUAL_TRADES_FORM_ROOT_CENTER_NOT_INDEPENDENT_ROOT_EXIT"
+    }
+  ],
+  "scope": {
+    "conditional_author_statement": "IF_SAME_LEVEL_PAN_CENTER_TERMINATED_THEN_PAN_AT_THAT_LEVEL_TERMINATED",
+    "not_universally_mechanical_rule": true,
+    "higher_level_pan_coexistence_allowed": true,
+    "pan_divergence_only_not_universal_pan_exit": true,
+    "root_exit_reliant_on_hypothetical_lower_level_third_point_invalid_without_defined_lower_type": true
+  },
+  "prior_tools": {
+    "f01_graph": "tools/audit_chanlun_f01_completion_receipts.py",
+    "f01_existing_frontier": "tools/audit_chanlun_f01_root_pan_frontier_v476.py",
+    "m66_first_known": "tools/audit_chanlun_july11_segment_confirmation_m66.py"
+  },
+  "missing_independent_witness": {
+    "strict_root_level": 0,
+    "required": "NEW_NONCIRCULAR_AUTHOR_GROUNDED_EXIT_RULE_WITH_FIRST_KNOWN_OR_EXPLICIT_SOURCE_ATOM_NOT_DERIVED_ONLY_FROM_CENTER",
+    "source_available": false,
+    "formal_global_impossibility_claim": false,
+    "root_three_trades_center_already_supported": true,
+    "center_formed_implies_pan_finished": false
+  },
+  "status": {
+    "source_grade": "DATED_ARCHIVED_REPLY_NOT_ORIGINAL_SINA_BYTES",
+    "market_600151_2007": "NOT_ACQUIRED",
+    "first_known_market": "UNKNOWN",
+    "A087_second_center_formula": "UNKNOWN",
+    "A016_third_layer": "UNKNOWN",
+    "F01": "OPEN",
+    "OB38": "OPEN",
+    "OB99": "OPEN",
+    "Phi20": "OPEN",
+    "market_experiments": "NOT_RUN",
+    "market_heldout": "NOT_RUN",
+    "orders": 0
+  },
+  "forbidden": [
+    "SAME_LEVEL_PAN_ENDED_IMPLIES_NO_LARGER_LEVEL_PAN",
+    "PAN_DIVERGENCE_ALONE_PROVES_ALL_PAN_ENDINGS",
+    "F1_CENTER_FORMED_IMPLIES_STRICT_ROOT_PAN_EXIT",
+    "THIRD_POINT_AT_ROOT_IS_CERTIFIED_WITH_NO_LOWER_MOVEMENT_GRAMMAR",
+    "REPLY_TIME_EQUALS_MARKET_FIRST_KNOWN",
+    "CITED_ARCHIVED_AUTHOR_REPLY_EQUALS_ORIGINAL_SINA_BYTES",
+    "SOURCE_TOY_IS_REAL_MARKET_PNL"
+  ],
+  "synthetic_cases": [
+    {
+      "id": "g1_center_end_local_pan_end",
+      "input": {
+        "origin": "SYNTHETIC_PAN_END_POLICY_TEST_ONLY",
+        "market_verified": false,
+        "orders": 0,
+        "level": 1,
+        "policy_frozen": true,
+        "center_formed": true,
+        "center_terminated": true,
+        "child_completion_certified": true,
+        "known_at_seq": 8,
+        "asof_seq": 8,
+        "higher_level_pan_present": false,
+        "pan_divergence_only_promoted": false,
+        "root_third_point_without_child": false,
+        "claims_no_pan_any_level": false
+      },
+      "expected": "AUTHOR_CONDITIONAL_LOCAL_PAN_END_ONLY"
+    },
+    {
+      "id": "g1_pan_ends_higher_pan_remains",
+      "input": {
+        "origin": "SYNTHETIC_PAN_END_POLICY_TEST_ONLY",
+        "market_verified": false,
+        "orders": 0,
+        "level": 1,
+        "policy_frozen": true,
+        "center_formed": true,
+        "center_terminated": true,
+        "child_completion_certified": true,
+        "known_at_seq": 8,
+        "asof_seq": 8,
+        "higher_level_pan_present": true,
+        "pan_divergence_only_promoted": false,
+        "root_third_point_without_child": false,
+        "claims_no_pan_any_level": false
+      },
+      "expected": "AUTHOR_CONDITIONAL_LOCAL_PAN_END_ONLY"
+    },
+    {
+      "id": "g2_pan_local_end",
+      "input": {
+        "origin": "SYNTHETIC_PAN_END_POLICY_TEST_ONLY",
+        "market_verified": false,
+        "orders": 0,
+        "level": 2,
+        "policy_frozen": true,
+        "center_formed": true,
+        "center_terminated": true,
+        "child_completion_certified": true,
+        "known_at_seq": 8,
+        "asof_seq": 8,
+        "higher_level_pan_present": true,
+        "pan_divergence_only_promoted": false,
+        "root_third_point_without_child": false,
+        "claims_no_pan_any_level": false
+      },
+      "expected": "AUTHOR_CONDITIONAL_LOCAL_PAN_END_ONLY"
+    },
+    {
+      "id": "center_exists_but_not_terminated",
+      "input": {
+        "origin": "SYNTHETIC_PAN_END_POLICY_TEST_ONLY",
+        "market_verified": false,
+        "orders": 0,
+        "level": 1,
+        "policy_frozen": true,
+        "center_formed": true,
+        "center_terminated": false,
+        "child_completion_certified": true,
+        "known_at_seq": 8,
+        "asof_seq": 8,
+        "higher_level_pan_present": false,
+        "pan_divergence_only_promoted": false,
+        "root_third_point_without_child": false,
+        "claims_no_pan_any_level": false
+      },
+      "expected": "PENDING_CENTER_CONTINUES"
+    },
+    {
+      "id": "center_termination_unknown",
+      "input": {
+        "origin": "SYNTHETIC_PAN_END_POLICY_TEST_ONLY",
+        "market_verified": false,
+        "orders": 0,
+        "level": 1,
+        "policy_frozen": true,
+        "center_formed": true,
+        "center_terminated": null,
+        "child_completion_certified": true,
+        "known_at_seq": 8,
+        "asof_seq": 8,
+        "higher_level_pan_present": false,
+        "pan_divergence_only_promoted": false,
+        "root_third_point_without_child": false,
+        "claims_no_pan_any_level": false
+      },
+      "expected": "PENDING_CENTER_TERMINATION_WITNESS"
+    },
+    {
+      "id": "no_center",
+      "input": {
+        "origin": "SYNTHETIC_PAN_END_POLICY_TEST_ONLY",
+        "market_verified": false,
+        "orders": 0,
+        "level": 1,
+        "policy_frozen": true,
+        "center_formed": false,
+        "center_terminated": true,
+        "child_completion_certified": true,
+        "known_at_seq": 8,
+        "asof_seq": 8,
+        "higher_level_pan_present": false,
+        "pan_divergence_only_promoted": false,
+        "root_third_point_without_child": false,
+        "claims_no_pan_any_level": false
+      },
+      "expected": "REJECT_CENTER_NOT_FORMED"
+    },
+    {
+      "id": "center_missing_evidence",
+      "input": {
+        "origin": "SYNTHETIC_PAN_END_POLICY_TEST_ONLY",
+        "market_verified": false,
+        "orders": 0,
+        "level": 1,
+        "policy_frozen": true,
+        "center_formed": null,
+        "center_terminated": true,
+        "child_completion_certified": true,
+        "known_at_seq": 8,
+        "asof_seq": 8,
+        "higher_level_pan_present": false,
+        "pan_divergence_only_promoted": false,
+        "root_third_point_without_child": false,
+        "claims_no_pan_any_level": false
+      },
+      "expected": "PENDING_CENTER_FORMATION_WITNESS"
+    },
+    {
+      "id": "child_completion_unknown",
+      "input": {
+        "origin": "SYNTHETIC_PAN_END_POLICY_TEST_ONLY",
+        "market_verified": false,
+        "orders": 0,
+        "level": 1,
+        "policy_frozen": true,
+        "center_formed": true,
+        "center_terminated": true,
+        "child_completion_certified": null,
+        "known_at_seq": 8,
+        "asof_seq": 8,
+        "higher_level_pan_present": false,
+        "pan_divergence_only_promoted": false,
+        "root_third_point_without_child": false,
+        "claims_no_pan_any_level": false
+      },
+      "expected": "PENDING_CHILD_COMPLETION"
+    },
+    {
+      "id": "child_completion_not_satisfied",
+      "input": {
+        "origin": "SYNTHETIC_PAN_END_POLICY_TEST_ONLY",
+        "market_verified": false,
+        "orders": 0,
+        "level": 1,
+        "policy_frozen": true,
+        "center_formed": true,
+        "center_terminated": true,
+        "child_completion_certified": false,
+        "known_at_seq": 8,
+        "asof_seq": 8,
+        "higher_level_pan_present": false,
+        "pan_divergence_only_promoted": false,
+        "root_third_point_without_child": false,
+        "claims_no_pan_any_level": false
+      },
+      "expected": "PENDING_CHILD_COMPLETION"
+    },
+    {
+      "id": "asof_before_first_known",
+      "input": {
+        "origin": "SYNTHETIC_PAN_END_POLICY_TEST_ONLY",
+        "market_verified": false,
+        "orders": 0,
+        "level": 1,
+        "policy_frozen": true,
+        "center_formed": true,
+        "center_terminated": true,
+        "child_completion_certified": true,
+        "known_at_seq": 8,
+        "asof_seq": 6,
+        "higher_level_pan_present": false,
+        "pan_divergence_only_promoted": false,
+        "root_third_point_without_child": false,
+        "claims_no_pan_any_level": false
+      },
+      "expected": "PENDING_ASOF_CONFIRMATION"
+    },
+    {
+      "id": "g0_no_independent_root_exit",
+      "input": {
+        "origin": "SYNTHETIC_PAN_END_POLICY_TEST_ONLY",
+        "market_verified": false,
+        "orders": 0,
+        "level": 0,
+        "policy_frozen": true,
+        "center_formed": true,
+        "center_terminated": true,
+        "child_completion_certified": true,
+        "known_at_seq": 8,
+        "asof_seq": 8,
+        "higher_level_pan_present": false,
+        "pan_divergence_only_promoted": false,
+        "root_third_point_without_child": false,
+        "claims_no_pan_any_level": false
+      },
+      "expected": "PENDING_STRICT_ROOT_PAN_EXIT_RULE"
+    },
+    {
+      "id": "g0_third_point_without_gminus1",
+      "input": {
+        "origin": "SYNTHETIC_PAN_END_POLICY_TEST_ONLY",
+        "market_verified": false,
+        "orders": 0,
+        "level": 0,
+        "policy_frozen": true,
+        "center_formed": true,
+        "center_terminated": true,
+        "child_completion_certified": true,
+        "known_at_seq": 8,
+        "asof_seq": 8,
+        "higher_level_pan_present": false,
+        "pan_divergence_only_promoted": false,
+        "root_third_point_without_child": true,
+        "claims_no_pan_any_level": false
+      },
+      "expected": "REJECT_ROOT_THIRD_POINT_WITHOUT_CHILD_GRAMMAR"
+    },
+    {
+      "id": "g1_pan_divergence_not_exit",
+      "input": {
+        "origin": "SYNTHETIC_PAN_END_POLICY_TEST_ONLY",
+        "market_verified": false,
+        "orders": 0,
+        "level": 1,
+        "policy_frozen": true,
+        "center_formed": true,
+        "center_terminated": true,
+        "child_completion_certified": true,
+        "known_at_seq": 8,
+        "asof_seq": 8,
+        "higher_level_pan_present": false,
+        "pan_divergence_only_promoted": true,
+        "root_third_point_without_child": false,
+        "claims_no_pan_any_level": false
+      },
+      "expected": "REJECT_PAN_DIVERGENCE_AS_SUFFICIENT"
+    },
+    {
+      "id": "g1_no_global_pan_claim",
+      "input": {
+        "origin": "SYNTHETIC_PAN_END_POLICY_TEST_ONLY",
+        "market_verified": false,
+        "orders": 0,
+        "level": 1,
+        "policy_frozen": true,
+        "center_formed": true,
+        "center_terminated": true,
+        "child_completion_certified": true,
+        "known_at_seq": 8,
+        "asof_seq": 8,
+        "higher_level_pan_present": false,
+        "pan_divergence_only_promoted": false,
+        "root_third_point_without_child": false,
+        "claims_no_pan_any_level": true
+      },
+      "expected": "REJECT_GLOBAL_NO_PAN_PROMOTION"
+    },
+    {
+      "id": "policy_unfrozen",
+      "input": {
+        "origin": "SYNTHETIC_PAN_END_POLICY_TEST_ONLY",
+        "market_verified": false,
+        "orders": 0,
+        "level": 1,
+        "policy_frozen": false,
+        "center_formed": true,
+        "center_terminated": true,
+        "child_completion_certified": true,
+        "known_at_seq": 8,
+        "asof_seq": 8,
+        "higher_level_pan_present": false,
+        "pan_divergence_only_promoted": false,
+        "root_third_point_without_child": false,
+        "claims_no_pan_any_level": false
+      },
+      "expected": "PENDING_POLICY_FREEZE"
+    },
+    {
+      "id": "market_verified_forged",
+      "input": {
+        "origin": "SYNTHETIC_PAN_END_POLICY_TEST_ONLY",
+        "market_verified": true,
+        "orders": 0,
+        "level": 1,
+        "policy_frozen": true,
+        "center_formed": true,
+        "center_terminated": true,
+        "child_completion_certified": true,
+        "known_at_seq": 8,
+        "asof_seq": 8,
+        "higher_level_pan_present": false,
+        "pan_divergence_only_promoted": false,
+        "root_third_point_without_child": false,
+        "claims_no_pan_any_level": false
+      },
+      "expected": "REJECT_FORGED_MARKET"
+    },
+    {
+      "id": "trade_sent_forged",
+      "input": {
+        "origin": "SYNTHETIC_PAN_END_POLICY_TEST_ONLY",
+        "market_verified": false,
+        "orders": 1,
+        "level": 1,
+        "policy_frozen": true,
+        "center_formed": true,
+        "center_terminated": true,
+        "child_completion_certified": true,
+        "known_at_seq": 8,
+        "asof_seq": 8,
+        "higher_level_pan_present": false,
+        "pan_divergence_only_promoted": false,
+        "root_third_point_without_child": false,
+        "claims_no_pan_any_level": false
+      },
+      "expected": "REJECT_FORGED_MARKET"
+    },
+    {
+      "id": "wrong_origin",
+      "input": {
+        "origin": "REAL_MARKET_STOCK",
+        "market_verified": false,
+        "orders": 0,
+        "level": 1,
+        "policy_frozen": true,
+        "center_formed": true,
+        "center_terminated": true,
+        "child_completion_certified": true,
+        "known_at_seq": 8,
+        "asof_seq": 8,
+        "higher_level_pan_present": false,
+        "pan_divergence_only_promoted": false,
+        "root_third_point_without_child": false,
+        "claims_no_pan_any_level": false
+      },
+      "expected": "REJECT_SOURCE_GRADE"
+    },
+    {
+      "id": "invalid_level",
+      "input": {
+        "origin": "SYNTHETIC_PAN_END_POLICY_TEST_ONLY",
+        "market_verified": false,
+        "orders": 0,
+        "level": -1,
+        "policy_frozen": true,
+        "center_formed": true,
+        "center_terminated": true,
+        "child_completion_certified": true,
+        "known_at_seq": 8,
+        "asof_seq": 8,
+        "higher_level_pan_present": false,
+        "pan_divergence_only_promoted": false,
+        "root_third_point_without_child": false,
+        "claims_no_pan_any_level": false
+      },
+      "expected": "REJECT_INVALID_LEVEL"
+    },
+    {
+      "id": "invalid_first_known",
+      "input": {
+        "origin": "SYNTHETIC_PAN_END_POLICY_TEST_ONLY",
+        "market_verified": false,
+        "orders": 0,
+        "level": 1,
+        "policy_frozen": true,
+        "center_formed": true,
+        "center_terminated": true,
+        "child_completion_certified": true,
+        "known_at_seq": -1,
+        "asof_seq": 8,
+        "higher_level_pan_present": false,
+        "pan_divergence_only_promoted": false,
+        "root_third_point_without_child": false,
+        "claims_no_pan_any_level": false
+      },
+      "expected": "REJECT_INVALID_CLOCK"
+    },
+    {
+      "id": "future_center_label_not_ready",
+      "input": {
+        "origin": "SYNTHETIC_PAN_END_POLICY_TEST_ONLY",
+        "market_verified": false,
+        "orders": 0,
+        "level": 1,
+        "policy_frozen": true,
+        "center_formed": true,
+        "center_terminated": true,
+        "child_completion_certified": true,
+        "known_at_seq": 9,
+        "asof_seq": 8,
+        "higher_level_pan_present": false,
+        "pan_divergence_only_promoted": false,
+        "root_third_point_without_child": false,
+        "claims_no_pan_any_level": false
+      },
+      "expected": "PENDING_ASOF_CONFIRMATION"
+    },
+    {
+      "id": "g0_center_not_formed",
+      "input": {
+        "origin": "SYNTHETIC_PAN_END_POLICY_TEST_ONLY",
+        "market_verified": false,
+        "orders": 0,
+        "level": 0,
+        "policy_frozen": true,
+        "center_formed": false,
+        "center_terminated": true,
+        "child_completion_certified": true,
+        "known_at_seq": 8,
+        "asof_seq": 8,
+        "higher_level_pan_present": false,
+        "pan_divergence_only_promoted": false,
+        "root_third_point_without_child": false,
+        "claims_no_pan_any_level": false
+      },
+      "expected": "REJECT_CENTER_NOT_FORMED"
+    },
+    {
+      "id": "g1_unknown_higher_pan",
+      "input": {
+        "origin": "SYNTHETIC_PAN_END_POLICY_TEST_ONLY",
+        "market_verified": false,
+        "orders": 0,
+        "level": 1,
+        "policy_frozen": true,
+        "center_formed": true,
+        "center_terminated": true,
+        "child_completion_certified": true,
+        "known_at_seq": 8,
+        "asof_seq": 8,
+        "higher_level_pan_present": null,
+        "pan_divergence_only_promoted": false,
+        "root_third_point_without_child": false,
+        "claims_no_pan_any_level": false
+      },
+      "expected": "AUTHOR_CONDITIONAL_LOCAL_PAN_END_ONLY"
+    }
+  ]
+}
