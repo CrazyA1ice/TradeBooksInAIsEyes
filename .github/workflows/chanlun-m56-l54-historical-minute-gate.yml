@@ -31,3 +31,7 @@ jobs:
         run: |
           python -B tools/audit_chanlun_july11_segment_confirmation_m66.py
           python -B -m unittest discover -s tests -p "test_chanlun_july11_segment_confirmation_m66.py" -v
+      - name: M67 Apr03 author-pan-end level scope and no-circular-root-exit gate
+        run: |
+          python -B tools/audit_chanlun_confucius61_pan_end_root_cut_m67.py
+          python -B -m unittest discover -s tests -p "test_chanlun_confucius61_pan_end_root_cut_m67.py" -v
