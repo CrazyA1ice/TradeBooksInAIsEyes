@@ -39,4 +39,4 @@ Set-Location -LiteralPath "D:\ChatGPT\TradeBooksInAIsEyes"; git pull --ff-only o
 
 ## 5. 源头、重复验证与未决
 
-新[结构化来源/网格合同](../../../catalog/chanlun_l54_local_qmt_market_envelope_m69.json)与[13+单元测试](../../../tests/test_chanlun_l54_local_qmt_m69.py)复用旧M56 29项、M57 28项、M68 13项及其CI；真实历史行情与付费数据绝不进入Git repo，合成frame的结果不构成供应商验真。2007年QMT本地数据能否提供、当年该股是否存在该分钟时间网格、图年份/真实交易量/复权一致性、子分钟盘背/段完成、OB38/OB99/Φ20/F01、A016/A087均保持未决。此轮的**新成果是单次本机真实数据查询的完整来源接入接口**，不是市场分析已运行。
+新[结构化来源/网格合同](../../../catalog/chanlun_l54_local_qmt_market_envelope_m69.json)与[21项单元测试](../../../tests/test_chanlun_l54_local_qmt_m69.py)复用旧M56 29项、M57 28项、M68 13项及其CI；真实历史行情与付费数据绝不进入Git repo，合成frame的结果不构成供应商验真。2007年QMT本地数据能否提供、当年该股是否存在该分钟时间网格、图年份/真实交易量/复权一致性、子分钟盘背/段完成、OB38/OB99/Φ20/F01、A016/A087均保持未决。此轮的**新成果是单次本机真实数据查询的完整来源接入接口**，不是市场分析已运行。
