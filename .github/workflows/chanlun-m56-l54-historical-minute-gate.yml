@@ -56,6 +56,10 @@ jobs:
         run: |
           python -B tools/probe_chanlun_l54_public_archive_m73.py --mode preflight
           python -B -m unittest discover -s tests -p "test_chanlun_l54_public_archive_m73.py" -v
+      - name: "M74 exact-hash public 2007 L54 minute replay: offline 240-bar synthetic regressions"
+        run: |
+          python -B tools/replay_chanlun_l54_real_minute_m74.py --mode preflight
+          python -B -m unittest discover -s tests -p "test_chanlun_l54_real_minute_m74.py" -v
       - name: M73 HF public repository directory prefix diagnostics (names and statuses only)
         if: github.event_name == 'pull_request' && github.head_ref == 'research/m73-github-public-minute-archive-2007-probe-20261115'
         timeout-minutes: 3

@@ -2,8 +2,8 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.101.1",
-  "source_count": 1124,
+  "workflow_version": "4.101.2",
+  "source_count": 1127,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -314,14 +314,14 @@
     {
       "source_path": ".github/workflows/chanlun-m56-l54-historical-minute-gate.yml",
       "mirror_path": "ChanlunCollection/.github/workflows/chanlun-m56-l54-historical-minute-gate.yml",
-      "git_blob_sha": "23af09cb74cddc52ba52609aec93ff6292bd1a09",
-      "size_bytes": 5801
+      "git_blob_sha": "3843a54af45c4ab15978616936cbb90b302df1b5",
+      "size_bytes": 6091
     },
     {
       "source_path": ".github/workflows/chanlun-m57-qmt-local-readonly-gate.yml",
       "mirror_path": "ChanlunCollection/.github/workflows/chanlun-m57-qmt-local-readonly-gate.yml",
-      "git_blob_sha": "0c4a24b91e33b2521399cc9e398cc77d992695ca",
-      "size_bytes": 628
+      "git_blob_sha": "3a3b940d515705e690e34aeb5ebae3786e7b4f1d",
+      "size_bytes": 630
     },
     {
       "source_path": ".github/workflows/chanlun-nested-retrace-bottom-pan-f01-gate.yml",
@@ -2750,8 +2750,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "8283684a399f91be8c54df8c18d5d2fd367d0fd1",
-      "size_bytes": 200916
+      "git_blob_sha": "8134b162645aca55bce4695549348a1b465891b4",
+      "size_bytes": 202172
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -4158,6 +4158,12 @@
       "size_bytes": 6526
     },
     {
+      "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_M74_L54_REAL_2007_MINUTE_REPLAY_AND_FIGURE_FINGERPRINT.md",
+      "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_M74_L54_REAL_2007_MINUTE_REPLAY_AND_FIGURE_FINGERPRINT.md",
+      "git_blob_sha": "5d3d333a424b36b666970b05617453d84dc74c45",
+      "size_bytes": 6195
+    },
+    {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_NOTEBOOK.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_NOTEBOOK.md",
       "git_blob_sha": "4f70af00b4431e6ff35ad8e92e429f500f159d95",
@@ -4900,6 +4906,12 @@
       "mirror_path": "ChanlunCollection/tests/test_chanlun_l54_public_archive_m73.py",
       "git_blob_sha": "24569430cbaab08e99c427ed9835ac8397499727",
       "size_bytes": 13243
+    },
+    {
+      "source_path": "tests/test_chanlun_l54_real_minute_m74.py",
+      "mirror_path": "ChanlunCollection/tests/test_chanlun_l54_real_minute_m74.py",
+      "git_blob_sha": "1955161f2fd8ab80d8c1c8f1ef599f52a6ae8ee2",
+      "size_bytes": 7868
     },
     {
       "source_path": "tests/test_chanlun_l54_tdx_qmt_clock_m70.py",
@@ -6460,6 +6472,12 @@
       "mirror_path": "ChanlunCollection/tools/replay_chanlun_l54_author_prefix.py",
       "git_blob_sha": "d5dcafd4cef06116d76caa39cc5f0718036a4b46",
       "size_bytes": 7145
+    },
+    {
+      "source_path": "tools/replay_chanlun_l54_real_minute_m74.py",
+      "mirror_path": "ChanlunCollection/tools/replay_chanlun_l54_real_minute_m74.py",
+      "git_blob_sha": "06a7a1471fbfdcfab2644f419ba3d5566393c19d",
+      "size_bytes": 15382
     },
     {
       "source_path": "tools/scan_chanlun_early_figures.py",
