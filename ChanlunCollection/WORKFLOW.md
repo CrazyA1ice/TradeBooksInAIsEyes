@@ -3,7 +3,7 @@
 ## 2026-11-15｜M64：作者2007-03-08与05-28七条署时回复，三卖条件必须跨来源验收
 
 - [新研究报告](OtherVoices/speaker-unknown-001/IDEA_M64_L55_REPLY_CHAIN_AND_THIRD_POINT_GATES.md)与[七来源合同](catalog/chanlun_l55_reply_chain_m64.json)区分《论语》55作者3月8日的两观察方法、5月28日第55课评论下的两MACD比较基准、第三点成员完成条件、未离开中枢的另证券负例及交易费用/通道约束。特别声明不同读者/证券不构成同一证券的完整真实行情见证。
-- [11项Python定向回归](tests/test_chanlun_l55_reply_chain_m64.py)由现有M57 CI入口追加调用，测试只读JSON+M54原始符号政策身份，不访问行情，不下单；源镜像同步，workflow v4.101.0保持。
+- [11项Python定向回归](tests/test_chanlun_l55_reply_chain_m64.py)由已能触发的M56 CI入口追加调用，测试只读JSON+M54原始符号政策身份，不访问行情，不下单；源镜像同步，workflow v4.101.0保持。
 - A087第二公式、F01/OB38/OB99/Φ20未获证；第54课2007历史原图仍仅无年份候选、市场E1–E4 NOT_RUN，原100答/108课/五卷PDF、I82/C46不变。
 
 ## 2026-11-15｜M57：第54课600151本地QMT单日只读与旧TDX解码器复用
