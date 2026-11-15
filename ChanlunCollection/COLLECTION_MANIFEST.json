@@ -2,7 +2,7 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.101.2",
+  "workflow_version": "4.101.3",
   "source_count": 1127,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
@@ -2750,8 +2750,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "8134b162645aca55bce4695549348a1b465891b4",
-      "size_bytes": 202172
+      "git_blob_sha": "8361ce859ce519bcf05692d96435c3c0f298837b",
+      "size_bytes": 203319
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -4160,8 +4160,8 @@
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_M74_L54_REAL_2007_MINUTE_REPLAY_AND_FIGURE_FINGERPRINT.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_M74_L54_REAL_2007_MINUTE_REPLAY_AND_FIGURE_FINGERPRINT.md",
-      "git_blob_sha": "5d3d333a424b36b666970b05617453d84dc74c45",
-      "size_bytes": 6195
+      "git_blob_sha": "05d9a22b37fceb437de6f203f1e684a64ea6ae92",
+      "size_bytes": 7098
     },
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_NOTEBOOK.md",
@@ -4910,8 +4910,8 @@
     {
       "source_path": "tests/test_chanlun_l54_real_minute_m74.py",
       "mirror_path": "ChanlunCollection/tests/test_chanlun_l54_real_minute_m74.py",
-      "git_blob_sha": "1955161f2fd8ab80d8c1c8f1ef599f52a6ae8ee2",
-      "size_bytes": 7868
+      "git_blob_sha": "424198ff956ed300c87f8fe47e7147f8447a3fc8",
+      "size_bytes": 9846
     },
     {
       "source_path": "tests/test_chanlun_l54_tdx_qmt_clock_m70.py",
@@ -6476,8 +6476,8 @@
     {
       "source_path": "tools/replay_chanlun_l54_real_minute_m74.py",
       "mirror_path": "ChanlunCollection/tools/replay_chanlun_l54_real_minute_m74.py",
-      "git_blob_sha": "06a7a1471fbfdcfab2644f419ba3d5566393c19d",
-      "size_bytes": 15382
+      "git_blob_sha": "ab1746437334c3a0ff0dda8de837bc9c52ee2a80",
+      "size_bytes": 16008
     },
     {
       "source_path": "tools/scan_chanlun_early_figures.py",
