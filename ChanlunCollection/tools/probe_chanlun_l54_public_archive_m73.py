@@ -17,7 +17,7 @@ import re
 import sys
 from datetime import datetime
 from pathlib import Path
-from urllib import parse, request
+from urllib import error as urlerror, parse, request
 
 ROOT=Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -77,14 +77,14 @@ def hf_directory_file(day,getter=None):
     getter=getter or get_json
     directory=HF_DIRECTORY.format(year=day[:4])
     prefix=f"{HF_HOST}/api/datasets/{HF_DATASET}/tree/main/"
-    url=prefix+parse.quote(directory,safe="/")+"?limit=1000"
+    url=prefix+parse.quote(directory,safe="/")+"?limit=100"
     visited=set()
     for page in range(MAX_PAGES):
         require(url not in visited,"pagination loop")
         require(url.startswith(prefix),"HF pagination crossed fixed repository")
         visited.add(url)
         entries,headers=getter(url)
-        require(isinstance(entries,list) and len(entries)<=1000,"HF directory listing shape")
+        require(isinstance(entries,list) and len(entries)<=100,"HF directory listing shape")
         for entry in entries:
             require(isinstance(entry,dict),"HF entry shape")
             path=entry.get("path","")
@@ -195,7 +195,17 @@ def hf_once(day,convention,listing=None,fetcher=None):
             "explicit day and timestamp label convention")
     listing=listing or hf_directory_file
     fetcher=fetcher or http_read
-    evidence=listing(day)
+    try:
+        evidence=listing(day)
+    except urlerror.HTTPError as err:
+        if err.code!=401:
+            raise
+        # HF free tree listing can be 401 when asking for many entries.
+        # A 2007 directory with sh6000xx CSVs was independently observed.
+        # Try precisely one guessed stock-year object, never an entire archive.
+        evidence={"path":HF_DIRECTORY.format(year=day[:4])+"/sh600151.csv",
+                  "size":None,"lfs":None,"directory_metadata_http_status":401,
+                  "direct_filename_guess_not_metadata_authenticated":True}
     if "path" not in evidence:
         return {"provider":"HF_PUBLIC_ARCHIVE","candidate_date":day,**evidence,
                 "market_experiments":"NOT_RUN"}
@@ -205,7 +215,8 @@ def hf_once(day,convention,listing=None,fetcher=None):
     url=f"{HF_HOST}/datasets/{HF_DATASET}/resolve/main/"+parse.quote(path,safe="/")
     raw,_=fetcher(url,MAX_HF_FILE)
     size=len(raw)
-    require(size==evidence["size"],"HF listing size disagrees with downloaded file")
+    if evidence["size"] is not None:
+        require(size==evidence["size"],"HF listing size disagrees with downloaded file")
     digest=hashlib.sha256(raw).hexdigest()
     lfs=evidence.get("lfs") or {}
     lfs_oid=lfs.get("oid") if isinstance(lfs,dict) else None
@@ -220,6 +231,7 @@ def hf_once(day,convention,listing=None,fetcher=None):
             "csv_headers":parsed["headers"],
             "annual_csv_has_valid_datetime":parsed["any_valid_year_timestamp"],
             "declared_adjustment":"NOT_VERIFIED",
+            "direct_filename_guess_not_metadata_authenticated":evidence.get("direct_filename_guess_not_metadata_authenticated",False),
             "dataset_source_rights":"NOT_VERIFIED",
             "original_chart_year_authenticated":False}
     if not parsed["rows"]:
@@ -233,6 +245,8 @@ def hf_once(day,convention,listing=None,fetcher=None):
     admitted["provider"]="HF_PUBLIC_ARCHIVE"
     admitted["source_adapter"]="M72_CANONICAL_CSV_GATE_NOT_RQDATA_AUTH"
     admitted["adjustment_status"]="UNVERIFIED_NO_AUTOMATIC_RAW_PRICE_CLAIM"
+    admitted["adjustment"]="UNVERIFIED_NOT_RQDATA_REQUEST"
+    admitted["skip_suspended_rqdata"]=None
     return {**report,"status":"HF_PUBLIC_ANNUAL_CSV_TARGET_DAY_ADMITTED_NOT_AUTHOR_AUTHENTICATED",
             "admission":admitted,"market_experiments":"NOT_RUN"}
 
@@ -279,6 +293,8 @@ def zzshare_once(day,convention,getter=None):
     result["provider"]="ZZSHARE"
     result["source_adapter"]="M72_CANONICAL_CSV_GATE_NOT_RQDATA_AUTH"
     result["adjustment_status"]="NO_ADJUSTMENT_PARAMETER_REPORTED_BY_SDK_NOT_VENDOR_CERTIFIED"
+    result["adjustment"]="UNVERIFIED_NOT_RQDATA_REQUEST"
+    result["skip_suspended_rqdata"]=None
     return {"status":"ZZSHARE_PUBLIC_SINGLE_DAY_CANDIDATE_ADMITTED_NOT_AUTHOR_AUTHENTICATED",
             "provider":"ZZSHARE","candidate_date":day,"admission":result,
             "market_experiments":"NOT_RUN"}
