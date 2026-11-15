@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-M57-L54-600151-LOCAL-QMT-TDX-READONLY-PROBE",
+  "study_date": "2026-11-15",
+  "m56_source": "catalog/chanlun_l54_600151_historical_minute_admission_m56.json",
+  "instrument": "600151.SH",
+  "candidate_date": "2007-05-18",
+  "year_independently_confirmed": false,
+  "xtdata_native_args": {
+    "field_list": [
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "amount"
+    ],
+    "stock_list": [
+      "600151.SH"
+    ],
+    "period": "1m",
+    "start_time": "20070518093000",
+    "end_time": "20070518150000",
+    "count": -1,
+    "dividend_type": "none",
+    "fill_data": false
+  },
+  "native_interface_has_subscribe_keyword": false,
+  "builtin_qmt_interface_has_subscribe_keyword": true,
+  "builtin_qmt_readonly_subscribe_value": false,
+  "read_modes": [
+    "preflight",
+    "xtdata-local"
+  ],
+  "tdx_reuse": {
+    "repository": "CrazyA1ice/AStockDataTools",
+    "path": "H5ParquetReconciler/tools/probe-tdx-native-readonly.py",
+    "candidate_local_file": "D:\\software\\TDX\\vipdoc\\sh\\minline\\sh600151.lc1",
+    "exists_on_user_machine": "UNKNOWN",
+    "contains_requested_day": "UNKNOWN"
+  },
+  "forbidden_outcome_claims": {
+    "local_qmt_ran_this_turn": false,
+    "day_data_acquired": false,
+    "provider_historical_availability_verified": false,
+    "chart_day_proven": false,
+    "subminute_completion_proven": false,
+    "phi20_proven": false
+  },
+  "status": "LOCAL_QMT_NOT_PROBED"
+}

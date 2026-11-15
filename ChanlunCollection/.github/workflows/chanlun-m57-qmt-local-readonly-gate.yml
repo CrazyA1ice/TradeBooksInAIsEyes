@@ -1,0 +1,19 @@
+name: chanlun-m57-qmt-local-readonly-gate
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  native-xtdata-local-read-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Preflight without QMT imports or downloads
+        run: python -B tools/probe_chanlun_l54_qmt_local_1m_m57.py --mode preflight
+      - name: Fake-frame regression: no subscribe kwarg, no false history and valid OHLCV
+        run: python -B -m unittest discover -s tests -p "test_probe_chanlun_l54_qmt_local_1m_m57.py" -v

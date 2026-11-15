@@ -1,5 +1,9 @@
 # 通用模块 G-IDEA｜灵感发掘、自由拼接与跨作者研究
 
+## G-IDEA-M57｜把真实2007年历史分钟数据入场收据与官方接口正确调用绑定（2026-11-15）
+
+[本次M57源核报告](../other_views/chanlun/speaker-unknown-001/IDEA_M57_L54_QMT_TDX_LOCAL_HISTORICAL_MINUTE_PROVENANCE.md)校验迅投QMT两种Python API不得混用：内置ContextInfo可subscribe=False、本地独立xtquant.xtdata没有subscribe关键字，二者均要明确不复权和fill_data=False。对作者54课无年05月18日只以600151.SH/2007-05-18作为一日候选，先找通达信现有单股sh600151.lc1（若存在）并复用AStockDataTools既有只读适配器，或读取原生QMT本地缓存而不主动下载。[固定只读调用合同](../catalog/chanlun_l54_qmt_tdx_local_1m_m57.json)与[单股一日程序](../tools/probe_chanlun_l54_qmt_local_1m_m57.py)在模拟[28项单测](../tests/test_probe_chanlun_l54_qmt_local_1m_m57.py)和[新CI](../.github/workflows/chanlun-m57-qmt-local-readonly-gate.yml)下执行。没有连接用户Windows，不得把GitHub模拟价格当真实2007行情；本地没有行也不证明上游服务器没有历史。M55六完成槽位、Phi20及F01/OB38/OB99 OPEN。
+
 ## G-IDEA-M56｜见到原图年份和数据源不等于认证，1m价量无法还原1m以下顺序（2026-11-15）
 
 [M56有源研究](../other_views/chanlun/speaker-unknown-001/IDEA_M56_L54_600151_HISTORICAL_DAY_SOURCE_AND_SUBMINUTE_INFORMATION_LOSS.md)复核二次存档第54课PDF图：股票“航天机电(1分钟)”对应600151.SH，图印“05月18日”却**没有年份**；18.59/18.03为图片标注、g0=18.50是作者另述起点。文章2007-05-24发表不等于图必是2007-05-18；选择该日为**候选**，市场原始数据尚未取得。QMT具备1m时间范围查询语法，知图完整历史分钟文档声称多年回溯但具体600151/2007可用性和授权均未证。[冻结证据梯级](../catalog/chanlun_l54_600151_historical_minute_admission_m56.json)与[可选离线CSV校验](../tools/audit_chanlun_l54_2007_minute_candidate_m56.py)区分原图、年份、交易代码、分钟格式、真实性、子分钟完成，所有通过格式的文件仍标未认证。人工P=[18.30,18.50,18.20,18.40]、Q=[18.30,18.20,18.50,18.40]的1m OHLCVA完全相同但H/L先后相反，证明分钟聚合不是对分钟内部路径的单射。新[29条门禁](../tests/test_chanlun_l54_2007_minute_candidate_m56.py)经[新CI](../.github/workflows/chanlun-m56-l54-historical-minute-gate.yml)执行。既有v4.27图证不重计；Phi20/F01/OB38/OB99及A087/A016仍OPEN，不冒称实际行情已下载。

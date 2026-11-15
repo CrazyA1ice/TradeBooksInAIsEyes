@@ -1,5 +1,9 @@
 # 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.101.0，2026-11-13）
 
+## M57｜历史来源从“可能有API”进入“单股单日只读本地查询合同”（2026-11-15）
+
+[完整研究](../other_views/chanlun/speaker-unknown-001/IDEA_M57_L54_QMT_TDX_LOCAL_HISTORICAL_MINUTE_PROVENANCE.md)以QMT官方行情API、AStockDataTools原有TDX native只读解码器为复用对象。只在确切本地客户端具备授权与缓存时，才能取得600151.SH候选2007-05-18一分钟真实摘要。脚本默认仅做脱机preflight；显式xtdata-local只调用一次QMT原生get_market_data_ex，不带subscribe、不复权、不fill，不能因此保证QMT客户端初始化不联网。本期实际未连接用户机器，读到0条不得宣称供应商无历史；有行也仅是候选，图中年、供应链、1m以下路径和走势完成须分别证明。[JSON](../catalog/chanlun_l54_qmt_tdx_local_1m_m57.json)、[探针](../tools/probe_chanlun_l54_qmt_local_1m_m57.py)、[28条模拟单测](../tests/test_probe_chanlun_l54_qmt_local_1m_m57.py)及[新CI](../.github/workflows/chanlun-m57-qmt-local-readonly-gate.yml)记录身份和时间边界，原I82/C46/v4.101、A016/A087/F01/OB38/OB99继续OPEN。
+
 ## M56｜第54课单股单日历史分钟源入场、无年原图、OHLCVA路径不可逆（2026-11-15）
 
 [正式原文图证与数据源核查](../other_views/chanlun/speaker-unknown-001/IDEA_M56_L54_600151_HISTORICAL_DAY_SOURCE_AND_SUBMINUTE_INFORMATION_LOSS.md)：在已有v4.27原图记录基础上，锁定“航天机电(1分钟)”“05月18日（无年）”、18.59/18.03图注及正文g0=18.50三个价位岗位，使用2007-05-24发表日期只生成**候选日期2007-05-18**，不将其认作交易所认证日期。企业2007公告可核600151代码，QMT文档有1m接口，知图全历史Pro文档有收费/凭证并声称更早覆盖，但没有实测600151在2007-05-18的分钟行。新增[入场证据合同](../catalog/chanlun_l54_600151_historical_minute_admission_m56.json)、[离线CSV只读有效性工具](../tools/audit_chanlun_l54_2007_minute_candidate_m56.py)、[29项测试](../tests/test_chanlun_l54_2007_minute_candidate_m56.py)及[新Actions](../.github/workflows/chanlun-m56-l54-historical-minute-gate.yml)，只做价格/时间/原图候选兼容与来源否证、不复原子分钟结构。人工两条相反H/L顺序的逐笔路径产生相同OHLCVA，证明1m本身不足以唯一确定小于1m的终结条件；这**不是**缠论实际有效路径正反例。原状态I82/C46/v4.101、F01/OB38/OB99/A016/A087不变，E1–E4 NOT_RUN。
