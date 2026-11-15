@@ -1,5 +1,10 @@
 # ChanlunCollection｜本书实施工作流 v4.101.0
 
+## 2026-11-15｜M72：从QMT2007年一分钟0条转向可授权的外部单日数据源
+
+- [M72报告](OtherVoices/speaker-unknown-001/IDEA_M72_L54_EXTERNAL_2007_MINUTE_RQDATA_ARDATA_ONE_DAY.md)记录用户真实本地QMT报告：2006/2007-05-18日线均覆盖18.03/18.50/18.59，2007日最高恰18.59，但2007单日1m经一次下载仍0条；它不是2007图的证明。新的[供应商接口](tools/probe_chanlun_l54_external_minute_m72.py)优先米筐RQData官方2005起一分钟、次选ARData，只有用户显式选择网络查询模式才请求一次单股单日的可能计费数据；结果在内存经M56/M69验证，不保存付费原始行情。
+- [源合同](catalog/chanlun_l54_external_minute_single_day_m72.json)和[26项Fake RQ/ARData认证安全及来源拒绝测试](tests/test_chanlun_l54_external_minute_m72.py)加入M56 CI；密钥只来自本机现有账户配置或ARDATA_API_KEY环境变量，错误信息脱敏、默认无外部网络。RQL/ARData供应商授权与具体2007日行情**当前未取得**，F01/OB38/OB99/Φ20及A016/A087 OPEN、E1–E4 NOT_RUN。
+
 ## 2026-11-15｜M70：TDX本地LC1 2006/2007双候选日时标与QMT本地分钟交叉验证
 
 - [完整研究](OtherVoices/speaker-unknown-001/IDEA_M70_L54_TDX_QMT_2006_2007_CLOCK_COMPARISON.md)将AStockDataTools已有32B TDX日期分钟解析移植为本书的轻量只读分钟键扫描（**未读取TDX价格或成交量**），检查全文件时钟升序/原始SHA256，保留2006和2007年05月18日两个候选日，区分240 bar-start/240 bar-end/241特殊档。
