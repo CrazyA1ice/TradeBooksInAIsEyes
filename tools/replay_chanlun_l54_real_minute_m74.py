@@ -2,7 +2,7 @@
 """M74: reproduce the L54 600151.SH 2007-05-18 minute chart, without claiming g/d completion.
 
 Default preflight is offline. Opt-in network reads exactly one pinned public
-annual CSV into memory; optional SVG is saved only outside this Git repository.
+annual CSV into memory; optional SVG stays inside the project's ignored work/ directory.
 The SVG shows 1m candles, close MA5/10, volume MA5/10, and a session-seeded
 MACD *illustration*, not historical software MACD equivalence.
 """
@@ -300,10 +300,22 @@ def svg_figure(rows, report, window="afternoon"):
     return "\n".join(el) + "\n"
 
 
+def canonical_project_root():
+    """Linked review trees live *under* the canonical project's ignored work/."""
+    if ROOT.parent.name == "review-worktrees" and ROOT.parent.parent.name == "work":
+        return ROOT.parent.parent.parent.resolve()
+    return ROOT.resolve()
+
+
+def private_work_root():
+    return (canonical_project_root() / "work").resolve()
+
+
 def safe_svg_destination(value):
     path = Path(value).expanduser().resolve()
+    work = private_work_root()
     need(path.suffix.lower() == ".svg", "output must be .svg")
-    need(path != ROOT and ROOT not in path.parents, "never write a market chart into Git repository")
+    need(work in path.parents, "generated files must stay inside project work/")
     need(path.parent.is_dir(), "output parent directory must already exist")
     need(not path.exists(), "refuse overwriting existing SVG")
     return path
