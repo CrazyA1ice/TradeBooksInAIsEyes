@@ -1,5 +1,12 @@
 # 《缠论》研究步骤与工作流修订记录
 
+## 2026-11-15｜M75.1：目录迁移成功后的实际PDF文件缺失与多本地源引用修复
+
+- 用户完成两份git worktree move、SVG移动及前后SHA校验，回执`PROJECT_LOCAL_MIGRATION_VERIFIED`，全部项目文件已统一到TradeBooksInAIsEyes；M74 Review已快进到0e69007，M75单测8/8通过。
+- 首次真实`--mode prepare`被主工作树`ChineseBooks/缠论/缠论_卷3.pdf`实际不存在阻断。Git树保有该PDF条目，但不能据此声称本机主工作区也有。针对这一点增加只读项目内路径回退：主文件→集合镜像→M74 Review→M73 Review，强制固定PDF SHA以防误用其他版本。无复制和下载、不改主目录未提交内容。
+- 现阶段真实SVG已存在；M75对照HTML/JSON尚未实际生成。下一步仍是人工对照作者14个g/d点位；F01/OB38/OB99/Φ20 OPEN，E1-E4 NOT_RUN。
+
+
 ## 2026-11-15｜M75：纠正项目根外的历史Review工作树与SVG产物
 
 - 用户要求统一所有`TradeBooksInAIsEyes`项目文件至原根`D:\ChatGPT\TradeBooksInAIsEyes`，此前我在外部平行建M73/M74-Review及导出SVG的规划错误。主Git工作区有未提交更改时，不能通过复制/重置/强制worktree remove实现清理；应按Git官方`worktree move`搬入已忽略`work/review-worktrees`以保留身份，再把SVG移至`work/chanlun/lesson054/figures`。
