@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-M64-20070308-20070528-ARCHIVED-AUTHOR-REPLY-CHAIN",
+  "study_date": "2026-11-15",
+  "role": "DATED_ARCHIVED_AUTHOR_REPLIES_WITH_QUESTION_CONTEXT_NOT_SINA_ORIGINAL_BYTES",
+  "origin_hosts": [
+    {
+      "article": "论语详解55",
+      "published_at": "2007-03-08T15:27:19",
+      "url": "https://chzhshch.blog/stocks/confucius55/",
+      "original_sina_html_authenticated": false
+    },
+    {
+      "article": "教你炒股票55",
+      "published_at": "2007-05-28T08:12:41",
+      "url": "https://chzhshch.blog/stocks/055/",
+      "original_sina_html_authenticated": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "C55_161043",
+      "article": "论语详解55",
+      "question_author": "盼解惑！谢谢",
+      "question_at": "2007-03-08T16:00:50",
+      "reply_at": "2007-03-08T16:10:43",
+      "url": "https://chzhshch.blog/stocks/confucius55/",
+      "role": "ARCHIVED_AUTHOR_REPLY",
+      "claim": "A_PLUS_B_PLUS_b_MACD_AREA_VS_PURE_CENTER_OSCILLATION_TWO_OBSERVATION_ROLES"
+    },
+    {
+      "id": "C55_163856",
+      "article": "论语详解55",
+      "question_author": "缠文观止",
+      "question_at": "2007-03-08T15:34:28",
+      "reply_at": "2007-03-08T16:38:56",
+      "url": "https://chzhshch.blog/stocks/confucius55/",
+      "role": "ARCHIVED_AUTHOR_REPLY",
+      "claim": "MOVEMENT_COMPOSITION_AND_PURE_CENTER_ARE_SEPARATE_OBSERVATION_METHODS"
+    },
+    {
+      "id": "L55_155528",
+      "article": "教你炒股票55",
+      "question_author": "新浪网友",
+      "question_at": "2007-05-28T15:48:54",
+      "reply_at": "2007-05-28T15:55:28",
+      "url": "https://chzhshch.blog/stocks/055/",
+      "role": "ARCHIVED_AUTHOR_REPLY",
+      "claim": "THIRD_POINT_REQUIRES_CENTER_COMPOSITION_AND_COMPLETED_CHILD_AND_COMPLETED_RETRACE"
+    },
+    {
+      "id": "L55_160426",
+      "article": "教你炒股票55",
+      "question_author": "雪狼",
+      "question_at": "2007-05-28T15:54:37",
+      "reply_at": "2007-05-28T16:04:26",
+      "url": "https://chzhshch.blog/stocks/055/",
+      "role": "ARCHIVED_AUTHOR_REPLY",
+      "claim": "L54_D4_TWO_POLICY_MACD_COMPARISONS_AUTHOR_CONFIRMED_DISAGREEMENT_POSSIBLE"
+    },
+    {
+      "id": "L55_162510",
+      "article": "教你炒股票55",
+      "question_author": "卖错了吗",
+      "question_at": "2007-05-28T16:13:52",
+      "reply_at": "2007-05-28T16:25:10",
+      "url": "https://chzhshch.blog/stocks/055/",
+      "role": "ARCHIVED_AUTHOR_REPLY",
+      "claim": "NO_CENTER_DEPARTURE_IMPLIES_REJECT_REPORTED_THIRD_SELL_CASE"
+    },
+    {
+      "id": "L55_162940",
+      "article": "教你炒股票55",
+      "question_author": "远帆",
+      "question_at": "2007-05-28T16:20:26",
+      "reply_at": "2007-05-28T16:29:40",
+      "url": "https://chzhshch.blog/stocks/055/",
+      "role": "ARCHIVED_AUTHOR_REPLY",
+      "claim": "SUBFIVE_MINUTE_EXECUTION_COST_AND_CHANNEL_CAPABILITY_WARNING"
+    },
+    {
+      "id": "L55_163101",
+      "article": "教你炒股票55",
+      "question_author": "白玉兰",
+      "question_at": "2007-05-28T16:29:34",
+      "reply_at": "2007-05-28T16:31:01",
+      "url": "https://chzhshch.blog/stocks/055/",
+      "role": "ARCHIVED_AUTHOR_REPLY",
+      "claim": "ACCOUNT_SIZE_TRADING_CHANNEL_AND_TIME_AFFECT_SELECTED_OPERATING_SCALE"
+    }
+  ],
+  "l54_case": {
+    "source": "https://eczsc.com/originals/54",
+    "referenced_by": "L55_160426",
+    "referenced_main_article_number": 54,
+    "diagram_symbol": "600151",
+    "original_chart_year_authenticated": false,
+    "target": "g3d4",
+    "baseline_by_policy": {
+      "R_A": "g2d3",
+      "R_B": "g1d2"
+    },
+    "author_says_two_comparisons_agree_for_d4": true,
+    "author_says_other_conditions_can_disagree": true,
+    "raw_macd_series_acquired": false,
+    "d4_not_same_event_as_g7": true
+  },
+  "third_point_gates": {
+    "source_ids": [
+      "L55_155528",
+      "L55_162510"
+    ],
+    "source_author_assertions": [
+      "COMPOSED_CENTER_A_STILL_VALID_AT_CENTER_LEVEL",
+      "COMPONENT_B_IS_COMPLETED_LOWER_LEVEL",
+      "RETRACE_IS_COMPLETED_LOWER_LEVEL",
+      "MUST_HAVE_LEFT_ORIGINAL_CENTER_FOR_THIRD_SELL"
+    ],
+    "context_warning": "COMBINED_STUDY_GATES_FROM_DISTINCT_QUESTIONS_NOT_AUTHOR_SINGLE_EXECUTABLE_FORMULA",
+    "inferred_complete_sufficiency": false,
+    "market_certified": false,
+    "original_center_id_known": false
+  },
+  "distinct_case_scope": {
+    "l54_d4": "600151_CHART_AUTHOR_TEXT_ONLY",
+    "third_sell_rejection": "QUESTION_SAYS_777_AUTHOR_MENTIONS_BOTH_000777_AND_600777_NOT_SOURCE_LINKED_TO_600151",
+    "fee_warning": "OTHER_READER_NOT_SAME_ACCOUNT"
+  },
+  "obligations": {
+    "source_question_and_reply_time_recorded": true,
+    "compare_metric_parameters": "UNSPECIFIED",
+    "historical_price_data": "NOT_ACQUIRED",
+    "subminute_path": "NOT_ACQUIRED",
+    "independent_completion_receipts": "MISSING",
+    "first_known_from_market": "UNKNOWN",
+    "A087_second_formula": "UNKNOWN",
+    "A016_third_layer": "UNKNOWN",
+    "F01": "OPEN",
+    "OB38": "OPEN",
+    "OB99": "OPEN",
+    "phi20": "OPEN",
+    "real_market_experiments": "NOT_RUN",
+    "orders_sent": 0,
+    "actual_pnl": "NOT_RUN"
+  },
+  "forbidden_promotions": [
+    "D4_MACD_WEAKER_IMPLIES_THIRD_SELL",
+    "TWO_METHODS_EQUALS_A087_SECOND_CENTER_FORMULA",
+    "DATED_ARCHIVED_COMMENT_EQUALS_SINA_ORIGINAL_AUTHENTICATED",
+    "THIRD_SELL_REJECTION_FOR_777_VALIDATES_600151_MARKET_CHART",
+    "SOURCE_REPLY_FIRST_KNOWN_EQUALS_MARKET_SIGNAL_FIRST_KNOWN",
+    "SUCCESSFUL_L55_SOURCE_AUDIT_EQUALS_REAL_MARKET_EDGE"
+  ]
+}

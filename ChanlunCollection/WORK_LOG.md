@@ -1,5 +1,11 @@
 # 《缠论》研究步骤与工作流修订记录
 
+## 2026-11-15｜M64：已登记七条历史作者问答的原发宿主与第三类点证书依赖
+
+- [完整研究](OtherVoices/speaker-unknown-001/IDEA_M64_L55_REPLY_CHAIN_AND_THIRD_POINT_GATES.md)补源2007-03-08《论语》55问答16:10:43/16:38:56及2007-05-28第55课问答15:55:28/16:04:26/16:25:10/16:29:40/16:31:01；绝不把3月留言称为35课正文或5月28日回复称为54课5月24日正文。后期镜像有问答署时但非Sina服务器原始字节签名。
+- 本轮独立增量：05-28 15:55:28给中枢A合法、次级B和回试完成的必要审核；16:04:26给L54 d4 R_A=g2d3/R_B=g1d2比较基准；16:25:10对另证券“777”未脱离旧中枢的三卖负证据；同日执行约束与交易级别另存，不合并为同一实例。
+- [七条来源JSON](catalog/chanlun_l55_reply_chain_m64.json)/[11条定向测试](tests/test_chanlun_l55_reply_chain_m64.py)和M56既有CI追加测试；原始分解源M54复用，不把MACD比较、d4盘背或无源口头证据冒认已完成第54课g7三卖。A016/A087/F01/OB38/OB99/Φ20 OPEN，E1–E4 NOT_RUN。
+
 ## 2026-11-15｜M57：建立原生QMT一股一日读取与TDX现有解析器的证据复用
 
 - [正式研究](OtherVoices/speaker-unknown-001/IDEA_M57_L54_QMT_TDX_LOCAL_HISTORICAL_MINUTE_PROVENANCE.md)核对QMT官方内置C接口与原生XtData签名，并指出subcribe=False仅是C接口的参数，原生XtData无此参数。两者必须禁止fill历史缺口，历史与原图价对照要取不复权；若QMT原生方法返回空只能叫本地未取得，不等于上游服务器没有2007历史。

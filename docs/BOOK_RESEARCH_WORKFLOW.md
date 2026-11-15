@@ -1,5 +1,9 @@
 # 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.101.0，2026-11-13）
 
+## M64｜2007-03-08/05-28作者署时答疑的来源角色及三卖证书链（2026-11-15）
+
+[M64来源研究](../other_views/chanlun/speaker-unknown-001/IDEA_M64_L55_REPLY_CHAIN_AND_THIRD_POINT_GATES.md)将2007-03-08《论语》55两条作者回复与2007-05-28第55课五条回复按原宿主、读者、问答署时归档；新增[七条JSON证据卡](../catalog/chanlun_l55_reply_chain_m64.json)及[11项定向回归](../tests/test_chanlun_l55_reply_chain_m64.py)。第55课15:55:28答复要求中枢组合A合法、B次级完成、回试次级完成；16:04:26确认第54课d4两合法分解的不同MACD比较对象与可能不一致；16:25:10说明另一证券的“777”未真正离开中枢，不得判该例三卖；16:29/16:31另强调成交成本和账户级别。上述**不同提问/证券**不是同一历史行情的联合完整证书，更不能将d4盘背直接升级成g7三卖或实盘订单。原新浪评论字节、2007-05-18真实分钟/子分钟数据、f1完成/F01/OB38/OB99/Φ20、A087第二中枢公式继续未证；I82/C46/v4.101.0不改、真实E1–E4 NOT_RUN。M64的测试仅保护来源边界，不回放市场行情。
+
 ## M57｜历史来源从“可能有API”进入“单股单日只读本地查询合同”（2026-11-15）
 
 [完整研究](../other_views/chanlun/speaker-unknown-001/IDEA_M57_L54_QMT_TDX_LOCAL_HISTORICAL_MINUTE_PROVENANCE.md)以QMT官方行情API、AStockDataTools原有TDX native只读解码器为复用对象。只在确切本地客户端具备授权与缓存时，才能取得600151.SH候选2007-05-18一分钟真实摘要。脚本默认仅做脱机preflight；显式xtdata-local只调用一次QMT原生get_market_data_ex，不带subscribe、不复权、不fill，不能因此保证QMT客户端初始化不联网。本期实际未连接用户机器，读到0条不得宣称供应商无历史；有行也仅是候选，图中年、供应链、1m以下路径和走势完成须分别证明。[JSON](../catalog/chanlun_l54_qmt_tdx_local_1m_m57.json)、[探针](../tools/probe_chanlun_l54_qmt_local_1m_m57.py)、[28条模拟单测](../tests/test_probe_chanlun_l54_qmt_local_1m_m57.py)及[新CI](../.github/workflows/chanlun-m57-qmt-local-readonly-gate.yml)记录身份和时间边界，原I82/C46/v4.101、A016/A087/F01/OB38/OB99继续OPEN。
