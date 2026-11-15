@@ -114,7 +114,7 @@ def parse_time_parts(row):
     date=next((lower[k] for k in ("datetime","date_time","trade_time",
                                  "date","交易日期","日期","时间","timestamp")
                if k in lower and str(lower[k]).strip()),None)
-    time=next((lower[k] for k in ("time","交易时间","minute","分钟")
+    time=next((lower[k] for k in ("time","交易时间","时间","minute","分钟")
                if k in lower and str(lower[k]).strip()),None)
     if date is None:
         return None
@@ -124,6 +124,9 @@ def parse_time_parts(row):
     elif re.fullmatch(r"\d{12}(\d{2})?",s):
         # YYYYMMDDHHMM[SS]
         s=f"{s[:4]}-{s[4:6]}-{s[6:8]} {s[8:10]}:{s[10:12]}:00"
+    if len(s)==10 and time is None:
+        # A date-only minute row is not a valid 00:00 bar.
+        return None
     if len(s)==10 and time is not None:
         t=str(time).strip()
         if re.fullmatch(r"\d{3,4}",t):
