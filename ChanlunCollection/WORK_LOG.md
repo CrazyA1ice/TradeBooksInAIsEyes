@@ -1,5 +1,11 @@
 # 《缠论》研究步骤与工作流修订记录
 
+## 2026-11-15｜M69：L54 600151候选日从“QMT可只读统计”推进到“本机逐行来源凭据入口”
+
+- [研究与运行指南](OtherVoices/speaker-unknown-001/IDEA_M69_L54_LOCAL_QMT_HISTORICAL_SOURCE_ENVELOPE.md)明确M56原图05月18日缺年份、2007-05-18仍待证明。旧M57已查询得到Frame就输出统计，M69新增Fake-QMT执行的`Frame→内存CSV→M56完整OHLCVA与时标逐行校验→240槽网格诊断→SHA256源摘要`；若真实客户端有数据可以在用户Windows本机显式输出私有CSV，不经Git上传、不写原数据库。
+- [CLI](tools/admit_chanlun_l54_local_qmt_m69.py)的`preflight/qmt-local/csv`三种模式显式声明`bar_start/bar_end`，既有M56现在支持纯bytes+原路径兼容；[21项Fake/CSV测试](tests/test_chanlun_l54_local_qmt_m69.py)覆盖空缓存非供应商无数据、时间网格两种语义、重复/错误价、改用2006日期对照、隐私保存幂等/仓库内写入拒绝、不能伪造实盘。
+- M68完整K线first-known仍不能由候选日历史缓存自动生成；市场实际数据/年月证明、F01/OB38/OB99/Φ20及A016/A087尚未解，I82/C46/v4.101、五卷108课100答不改、E1—E4 NOT_RUN。
+
 ## 2026-11-15｜M68：不再重复v4.34两初值非等价，新增完整单位K线首次可知的源码门
 
 - [新研究](OtherVoices/speaker-unknown-001/IDEA_M68_DUAL_F1_SOURCE_BAR_CLOSE_FIRST_KNOWN.md)核对第17课/35课/60课/84课及2007-07-20独立作者文章，但均为旧已归档原文；M68真正增量是将v4.34的`evaluate_trace`原整图人工证据压到逐前缀asof，并为每根K线引入独立`bar_close_first_known`合成来源收据。

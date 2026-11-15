@@ -1,5 +1,9 @@
 # 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.101.0，2026-11-13）
 
+## M69｜600151候选历史1分钟：QMT本机只读缓存 → M56同一CSV字节校验 → 时标网格 → 可选私有证据（2026-11-15）
+
+[完整研究及单行本地执行命令](../other_views/chanlun/speaker-unknown-001/IDEA_M69_L54_LOCAL_QMT_HISTORICAL_SOURCE_ENVELOPE.md)将旧M57只读取并汇总的单股单日QMT查询真正接入旧M56逐行验证：向M56只增加**行为不变**的`inspect_candidate_csv_bytes`纯内存入口，旧`inspect_candidate_csv(path)`仍调用该入口；新[规范源与隐私合同](../catalog/chanlun_l54_local_qmt_market_envelope_m69.json)、[只读本机/CSV工具](../tools/admit_chanlun_l54_local_qmt_m69.py)与[21项完全Fake QMT/CSV单测](../tests/test_chanlun_l54_local_qmt_m69.py)加入既有M56 workflow。默认无输出文件、不下载、不订阅、不交易；仅手工指定外部Git目录才私有保存QMT规范CSV及来源摘要，已存在文件不可覆盖。显式`bar_start/bar_end`对240个理论分钟槽做覆盖/冲突分类；完整240槽不能认证供应商行情或2007年第54课无年05月18日图，K线完整历史文件更不能代替2007当时的first-known收据或逐笔路径。真实本机2007行情尚未读取，缺行/空缓存不代表数据商无历史；F01/OB38/OB99/Φ20/A016/A087 OPEN，E1—E4 NOT_RUN，原5卷PDF、108课、100答/I82/C46/v4.101不动。
+
 ## M68｜同一人工价流的逐笔/单位K线f1首知隔离：闭合收据不可被未来全图高低价替代（2026-11-15）
 
 [同源前缀计算研究](../other_views/chanlun/speaker-unknown-001/IDEA_M68_DUAL_F1_SOURCE_BAR_CLOSE_FIRST_KNOWN.md)基于已证v4.34第17课“三完整单位K线价格重合”与第35课“三连续同价逐笔”两方向非等价见证，以及v4.44第60课实用线段是另一独立a0的既有来源，新增**可执行的bar闭合first_known收据门**：逐笔可以按可见原始成交前缀判断其三同价局部形成；K线需要每根K线**真实闭合证据**才可使用该根完整价区。新[9项既有人工价流的时钟案例](../catalog/chanlun_dual_f1_bar_close_asof_m68.json)、[零行情三域模型审计器](../tools/audit_chanlun_dual_f1_bar_close_asof_m68.py)和[13个Python定向测试](../tests/test_chanlun_dual_f1_bar_close_asof_m68.py)通过现有M56 CI执行，直接重跑旧v4.44双a0合同、v4.76 F01六拒绝和M67根层规则。只更改最后一根K线闭合收据7→10即可改变同价流/同前缀的L17状态，禁止回测提前读取未来K线高低。第三类实用段`L60_PRACTICAL_SEGMENT`无完成收据时始终`NO_SEGMENT_EVIDENCE`，三种a0不可互为已完成走势证明。2007真实600151行情/闭合收据未取得，F01/OB38/OB99/Φ20/A016/A087继续OPEN，E1—E4 NOT_RUN。旧v4.34/44/41作者源卡并非M68新发现，原5卷/108课/100答、I82/C46/v4.101不变。

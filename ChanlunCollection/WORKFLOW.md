@@ -1,5 +1,11 @@
 # ChanlunCollection｜本书实施工作流 v4.101.0
 
+## 2026-11-15｜M69：单次本机真实行情只读入口已备，CI仍只检验人工QMT帧
+
+- [完整新源证报告](OtherVoices/speaker-unknown-001/IDEA_M69_L54_LOCAL_QMT_HISTORICAL_SOURCE_ENVELOPE.md)把既有M57单股`600151.SH` 2007-05-18本地QMT调用转换为在内存中生成规范K线CSV，再用既有M56的新增纯字节接口逐行验证。新[来源合同](catalog/chanlun_l54_local_qmt_market_envelope_m69.json)、[CLI工具](tools/admit_chanlun_l54_local_qmt_m69.py)、[21项Fake-QMT及CSV单元测试](tests/test_chanlun_l54_local_qmt_m69.py)在已有M56 CI执行；M56原有文件入场方法兼容。
+- 默认绝不下载/订阅/提交行情、不写文件；需要私有CSV/receipt时必须显式选择Git仓库外路径，不覆盖已有文件，禁止把文件SHA当独立供应商认证。两种K线时标`bar_start`/`bar_end`由用户显式声明，240槽仅用于时间覆盖诊断，缺时可能停牌/数据源特性；当年原始分钟与逐笔价序尚未实际取得。
+- F01/OB38/OB99/Φ20与A016/A087继续OPEN、E1—E4 NOT_RUN，I82/C46/v4.101、原五卷PDF/108课/100答不变。
+
 ## 2026-11-15｜M68：三种f1底层证据不能混用，完整单位K线需独立封盘时钟
 
 - [M68当下前缀研究](OtherVoices/speaker-unknown-001/IDEA_M68_DUAL_F1_SOURCE_BAR_CLOSE_FIRST_KNOWN.md)直接重用旧v4.34三条人工成交与固定分桶；第17课L17三**已完成**单位K线交集的first-known依赖闭合收据，而第35课L35严格三同价逐笔仅依赖成交first-known；第60课实用线段是独立f1，不等于单位K线。

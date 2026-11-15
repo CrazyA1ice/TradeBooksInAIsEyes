@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-M69-L54-LOCAL-QMT-REAL-SOURCE-CANDIDATE-INTAKE",
+  "study_date": "2026-11-15",
+  "scope": "READ_ONLY_LOCAL_QMT_OR_USER_CSV_PROVENANCE_ENVELOPE_WITH_OPTIONAL_PRIVATE_EXPORT",
+  "predecessors": {
+    "M56": "tools/audit_chanlun_l54_2007_minute_candidate_m56.py",
+    "M57": "tools/probe_chanlun_l54_qmt_local_1m_m57.py",
+    "M68": "tools/audit_chanlun_dual_f1_bar_close_asof_m68.py",
+    "m56_contract": "catalog/chanlun_l54_600151_historical_minute_admission_m56.json",
+    "m57_contract": "catalog/chanlun_l54_qmt_tdx_local_1m_m57.json"
+  },
+  "instrument": "600151.SH",
+  "primary_candidate_date": "2007-05-18",
+  "alternative_csv_date": "2006-05-18",
+  "year_attested_by_chart": false,
+  "original_chart": "航天机电(1分钟)，标注05月18日但无年份；原文2007-05-24。示例峰值18.59/图右18.03/正文g0=18.50不能混为行情认证。",
+  "read_modes": [
+    "preflight",
+    "qmt-local",
+    "csv"
+  ],
+  "native_QMT_readonly_kwargs": {
+    "field_list": [
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "amount"
+    ],
+    "stock_list": [
+      "600151.SH"
+    ],
+    "period": "1m",
+    "start_time": "20070518093000",
+    "end_time": "20070518150000",
+    "count": -1,
+    "dividend_type": "none",
+    "fill_data": false
+  },
+  "forbidden_api_calls": [
+    "download_history_data",
+    "download_history_data2",
+    "subscribe_quote",
+    "xttrader",
+    "place_order",
+    "order_stock"
+  ],
+  "bar_timestamp_declaration_required": [
+    "bar_start",
+    "bar_end"
+  ],
+  "declared_timezone": "Asia/Shanghai",
+  "minute_grid": {
+    "regular_market_sessions": [
+      "09:30:00-11:30:00",
+      "13:00:00-15:00:00"
+    ],
+    "expected_declared_minutes": 240,
+    "bar_start": [
+      "09:30-11:29",
+      "13:00-14:59"
+    ],
+    "bar_end": [
+      "09:31-11:30",
+      "13:01-15:00"
+    ],
+    "historical_provider_convention_proven": false,
+    "absence_of_minutes_is_not_proof_of_provider_or_security_absence": true,
+    "calendar_fully_authenticated": false
+  },
+  "receipt_contract": {
+    "candidate_csv_sha256": "RAW_LOCAL_BYTES_DIGEST_NOT_VENDOR_SIGNATURE",
+    "csv_mode_source_symbol": "SELF_DECLARED_NOT_AUTHENTICATED",
+    "native_qmt_source_symbol": "RETURNED_QMT_DICT_KEY_NOT_VENDOR_SIGNATURE",
+    "bar_close_historically_first_known": "UNKNOWN",
+    "source_date_and_year": "UNCONFIRMED",
+    "source_historical_price_comparability": "UNCONFIRMED_ADJUSTMENT_CORPORATE_ACTIONS",
+    "intraminute_event_order": "UNDETERMINABLE_FROM_1M_OHLCV",
+    "market_first_known": "UNKNOWN",
+    "chart_identity": "UNCONFIRMED",
+    "F01": "OPEN",
+    "Phi20": "OPEN",
+    "orders": 0,
+    "actual_pnl": "NOT_RUN"
+  },
+  "privacy": {
+    "default_no_file_writes": true,
+    "optional_private_export_only_outside_repo": true,
+    "never_upload_or_modify_paid_raw_data_in_git": true,
+    "existing_private_files_never_overwritten": true
+  },
+  "synthetic_smoke_cases": [
+    {
+      "id": "ONE_CANDIDATE_BAR",
+      "kind": "FAKE_QMT_FRAME",
+      "times": [
+        "2007-05-18 13:21:00"
+      ],
+      "timestamp_convention": "bar_start",
+      "expected": "PARTIAL_1M_GRID_OR_VALID_NONTRADING"
+    },
+    {
+      "id": "WHOLE_240_START",
+      "kind": "SYNTHETIC_SESSION_TIMES",
+      "timestamp_convention": "bar_start",
+      "expected": "FULL_240_DECLARED_GRID_ONLY"
+    },
+    {
+      "id": "WHOLE_240_END",
+      "kind": "SYNTHETIC_SESSION_TIMES",
+      "timestamp_convention": "bar_end",
+      "expected": "FULL_240_DECLARED_GRID_ONLY"
+    },
+    {
+      "id": "WRONG_CONVENTION",
+      "kind": "SYNTHETIC_SESSION_TIMES",
+      "timestamp_convention": "bar_start",
+      "times_from": "bar_end",
+      "expected": "TIMESTAMP_CONVENTION_CONFLICT_OR_SPECIAL_PROVIDER_BAR"
+    }
+  ],
+  "current_status": {
+    "local_2007_600151_qmt_call_performed_by_assistant": false,
+    "user_windows_cache_inspected": false,
+    "chart_year_proven": false,
+    "real_1m_bars_from_user": false,
+    "real_bar_close_receipts": false,
+    "real_tick_or_subminute": false,
+    "real_market_experiments": "NOT_RUN",
+    "F01": "OPEN",
+    "OB38": "OPEN",
+    "OB99": "OPEN",
+    "Phi20": "OPEN",
+    "A016": "UNKNOWN",
+    "A087": "UNKNOWN",
+    "orders": 0
+  }
+}
