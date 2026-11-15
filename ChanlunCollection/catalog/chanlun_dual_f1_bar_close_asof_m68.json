@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "id": "M68-THREE-F1-DOMAINS-ASOF-BAR-CLOSE-RECEIPT-AND-NO-CROSS-PROMOTION",
+  "study_date": "2026-11-15",
+  "source_grade": "AUTHOR_TEXT_PREDICATES_PLUS_V434_EXISTING_SYNTHETIC_WITNESSES_NOT_MARKET",
+  "precedents": {
+    "author_text": [
+      {
+        "id": "L17_UNIT_BAR",
+        "url": "https://eczsc.com/originals/17",
+        "claim": "THREE_COMPLETED_LOWEST_UNIT_BARS_WITH_COMMON_PRICE_INTERVAL"
+      },
+      {
+        "id": "L35_TICK_STRICT",
+        "url": "https://eczsc.com/originals/35",
+        "claim": "THREE_CONSECUTIVE_IDENTICAL_TRADE_PRICES_STRICT_PRIMITIVE_CENTER"
+      },
+      {
+        "id": "L60_PRACTICAL_SEGMENT",
+        "url": "https://eczsc.com/originals/60",
+        "claim": "CHOOSE_OPERATIONAL_SEGMENT_CUTOFF_AND_IGNORE_BELOW"
+      },
+      {
+        "id": "L84_F1_F2",
+        "url": "https://eczsc.com/originals/84",
+        "claim": "F1_MAY_DIFFER_F2_RECURSIVE_STRUCTURE_STABLE"
+      },
+      {
+        "id": "JUL20_AUTHOR_POST",
+        "url": "https://blog.sina.com.cn/s/blog_486e105c01000bs4.html",
+        "claim": "STRICT_TICK_AND_PRACTICAL_SEGMENT_A0_ARE_DISTINCT_NOT_IDENTICAL_OUTPUTS"
+      }
+    ],
+    "existing_toy_catalog": "catalog/chanlun_f1_unitbar_trade_non_equivalence_v1.json",
+    "existing_toy_checker": "tools/audit_chanlun_f1_init_non_equivalence.py",
+    "existing_strict_vs_operable_checker": "tools/audit_chanlun_base_pan_cutoff_dual.py",
+    "existing_f01_checker": "tools/audit_chanlun_f01_root_pan_frontier_v476.py",
+    "existing_m67_checker": "tools/audit_chanlun_confucius61_pan_end_root_cut_m67.py"
+  },
+  "distinction": {
+    "methods": [
+      "L17_UNIT_BAR",
+      "L35_TICK_STRICT",
+      "L60_PRACTICAL_SEGMENT"
+    ],
+    "same_raw_price_path_comparison_only_in_v434_synthetic_fixture": true,
+    "practical_segment_is_not_a_unit_bar": true,
+    "strict_trade_is_not_a_finished_lower_level_movement": true,
+    "bar_complete_must_have_a_separate_close_receipt": true,
+    "bar_close_at_least_last_trade_first_known": true,
+    "first_known_from_current_prefix_not_complete_plot_end": true,
+    "unchanged_shared_f2_does_not_prove_same_center_output": true,
+    "no_market_certificate_or_pan_exit": true
+  },
+  "cases": [
+    {
+      "id": "W17_PREFIX_BEFORE_BAR3_CLOSE",
+      "witness": "W17_YES_35_NO",
+      "asof": 6,
+      "bar_close_first_known": [
+        3,
+        5,
+        7
+      ],
+      "expected": {
+        "L17_UNIT_BAR": "NOT_ESTABLISHED_IN_PREFIX",
+        "L35_TICK_STRICT": "NOT_ESTABLISHED_IN_PREFIX",
+        "L60_PRACTICAL_SEGMENT": "NO_SEGMENT_EVIDENCE"
+      }
+    },
+    {
+      "id": "W17_FINAL_BAR_CLOSED",
+      "witness": "W17_YES_35_NO",
+      "asof": 7,
+      "bar_close_first_known": [
+        3,
+        5,
+        7
+      ],
+      "expected": {
+        "L17_UNIT_BAR": "CENTER_FORMATION_PREDICATE_VISIBLE_ONLY",
+        "L35_TICK_STRICT": "NOT_ESTABLISHED_IN_PREFIX",
+        "L60_PRACTICAL_SEGMENT": "NO_SEGMENT_EVIDENCE"
+      }
+    },
+    {
+      "id": "W35_STRICT_BEFORE_FIRST_BAR_CLOSED",
+      "witness": "W35_YES_17_NO",
+      "asof": 3,
+      "bar_close_first_known": [
+        4,
+        6,
+        8
+      ],
+      "expected": {
+        "L17_UNIT_BAR": "NOT_ESTABLISHED_IN_PREFIX",
+        "L35_TICK_STRICT": "CENTER_FORMATION_PREDICATE_VISIBLE_ONLY",
+        "L60_PRACTICAL_SEGMENT": "NO_SEGMENT_EVIDENCE"
+      }
+    },
+    {
+      "id": "W35_BEFORE_THIRD_BAR_CLOSED",
+      "witness": "W35_YES_17_NO",
+      "asof": 7,
+      "bar_close_first_known": [
+        4,
+        6,
+        8
+      ],
+      "expected": {
+        "L17_UNIT_BAR": "NOT_ESTABLISHED_IN_PREFIX",
+        "L35_TICK_STRICT": "CENTER_FORMATION_PREDICATE_VISIBLE_ONLY",
+        "L60_PRACTICAL_SEGMENT": "NO_SEGMENT_EVIDENCE"
+      }
+    },
+    {
+      "id": "W35_THIRD_BAR_CLOSED_NO_OVERLAP",
+      "witness": "W35_YES_17_NO",
+      "asof": 8,
+      "bar_close_first_known": [
+        4,
+        6,
+        8
+      ],
+      "expected": {
+        "L17_UNIT_BAR": "NOT_ESTABLISHED_IN_PREFIX",
+        "L35_TICK_STRICT": "CENTER_FORMATION_PREDICATE_VISIBLE_ONLY",
+        "L60_PRACTICAL_SEGMENT": "NO_SEGMENT_EVIDENCE"
+      }
+    },
+    {
+      "id": "DEGENERATE_BAR_NOT_CLOSED",
+      "witness": "W_DEGENERATE_17_ONLY",
+      "asof": 6,
+      "bar_close_first_known": [
+        3,
+        5,
+        7
+      ],
+      "expected": {
+        "L17_UNIT_BAR": "NOT_ESTABLISHED_IN_PREFIX",
+        "L35_TICK_STRICT": "NOT_ESTABLISHED_IN_PREFIX",
+        "L60_PRACTICAL_SEGMENT": "NO_SEGMENT_EVIDENCE"
+      }
+    },
+    {
+      "id": "DEGENERATE_BAR_CLOSED",
+      "witness": "W_DEGENERATE_17_ONLY",
+      "asof": 7,
+      "bar_close_first_known": [
+        3,
+        5,
+        7
+      ],
+      "expected": {
+        "L17_UNIT_BAR": "CENTER_FORMATION_PREDICATE_VISIBLE_ONLY",
+        "L35_TICK_STRICT": "NOT_ESTABLISHED_IN_PREFIX",
+        "L60_PRACTICAL_SEGMENT": "NO_SEGMENT_EVIDENCE"
+      }
+    },
+    {
+      "id": "LATE_CLOSE_RECEIPT_NOT_IN_PREFIX",
+      "witness": "W17_YES_35_NO",
+      "asof": 7,
+      "bar_close_first_known": [
+        3,
+        5,
+        10
+      ],
+      "expected": {
+        "L17_UNIT_BAR": "NOT_ESTABLISHED_IN_PREFIX",
+        "L35_TICK_STRICT": "NOT_ESTABLISHED_IN_PREFIX",
+        "L60_PRACTICAL_SEGMENT": "NO_SEGMENT_EVIDENCE"
+      }
+    },
+    {
+      "id": "LATE_CLOSE_RECEIPT_ARRIVED",
+      "witness": "W17_YES_35_NO",
+      "asof": 10,
+      "bar_close_first_known": [
+        3,
+        5,
+        10
+      ],
+      "expected": {
+        "L17_UNIT_BAR": "CENTER_FORMATION_PREDICATE_VISIBLE_ONLY",
+        "L35_TICK_STRICT": "NOT_ESTABLISHED_IN_PREFIX",
+        "L60_PRACTICAL_SEGMENT": "NO_SEGMENT_EVIDENCE"
+      }
+    }
+  ],
+  "expected_asof_first_known": {
+    "W17_YES_35_NO": {
+      "L17_UNIT_BAR": 7,
+      "L35_TICK_STRICT": null,
+      "L60_PRACTICAL_SEGMENT": null
+    },
+    "W35_YES_17_NO": {
+      "L17_UNIT_BAR": null,
+      "L35_TICK_STRICT": 3,
+      "L60_PRACTICAL_SEGMENT": null
+    },
+    "W_DEGENERATE_17_ONLY": {
+      "L17_UNIT_BAR": 7,
+      "L35_TICK_STRICT": null,
+      "L60_PRACTICAL_SEGMENT": null
+    }
+  },
+  "status": {
+    "historical_600151_subminute": "NOT_ACQUIRED",
+    "actual_close_receipt_from_provider": false,
+    "model_specific_completion_certificates": false,
+    "all_sources_market_authenticated": false,
+    "F01": "OPEN",
+    "OB38": "OPEN",
+    "OB99": "OPEN",
+    "Phi20": "OPEN",
+    "A087_second_formula": "UNKNOWN",
+    "A016_third_layer": "UNKNOWN",
+    "E1_E4": "NOT_RUN",
+    "orders": 0,
+    "profitability": "NOT_RUN"
+  },
+  "forbidden": [
+    "VISIBLE_KLINE_RANGE_BEFORE_BAR_CLOSE_IS_AUTHOR_CENTER_CERTIFICATE",
+    "L17_UNIT_BAR_CENTER_EQUALS_L35_THREE_EQUAL_TRADES",
+    "L17_UNIT_BAR_IS_L60_PRACTICAL_SEGMENT",
+    "F1_CENTER_FORMED_IS_F1_PAN_FINISHED",
+    "V434_SYNTHETIC_WITNESS_IS_2007_600151_TICK_MARKET",
+    "LATEST_FULL_TAPE_LABEL_IS_VALID_AT_EARLIER_ASOF",
+    "CENTER_PREDICATE_BECOMES_F2_FINISHED_CHILD_WITHOUT_OWN_EXIT"
+  ]
+}

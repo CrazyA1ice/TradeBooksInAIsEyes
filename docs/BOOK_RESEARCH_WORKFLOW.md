@@ -1,5 +1,9 @@
 # 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.101.0，2026-11-13）
 
+## M68｜同一人工价流的逐笔/单位K线f1首知隔离：闭合收据不可被未来全图高低价替代（2026-11-15）
+
+[同源前缀计算研究](../other_views/chanlun/speaker-unknown-001/IDEA_M68_DUAL_F1_SOURCE_BAR_CLOSE_FIRST_KNOWN.md)基于已证v4.34第17课“三完整单位K线价格重合”与第35课“三连续同价逐笔”两方向非等价见证，以及v4.44第60课实用线段是另一独立a0的既有来源，新增**可执行的bar闭合first_known收据门**：逐笔可以按可见原始成交前缀判断其三同价局部形成；K线需要每根K线**真实闭合证据**才可使用该根完整价区。新[9项既有人工价流的时钟案例](../catalog/chanlun_dual_f1_bar_close_asof_m68.json)、[零行情三域模型审计器](../tools/audit_chanlun_dual_f1_bar_close_asof_m68.py)和[13个Python定向测试](../tests/test_chanlun_dual_f1_bar_close_asof_m68.py)通过现有M56 CI执行，直接重跑旧v4.44双a0合同、v4.76 F01六拒绝和M67根层规则。只更改最后一根K线闭合收据7→10即可改变同价流/同前缀的L17状态，禁止回测提前读取未来K线高低。第三类实用段`L60_PRACTICAL_SEGMENT`无完成收据时始终`NO_SEGMENT_EVIDENCE`，三种a0不可互为已完成走势证明。2007真实600151行情/闭合收据未取得，F01/OB38/OB99/Φ20/A016/A087继续OPEN，E1—E4 NOT_RUN。旧v4.34/44/41作者源卡并非M68新发现，原5卷/108课/100答、I82/C46/v4.101不变。
+
 ## M67｜2007-04-03《论语》61作者盘整结束双答疑：15:51:18/15:54:51，严格根层F01仍缺非循环出口（2026-11-15）
 
 [新的署时来源、严格范围与代码审计](../other_views/chanlun/speaker-unknown-001/IDEA_M67_CONFUCIUS61_PAN_END_LEVEL_SCOPE_F01_ROOT_CUT.md)锁定2007-04-03 15:27:02《论语》61真正宿主：作者15:51:18答“你的样子”（本级盘整中心结束→本级盘整结束，但可进入更高盘整），15:54:51答“hehe2”（不能以趋势背驰完成概念覆盖所有走势类型，盘整完成并非完全由盘背决定）。后期网页的16:03:11是下一条回复时间，不得错接到hehe2。新增[2来源/23纯合成限定情境](../catalog/chanlun_confucius61_pan_end_root_cut_m67.json)、[只读分类器](../tools/audit_chanlun_confucius61_pan_end_root_cut_m67.py)、[10项单测](../tests/test_chanlun_confucius61_pan_end_root_cut_m67.py)，真实复用旧v4.76 F01六拒绝与M66前缀检查。高一级条件性来源合格**不**自动补齐严格逐笔g0的PAN_EXIT独立非循环规则；未取得g-1走势语法不能把根层第三点拿来充当退出收据。原PDF五卷、108课、凯翔100答、v4.101/I82/C46不变，A016/A087/F01/OB38/OB99/Φ20 OPEN，E1–E4 NOT_RUN。

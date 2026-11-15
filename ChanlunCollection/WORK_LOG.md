@@ -1,5 +1,11 @@
 # 《缠论》研究步骤与工作流修订记录
 
+## 2026-11-15｜M68：不再重复v4.34两初值非等价，新增完整单位K线首次可知的源码门
+
+- [新研究](OtherVoices/speaker-unknown-001/IDEA_M68_DUAL_F1_SOURCE_BAR_CLOSE_FIRST_KNOWN.md)核对第17课/35课/60课/84课及2007-07-20独立作者文章，但均为旧已归档原文；M68真正增量是将v4.34的`evaluate_trace`原整图人工证据压到逐前缀asof，并为每根K线引入独立`bar_close_first_known`合成来源收据。
+- `W17_YES_35_NO`同一6笔价格在asof6只有两根K线闭合，到asof7第三根收据到达后才有L17局部中心形成；将此收据改至10则asof7必须输出未建立；`W35_YES_17_NO`三笔同价在第一根K线收盘前已满足逐笔形成，但既不等同于L17，也不等于最低盘整完成。
+- [新JSON](catalog/chanlun_dual_f1_bar_close_asof_m68.json)、[审计器](tools/audit_chanlun_dual_f1_bar_close_asof_m68.py)、[13测试](tests/test_chanlun_dual_f1_bar_close_asof_m68.py)调用旧v4.44双a0审计、v4.76 F01六负例与M67复审；市场未取得、闭合来源只是模拟，实际F01及A016/A087/OB38/OB99/Φ20 OPEN，E1—E4 NOT_RUN，I82/C46/v4.101、书籍原文件不变。
+
 ## 2026-11-15｜M67：4月3日《论语》61两条答疑的来源角色、完成层级和根出口证据割集
 
 - [完整报告](OtherVoices/speaker-unknown-001/IDEA_M67_CONFUCIUS61_PAN_END_LEVEL_SCOPE_F01_ROOT_CUT.md)首次在M67机器台账精确绑定作者15:51:18（“你的样子”15:39:53，局部盘整结束仍可进入更高级盘整）与15:54:51（“hehe2”15:53:00，盘整完成不能说完全由盘整背驰决定）；16:03:11属于下一回复，拒绝将两者错配为一条。原新浪2007字节没有独立验签，来源仍为后期镜像。

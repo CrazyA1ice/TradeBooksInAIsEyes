@@ -1,5 +1,11 @@
 # ChanlunCollection｜本书实施工作流 v4.101.0
 
+## 2026-11-15｜M68：三种f1底层证据不能混用，完整单位K线需独立封盘时钟
+
+- [M68当下前缀研究](OtherVoices/speaker-unknown-001/IDEA_M68_DUAL_F1_SOURCE_BAR_CLOSE_FIRST_KNOWN.md)直接重用旧v4.34三条人工成交与固定分桶；第17课L17三**已完成**单位K线交集的first-known依赖闭合收据，而第35课L35严格三同价逐笔仅依赖成交first-known；第60课实用线段是独立f1，不等于单位K线。
+- 新[9案例合同](catalog/chanlun_dual_f1_bar_close_asof_m68.json)、[源码只读审计](tools/audit_chanlun_dual_f1_bar_close_asof_m68.py)、[13项Python定向测试](tests/test_chanlun_dual_f1_bar_close_asof_m68.py)入既有M56工作流，重跑v4.44双初值、v4.76 F01六拒绝和M67严格根出口。按源价格不变只推迟最后K线闭合7→10，禁止把完整图价区倒填先前前缀。
+- 此乃合成来源/工程证据门，不认证2007真实行情或K线供应商闭合时点，不构建第二中枢公式、不证明pan exit、f2成员完成及盈利。v4.101/I82/C46、5卷108课100答不变；F01/OB38/OB99/Φ20/A016/A087 OPEN、E1—E4 NOT_RUN。
+
 ## 2026-11-15｜M67：《论语》61两个盘整结束答疑须保持级别限定与正确回复时钟
 
 - [M67新来源报告](OtherVoices/speaker-unknown-001/IDEA_M67_CONFUCIUS61_PAN_END_LEVEL_SCOPE_F01_ROOT_CUT.md)分别核对2007-04-03 15:51:18的“你的样子”问答、15:54:51的“hehe2”问答及原宿主《论语》61；第二回复纠正“走势全部由背驰终结”，第一回复允许本级盘整结束后继续有更高级盘整，不能推广为全级别无盘整。
