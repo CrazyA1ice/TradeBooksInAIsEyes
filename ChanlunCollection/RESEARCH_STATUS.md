@@ -1,5 +1,9 @@
 # 《缠论》五卷108课｜当前研究状态与未完成关口
 
+## 2026-11-15｜M70：本地QMT与TDX分钟**时标**双源交叉入口已备，真实数据待本机运行
+
+[M70研究与命令](OtherVoices/speaker-unknown-001/IDEA_M70_L54_TDX_QMT_2006_2007_CLOCK_COMPARISON.md)新增了轻量TDX LC1压缩日/分钟只读验证器及QMT时钟交集，无需把付费数据上传Git仓库。可对2006/2007两个05月18日候选日做**本地条目存在性**检查；2007日QMT和TDX都存在时只对归一化分钟区间键比较相同/各自独有数量。不解码TDX价/量，文件SHA非供应商验签，不能证实两源价格相同或L54图年份/真实第一可知或F01根层完成。新合同、22项Fake数据测试、既有M56/M69兼容入口进入工作流。仍未实际读取用户Windows本地文件，F01/OB38/OB99/Φ20及A016/A087 OPEN，E1–E4 NOT_RUN，原五卷PDF/108课/100答/I82/C46/v4.101不变。
+
 ## 2026-11-15｜M69：本机600151历史分钟来源可核验入口已提交，实际Windows QMT缓存尚未查询
 
 [M69来源/隐私/分钟时标研究](OtherVoices/speaker-unknown-001/IDEA_M69_L54_LOCAL_QMT_HISTORICAL_SOURCE_ENVELOPE.md)新增旧M57 QMT本地frame到M56逐行规范CSV验证的真正工程链，包含CSV SHA-256、上海市时区、显式K线标记约定、240个候选常规一分钟槽/缺失或冲突分类、严格数据未验证声明；21项Fake QMT/CSV单测及已有M56/M57/M68回归由CI完成。无数据时只报告本地缓存为空，不证明供应商无2007历史；有数据时也只会生成`LOCAL_MINUTE_CANDIDATE_SHAPE_ONLY_NOT_AUTHOR_CHART_AUTHENTICATED`，不能说已经判定图为2007年05月18日或历史首次可知、逐笔价序/第三点/走势完成。默认无文件写入，显式用户私有目录在Git仓库外保存证据。实际行情E1—E4 NOT_RUN，F01/OB38/OB99/Φ20/A016/A087 OPEN，原五卷PDF、108课、100条知乎回答、I82/C46/v4.101不变。
