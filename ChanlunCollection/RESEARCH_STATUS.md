@@ -1,5 +1,10 @@
 # 《缠论》五卷108课｜当前研究状态与未完成关口
 
+## 2026-11-15｜M75.1：项目内迁移已完成，规范卷三PDF在主工作区缺失，增加安全多路径读取
+
+用户本机回执`PROJECT_LOCAL_MIGRATION_VERIFIED`，M73/M74工作树均已进入`work/review-worktrees`，历史SVG已在`work/chanlun/lesson054/figures`且移动哈希相同。M74 Review快进到M75提交0e69007，M75 8项离线测试通过。但真实`--mode prepare`报`canonical volume-3 PDF missing`：**主工作树的实际文件不存在**，不代表Git树或项目内部其他worktree无该文件。本轮修正只从主项目规范卷三、镜像或M74/M73子工作树引用已存在的同SHA PDF，绝不搬复制原书到新目录或覆盖原工作区；读不到或SHA不一致时必须继续拒绝。M75图像对照HTML、14标记JSON实际生成仍待用户再次执行确认。F01/OB38/OB99/Φ20/A016/A087 OPEN，E1-E4 NOT_RUN。
+
+
 ## 2026-11-15｜M75：真正完成M74历史图生成，开始统一项目根内路径与图像配准
 
 用户本机在M74官方CDN域修复后成功验证`OpenFinMind/stock_dataset`文件SHA与2007-05-18的240根完整1m，13个时间、价格、成交量、均线指纹全部匹配，且实际生成`D:\ChatGPT\L54-M74-20070518-afternoon.svg`。但该SVG及两份M73/M74-Review工作树位于`D:\ChatGPT\TradeBooksInAIsEyes`项目根外，用户要求纠正。新增统一路径约束：项目根下已忽略的`work/`收容受Git管理的两个Review、原SVG及下一阶段配准文件；本机执行`git worktree move`与文件迁移前**不得声称已搬迁成功**。新增M75无网本地卷三PDF+SVG HTML与14个g/d未定位审核模板，仍不宣布g/d、f1/f2、原图年份独立认证。F01/OB38/OB99/Φ20/A016/A087 OPEN，E1–E4 NOT_RUN。
