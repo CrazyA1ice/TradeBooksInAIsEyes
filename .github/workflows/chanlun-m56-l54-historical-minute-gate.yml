@@ -47,3 +47,8 @@ jobs:
         run: |
           python -B tools/probe_chanlun_l54_tdx_qmt_clock_m70.py --mode preflight
           python -B -m unittest discover -s tests -p "test_chanlun_l54_tdx_qmt_clock_m70.py" -v
+      - name: M72 external historical 1m RQData ARData one-day offline access gate and 26 fake regressions
+        run: |
+          python -B tools/probe_chanlun_l54_external_minute_m72.py --mode preflight
+          python -B tools/probe_chanlun_l54_external_minute_m72.py --mode access-check
+          python -B -m unittest discover -s tests -p "test_chanlun_l54_external_minute_m72.py" -v
