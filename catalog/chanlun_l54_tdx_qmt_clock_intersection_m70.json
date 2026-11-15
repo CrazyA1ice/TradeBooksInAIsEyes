@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-M70-TDX-QMT-LOCAL-NATIVE-CLOCK-INTERSECTION",
+  "study_date": "2026-11-15",
+  "instrument": "600151.SH",
+  "original_chart": "L54 航天机电(1分钟), 05月18日, no visible calendar year",
+  "candidate_dates": [
+    "2006-05-18",
+    "2007-05-18"
+  ],
+  "qmt_day": "2007-05-18",
+  "tdx_native_layout": {
+    "record_bytes": 32,
+    "header": "<HH",
+    "max_bytes": 67108864,
+    "packed_date_rule": "year=2004+date_uint16//2048, monthday=date_uint16%2048",
+    "minute_rule": "uint16 number of minutes after midnight",
+    "attribution": "AStockDataTools/H5ParquetReconciler/tools/probe-tdx-native-readonly.py",
+    "prices_volumes_not_decoded": true
+  },
+  "tdx_path_hypothesis": "D:\\software\\TDX\\vipdoc\\sh\\minline\\sh600151.lc1",
+  "source_references": [
+    "https://github.com/CrazyA1ice/AStockDataTools/blob/main/H5ParquetReconciler/tools/probe-tdx-native-readonly.py",
+    "https://github.com/donge/tdx_ext",
+    "tools/admit_chanlun_l54_local_qmt_m69.py",
+    "tools/probe_chanlun_l54_qmt_local_1m_m57.py"
+  ],
+  "modes": [
+    "preflight",
+    "tdx-local",
+    "dual-local"
+  ],
+  "tdx_profiles": [
+    "TDX_1MIN_START_240",
+    "TDX_1MIN_END_240",
+    "TDX_OPENING_PLUS_END_241"
+  ],
+  "privacy": {
+    "default_no_file_writes": true,
+    "not_upload_paid_bars": true,
+    "never_write_local_market_file": true,
+    "no_ohlc_or_individual_minute_keys_in_report": true
+  },
+  "comparison_claims": {
+    "normalized_minute_interval_overlap_only": true,
+    "price_volume_equality": false,
+    "source_vendor_identity_verified": false,
+    "original_chart_date_year_verified": false,
+    "historical_bar_first_known_verified": false,
+    "tick_or_subminute_path_reconstructed": false,
+    "empty_cache_is_not_vendor_historical_absence": true,
+    "source_file_digest_does_not_authenticate_provider": true
+  },
+  "source_files": [
+    "catalog/chanlun_l54_tdx_qmt_clock_intersection_m70.json",
+    "tools/probe_chanlun_l54_tdx_qmt_clock_m70.py",
+    "tests/test_chanlun_l54_tdx_qmt_clock_m70.py",
+    "other_views/chanlun/speaker-unknown-001/IDEA_M70_L54_TDX_QMT_2006_2007_CLOCK_COMPARISON.md"
+  ],
+  "status": {
+    "real_tdx_or_qmt_windows_inspected_by_assistant": false,
+    "source_2007_minute_bars_confirmed": false,
+    "chart_year_confirmed": false,
+    "F01": "OPEN",
+    "OB38": "OPEN",
+    "OB99": "OPEN",
+    "Phi20": "OPEN",
+    "A016": "UNKNOWN",
+    "A087": "UNKNOWN",
+    "E1_E4": "NOT_RUN",
+    "orders": 0
+  }
+}

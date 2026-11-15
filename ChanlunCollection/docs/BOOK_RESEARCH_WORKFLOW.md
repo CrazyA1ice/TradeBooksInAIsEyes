@@ -1,5 +1,9 @@
 # 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.101.0，2026-11-13）
 
+## M70｜双本地源只读验证：TDX LC1压缩日/分钟 × QMT候选时标交集（2026-11-15）
+
+[正式研究](../other_views/chanlun/speaker-unknown-001/IDEA_M70_L54_TDX_QMT_2006_2007_CLOCK_COMPARISON.md)将AStockDataTools已有TDX原生32字节探针的**日期、分钟**解码与M69 QMT规范时标连接。在本仓库新增[TDX/QMT双源只读工具](../tools/probe_chanlun_l54_tdx_qmt_clock_m70.py)、[来源合同](../catalog/chanlun_l54_tdx_qmt_clock_intersection_m70.json)及[22项人工二进制/QMT定向测试](../tests/test_chanlun_l54_tdx_qmt_clock_m70.py)。TDX一次扫描本地sh600151.lc1，独立报告2006/2007年“05月18日”的记录数、240开始/结束或241特殊分钟网格和文件SHA256；不读价格/成交量、不改写文件；QMT只依赖M69已经冻结的单股单日local读取，按显式bar_start/bar_end比较两本地来源分钟区间键，输出交集和差集计数而非付费原始行情。若两者一致，只说明**时间键相同，不证明价格、成交量、逐笔或原图2007年份认证**；无本地文件不代表供应商无历史。此轮**仅工具+合成测试**，用户Windows没有实际读取。原5卷PDF/108课/100答及v4.101/I82/C46不动，A016/A087/F01/OB38/OB99/Φ20 OPEN，E1–E4 NOT_RUN。
+
 ## M69｜600151候选历史1分钟：QMT本机只读缓存 → M56同一CSV字节校验 → 时标网格 → 可选私有证据（2026-11-15）
 
 [完整研究及单行本地执行命令](../other_views/chanlun/speaker-unknown-001/IDEA_M69_L54_LOCAL_QMT_HISTORICAL_SOURCE_ENVELOPE.md)将旧M57只读取并汇总的单股单日QMT查询真正接入旧M56逐行验证：向M56只增加**行为不变**的`inspect_candidate_csv_bytes`纯内存入口，旧`inspect_candidate_csv(path)`仍调用该入口；新[规范源与隐私合同](../catalog/chanlun_l54_local_qmt_market_envelope_m69.json)、[只读本机/CSV工具](../tools/admit_chanlun_l54_local_qmt_m69.py)与[21项完全Fake QMT/CSV单测](../tests/test_chanlun_l54_local_qmt_m69.py)加入既有M56 workflow。默认无输出文件、不下载、不订阅、不交易；仅手工指定外部Git目录才私有保存QMT规范CSV及来源摘要，已存在文件不可覆盖。显式`bar_start/bar_end`对240个理论分钟槽做覆盖/冲突分类；完整240槽不能认证供应商行情或2007年第54课无年05月18日图，K线完整历史文件更不能代替2007当时的first-known收据或逐笔路径。真实本机2007行情尚未读取，缺行/空缓存不代表数据商无历史；F01/OB38/OB99/Φ20/A016/A087 OPEN，E1—E4 NOT_RUN，原5卷PDF、108课、100答/I82/C46/v4.101不动。
