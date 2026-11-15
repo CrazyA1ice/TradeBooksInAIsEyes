@@ -6,11 +6,15 @@ does not authenticate historical Sina bytes and does not send orders.
 """
 from __future__ import annotations
 import json
+import sys
 from pathlib import Path
-from tools.audit_chanlun_f01_root_pan_frontier_v476 import audit as f01_audit
-from tools.audit_chanlun_l55_consolidation_depart_retrace_m65 import audit as m65_audit
 
 ROOT=Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0,str(ROOT))
+
+from tools.audit_chanlun_f01_root_pan_frontier_v476 import audit as f01_audit
+from tools.audit_chanlun_l55_consolidation_depart_retrace_m65 import audit as m65_audit
 CATALOG=ROOT/"catalog/chanlun_july11_segment_confirmation_m66.json"
 
 def classify(case: dict) -> str:
