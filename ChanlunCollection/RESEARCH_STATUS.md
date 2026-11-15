@@ -2,7 +2,7 @@
 
 ## 2026-11-15｜M73：公开分钟数据仓检索入口建立，实证等待公开记录
 
-[M73历史1分钟档案源调查](OtherVoices/speaker-unknown-001/IDEA_M73_L54_GITHUB_HF_ZZSHARE_PUBLIC_2007_1MIN.md)发现HuggingFace数据集对2000—2024逐股票分年份1m CSV的声明，及GitHub zzquant/zzshare官方免费匿名单日1m API实际路径；两个GitHub百度网盘历史分钟资源(aitech17、waizao)只见README而未核实分享目录。纯标准库工具默认无网络，仅明确hf-once/zzshare-once才对600151指定2007或2006年05月18日执行一次受限免费来源访问，源CSV必须经旧M56/M69审核；28项Fake单测加镜像和CI。不能把HF目录年份广告、未访问的网盘或某股2007日线高18.59当作目标1m已取得，也不能确认原图年份或F01/OB38/OB99/Φ20/A016/A087，E1—E4 NOT_RUN，原五卷PDF/108课/100答/I82/C46/v4.101不变。
+[M73历史1分钟档案源调查](OtherVoices/speaker-unknown-001/IDEA_M73_L54_GITHUB_HF_ZZSHARE_PUBLIC_2007_1MIN.md)发现HuggingFace数据集对2000—2024逐股票分年份1m CSV的声明，及GitHub zzquant/zzshare官方免费匿名单日1m API实际路径；两个GitHub百度网盘历史分钟资源(aitech17、waizao)只见README而未核实分享目录。纯标准库工具默认无网络，仅明确hf-once/zzshare-once才对600151指定2007或2006年05月18日执行一次受限免费来源访问，源CSV必须经旧M56/M69审核；30项Fake单测加镜像和CI。不能把HF目录年份广告、未访问的网盘或某股2007日线高18.59当作目标1m已取得，也不能确认原图年份或F01/OB38/OB99/Φ20/A016/A087，E1—E4 NOT_RUN，原五卷PDF/108课/100答/I82/C46/v4.101不变。
 
 ## 2026-11-15｜M72：真实外部分钟来源可执行入口完成，账号和数据尚未核验
 
@@ -38,7 +38,7 @@
 
 ## 2026-11-15｜M57：QMT本地单票单日读取程序和模拟回归已准备，真实2007分钟数据仍未取得
 
-[研究](OtherVoices/speaker-unknown-001/IDEA_M57_L54_QMT_TDX_LOCAL_HISTORICAL_MINUTE_PROVENANCE.md)限定2007-05-18仅是L54无年05月18日历史图的查证候选。迅投原生XtData get_market_data_ex具备局部读取能力，官方内置ContextInfo同名函数的subscribe参数不可复制到原生版本。本轮新增单股一日的[严格参数来源合同](catalog/chanlun_l54_qmt_tdx_local_1m_m57.json)、[只读探针](tools/probe_chanlun_l54_qmt_local_1m_m57.py)、[28项假QMT帧测试](tests/test_probe_chanlun_l54_qmt_local_1m_m57.py)及[新CI](.github/workflows/chanlun-m57-qmt-local-readonly-gate.yml)，正常只能返回未运行、缺运行环境、本地数据未取得或候选K线未认证等分流；未调用任何用户Windows QMT/TDX，也未下载行情，不能断言该日真实记录存在。已有AStockDataTools的通达信lc1探测器可复用，但未访问文件；不把2007分钟OHLC等同完整子分钟路径。I82/C46/v4.101、M55六组/Φ20/F01/OB38/OB99/A016/A087 OPEN，E1–E4 NOT_RUN。
+[研究](OtherVoices/speaker-unknown-001/IDEA_M57_L54_QMT_TDX_LOCAL_HISTORICAL_MINUTE_PROVENANCE.md)限定2007-05-18仅是L54无年05月18日历史图的查证候选。迅投原生XtData get_market_data_ex具备局部读取能力，官方内置ContextInfo同名函数的subscribe参数不可复制到原生版本。本轮新增单股一日的[严格参数来源合同](catalog/chanlun_l54_qmt_tdx_local_1m_m57.json)、[只读探针](tools/probe_chanlun_l54_qmt_local_1m_m57.py)、[30项假QMT帧测试](tests/test_probe_chanlun_l54_qmt_local_1m_m57.py)及[新CI](.github/workflows/chanlun-m57-qmt-local-readonly-gate.yml)，正常只能返回未运行、缺运行环境、本地数据未取得或候选K线未认证等分流；未调用任何用户Windows QMT/TDX，也未下载行情，不能断言该日真实记录存在。已有AStockDataTools的通达信lc1探测器可复用，但未访问文件；不把2007分钟OHLC等同完整子分钟路径。I82/C46/v4.101、M55六组/Φ20/F01/OB38/OB99/A016/A087 OPEN，E1–E4 NOT_RUN。
 
 ## 2026-11-15｜M56：L54原图身份候选及2007历史一分钟数据入场门已经建立，**实际数据尚未取得**
 
