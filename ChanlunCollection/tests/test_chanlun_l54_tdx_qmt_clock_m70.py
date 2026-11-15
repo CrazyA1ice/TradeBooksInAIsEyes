@@ -218,6 +218,21 @@ class M70NativeClockTests(unittest.TestCase):
             self.assertNotIn("13:21",out.getvalue())
             self.assertNotIn("18.59",out.getvalue())
 
+    def test_symlink_file_refused_not_reported_missing(self):
+        with tempfile.TemporaryDirectory() as temp:
+            folder=Path(temp)
+            native=fake_native(folder/"sh600151.lc1",[("2007-05-18",801)])
+            linkdir=folder/"nested"
+            linkdir.mkdir()
+            link=linkdir/"sh600151.lc1"
+            try:
+                link.symlink_to(native)
+            except (OSError,NotImplementedError):
+                self.skipTest("platform cannot create symlinks")
+            with self.assertRaisesRegex(ValueError,"symlink"):
+                m.main(["--mode","tdx-local","--tdx-file",str(link),
+                        "--tdx-convention","bar_start"])
+
     def test_invalid_or_unknown_conventions_fail_closed(self):
         with self.assertRaisesRegex(ValueError,"conventions"):
             m.compare([801],[801],"auto","bar_start")
