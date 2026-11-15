@@ -81,6 +81,31 @@ class M73PublicMinuteTests(unittest.TestCase):
         self.assertEqual(len(p["rows"]),2)
         self.assertEqual(p["rows"][0]["time"].strftime("%Y%m%d%H%M"),"200705181321")
 
+    def test_hf_chinese_date_and_time_columns_are_distinct_minutes(self):
+        # Matches the observed vendor layout, not the synthetic English fixture.
+        raw=("日期,时间,开盘,最高,最低,收盘,成交量,成交额\n"
+             "2007-05-18,09:31,18.50,18.59,18.03,18.40,7,1500\n"
+             "2007-05-18,09:32,18.40,18.50,18.30,18.50,6,1000\n"
+             "2007-05-18,15:00,18.50,18.50,18.50,18.50,9,4000\n").encode("utf-8")
+        parsed=m.csv_annual_day_rows(raw,DAY)
+        self.assertEqual(parsed["annual_rows"],3)
+        self.assertEqual([x["time"].strftime("%H:%M") for x in parsed["rows"]],
+                         ["09:31","09:32","15:00"])
+        self.assertEqual(len({x["time"] for x in parsed["rows"]}),3)
+        report=m.hf_once(DAY,"bar_end",
+                         listing=lambda _:{"path":PATH,"size":len(raw)},
+                         fetcher=lambda _,__:(raw,{}))
+        self.assertEqual(report["admission"]["rows"],3)
+        self.assertEqual(report["admission"]["grid"]["observed_rows"],3)
+        self.assertEqual(report["admission"]["grid"]["off_declared_grid_count"],0)
+        self.assertEqual(report["admission"]["F01"],"OPEN")
+
+    def test_date_only_minute_is_not_silent_midnight(self):
+        self.assertIsNone(m.parse_time_parts({"日期":DAY}))
+        self.assertIsNone(m.parse_time_parts({"日期":DAY,"时间":""}))
+        self.assertIsNone(m.parse_time_parts({"date":DAY}))
+        self.assertEqual(m.parse_time_parts({"时间":"2007-05-18 09:31"}).strftime("%H:%M"),"09:31")
+
     def test_hf_single_file_is_admitted_via_m56(self):
         metadata={"path":PATH,"size":len(CSV_SAMPLE),
                   "lfs":{"oid":hashlib.sha256(CSV_SAMPLE).hexdigest()}}

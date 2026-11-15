@@ -2,7 +2,7 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.101.0",
+  "workflow_version": "4.101.1",
   "source_count": 1124,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
@@ -2750,8 +2750,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "f53fb5c6ac3fd6d3044d32461dade78430bb0d32",
-      "size_bytes": 199689
+      "git_blob_sha": "8283684a399f91be8c54df8c18d5d2fd367d0fd1",
+      "size_bytes": 200916
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -4154,8 +4154,8 @@
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_M73_L54_GITHUB_HF_ZZSHARE_PUBLIC_2007_1MIN.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_M73_L54_GITHUB_HF_ZZSHARE_PUBLIC_2007_1MIN.md",
-      "git_blob_sha": "fcf02652839812687d078cbb885d442c265aa0a6",
-      "size_bytes": 5144
+      "git_blob_sha": "f3116982dce90810ce2b011f1b5fc0d7123b4d4a",
+      "size_bytes": 6526
     },
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_NOTEBOOK.md",
@@ -4898,8 +4898,8 @@
     {
       "source_path": "tests/test_chanlun_l54_public_archive_m73.py",
       "mirror_path": "ChanlunCollection/tests/test_chanlun_l54_public_archive_m73.py",
-      "git_blob_sha": "b1a73caa3a8429ac25391413142a2664ada80561",
-      "size_bytes": 11700
+      "git_blob_sha": "24569430cbaab08e99c427ed9835ac8397499727",
+      "size_bytes": 13243
     },
     {
       "source_path": "tests/test_chanlun_l54_tdx_qmt_clock_m70.py",
@@ -6428,8 +6428,8 @@
     {
       "source_path": "tools/probe_chanlun_l54_public_archive_m73.py",
       "mirror_path": "ChanlunCollection/tools/probe_chanlun_l54_public_archive_m73.py",
-      "git_blob_sha": "9d66d4dfca4655242654222ed1e5fd168e2bdac7",
-      "size_bytes": 16791
+      "git_blob_sha": "53bc7e865d59db83c3a0aeae4b11c42c8ad67062",
+      "size_bytes": 16915
     },
     {
       "source_path": "tools/probe_chanlun_l54_qmt_local_1m_m57.py",
