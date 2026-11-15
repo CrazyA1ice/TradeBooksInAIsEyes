@@ -35,3 +35,7 @@ jobs:
         run: |
           python -B tools/audit_chanlun_confucius61_pan_end_root_cut_m67.py
           python -B -m unittest discover -s tests -p "test_chanlun_confucius61_pan_end_root_cut_m67.py" -v
+      - name: M68 dual f1 bar-close-asof source and F01 anti-promotion gate
+        run: |
+          python -B tools/audit_chanlun_dual_f1_bar_close_asof_m68.py
+          python -B -m unittest discover -s tests -p "test_chanlun_dual_f1_bar_close_asof_m68.py" -v
