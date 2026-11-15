@@ -1,0 +1,19 @@
+name: chanlun-m56-l54-historical-minute-gate
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  public-chart-identity-vs-historical-data-entry:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Audit chart-year hypothesis, provider claims and no raw data acquisition
+        run: python -B tools/audit_chanlun_l54_2007_minute_candidate_m56.py
+      - name: Verify OHLCVA path nonidentifiability and reject fake market certificates
+        run: python -B -m unittest discover -s tests -p "test_chanlun_l54_2007_minute_candidate_m56.py" -v

@@ -1,5 +1,11 @@
 # 《缠论》研究步骤与工作流修订记录
 
+## 2026-11-15｜M56：从原第54课图证到可入场的真实历史分钟线，还缺年份与可验证来源
+
+- [完整报告](OtherVoices/speaker-unknown-001/IDEA_M56_L54_600151_HISTORICAL_DAY_SOURCE_AND_SUBMINUTE_INFORMATION_LOSS.md)以旧v4.27已读取的PDF图“航天机电(1分钟)”为入口，明确图上05月18日不含年、作者同页发表日2007-05-24、价位18.59/18.03与g0=18.50三种岗位；按2007-05-18作为**待验证首选**，2007年600151当年正式公司公告确认名称/代码，但不证明具体图日期和市场价。
+- 发现可执行历史源渠道：现用QMT具备1m历史按时间下载API，但2007覆盖不明；另有知图历史分钟Pro声称可追溯1991左右（以标的为准）但需token/收费，**未取600151 2007年真实分钟数据**。创建[JSON](catalog/chanlun_l54_600151_historical_minute_admission_m56.json)、[只读CSV和原图元数据门](tools/audit_chanlun_l54_2007_minute_candidate_m56.py)、[29定向断言](tests/test_chanlun_l54_2007_minute_candidate_m56.py)及[新CI](.github/workflows/chanlun-m56-l54-historical-minute-gate.yml)，不给误报来源认证/交易回测/完成线段的出口。
+- 数学反例：P 18.30→18.50→18.20→18.40与Q 18.30→18.20→18.50→18.40，OHLC/量/额完全一致而H/L时序不同，因此1m BAR不能恢复当分钟子级路径。它不能充当作者合法结构反例。M55六完成槽位、Phi20跨级、F01/OB38/OB99继续OPEN；I82/C46/v4.101不变，市场NOT_RUN。
+
 ## 2026-11-15｜M55：第18课中心与走势完结分离，L54六个具体组缺可追完成证据
 
 - [本期报告](OtherVoices/speaker-unknown-001/IDEA_M55_L18_L54_CENTER_VS_COMPLETED_MOVEMENT_PROOF_SLOTS.md)：第18课明确下层三个完整走势重叠可生本层中枢，同时本层盘整达到成中枢条件后可继续无限延伸；“本层中枢出现→本层走势结束”的强论断因此不成立。把该类型区分**落实至**M54原作者R_A(3组g5)和R_B(3组g6)共六个政策限定**源文组槽位**，每组另待同一f1/f2/R、合法本级结束、原子行情来源、market first-known证书，不能靠原图括号或作者抽象线段直接捏造。

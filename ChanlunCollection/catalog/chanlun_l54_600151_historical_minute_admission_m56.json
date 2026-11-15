@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-M56-L54-600151-2007-1MIN-PROVENANCE-ADMISSION",
+  "study_date": "2026-11-15",
+  "source_pdf": {
+    "url": "https://xqdoc.imedao.com/15621999f6b25803feb29d4c.pdf",
+    "printed_page": 125,
+    "pdf_page_index0": 128,
+    "medium": "LATER_COMPILATION_VISUAL_SECONDARY_ARCHIVE",
+    "verified_image_chart_title": "航天机电(1分钟)",
+    "year_printed_in_chart": false,
+    "month_day_printed": "05月18日",
+    "time_from_label": "13:21",
+    "time_to_label": "15:00",
+    "chart_peak_annotation": "18.59",
+    "chart_right_annotation": "18.03",
+    "author_prose_g0": "18.50"
+  },
+  "source_reference": "catalog/chanlun_l54_cross_archive_figure_and_decision_v1.json",
+  "candidate_instrument": {
+    "company": "航天机电",
+    "code": "600151.SH",
+    "code_evidence": "https://m.cj.sina.cn/page/aHR0cDovL2ZpbmFuY2Uuc2luYS5jb20uY24vc3RvY2svY29tcGFueS9zaC82MDAxNTEvMjQvMTY0LnNodG1s",
+    "verified_by_external_2007_company_announcement": true
+  },
+  "author_publication": "2007-05-24 01:37:31",
+  "candidate_date": "2007-05-18",
+  "date_proof_status": "YEAR_NOT_VISIBLE_HYPOTHESIS_ONLY",
+  "other_years_eliminated": false,
+  "external_provider_candidates": [
+    {
+      "id": "QMT",
+      "doc_url": "https://dict.thinktrader.net/innerApi/data_function.html",
+      "supports_1m_period": true,
+      "specific_2007_600151_coverage_confirmed": false,
+      "access_mode": "CLIENT_AND_ENTITLEMENT_DEPENDENT",
+      "actual_download_performed": false
+    },
+    {
+      "id": "ZHITU_FULL",
+      "doc_url": "https://zhituapi.com/hsstockapi.html",
+      "claims_historical_1m_and_early_years": true,
+      "specific_2007_600151_coverage_confirmed": false,
+      "access_mode": "REQUIRES_TOKEN_AND_PAID_API_ADDON",
+      "actual_download_performed": false
+    }
+  ],
+  "cross_source_inputs": [
+    "catalog/chanlun_l54_dual_policy_witness_m54.json",
+    "catalog/chanlun_l18_l54_completed_movement_slots_m55.json"
+  ],
+  "required_canonical_csv_columns": [
+    "time",
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume"
+  ],
+  "optional_canonical_csv_columns": [
+    "amount"
+  ],
+  "candidate_market_time_zone": "Asia/Shanghai",
+  "timestamp_convention_requires_explicit_choice": true,
+  "bar_interval": "1m",
+  "catalog_data_status": "NOT_ACQUIRED",
+  "chart_date_confirmed": false,
+  "year_specific_source_file_digest": null,
+  "real_600151_2007_1m_rows_ingested": 0,
+  "actual_subminute_data_ingested": 0,
+  "author_market_ends_achieved": 0,
+  "phi20_verified": false,
+  "two_synthetic_tick_order_counterexamples": {
+    "kind": "RESEARCHER_SYNTHETIC_UNIT_VOLUME_PRICE_MULTISETS_NO_REAL_MARKET",
+    "path_H_then_L": [
+      "18.30",
+      "18.50",
+      "18.20",
+      "18.40"
+    ],
+    "path_L_then_H": [
+      "18.30",
+      "18.20",
+      "18.50",
+      "18.40"
+    ],
+    "expected_1m": {
+      "open": "18.30",
+      "high": "18.50",
+      "low": "18.20",
+      "close": "18.40",
+      "volume": "4",
+      "amount": "73.40"
+    },
+    "non_identifiable": "HIGH_LOW_INTRAMINUTE_ORDER"
+  },
+  "forbidden_upgrade_flags": {
+    "year_attributed_as_proven": false,
+    "vendor_stock_day_coverage_claimed_verified": false,
+    "csv_digest_treated_as_vendor_authentication": false,
+    "candidate_schema_pass_treated_as_chart_match": false,
+    "ohlcv_alone_treated_as_subminute_path": false,
+    "local_group_completion_marked_market_proven": false,
+    "l20_l35_phi20_claimed_complete": false,
+    "real_market_backtested": false
+  }
+}

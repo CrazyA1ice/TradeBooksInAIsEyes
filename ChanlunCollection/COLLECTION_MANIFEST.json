@@ -3,7 +3,7 @@
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
   "workflow_version": "4.101.0",
-  "source_count": 1079,
+  "source_count": 1084,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -310,6 +310,12 @@
       "mirror_path": "ChanlunCollection/.github/workflows/chanlun-m55-completed-movement-slots-gate.yml",
       "git_blob_sha": "b3ddf1fe517e6314c8f92d89cb0a89014f2be43c",
       "size_bytes": 648
+    },
+    {
+      "source_path": ".github/workflows/chanlun-m56-l54-historical-minute-gate.yml",
+      "mirror_path": "ChanlunCollection/.github/workflows/chanlun-m56-l54-historical-minute-gate.yml",
+      "git_blob_sha": "bca84996c8c04e9d019a98f11b557da710d41c84",
+      "size_bytes": 667
     },
     {
       "source_path": ".github/workflows/chanlun-nested-retrace-bottom-pan-f01-gate.yml",
@@ -1644,6 +1650,12 @@
       "size_bytes": 6964
     },
     {
+      "source_path": "catalog/chanlun_l54_600151_historical_minute_admission_m56.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun_l54_600151_historical_minute_admission_m56.json",
+      "git_blob_sha": "fc83e8076925c0a5322a1373c5c907c85f552d51",
+      "size_bytes": 3499
+    },
+    {
       "source_path": "catalog/chanlun_l54_cross_archive_figure_and_decision_v1.json",
       "mirror_path": "ChanlunCollection/catalog/chanlun_l54_cross_archive_figure_and_decision_v1.json",
       "git_blob_sha": "28f75abc409eb19b01a90bbfcb2342e2cc4c2831",
@@ -2672,8 +2684,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "37471f3ba099cf2b961970cc897950ddc280fed9",
-      "size_bytes": 185069
+      "git_blob_sha": "e46a20f49c4cd6c9cee570ed9b5ffc37c0f21853",
+      "size_bytes": 186447
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -2714,8 +2726,8 @@
     {
       "source_path": "docs/IDEA_DISCOVERY_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/IDEA_DISCOVERY_WORKFLOW.md",
-      "git_blob_sha": "6c38331254bad139b98c691968bb94db8c3b4279",
-      "size_bytes": 57123
+      "git_blob_sha": "ae31743f52b8540657194c25f58f34b71a7fbe02",
+      "size_bytes": 58543
     },
     {
       "source_path": "docs/PHASE1_INTAKE.md",
@@ -4014,6 +4026,12 @@
       "size_bytes": 8613
     },
     {
+      "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_M56_L54_600151_HISTORICAL_DAY_SOURCE_AND_SUBMINUTE_INFORMATION_LOSS.md",
+      "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_M56_L54_600151_HISTORICAL_DAY_SOURCE_AND_SUBMINUTE_INFORMATION_LOSS.md",
+      "git_blob_sha": "b8ea2f91f88a5b68bf16afbc8035c2adb100ae9d",
+      "size_bytes": 9862
+    },
+    {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_NOTEBOOK.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_NOTEBOOK.md",
       "git_blob_sha": "4f70af00b4431e6ff35ad8e92e429f500f159d95",
@@ -4064,8 +4082,8 @@
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/README.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/README.md",
-      "git_blob_sha": "817f309a9d4881a216129c54554e6b2c6d16788b",
-      "size_bytes": 22441
+      "git_blob_sha": "f8fbdced1f25801caa59123c9ba754618c53341b",
+      "size_bytes": 23448
     },
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/analysis.md",
@@ -4690,6 +4708,12 @@
       "mirror_path": "ChanlunCollection/tests/test_chanlun_l42_coverage_v494.py",
       "git_blob_sha": "8e83dda53035ae40f9426ddda18baf03e2ec60fc",
       "size_bytes": 10298
+    },
+    {
+      "source_path": "tests/test_chanlun_l54_2007_minute_candidate_m56.py",
+      "mirror_path": "ChanlunCollection/tests/test_chanlun_l54_2007_minute_candidate_m56.py",
+      "git_blob_sha": "1edc91c71d83295e979036d58f925b8fcecd6a3e",
+      "size_bytes": 6573
     },
     {
       "source_path": "tests/test_chanlun_l54_author_prefix.py",
@@ -5590,6 +5614,12 @@
       "mirror_path": "ChanlunCollection/tools/audit_chanlun_l42_coverage_v494.py",
       "git_blob_sha": "c78c56458695d81cc1b67a0a091d3fc97d8b6a09",
       "size_bytes": 12250
+    },
+    {
+      "source_path": "tools/audit_chanlun_l54_2007_minute_candidate_m56.py",
+      "mirror_path": "ChanlunCollection/tools/audit_chanlun_l54_2007_minute_candidate_m56.py",
+      "git_blob_sha": "b00f745b6bf968a3e09b2cb67cc7b64a95a0b1ec",
+      "size_bytes": 9642
     },
     {
       "source_path": "tools/audit_chanlun_l54_dual_policy_witness_m54.py",
