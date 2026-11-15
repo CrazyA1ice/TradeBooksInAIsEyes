@@ -43,3 +43,7 @@ jobs:
         run: |
           python -B tools/admit_chanlun_l54_local_qmt_m69.py --mode preflight
           python -B -m unittest discover -s tests -p "test_chanlun_l54_local_qmt_m69.py" -v
+      - name: M70 native TDX 2006 2007 minute keys and local QMT time intersection source-only regressions
+        run: |
+          python -B tools/probe_chanlun_l54_tdx_qmt_clock_m70.py --mode preflight
+          python -B -m unittest discover -s tests -p "test_chanlun_l54_tdx_qmt_clock_m70.py" -v
