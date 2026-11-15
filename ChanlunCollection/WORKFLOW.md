@@ -1,5 +1,10 @@
 # ChanlunCollection｜本书实施工作流 v4.101.0
 
+## 2026-11-15｜M73：优先查公开年度分钟档案与匿名免费行情API
+
+- [M73报告](OtherVoices/speaker-unknown-001/IDEA_M73_L54_GITHUB_HF_ZZSHARE_PUBLIC_2007_1MIN.md)核验GitHub项目README、zzshare官方客户端的真实匿名分钟接口，并找到公开HF 2000—2024年分年度1m CSV目录。A_history与waizao网盘分享仍不能直接读取目录，**不能声称2007年600151目标数据存在**。新增[单次受限纯Python工具](tools/probe_chanlun_l54_public_archive_m73.py)、[源证合同](catalog/chanlun_l54_github_public_minute_2007_m73.json)、[28项无网络测试](tests/test_chanlun_l54_public_archive_m73.py)，禁止整库200GB下载、禁止未认证入Parquet、禁止输出付费原始行。PR限定一次公开网络查询，网络失败不构成供应商历史数据不存在。
+- 2006与2007候选都保留，图中18.59为价格锚点不是年月/真实分笔完成证书，F01/OB38/OB99/Φ20/A016/A087 OPEN、E1–E4 NOT_RUN，原5卷PDF/108课/100答/I82/C46/v4.101不变。
+
 ## 2026-11-15｜M72：从QMT2007年一分钟0条转向可授权的外部单日数据源
 
 - [M72报告](OtherVoices/speaker-unknown-001/IDEA_M72_L54_EXTERNAL_2007_MINUTE_RQDATA_ARDATA_ONE_DAY.md)记录用户真实本地QMT报告：2006/2007-05-18日线均覆盖18.03/18.50/18.59，2007日最高恰18.59，但2007单日1m经一次下载仍0条；它不是2007图的证明。新的[供应商接口](tools/probe_chanlun_l54_external_minute_m72.py)优先米筐RQData官方2005起一分钟、次选ARData，只有用户显式选择网络查询模式才请求一次单股单日的可能计费数据；结果在内存经M56/M69验证，不保存付费原始行情。
