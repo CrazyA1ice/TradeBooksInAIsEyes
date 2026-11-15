@@ -2,7 +2,7 @@
   "schema_version": 1,
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
-  "workflow_version": "4.101.4",
+  "workflow_version": "4.101.5",
   "source_count": 1130,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
@@ -2750,8 +2750,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "89180247aace2ead951d22c99118edd1a4717f27",
-      "size_bytes": 204616
+      "git_blob_sha": "373dc21ba64473e7534f3f4810d5cb96ae02ac25",
+      "size_bytes": 205578
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -2804,8 +2804,8 @@
     {
       "source_path": "docs/PROJECT_LOCAL_FILES_POLICY.md",
       "mirror_path": "ChanlunCollection/docs/PROJECT_LOCAL_FILES_POLICY.md",
-      "git_blob_sha": "ead792f2beccbd358d0f46277f0529277629b021",
-      "size_bytes": 3585
+      "git_blob_sha": "49b20f36b631904c828e6654351d27da16f67f99",
+      "size_bytes": 5009
     },
     {
       "source_path": "docs/PROJECT_PLAN.md",
@@ -4874,8 +4874,8 @@
     {
       "source_path": "tests/test_chanlun_l54_alignment_m75.py",
       "mirror_path": "ChanlunCollection/tests/test_chanlun_l54_alignment_m75.py",
-      "git_blob_sha": "6f119fd3a819a449eabedc6a824d482b99a64a8b",
-      "size_bytes": 4920
+      "git_blob_sha": "a1d93b75ed0ff74ebf54e3a3b5d7d8f5e4ef2ba2",
+      "size_bytes": 7904
     },
     {
       "source_path": "tests/test_chanlun_l54_author_prefix.py",
@@ -6446,8 +6446,8 @@
     {
       "source_path": "tools/prepare_chanlun_l54_alignment_m75.py",
       "mirror_path": "ChanlunCollection/tools/prepare_chanlun_l54_alignment_m75.py",
-      "git_blob_sha": "ccb23a6f905c17c19fa7cedcf424ec9acf12a2c4",
-      "size_bytes": 9836
+      "git_blob_sha": "66d716ce747c7ed32751b23744d43e2c2ab57565",
+      "size_bytes": 11003
     },
     {
       "source_path": "tools/probe_chanlun_l54_external_minute_m72.py",
