@@ -25,3 +25,9 @@ M74 的显式 --svg-output 只能落在规范项目的 work/ 下；被安排在 
 M75 工具默认 --mode preflight 完全离线。用户将已生成的 SVG 迁入上述 figures/ 后，明确执行 --mode prepare，才对规范卷三PDF SHA与已验证 SVG 关键数值/时标再检查，随后只在 alignment/ 创建一个本地HTML双图浏览入口及14点均为 UNKNOWN 的 JSON 审核模板。已存在文件拒绝覆盖；PDF仍保留规范位置，不上传外部服务。HTML显示本项目现有卷三PDF物理页170—175的导航与重放SVG，外部整理版PDF仅是供人工比较的公开出处链接，绝不默认抓取到项目外。
 
 下一研究门槛：有了原始PDF+SVG可视对照后人工登记每个 g1—g7/d1—d7 标注的图面坐标、候选分钟、OHLC价格和误差；时间轴标记13:07(18.59)与15:00(18.03)是行情锚点，**不是已经认证的作者g/d身份**。不得把g7以后15:00数据倒灌至g7历史首次可见时刻。F01/OB38/OB99/Φ20仍OPEN，E1-E4 NOT_RUN。
+
+## M75.1 原卷三PDF定位：只读使用项目内现有副本（2026-11-15）
+
+用户已通过`git worktree move`把两份Review完整迁入`work/review-worktrees`，并以SHA一致性核验SVG已迁入`work/chanlun/lesson054/figures`。在该位置运行M75，8项离线测试通过，但主项目`ChineseBooks/缠论/缠论_卷3.pdf`的本机路径不存在，原程序仅检查单一路径，报`canonical volume-3 PDF missing`。GitHub在主项目和集合镜像的Git树都记录此PDF，不代表用户主工作区已经实际检出。**不强迫用户复制PDF到主工作区，不触及其未提交修改**。
+
+M75.1只按顺序在同一主项目内查找：`ChineseBooks/缠论/缠论_卷3.pdf` → `ChanlunCollection/ChineseBooks/缠论/缠论_卷3.pdf` → `work/review-worktrees/M74-Review/ChineseBooks/缠论/缠论_卷3.pdf` → `work/review-worktrees/M73-Review/ChineseBooks/缠论/缠论_卷3.pdf`。只读选取**首个实际存在且位于项目内**的文件，严格比对已经固定的原始PDF SHA-256 `fad3474e103353f6f67799aefec8c9fba28c9615c0c77a5c67fcbf2b6b4f8a7a`，若不一致则失败；不自动寻找外部文件、不复制、不调用网络、不改变源PDF。M75输出的HTML直接引用本次已验证的本地PDF路径，JSON及回执明确记录相对于项目根的选择。所有候选均不存在则报错，并要求先定位本机原始来源，禁止用空PDF冒充验收。

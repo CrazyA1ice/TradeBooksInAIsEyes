@@ -42,11 +42,30 @@ def private_root():
     return project_root() / "work"
 
 
+def project_pdf_candidates(root):
+    """Use an existing in-project PDF; do not copy or download the book.
+
+    The main worktree may be sparse or locally incomplete while one of the
+    project's registered worktrees or its verified book mirror has the PDF.
+    Keep exact-source SHA verification independent of this path selection.
+    """
+    root = root.resolve()
+    return (
+        (root / PDF_REL).resolve(),
+        (root / "ChanlunCollection" / PDF_REL).resolve(),
+        (root / "work" / "review-worktrees" / "M74-Review" / PDF_REL).resolve(),
+        (root / "work" / "review-worktrees" / "M73-Review" / PDF_REL).resolve(),
+    )
+
+
 def files(root=None):
     root = (root or project_root()).resolve()
+    candidates = project_pdf_candidates(root)
+    available = next((path for path in candidates
+                      if root in path.parents and path.is_file()), None)
     return {
         "project": root,
-        "pdf": (root / PDF_REL).resolve(),
+        "pdf": available if available is not None else candidates[0],
         "svg": (root / SVG_REL).resolve(),
         "directory": (root / ALIGN_REL).resolve(),
     }
@@ -66,7 +85,8 @@ def verify_inputs(location, expected_pdf_sha=None):
     work = (root/"work").resolve()
     need(work in location["svg"].parents, "replay figure must remain in project work")
     need(work in location["directory"].parents, "alignment output must remain in project work")
-    need(location["pdf"].is_file(), "canonical volume-3 PDF missing")
+    need(root in location["pdf"].resolve().parents, "source PDF must remain in project")
+    need(location["pdf"].is_file(), "volume-3 PDF missing from all project-local candidates")
     need(location["svg"].is_file(), "M74 SVG missing; first migrate the existing figure")
     pdf_sha = sha256_file(location["pdf"])
     need(pdf_sha == expected_pdf_sha, "canonical PDF SHA256 differs from source evidence")
@@ -75,7 +95,9 @@ def verify_inputs(location, expected_pdf_sha=None):
     for needle in ("<svg ", "600151.SH / 2007-05-18", "13:07 / 18.59",
                    "15:00 / 18.03", "OpenFinMind pinned SHA256"):
         need(needle in svg, "required verified M74 SVG anchor missing")
-    return {"pdf_sha256":pdf_sha,"svg_sha256":sha256_file(location["svg"]),
+    return {"pdf_sha256":pdf_sha,
+            "pdf_project_relative":location["pdf"].relative_to(root).as_posix(),
+            "svg_sha256":sha256_file(location["svg"]),
             "figure_rows_proved_by_m74_log":240}
 
 
@@ -97,7 +119,7 @@ def image_template(evidence):
         "schema_version":1,"lesson":54,
         "candidate_date":"2007-05-18","symbol":"600151.SH",
         "evidence_grade":"HISTORICAL_1M_FINGERPRINT_MATCHED_G_D_NOT_YET_MAPPED",
-        "source_pdf_repo_relative":PDF_REL.as_posix(),
+        "source_pdf_repo_relative":evidence.get("pdf_project_relative", PDF_REL.as_posix()),
         "source_pdf_sha256":evidence["pdf_sha256"],
         "replay_svg_repo_relative":SVG_REL.as_posix(),
         "replay_svg_sha256":evidence["svg_sha256"],
@@ -180,7 +202,9 @@ def prepare(location):
                     encoding="utf-8",newline="\n")
     return {
         "status":"M75_PROJECT_LOCAL_FIGURE_ALIGNMENT_PREPARED_G_D_NOT_CERTIFIED",
-        "pdf_sha256_verified":True,"svg_sha256":evidence["svg_sha256"],
+        "pdf_sha256_verified":True,
+        "selected_pdf_inside_project":evidence["pdf_project_relative"],
+        "svg_sha256":evidence["svg_sha256"],
         "html":str(html),"annotation_template":str(meta),
         "marker_count":14,"assigned_markers":0,
         "all_outputs_inside_canonical_project":True,
