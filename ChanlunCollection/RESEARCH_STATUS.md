@@ -1,5 +1,9 @@
 # 《缠论》五卷108课｜当前研究状态与未完成关口
 
+## 2026-11-15｜M64：七条历史作者答疑已结构化，真实三卖与2007 MACD仍未独立认证
+
+[署时问答研究](OtherVoices/speaker-unknown-001/IDEA_M64_L55_REPLY_CHAIN_AND_THIRD_POINT_GATES.md)正式保存2007年《论语》55两条及第55课五条作者答复的不同宿主/问答时刻，包括05-28三卖的“原中枢合法、B次级完成、回试完成”要求、L54 d4双MACD基准及可能不一致、另证券“777”未离开旧中心的否证、账户交易费/时间条件。只属ARCHIVED_AUTHOR_REPLY，不是Signed Sina原始评论、600151市场数据或盈利证明。[JSON](catalog/chanlun_l55_reply_chain_m64.json)、[Python测试](tests/test_chanlun_l55_reply_chain_m64.py)可做来源类型守门，不能生成F01完成/第三买卖点。维持原I82/C46、v4.101、五卷108课100回答不变，A016/A087/F01/OB38/OB99/Φ20 OPEN，真实E1–E4 NOT_RUN。
+
 ## 2026-11-15｜M57：QMT本地单票单日读取程序和模拟回归已准备，真实2007分钟数据仍未取得
 
 [研究](OtherVoices/speaker-unknown-001/IDEA_M57_L54_QMT_TDX_LOCAL_HISTORICAL_MINUTE_PROVENANCE.md)限定2007-05-18仅是L54无年05月18日历史图的查证候选。迅投原生XtData get_market_data_ex具备局部读取能力，官方内置ContextInfo同名函数的subscribe参数不可复制到原生版本。本轮新增单股一日的[严格参数来源合同](catalog/chanlun_l54_qmt_tdx_local_1m_m57.json)、[只读探针](tools/probe_chanlun_l54_qmt_local_1m_m57.py)、[28项假QMT帧测试](tests/test_probe_chanlun_l54_qmt_local_1m_m57.py)及[新CI](.github/workflows/chanlun-m57-qmt-local-readonly-gate.yml)，正常只能返回未运行、缺运行环境、本地数据未取得或候选K线未认证等分流；未调用任何用户Windows QMT/TDX，也未下载行情，不能断言该日真实记录存在。已有AStockDataTools的通达信lc1探测器可复用，但未访问文件；不把2007分钟OHLC等同完整子分钟路径。I82/C46/v4.101、M55六组/Φ20/F01/OB38/OB99/A016/A087 OPEN，E1–E4 NOT_RUN。
