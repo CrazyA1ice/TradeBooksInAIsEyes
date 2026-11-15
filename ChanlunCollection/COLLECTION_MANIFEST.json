@@ -314,14 +314,14 @@
     {
       "source_path": ".github/workflows/chanlun-m56-l54-historical-minute-gate.yml",
       "mirror_path": "ChanlunCollection/.github/workflows/chanlun-m56-l54-historical-minute-gate.yml",
-      "git_blob_sha": "38df1c50125520928af2df949105ddace6e9431b",
-      "size_bytes": 985
+      "git_blob_sha": "36c9cd79c70656bc8084750ca3fb62cd885dc2b1",
+      "size_bytes": 1177
     },
     {
       "source_path": ".github/workflows/chanlun-m57-qmt-local-readonly-gate.yml",
       "mirror_path": "ChanlunCollection/.github/workflows/chanlun-m57-qmt-local-readonly-gate.yml",
-      "git_blob_sha": "34b01f2d8e4260b644669005e6fc4a9aa2595526",
-      "size_bytes": 809
+      "git_blob_sha": "0c4a24b91e33b2521399cc9e398cc77d992695ca",
+      "size_bytes": 628
     },
     {
       "source_path": ".github/workflows/chanlun-nested-retrace-bottom-pan-f01-gate.yml",
