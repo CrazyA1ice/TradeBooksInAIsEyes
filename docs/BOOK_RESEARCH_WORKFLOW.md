@@ -1,4 +1,9 @@
-# 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.101.3，2026-11-15）
+# 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.101.4，2026-11-15）
+
+## M75｜所有本地项目文件统一回到 TradeBooksInAIsEyes/work（2026-11-15）
+
+用户指出M73/M74平行Review工作树及导出的SVG落在项目根外违反单项目制度。根目录已有`.gitignore: work/`，故新的[项目路径规范](PROJECT_LOCAL_FILES_POLICY.md)规定Git根仅`D:\ChatGPT\TradeBooksInAIsEyes`；原两份Review使用`git worktree move`保留全部文件与独立状态，迁入`work/review-worktrees/M73-Review`、`M74-Review`；原SVG移入`work/chanlun/lesson054/figures/L54-M74-20070518-afternoon.svg`。这是**计划给用户本机执行的迁移**，GitHub提交本身没有移动Windows文件。M74输出路由从“必须仓库外”改成“只许主项目已忽略work/内”，另兼容放在子工作树中的脚本自动回到主根；严禁为了过检把本地产物加入Git索引。新增[M75原图配准工具](../tools/prepare_chanlun_l54_alignment_m75.py)及纯离线测试，可只读检验项目原版卷三PDF的既定SHA与当前SVG指纹，在`work/chanlun/lesson054/alignment`生成并排HTML及14个g/d点的未定位审核JSON，不下载资料或伪造价格/分钟坐标。只有本机迁移和准备成功才能宣称目录整理/对照页面成功；F01/OB38/OB99/Φ20依旧OPEN，E1–E4 NOT_RUN。
+
 
 ## M74.1｜Hugging Face官方CDN重定向与源文件身份分层校验（2026-11-15）
 
@@ -7,7 +12,7 @@
 
 ## M74｜真实1分钟图像身份指纹与作者标签分离（2026-11-15）
 
-经用户Windows实际复验，OpenFinMind sh600151 2007年度文件核对固定SHA后，2007-05-18有240根独立分钟，bar_end格网缺失0、越格0；13:07高18.59、15:00收盘/低18.03，尾盘成交量1917、MA5/MA10 1565.2/1498.4、收盘均线18.05/18.052与第54课二次图像联合指纹高度吻合。新[研究证据报告](../other_views/chanlun/speaker-unknown-001/IDEA_M74_L54_REAL_2007_MINUTE_REPLAY_AND_FIGURE_FINGERPRINT.md)把2007年列为极高置信图像日期候选，但不冒充交易所行情源、复权及时间戳口径认证。新[纯标准库图像重放器](../tools/replay_chanlun_l54_real_minute_m74.py)只有明确openfinmind-once才抓固定2.9MB文件并校验SHA/M56/M69；可选择仓库外生成SVG展示蜡烛/均价/均量/单日初始化MACD。默认preflight断网，离线合成单测不读取真实行情。所有g1-g7和d1-d7市场分钟仍为null，不能自动用局部高低点证明作者假设的子分钟走势完成。通用工作流加上一道“真实来源SHA→图像数值指纹→人工图像配准→原文结构角色→历史首知与正式段完成”分级门；F01/OB38/OB99/Φ20 OPEN，E1-E4 NOT_RUN。
+经用户Windows实际复验，OpenFinMind sh600151 2007年度文件核对固定SHA后，2007-05-18有240根独立分钟，bar_end格网缺失0、越格0；13:07高18.59、15:00收盘/低18.03，尾盘成交量1917、MA5/MA10 1565.2/1498.4、收盘均线18.05/18.052与第54课二次图像联合指纹高度吻合。新[研究证据报告](../other_views/chanlun/speaker-unknown-001/IDEA_M74_L54_REAL_2007_MINUTE_REPLAY_AND_FIGURE_FINGERPRINT.md)把2007年列为极高置信图像日期候选，但不冒充交易所行情源、复权及时间戳口径认证。新[纯标准库图像重放器](../tools/replay_chanlun_l54_real_minute_m74.py)只有明确openfinmind-once才抓固定2.9MB文件并校验SHA/M56/M69；可选择在主项目已忽略work/目录内生成SVG展示蜡烛/均价/均量/单日初始化MACD。默认preflight断网，离线合成单测不读取真实行情。所有g1-g7和d1-d7市场分钟仍为null，不能自动用局部高低点证明作者假设的子分钟走势完成。通用工作流加上一道“真实来源SHA→图像数值指纹→人工图像配准→原文结构角色→历史首知与正式段完成”分级门；F01/OB38/OB99/Φ20 OPEN，E1-E4 NOT_RUN。
 
 
 ## M73.1｜中文日期+时间分列的真实CSV防午夜碰撞（2026-11-15）
