@@ -145,7 +145,11 @@ def call_ardata_once(api_key,day,opener=None):
     need(day in CANDIDATES and isinstance(api_key,str) and bool(api_key),
          "valid date and locally supplied key required")
     if opener is None:
-        opener=request.urlopen
+        # Reject all 3xx redirects before forwarding credentials or Bearer.
+        class NoRedirect(request.HTTPRedirectHandler):
+            def redirect_request(self,req,fp,code,msg,headers,newurl):
+                return None
+        opener=request.build_opener(NoRedirect()).open
     auth_data=json.dumps({"api_key":api_key,"expire_days":1}).encode("utf-8")
     login=request.Request(API_HOST+"/auth/login",data=auth_data,
                           headers={"Content-Type":"application/json"},
