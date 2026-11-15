@@ -1,5 +1,9 @@
 # 《缠论》五卷108课｜当前研究状态与未完成关口
 
+## 2026-11-15｜M73：公开分钟数据仓检索入口建立，实证等待公开记录
+
+[M73历史1分钟档案源调查](OtherVoices/speaker-unknown-001/IDEA_M73_L54_GITHUB_HF_ZZSHARE_PUBLIC_2007_1MIN.md)发现HuggingFace数据集对2000—2024逐股票分年份1m CSV的声明，及GitHub zzquant/zzshare官方免费匿名单日1m API实际路径；两个GitHub百度网盘历史分钟资源(aitech17、waizao)只见README而未核实分享目录。纯标准库工具默认无网络，仅明确hf-once/zzshare-once才对600151指定2007或2006年05月18日执行一次受限免费来源访问，源CSV必须经旧M56/M69审核；28项Fake单测加镜像和CI。不能把HF目录年份广告、未访问的网盘或某股2007日线高18.59当作目标1m已取得，也不能确认原图年份或F01/OB38/OB99/Φ20/A016/A087，E1—E4 NOT_RUN，原五卷PDF/108课/100答/I82/C46/v4.101不变。
+
 ## 2026-11-15｜M72：真实外部分钟来源可执行入口完成，账号和数据尚未核验
 
 [外部分钟一次性样本研究](OtherVoices/speaker-unknown-001/IDEA_M72_L54_EXTERNAL_2007_MINUTE_RQDATA_ARDATA_ONE_DAY.md)针对用户本机已证实的2007-05-18 QMT一分钟补取后仍0条，以RQData官方2005年以来A股分钟源优先、ARData需账户及可能付费备选构建两条**独立授权单日**接入。新工具`preflight/access-check`纯离线；只有`rqdata-once/ardata-once`显式请求才对600151.XSHG选定2007或2006年05月18日执行单次1m API，并复用M56/M69校验。默认无账户Key、无下载/数据落盘/公开行情，26项Fake认证失败/空结果/超时标/错误股票/241条与脱敏测试接入M56 workflow。该项目当前并没有任何RQData或ARData实际数据返回；原图年份和结构出场仍未知，F01/OB38/OB99/Φ20/A016/A087 OPEN、E1–E4 NOT_RUN，原5卷PDF、108课、100答及I82/C46/v4.101不变。
