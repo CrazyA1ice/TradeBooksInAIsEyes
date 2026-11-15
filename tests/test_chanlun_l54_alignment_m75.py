@@ -36,6 +36,60 @@ class AlignmentTests(unittest.TestCase):
             self.assertIn(location["project"]/"work",
                           location["directory"].parents)
 
+    def test_missing_main_pdf_uses_existing_project_book_mirror(self):
+        with tempfile.TemporaryDirectory() as d:
+            location,digest=self.fixture(d)
+            original=location["pdf"]
+            mirror=location["project"]/"ChanlunCollection"/m.PDF_REL
+            mirror.parent.mkdir(parents=True,exist_ok=True)
+            mirror.write_bytes(original.read_bytes())
+            original.unlink()
+            selected=m.files(location["project"])
+            self.assertEqual(selected["pdf"],mirror.resolve())
+            evidence=m.verify_inputs(selected,expected_pdf_sha=digest)
+            self.assertEqual(evidence["pdf_project_relative"],
+                             "ChanlunCollection/ChineseBooks/缠论/缠论_卷3.pdf")
+            with mock.patch.object(m,"PDF_SHA",digest):
+                result=m.prepare(selected)
+            self.assertIn("ChanlunCollection/ChineseBooks",result["selected_pdf_inside_project"])
+            self.assertFalse(original.exists())
+
+    def test_missing_main_and_book_mirror_uses_registered_nested_worktree(self):
+        with tempfile.TemporaryDirectory() as d:
+            location,digest=self.fixture(d)
+            original=location["pdf"]
+            review=location["project"]/"work"/"review-worktrees"/"M74-Review"/m.PDF_REL
+            review.parent.mkdir(parents=True,exist_ok=True)
+            review.write_bytes(original.read_bytes())
+            original.unlink()
+            selected=m.files(location["project"])
+            self.assertEqual(selected["pdf"],review.resolve())
+            with mock.patch.object(m,"PDF_SHA",digest):
+                result=m.prepare(selected)
+            self.assertTrue(result["selected_pdf_inside_project"].startswith("work/review-worktrees/M74-Review/"))
+            html=Path(result["html"]).read_text(encoding="utf-8")
+            self.assertIn(review.resolve().as_uri(),html)
+            self.assertFalse(original.exists())
+
+    def test_reject_pdf_symlink_or_injected_path_outside_project(self):
+        with tempfile.TemporaryDirectory() as d:
+            location,digest=self.fixture(d)
+            outside=Path(d)/"outsider.pdf"
+            outside.write_bytes(location["pdf"].read_bytes())
+            location["pdf"]=outside.resolve()
+            with self.assertRaisesRegex(ValueError,"source PDF must remain in project"):
+                m.verify_inputs(location,expected_pdf_sha=digest)
+
+    def test_missing_all_pdf_locations_is_explicit_failure_without_copying(self):
+        with tempfile.TemporaryDirectory() as d:
+            location,digest=self.fixture(d)
+            location["pdf"].unlink()
+            selected=m.files(location["project"])
+            self.assertEqual(selected["pdf"],location["project"]/m.PDF_REL)
+            with self.assertRaisesRegex(ValueError,"volume-3 PDF missing from all project-local candidates"):
+                m.verify_inputs(selected,expected_pdf_sha=digest)
+            self.assertFalse(selected["directory"].exists())
+
     def test_pdf_mismatch_is_rejected_before_any_output(self):
         with tempfile.TemporaryDirectory() as d:
             location,_=self.fixture(d)
