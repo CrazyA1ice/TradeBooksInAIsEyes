@@ -52,3 +52,16 @@ jobs:
           python -B tools/probe_chanlun_l54_external_minute_m72.py --mode preflight
           python -B tools/probe_chanlun_l54_external_minute_m72.py --mode access-check
           python -B -m unittest discover -s tests -p "test_chanlun_l54_external_minute_m72.py" -v
+      - name: M73 public archive and anonymous zzshare one-day source safety gate (28 fake fixtures)
+        run: |
+          python -B tools/probe_chanlun_l54_public_archive_m73.py --mode preflight
+          python -B -m unittest discover -s tests -p "test_chanlun_l54_public_archive_m73.py" -v
+      - name: M73 one-off public historical minute source discovery (no credentials, no saved bars)
+        if: github.event_name == 'pull_request' && github.head_ref == 'research/m73-github-public-minute-archive-2007-probe-20261115'
+        timeout-minutes: 4
+        continue-on-error: true
+        run: |
+          echo M73_HF_PUBLIC_ARCHIVE_ONCE_BEGIN
+          python -B tools/probe_chanlun_l54_public_archive_m73.py --mode hf-once --candidate-date 2007-05-18 --timestamp-convention bar_end || true
+          echo M73_ZZSHARE_ANONYMOUS_ONCE_BEGIN
+          python -B tools/probe_chanlun_l54_public_archive_m73.py --mode zzshare-once --candidate-date 2007-05-18 --timestamp-convention bar_end || true
