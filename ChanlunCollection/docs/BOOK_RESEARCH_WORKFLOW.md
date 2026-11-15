@@ -1,5 +1,9 @@
 # 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.101.0，2026-11-13）
 
+## M72｜受控外部历史分钟样本：RQData 2005+源与ARData备选（2026-11-15）
+
+[完整外部数据源和单日操作报告](../other_views/chanlun/speaker-unknown-001/IDEA_M72_L54_EXTERNAL_2007_MINUTE_RQDATA_ARDATA_ONE_DAY.md)在真实本地测试QMT2007-05-18一天1m补下载后仍返回0的前提下，正式改变路线：RQData官方称A股分钟数据自2005起，支持600151.XSHG同一天1m、`adjust_type=none`、`skip_suspended=True`；ARData作为可明确计费、须独立授权的备选。新增[外部只读一次性查询工具](../tools/probe_chanlun_l54_external_minute_m72.py)、[固定来源/权限合同](../catalog/chanlun_l54_external_minute_single_day_m72.json)、[26项无网络假源/认证脱敏单测](../tests/test_chanlun_l54_external_minute_m72.py)。默认`preflight`与`access-check`完全离线，不输出/上传账号Token、原始行情；只有用户显式选择`rqdata-once`或`ardata-once`才会按**单只股票/单个2006或2007候选日期**发起可能计费的请求并在内存调用M56/M69历史入场门。**提供商宣称2005覆盖不代表用户有账号或具体2007日数据确实存在，当前CI未获取真实行情。** 保留第54课图年月未核验、F01/OB38/OB99/Φ20/A016/A087 OPEN、E1–E4 NOT_RUN，原5卷/108课/100答/I82/C46/v4.101不变。
+
 ## M70｜双本地源只读验证：TDX LC1压缩日/分钟 × QMT候选时标交集（2026-11-15）
 
 [正式研究](../other_views/chanlun/speaker-unknown-001/IDEA_M70_L54_TDX_QMT_2006_2007_CLOCK_COMPARISON.md)将AStockDataTools已有TDX原生32字节探针的**日期、分钟**解码与M69 QMT规范时标连接。在本仓库新增[TDX/QMT双源只读工具](../tools/probe_chanlun_l54_tdx_qmt_clock_m70.py)、[来源合同](../catalog/chanlun_l54_tdx_qmt_clock_intersection_m70.json)及[22项人工二进制/QMT定向测试](../tests/test_chanlun_l54_tdx_qmt_clock_m70.py)。TDX一次扫描本地sh600151.lc1，独立报告2006/2007年“05月18日”的记录数、240开始/结束或241特殊分钟网格和文件SHA256；不读价格/成交量、不改写文件；QMT只依赖M69已经冻结的单股单日local读取，按显式bar_start/bar_end比较两本地来源分钟区间键，输出交集和差集计数而非付费原始行情。若两者一致，只说明**时间键相同，不证明价格、成交量、逐笔或原图2007年份认证**；无本地文件不代表供应商无历史。此轮**仅工具+合成测试**，用户Windows没有实际读取。原5卷PDF/108课/100答及v4.101/I82/C46不动，A016/A087/F01/OB38/OB99/Φ20 OPEN，E1–E4 NOT_RUN。

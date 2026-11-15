@@ -1,5 +1,11 @@
 # 《缠论》研究步骤与工作流修订记录
 
+## 2026-11-15｜M72：2007分钟历史实证的“外部单股单日来源门”已实现
+
+- 用户给出QMT本地实测：原生xtdata连接成功；2006/2007-05-18均有日线且三价格锚点在高低价区间；2007年一分钟本地缺失，明确一次`download_history_data`后仍0行。不能据此认定数据商永久无历史。本轮先核对[RQData官方](https://www.ricequant.com/doc/quant/research.html)2005起A股分钟覆盖与[ARData](https://api.followquant.cn/docs.html)2005起声明及其[计价规则](https://api.followquant.cn/pricing.html)，再新增限定`600151.XSHG`及2006/2007某一日、允许一次用户授权供应商1m查询的接口。
+- [报告](OtherVoices/speaker-unknown-001/IDEA_M72_L54_EXTERNAL_2007_MINUTE_RQDATA_ARDATA_ONE_DAY.md)、[脚本](tools/probe_chanlun_l54_external_minute_m72.py)、[合同](catalog/chanlun_l54_external_minute_single_day_m72.json)、[26项无网络Fake测试](tests/test_chanlun_l54_external_minute_m72.py)；`preflight/access-check`不查网络，真实模式`rqdata-once/ardata-once`必须显式选择，回传时只输出合法候选分钟数/时间区间/旧M56形态校验、M69网格与原图价位匹配次数，绝不输出付费数据行及Key/Token。
+- 真实供应商账号权限/2007日记录本轮尚未验证。F01/OB38/OB99/Φ20及A016/A087 OPEN，E1—E4 NOT_RUN，原五卷PDF/108课/100知乎答复及I82/C46/v4.101不动。
+
 ## 2026-11-15｜M70：备选2006/2007-05-18行情来源从QMT扩展为只读TDX时间键交集
 
 - [研究报告](OtherVoices/speaker-unknown-001/IDEA_M70_L54_TDX_QMT_2006_2007_CLOCK_COMPARISON.md)实质新增一个独立本地入口：利用AStockDataTools的TDX原生分钟记录格式，只读扫描`sh600151.lc1`压缩日期与当日分钟，检查文件stat/摘要/时间顺序和240/241档；仅返回两个候选日记录数，**不反序推断1分钟内部OHLC高低先后**。

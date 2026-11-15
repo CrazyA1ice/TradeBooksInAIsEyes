@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "id": "CHANLUN-M72-2006-2007-EXTERNAL-MINUTE-ONE-DAY-PROVENANCE-GATE",
+  "study_date": "2026-11-15",
+  "single_stock": "600151.XSHG",
+  "candidate_dates": [
+    "2007-05-18",
+    "2006-05-18"
+  ],
+  "publisher_chart_year_visible": false,
+  "prior_user_supplied_results": {
+    "grade": "USER_REPORTED_LOCAL_COMMAND_OUTPUT_NOT_INDEPENDENTLY_AUTHENTICATED",
+    "qmt_2007_1min_after_one_day_download": 0,
+    "qmt_2006_daily_low_high": [
+      18.01,
+      19.07
+    ],
+    "qmt_2007_daily_low_high": [
+      17.61,
+      18.59
+    ],
+    "qmt_2026_11_13_minute_rows": 241,
+    "tdx_local_2006_and_2007_candidate_rows": 0,
+    "inference": "Both candidate day daily ranges include 18.03, 18.50, 18.59; 2007 day high equals 18.59, necessary but insufficient evidence."
+  },
+  "official_source_claims": [
+    {
+      "vendor": "RQData",
+      "source_url": "https://www.ricequant.com/doc/quant/research.html",
+      "claimed_Ashare_minutes_since": "2005",
+      "claim_for_specific_600151_2007_day_verified": false
+    },
+    {
+      "vendor": "ARData",
+      "source_url": "https://api.followquant.cn/index.html",
+      "claimed_Ashare_minutes_since": "2005",
+      "claim_for_specific_600151_2007_day_verified": false
+    }
+  ],
+  "rqdata": {
+    "doc": "https://www.ricequant.com/doc/rqdata/python/generic-api.html",
+    "install": "pip install rqdatac",
+    "order_book_id": "600151.XSHG",
+    "frequency": "1m",
+    "adjust_type": "none",
+    "skip_suspended": true,
+    "expect_df": true,
+    "initialization": "rqdatac.init() uses user's own existing local credential profile; never store credentials in Git",
+    "sample_account_permission_confirmed": false,
+    "output_timestamp_convention_official_example": "09:31 ... 15:00 (bar_end candidate)"
+  },
+  "ardata": {
+    "doc": "https://api.followquant.cn/docs.html",
+    "pricing": "https://api.followquant.cn/pricing.html",
+    "base_url": "https://api.followquant.cn/api/v1",
+    "symbol": "600151.XSHG",
+    "frequency": "1m",
+    "fq_absent_means_none": true,
+    "key_source": "ARDATA_API_KEY environment variable only",
+    "login_path": "/auth/login",
+    "read_path": "/get_price",
+    "byte_limit": 2000000,
+    "timeout_seconds": 20,
+    "old_minutes_access_under_current_account_verified": false,
+    "source_provider_may_charge_credit_or_require_paid_plan": true
+  },
+  "limits": {
+    "max_one_day_rows": 300,
+    "requested_days_per_invocation": 1,
+    "stocks_per_invocation": 1,
+    "user_must_explicitly_choose_network_query": true,
+    "one_minute_raw_vs_original_chart_identity": "NOT_EQUIVALENT",
+    "no_tick_or_intrabarlast_known_certificate": true,
+    "default_report": "AGGREGATES_AND_NORMALIZED_SHA256_NOT_VENDOR_SIGNATURE"
+  },
+  "privacy": {
+    "default_no_provider_query": true,
+    "default_no_file_writes": true,
+    "no_raw_market_rows_stdout_or_repo": true,
+    "do_not_print_credentials": true,
+    "no_credentials_in_git_commit": true
+  },
+  "status": {
+    "provider_day_source_acquired": false,
+    "rqdata_credentials_connected": false,
+    "ardata_credentials_connected": false,
+    "real_2007_vendor_minute_rows_observed": 0,
+    "original_author_chart_year_proved": false,
+    "F01": "OPEN",
+    "OB38": "OPEN",
+    "OB99": "OPEN",
+    "Phi20": "OPEN",
+    "A016": "UNKNOWN",
+    "A087": "UNKNOWN",
+    "E1_E4": "NOT_RUN",
+    "orders": 0
+  }
+}
