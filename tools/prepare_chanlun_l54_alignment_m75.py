@@ -60,7 +60,8 @@ def sha256_file(path):
     return hash_.hexdigest()
 
 
-def verify_inputs(location, expected_pdf_sha=PDF_SHA):
+def verify_inputs(location, expected_pdf_sha=None):
+    expected_pdf_sha = PDF_SHA if expected_pdf_sha is None else expected_pdf_sha
     root = location["project"].resolve()
     work = (root/"work").resolve()
     need(work in location["svg"].parents, "replay figure must remain in project work")
