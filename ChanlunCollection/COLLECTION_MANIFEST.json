@@ -3,7 +3,7 @@
   "book_id": "chanlun",
   "collection_folder": "ChanlunCollection",
   "workflow_version": "4.101.0",
-  "source_count": 1100,
+  "source_count": 1104,
   "original_pdf_count": 5,
   "chapter_research_count": 108,
   "evidence_card_count": 108,
@@ -314,8 +314,8 @@
     {
       "source_path": ".github/workflows/chanlun-m56-l54-historical-minute-gate.yml",
       "mirror_path": "ChanlunCollection/.github/workflows/chanlun-m56-l54-historical-minute-gate.yml",
-      "git_blob_sha": "5d5d981cd5a9eb0ace88706e7b554ef3225fb8fa",
-      "size_bytes": 1762
+      "git_blob_sha": "258abdddda1c0c7f5c46b1452910f611ff121ef8",
+      "size_bytes": 2042
     },
     {
       "source_path": ".github/workflows/chanlun-m57-qmt-local-readonly-gate.yml",
@@ -1510,6 +1510,12 @@
       "mirror_path": "ChanlunCollection/catalog/chanlun_confucius59_boundary_dependencies_v474.json",
       "git_blob_sha": "a6d00eeaf932bbcfaaeeb431eb7bfa182aebea5c",
       "size_bytes": 4231
+    },
+    {
+      "source_path": "catalog/chanlun_confucius61_pan_end_root_cut_m67.json",
+      "mirror_path": "ChanlunCollection/catalog/chanlun_confucius61_pan_end_root_cut_m67.json",
+      "git_blob_sha": "8539ef05448aff4d5706a3017eb85c122f53a50d",
+      "size_bytes": 18009
     },
     {
       "source_path": "catalog/chanlun_crosslesson_consistency_v1.json",
@@ -2714,8 +2720,8 @@
     {
       "source_path": "docs/BOOK_RESEARCH_WORKFLOW.md",
       "mirror_path": "ChanlunCollection/docs/BOOK_RESEARCH_WORKFLOW.md",
-      "git_blob_sha": "ee349fc03340057eb0716468a9d98ee11b1c4ccd",
-      "size_bytes": 191361
+      "git_blob_sha": "80d317e0e76ecc0877f4a6828bbb3c78228f6794",
+      "size_bytes": 192622
     },
     {
       "source_path": "docs/CHANLUN_INCREMENTAL_EVENTS_V2.md",
@@ -4086,6 +4092,12 @@
       "size_bytes": 8738
     },
     {
+      "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_M67_CONFUCIUS61_PAN_END_LEVEL_SCOPE_F01_ROOT_CUT.md",
+      "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_M67_CONFUCIUS61_PAN_END_LEVEL_SCOPE_F01_ROOT_CUT.md",
+      "git_blob_sha": "4a2ff2099a0c9ff5cd3d6fdff01baf3d2fffd677",
+      "size_bytes": 8272
+    },
+    {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_NOTEBOOK.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_NOTEBOOK.md",
       "git_blob_sha": "4f70af00b4431e6ff35ad8e92e429f500f159d95",
@@ -4582,6 +4594,12 @@
       "mirror_path": "ChanlunCollection/tests/test_chanlun_completion_exit_sources.py",
       "git_blob_sha": "b46dfa137be2d9f3651814c0ddeefd0b3bac91df",
       "size_bytes": 2313
+    },
+    {
+      "source_path": "tests/test_chanlun_confucius61_pan_end_root_cut_m67.py",
+      "mirror_path": "ChanlunCollection/tests/test_chanlun_confucius61_pan_end_root_cut_m67.py",
+      "git_blob_sha": "4430067ccb81ec5597e4bace6ec3651ff9a2b086",
+      "size_bytes": 3594
     },
     {
       "source_path": "tests/test_chanlun_crosslesson_consistency.py",
@@ -5548,6 +5566,12 @@
       "mirror_path": "ChanlunCollection/tools/audit_chanlun_completion_exit_sources.py",
       "git_blob_sha": "d4bf81081e4d41a4a9c15123d48c9e1c17779bcf",
       "size_bytes": 6919
+    },
+    {
+      "source_path": "tools/audit_chanlun_confucius61_pan_end_root_cut_m67.py",
+      "mirror_path": "ChanlunCollection/tools/audit_chanlun_confucius61_pan_end_root_cut_m67.py",
+      "git_blob_sha": "ed1d803c6a87f342a85541572611decb2f832129",
+      "size_bytes": 5301
     },
     {
       "source_path": "tools/audit_chanlun_crosslesson_consistency.py",
