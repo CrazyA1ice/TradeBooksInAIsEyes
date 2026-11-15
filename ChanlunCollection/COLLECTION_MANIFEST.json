@@ -314,8 +314,8 @@
     {
       "source_path": ".github/workflows/chanlun-m56-l54-historical-minute-gate.yml",
       "mirror_path": "ChanlunCollection/.github/workflows/chanlun-m56-l54-historical-minute-gate.yml",
-      "git_blob_sha": "bca84996c8c04e9d019a98f11b557da710d41c84",
-      "size_bytes": 667
+      "git_blob_sha": "38df1c50125520928af2df949105ddace6e9431b",
+      "size_bytes": 985
     },
     {
       "source_path": ".github/workflows/chanlun-m57-qmt-local-readonly-gate.yml",
@@ -4046,8 +4046,8 @@
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_M57_L54_QMT_TDX_LOCAL_HISTORICAL_MINUTE_PROVENANCE.md",
       "mirror_path": "ChanlunCollection/OtherVoices/speaker-unknown-001/IDEA_M57_L54_QMT_TDX_LOCAL_HISTORICAL_MINUTE_PROVENANCE.md",
-      "git_blob_sha": "3f86f694428f73dfb8ff8481e750ed154d83b870",
-      "size_bytes": 4441
+      "git_blob_sha": "7db6a65d885734cd0ec5cb95aaa41f24e9fe3c66",
+      "size_bytes": 5041
     },
     {
       "source_path": "other_views/chanlun/speaker-unknown-001/IDEA_NOTEBOOK.md",

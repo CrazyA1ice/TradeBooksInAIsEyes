@@ -17,3 +17,7 @@ jobs:
         run: python -B tools/audit_chanlun_l54_2007_minute_candidate_m56.py
       - name: Verify OHLCVA path nonidentifiability and reject fake market certificates
         run: python -B -m unittest discover -s tests -p "test_chanlun_l54_2007_minute_candidate_m56.py" -v
+      - name: M57 strict QMT native offline preflight
+        run: python -B tools/probe_chanlun_l54_qmt_local_1m_m57.py --mode preflight
+      - name: M57 native QMT fake-frame 28 regressions (no historical data)
+        run: python -B -m unittest discover -s tests -p "test_probe_chanlun_l54_qmt_local_1m_m57.py" -v
