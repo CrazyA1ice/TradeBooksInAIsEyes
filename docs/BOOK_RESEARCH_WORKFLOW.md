@@ -1,5 +1,9 @@
 # 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.101.0，2026-11-13）
 
+## M56｜第54课单股单日历史分钟源入场、无年原图、OHLCVA路径不可逆（2026-11-15）
+
+[正式原文图证与数据源核查](../other_views/chanlun/speaker-unknown-001/IDEA_M56_L54_600151_HISTORICAL_DAY_SOURCE_AND_SUBMINUTE_INFORMATION_LOSS.md)：在已有v4.27原图记录基础上，锁定“航天机电(1分钟)”“05月18日（无年）”、18.59/18.03图注及正文g0=18.50三个价位岗位，使用2007-05-24发表日期只生成**候选日期2007-05-18**，不将其认作交易所认证日期。企业2007公告可核600151代码，QMT文档有1m接口，知图全历史Pro文档有收费/凭证并声称更早覆盖，但没有实测600151在2007-05-18的分钟行。新增[入场证据合同](../catalog/chanlun_l54_600151_historical_minute_admission_m56.json)、[离线CSV只读有效性工具](../tools/audit_chanlun_l54_2007_minute_candidate_m56.py)、[29项测试](../tests/test_chanlun_l54_2007_minute_candidate_m56.py)及[新Actions](../.github/workflows/chanlun-m56-l54-historical-minute-gate.yml)，只做价格/时间/原图候选兼容与来源否证、不复原子分钟结构。人工两条相反H/L顺序的逐笔路径产生相同OHLCVA，证明1m本身不足以唯一确定小于1m的终结条件；这**不是**缠论实际有效路径正反例。原状态I82/C46/v4.101、F01/OB38/OB99/A016/A087不变，E1–E4 NOT_RUN。
+
 ## M55｜六组原文成员的完成资格与整图/前缀首知量词（2026-11-15）
 
 [正式M55报告](../other_views/chanlun/speaker-unknown-001/IDEA_M55_L18_L54_CENTER_VS_COMPLETED_MOVEMENT_PROOF_SLOTS.md)严格使用原作者L18的不同层级完成定义和延伸许可：三个已完成**下层**走势允许产生本层中枢，本层**走势**未必在中枢刚形成时完成。复用L54两R×三组的精确原文符号，不重画数字价格：作者在g5/g6关于5分钟中心的声明保持，但每一个“中心括号→已完成1分钟走势”的**独立来源及退出/当时可知时刻**均未认证。L54完整回看图的“除最后一个可视为线段”不蕴涵早先g5/g6最右段已具first-known。规范[JSON](../catalog/chanlun_l18_l54_completed_movement_slots_m55.json)、[Python](../tools/audit_chanlun_l18_l54_completion_slots_m55.py)和[24项回归](../tests/test_chanlun_l18_l54_completion_slots_m55.py)在[新CI](../.github/workflows/chanlun-m55-completed-movement-slots-gate.yml)真正运行；且L20双相邻中心→L35三个完整走势的同R Φ20仍OPEN，即使全部六组未来有收据亦不能自动填补。旧v4.28/v4.30/v4.54/M54为先例，本轮是**原成员×完成证明槽位×前缀类型门**的精确绑定，未新增I/C或行情。

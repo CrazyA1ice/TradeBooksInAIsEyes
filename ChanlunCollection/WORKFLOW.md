@@ -1,5 +1,11 @@
 # ChanlunCollection｜本书实施工作流 v4.101.0
 
+## 2026-11-15｜M56：原图无年五月十八、600151单票单日历史分钟候选与不可逆子分钟数据门
+
+- [M56源码与论证](OtherVoices/speaker-unknown-001/IDEA_M56_L54_600151_HISTORICAL_DAY_SOURCE_AND_SUBMINUTE_INFORMATION_LOSS.md)明确区分作者图证的“航天机电(1分钟)”“05月18日”**无年**、18.59/18.03图注及g0=18.50正文起点；2007-05-18只是优先探测候选，不能从课文2007-05-24发布时间反推已验明实际日线。股票600151.SH由当年公司公告交叉核代码，QMT/知图Pro的历史一分钟数据目前只有文档渠道、未实际验该日标的覆盖或取得凭证。
+- [结构化来源台账](catalog/chanlun_l54_600151_historical_minute_admission_m56.json)、[离线可选CSV入口](tools/audit_chanlun_l54_2007_minute_candidate_m56.py)、[29条测试](tests/test_chanlun_l54_2007_minute_candidate_m56.py)、[新GitHub Actions](.github/workflows/chanlun-m56-l54-historical-minute-gate.yml)只验证时间、OHLCV、价格区间必要相容及文件SHA，不将CSV hash当供应商认证，也不把图像对齐写成段结束证书。
+- 严格可复算的**两个同OHLCVA反H/L次序**合成逐笔路证明1m聚合非单射，子分钟路径不可直接由1m重建；不称这两条人工路已满足原作者合法走势类型。M54/M55六槽位独立完成仍缺原始子分钟/逐笔+完成事件+首次可知，Phi20/F01/OB38/OB99/A016/A087 OPEN；I82/C46/v4.101、E1–E4 NOT_RUN。
+
 ## 2026-11-15｜M55：L54两个R×三组的完成证书槽位、L18形成/结束类型与整图首知禁门
 
 - [M55完整研究](OtherVoices/speaker-unknown-001/IDEA_M55_L18_L54_CENTER_VS_COMPLETED_MOVEMENT_PROOF_SLOTS.md)将L54作者已经明确认定的两种高级中心分组`R_A:g5`、`R_B:g6`与L18的三下层**已完成**成员及本级走势**可以延伸**区分。六个组槽位保留不同R、原作者符号成员，当前没有任何可独立复验的低层走势完成、退出事件、源交易与市场首次可知证书；状态UNKNOWN不是“作者错了”。

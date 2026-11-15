@@ -1,5 +1,9 @@
 # 通用模块 G-IDEA｜灵感发掘、自由拼接与跨作者研究
 
+## G-IDEA-M56｜见到原图年份和数据源不等于认证，1m价量无法还原1m以下顺序（2026-11-15）
+
+[M56有源研究](../other_views/chanlun/speaker-unknown-001/IDEA_M56_L54_600151_HISTORICAL_DAY_SOURCE_AND_SUBMINUTE_INFORMATION_LOSS.md)复核二次存档第54课PDF图：股票“航天机电(1分钟)”对应600151.SH，图印“05月18日”却**没有年份**；18.59/18.03为图片标注、g0=18.50是作者另述起点。文章2007-05-24发表不等于图必是2007-05-18；选择该日为**候选**，市场原始数据尚未取得。QMT具备1m时间范围查询语法，知图完整历史分钟文档声称多年回溯但具体600151/2007可用性和授权均未证。[冻结证据梯级](../catalog/chanlun_l54_600151_historical_minute_admission_m56.json)与[可选离线CSV校验](../tools/audit_chanlun_l54_2007_minute_candidate_m56.py)区分原图、年份、交易代码、分钟格式、真实性、子分钟完成，所有通过格式的文件仍标未认证。人工P=[18.30,18.50,18.20,18.40]、Q=[18.30,18.20,18.50,18.40]的1m OHLCVA完全相同但H/L先后相反，证明分钟聚合不是对分钟内部路径的单射。新[29条门禁](../tests/test_chanlun_l54_2007_minute_candidate_m56.py)经[新CI](../.github/workflows/chanlun-m56-l54-historical-minute-gate.yml)执行。既有v4.27图证不重计；Phi20/F01/OB38/OB99及A087/A016仍OPEN，不冒称实际行情已下载。
+
 ## G-IDEA-M55｜从中枢形成到完整走势，需要哪一份带原始来源的结束证书？（2026-11-15）
 
 [第18/54课六政策槽位研究](../other_views/chanlun/speaker-unknown-001/IDEA_M55_L18_L54_CENTER_VS_COMPLETED_MOVEMENT_PROOF_SLOTS.md)：L18一方面以三个**完整次级走势**的重叠建立中心，另一方面明确中枢成立后本级盘整或趋势可继续延伸，故“中心存在”**不蕴涵**“包含它的走势此刻完成”。L54源文R_A/R_B的3×3括号只是作者在该图解中认可的高层中心分组；在两个R下分别对三组设**独立完整走势**、底层市场来源、f1/f2/R结束事件、真实first-known字段，现有档案全部UNKNOWN，不能把文本形成阶段g5/g6当市场时间。第54课整图“除了最后一个”的线段假设亦不能直接证明过去前缀的最右段已完成。新增[六组源文本合同](../catalog/chanlun_l18_l54_completed_movement_slots_m55.json)、[审计器](../tools/audit_chanlun_l18_l54_completion_slots_m55.py)与[24条定向测试](../tests/test_chanlun_l18_l54_completion_slots_m55.py)由[独立CI](../.github/workflows/chanlun-m55-completed-movement-slots-gate.yml)验证；L20双中心与L35三已完成走势的Φ20还需另外合格连接、外围及同center ID，旧v4.30/v4.54/M54不重计。
