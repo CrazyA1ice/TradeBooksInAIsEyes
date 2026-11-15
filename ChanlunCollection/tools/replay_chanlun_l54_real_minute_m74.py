@@ -49,17 +49,34 @@ def need(ok, why):
         raise ValueError("M74_REJECTED: " + why)
 
 
+def trusted_hf_download_url(url):
+    """Allow official Hugging Face HTTPS CDN hosts, not unrelated redirects.
+
+    Hugging Face's published download allowlist uses the hf.co and
+    huggingface.co suffixes, including nested CDN and EU Xet hosts.
+    Byte length and the pinned LFS SHA256 remain mandatory *after* download.
+    """
+    parsed = parse.urlparse(url)
+    host = (parsed.hostname or "").lower().rstrip(".")
+    try:
+        port = parsed.port
+    except ValueError:
+        return False
+    allowed_host = (host in ("hf.co", "huggingface.co") or
+                    host.endswith(".hf.co") or host.endswith(".huggingface.co"))
+    return (parsed.scheme == "https" and port in (None, 443) and
+            parsed.username is None and parsed.password is None and allowed_host)
+
+
 def fetch_pinned(opener=None):
     """Only the verified 2007 single-stock annual file; no listing or token."""
     opener = opener or request.urlopen
     req = request.Request(FILE_URL, headers={"User-Agent": "Mozilla/5.0"})
     with opener(req, timeout=60) as resp:
-        final = parse.urlparse(resp.geturl())
-        host = (final.hostname or "").lower()
-        allowed = host in ("huggingface.co", "cdn-lfs.hf.co",
-                           "cas-bridge.xethub.hf.co", "cas-server.xethub.hf.co")
-        allowed = allowed or host.endswith(".xethub.hf.co")
-        need(final.scheme == "https" and allowed, "unexpected source redirect")
+        final_url = resp.geturl()
+        final = parse.urlparse(final_url)
+        need(trusted_hf_download_url(final_url),
+             "unexpected source redirect host=" + (final.hostname or "unknown")[:120])
         need(getattr(resp, "status", 200) == 200, "source HTTP status")
         data = resp.read(FILE_BYTES + 1)
     return data

@@ -165,5 +165,51 @@ class ReplayTests(unittest.TestCase):
         self.assertEqual(m.fetch_pinned(opener=lambda req,timeout:FakeResponse(m.FILE_URL)),b"fake")
 
 
+    def test_documented_hf_cdn_hosts_and_negative_domain_boundaries(self):
+        # Hugging Face's published HTTPS download allowlist includes US/EU
+        # LFS, nested CDN edges, and Xet (not only cas-bridge.xethub.hf.co).
+        good = (
+            "https://huggingface.co/datasets/owner/repo/resolve/main/file",
+            "https://cdn-lfs-us-1.hf.co/obj",
+            "https://cdn-lfs-eu-1.hf.co/obj",
+            "https://us.aws.cdn.hf.co/obj",
+            "https://us.gcp.cdn.hf.co/obj",
+            "https://transfer.xethub-eu.hf.co/obj",
+            "https://cas-server.xethub-eu.hf.co/obj",
+            "https://cas-bridge.xethub.hf.co/obj",
+        )
+        for url in good:
+            with self.subTest(url=url):
+                self.assertTrue(m.trusted_hf_download_url(url))
+        bad = (
+            "http://cdn-lfs-us-1.hf.co/obj",
+            "https://cdn-lfs-us-1.hf.co:444/obj",
+            "https://cdn-lfs-us-1.hf.co.evil.example/obj",
+            "https://evil.example/hf.co/obj",
+            "https://evil-hf.co/obj",
+            "https://user:secret@cdn-lfs-us-1.hf.co/obj",
+            "https://cdn-lfs-us-1.hf.co:invalid/obj",
+        )
+        for url in bad:
+            with self.subTest(url=url):
+                self.assertFalse(m.trusted_hf_download_url(url))
+
+    def test_cdn_response_read_does_not_skip_pinned_hash_or_length(self):
+        class FakeResponse:
+            status=200
+            def __enter__(self): return self
+            def __exit__(self, *_): return False
+            def geturl(self): return "https://cdn-lfs-us-1.hf.co/a"
+            def read(self, n):
+                self.read_cap=n
+                return b"not-the-pinned-object"
+        f=FakeResponse()
+        raw=m.fetch_pinned(opener=lambda req,timeout:f)
+        self.assertEqual(raw,b"not-the-pinned-object")
+        self.assertEqual(f.read_cap,m.FILE_BYTES+1)
+        with self.assertRaisesRegex(ValueError,"size"):
+            m.exact_source(raw)
+
+
 if __name__ == "__main__":
     unittest.main()
