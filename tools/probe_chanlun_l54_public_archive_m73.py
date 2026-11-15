@@ -325,6 +325,7 @@ def main(argv=None):
                 "provider":"HF_PUBLIC_ARCHIVE" if a.mode=="hf-once" else "ZZSHARE",
                 "candidate_date":a.candidate_date,
                 "exception_class":type(err).__name__,
+                "http_status":getattr(err,"code",None) if type(getattr(err,"code",None)) is int else None,
                 "error_detail_redacted":True,
                 "source_2007_unavailable_proven":False,
                 "F01":"OPEN","E1_E4":"NOT_RUN"}
