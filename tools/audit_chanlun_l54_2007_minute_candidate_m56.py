@@ -88,10 +88,15 @@ def audit(doc,chart,m54,m55):
             "phi20_proved":False}
 
 def inspect_candidate_csv(path, date_label, timestamp_convention):
+    """Backward-compatible file entry: do not change the original M56 verdict."""
+    return inspect_candidate_csv_bytes(Path(path).read_bytes(), date_label, timestamp_convention)
+
+
+def inspect_candidate_csv_bytes(binary, date_label, timestamp_convention):
+    """Pure in-memory admission for a QMT local read. NO temporary/raw file writes."""
     require(date_label in ("2007-05-18","2006-05-18"),"only explicit May18 year candidates")
     require(timestamp_convention in ("bar_start","bar_end"),"timestamp convention explicitly required")
-    binary=Path(path).read_bytes()
-    require(len(binary)>0,"empty file")
+    require(isinstance(binary,bytes) and len(binary)>0,"empty file")
     try:
         decoded=binary.decode("utf-8-sig")
     except UnicodeDecodeError:
