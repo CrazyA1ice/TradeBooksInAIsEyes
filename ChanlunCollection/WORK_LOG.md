@@ -1,5 +1,11 @@
 # 《缠论》研究步骤与工作流修订记录
 
+## 2026-11-15｜M66：7月11日八条作者答疑的原宿主定位与预判/严格确认时钟
+
+- [研究报告](OtherVoices/speaker-unknown-001/IDEA_M66_JULY11_AUTHOR_SEGMENT_PREVIEW_VS_CONFIRMATION.md)新增作者2007-07-11在**当日15:41:38市场文章**的回复15:53:14、15:59:25、16:01:45、16:08:23、16:10:26、16:13:53、16:33:32、16:36:27；这与7月2日第64课原文不同载体。问答来源只有后期公开镜像，不宣称历史新浪签名。
+- 最关键15:59:25直接说背驰可用来提前预判段结束但**确认结束需另一段破坏**；历史图上结束端点`e`不是`first_known=c`。16:08:23的“MACD只是辅助、98%”是作者自述不是数据，16:10:26和16:36:27严格区分根层段与上层走势。
+- [来源合同](catalog/chanlun_july11_segment_confirmation_m66.json)附18种纯合成时钟/拒绝输入，[只读校验](tools/audit_chanlun_july11_segment_confirmation_m66.py)直接重跑旧v4.76 F01六拒绝以及M65正例只为文献条件许可，[10项单测](tests/test_chanlun_july11_segment_confirmation_m66.py)接入M56 CI；不采集行情、不下单，不升级F01/OB38/OB99/Φ20/A016/A087或I/C编号，E1–E4 NOT_RUN。
+
 ## 2026-11-15｜M65：补入第五十五课16:28:12作者对盘整离开/返回的有条件允许
 
 - [研究报告](OtherVoices/speaker-unknown-001/IDEA_M65_L55_CONSOLIDATION_DEPARTURE_RETRACE_SCOPE.md)新增2007-05-28 16:28:12作者回答“大盘”关于跳空后第二日线中心及三卖“次级盘整离开＋盘整返回”两问的精确问答署时；作者只说明次级资格与括号组合必须合法，不承认每个图形实例已经发生。
