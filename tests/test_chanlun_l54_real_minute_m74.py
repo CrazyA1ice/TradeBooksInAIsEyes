@@ -1,6 +1,7 @@
 """M74 minute figure replay: synthetic rows only; never make a real-data claim."""
 from __future__ import annotations
 
+import csv
 import hashlib
 import io
 import tempfile
@@ -96,7 +97,17 @@ class ReplayTests(unittest.TestCase):
 
     def test_real_file_pipeline_can_be_exercised_with_synthetic_sha_override(self):
         rows=fake_full_day()
-        raw=m72.encode_rows(rows,m.DAY)
+        # M73 receives the observed *original* Chinese vendor CSV, not the
+        # later M72 canonical adapter CSV (whose "time" header has no date alias).
+        sink=io.StringIO(newline="")
+        writer=csv.writer(sink,lineterminator="\n")
+        writer.writerow(("日期","时间","开盘","最高","最低","收盘","成交量","成交额"))
+        for z in rows:
+            writer.writerow((z["time"].strftime("%Y-%m-%d"),
+                             z["time"].strftime("%H:%M"),
+                             z["open"],z["high"],z["low"],z["close"],
+                             z["volume"],z["amount"]))
+        raw=sink.getvalue().encode("utf-8")
         with mock.patch.object(m,"FILE_BYTES",len(raw)), mock.patch.object(
                 m,"FILE_SHA256",hashlib.sha256(raw).hexdigest()):
             parsed, report=m.from_verified_source(raw)
