@@ -57,5 +57,26 @@
     "A016": "UNKNOWN",
     "A087": "UNKNOWN",
     "E1_E4": "NOT_RUN"
+  },
+  "public_probe_receipts": {
+    "observed_at_utc": "2026-11-15T09:03:09Z",
+    "github_actions_pr": 196,
+    "research_runner": "public GitHub-hosted Ubuntu runner",
+    "hf_dataset_root_http_status": 200,
+    "hf_2007_one_minute_directory_http_status": 200,
+    "hf_2007_one_minute_directory_sample": [
+      "sh600000.csv",
+      "sh600004.csv",
+      "sh600006.csv"
+    ],
+    "hf_large_list_http_status": 401,
+    "hf_fallback_sh600151_direct_download_http_status": 401,
+    "hf_target_stock_file_exists_verified": false,
+    "zzshare_single_day_2007_05_18_returned_rows": 0,
+    "source_result": "PUBLIC_INDEX_ONLY_TARGET_MARKET_ROWS_NOT_ACQUIRED",
+    "false_inferences_prohibited": [
+      "HF 401 means specific file absent",
+      "zzshare 0 means historical provider never held bars"
+    ]
   }
 }
