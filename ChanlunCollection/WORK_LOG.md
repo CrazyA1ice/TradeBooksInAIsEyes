@@ -3,7 +3,7 @@
 ## 2026-11-15｜M73：GitHub分钟项目重新筛选与HF公开历史1分钟目录受控查询
 
 - [调查记录](OtherVoices/speaker-unknown-001/IDEA_M73_L54_GITHUB_HF_ZZSHARE_PUBLIC_2007_1MIN.md)：优先发现HF OxFengyuan/stock_dataset明示2000—2024年A股每股1/5/15/30/60m年度CSV；次选zzshare官方代码显示匿名HTTP 600151.SH指定日1m接口；网盘aitech17/A_history和waizao/StockApiJava两份README有历史分时但网盘目录当前不可检；TDX只保证近期滚动1m，QMT对2007单日已试下载仍0条。
-- 新增[m73公网一次性只读脚本](tools/probe_chanlun_l54_public_archive_m73.py)、[固定来源合同](catalog/chanlun_l54_github_public_minute_2007_m73.json)、[28项Fake时间/价量/单日/文件哈希与来源拒绝单测](tests/test_chanlun_l54_public_archive_m73.py)。只准2007/2006-05-18候选，HF下载至内存最多一个≤30MiB年度CSV或匿名zzshare单日查询，经M56/M69门而不把假想年份写成事实。CI PR仅一次真实公开请求，不保存付费行情、不装SDK、不写Parquet主库。
+- 新增[m73公网一次性只读脚本](tools/probe_chanlun_l54_public_archive_m73.py)、[固定来源合同](catalog/chanlun_l54_github_public_minute_2007_m73.json)、[30项Fake时间/价量/单日/文件哈希与来源拒绝单测](tests/test_chanlun_l54_public_archive_m73.py)。只准2007/2006-05-18候选，HF下载至内存最多一个≤30MiB年度CSV或匿名zzshare单日查询，经M56/M69门而不把假想年份写成事实。CI PR仅一次真实公开请求，不保存付费行情、不装SDK、不写Parquet主库。
 - 网络真实取得的2007目标分钟记录和原图年月均不得在无可复核报告时认证；F01/OB38/OB99/Φ20及A016/A087 OPEN、E1–E4 NOT_RUN。
 
 ## 2026-11-15｜M72：2007分钟历史实证的“外部单股单日来源门”已实现
