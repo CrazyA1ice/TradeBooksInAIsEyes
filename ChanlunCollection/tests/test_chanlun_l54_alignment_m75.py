@@ -86,7 +86,7 @@ class AlignmentTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             location,digest=self.fixture(d)
             location["directory"]=Path(d)/"outside"
-            with self.assertRaisesRegex(ValueError,"inside project work"):
+            with self.assertRaisesRegex(ValueError,"alignment output must remain in project work"):
                 m.verify_inputs(location,expected_pdf_sha=digest)
 
     def test_known_anchors_are_not_auto_assigned_to_author_markers(self):
