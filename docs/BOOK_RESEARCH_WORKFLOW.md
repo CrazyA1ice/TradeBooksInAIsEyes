@@ -1,5 +1,9 @@
 # 交易书籍 AI 阅读工作流：先快览、发现灵感、必须深度讲明白（v4.101.0，2026-11-13）
 
+## M66｜2007-07-11“段被段破坏才确认结束”原宿主与双首知时钟（2026-11-15）
+
+[正式源证研究](../other_views/chanlun/speaker-unknown-001/IDEA_M66_JULY11_AUTHOR_SEGMENT_PREVIEW_VS_CONFIRMATION.md)回到真正宿主**2007-07-11 15:41:38《3850点，残酷的多空无量鏖战》**评论，区别于被后来整理编排为“第64课回复”的页面（第64课正文实际为2007-07-02）；新登记8条有读者问题、作者答复时间的来源。15:59:25作者把背驰提前预判线段结束与后续严格“段被段破坏”确认区别；16:08:23说明MACD是辅助（所称“98%”非样本统计证据）；16:10:26/16:36:27区分根层笔段与上层递归走势，以及“把次级当线段”只为比喻。新增[源证+18条合成前缀时序合同](../catalog/chanlun_july11_segment_confirmation_m66.json)、[只读双时钟审计器](../tools/audit_chanlun_july11_segment_confirmation_m66.py)和[10个Python单元测试](../tests/test_chanlun_july11_segment_confirmation_m66.py)，同轮复用**已有v4.76 F01六条真实代码拒绝门**和M65只读逻辑分类，不把文献段完成提升为F01根层盘整走势完成、第三点或实盘订单。来源历史镜像不等于2007新浪原评论签名；原图年份/真实行情、A016/A087/F01/OB38/OB99/Φ20均OPEN，E1–E4 NOT_RUN，v4.101/I82/C46与原五卷108课100答未改。
+
 ## M65｜L55 16:28:12“盘整离开＋盘整返回”的合法性不能代替完成证据（2026-11-15）
 
 [正式研究](../other_views/chanlun/speaker-unknown-001/IDEA_M65_L55_CONSOLIDATION_DEPARTURE_RETRACE_SCOPE.md)在M64七条评论之外独立新核第55课2007-05-28 **16:28:12**作者对“大盘”两个问题的回复：只要满足次级别定义，关键仍是结合律、括号成员合法；**次级盘整角色不一概排斥**，但回答没有认证任何具体三买三卖。对照同日15:55:28完成条件、16:25:10另证券777未离开原中心的否证，以及第38课2007-03-21 16:29:42“回原中心内部属于震荡”与第20课首次外回试和价格门，新增[来源合同与17条合成拒绝路径](../catalog/chanlun_l55_consolidation_depart_retrace_m65.json)、[离线审计器](../tools/audit_chanlun_l55_consolidation_depart_retrace_m65.py)、[11条Python来源定向单测](../tests/test_chanlun_l55_consolidation_depart_retrace_m65.py)到实际触发的M56 CI。所有正向门只标`SOURCE_CONDITIONAL_CANDIDATE_ONLY`，L20/38触边`UNRESOLVED`，市场F01/OB38/OB99/Φ20、A087/A016继续OPEN，真实E1–E4 NOT_RUN；维持v4.101.0/I82/C46及五卷108课/100答不变。

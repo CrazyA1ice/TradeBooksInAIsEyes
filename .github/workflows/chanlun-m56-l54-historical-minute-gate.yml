@@ -27,3 +27,7 @@ jobs:
         run: |
           python -B tools/audit_chanlun_l55_consolidation_depart_retrace_m65.py
           python -B -m unittest discover -s tests -p "test_chanlun_l55_consolidation_depart_retrace_m65.py" -v
+      - name: M66 2007-07-11 correct host segment preview-vs-confirmation and F01 negative graph audit
+        run: |
+          python -B tools/audit_chanlun_july11_segment_confirmation_m66.py
+          python -B -m unittest discover -s tests -p "test_chanlun_july11_segment_confirmation_m66.py" -v

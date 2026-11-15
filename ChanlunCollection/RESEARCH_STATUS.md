@@ -1,5 +1,9 @@
 # 《缠论》五卷108课｜当前研究状态与未完成关口
 
+## 2026-11-15｜M66：找到2007-07-11八条真正所属评论；线段预判≠严格确认≠根层盘整退出
+
+[M66具时间的作者答疑](OtherVoices/speaker-unknown-001/IDEA_M66_JULY11_AUTHOR_SEGMENT_PREVIEW_VS_CONFIRMATION.md)源宿主为2007-07-11当日市场文章而非7月2日第64课，署时15:59:25明确区分背驰预判段结束和另一段破坏后正式确认；另七条涉及显微镜、级别与幅度、MACD辅助（自称98%并无独立成功率样本）、最低笔段及向上递归。18个虚构前缀/证据拒绝案例与旧F01真实现存六拒绝回归一起运行，只能说明当前软件证据边界；任何`HYPOTHETICAL_SEGMENT_CONFIRMED`均不是完成高一级走势、更不能签`ROOT_PAN_EXIT`或市场三卖。来源Sina字节未认证，2007图真实市场MACD/价格尚未重放，A016/A087/F01/OB38/OB99/Φ20 OPEN，市场E1–E4 NOT_RUN、原I82/C46/v4.101与五卷108课100答保持。
+
 ## 2026-11-15｜M65：盘整离开及盘整回试获来源层条件性许可，不是三卖市场认证
 
 [有时间来源的回答](OtherVoices/speaker-unknown-001/IDEA_M65_L55_CONSOLIDATION_DEPARTURE_RETRACE_SCOPE.md)补证2007-05-28 16:28:12作者在第55课下对两问的统一答复：次级盘整可在满足定义及结合律时用于离开/回试角色。结合M64同日15:55:28、16:25:10与旧第38课2007-03-21 16:29:42的负例，登记`NO_DEPARTURE`、`INTERIOR_RETRACE`、`PRIOR_COMPLETED_EXTERNAL_RETRACE`、`BORDER_TOUCH`、`CHILD_NOT_COMPLETED`的不同状态。新增17个合成拒绝/待证输入及11个单元测试，但**真实行情尚未取得，原图年份仍未验明**。状态`SOURCE_CONDITIONAL_CANDIDATE_ONLY`不升级为`MARKET_CONFIRMED`，F01/OB38/OB99/Φ20及A016/A087 OPEN，E1–E4 NOT_RUN，v4.101/I82/C46不变。
