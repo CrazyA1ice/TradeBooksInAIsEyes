@@ -1,5 +1,11 @@
 # 《缠论》研究步骤与工作流修订记录
 
+## 2026-11-15｜M57：建立原生QMT一股一日读取与TDX现有解析器的证据复用
+
+- [正式研究](OtherVoices/speaker-unknown-001/IDEA_M57_L54_QMT_TDX_LOCAL_HISTORICAL_MINUTE_PROVENANCE.md)核对QMT官方内置C接口与原生XtData签名，并指出subcribe=False仅是C接口的参数，原生XtData无此参数。两者必须禁止fill历史缺口，历史与原图价对照要取不复权；若QMT原生方法返回空只能叫本地未取得，不等于上游服务器没有2007历史。
+- 新[合同](catalog/chanlun_l54_qmt_tdx_local_1m_m57.json)/[只读程序](tools/probe_chanlun_l54_qmt_local_1m_m57.py)/[28模拟测试](tests/test_probe_chanlun_l54_qmt_local_1m_m57.py)/[独立Actions](.github/workflows/chanlun-m57-qmt-local-readonly-gate.yml)在不请求真实行情的CI中验证固定600151.SH 2007-05-18 1m、北京时区、时间唯一排序、异常量价、原生参数，不自动下载。候选TDX路径D:\software\TDX\vipdoc\sh\minline\sh600151.lc1属于推断路径未在用户电脑实际检验，应复用AStockDataTools的原生分钟探测器不重复解码。
+- M56明确图中日期标识无年仍成立；M55六完成证明与Phi20跨级同域还未解决。I82/C46/v4.101、A016/A087/F01/OB38/OB99 OPEN，E1–E4 NOT_RUN。
+
 ## 2026-11-15｜M56：从原第54课图证到可入场的真实历史分钟线，还缺年份与可验证来源
 
 - [完整报告](OtherVoices/speaker-unknown-001/IDEA_M56_L54_600151_HISTORICAL_DAY_SOURCE_AND_SUBMINUTE_INFORMATION_LOSS.md)以旧v4.27已读取的PDF图“航天机电(1分钟)”为入口，明确图上05月18日不含年、作者同页发表日2007-05-24、价位18.59/18.03与g0=18.50三种岗位；按2007-05-18作为**待验证首选**，2007年600151当年正式公司公告确认名称/代码，但不证明具体图日期和市场价。

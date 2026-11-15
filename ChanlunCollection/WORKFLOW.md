@@ -1,5 +1,11 @@
 # ChanlunCollection｜本书实施工作流 v4.101.0
 
+## 2026-11-15｜M57：第54课600151本地QMT单日只读与旧TDX解码器复用
+
+- [M57研究稿](OtherVoices/speaker-unknown-001/IDEA_M57_L54_QMT_TDX_LOCAL_HISTORICAL_MINUTE_PROVENANCE.md)确认XtData原生API不同于内置ContextInfo：原生方法无subscribe参数；固定600151.SH、候选2007-05-18、1m、不复权、fill_data=False，仅读取QMT本地缓存，一次调用不主动订阅、下载、写文件。
+- 已有AStockDataTools的H5ParquetReconciler/tools/probe-tdx-native-readonly.py可探测sh600151.lc1并报告源文件日期范围，但本轮没有打开用户本地TDX，不能宣称该文件存在或含2007行情。[源入场合同](catalog/chanlun_l54_qmt_tdx_local_1m_m57.json)、[本地QMT探针](tools/probe_chanlun_l54_qmt_local_1m_m57.py)、[28个测试](tests/test_probe_chanlun_l54_qmt_local_1m_m57.py)和[专属CI](.github/workflows/chanlun-m57-qmt-local-readonly-gate.yml)只在假QMT帧/默认无数据条件下审计，不能替代用户Windows实测。
+- M55六组走势完整性、Φ20/F01/OB38/OB99/A016/A087未解；I82/C46/v4.101及真实市场E1–E4 NOT_RUN，原100回答和五卷原PDF不变。
+
 ## 2026-11-15｜M56：原图无年五月十八、600151单票单日历史分钟候选与不可逆子分钟数据门
 
 - [M56源码与论证](OtherVoices/speaker-unknown-001/IDEA_M56_L54_600151_HISTORICAL_DAY_SOURCE_AND_SUBMINUTE_INFORMATION_LOSS.md)明确区分作者图证的“航天机电(1分钟)”“05月18日”**无年**、18.59/18.03图注及g0=18.50正文起点；2007-05-18只是优先探测候选，不能从课文2007-05-24发布时间反推已验明实际日线。股票600151.SH由当年公司公告交叉核代码，QMT/知图Pro的历史一分钟数据目前只有文档渠道、未实际验该日标的覆盖或取得凭证。
