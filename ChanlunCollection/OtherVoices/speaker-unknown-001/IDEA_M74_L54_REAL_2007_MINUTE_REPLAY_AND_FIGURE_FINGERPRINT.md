@@ -2,6 +2,11 @@
 
 > 日期：2026-11-15。此文记录用户在自己的 Windows 环境实际执行后的输出，而不是 GitHub CI 采集到的行情。CLI 与离线图形工具的存在不能冒充真实网络试验。作者原图跨来源对照来自原图复核报告（deliverables/chanlun_108_acceptance/00_REVIEW/LESSON54_SOURCE_FIGURE_AND_STRUCTURAL_VS_DECISION_AGREEMENT.md），M73.1 时间字段修复已合并主分支 PR #197。
 
+## M74.1 本机真实SVG受HF CDN旧名单误拒及修复（2026-11-15）
+
+用户在独立M74工作区`test_chanlun_l54_real_minute_m74.py`11/11通过后，执行`--mode openfinmind-once --window afternoon --svg-output ...`，在`fetch_pinned()`阶段得到`M74_REJECTED: unexpected source redirect`，**没有生成本地SVG**。这是M74内部白名单硬编码过窄的错误；HF[官方数据下载文档](https://huggingface.co/docs/hub/datasets-downloading)明确列出US/EU LFS、跨层CDN及EU Xet，与旧仅列`cdn-lfs.hf.co`和`*.xethub.hf.co`不完全一致。修正为验证HTTPS/443/无URL凭据及官方`hf.co`、`huggingface.co`主域及子域，保留原大小+LFS SHA256+M56/M69完整验证与写盘边界，补离线测试。此修复尚不等于已经重新成功生成SVG，g/d标签仍全未认证；若重试又遇不同主机名，错误仅打印主机，不暴露签名URL。
+
+
 ## 1. 已经取得的真实候选文件证据
 
 - 来源为 Hugging Face 的 OpenFinMind/stock_dataset；不是 OxFengyuan/stock_dataset 访问失败的请求。
