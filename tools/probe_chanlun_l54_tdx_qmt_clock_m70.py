@@ -212,7 +212,8 @@ def main(argv=None):
             "chart_year_authenticated":False,"market_experiments":"NOT_RUN",
             "raw_data_exported":False}
     keys=None
-    if args.tdx_file.is_file() and not args.tdx_file.is_symlink():
+    need(not args.tdx_file.is_symlink(),"symlink TDX input refused")
+    if args.tdx_file.is_file():
         report["tdx"],keys=scan_tdx(args.tdx_file)
     else:
         report["tdx"]={"status":"TDX_LOCAL_FILE_MISSING_NOT_PROVIDER_ABSENCE",
